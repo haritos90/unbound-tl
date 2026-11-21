@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1FB1D48\n"
+"X-Source: key-only\n"
+
+# source: Use Жукоцвет for Bug Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Жукоцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Насекомит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Жукоцвет; relation: selected_form; verification: recorded; related notes: note:2715a6cc-c528-5274-b912-b81d56877edd
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x1f14a62
+msgctxt "hash:77ffa54a"
+msgid "hash:77ffa54a"
+msgstr "Жукоцвет"
+
+# source: Use Темноцвет for Dark Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Темноцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Темнин and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Темноцвет; relation: selected_form; verification: recorded; related notes: note:20876a9c-75e1-5aab-bb16-0b19689574f0
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 46
+#: 0x1f14a6a
+msgctxt "hash:252dd4f2"
+msgid "hash:252dd4f2"
+msgstr "Темноцвет"
+
+# source: Use Дракоцвет for Dragon Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Дракоцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Драконит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Дракоцвет; relation: selected_form; verification: recorded; related notes: note:d0e39111-3d12-54c8-a2fc-e90d435d06fd
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1f14a73
+msgctxt "hash:e219179f"
+msgid "hash:e219179f"
+msgstr "Дракоцвет"
+
+# source: Use Электроцвет for Electric Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Электроцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Электрит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Электроцвет; relation: selected_form; verification: recorded; related notes: note:9849c005-709a-5d41-8532-909720224eea
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x1f14a7e
+msgctxt "hash:c444dee2"
+msgid "hash:c444dee2"
+msgstr "Электроцвет"
+
+# source: Use Волшебноцвет for Fairy Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Волшебноцвет is a -цвет family name (own), not an official Russian title.
+# source: Волшебнит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: project; name: Project rendering; address: own; quoted term: Волшебноцвет; relation: selected_form; verification: recorded; related notes: note:d99f3285-e795-5515-be48-a8dc4f4a1979
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f14a8b
+msgctxt "hash:83380d21"
+msgid "hash:83380d21"
+msgstr "Волшебноцвет"
+
+# source: Use Боецвет for Fighting Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Боецвет is a -цвет family name (pjb), not an official Russian title.
+# source: Боевин and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Боецвет; relation: selected_form; verification: recorded; related notes: note:062d21d6-4d17-5204-971f-b1a3d44d8dc9
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x1f14a95
+msgctxt "hash:f78c731c"
+msgid "hash:f78c731c"
+msgstr "Боецвет"
+
+# source: Use Огнецвет for Fire Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Огнецвет is a -цвет family name (pjb), not an official Russian title.
+# source: Огонит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Огнецвет; relation: selected_form; verification: recorded; related notes: note:e49a7050-96ac-54b7-806a-414dd2d1c065
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f14aa2
+msgctxt "hash:d6a6ecbb"
+msgid "hash:d6a6ecbb"
+msgstr "Огнецвет"
+
+# source: Use Лётоцвет for Flying Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Лётоцвет is a -цвет family name (own), not an official Russian title.
+# source: Летанит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: project; name: Project rendering; address: own; quoted term: Лётоцвет; relation: selected_form; verification: recorded; related notes: note:259e5833-8095-522a-93dc-46872b7d945a
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f14aab
+msgctxt "hash:d20ac680"
+msgid "hash:d20ac680"
+msgstr "Лётоцвет"
+
+# source: Use Духоцвет for Ghost Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Духоцвет is a -цвет family name (own), not an official Russian title.
+# source: Призракит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: project; name: Project rendering; address: own; quoted term: Духоцвет; relation: selected_form; verification: recorded; related notes: note:fcd61265-9073-5d80-af0f-f5d814c74f40
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1f14ab6
+msgctxt "hash:f338d45f"
+msgid "hash:f338d45f"
+msgstr "Духоцвет"
+
+# source: Use Травоцвет for Grass Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Травоцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Травянит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Травоцвет; relation: selected_form; verification: recorded; related notes: note:640cebe8-35a9-5462-b56b-7949368dbac1
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f14ac0
+msgctxt "hash:11397f53"
+msgid "hash:11397f53"
+msgstr "Травоцвет"
+
+# source: Use Землецвет for Ground Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Землецвет is a -цвет family name (pjb), not an official Russian title.
+# source: Землянит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Землецвет; relation: selected_form; verification: recorded; related notes: note:0aba1944-d98a-5299-a764-64a3bf5d9510
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1f14aca
+msgctxt "hash:dbbc9009"
+msgid "hash:dbbc9009"
+msgstr "Землецвет"
+
+# source: Use Ледоцвет for Ice Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Ледоцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Ледянит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Ледоцвет; relation: selected_form; verification: recorded; related notes: note:1e065619-e02b-5a0b-bc6f-78e75302a65c
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x1f14ad5
+msgctxt "hash:26077335"
+msgid "hash:26077335"
+msgstr "Ледоцвет"
+
+# source: Use Нормоцвет for Normal Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Нормоцвет is a -цвет family name (own), not an official Russian title.
+# source: Нормалцвет and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: project; name: Project rendering; address: own; quoted term: Нормоцвет; relation: selected_form; verification: recorded; related notes: note:04d2b770-05ac-5b86-b3d4-8374bf89e83d
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1f14add
+msgctxt "hash:f341ccbf"
+msgid "hash:f341ccbf"
+msgstr "Нормоцвет"
+
+# source: Use Ядоцвет for Poison Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Ядоцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Ядовин and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Ядоцвет; relation: selected_form; verification: recorded; related notes: note:282ce203-dad2-545c-b99f-a225d01071d6
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f14ae8
+msgctxt "hash:f5abc8ea"
+msgid "hash:f5abc8ea"
+msgstr "Ядоцвет"
+
+# source: Use Психоцвет for Psychic Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Психоцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Психонит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Психоцвет; relation: selected_form; verification: recorded; related notes: note:ffd08025-1d93-5519-b5b9-e3ddeb71cb73
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1f14af3
+msgctxt "hash:f4e52b76"
+msgid "hash:f4e52b76"
+msgstr "Психоцвет"
+
+# source: Use Камнецвет for Rock Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Камнецвет is a -цвет family name (pjb), not an official Russian title.
+# source: Каменит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Камнецвет; relation: selected_form; verification: recorded; related notes: note:6f034968-b996-55a5-a55c-07b795625ad4
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 47
+#: 0x1f14aff
+msgctxt "hash:4235adc0"
+msgid "hash:4235adc0"
+msgstr "Камнецвет"
+
+# source: Use Сталецвет for Steel Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Сталецвет is a -цвет family name (pjb), not an official Russian title.
+# source: Сталенит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Сталецвет; relation: selected_form; verification: recorded; related notes: note:9e44d429-8a3c-5d88-b6c2-765920d79dc7
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1f14b08
+msgctxt "hash:85ee4235"
+msgid "hash:85ee4235"
+msgstr "Сталецвет"
+
+# source: Use Водоцвет for Water Gem.
+# source: Use one -цвет ending across the Gem family.
+# source: Водоцвет is a -цвет family name (pjb), not an official Russian title.
+# source: Водянит and the other variants are in the glossary.
+# source: status: unreviewed; sources: kind: web; name: Pokémon Black Russian fan translation by Pojirianets; address: pjb; quoted term: Водоцвет; relation: selected_form; verification: recorded; related notes: note:594f57f2-5134-5070-9351-e1b003e05770
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1f14b12
+msgctxt "hash:c16d2997"
+msgid "hash:c16d2997"
+msgstr "Водоцвет"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1f6deb2
+msgctxt "hash:a37a7403"
+msgid "hash:a37a7403"
+msgstr "Плита дракона"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1f6debe
+msgctxt "hash:5cbd9476"
+msgid "hash:5cbd9476"
+msgstr "Плита ужаса"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x1f6deca
+msgctxt "hash:4eb8e94f"
+msgid "hash:4eb8e94f"
+msgstr "Плита земли"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x1f6ded6
+msgctxt "hash:43499730"
+msgid "hash:43499730"
+msgstr "Плита кулака"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1f6dee1
+msgctxt "hash:354cda0b"
+msgid "hash:354cda0b"
+msgstr "Плита огня"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x1f6deed
+msgctxt "hash:cafdfd2d"
+msgid "hash:cafdfd2d"
+msgstr "Плита льда"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x1f6defa
+msgctxt "hash:96cb24fd"
+msgid "hash:96cb24fd"
+msgstr "Плита жука"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f6df07
+msgctxt "hash:f3022b82"
+msgid "hash:f3022b82"
+msgstr "Плита стали"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 70
+#: 0x1f6df12
+msgctxt "hash:55c6f5bc"
+msgid "hash:55c6f5bc"
+msgstr "Плита луга"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 55
+#: 0x1f6df1f
+msgctxt "hash:99e0552e"
+msgid "hash:99e0552e"
+msgstr "Плита разума"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x1f6df2a
+msgctxt "hash:4a1a6267"
+msgid "hash:4a1a6267"
+msgstr "Плита пикси"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f6df36
+msgctxt "hash:a88781d6"
+msgid "hash:a88781d6"
+msgstr "Плита неба"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x1f6df40
+msgctxt "hash:841898d9"
+msgid "hash:841898d9"
+msgstr "Плита брызг"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x1f6df4d
+msgctxt "hash:fd0d4ccd"
+msgid "hash:fd0d4ccd"
+msgstr "Плита страха"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x1f6df5a
+msgctxt "hash:b2f9e97b"
+msgid "hash:b2f9e97b"
+msgstr "Плита камня"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x1f6df66
+msgctxt "hash:f4cef233"
+msgid "hash:f4cef233"
+msgstr "Плита токсина"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1f6df72
+msgctxt "hash:167db68c"
+msgid "hash:167db68c"
+msgstr "Плита молнии"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f941ae
+msgctxt "hash:7aa07b4c"
+msgid "hash:7aa07b4c"
+msgstr "Своя команда"

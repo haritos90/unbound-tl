@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-087BEB8\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 168
+#: 0x0eb30f3
+msgctxt "table:items/539/description"
+msgid "table:items/539/description"
+msgstr "Ослабляет один суперэффективный удар типа Огонь."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 175
+#: 0x0eb3135
+msgctxt "table:items/540/description"
+msgid "table:items/540/description"
+msgstr "Ослабляет один суперэффективный удар типа Вода."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 190
+#: 0x0eb3178
+msgctxt "table:items/541/description"
+msgid "table:items/541/description"
+msgstr "Ослабляет один суперэффективный удар типа Электро."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 174
+#: 0x0eb31be
+msgctxt "table:items/542/description"
+msgid "table:items/542/description"
+msgstr "Ослабляет один суперэффективный удар типа Трава."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 165
+#: 0x0eb3201
+msgctxt "table:items/543/description"
+msgid "table:items/543/description"
+msgstr "Ослабляет один суперэффективный удар типа Лёд."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 189
+#: 0x0eb3242
+msgctxt "table:items/544/description"
+msgid "table:items/544/description"
+msgstr "Ослабляет один суперэффективный удар типа Боевой."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 179
+#: 0x0eb3288
+msgctxt "table:items/545/description"
+msgid "table:items/545/description"
+msgstr "Ослабляет один суперэффективный удар типа Яд."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 181
+#: 0x0eb32cc
+msgctxt "table:items/546/description"
+msgid "table:items/546/description"
+msgstr "Ослабляет один суперэффективный удар типа Земля."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 179
+#: 0x0eb3310
+msgctxt "table:items/547/description"
+msgid "table:items/547/description"
+msgstr "Ослабляет один суперэффективный удар типа Летающий."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 186
+#: 0x0eb3354
+msgctxt "table:items/548/description"
+msgid "table:items/548/description"
+msgstr "Ослабляет один суперэффективный удар типа Психо."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 165
+#: 0x0eb3399
+msgctxt "table:items/549/description"
+msgid "table:items/549/description"
+msgstr "Ослабляет один суперэффективный удар типа Насекомое."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 170
+#: 0x0eb33da
+msgctxt "table:items/550/description"
+msgid "table:items/550/description"
+msgstr "Ослабляет один суперэффективный удар типа Камень."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 175
+#: 0x0eb341c
+msgctxt "table:items/551/description"
+msgid "table:items/551/description"
+msgstr "Ослабляет один суперэффективный удар типа Привидение."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 181
+#: 0x0eb345f
+msgctxt "table:items/552/description"
+msgid "table:items/552/description"
+msgstr "Ослабляет один суперэффективный удар типа Дракон."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 169
+#: 0x0eb34a3
+msgctxt "table:items/553/description"
+msgid "table:items/553/description"
+msgstr "Ослабляет один суперэффективный удар типа Тёмный."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 175
+#: 0x0eb34e5
+msgctxt "table:items/554/description"
+msgid "table:items/554/description"
+msgstr "Ослабляет один суперэффективный удар типа Сталь."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 92
+#: 0x0eb3528
+msgctxt "table:items/555/description"
+msgid "table:items/555/description"
+msgstr "Если покемон держит её, ослабляет один удар типа Обычный."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 169
+#: 0x0eb355c
+msgctxt "table:items/556/description"
+msgid "table:items/556/description"
+msgstr "Если покемон держит её, в беде один раз повышает его Точность."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 176
+#: 0x0eb359e
+msgctxt "table:items/557/description"
+msgid "table:items/557/description"
+msgstr "Если покемон держит её, в беде он один раз действует первым."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 200
+#: 0x0eb35e0
+msgctxt "table:items/558/description"
+msgid "table:items/558/description"
+msgstr ""
+"Если покемон держит её и получает физический удар, ранит ударившего."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 194
+#: 0x0eb3623
+msgctxt "table:items/559/description"
+msgid "table:items/559/description"
+msgstr "Если покемон держит её и получает особый удар, ранит ударившего."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 174
+#: 0x0eb3665
+msgctxt "table:items/560/description"
+msgid "table:items/560/description"
+msgstr "Ослабляет один суперэффективный удар типа Фея."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 202, 183
+#: 0x0eb36a8
+msgctxt "table:items/561/description"
+msgid "table:items/561/description"
+msgstr "Если покемон держит её, физический удар повышает Защиту."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 196, 184
+#: 0x0eb36f0
+msgctxt "table:items/562/description"
+msgid "table:items/562/description"
+msgstr "Если покемон держит её, особый удар повышает Особую защиту."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 170, 130
+#: 0x0eb3dc5
+msgctxt "table:items/563/description"
+msgid "table:items/563/description"
+msgstr ""
+"Предмет, который держит покемон. Удар типа Вода один раз повышает его "
+"Особую атаку."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 186, 192
+#: 0x0eb3e1e
+msgctxt "table:items/564/description"
+msgid "table:items/564/description"
+msgstr ""
+"Предмет, который держит покемон. Покемон парит до первого удара. От удара "
+"предмет лопается."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 179, 62
+#: 0x0eb3e87
+msgctxt "table:items/565/description"
+msgid "table:items/565/description"
+msgstr ""
+"Предмет, который держит покемон. Повышает Скорость покемона, если его "
+"устрашают."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 195, 180, 186
+#: 0x0eb3ed6
+msgctxt "table:items/566/description"
+msgid "table:items/566/description"
+msgstr ""
+"Предмет, который держит покемон. Этот пояс усиливает удерживающие приёмы "
+"покемона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 169, 145
+#: 0x0eb3f3c
+msgctxt "table:items/567/description"
+msgid "table:items/567/description"
+msgstr ""
+"Предмет, который держит покемон. Удар типа Электро один раз повышает его "
+"Атаку."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 189, 187
+#: 0x0eb3f98
+msgctxt "table:items/568/description"
+msgid "table:items/568/description"
+msgstr ""
+"Предмет, который держит покемон. Если покемон получает удар, он уступает "
+"место союзнику."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 184, 171
+#: 0x0eb3fff
+msgctxt "table:items/569/description"
+msgid "table:items/569/description"
+msgstr ""
+"Предмет, который держит покемон. Этот очень лёгкий камень снижает вес "
+"покемона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 165, 165
+#: 0x0eb4061
+msgctxt "table:items/570/description"
+msgid "table:items/570/description"
+msgstr ""
+"Предмет, который держит покемон. При полных ОЖ нокаутирующий удар "
+"оставляет покемону 1 ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 183, 169
+#: 0x0eb40bf
+msgctxt "table:items/571/description"
+msgid "table:items/571/description"
+msgstr ""
+"Предмет, который держит покемон. Продлевает многоходовые приёмы, такие "
+"как Связывание или Обхват."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 195, 202
+#: 0x0eb4122
+msgctxt "table:items/572/description"
+msgid "table:items/572/description"
+msgstr ""
+"Предмет, который держит покемон. Понижает Скорость. Приёмы типа Земля "
+"бьют и летающих, и парящих."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 192, 193
+#: 0x0eb4189
+msgctxt "table:items/573/description"
+msgid "table:items/573/description"
+msgstr ""
+"Предмет, который держит покемон. Он очень тяжёлый, и покемон действует "
+"медленнее обычного."

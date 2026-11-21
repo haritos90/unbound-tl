@@ -1,0 +1,311 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:00e199c5-1926-518e-933a-a49937805789"
+subject = { kind = "research", id = "research:36a4f195d6b745faa51114bd946eb774" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Drop the complement in the short form."]
+facts = ["{PK}{MN} is the two-glyph \"Pokémon\" ligature.", "Russian needs no ligature and uses «покемонов» in the genitive plural.", "The class noun is masculine and is used for women too, with no separate feminine form."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "покемонов", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", relation = "context", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:155d3252-07ee-5fdd-97f1-8ba1bc487584"
+subject = { kind = "research", id = "research:65757db90b1f40ba86c123785915afdb" }
+scope = { kind = "language", language = "ru" }
+facts = ["The selected «Интервьюер» is the singular of PokéRogue «Интервьюеры» (Interviewers).", "Related forms are HG «Репортёр» (Reporter) and TCG «Телерепортёр» (TV Reporter).", "The class noun is masculine and is used for women too."]
+sources = [{ kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Интервьюеры", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Репортёр", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Телерепортёр", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c0c7902d-b0f9-5e21-86ed-4807ae1230a6"
+subject = { kind = "research", id = "research:a3ec462356fa4d818ed66cc14955c42d" }
+scope = { kind = "language", language = "ru" }
+facts = ["HG spells the name «Поке Ребёнок».", "The selected form is hyphenated like TCG «Поке-Безумец».", "The noun is masculine, and «ребёнок» is used for both genders."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Поке Ребёнок", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Поке-Безумец", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8e55b720-2165-5ea5-827e-6a5cc9b4f5f5"
+subject = { kind = "research", id = "research:06fa3160d7244713bac89a10119f8681" }
+scope = { kind = "language", language = "ru" }
+facts = ["The short form «Богатей» is attested by pojirianets-hg and by PokéRogue Rich.", "The class noun is masculine, and its female counterpart is the class Rich Girl.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Богатей", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Богатей", relation = "alternative", verification = "recorded", locator = "Rich" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9d2f974d-045c-56a5-8b7b-1d2a5779ed4e"
+subject = { kind = "research", id = "research:6d4dafa42db84284a802bc801bf46fd0" }
+scope = { kind = "language", language = "ru" }
+facts = ["Camping Duo is an Unbound-only pair class combining Camper + Picnicker.", "The name follows the patterns of PokéRogue «Топ-дуэт» (Ace Duo) and «Кэмпер» (Camper).", "The class noun is masculine."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Кэмп-дуэт", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Топ-дуэт", relation = "context", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Кэмпер", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:7c60cbe9-e1e4-5309-833c-49d8a12a24d3"
+subject = { kind = "research", id = "research:a54338f28b174f4897c5c5224d137a80" }
+scope = { kind = "language", language = "ru" }
+facts = ["Kindler is a Gen III fire-breathing class.", "«Огнедув» is the HG fan rendering of the similar class Firebreather.", "PokéRogue renders Firebreather as «Огнедышащий».", "The class noun is masculine."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Огнедув", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Огнедув", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Огнедышащий", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2f0ded61-21a2-5315-880d-be6536f3863b"
+subject = { kind = "research", id = "research:33cb40ea8feb42b793e698a839a4ca09" }
+scope = { kind = "language", language = "ru" }
+facts = ["Shocker is an Unbound-only Electric-type class whose battle text says \"Shocker!\".", "The class noun is masculine."]
+reason = ["«Электрик» (electrician) keeps the electric theme, whereas «Шокер» would read as the stun-gun device."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Электрик", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", quoted_term = "Shocker!", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:dac1d6a2-8bc8-504c-a00d-66b8ed38b7b1"
+subject = { kind = "research", id = "research:5fd648874f75448aaa02fdbcead23566" }
+scope = { kind = "language", language = "ru" }
+facts = ["Bug Maniac is a Gen III class.", "Comparable TCG names are «Поке-Безумец» (Poké Maniac) and «Жуколов» (Bug Catcher).", "The class noun is masculine."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Фанат жуков", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Поке-Безумец", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Жуколов", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:871996a9-1cae-5ba7-9052-21c197667449"
+subject = { kind = "research", id = "research:384a4c8b35034a6b981008bb498bc0f7" }
+scope = { kind = "language", language = "ru" }
+facts = ["Officer is a police officer.", "«Офицер» (PokéRogue) can read as a military rank.", "HG «Полицейский» is the unambiguous alternative.", "The class noun is masculine and is used for women too."]
+sources = [{ kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Офицер", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Полицейский", relation = "alternative", verification = "recorded" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "HG alternative length", value = 11, unit = "characters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:35403e82-31f1-5ce4-9f74-3c7b6509704c"
+subject = { kind = "research", id = "research:1be0dce75ef64c0ca93726bd28e6bbd8" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the selected whole-word Bird Keeper title «Птицевод».", "Keep both source casing variants synchronized."]
+facts = ["The title is a project proposal emphasizing keeping and breeding birds, not an attested official Russian class name.", "All checked ordinary and Tower records are male."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Птицевод", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:edb30569-71ee-51fd-967f-5c311b52449f"
+subject = { kind = "research", id = "research:6d596aa15b3e42408db97241b6538199" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Drop «мальчик» in the short form."]
+facts = ["The class noun is masculine.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Мальчик-ниндзя", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d21d7dac-0bab-5e19-a2ef-cb044d285043"
+subject = { kind = "research", id = "research:bec0445e42c84f77a3bdd16091850db7" }
+scope = { kind = "language", language = "ru" }
+facts = ["Mega Trainer is Unbound-only and denotes a Mega Evolution user.", "The name is hyphenated like PokéRogue «Мега-пушка» and «Топ-тренер».", "The class noun is masculine."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Мега-тренер", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Мега-пушка", relation = "context", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Топ-тренер", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4d608294-d8cf-5c26-8b8d-493ef047f04c"
+subject = { kind = "research", id = "research:071d18d6f8d848e8bad806af243adc18" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label is a truncated form of \"Black Horizon\", an Unbound gang (\"Black Horizon Goon/Boss\").", "The organization name is used as a class label.", "The class noun is masculine.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Чёрный горизонт", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", quoted_term = "Black Horizon Goon/Boss", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:0c9b0d15-d844-5fa2-802e-e02b3a849978"
+subject = { kind = "research", id = "research:b2b21124b540428fb607121a57a88d00" }
+scope = { kind = "language", language = "ru" }
+facts = ["PICNICKER is an uppercase duplicate of Picnicker.", "The class is used for female trainers.", "The feminine «любительница пикников» is not attested.", "The short form is the attested HG calque."]
+sources = [{ kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Любитель пикников", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Пикникер", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4213f1d5-e45e-5dbc-9335-ac749febcba7"
+subject = { kind = "research", id = "research:bd86393f052e4cc49096cd6416434194" }
+scope = { kind = "language", language = "ru" }
+facts = ["Black Emboar is an Unbound gang name whose species part is in Russian.", "The game line reads \"We're the Black Emboar!\".", "The variant «Чёрный Emboar» keeps species names in English and translates only \"Black\".", "Another alternative keeps the whole name in English.", "The class noun is masculine."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Чёрный Эмбор", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", quoted_term = "We're the Black Emboar!", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:68cf25af-ef07-5e10-871c-f6b6379fd07c"
+subject = { kind = "research", id = "research:3c3910a1ec7b4fc3b6c0661c92c827d9" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the curator-title family.", "Retain the faction in full prose titles.", "Omit the faction in whole-word battle labels.", "Use the same rank for story-dependent titles."]
+facts = ["The professional title is masculine, Ivory remains female and Marlon remains male."]
+reason = ["Omitting the faction lets the whole-word battle labels fit the shared inline class field and partner path."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Куратор Теней", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5bef795d-4c4b-5952-9766-3bcff7979923"
+subject = { kind = "research", id = "research:5dc81f88b4ec4d58b2d5138576f55617" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the curator-title family.", "Retain the faction in full prose titles.", "Omit the faction in whole-word battle labels.", "Use the same rank for story-dependent titles."]
+facts = ["The professional title is masculine, Ivory remains female and Marlon remains male."]
+reason = ["Omitting the faction lets the whole-word battle labels fit the shared inline class field and partner path."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Экс-куратор Теней", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4eab49f2-9fa5-574f-8340-8a9136acf70e"
+subject = { kind = "research", id = "research:a478c0be21d94690943f45b0c143d644" }
+scope = { kind = "language", language = "ru" }
+facts = ["HIKER is an uppercase duplicate of Hiker.", "HG uses «Путешественник» for Hiker and «Турист» for Camper.", "The class noun is masculine, with feminine «туристка»."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Путешественник", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Турист", relation = "context", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Турист", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:83d89dba-545d-5130-ab52-86a64b8af373"
+subject = { kind = "research", id = "research:fd45d81bd6eb433f9b52254856f547e9" }
+scope = { kind = "language", language = "ru" }
+facts = ["Gambler is a \"Gen I-III\" class.", "Plain «Игрок» is reserved for the class Player.", "The class noun is masculine.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Азартный игрок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d2909c0b-d8d7-5704-95c0-0cb139ab0bb5"
+subject = { kind = "research", id = "research:6fc0e23029db4e92a1f988cef7a52b32" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the selected whole-word Bird Keeper title «Птицевод».", "Keep both source casing variants synchronized."]
+facts = ["The title is a project proposal emphasizing keeping and breeding birds, not an attested official Russian class name.", "All checked ordinary and Tower records are male."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Птицевод", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:f1a8dd6a-7f8d-5256-bd8e-b69164b10dc1"
+subject = { kind = "research", id = "research:9344dd58044d4517b48bb4bfbccb7d0f" }
+scope = { kind = "language", language = "ru" }
+facts = ["Boss is a team leader class.", "HG has «Босс Команды Ракета» for Rocket Boss.", "The class noun is masculine and is used for women too."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Босс Команды Ракета", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c4ae3ad6-b297-5eba-ba54-26c8e27d49ae"
+subject = { kind = "research", id = "research:7443db4d8b2841a494d0017e01edbdc8" }
+scope = { kind = "language", language = "ru" }
+facts = ["Shadow is a grunt of the team \"The Shadows\" («Тени»).", "The name follows the pattern of PokéRogue «Агент Команды Ракет» (Rocket Grunt).", "The class noun is masculine, with feminine «агентка» following the PokéRogue pattern."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Агент Теней", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Агент Команды Ракет", relation = "context", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "агентка", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:39a490e6-0459-5a23-8293-f822e571bfa2"
+subject = { kind = "research", id = "research:9f465cf82f5b4c69af36a90eabfefa8e" }
+scope = { kind = "language", language = "ru" }
+facts = ["Elite Four is a group name used as the class of its members.", "HG uses «Член Элитной Четвёрки».", "The official SM / BDSP sites use «Элитная Четвёрка».", "The class noun is feminine.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Член Элитной Четвёрки", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Элитная Четвёрка", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Brilliant Diamond / Shining Pearl website", address = "bdsp-site-ru", quoted_term = "Элитная Четвёрка", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:16f4924b-b82e-5ec9-93fc-e094f230724a"
+subject = { kind = "research", id = "research:81c4bce3b6e74b80a8a660ff91dbc097" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the name attested in the HeartGold fan translation, with project capitalization."]
+facts = ["The official TCG wording remains a documented variant.", "The animate masculine profession noun is shared by male and female class records, while dialogue retains speaker gender."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Заводчик покемонов", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Бридер покемонов", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b7c0ab56-a884-5d81-98be-73fed349cb9a"
+subject = { kind = "research", id = "research:e0af5402b36c4e0fb4ebaa24e7d46ba1" }
+scope = { kind = "language", language = "ru" }
+facts = ["{PK}{MN} is the \"Pokémon\" ligature.", "The short form «Рейнджер» is the HG rendering.", "The class noun is masculine, and PokéRogue has feminine «поке-лесничая»."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Рейнджер", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "поке-лесничая", relation = "context", verification = "recorded" }, { kind = "web", name = "Bulbapedia", address = "bulbapedia", quoted_term = "Рейнджер покемонов", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:38730607-f119-570c-a358-281b742097d8"
+subject = { kind = "research", id = "research:84b6b00fc4df4de39d00ec20f41882f4" }
+scope = { kind = "language", language = "ru" }
+facts = ["«Фанат руин» parallels «Фанат жуков» (Bug Maniac).", "The HG rendering «Археолог» is a declined variant.", "The class noun is masculine."]
+sources = [{ kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Фанат руин", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Археолог", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:451d956e-f24a-5a12-b5d4-36ad316835a2"
+subject = { kind = "research", id = "research:bcbe0283a1c74f748344f3ac4da26cfb" }
+scope = { kind = "language", language = "ru" }
+facts = ["All five Painter trainers in Unbound are male according to the trainer table, and the masculine form is selected by the characters research.", "FRLG Painter is a female class.", "PokéRogue female Artist is «Художница», and HG Artist is «Художник».", "The feminine FRLG description gives masculine «художник» as a counterpart."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainer table", relation = "context", verification = "recorded" }, { kind = "project", name = "Characters research", address = "translation/ru/research/characters.tsv", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Художница", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Художник", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "male Unbound Painter trainers", value = 5, unit = "count" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c35c665f-b400-5b37-982b-d501bc3852a6"
+subject = { kind = "research", id = "research:569fd2d449a946688715f12904c4eb6d" }
+scope = { kind = "language", language = "ru" }
+facts = ["Sinnoh Leader is a Gym Leader from Sinnoh.", "The name is a pointer string, not part of the fixed 12-byte table.", "The region name «Синно» is attested by the BDSP site and fandom-ru.", "The class noun is masculine.", "The name has no index because it is not in the fixed 12-byte class table."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Brilliant Diamond / Shining Pearl website", address = "bdsp-site-ru", quoted_term = "Синно", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom-ru", quoted_term = "Синно", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "Лидер Синно", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c56a84d7-e376-5c3b-995b-d136aa05be49"
+subject = { kind = "research", id = "research:b217455b4fb8448abbfe133eede2f239" }
+scope = { kind = "language", language = "ru" }
+facts = ["Light of Ruin is an Unbound villain team.", "The name is a pointer string.", "\"Ruin\" means destruction.", "The class noun is masculine.", "The name has no index because it is not in the fixed 12-byte class table."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Свет гибели", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:add0a2f3-34e7-56bc-8c65-cdc3e81d8656"
+subject = { kind = "research", id = "research:417936a83c5d47d58eeca791edb2bcf9" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the curator-title family.", "Retain the faction in full prose titles.", "Omit the faction in whole-word battle labels.", "Use the same rank for story-dependent titles."]
+facts = ["The professional title is masculine, Ivory remains female and Marlon remains male."]
+reason = ["Omitting the faction lets the whole-word battle labels fit the shared inline class field and partner path."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Куратор Света гибели", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6fa99912-01f5-5d2b-bdf3-8bcf7a430b7d"
+subject = { kind = "research", id = "research:9d340daa083746819c30fe83fd3c24e1" }
+scope = { kind = "language", language = "ru" }
+facts = ["The pointer string may be relocated if longer text is needed.", "The class noun is masculine.", "The name has no index because it is not in the fixed 12-byte class table.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Лидер Света гибели", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5a9bbe4b-98c5-59cf-9fa2-296db5edad9c"
+subject = { kind = "research", id = "research:7717d0d5874845b6a6b2610894dffebd" }
+scope = { kind = "language", language = "ru" }
+facts = ["Frontier Brain is a Battle Frontier facility leader.", "Battle Frontier is «Боевой Рубеж», supported by pojirianets-hg file names and the fandom-ru category «Покемон: Боевой Рубеж».", "The name is a pointer string.", "The class noun is masculine.", "The name has no index because it is not in the fixed 12-byte class table."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Боевой Рубеж", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom-ru", quoted_term = "Покемон: Боевой Рубеж", relation = "context", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "Мозг Рубежа", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:640c98da-cdf3-5a94-a52f-fc72c1e7508b"
+subject = { kind = "research", id = "research:5516a72d05b44365a508190221c2a992" }
+scope = { kind = "language", language = "ru" }
+facts = ["Black Ferrothorn is an Unbound gang name whose species part is in Russian.", "The name is a long-name pointer string.", "The full form «Чёрный Ферроторн» fits every class host.", "The variant keeps the species in English.", "The class noun is masculine.", "The name has no index because it is not in the fixed 12-byte class table."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Чёрный Ферроторн", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:f9a07cdf-737e-5423-99aa-a9788fb67435"
+subject = { kind = "research", id = "research:2ed3d746c41b4b57959c38468d1befb8" }
+scope = { kind = "language", language = "ru" }
+facts = ["Black Ferrothorn Boss is a long-name pointer entry whose species part is in Russian.", "The pointer string may be relocated if longer text is needed.", "The class noun is masculine.", "The name has no index because it is not in the fixed 12-byte class table."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Босс Чёрного Ферроторна", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b385fa72-2852-5f49-b836-039a36f2b585"
+subject = { kind = "research", id = "research:69ad15069f2a4525a1ecc9982974e1b1" }
+scope = { kind = "language", language = "ru" }
+facts = ["Science Society is an Unbound organization and Cube Corp. branch used as a class.", "The name is a pointer string.", "The class noun is neuter.", "The name has no index because it is not in the fixed 12-byte class table.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Научное общество", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6d3f39d1-4c0d-5d0a-a201-921cb79f51e6"
+subject = { kind = "research", id = "research:746b62e31108410583ac4459606d1ab9" }
+scope = { kind = "language", language = "ru" }
+facts = ["Terror Granbull is an Unbound gang name whose species part is in Russian.", "The name is a long-name pointer string.", "The variant keeps the species in English.", "The class noun is masculine.", "The name has no index because it is not in the fixed 12-byte class table.", "The full form is relocated through the existing pointer dispatch, and all class consumers are verified."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Террор Грэнбулл", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "fixed class table entry width", value = 12, unit = "bytes" }] }]
+status = "unreviewed"

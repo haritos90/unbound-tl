@@ -1,0 +1,22 @@
+[pokedex.dex]
+index = "dex"
+category_table = "pokedex_categories"   # [[table]] whose index is the dex number
+evidence = "dex records: 906 rows, one per national dex, ending where the rows stop decoding"
+
+[pokedex.dex.map]
+base = 0x1A41FEA
+stride = 2
+width = 2
+evidence = "u16[1294] slot to national dex: a bijection onto 0-905 (Copperajah 879, Duraludon 884, Urshifu 892, Deoxys 386); the reverse lookup at 0x43218 loads 0x09A41FEC (= base + 2) and scans for the species, bound 0x43A"
+
+[pokedex.dex.records]
+base = 0x1A357CC
+stride = 36
+evidence = "906 rows; every +0x10 description pointer is a valid ROM pointer whose text decodes as an entry (0 failures) and +0x14 is empty in all 906; category and height/weight match the species that maps to that dex number (Pikachu 0.4/6.0 Mouse, Wailord 14.5/398.0 Float Whale, Snorlax 2.1/460.0 Sleeping)"
+
+[pokedex.dex.records.fields]
+category = 0
+height = 12
+weight = { offset = 14, width = 2 }
+description = { offset = 16, width = 4 }
+

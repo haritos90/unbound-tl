@@ -1,0 +1,131 @@
+name: Site
+
+on:
+  push:
+    branches: ['**']   # tags start no run
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  # Pull requests and other branches stop after the check.
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - uses: ./.github/actions/toolkit
+      - name: Fetch and verify published patches
+        env:
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from gen3tl.web.patcher import fetch_patches
+          try:
+              count = fetch_patches(Path("releases"), os.environ["REPOSITORY"])
+          except (OSError, ValueError) as exc:
+              print("error " + str(exc).replace("\n", " ").replace("\r", " "))
+              raise SystemExit(1)
+          print(f"patches {count}")
+          print("status verified")
+          PY
+      - name: Verify the tracked Pokedex dataset against the profile
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from gen3tl.data import pokedexdata, pokedexsprites
+          from gen3tl.data.pokedextexts import dataset_dir
+          from gen3tl.profile.profile import Profile
+          from gen3tl.project import Manifest
+          prof = Profile.by_name(Manifest.read(Path("project.toml")).profile)
+          block = prof.get("pokedex")
+          if not block:
+              raise SystemExit(f"{prof.name} carries no [pokedex] block")
+          tracked = dataset_dir(prof.name) / "pokedex.json"
+          doc = pokedexdata.read(tracked)   # learnsets.json inlined
+          problems = pokedexdata.verify_doc(doc, block, prof.name, prof.sha1)
+          if problems:
+              raise SystemExit(f"{tracked}: " + "; ".join(problems))
+          if "sprites" in block:
+              problems = pokedexsprites.verify(tracked.with_name("sprites"), block, prof.sha1)
+              if problems:
+                  raise SystemExit(f"sprites: " + "; ".join(problems))
+          print(f"tracked Pokedex dataset current: {tracked}")
+          PY
+      - name: Verify discovery coverage and profile regeneration
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from gen3tl.__main__ import main
+          from gen3tl.profile.profile import Profile
+          from gen3tl.project import Manifest
+
+          manifest = Manifest.read(Path("project.toml"))
+          profile = Profile.by_name(manifest.profile)
+          selected = ["--profile", manifest.profile, "--lang", manifest.default_language]
+          if main(selected + ["discover", "check", "--summary", "--require-shortfalls"]):
+              raise SystemExit(1)
+          rom = manifest.path.parent / profile["rom"]["path"]
+          if rom.is_file():
+              raise SystemExit(main(selected + ["discover", "regenerate"]))
+          print("regeneration skipped")
+          print("reason       base ROM unavailable")
+          PY
+      - name: Assemble editor projects with tabular counts
+        run: |
+          python - <<'PY'
+          from gen3tl.__main__ import main
+          from gen3tl.project import Registry
+          for project in Registry.load().projects:
+              selection = ["--profile", project.profile, "--lang", project.language]
+              if main(selection + ["check", "po"]):
+                  raise SystemExit(1)
+              if main(selection + ["web", "data", "--no-rom", "--split", "--po-root", str(project.catalog)]):
+                  raise SystemExit(1)
+          if main(["web", "bundle"]):
+              raise SystemExit(1)
+          PY
+      - name: Assemble the site of this game
+        env:
+          REPOSITORY: ${{ github.repository }}
+          PUBLIC_BASE: https://haritos90.github.io/unbound-tl
+          # the published site of this repository; a first publication finds none
+          PREVIOUS: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: |
+          profile="$(python -c 'import tomllib; print(tomllib.load(open("project.toml", "rb"))["profile"])')"
+          python -m gen3tl web registry --game "$profile" --repository "$REPOSITORY"
+          python -m gen3tl web assemble --out site --public-base "$PUBLIC_BASE" --application https://haritos90.github.io/gen3tl/ --previous "$PREVIOUS"
+      # the check refuses ROMs, saves, states, archives, unlisted patches
+      - name: Check the site for files the publication rules exclude
+        run: python .github/scripts/site-check.py site
+      - name: Upload the site for GitHub Pages
+        if: github.event_name == 'push' && github.ref_name == github.event.repository.default_branch
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: assemble
+    if: github.event_name == 'push' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - name: Deploy the site to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

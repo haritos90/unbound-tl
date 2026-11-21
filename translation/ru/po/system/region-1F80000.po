@@ -1,0 +1,1529 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-1F80000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 80
+#: 0x1f80b7c
+msgctxt "hash:02afc148"
+msgid "hash:02afc148"
+msgstr "{F8 0C}Ход {F8 00}Взять {F8 01}Выход"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 93
+#: 0x1f80b91
+msgctxt "hash:3a0e804c"
+msgid "hash:3a0e804c"
+msgstr "{F8 0C}Ход {F8 00}Сюда {F8 01}Отмена"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 84
+#: 0x1f80ba8
+msgctxt "hash:76f4c489"
+msgid "hash:76f4c489"
+msgstr "{F8 0C}Ход {F8 00}Сдвиг {F8 01}Выход"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 158, 64
+#: 0x1f80bbe
+msgctxt "hash:7cbfead0"
+msgid "hash:7cbfead0"
+msgstr ""
+"Чтобы пройти дальше, нужно собрать\\nэту картинку!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 153
+#: 0x1f80be9
+msgctxt "hash:9d28666e"
+msgid "hash:9d28666e"
+msgstr "Бросить головоломку?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x1f80c08
+msgctxt "hash:a8f0ac13"
+msgid "hash:a8f0ac13"
+msgstr "Склеп Борриуса"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 168, 187, 188, 177, 46
+#: 0x1f80c18
+msgctxt "hash:205a03db"
+msgid "hash:205a03db"
+msgstr ""
+"Древний склеп, где, говорят,\\nпокоится король Борриус Третий.\\nПо "
+"преданию, того, кто доберётся\\nдо погребальной камеры, ждут\\nнесметные "
+"богатства."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 166, 182, 107
+#: 0x1f80cb2
+msgctxt "hash:de6b1a43"
+msgid "hash:de6b1a43"
+msgstr ""
+"Открылся ход в глубины склепа!\\nИсследовать склеп и разгадать\\nвсе его "
+"тайны."
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 40
+#: 0x1f81d28
+msgctxt "hash:39eae0ef"
+msgid "hash:39eae0ef"
+msgstr "Крякуша"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 52
+#: 0x1f81d30
+msgctxt "hash:e4ce6f3c"
+msgid "hash:e4ce6f3c"
+msgstr "Колобок"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 42
+#: 0x1f81d3a
+msgctxt "hash:8dcc4909"
+msgid "hash:8dcc4909"
+msgstr "Юла"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 38
+#: 0x1f81d42
+msgctxt "hash:be91a0f7"
+msgid "hash:be91a0f7"
+msgstr "Белка"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 59
+#: 0x1f81d4a
+msgctxt "hash:9c147bd6"
+msgid "hash:9c147bd6"
+msgstr "Среди них"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 21
+#: 0x1f81d55
+msgctxt "hash:00cfed16"
+msgid "hash:00cfed16"
+msgstr "Шин"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 29
+#: 0x1f81d5a
+msgctxt "hash:0e1a9a55"
+msgid "hash:0e1a9a55"
+msgstr "Факел"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81d60
+msgctxt "hash:49703429"
+msgid "hash:49703429"
+msgstr "Травка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81d65
+msgctxt "hash:6466d6a4"
+msgid "hash:6466d6a4"
+msgstr "Мэри"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81d6a
+msgctxt "hash:fc2024ea"
+msgid "hash:fc2024ea"
+msgstr "Джейн"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 35
+#: 0x1f81d6f
+msgctxt "hash:8e9d8e7e"
+msgid "hash:8e9d8e7e"
+msgstr "Босс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f81d76
+msgctxt "hash:7c5a0630"
+msgid "hash:7c5a0630"
+msgstr "Сквидвард"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f81d80
+msgctxt "hash:21139678"
+msgid "hash:21139678"
+msgstr "ЭШ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x1f81d84
+msgctxt "hash:903e602b"
+msgid "hash:903e602b"
+msgstr "Квах!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f81d8a
+msgctxt "hash:042d138a"
+msgid "hash:042d138a"
+msgstr "Курица"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f81d93
+msgctxt "hash:f8ed9e0a"
+msgid "hash:f8ed9e0a"
+msgstr "Дутый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 38
+#: 0x1f81d9d
+msgctxt "hash:d7a6ebcd"
+msgid "hash:d7a6ebcd"
+msgstr "Бертик"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x1f81da5
+msgctxt "hash:eb2a791d"
+msgid "hash:eb2a791d"
+msgstr "Бычок"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x1f81dac
+msgctxt "hash:40c1f20e"
+msgid "hash:40c1f20e"
+msgstr "Таурик"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f81db3
+msgctxt "hash:894aba3b"
+msgid "hash:894aba3b"
+msgstr "Обгорелый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f81dbd
+msgctxt "hash:5ded5abc"
+msgid "hash:5ded5abc"
+msgstr "Алюмизонг"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f81dc7
+msgctxt "hash:55223e1c"
+msgid "hash:55223e1c"
+msgstr "Элек"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 26
+#: 0x1f81dcd
+msgctxt "hash:d65a81c8"
+msgid "hash:d65a81c8"
+msgstr "Эрни"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1f81dd3
+msgctxt "hash:a930baa4"
+msgid "hash:a930baa4"
+msgstr "Шалунишка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 53
+#: 0x1f81dde
+msgctxt "hash:f0e4593d"
+msgid "hash:f0e4593d"
+msgstr "Кукарача"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f81de8
+msgctxt "hash:affd9f7f"
+msgid "hash:affd9f7f"
+msgstr "Пуркур"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x1f81df1
+msgctxt "hash:d39b64c8"
+msgid "hash:d39b64c8"
+msgstr "Рыбки"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f81df9
+msgctxt "hash:07491e70"
+msgid "hash:07491e70"
+msgstr "Морла"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f81dff
+msgctxt "hash:22c04978"
+msgid "hash:22c04978"
+msgstr "Светолюб"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x1f81e0a
+msgctxt "hash:8876e114"
+msgid "hash:8876e114"
+msgstr "Бойся меня"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f81e12
+msgctxt "hash:114cee7b"
+msgid "hash:114cee7b"
+msgstr "Бульдозер"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 35
+#: 0x1f81e1c
+msgctxt "hash:72c9dd35"
+msgid "hash:72c9dd35"
+msgstr "Эдмунд"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 31
+#: 0x1f81e23
+msgctxt "hash:2e5aecdb"
+msgid "hash:2e5aecdb"
+msgstr "Алиша"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 28
+#: 0x1f81e2a
+msgctxt "hash:7f2b0919"
+msgid "hash:7f2b0919"
+msgstr "Сейдж"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 16
+#: 0x1f81e30
+msgctxt "hash:f45e5203"
+msgid "hash:f45e5203"
+msgstr "Тим"
+
+#. category: data-table; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 40
+#: 0x1f81e3c
+msgctxt "hash:0f44734b"
+msgid "hash:0f44734b"
+msgstr "Балонья"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x1f81e44
+msgctxt "hash:743fd9d6"
+msgid "hash:743fd9d6"
+msgstr "Имя"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 44
+#: 0x1f81e49
+msgctxt "hash:b77bd2d9"
+msgid "hash:b77bd2d9"
+msgstr "День рожд."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 33
+#: 0x1f81e52
+msgctxt "hash:c7423b29"
+msgid "hash:c7423b29"
+msgstr "Кошелёк"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x1f81e59
+msgctxt "hash:213c9258"
+msgid "hash:213c9258"
+msgstr "Покедекс"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x1f81e61
+msgctxt "hash:0c623761"
+msgid "hash:0c623761"
+msgstr "Время"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 96
+#: 0x1f81e66
+msgctxt "hash:b46d8a3e"
+msgid "hash:b46d8a3e"
+msgstr "Начало пути"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 104
+#: 0x1f81e78
+msgctxt "hash:026ed4f8"
+msgid "hash:026ed4f8"
+msgstr "Дебют в Зале славы"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 98
+#: 0x1f81e8b
+msgctxt "hash:7902d52c"
+msgid "hash:7902d52c"
+msgstr "Выполнено миссий"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 95
+#: 0x1f81ee8
+msgctxt "hash:258bd010"
+msgid "hash:258bd010"
+msgstr "Каталог тренеров"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 161, 61
+#: 0x1f81f2f
+msgctxt "hash:d3c7b898"
+msgid "hash:d3c7b898"
+msgstr "Сканер засёк что-то в стене!\\nНаходок: {B_COPY_VAR_1}!"
+
+#. category: code; mode: field
+#. original lines: 11, widths px: 126, 189, 137, 184, 126, 193, 128, 191, 177, 80, 58
+#: 0x1f81f5b
+msgctxt "hash:5ea1635d"
+msgid "hash:5ea1635d"
+msgstr ""
+"Так, слушайте сюда, юный тренер!\\pКопать будете моими собственными\\n"
+"кувалдой и киркой!\\pНажмите {F8 00} - и сможете откопать\\nчто угодно!\\p"
+"Захотите сменить инструмент -\\nпросто нажмите {F8 02} или {F8 03}!\\pВы "
+"наверняка успеете откопать\\nсокровища, пока стена не рухнет.\\pУ вас всё "
+"получится!\\nУдачи!"
+
+#. category: code; mode: field
+#. original lines: 15, widths px: 6, 172, 46, 128, 176, 189, 178, 126, 187, 128, 158, 166, 29, 74, 58
+#: 0x1f82087
+msgctxt "hash:e4f37be2"
+msgid "hash:e4f37be2"
+msgstr ""
+"…\\pЧто такое? Внутри ADM приклеена записка.\\p“Копаем сокровища!”\\pВ "
+"ADM уже встроены собственные\\nкувалда и кирка!\\pЖмите {F8 00} - и "
+"откопаете\\nчто угодно!\\pЗахотите сменить инструмент -\\nжмите {F8 02} "
+"или {F8 03}!\\pУж вы-то успеете всё откопать,\\nпока стена не рухнет!\\p"
+"Вы справитесь!\\nУдачи!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 126
+#: 0x1f821f4
+msgctxt "hash:2734a808"
+msgid "hash:2734a808"
+msgstr "Всё выкопано!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 12, 56
+#: 0x1f8220b
+msgctxt "hash:aaaa98cc"
+msgid "hash:aaaa98cc"
+msgstr "Найдено: {B_COPY_VAR_1}."
+
+#. category: code; mode: battle
+#. original lines: 4, widths px: 12, 56, 195, 52
+#: 0x1f8221d
+msgctxt "hash:6e4ee15d"
+msgid "hash:6e4ee15d"
+msgstr "Найдено: {B_COPY_VAR_1}.\\pЖаль! В Кубе нет места\\nдля находки."
+
+#. category: code; mode: field
+#. original lines: 8, widths px: 173, 81, 180, 180, 167, 70, 198, 116
+#: 0x1f82262
+msgctxt "hash:ce0d2747"
+msgid "hash:ce0d2747"
+msgstr ""
+"Для кнопки R выбран режим\\n“Поиск кладов”.\\pНа {COLOR 06}автостраде "
+"КБТ{COLOR 02}, в {COLOR 06}боковом зале{COLOR 02}\\nна {COLOR 06}1-м "
+"этаже пика Кристал{COLOR 02} или\\l{COLOR 06}под водой{COLOR 02} кнопкой "
+"{F8 03} можно\\lискать спрятанные предметы.\\pЕсли на стене блеснёт "
+"искра,\\nкнопкой {F8 00} там можно копать.{PAUSE_UNTIL_PRESS}"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 179, 46, 173, 85
+#: 0x1f82369
+msgctxt "hash:e91e2ef4"
+msgid "hash:e91e2ef4"
+msgstr ""
+"Туннель, соединяющий городок Тель\\nс Маршрутом 9.\\nЭнтузиасты устроили "
+"здесь\\nежедневное испытание."
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 174, 109
+#: 0x1f8284c
+msgctxt "hash:db0c439c"
+msgid "hash:db0c439c"
+msgstr ""
+"Обыскать регион и найти не меньше\\n{B_COPY_VAR_1} спрятанных предметов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x1f82d04
+msgctxt "hash:932cfa4b"
+msgid "hash:932cfa4b"
+msgstr "Пещера Вэлли"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 159, 181, 170, 63
+#: 0x1f82d10
+msgctxt "hash:7daaca35"
+msgid "hash:7daaca35"
+msgstr ""
+"Обычный с виду туннель между\\nгородком Кратер и Маршрутом 6.\\nНедавно "
+"его начал затапливать\\nокеан."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x1f8317c
+msgctxt "hash:294b1643"
+msgid "hash:294b1643"
+msgstr "Дорога победы"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 172, 189, 195, 183, 117
+#: 0x1f83189
+msgctxt "hash:90a75bc1"
+msgid "hash:90a75bc1"
+msgstr ""
+"Последнее и труднейшее испытание\\nна пути к Лиге покемонов.\\nТренеры, "
+"мечтающие стать лучшими,\\nприходят сюда после долгого\\nи тяжёлого "
+"путешествия."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f84fc0
+msgctxt "hash:2cdcec95"
+msgid "hash:2cdcec95"
+msgstr "Вивилл"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 187
+#: 0x1f855ff
+msgctxt "hash:d4017088"
+msgid "hash:d4017088"
+msgstr "Покемоны - просто собственность?\\nВыяснить, меняясь с борриусцами!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x1f859ab
+msgctxt "hash:fc2520c7"
+msgid "hash:fc2520c7"
+msgstr "Сэндшрю <-> Даклетт"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 163, 193
+#: 0x1f859c2
+msgctxt "hash:9d31a428"
+msgid "hash:9d31a428"
+msgstr "Обмен алольского Сэндшрю\\nна Даклетта по кличке Крякуша."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 106
+#: 0x1f85a03
+msgctxt "hash:9ce3fba7"
+msgid "hash:9ce3fba7"
+msgstr "Оникс <-> Электрод"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 137
+#: 0x1f85a16
+msgctxt "hash:def7aa3b"
+msgid "hash:def7aa3b"
+msgstr "Обмен Оникса на Электрода\\nпо кличке Колобок."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 130
+#: 0x1f85a4e
+msgctxt "hash:12b45ff9"
+msgid "hash:12b45ff9"
+msgstr "Ликитанг <-> Хитмонтоп"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 101
+#: 0x1f85a66
+msgctxt "hash:5b799cba"
+msgid "hash:5b799cba"
+msgstr "Обмен Ликитанга на Хитмонтопа\\nпо кличке Юла."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x1f85a9c
+msgctxt "hash:119e71ea"
+msgid "hash:119e71ea"
+msgstr "Манектрик <-> Пачирису"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 120
+#: 0x1f85ab4
+msgctxt "hash:1a324b74"
+msgid "hash:1a324b74"
+msgstr "Обмен Манектрика на Пачирису\\nпо кличке Белка."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x1f85aee
+msgctxt "hash:5d077d66"
+msgid "hash:5d077d66"
+msgstr "Амунгус <-> Шинатик"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 131
+#: 0x1f85b06
+msgctxt "hash:c51e1f65"
+msgid "hash:c51e1f65"
+msgstr "Шинатик <-> Амунгус"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 199, 101
+#: 0x1f85b1e
+msgctxt "hash:891ca670"
+msgid "hash:891ca670"
+msgstr "Обмен Амунгуса на Шинатика\\nпо кличке Шин."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 189, 144
+#: 0x1f85b56
+msgctxt "hash:bacaba27"
+msgid "hash:bacaba27"
+msgstr "Обмен Шинатика на Амунгуса\\nпо кличке Среди них."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x1f85b93
+msgctxt "hash:29e04552"
+msgid "hash:29e04552"
+msgstr "Цвайлос <-> Лампент"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 187, 103
+#: 0x1f85ba8
+msgctxt "hash:4c26386c"
+msgid "hash:4c26386c"
+msgstr "Обмен Цвайлоса на Лампента\\nпо кличке Факел."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x1f85ed4
+msgctxt "hash:9e3b3e01"
+msgid "hash:9e3b3e01"
+msgstr "сильный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x1f85edb
+msgctxt "hash:73f22340"
+msgid "hash:73f22340"
+msgstr "крепкий"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x1f85ee1
+msgctxt "hash:227574c3"
+msgid "hash:227574c3"
+msgstr "быстрый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 88
+#: 0x1f861e0
+msgctxt "hash:33a75edb"
+msgid "hash:33a75edb"
+msgstr "Склад Вивилл"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 193, 137, 197, 193
+#: 0x1f861f1
+msgctxt "hash:6b416c15"
+msgid "hash:6b416c15"
+msgstr ""
+"Заброшенный склад над океаном\\nв городке Вивилл. Говорят,\\nнедавно там "
+"видели странных\\nлюдей в плащах."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x1f878c0
+msgctxt "hash:a51ac156"
+msgid "hash:a51ac156"
+msgstr "Лес Вивилл"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 190
+#: 0x1f87b73
+msgctxt "hash:28443c5c"
+msgid "hash:28443c5c"
+msgstr ""
+"Собрать загадочные зелёные клетки,\\nпоявляющиеся по всему Борриусу!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 129
+#: 0x1f88cf6
+msgctxt "hash:f7796b0a"
+msgid "hash:f7796b0a"
+msgstr "Клетка Зайгарда найдена\\nза домом пожилой пары."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 193
+#: 0x1f88d31
+msgctxt "hash:95375992"
+msgid "hash:95375992"
+msgstr ""
+"Клетка Зайгарда найдена\\nсразу к югу ото льда\\nна открытой дороге."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:9815cc83-106f-59a3-b97d-7cd288421657
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 195
+#: 0x1f88d74
+msgctxt "hash:ebfff70b"
+msgid "hash:ebfff70b"
+msgstr "Клетка Зайгарда найдена\\nв восточной части городка\\nу забора."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 198, 93
+#: 0x1f88dbb
+msgctxt "hash:24129718"
+msgid "hash:24129718"
+msgstr ""
+"Клетка Зайгарда найдена\\nна 1-м подземном этаже пещеры под\\nгородком "
+"Беллин после Карабкания."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 125
+#: 0x1f88e14
+msgctxt "hash:1377a6f0"
+msgid "hash:1377a6f0"
+msgstr "Клетка Зайгарда найдена\\nу каратиста\\nна 1-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 179
+#: 0x1f88e4c
+msgctxt "hash:c3280b02"
+msgid "hash:c3280b02"
+msgstr ""
+"Клетка Зайгарда найдена\\nу лестницы на 2-м подземном\\nэтаже, куда можно "
+"доплыть Сёрфом."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 179
+#: 0x1f88e8e
+msgctxt "hash:82a5c0e2"
+msgid "hash:82a5c0e2"
+msgstr "Клетка Зайгарда найдена\\nна пляже у выхода\\nиз пещеры Айсикл."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 173, 124
+#: 0x1f88ed2
+msgctxt "hash:d0284680"
+msgid "hash:d0284680"
+msgstr ""
+"Клетка Зайгарда найдена\\nна островке к востоку от городка\\nДреско, куда "
+"можно доплыть Сёрфом."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 166
+#: 0x1f88f2a
+msgctxt "hash:1a110e13"
+msgid "hash:1a110e13"
+msgstr "Клетка Зайгарда найдена\\nу воды к югу от дома Артура."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 193, 190, 35
+#: 0x1f88f6c
+msgctxt "hash:10b3cd86"
+msgid "hash:10b3cd86"
+msgstr ""
+"Клетка Зайгарда найдена\\nв самом верхнем левом углу\\nсеверного пляжа."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 82
+#: 0x1f88fb9
+msgctxt "hash:95ccd941"
+msgid "hash:95ccd941"
+msgstr "Клетка Зайгарда найдена\\nу северного берега."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 142
+#: 0x1f88fec
+msgctxt "hash:95fe70ac"
+msgid "hash:95fe70ac"
+msgstr "Клетка Зайгарда найдена\\nна бревне, плавающем в воде."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 153, 187, 106
+#: 0x1f89028
+msgctxt "hash:2761719a"
+msgid "hash:2761719a"
+msgstr ""
+"Клетка Зайгарда найдена\\nк юго-западу от моста,\\nгде ждёт верхний "
+"Лапрас."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 77
+#: 0x1f8907a
+msgctxt "hash:2ee5eef7"
+msgid "hash:2ee5eef7"
+msgstr "Клетка Зайгарда найдена\\nнад водопадом."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 113
+#: 0x1f890ab
+msgctxt "hash:14d919b6"
+msgid "hash:14d919b6"
+msgstr "Клетка Зайгарда найдена\\nу потока лавы на 1-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 197
+#: 0x1f890e1
+msgctxt "hash:2a4b43c4"
+msgid "hash:2a4b43c4"
+msgstr ""
+"Клетка Зайгарда найдена\\nу северного конца западного моста\\nна 3-м "
+"этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 141
+#: 0x1f89128
+msgctxt "hash:0da03364"
+msgid "hash:0da03364"
+msgstr "Клетка Зайгарда найдена\\nна складе Теней."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 193, 189, 154
+#: 0x1f89166
+msgctxt "hash:e6f69fc7"
+msgid "hash:e6f69fc7"
+msgstr ""
+"Клетка Зайгарда найдена\\nу тропы к Дневному уходу\\nв западной части "
+"маршрута."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:573aeb9e-a39c-56c2-ae7a-46fb1eff284f
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 192, 196, 44
+#: 0x1f891c7
+msgctxt "hash:72d14fe3"
+msgid "hash:72d14fe3"
+msgstr ""
+"Клетка Зайгарда найдена\\nза фонарным столбом\\nв северо-западной части "
+"городка."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 164, 125
+#: 0x1f89217
+msgctxt "hash:8dc9404f"
+msgid "hash:8dc9404f"
+msgstr ""
+"Клетка Зайгарда найдена\\nв расщелине, куда можно подняться\\nпо "
+"лестнице, обращённой вниз."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 199, 86
+#: 0x1f8926e
+msgctxt "hash:420c146b"
+msgid "hash:420c146b"
+msgstr ""
+"Клетка Зайгарда найдена\\nна коротком пути к Маршруту 7\\nу входа в "
+"пещеру Вэлли."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 185
+#: 0x1f892c5
+msgctxt "hash:812f9d26"
+msgid "hash:812f9d26"
+msgstr "Клетка Зайгарда найдена\\nна скалистом клочке суши в океане."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 192, 184, 115
+#: 0x1f89308
+msgctxt "hash:8588f26d"
+msgid "hash:8588f26d"
+msgstr ""
+"Клетка Зайгарда найдена\\nза забором с небольшим проёмом\\nу пропускного "
+"пункта на Маршрут 9."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 164, 184
+#: 0x1f89362
+msgctxt "hash:27aee3fd"
+msgid "hash:27aee3fd"
+msgstr ""
+"Клетка Зайгарда найдена\\nна холме посреди маршрута,\\nкуда можно "
+"забраться Карабканием."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 86
+#: 0x1f893c4
+msgctxt "hash:cf018772"
+msgid "hash:cf018772"
+msgstr "Клетка Зайгарда найдена\\nу лестницы на 2-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 199, 163, 34
+#: 0x1f893f8
+msgctxt "hash:69edf187"
+msgid "hash:69edf187"
+msgstr "Клетка Зайгарда найдена\\nмежду камнями у моста\\nна 2-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 194, 76
+#: 0x1f89441
+msgctxt "hash:8d6ed7cd"
+msgid "hash:8d6ed7cd"
+msgstr ""
+"Клетка Зайгарда найдена\\nу деревьев к югу от дороги\\nв город Близзард."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 177, 56
+#: 0x1f89494
+msgctxt "hash:fa9b5b51"
+msgid "hash:fa9b5b51"
+msgstr ""
+"Клетка Зайгарда найдена\\nу замёрзшей реки\\nв восточной части маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 182, 86
+#: 0x1f894e3
+msgctxt "hash:a8a2c004"
+msgid "hash:a8a2c004"
+msgstr "Клетка Зайгарда найдена\\nу дерева возле входа\\nна автостраду КБТ."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 168, 130
+#: 0x1f89535
+msgctxt "hash:7f120850"
+msgid "hash:7f120850"
+msgstr "Клетка Зайгарда найдена\\nв гнезде Крабаминабла."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 197, 185
+#: 0x1f8956d
+msgctxt "hash:2a096b26"
+msgid "hash:2a096b26"
+msgstr "Клетка Зайгарда найдена\\nсреди деревьев\\nу пропускного пункта."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 181
+#: 0x1f895b3
+msgctxt "hash:3a2d98a7"
+msgid "hash:3a2d98a7"
+msgstr "Клетка Зайгарда найдена\\nна острове посреди озера."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 198, 192, 126
+#: 0x1f895f8
+msgctxt "hash:c57ba062"
+msgid "hash:c57ba062"
+msgstr ""
+"Клетка Зайгарда найдена\\nу скалы к западу от входа\\nна автостраду КБТ."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 153, 158, 156
+#: 0x1f89656
+msgctxt "hash:593f1e49"
+msgid "hash:593f1e49"
+msgstr ""
+"Клетка Зайгарда найдена\\nна обрыве над океаном\\nв юго-восточной части "
+"маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 199, 172, 185
+#: 0x1f896ac
+msgctxt "hash:8e6e5778"
+msgid "hash:8e6e5778"
+msgstr ""
+"Клетка Зайгарда найдена\\nмежду водопадами\\nнад океаном посреди маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 154
+#: 0x1f89712
+msgctxt "hash:0311ecac"
+msgid "hash:0311ecac"
+msgstr "Клетка Зайгарда найдена\\nза забором у пропускного пункта."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 197, 177, 136
+#: 0x1f89751
+msgctxt "hash:b37cb7bc"
+msgid "hash:b37cb7bc"
+msgstr ""
+"Клетка Зайгарда найдена\\nсреди деревьев на восточной\\nоконечности "
+"центрального острова."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 182
+#: 0x1f897b0
+msgctxt "hash:fa1128ed"
+msgid "hash:fa1128ed"
+msgstr "Клетка Зайгарда найдена\\nв конце юго-западного прохода."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 186
+#: 0x1f897f4
+msgctxt "hash:a4bd6271"
+msgid "hash:a4bd6271"
+msgstr "Клетка Зайгарда найдена\\nза домом\\nв восточной части города."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 166
+#: 0x1f89839
+msgctxt "hash:fdc26325"
+msgid "hash:fdc26325"
+msgstr "Клетка Зайгарда найдена\\nна пляже у скалы для Карабкания."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 193, 191, 118
+#: 0x1f8987a
+msgctxt "hash:c37f2e57"
+msgid "hash:c37f2e57"
+msgstr ""
+"Клетка Зайгарда найдена\\nна утёсах, куда можно забраться\\nКарабканием у "
+"эксперта."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 191, 69
+#: 0x1f898d7
+msgctxt "hash:d6bfaf0a"
+msgid "hash:d6bfaf0a"
+msgstr "Клетка Зайгарда найдена\\nу выхода к эксперту\\nна Маршруте 11."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 107
+#: 0x1f89928
+msgctxt "hash:19e84d98"
+msgid "hash:19e84d98"
+msgstr "Клетка Зайгарда найдена\\nза Центром покемонов."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 187
+#: 0x1f8995f
+msgctxt "hash:b6e10da7"
+msgid "hash:b6e10da7"
+msgstr "Клетка Зайгарда найдена\\nна 2-м этаже\\nу южного грязевого склона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 194, 42
+#: 0x1f899a3
+msgctxt "hash:336b7956"
+msgid "hash:336b7956"
+msgstr ""
+"Клетка Зайгарда найдена\\nу потайного выхода\\nиз особняка Тармиган."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 91
+#: 0x1f899f2
+msgctxt "hash:e4c61fd2"
+msgid "hash:e4c61fd2"
+msgstr "Клетка Зайгарда найдена\\nу статуи на 1-м подземном этаже."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 201, 193
+#: 0x1f89a27
+msgctxt "hash:37add89a"
+msgid "hash:37add89a"
+msgstr ""
+"Клетка Зайгарда найдена\\nнад уступом у пропускного пункта\\nв городок "
+"Тармиган."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 100
+#: 0x1f89a6e
+msgctxt "hash:0211b601"
+msgid "hash:0211b601"
+msgstr "Клетка Зайгарда найдена\\nу юго-западного пруда."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 142
+#: 0x1f89aa4
+msgctxt "hash:21ede37a"
+msgid "hash:21ede37a"
+msgstr ""
+"Клетка Зайгарда найдена\\nв бесконечном лабиринте\\nна 1-м подземном "
+"этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 197, 168
+#: 0x1f89ae1
+msgctxt "hash:0daa65da"
+msgid "hash:0daa65da"
+msgstr ""
+"Клетка Зайгарда найдена\\nснаружи, у западного входа\\nна 1-й подземный "
+"этаж."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 102
+#: 0x1f89b24
+msgctxt "hash:37082d18"
+msgid "hash:37082d18"
+msgstr "Клетка Зайгарда найдена\\nу плиты на 3-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 86
+#: 0x1f89b58
+msgctxt "hash:cc4289da"
+msgid "hash:cc4289da"
+msgstr "Клетка Зайгарда найдена\\nу стола на 1-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 63
+#: 0x1f89b8c
+msgctxt "hash:bb8fa330"
+msgid "hash:bb8fa330"
+msgstr "Клетка Зайгарда найдена\\nв лаборатории\\nна 2-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 184
+#: 0x1f89bbb
+msgctxt "hash:d6bacee8"
+msgid "hash:d6bacee8"
+msgstr "Клетка Зайгарда найдена\\nна клочке суши у утёсов."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 189
+#: 0x1f89bfe
+msgctxt "hash:4e07557a"
+msgid "hash:4e07557a"
+msgstr "Клетка Зайгарда найдена\\nв конце тропы, ведущей\\nк Маршруту 5."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 187
+#: 0x1f89c43
+msgctxt "hash:3df5a372"
+msgid "hash:3df5a372"
+msgstr "Клетка Зайгарда найдена\\nна острове посреди маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 126
+#: 0x1f89c89
+msgctxt "hash:d46f8eba"
+msgid "hash:d46f8eba"
+msgstr "Клетка Зайгарда найдена\\nнад автострадой КБТ."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 158
+#: 0x1f89cc3
+msgctxt "hash:b78c0acb"
+msgid "hash:b78c0acb"
+msgstr "Клетка Зайгарда найдена\\nна дне центрального каньона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 199, 197, 89
+#: 0x1f89d03
+msgctxt "hash:d9a78064"
+msgid "hash:d9a78064"
+msgstr ""
+"Клетка Зайгарда найдена\\nсреди кактусов у входа\\nв склеп Борриуса."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 111
+#: 0x1f89d5c
+msgctxt "hash:ba75004f"
+msgid "hash:ba75004f"
+msgstr "Клетка Зайгарда найдена\\nпод Даскнуаром\\nна 2-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 192, 184, 45
+#: 0x1f89d93
+msgctxt "hash:49e331c2"
+msgid "hash:49e331c2"
+msgstr ""
+"Клетка Зайгарда найдена\\nза статуей легендарного\\nпокемона-титана."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 198, 179, 77
+#: 0x1f89de1
+msgctxt "hash:aba28b46"
+msgid "hash:aba28b46"
+msgstr "Клетка Зайгарда найдена\\nу деревьев\\nв юго-западной части леса."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 193, 175, 34
+#: 0x1f89e35
+msgctxt "hash:941c8306"
+msgid "hash:941c8306"
+msgstr ""
+"Клетка Зайгарда найдена\\nна утёсе\\nу самого северо-восточного дома."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 102
+#: 0x1f89e80
+msgctxt "hash:27668aa3"
+msgid "hash:27668aa3"
+msgstr "Клетка Зайгарда найдена\\nв Энергоблоке\\nна 2-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 199, 108
+#: 0x1f89eb6
+msgctxt "hash:e7a32d9d"
+msgid "hash:e7a32d9d"
+msgstr "Клетка Зайгарда найдена\\nмежду ящиками\\nна 3-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 118
+#: 0x1f89eee
+msgctxt "hash:103e5271"
+msgid "hash:103e5271"
+msgstr "Клетка Зайгарда найдена\\nу таблички “Советы тренерам”."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 173, 62
+#: 0x1f89f26
+msgctxt "hash:d636a37b"
+msgid "hash:d636a37b"
+msgstr "Клетка Зайгарда найдена\\nза мостом\\nв северной части каньона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 171, 161, 66
+#: 0x1f89f73
+msgctxt "hash:e693da1a"
+msgid "hash:e693da1a"
+msgstr ""
+"Клетка Зайгарда найдена\\nвнизу, куда можно спуститься\\nпо камням у "
+"города Антисис."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 192, 171, 26
+#: 0x1f89fbe
+msgctxt "hash:b87c3596"
+msgid "hash:b87c3596"
+msgstr "Клетка Зайгарда найдена\\nза фонарём\\nв северной части города."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 199, 147
+#: 0x1f8a006
+msgctxt "hash:af1b638b"
+msgid "hash:af1b638b"
+msgstr "Клетка Зайгарда найдена\\nмежду ящиками после 8 вечера."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 155
+#: 0x1f8a045
+msgctxt "hash:bc356499"
+msgid "hash:bc356499"
+msgstr "Клетка Зайгарда найдена\\nу стены в северной части."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 198, 184, 180
+#: 0x1f8a086
+msgctxt "hash:43f7a5f6"
+msgid "hash:43f7a5f6"
+msgstr ""
+"Клетка Зайгарда найдена\\nу стены в южной части, куда можно\\nпроползти "
+"из восточного туннеля."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 171, 148
+#: 0x1f8a0ee
+msgctxt "hash:0454d97a"
+msgid "hash:0454d97a"
+msgstr ""
+"Клетка Зайгарда найдена\\nв комнате рядом с учёным,\\nкоторый делает "
+"лекарства из яда."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 184, 112
+#: 0x1f8a14d
+msgctxt "hash:4beb1c67"
+msgid "hash:4beb1c67"
+msgstr ""
+"Клетка Зайгарда найдена\\nпод деревом\\nнад океаном посреди маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 195, 73
+#: 0x1f8a1a8
+msgctxt "hash:8ff1c62f"
+msgid "hash:8ff1c62f"
+msgstr "Клетка Зайгарда найдена\\nв песке\\nпод утёсами посреди маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 182
+#: 0x1f8a1fd
+msgctxt "hash:1bd2200c"
+msgid "hash:1bd2200c"
+msgstr ""
+"Клетка Зайгарда найдена\\nпод забором к западу\\nот пропускного пункта."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 124
+#: 0x1f8a240
+msgctxt "hash:001804e8"
+msgid "hash:001804e8"
+msgstr "Клетка Зайгарда найдена\\nу западного склада."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 96
+#: 0x1f8a27b
+msgctxt "hash:333ce74f"
+msgid "hash:333ce74f"
+msgstr "Клетка Зайгарда найдена\\nза стальными балками."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 197
+#: 0x1f8a2b0
+msgctxt "hash:0c946fd1"
+msgid "hash:0c946fd1"
+msgstr "Клетка Зайгарда найдена\\nна верхнем этаже\\nвосточного склада."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 174
+#: 0x1f8a2f7
+msgctxt "hash:85077200"
+msgid "hash:85077200"
+msgstr "Клетка Зайгарда найдена\\nза растением в каюте капитана."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 148
+#: 0x1f8a33b
+msgctxt "hash:ccec275f"
+msgid "hash:ccec275f"
+msgstr "Клетка Зайгарда найдена\\nна пляже у каратиста."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 186
+#: 0x1f8a379
+msgctxt "hash:559d8570"
+msgid "hash:559d8570"
+msgstr "Клетка Зайгарда найдена\\nна пляже к юго-востоку\\nот водопада."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 163
+#: 0x1f8a3be
+msgctxt "hash:8047ae7b"
+msgid "hash:8047ae7b"
+msgstr "Клетка Зайгарда найдена\\nк востоку от входа\\nна Дорогу победы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 193
+#: 0x1f8a400
+msgctxt "hash:6694e283"
+msgid "hash:6694e283"
+msgstr "Клетка Зайгарда найдена\\nна 2-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 201
+#: 0x1f8a423
+msgctxt "hash:44dea471"
+msgid "hash:44dea471"
+msgstr ""
+"Клетка Зайгарда найдена\\nв лабиринте из кустов у входа\\nна 3-й этаж."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 145
+#: 0x1f8a46a
+msgctxt "hash:7039baf0"
+msgid "hash:7039baf0"
+msgstr "Клетка Зайгарда найдена\\nв юго-западном углу на 3-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 173, 38
+#: 0x1f8a4a8
+msgctxt "hash:d87e6258"
+msgid "hash:d87e6258"
+msgstr ""
+"Клетка Зайгарда найдена\\nнаверху первой лестницы\\nснежного подъёма."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 189, 157
+#: 0x1f8a4f4
+msgctxt "hash:8e0642ce"
+msgid "hash:8e0642ce"
+msgstr ""
+"Клетка Зайгарда найдена\\nв комнате чемпиона, у нижнего\\nлевого края "
+"большого покебола."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:c16fd3db-1220-55f2-b710-77f6a5316cbc
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 199, 186, 27
+#: 0x1f8a557
+msgctxt "hash:ccf9e5c0"
+msgid "hash:ccf9e5c0"
+msgstr ""
+"Клетка Зайгарда найдена\\nпод деревом\\nв юго-западной части городка."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 150
+#: 0x1f8a5a3
+msgctxt "hash:1c4a1572"
+msgid "hash:1c4a1572"
+msgstr "Клетка Зайгарда найдена\\nу самого северо-западного пруда."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 79
+#: 0x1f8a5e0
+msgctxt "hash:cbfeb19e"
+msgid "hash:cbfeb19e"
+msgstr "Клетка Зайгарда найдена\\nна внешних утёсах."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 116
+#: 0x1f8a612
+msgctxt "hash:d5a01aa9"
+msgid "hash:d5a01aa9"
+msgstr "Клетка Зайгарда найдена\\nна вершине за камнем."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 184, 113
+#: 0x1f8a64a
+msgctxt "hash:650a70d9"
+msgid "hash:650a70d9"
+msgstr ""
+"Клетка Зайгарда найдена\\nнаверху оранжевых скал у выхода\\nк Куб Корп."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 51
+#: 0x1f8a6a2
+msgctxt "hash:b1df6da3"
+msgid "hash:b1df6da3"
+msgstr "Клетка Зайгарда найдена\\nу кафе."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 193, 166, 84
+#: 0x1f8a6d0
+msgctxt "hash:932e0633"
+msgid "hash:932e0633"
+msgstr ""
+"Клетка Зайгарда найдена\\nу дерева\\nв северо-западной части маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 147, 172
+#: 0x1f8a722
+msgctxt "hash:fca1e072"
+msgid "hash:fca1e072"
+msgstr ""
+"Клетка Зайгарда найдена\\nна клочке суши\\nв юго-восточной части маршрута."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 63
+#: 0x1f8a77e
+msgctxt "hash:dee6ee7f"
+msgid "hash:dee6ee7f"
+msgstr "Клетка Зайгарда найдена\\nк востоку от стадиона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 179, 62
+#: 0x1f8a7ab
+msgctxt "hash:b6507b3e"
+msgid "hash:b6507b3e"
+msgstr "Клетка Зайгарда найдена\\nза восточным проходом\\nу фаната жуков."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 192, 199, 179
+#: 0x1f8a7fa
+msgctxt "hash:3eb2ec27"
+msgid "hash:3eb2ec27"
+msgstr ""
+"Клетка Зайгарда найдена\\nза прудом у выхода к Куб Корп.,\\nпод кроной "
+"дерева."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 183, 79
+#: 0x1f8a862
+msgctxt "hash:2cb5449c"
+msgid "hash:2cb5449c"
+msgstr ""
+"Клетка Зайгарда найдена\\nна лужайке, куда можно доплыть\\nСёрфом от "
+"причала на запад."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x1f8f5fe
+msgctxt "hash:a3ac17d9"
+msgid "hash:a3ac17d9"
+msgstr "град"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 61
+#: 0x1f8f60a
+msgctxt "hash:7f5a5e3f"
+msgid "hash:7f5a5e3f"
+msgstr "песчаная буря"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f8f616
+msgctxt "hash:e14ed0db"
+msgid "hash:e14ed0db"
+msgstr "густой туман"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 76
+#: 0x1f8f621
+msgctxt "hash:e67e4332"
+msgid "hash:e67e4332"
+msgstr "яркое солнце"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f8f630
+msgctxt "hash:d0170f5e"
+msgid "hash:d0170f5e"
+msgstr "ливень"

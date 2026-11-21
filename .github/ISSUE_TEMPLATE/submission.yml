@@ -1,0 +1,29 @@
+name: Translation submission
+description: Changes made in the translation editor
+title: "Editor submission"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Submit button of the translation editor fills this form; nothing is typed by hand.
+
+        After the issue is submitted, a check reads the changes and answers here: it opens a pull request with them, or states why they were not applied. Editing the issue text runs the check again.
+
+        A submission is contributed under CC BY-SA 4.0.
+  - type: textarea
+    id: export
+    attributes:
+      label: Editor export
+      description: Filled by the editor. Leave it empty when the file is attached below.
+      render: json
+  - type: textarea
+    id: file
+    attributes:
+      label: Export file
+      description: For a long submission, drag the JSON file the editor downloaded into this field.
+  - type: textarea
+    id: pictures
+    attributes:
+      label: Pictures
+      description: Drag each picture the editor downloaded into this field.

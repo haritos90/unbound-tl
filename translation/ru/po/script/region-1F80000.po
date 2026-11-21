@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-1F80000\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 41
+#: 0x1f81e34
+msgctxt "hash:91e0316f"
+msgid "hash:91e0316f"
+msgstr "Шруму"
+
+# source: The wording directly translates the native mining failure message.
+# source: The wording «Стена рухнула!» matches the existing mining tutorials.
+# source: A runtime screenshot and the native mining result callback prove that this line is displayed.
+# source: The line is reachable.
+# source: status: unreviewed; related notes: note:2d8b18e0-3c8d-581e-babb-4db4a507160a
+# source: The translation fits in place.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. in place only: 19 bytes max
+#. original lines: 1, widths px: 109
+#: 0x1f821e0
+msgctxt "hash:9aa0d59e"
+msgid "hash:9aa0d59e"
+msgstr "Стена рухнула!"

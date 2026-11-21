@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-099FE60\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 101, 105, 74
+#: 0x0a3fc31
+msgctxt "hash:e79cbf9b"
+msgid "hash:e79cbf9b"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 98, 109, 84, 80
+#: 0x0a3fc7b
+msgctxt "hash:8f843f85"
+msgid "hash:8f843f85"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 95, 85, 64, 71
+#: 0x0a3fcc2
+msgctxt "hash:cd2062e9"
+msgid "hash:cd2062e9"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 101, 86, 80
+#: 0x0a3fcfe
+msgctxt "hash:98360ec2"
+msgid "hash:98360ec2"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 111, 85, 100, 26
+#: 0x0a3fd43
+msgctxt "hash:2795a497"
+msgid "hash:2795a497"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 83, 76, 70
+#: 0x0a3fd80
+msgctxt "hash:e1c178e8"
+msgid "hash:e1c178e8"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 105, 85, 64, 71
+#: 0x0a3fdbe
+msgctxt "hash:6c40673e"
+msgid "hash:6c40673e"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 95, 91, 82, 58
+#: 0x0a3fdfc
+msgctxt "hash:0b272cbf"
+msgid "hash:0b272cbf"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 109, 83, 76, 76
+#: 0x0a3fe3a
+msgctxt "hash:77951007"
+msgid "hash:77951007"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 105, 91, 80, 80
+#: 0x0a3fe7c
+msgctxt "hash:49c8ee2c"
+msgid "hash:49c8ee2c"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 109, 83, 76, 67
+#: 0x0a3fec0
+msgctxt "hash:f655ad06"
+msgid "hash:f655ad06"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 104, 101, 91, 58
+#: 0x0a3ff00
+msgctxt "hash:c9acee9b"
+msgid "hash:c9acee9b"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 111, 85, 103, 26
+#: 0x0a3ff44
+msgctxt "hash:3d5b9e1b"
+msgid "hash:3d5b9e1b"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 101, 82, 80
+#: 0x0a3ff82
+msgctxt "hash:7b57c3cd"
+msgid "hash:7b57c3cd"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 100, 91, 89, 90
+#: 0x0a3ffc5
+msgctxt "hash:263de9d8"
+msgid "hash:263de9d8"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 111, 83, 76, 77
+#: 0x0a4000b
+msgctxt "hash:c34ec749"
+msgid "hash:c34ec749"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 85, 64, 72
+#: 0x0a4004d
+msgctxt "hash:670ede46"
+msgid "hash:670ede46"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 104, 101, 98, 58
+#: 0x0a4008a
+msgctxt "hash:b297dc69"
+msgid "hash:b297dc69"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 105, 83, 76, 76
+#: 0x0a400cf
+msgctxt "hash:e4f4c284"
+msgid "hash:e4f4c284"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 100, 92, 59
+#: 0x0a40110
+msgctxt "hash:ed544615"
+msgid "hash:ed544615"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 100, 92, 59
+#: 0x0a40151
+msgctxt "hash:b8629630"
+msgid "hash:b8629630"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 92, 100, 92, 59
+#: 0x0a40193
+msgctxt "hash:f254b7e2"
+msgid "hash:f254b7e2"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 100, 93, 93
+#: 0x0a401d5
+msgctxt "hash:aaa6c7fe"
+msgid "hash:aaa6c7fe"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 83, 83, 91, 38
+#: 0x0a4021f
+msgctxt "hash:3c78f693"
+msgid "hash:3c78f693"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 79, 100, 90, 102
+#: 0x0a40258
+msgctxt "hash:8ecb2f09"
+msgid "hash:8ecb2f09"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 100, 95, 89
+#: 0x0a4029e
+msgctxt "hash:4b054551"
+msgid "hash:4b054551"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 78, 100, 90, 77
+#: 0x0a402e5
+msgctxt "hash:24d2b2a9"
+msgid "hash:24d2b2a9"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 81, 100, 101, 82
+#: 0x0a40327
+msgctxt "hash:20c8b038"
+msgid "hash:20c8b038"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 78, 100, 82, 80
+#: 0x0a4036d
+msgctxt "hash:eebb3307"
+msgid "hash:eebb3307"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 74, 83, 70, 61
+#: 0x0a403ae
+msgctxt "hash:9c1899bf"
+msgid "hash:9c1899bf"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 83, 100, 86, 90
+#: 0x0a403e6
+msgctxt "hash:afaebeea"
+msgid "hash:afaebeea"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 83, 77, 38
+#: 0x0a4042b
+msgctxt "hash:9069d238"
+msgid "hash:9069d238"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 100, 90, 117
+#: 0x0a40463
+msgctxt "hash:8fc1380b"
+msgid "hash:8fc1380b"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 100, 113, 111
+#: 0x0a404ae
+msgctxt "hash:0adfddd1"
+msgid "hash:0adfddd1"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 100, 113, 111
+#: 0x0a404ff
+msgctxt "hash:11deb9a0"
+msgid "hash:11deb9a0"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 88, 100, 113, 111
+#: 0x0a40550
+msgctxt "hash:d2eed908"
+msgid "hash:d2eed908"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 100, 102, 90
+#: 0x0a405a0
+msgctxt "hash:14fbf426"
+msgid "hash:14fbf426"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 100, 84, 80
+#: 0x0a405eb
+msgctxt "hash:e271276d"
+msgid "hash:e271276d"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 84, 83, 93, 94
+#: 0x0a4062f
+msgctxt "hash:1f14b8d7"
+msgid "hash:1f14b8d7"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 100, 92, 59
+#: 0x0a40673
+msgctxt "hash:df5d2802"
+msgid "hash:df5d2802"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 84, 100, 94, 65
+#: 0x0a406b5
+msgctxt "hash:a1e95459"
+msgid "hash:a1e95459"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 100, 89, 73
+#: 0x0a406f7
+msgctxt "hash:3abc6555"
+msgid "hash:3abc6555"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 100, 95, 103
+#: 0x0a4073b
+msgctxt "hash:5f0e33e2"
+msgid "hash:5f0e33e2"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 97, 83, 85, 98
+#: 0x0a40787
+msgctxt "hash:39f4179d"
+msgid "hash:39f4179d"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 100, 95, 103
+#: 0x0a407cd
+msgctxt "hash:27b136db"
+msgid "hash:27b136db"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 83, 84, 38
+#: 0x0a4081a
+msgctxt "hash:f39ff611"
+msgid "hash:f39ff611"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 97, 83, 85, 100
+#: 0x0a40854
+msgctxt "hash:daf30055"
+msgid "hash:daf30055"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 88, 83, 86, 73
+#: 0x0a4089b
+msgctxt "hash:b955b924"
+msgid "hash:b955b924"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 100, 80, 94
+#: 0x0a408db
+msgctxt "hash:100c8cc2"
+msgid "hash:100c8cc2"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 95, 100, 98, 108
+#: 0x0a40923
+msgctxt "hash:a51f2024"
+msgid "hash:a51f2024"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 105, 134, 85, 98
+#: 0x0a4096e
+msgctxt "hash:104dc02e"
+msgid "hash:104dc02e"
+msgstr ""
+
+#. reach: never shown (review: Max and G-Max descriptions are entries 820-922 of 0x99F190. Their only readers are the pools 0x899F194 at 0xE5440 (relearner list), 0x137BC8 (summary move slot) and 0x9F3B64 (TM Case item move). No Max or G-Max move is in a move slot, a learnable list or a TM. No word points at 0x899FE60.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 101, 134, 85, 98
+#: 0x0a409be
+msgctxt "hash:34fb5399"
+msgid "hash:34fb5399"
+msgstr ""

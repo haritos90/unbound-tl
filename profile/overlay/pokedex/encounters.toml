@@ -1,0 +1,170 @@
+[pokedex.encounters]
+
+[pokedex.encounters.headers]
+stride = 20
+
+[pokedex.encounters.headers.day]
+base = 0xC230D8
+count = 165
+
+[pokedex.encounters.headers.morning]
+base = 0xA7DC18
+count = 1
+
+[pokedex.encounters.headers.evening]
+base = 0xA7DC04
+count = 0
+
+[pokedex.encounters.headers.night]
+base = 0xA7DA74
+count = 19
+
+[pokedex.encounters.methods.land]
+pointer = 4
+slots = 12
+rates = [20, 20, 10, 10, 10, 10, 5, 5, 4, 4, 1, 1]
+
+[pokedex.encounters.methods.water]
+pointer = 8
+slots = 5
+rates = [60, 30, 5, 4, 1]
+
+[pokedex.encounters.methods.rock_smash]
+pointer = 12
+slots = 5
+rates = [60, 30, 5, 4, 1]
+
+[pokedex.encounters.methods.fishing]
+pointer = 16
+slots = 10
+
+[pokedex.encounters.fishing.old]
+first = 0
+rates = [70, 30]
+
+[pokedex.encounters.fishing.good]
+first = 2
+rates = [60, 20, 20]
+
+[pokedex.encounters.fishing.super]
+first = 5
+rates = [40, 40, 15, 4, 1]
+
+[pokedex.encounters.trigger_tiles]
+primary_metatiles = 640
+water_walk_behaviors = [0x08]
+water_surf_behaviors = [0x10, 0x11, 0x12, 0x13, 0x15, 0x1A, 0x1B, 0x50, 0x51, 0x52, 0x53, 0xA6]
+required_methods = ["water"]
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.4"]
+method = "land"
+labels = ["Pink Flowers"]
+triggers = [{ encounter = 1, behaviors = [0x00], movement = "walk" }]
+evidence = "CFRU DexNav flower selectors at src/dexnav.c:2248-2262 name both tables. Exact-ROM metatile attributes and StandardWildEncounter 0xA15966-0xA15A68 confirm walking triggers."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.4"]
+method = "water"
+labels = ["Yellow Flowers"]
+triggers = [{ encounter = 2, behaviors = [0x08], movement = "walk" }]
+evidence = "CFRU DexNav flower selectors at src/dexnav.c:2248-2262 name both tables. Exact-ROM metatile attributes and StandardWildEncounter 0xA15966-0xA15A68 confirm walking triggers."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.5"]
+method = "land"
+labels = ["Red Flowers"]
+triggers = [{ encounter = 1, behaviors = [0x00], movement = "walk" }]
+evidence = "CFRU DexNav flower selectors at src/dexnav.c:2248-2262 name both tables. Exact-ROM metatile attributes and StandardWildEncounter 0xA15966-0xA15A68 confirm walking triggers."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.5"]
+method = "water"
+labels = ["Blue Flowers"]
+triggers = [{ encounter = 2, behaviors = [0x08], movement = "walk" }]
+evidence = "CFRU DexNav flower selectors at src/dexnav.c:2248-2262 name both tables. Exact-ROM metatile attributes and StandardWildEncounter 0xA15966-0xA15A68 confirm walking triggers."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.6"]
+method = "land"
+labels = ["Pink-Purple Flowers"]
+triggers = [{ encounter = 1, behaviors = [0x00], movement = "walk" }]
+evidence = "CFRU DexNav flower selectors at src/dexnav.c:2248-2262 name both tables. Exact-ROM metatile attributes and StandardWildEncounter 0xA15966-0xA15A68 confirm walking triggers; the island layout also contains ocean behavior 0x15."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.6"]
+method = "water"
+labels = ["Blue-Yellow Flowers", "Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x08], movement = "walk" }, { encounter = 2, behaviors = [0x15], movement = "surf" }]
+evidence = "CFRU DexNav flower selectors at src/dexnav.c:2248-2262 name both tables. Exact-ROM metatile attributes and StandardWildEncounter 0xA15966-0xA15A68 confirm walking triggers; the island layout also contains ocean behavior 0x15."
+
+[[pokedex.encounters.method_labels]]
+maps = ["3.73"]
+method = "water"
+labels = ["Alternate grass", "Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x08], movement = "walk" }, { encounter = 2, behaviors = [0x15], movement = "surf" }]
+evidence = "Exact-ROM layout has five alternate-grass tiles with behavior 0x08 and 27 ocean-water tiles with behavior 0x15, all encounter flag 2. StandardWildEncounter 0xA15A34-0xA15A68 selects the same water table for both."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.46", "1.49", "1.51", "1.52", "1.53", "1.54", "45.3", "45.4", "45.5", "55.2"]
+method = "water"
+labels = ["Magma"]
+triggers = [{ encounter = 2, behaviors = [0xA6], movement = "surf" }]
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.119", "1.120", "2.0", "3.82", "3.83", "3.86", "3.87", "43.1", "43.2", "55.4", "55.8"]
+method = "water"
+labels = ["Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x11], movement = "surf" }]
+evidence = "Exact-ROM layout metatile attributes contain the listed water behaviors with encounter flag 2 and no behavior 0x08 walking trigger. StandardWildEncounter 0xA15A34-0xA15A68 selects the water table while surfing; DexNav Surf is decoded at 0xA43A50."
+
+[[pokedex.encounters.method_labels]]
+maps = ["3.1", "3.81", "3.84"]
+method = "water"
+labels = ["Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x11, 0x13, 0x15], movement = "surf" }]
+evidence = "Exact-ROM layout metatile attributes contain the listed water behaviors with encounter flag 2 and no behavior 0x08 walking trigger. StandardWildEncounter 0xA15A34-0xA15A68 selects the water table while surfing; DexNav Surf is decoded at 0xA43A50."
+
+[[pokedex.encounters.method_labels]]
+maps = ["3.0", "3.75", "3.79", "3.80", "3.85", "3.89"]
+method = "water"
+labels = ["Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x11, 0x15], movement = "surf" }]
+evidence = "Exact-ROM layout metatile attributes contain the listed water behaviors with encounter flag 2 and no behavior 0x08 walking trigger. StandardWildEncounter 0xA15A34-0xA15A68 selects the water table while surfing; DexNav Surf is decoded at 0xA43A50."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.102", "1.109", "3.96", "3.97", "3.104"]
+method = "water"
+labels = ["Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x12, 0x15], movement = "surf" }]
+evidence = "Exact-ROM layout metatile attributes contain the listed water behaviors with encounter flag 2 and no behavior 0x08 walking trigger. StandardWildEncounter 0xA15A34-0xA15A68 selects the water table while surfing; DexNav Surf is decoded at 0xA43A50."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.69", "2.27", "3.72", "3.107", "47.1", "55.1", "56.2"]
+method = "water"
+labels = ["Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x13, 0x15], movement = "surf" }]
+evidence = "Exact-ROM layout metatile attributes contain the listed water behaviors with encounter flag 2 and no behavior 0x08 walking trigger. StandardWildEncounter 0xA15A34-0xA15A68 selects the water table while surfing; DexNav Surf is decoded at 0xA43A50."
+
+[[pokedex.encounters.method_labels]]
+maps = ["1.98", "1.99", "2.26", "3.4", "3.6", "3.69", "3.70", "3.71", "3.76", "3.88", "3.93", "3.94", "3.95", "3.98", "3.99", "3.100", "3.101", "3.102", "3.103", "3.105", "3.106", "45.1", "50.0", "50.1", "53.1", "53.2", "53.3", "53.4", "53.5", "53.6", "53.9", "55.0", "55.3", "56.1", "56.3", "56.6", "56.9", "56.10"]
+method = "water"
+labels = ["Surfing"]
+triggers = [{ encounter = 2, behaviors = [0x15], movement = "surf" }]
+evidence = "Exact-ROM layout metatile attributes contain the listed water behaviors with encounter flag 2 and no behavior 0x08 walking trigger. StandardWildEncounter 0xA15A34-0xA15A68 selects the water table while surfing; DexNav Surf is decoded at 0xA43A50."
+
+[pokedex.encounters.context]
+groups = 0x3526A8
+engine_groups = 0xB70498
+engine_count = 57
+bank_xor = 0x00B749DE
+
+[[pokedex.encounters.unavailable]]
+kind = "gWildDataSwitch"
+reason = "runtime-only-override"
+
+[[pokedex.encounters.unavailable]]
+kind = "swarm"
+reason = "dynamic-hourly-species-replacement-not-a-static-header"
+
+# Extract connections and name maps from ROM events.

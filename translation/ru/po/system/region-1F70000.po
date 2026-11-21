@@ -1,0 +1,855 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-1F70000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 43
+#: 0x1f75028
+msgctxt "hash:6cba1c50"
+msgid "hash:6cba1c50"
+msgstr "Дальше"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x1f75031
+msgctxt "hash:621dfceb"
+msgid "hash:621dfceb"
+msgstr "Выйти"
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 168, 168, 79, 188, 187
+#: 0x1f75036
+msgctxt "hash:e886cf85"
+msgid "hash:e886cf85"
+msgstr ""
+"Таймер перестал работать!\\pВероятно, это ошибка\\nэмулятора.\\pПри "
+"использовании mGBA нужна\\nверсия {COLOR 06}0.9.0{COLOR 02} или "
+"новее.{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f750d0
+msgctxt "hash:db7fccf3"
+msgid "hash:db7fccf3"
+msgstr "Лайнер “Марин”"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 17
+#: 0x1f75798
+msgctxt "hash:3a64f4c4"
+msgid "hash:3a64f4c4"
+msgstr "красные"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f7579c
+msgctxt "hash:1b4eb395"
+msgid "hash:1b4eb395"
+msgstr "синие"
+
+#. category: data-table; mode: field
+#. original lines: 9, widths px: 148, 150, 164, 160, 183, 175, 146, 188, 84
+#: 0x1f75afa
+msgctxt "hash:e6744ed8"
+msgid "hash:e6744ed8"
+msgstr ""
+"Совет от бывалого: перед посадкой\\nобязательно сходи в туалет.\\pЯ вот "
+"не сходил - и не успел\\nоглянуться, как ужасно\\lприспичило…\\p"
+"Попросился в туалет к одному\\nпассажиру, а он всё болтал\\lи болтал без "
+"умолку…\\pА дальше… э-э… об этом я лучше\\nпромолчу."
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 179, 175, 128, 193, 172, 129
+#: 0x1f75bfd
+msgctxt "hash:cfbd19a1"
+msgid "hash:cfbd19a1"
+msgstr ""
+"Почти в каждом рейсе тут бродит\\nкакой-нибудь отчаянно одинокий\\lчудак "
+"и ищет, с кем бы поболтать.\\pМы его так и зовём -\\nЧеловек-Шеллдер: он, "
+"как этот\\lпокемон, вцепится - не отпустит."
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 166, 184, 110, 170, 195
+#: 0x1f75cb1
+msgctxt "hash:05c0ff4a"
+msgid "hash:05c0ff4a"
+msgstr ""
+"Иногда на этом корабле плавает\\nлегендарный тренер из Канто.\\p"
+"Интересно, зачем? Уж ему-то есть\\nс кем сразиться и посильнее нас."
+
+#. category: data-table; mode: field
+#. original lines: 8, widths px: 192, 195, 112, 203, 69, 177, 187, 143
+#: 0x1f75d4b
+msgctxt "hash:416a5f40"
+msgid "hash:416a5f40"
+msgstr ""
+"Плавание тут, спору нет, приятное,\\nно правила насчёт уединения меня,\\l"
+"должен сказать, не устраивают.\\pЗапереть дверь можно, только если\\n"
+"собираешься спать?\\pЯ просто хотел спокойно добраться\\nдо места, а не "
+"отбиваться от\\lвызовов этих невеж!"
+
+#. category: data-table; mode: field
+#. original lines: 11, widths px: 125, 148, 135, 154, 189, 149, 48, 126, 159, 169, 134
+#: 0x1f75e38
+msgctxt "hash:98368d9f"
+msgid "hash:98368d9f"
+msgstr ""
+"Первый гудок означает:\\n“Здравствуйте, рады знакомству!”\\pВторой гудок "
+"означает:\\n“Какой сегодня чудесный океан!”\\pТретий и четвёртый гудки "
+"означают:\\n“Вам нравится морское\\lпутешествие?”\\pПятый гудок "
+"означает:\\n“Спасибо, до новых встреч!”\\pРазве не приятно думать, что\\n"
+"корабль вот так разговаривает?"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 203, 160, 185, 97, 195
+#: 0x1f75f57
+msgctxt "hash:ada0e77d"
+msgid "hash:ada0e77d"
+msgstr ""
+"Когда-нибудь я сколочу свою банду -\\nтолько название хорошее придумаю!\\p"
+"Я тут думал о чём-то вроде\\n“Чёрный Хончкроу”!\\pЧего? Хончкроу и так "
+"чёрные?"
+
+#. category: data-table; mode: field
+#. original lines: 16, widths px: 181, 138, 185, 174, 116, 122, 192, 171, 176, 187, 97, 148, 6, 6, 191, 156
+#: 0x1f75ff2
+msgctxt "hash:ca95e432"
+msgid "hash:ca95e432"
+msgstr ""
+"Боже, тут такая СКУКА!\\nНу правда, смертная скука!\\pНа этом корабле "
+"только и дел, что\\nспать да сражаться с тренерами!\\pНу, я им покажу!\\n"
+"Я им всем покажу!\\pПосмотрим, как им понравится, когда\\nэто Я буду "
+"нагонять на них тоску!\\pВот ты - тоже ищешь тренеров…\\nкак и все "
+"остальные.\\pНу, что скажешь?\\nЯ тебе уже надоела?\\p…\\n…\\pОй, "
+"кажется, ты меня не слушаешь…\\nмиссия выполнена!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 202, 169, 47
+#: 0x1f76197
+msgctxt "hash:ac8da4f9"
+msgid "hash:ac8da4f9"
+msgstr ""
+"Да, я такая вредная, что трачу\\nвремя тренеров, - зато хотя бы\\lпризнаю "
+"это."
+
+#. category: data-table; mode: field
+#. original lines: 15, widths px: 74, 112, 72, 195, 194, 190, 119, 191, 194, 191, 154, 6, 24, 189, 196
+#: 0x1f761e6
+msgctxt "hash:c1611e8d"
+msgid "hash:c1611e8d"
+msgstr ""
+"Атака Захлопом!\\nПрямо в ногу!\\pХа-ха-ха-ха!\\nТак просто меня не "
+"стряхнёшь!\\pВесь этот лайнер дрожит от страха\\nпри одном моём имени -\\l"
+"я Человек-Шеллдер!\\pРука, нога или лицо - неважно,\\nвцеплюсь в тебя "
+"намертво!\\pИ пока я вишу у тебя на ноге,\\nдай-ка расскажу о себе…\\p…\\p"
+"…Ай!\\pАй! Ай! Не пинай меня в лицо -\\nв моё бедное бесцеремонное лицо!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 203, 148
+#: 0x1f7636c
+msgctxt "hash:a783f353"
+msgid "hash:a783f353"
+msgstr "Ох… этот гудок резанул, как шип\\nна твоём ботинке!.."
+
+#. category: data-table; mode: field
+#. original lines: 11, widths px: 193, 86, 144, 87, 192, 191, 145, 185, 6, 180, 78
+#: 0x1f763ac
+msgctxt "hash:d347c540"
+msgid "hash:d347c540"
+msgstr ""
+"Здравствуй. Посмотри на своего\\nпокемона. А теперь на меня.\\pА теперь "
+"снова на покемона.\\nИ снова на меня.\\pК счастью, твой покемон - не я,\\n"
+"не старый хрыч, что тянет время.\\pПосмотри вниз. Где ты?\\nА ты всё ещё "
+"здесь - попался!\\p…\\pЭксперту всё по плечу!\\nЯ на корабле."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 171
+#: 0x1f764c0
+msgctxt "hash:8b95a4a1"
+msgid "hash:8b95a4a1"
+msgstr "Мой ораторский дар эксперта\\nслишком МОГУЧ, чтобы умолкнуть!"
+
+#. category: data-table; mode: field
+#. original lines: 19, widths px: 174, 89, 204, 183, 146, 162, 155, 191, 150, 194, 191, 114, 124, 181, 112, 148, 6, 171, 170
+#: 0x1f76502
+msgctxt "hash:74dfabf3"
+msgid "hash:74dfabf3"
+msgstr ""
+"Ох… кажется, мой геморрой опять\\nразыгрался…\\pАх да, ты - будь "
+"лапочкой, послушай\\nнемножко ворчание старушки, а?\\pВидишь ли, всё мой "
+"геморрой…\\pОх, это просто ужас!\\nБудто там поселилась целая стая\\l"
+"Волторбов…\\pИз-за него и сидеть - мука,\\nа какие пятна он оставляет\\l"
+"на одежде…\\pВот, у меня и фото есть!\\pТак, куда же я положила "
+"последний\\nснимок от моего врача…\\pДа, тот самый, прямо в мою -\\p…\\p"
+"Ох, батюшки… на тебе лица нет.\\nМожет, зря я это…"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 175, 164, 142, 115, 96
+#: 0x1f76713
+msgctxt "hash:49556868"
+msgid "hash:49556868"
+msgstr ""
+"А, тебе нужна была битва?\\nДля меня каждый день - битва!\\pБитва с моим "
+"проклятым\\nгеморроем, вот какая!\\lОх, за что мне это…"
+
+#. category: data-table; mode: field
+#. original lines: 24, widths px: 71, 154, 167, 134, 183, 196, 189, 191, 145, 190, 179, 78, 161, 166, 188, 139, 205, 142, 181, 126, 6, 116, 183, 91
+#: 0x1f76793
+msgctxt "hash:5279ad47"
+msgid "hash:5279ad47"
+msgstr ""
+"А! Постой-ка!\\nКажется, я знаю, кто ты!\\pЧто? Ты не знаешь, кто я?\\n"
+"Ну, неудивительно!\\pЯ бывший член Теней, так что моё\\nлицо тебе вряд ли "
+"попадалось.\\pКстати, как там поживают ребята?\\pЗеф хоть приблизился к "
+"созданию\\nидеального живого оружия?\\pЧто? Он вовсе не этого добивался "
+"-\\nон всё это время хотел оживить\\lсвоего погибшего сына?\\pНу и "
+"чушь!\\pКакой смысл создавать непобедимого\\nмонстра, если не пускать "
+"его\\lв ход против врагов?\\pИменно из-за этой дурацкой мысли\\nя и ушёл, "
+"знаешь ли!\\pНу что ж… интересно, Научное\\nобщество ещё набирает "
+"людей?..\\p…\\pАх, что-то я заболтался!\\nНе волнуйся, когда-нибудь я\\l"
+"закончу то, что начал Зеф!"
+
+#. category: data-table; mode: field
+#. original lines: 7, widths px: 154, 188, 189, 171, 69, 200, 117
+#: 0x1f76a2c
+msgctxt "hash:0bb4c92c"
+msgid "hash:0bb4c92c"
+msgstr ""
+"Уже гудок?\\nЭх, заболтался я…\\pНу, тебя всё равно, по-моему, даже\\n"
+"лучший Воин Теней не одолел бы.\\pПрости, что побеспокоил. Удачи\\nс "
+"остальными пассажирами!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 118
+#: 0x1f76b9d
+msgctxt "hash:27446a6c"
+msgid "hash:27446a6c"
+msgstr "Знаю, это было подло, но да ладно…\\nНе мог удержаться."
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 185, 179, 162, 191, 175, 70
+#: 0x1f76bd3
+msgctxt "hash:cc81af4e"
+msgid "hash:cc81af4e"
+msgstr ""
+"Я надеялся повстречать редких\\nпокемонов в боях с пассажирами…\\pНо кому "
+"охота плыть, когда есть\\nвелосипед или летающие покемоны?\\lТак что тут "
+"вечно одни и те же…"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 170, 61, 193, 182, 117
+#: 0x1f76d4c
+msgctxt "hash:c821a179"
+msgid "hash:c821a179"
+msgstr ""
+"Может, мне опять куда-нибудь\\nпереехать…\\pЯ слышала много хорошего о "
+"регионе\\n“Орре” - там ведь никогда ничего\\lплохого не случается, правда?"
+
+#. category: data-table; mode: field
+#. original lines: 7, widths px: 169, 156, 170, 179, 68, 144, 171
+#: 0x1f76dd0
+msgctxt "hash:c0954d4e"
+msgid "hash:c0954d4e"
+msgstr ""
+"Я переехала в Борриус, чтобы\\nсбежать от преступности дома…\\pИ что ты "
+"думаешь? Попала\\nпрямиком туда, где преступников\\lЕЩЁ больше!\\pТак что "
+"я просто хочу домой,\\nпока не случилось ничего плохого…"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 187, 176, 180, 140
+#: 0x1f76f5d
+msgctxt "hash:5fb842c0"
+msgid "hash:5fb842c0"
+msgstr ""
+"Мегакамни, кристаллы-Z, динамакс…\\pПрелестно. А о тех, кому так\\nне "
+"повезло, кто-нибудь подумал?\\pИли кто не так омерзительно богат?"
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 170, 180, 192, 184, 186, 131
+#: 0x1f76fdb
+msgctxt "hash:f10dae82"
+msgid "hash:f10dae82"
+msgstr ""
+"Я хочу просто честного боя,\\nгде все равны.\\pПоэтому, как ни странно,\\n"
+"я собираюсь в город Антисис.\\pГоворят, там есть место, где можно\\n"
+"сражаться именно так."
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 191, 131, 206, 180, 84
+#: 0x1f77143
+msgctxt "hash:f0c00da2"
+msgid "hash:f0c00da2"
+msgstr ""
+"Только попробуй больше никогда\\nне ступать на этот корабль!\\pЯ не "
+"вынесу мысли, что проиграла\\nи больше никогда не смогу\\lс тобой "
+"переиграть!"
+
+#. category: data-table; mode: field
+#. original lines: 10, widths px: 168, 121, 142, 89, 182, 161, 32, 170, 195, 100
+#: 0x1f771d6
+msgctxt "hash:8c34879b"
+msgid "hash:8c34879b"
+msgstr ""
+"Знаешь кого-нибудь, кто вечно\\nоказывается вторым?\\pЭто как раз про "
+"меня…\\nэх…\\pНа каких бы соревнованиях\\nя ни выступала, всегда "
+"проигрываю\\lв финале.\\pСейчас я отдыхаю, чтобы проветрить\\nголову, так "
+"что сразимся\\lв следующем рейсе, ладно?"
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 185, 162, 186, 47, 202, 168
+#: 0x1f77338
+msgctxt "hash:80a238ed"
+msgid "hash:80a238ed"
+msgstr ""
+"Что-что? Зачем мне отбирать\\nу пассажира ценности?\\pВидишь ли, люди "
+"бывают\\nдвух видов…\\pТе, кому нужны деньги, и те, кому\\nнужно чуточку "
+"больше денег…"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 175, 132, 195, 173
+#: 0x1f773e6
+msgctxt "hash:af6812ab"
+msgid "hash:af6812ab"
+msgstr ""
+"Ради ещё большего богатства\\nя готов на всё!\\pНу, разве что от круизов "
+"на этом\\nчудесном корабле не откажусь!.."
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 188, 109, 204, 166
+#: 0x1f774ed
+msgctxt "hash:38f3d78a"
+msgid "hash:38f3d78a"
+msgstr ""
+"Нет, я… уверяю тебя, я самый что\\nни на есть настоящий человек!\\pИ я "
+"вовсе не сбегаю от Научного\\nобщества, Дитто!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 184, 174, 195, 171, 144
+#: 0x1f77568
+msgctxt "hash:842dc495"
+msgid "hash:842dc495"
+msgstr ""
+"Мне не очень нравится Восточный\\nБорриус - там слишком сыро.\\pНо зато в "
+"городке Магнолия есть\\nчудеснейшее кафе, ради которого\\lстоит туда "
+"ездить."
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 154, 192, 168, 191, 189, 56
+#: 0x1f776c7
+msgctxt "hash:1e737762"
+msgid "hash:1e737762"
+msgstr ""
+"Весьма поучительно…\\pИнтересно, много ли в тебе будет\\nбодрости в моём "
+"возрасте…\\pДа что там, даже Артур, прошлый\\nчемпион, не был так полон "
+"сил\\lи энергии!"
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 201, 162, 173, 114, 190, 146
+#: 0x1f77776
+msgctxt "hash:e9e9526f"
+msgid "hash:e9e9526f"
+msgstr ""
+"Сражаться я не настроен, но слушать\\nзвуки боёв в соседних каютах мне\\l"
+"никогда не надоедает.\\pЛюблю развлекаться, угадывая,\\nчто там "
+"происходит!"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 179, 42, 185, 206, 119
+#: 0x1f778b1
+msgctxt "hash:de5a881d"
+msgid "hash:de5a881d"
+msgstr ""
+"ТРЕЙДЕРЫ? ПРОСТИ, Я ПРИШЛА СЮДА\\nСРАЖАТЬСЯ…\\pА, ТЫ ПРО “ТРЕНЕРОВ”! "
+"ПРОСТИ!\\pНЕТ, СКОЛЬКО НАС ТУТ, Я НЕ ЗНАЮ -\\nСПРОСИ У ЭКИПАЖА."
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 192, 174, 90, 185, 195
+#: 0x1f77931
+msgctxt "hash:58ff3574"
+msgid "hash:58ff3574"
+msgstr ""
+"ЧТО-ЧТО? ГДЕ ОСТАЛЬНЫЕ… КТО?\\pТРЕЩИНЫ? В КОРПУСЕ ТРЕЩИНЫ?\\pА, ТРЕНЕРЫ! "
+"ПРОСТИ - Я ГЛУХОВАТА!\\pНЕ ЗНАЮ - СПРОСИ У ЭКИПАЖА!"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 176, 158, 182, 145, 121
+#: 0x1f77a3b
+msgctxt "hash:d51f9dff"
+msgid "hash:d51f9dff"
+msgstr ""
+"Не видать тебе этого Аромата роз…\\nкоторого у меня нет…\\pПотому что я "
+"уж точно\\nне контрабандист\\lиз города Антисис.\\pНе-а, точно нет."
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 190, 51, 195, 39, 188, 143
+#: 0x1f77acf
+msgctxt "hash:f666177c"
+msgid "hash:f666177c"
+msgstr ""
+"Если вся эта бандитская жизнь\\nне задастся…\\pНу, я бы не прочь стать "
+"следующим\\nБиг Мо.\\pХотя никто не будет Биг Мо\\nлучше, чем сам Биг Мо!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1f77b6c
+msgctxt "hash:79401a16"
+msgid "hash:79401a16"
+msgstr "База{CLEAR_TO 2D}EV{CLEAR_TO 55}IV"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1f77b7d
+msgctxt "hash:3e1ba62b"
+msgid "hash:3e1ba62b"
+msgstr "Итог{CLEAR_TO 2D}EV{CLEAR_TO 55}IV"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 115
+#: 0x1f77b8e
+msgctxt "hash:bd499fe4"
+msgid "hash:bd499fe4"
+msgstr "{F8 0B}Выбор {F8 00}Имя {F8 01}Выход {F8 02}{F8 03}Стр."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 112
+#: 0x1f77bad
+msgctxt "hash:8fcafce2"
+msgid "hash:8fcafce2"
+msgstr "{F8 0B}Выбор {F8 00}Правка {F8 01}Выход {F8 02}{F8 03}Стр."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 106
+#: 0x1f77bcc
+msgctxt "hash:71f7be65"
+msgid "hash:71f7be65"
+msgstr "{F8 0C}Выбор {F8 00}Правка {F8 01}ОК {F8 02}{F8 03}Нрав"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 147
+#: 0x1f77bea
+msgctxt "hash:bd32f1cb"
+msgid "hash:bd32f1cb"
+msgstr ""
+"{F8 0C}Выбор {F8 00}Правка {F8 01}ОК {F8 02}{F8 03}Нрав {F8 04}{COLOR "
+"05}{SHADOW 04}Рост"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 93
+#: 0x1f77c17
+msgctxt "hash:2727fd29"
+msgid "hash:2727fd29"
+msgstr "{F8 0C}Изменить {F8 00}ОК {F8 01}Отмена"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 138
+#: 0x1f77c2e
+msgctxt "hash:dcf296f1"
+msgid "hash:dcf296f1"
+msgstr "{F8 0C}Изменить {F8 00}ОК {F8 01}Отмена {F8 02}Мин {F8 03}Макс"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 120
+#: 0x1f77c51
+msgctxt "hash:a7ef27bc"
+msgid "hash:a7ef27bc"
+msgstr "{F8 0B}Выбор {F8 00}Смотреть {F8 01}Выход {F8 02}{F8 03}Стр."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 121
+#: 0x1f77c71
+msgctxt "hash:7e08c711"
+msgid "hash:7e08c711"
+msgstr "{F8 0B}Выбор {F8 00}Научить {F8 01}Выход {F8 02}{F8 03}Стр."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x1f77ced
+msgctxt "hash:2cdd61ea"
+msgid "hash:2cdd61ea"
+msgstr "ТМ/НМ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 53
+#: 0x1f77cf5
+msgctxt "hash:cc8f5fcc"
+msgid "hash:cc8f5fcc"
+msgstr "Из яйца"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x1f77cff
+msgctxt "hash:8103b7cf"
+msgid "hash:8103b7cf"
+msgstr "Учителя"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 47
+#: 0x1f77d06
+msgctxt "hash:ab954a33"
+msgid "hash:ab954a33"
+msgstr "Уровень"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f77d15
+msgctxt "hash:4d509442"
+msgid "hash:4d509442"
+msgstr "{FONT 00}Эв. {CLEAR_TO 18}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 45, 6
+#: 0x1f77d21
+msgctxt "hash:06e27470"
+msgid "hash:06e27470"
+msgstr "Покемон {STR_VAR_1} выучил\\nприём {STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 165
+#: 0x1f77d32
+msgctxt "hash:6f4baba0"
+msgid "hash:6f4baba0"
+msgstr "Нет приёмов для изучения.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 165
+#: 0x1f77d52
+msgctxt "hash:37acf955"
+msgid "hash:37acf955"
+msgstr "Этот приём ещё не получен.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 195, 130
+#: 0x1f77d72
+msgctxt "hash:0000fb0b"
+msgid "hash:0000fb0b"
+msgstr ""
+"Чтобы научить этому приёму, нужно\\nпройти дальше по "
+"сюжету.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 118, 89
+#: 0x1f77daf
+msgctxt "hash:016cd56e"
+msgid "hash:016cd56e"
+msgstr ""
+"Уровень покемона {STR_VAR_1} слишком\\nнизок для приёма "
+"{STR_VAR_2}.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 145, 90
+#: 0x1f77ddc
+msgctxt "hash:86aab0d4"
+msgid "hash:86aab0d4"
+msgstr ""
+"Чтобы научить этому приёму,\\nнужна {COLOR 06}Сердце-чешуйка{COLOR "
+"02}.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 173, 55
+#: 0x1f77e0f
+msgctxt "hash:39abfe16"
+msgid "hash:39abfe16"
+msgstr ""
+"Чтобы научить этому приёму, нужно\\nне меньше {COLOR 06}{STR_VAR_3} "
+"БО{COLOR 02}.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 176, 102
+#: 0x1f77e43
+msgctxt "hash:8d9f4d6e"
+msgid "hash:8d9f4d6e"
+msgstr "Этот приём стоит {COLOR 06}Сердце-чешуйку{COLOR 02}.\\nПродолжить?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 163, 47
+#: 0x1f77e7c
+msgctxt "hash:a589de32"
+msgid "hash:a589de32"
+msgstr "Этот приём стоит {COLOR 06}{STR_VAR_3} БО{COLOR 02}.\\nПродолжить?"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 191, 185
+#: 0x1f77eab
+msgctxt "hash:6814ce70"
+msgid "hash:6814ce70"
+msgstr ""
+"Одна Сердце-чешуйка передана\\nЗнатоку приёмов в городке "
+"Кратер.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 123, 116
+#: 0x1f77ef2
+msgctxt "hash:549d1df4"
+msgid "hash:549d1df4"
+msgstr ""
+"Помощнику профессора Лога\\nпередано БО: {STR_VAR_3}.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 97
+#: 0x1f77f24
+msgctxt "hash:173eafe6"
+msgid "hash:173eafe6"
+msgstr "{STR_VAR_1}: эволюции нет.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 108
+#: 0x1f77f3a
+msgctxt "hash:dfced71f"
+msgid "hash:dfced71f"
+msgstr "{STR_VAR_1}: эволюция пока невозможна.{PAUSE_UNTIL_PRESS}"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 173, 190
+#: 0x1f77f52
+msgctxt "hash:6528a915"
+msgid "hash:6528a915"
+msgstr ""
+"Этому приёму научит Знаток приёмов\\nиз городка Кратер за "
+"Сердце-чешуйку.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 165, 95
+#: 0x1f77f96
+msgctxt "hash:cd11422d"
+msgid "hash:cd11422d"
+msgstr ""
+"Этот приём можно получить\\nтолько при скрещивании.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 155, 162
+#: 0x1f77fc8
+msgctxt "hash:20a48b4a"
+msgid "hash:20a48b4a"
+msgstr "Этому приёму можно научить\\nс помощью Кейса ТМ.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 196, 175
+#: 0x1f78004
+msgctxt "hash:0decb85a"
+msgid "hash:0decb85a"
+msgstr ""
+"Чтобы выучить этот приём, нужно\\nнайти учителя, который ему "
+"научит.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 213
+#: 0x1f7804a
+msgctxt "hash:f6557b8b"
+msgid "hash:f6557b8b"
+msgstr "Этим приёмам сейчас научить нельзя.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 18, 187, 199, 194, 28
+#: 0x1f78073
+msgctxt "hash:99f2fe65"
+msgid "hash:99f2fe65"
+msgstr ""
+"Что такое?\\pПохоже, помощник профессора Лога\\nможет улучшить Сканер "
+"параметров!\\pДля этого нужно вернуться\\nв Ледяные "
+"Высоты.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 154, 54, 194, 143, 0
+#: 0x1f780e9
+msgctxt "hash:a6bf21d0"
+msgid "hash:a6bf21d0"
+msgstr ""
+"Добро пожаловать в интерфейс\\nСканера параметров!\\pС этим устройством "
+"можно не только\\nсмотреть параметры своих покемонов…\\p"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 190, 148, 145, 111
+#: 0x1f78150
+msgctxt "hash:0efecc45"
+msgid "hash:0efecc45"
+msgstr ""
+"…но и смотреть, каким приёмам\\nони могут научиться!\\pМежду страницами "
+"легко переходить\\nкнопками {F8 02} и {F8 03}!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 167, 127, 175, 189, 209, 0
+#: 0x1f781c2
+msgctxt "hash:94b9399e"
+msgid "hash:94b9399e"
+msgstr ""
+"Добро пожаловать в полностью\\nулучшенный Сканер параметров!\\pЭта особая "
+"версия интерфейса\\nпозволяет менять у покемонов\\lмногое: например, "
+"параметры…\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 140, 0
+#: 0x1f78263
+msgctxt "hash:2b8ec6f5"
+msgid "hash:2b8ec6f5"
+msgstr "Уровни и пол…\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 84, 0
+#: 0x1f7827e
+msgctxt "hash:d7c1ef79"
+msgid "hash:d7c1ef79"
+msgstr "Таланты…\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 140, 0
+#: 0x1f78290
+msgctxt "hash:cb41631f"
+msgid "hash:cb41631f"
+msgstr "Характер кнопками {F8 02} и {F8 03}…\\p"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 103, 52, 0
+#: 0x1f782af
+msgctxt "hash:51df2269"
+msgid "hash:51df2269"
+msgstr "Вызывать эволюцию кнопкой {F8 04}…\\pИ даже…\\p"
+
+#. category: code; mode: field
+#. original lines: 7, widths px: 128, 180, 161, 166, 197, 167, 202
+#: 0x1f782cf
+msgctxt "hash:765b007d"
+msgid "hash:765b007d"
+msgstr ""
+"…учить их новым приёмам!\\p{F8 00} - начать изменения,\\n{F8 01} - "
+"сохранить их, а {F8 02} и {F8 03} -\\lперейти на другую страницу!\\p"
+"Дальнейшие подсказки по ходу\\nизменений появляются внизу\\l"
+"интерфейса.{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f783b8
+msgctxt "hash:df824353"
+msgid "hash:df824353"
+msgstr "Тармиган"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 87
+#: 0x1f79d90
+msgctxt "hash:a862a65e"
+msgid "hash:a862a65e"
+msgstr "Особняк Тармиган"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:bd783278-9758-5304-a41f-fbdeb6c4f281
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 156, 179, 196, 198
+#: 0x1f79da1
+msgctxt "hash:3ce53ee2"
+msgid "hash:3ce53ee2"
+msgstr ""
+"Старинный особняк стоит здесь\\nсо дня основания городка\\nТармиган. "
+"Победив хозяйку\\nособняка, можно получить силу\\nмегаэволюции!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1f7bbf8
+msgctxt "hash:8318a554"
+msgid "hash:8318a554"
+msgstr "Тель"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 167, 193, 166
+#: 0x1f7be70
+msgctxt "hash:278cb4d1"
+msgid "hash:278cb4d1"
+msgstr ""
+"Скульптору для последней статуи\\nнужно вдохновение! Принести ему\\n"
+"покемона, спящего под Беллином."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 169, 164
+#: 0x1f7d066
+msgctxt "hash:9b31a546"
+msgid "hash:9b31a546"
+msgstr ""
+"Помочь исследователю изучить\\nсмену сезонных форм в Борриусе:\\nпринести "
+"ему разных Сосбаков."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 167, 152
+#: 0x1f7d0c5
+msgctxt "hash:c41fbf27"
+msgid "hash:c41fbf27"
+msgstr ""
+"Помочь исследователю изучить\\nсмену сезонных форм: принести ему\\n"
+"Сосбака в весенней форме."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 167, 155
+#: 0x1f7d122
+msgctxt "hash:f5f19584"
+msgid "hash:f5f19584"
+msgstr ""
+"Помочь исследователю изучить\\nсмену сезонных форм: принести ему\\n"
+"Сосбака в летней форме."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 167, 154
+#: 0x1f7d17f
+msgctxt "hash:63602b86"
+msgid "hash:63602b86"
+msgstr ""
+"Помочь исследователю изучить\\nсмену сезонных форм: принести ему\\n"
+"Сосбака в осенней форме."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 167, 151
+#: 0x1f7d1dc
+msgctxt "hash:037be7b7"
+msgid "hash:037be7b7"
+msgstr ""
+"Помочь исследователю изучить\\nсмену сезонных форм: принести ему\\n"
+"Сосбака в зимней форме."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x1f7e03c
+msgctxt "hash:d5d020f6"
+msgid "hash:d5d020f6"
+msgstr "Гора Тандеркэп"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 180, 89, 172, 115
+#: 0x1f7e06d
+msgctxt "hash:e25c59f8"
+msgid "hash:e25c59f8"
+msgstr ""
+"Гора, известная частыми грозами.\\nЛегенды гласят, что на её вершине\\n"
+"гнездится могучий покемон."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 179, 172
+#: 0x1f7e1ec
+msgctxt "hash:4f49d6d9"
+msgid "hash:4f49d6d9"
+msgstr ""
+"Малыш заблудился на 4-м этаже\\nгоры Тандеркэп! Объединиться\\nс ним и "
+"вывести его к выходу."

@@ -1,0 +1,764 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/credits-firered\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 0: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 39, 0, 0, 0, 0
+#: 0x041d1d8
+msgctxt "table:credits-firered/0/0"
+msgid "table:credits-firered/0/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 0: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 26, 0, 0, 0
+#: 0x041d1e8
+msgctxt "table:credits-firered/0/1"
+msgid "table:credits-firered/0/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 1: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 65, 0, 82, 0, 0, 0
+#: 0x041d200
+msgctxt "table:credits-firered/1/0"
+msgid "table:credits-firered/1/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 1: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 66, 0, 87, 0, 0
+#: 0x041d224
+msgctxt "table:credits-firered/1/1"
+msgid "table:credits-firered/1/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 2: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 81, 0, 83, 0, 118, 0, 0
+#: 0x041d248
+msgctxt "table:credits-firered/2/0"
+msgid "table:credits-firered/2/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 2: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 92, 0, 64, 0, 57, 0
+#: 0x041d284
+msgctxt "table:credits-firered/2/1"
+msgid "table:credits-firered/2/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 3: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 6, widths px: 62, 0, 0, 0, 0, 0
+#: 0x041d2b4
+msgctxt "table:credits-firered/3/0"
+msgid "table:credits-firered/3/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 3: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 94, 59, 79, 78, 67, 0
+#: 0x041d2c8
+msgctxt "table:credits-firered/3/1"
+msgid "table:credits-firered/3/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 4: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 102, 0, 0, 0, 0, 0, 0
+#: 0x041d314
+msgctxt "table:credits-firered/4/0"
+msgid "table:credits-firered/4/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 4: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 92, 53, 78, 82, 0, 0
+#: 0x041d330
+msgctxt "table:credits-firered/4/1"
+msgid "table:credits-firered/4/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 5: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 93, 0, 0, 0, 0, 0, 0
+#: 0x041d370
+msgctxt "table:credits-firered/5/0"
+msgid "table:credits-firered/5/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 5: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 57, 78, 52, 75, 0, 0
+#: 0x041d388
+msgctxt "table:credits-firered/5/1"
+msgid "table:credits-firered/5/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 6: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 93, 0, 0, 0, 0, 0
+#: 0x041d3c0
+msgctxt "table:credits-firered/6/0"
+msgid "table:credits-firered/6/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 6: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 66, 89, 0, 0, 0
+#: 0x041d3d8
+msgctxt "table:credits-firered/6/1"
+msgid "table:credits-firered/6/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 7: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 92, 0, 0, 0, 0, 0
+#: 0x041d3fc
+msgctxt "table:credits-firered/7/0"
+msgid "table:credits-firered/7/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 7: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 62, 78, 0, 0, 0
+#: 0x041d414
+msgctxt "table:credits-firered/7/1"
+msgid "table:credits-firered/7/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 8: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 73, 0, 0, 0, 0
+#: 0x041d434
+msgctxt "table:credits-firered/8/0"
+msgid "table:credits-firered/8/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 8: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 62, 0, 0, 0
+#: 0x041d448
+msgctxt "table:credits-firered/8/1"
+msgid "table:credits-firered/8/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 9: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 78, 0, 0, 0, 0, 0
+#: 0x041d45c
+msgctxt "table:credits-firered/9/0"
+msgid "table:credits-firered/9/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 9: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 78, 64, 67, 0, 0
+#: 0x041d474
+msgctxt "table:credits-firered/9/1"
+msgid "table:credits-firered/9/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 10: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 78, 0, 0, 0, 0, 0
+#: 0x041d4a4
+msgctxt "table:credits-firered/10/0"
+msgid "table:credits-firered/10/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 10: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 60, 78, 95, 0, 0
+#: 0x041d4bc
+msgctxt "table:credits-firered/10/1"
+msgid "table:credits-firered/10/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 11: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 74, 0, 0, 0, 0, 0
+#: 0x041d4f0
+msgctxt "table:credits-firered/11/0"
+msgid "table:credits-firered/11/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 11: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 60, 75, 0, 0, 0
+#: 0x041d504
+msgctxt "table:credits-firered/11/1"
+msgid "table:credits-firered/11/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 12: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 81, 0, 67, 0, 0, 0
+#: 0x041d524
+msgctxt "table:credits-firered/12/0"
+msgid "table:credits-firered/12/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 12: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 79, 0, 78, 0, 0
+#: 0x041d548
+msgctxt "table:credits-firered/12/1"
+msgid "table:credits-firered/12/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 13: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 109, 0, 0, 0, 0, 0
+#: 0x041d56c
+msgctxt "table:credits-firered/13/0"
+msgid "table:credits-firered/13/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 13: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 64, 67, 87, 0, 0
+#: 0x041d588
+msgctxt "table:credits-firered/13/1"
+msgid "table:credits-firered/13/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 14: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 70, 0, 0, 0, 0
+#: 0x041d5b8
+msgctxt "table:credits-firered/14/0"
+msgid "table:credits-firered/14/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 14: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 88, 0, 0, 0
+#: 0x041d5cc
+msgctxt "table:credits-firered/14/1"
+msgid "table:credits-firered/14/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 15: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 94, 0, 0, 0, 0, 0, 0
+#: 0x041d5e4
+msgctxt "table:credits-firered/15/0"
+msgid "table:credits-firered/15/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 15: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 66, 95, 87, 89, 0, 0
+#: 0x041d5fc
+msgctxt "table:credits-firered/15/1"
+msgid "table:credits-firered/15/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 16: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 94, 0, 0, 0, 0, 0, 0
+#: 0x041d640
+msgctxt "table:credits-firered/16/0"
+msgid "table:credits-firered/16/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 16: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 67, 78, 57, 52, 59, 0
+#: 0x041d658
+msgctxt "table:credits-firered/16/1"
+msgid "table:credits-firered/16/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 17: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 94, 0, 0, 0, 0, 0, 0
+#: 0x041d698
+msgctxt "table:credits-firered/17/0"
+msgid "table:credits-firered/17/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 17: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 76, 62, 79, 60, 0, 0
+#: 0x041d6b0
+msgctxt "table:credits-firered/17/1"
+msgid "table:credits-firered/17/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 18: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 5, widths px: 123, 0, 0, 0, 0
+#: 0x041d6ec
+msgctxt "table:credits-firered/18/0"
+msgid "table:credits-firered/18/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 18: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 94, 69, 0, 93, 82, 0
+#: 0x041d708
+msgctxt "table:credits-firered/18/1"
+msgid "table:credits-firered/18/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 19: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 107, 0, 0, 0, 0
+#: 0x041d74c
+msgctxt "table:credits-firered/19/0"
+msgid "table:credits-firered/19/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 19: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 115, 0, 0, 0
+#: 0x041d768
+msgctxt "table:credits-firered/19/1"
+msgid "table:credits-firered/19/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 20: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x041d784
+msgctxt "table:credits-firered/20/0"
+msgid "table:credits-firered/20/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 20: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 73, 81, 84, 0, 78, 0
+#: 0x041d79c
+msgctxt "table:credits-firered/20/1"
+msgid "table:credits-firered/20/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 21: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x041d7dc
+msgctxt "table:credits-firered/21/0"
+msgid "table:credits-firered/21/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 21: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 78, 0, 61, 87, 88, 0
+#: 0x041d7f4
+msgctxt "table:credits-firered/21/1"
+msgid "table:credits-firered/21/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 22: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x041d834
+msgctxt "table:credits-firered/22/0"
+msgid "table:credits-firered/22/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 22: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 73, 69, 74, 75, 74, 0
+#: 0x041d84c
+msgctxt "table:credits-firered/22/1"
+msgid "table:credits-firered/22/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 23: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 102, 0, 0, 0, 0
+#: 0x041d894
+msgctxt "table:credits-firered/23/0"
+msgid "table:credits-firered/23/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 23: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 116, 0, 0, 0
+#: 0x041d8b0
+msgctxt "table:credits-firered/23/1"
+msgid "table:credits-firered/23/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 24: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 125, 0, 0, 0, 0, 0, 0
+#: 0x041d8cc
+msgctxt "table:credits-firered/24/0"
+msgid "table:credits-firered/24/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 24: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 76, 86, 65, 73, 69, 0
+#: 0x041d8ec
+msgctxt "table:credits-firered/24/1"
+msgid "table:credits-firered/24/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 25: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 65, 0, 0, 0, 0, 0, 0
+#: 0x041d938
+msgctxt "table:credits-firered/25/0"
+msgid "table:credits-firered/25/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 25: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 69, 68, 89, 0, 79, 0
+#: 0x041d94c
+msgctxt "table:credits-firered/25/1"
+msgid "table:credits-firered/25/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 26: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 73, 0, 0, 0, 0, 0
+#: 0x041d98c
+msgctxt "table:credits-firered/26/0"
+msgid "table:credits-firered/26/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 26: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 88, 74, 0, 0, 0
+#: 0x041d9a0
+msgctxt "table:credits-firered/26/1"
+msgid "table:credits-firered/26/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 27: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 51, 0, 0, 0, 0, 0
+#: 0x041d9c4
+msgctxt "table:credits-firered/27/0"
+msgid "table:credits-firered/27/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 27: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 78, 83, 70, 0, 0
+#: 0x041d9d4
+msgctxt "table:credits-firered/27/1"
+msgid "table:credits-firered/27/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 28: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 100, 0, 0, 0, 0
+#: 0x041da08
+msgctxt "table:credits-firered/28/0"
+msgid "table:credits-firered/28/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 28: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 75, 0, 0, 0
+#: 0x041da24
+msgctxt "table:credits-firered/28/1"
+msgid "table:credits-firered/28/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 29: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 103, 0, 0, 0, 0
+#: 0x041da3c
+msgctxt "table:credits-firered/29/0"
+msgid "table:credits-firered/29/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 29: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 69, 0, 0, 0
+#: 0x041da58
+msgctxt "table:credits-firered/29/1"
+msgid "table:credits-firered/29/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 30: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 103, 0, 0, 0, 0
+#: 0x041da6c
+msgctxt "table:credits-firered/30/0"
+msgid "table:credits-firered/30/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 30: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 95, 0, 0, 0
+#: 0x041da88
+msgctxt "table:credits-firered/30/1"
+msgid "table:credits-firered/30/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 31: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 151, 0, 0, 0, 0, 0
+#: 0x041daa0
+msgctxt "table:credits-firered/31/0"
+msgid "table:credits-firered/31/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 31: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 73, 73, 0, 0, 0
+#: 0x041dac4
+msgctxt "table:credits-firered/31/1"
+msgid "table:credits-firered/31/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 32: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 54, 0, 61, 0, 0, 0
+#: 0x041dae8
+msgctxt "table:credits-firered/32/0"
+msgid "table:credits-firered/32/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 32: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 76, 0, 88, 0, 0
+#: 0x041db04
+msgctxt "table:credits-firered/32/1"
+msgid "table:credits-firered/32/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 33: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 62, 0, 0, 0, 0, 0, 0
+#: 0x041db28
+msgctxt "table:credits-firered/33/0"
+msgid "table:credits-firered/33/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 33: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 84, 91, 66, 68, 0, 0
+#: 0x041db3c
+msgctxt "table:credits-firered/33/1"
+msgid "table:credits-firered/33/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 34: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 170, 0, 0, 0, 0, 0
+#: 0x041db7c
+msgctxt "table:credits-firered/34/0"
+msgid "table:credits-firered/34/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 34: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 84, 91, 86, 0, 0
+#: 0x041dba4
+msgctxt "table:credits-firered/34/1"
+msgid "table:credits-firered/34/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 35: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 107, 0, 0, 0, 0, 0, 0
+#: 0x041dbdc
+msgctxt "table:credits-firered/35/0"
+msgid "table:credits-firered/35/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 35: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 81, 87, 73, 0, 0, 0
+#: 0x041dbf8
+msgctxt "table:credits-firered/35/1"
+msgid "table:credits-firered/35/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 36: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 102, 0, 0, 0, 0, 0, 0
+#: 0x041dc2c
+msgctxt "table:credits-firered/36/0"
+msgid "table:credits-firered/36/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 36: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 104, 66, 99, 116, 110, 0
+#: 0x041dc48
+msgctxt "table:credits-firered/36/1"
+msgid "table:credits-firered/36/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 37: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 102, 0, 0, 0, 0, 0
+#: 0x041dcac
+msgctxt "table:credits-firered/37/0"
+msgid "table:credits-firered/37/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 37: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 152, 39, 90, 0, 0
+#: 0x041dcc8
+msgctxt "table:credits-firered/37/1"
+msgid "table:credits-firered/37/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 38: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x041dd08
+msgctxt "table:credits-firered/38/0"
+msgid "table:credits-firered/38/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 38: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 83, 86, 88, 81, 0, 0
+#: 0x041dd20
+msgctxt "table:credits-firered/38/1"
+msgid "table:credits-firered/38/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 39: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x041dd64
+msgctxt "table:credits-firered/39/0"
+msgid "table:credits-firered/39/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 39: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 106, 62, 77, 62, 65, 0
+#: 0x041dd7c
+msgctxt "table:credits-firered/39/1"
+msgid "table:credits-firered/39/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 40: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 102, 0, 0, 0, 0, 0
+#: 0x041ddc8
+msgctxt "table:credits-firered/40/0"
+msgid "table:credits-firered/40/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 40: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 123, 127, 57, 0, 0
+#: 0x041dde4
+msgctxt "table:credits-firered/40/1"
+msgid "table:credits-firered/40/1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 41: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 88, 0, 0, 0, 0
+#: 0x041de24
+msgctxt "table:credits-firered/41/0"
+msgid "table:credits-firered/41/0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. pointer table credits-firered, record 41: FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 68, 0, 0, 0
+#: 0x041de3c
+msgctxt "table:credits-firered/41/1"
+msgid "table:credits-firered/41/1"
+msgstr ""

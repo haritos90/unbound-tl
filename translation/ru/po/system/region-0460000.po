@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0460000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: hash:4c49160a: FireRed 0x814A490 jumps to Unbound's hook 0x89A2498, which returns to 0x814A4C2; the suffix code 0x814A49E-0x814A4BE with its load at 0x814A4BC (pool 0x814A530) is skipped, and no BL or pointer enters it)
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x046d94c
+#, empty
+msgctxt "hash:4c49160a"
+msgid "hash:4c49160a"
+msgstr ""

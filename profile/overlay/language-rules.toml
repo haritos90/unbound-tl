@@ -1,0 +1,348 @@
+[[language_rules]]
+id = "item-plurals"
+title = "Item plurals"
+description = "Both routines share one control. Fixed encoded final-letter tests select the ending. Off preserves the replaced final letters; computed suffix bytes remain restricted to verified presets."
+kind = "catalog"
+related = ["hash:87f8de61"]
+examples = ["table:items/13", "table:items/139", "table:items/71", "table:items/447", "table:items/448", "table:items/200"]
+choices = ["original", "off", "custom"]
+terminator = 255
+operands = [
+  { id = "ordinary", bindings = [{ table = "item_plural_s", index = 0, entry = "table:item_plural_s/0", routine = "normal" }, { table = "item_plural_s_trade", index = 0, entry = "table:item_plural_s_trade/0", routine = "trade" }], choices = ["original", "off"], off = [255], allowed_bytes = [231, 255] },
+  { id = "lower-replacement", bindings = [{ table = "item_plural_lower", index = 0, entry = "table:item_plural_lower/0", routine = "normal" }, { table = "item_plural_lower_trade", index = 0, entry = "table:item_plural_lower_trade/0", routine = "trade" }], choices = ["original", "off", "custom"], off = [237], custom_bytes = [1, 1] },
+  { id = "lower-suffix", bindings = [{ table = "item_plural_lower", index = 1, entry = "table:item_plural_lower/1", routine = "normal" }, { table = "item_plural_lower_trade", index = 1, entry = "table:item_plural_lower_trade/1", routine = "trade" }], choices = ["original", "off"], off = [255], allowed_bytes = [217, 255] },
+  { id = "upper-replacement", bindings = [{ table = "item_plural_upper", index = 0, entry = "table:item_plural_upper/0", routine = "normal" }, { table = "item_plural_upper_trade", index = 0, entry = "table:item_plural_upper_trade/0", routine = "trade" }], choices = ["original", "off", "custom"], off = [211], custom_bytes = [1, 1] },
+  { id = "upper-suffix", bindings = [{ table = "item_plural_upper", index = 1, entry = "table:item_plural_upper/1", routine = "normal" }, { table = "item_plural_upper_trade", index = 1, entry = "table:item_plural_upper_trade/1", routine = "trade" }], choices = ["original", "off"], off = [255], allowed_bytes = [191, 255] },
+]
+branches = [
+  { id = "lower-y", when = [{ op = "quantity_gt", value = 1 }, { op = "last_in", bytes = [237] }], operations = [{ op = "write", at = -1, bytes = [{ operand = "lower-replacement" }] }, { op = "write", at = 0, bytes = [{ operand = "lower-suffix" }, { operand = "lower-suffix", add = 14 }, { operand = "lower-suffix", add = 38 }] }] },
+  { id = "lower-x", when = [{ op = "quantity_gt", value = 1 }, { op = "last_in", bytes = [236] }], operations = [{ op = "write", at = 0, bytes = [{ operand = "lower-suffix" }, { operand = "lower-suffix", add = 14 }, { operand = "lower-suffix", add = 38 }] }] },
+  { id = "upper-y", when = [{ op = "quantity_gt", value = 1 }, { op = "last_in", bytes = [211] }], operations = [{ op = "write", at = -1, bytes = [{ operand = "upper-replacement" }] }, { op = "write", at = 0, bytes = [{ operand = "upper-suffix" }, { operand = "upper-suffix", add = 14 }, { operand = "upper-suffix", add = 64 }] }] },
+  { id = "upper-x", when = [{ op = "quantity_gt", value = 1 }, { op = "last_in", bytes = [210] }], operations = [{ op = "write", at = 0, bytes = [{ operand = "upper-suffix" }, { operand = "upper-suffix", add = 14 }, { operand = "upper-suffix", add = 64 }] }] },
+  { id = "ordinary", when = [{ op = "quantity_gt", value = 1 }, { op = "last_not_in", bytes = [205, 231, 237, 236, 211, 210] }], operations = [{ op = "write", at = 0, bytes = [{ operand = "ordinary" }, { operand = "ordinary", add = 24 }] }] },
+]
+routines = [
+  { id = "normal", at = 0xa072c4, buffer_bytes = 20 },
+  { id = "trade", at = 0x1ecb540, buffer_bytes = 32 },
+]
+evidence = "The six item_plural tables declare both copies, their fixed comparisons, immediate stores and computed terminators. The related legacy suffix is unreachable through the command table and does not control these routines."
+
+[[language_rules]]
+id = "count_plural_s"
+output = "empty"
+title = "Record count ending"
+description = "The surrounding host supplies the word. The fixed quantity test selects a separate one-byte ending. The record host excludes zero."
+kind = "catalog"
+related = ["map:11.2/npc:0/76"]
+examples = []
+choices = ["original", "off", "custom"]
+terminator = 255
+operands = [
+  { id = "ending", bindings = [{ table = "count_plural_s", index = 0, entry = "table:count_plural_s/0", routine = "main" }], choices = ["original", "off", "custom"], off = [255], custom_bytes = [1, 1] },
+]
+branches = [
+  { id = "plural", when = [{ op = "quantity_ne", value = 1 }], operations = [{ op = "write", at = 0, bytes = [{ operand = "ending" }, 255] }] },
+  { id = "singular", when = [], operations = [{ op = "write", at = 0, bytes = [255] }] },
+]
+routines = [
+  { id = "main", at = 0x9e9224, buffer_bytes = 20 },
+]
+limit_status = "verified"
+evidence = "The count_plural_s table declares its source and quantity condition. The engine writes a separate terminator into the ending buffer."
+
+[[language_rules]]
+id = "egg_count_plural_s"
+output = "empty"
+title = "Sale count ending"
+description = "The surrounding host supplies the word. Counts of zero or one omit the ending."
+kind = "catalog"
+related = ["map:36.4/npc:1/14", "map:36.4/npc:1/18"]
+examples = []
+choices = ["original", "off", "custom"]
+terminator = 255
+operands = [
+  { id = "ending", bindings = [{ table = "egg_count_plural_s", index = 0, entry = "table:egg_count_plural_s/0", routine = "main" }], choices = ["original", "off", "custom"], off = [255], custom_bytes = [1, 1] },
+]
+branches = [
+  { id = "plural", when = [{ op = "quantity_gt", value = 1 }], operations = [{ op = "write", at = 0, bytes = [{ operand = "ending" }, 255] }] },
+  { id = "singular", when = [], operations = [{ op = "write", at = 0, bytes = [255] }] },
+]
+routines = [
+  { id = "main", at = 0x1ec6378, buffer_bytes = 20 },
+]
+limit_status = "verified"
+evidence = "The egg_count_plural_s table declares its source and quantity condition. The engine writes a separate terminator into the ending buffer."
+
+[[language_rules]]
+id = "shard_plural_s"
+title = "List quantity ending"
+description = "The surrounding host supplies the word. Counts of zero or one omit the ending."
+kind = "catalog"
+related = ["map:33.4/npc:7/7", "map:33.4/npc:7/3"]
+examples = []
+choices = ["original", "off", "custom"]
+terminator = 255
+operands = [
+  { id = "ending", bindings = [{ table = "shard_plural_s", index = 0, entry = "table:shard_plural_s/0", routine = "main" }], choices = ["original", "off", "custom"], off = [255], custom_bytes = [1, 1] },
+]
+branches = [
+  { id = "plural", when = [{ op = "quantity_gt", value = 1 }], operations = [{ op = "append", operand = "ending" }] },
+]
+routines = [
+  { id = "main", at = 0x1ec69f0 },
+]
+limit_status = "unverified"
+evidence = "The shard_plural_s table declares its source and quantity condition. The complete list buffer capacity remains unverified."
+
+[[language_rules]]
+id = "ability-popup-possessive"
+title = "Nickname possessive"
+description = "Two immediate characters follow the nickname. Fixed final-byte comparisons omit the second character. An empty first character terminates the whole addition; later stores still consume buffer space."
+kind = "catalog"
+related = []
+examples = ["table:species/649", "table:species/130"]
+choices = ["original", "off", "custom"]
+terminator = 255
+operands = [
+  { id = "first", bindings = [{ table = "ability_popup_possessive", index = 0, entry = "table:ability_popup_possessive/0", routine = "main" }], choices = ["original", "off", "custom"], off = [255], custom_bytes = [1, 1] },
+  { id = "second", bindings = [{ table = "ability_popup_possessive", index = 1, entry = "table:ability_popup_possessive/1", routine = "main" }], choices = ["original", "off", "custom"], off = [255], custom_bytes = [1, 1] },
+]
+routines = [
+  { id = "main", at = 0x9a8f16, buffer_bytes = 13 },
+]
+branches = [
+  { id = "short", when = [{ op = "last_in", bytes = [205, 231] }], operations = [{ op = "write", at = 0, bytes = [{ operand = "first" }, 255] }] },
+  { id = "full", when = [], operations = [{ op = "write", at = 0, bytes = [{ operand = "first" }, { operand = "second" }, 255] }] },
+]
+evidence = "The ability_popup_possessive table records both immediate operands and the shared 13-byte nickname buffer."
+
+[[language_rules]]
+id = "blender-possessive"
+title = "Nickname phrase separator"
+description = "The ordinary branch appends a short literal. Empty names and two fixed final bytes select a computed apostrophe and space. Off can remove the separator before the following phrase."
+kind = "catalog"
+related = ["hash:45f54cf7", "hash:34beaee7", "hash:6a7b0c32", "hash:a0edfd3c"]
+examples = []
+choices = ["original", "off", "custom"]
+terminator = 255
+operands = [
+  { id = "ordinary", bindings = [{ table = "berry_blender_possessive", index = 0, entry = "table:berry_blender_possessive/0", routine = "main" }], choices = ["original", "off", "custom"], off = [255], custom_bytes = [1, 3] },
+  { id = "special", bindings = [{ table = "berry_blender_apostrophe", index = 0, entry = "table:berry_blender_apostrophe/0", routine = "main" }], choices = ["original", "off"], off = [255], allowed_bytes = [180, 255] },
+]
+routines = [
+  { id = "main", at = 0x1ebb914, buffer_bytes = 32 },
+]
+branches = [
+  { id = "empty", when = [{ op = "empty" }], operations = [{ op = "append", bytes = [{ operand = "special" }, 0, { operand = "special", add = 75 }], buffer_bytes = 3 }] },
+  { id = "short", when = [{ op = "last_in", bytes = [205, 231] }], operations = [{ op = "append", bytes = [{ operand = "special" }, 0, { operand = "special", add = 75 }], buffer_bytes = 3 }] },
+  { id = "full", when = [], operations = [{ op = "append", operand = "ordinary" }] },
+]
+evidence = "The berry_blender_possessive and berry_blender_apostrophe tables record literal and computed sources. StringAppend copies each source only through its first terminator."
+
+[[language_rules]]
+id = "music_prefix_battle"
+title = "Audio name prefix"
+description = "A matching prefix is removed by a fixed byte count. Rules apply in declaration order. Off has no verified representation."
+kind = "catalog"
+related = ["table:music_prefix_battle/0", "hash:00c6180b"]
+examples = []
+choices = ["original", "custom"]
+terminator = 255
+operands = [
+  { id = "prefix", bindings = [{ table = "music_prefix_battle", index = 0, entry = "table:music_prefix_battle/0" }], choices = ["original", "custom"], custom_bytes = [8, 8] },
+]
+branches = [
+  { id = "match", when = [], operations = [{ op = "strip_prefix", operand = "prefix", count = 8 }] },
+]
+evidence = "The music_prefix_battle table records the exact comparison length and skipped byte count."
+
+[[language_rules]]
+id = "music_prefix_team"
+title = "Audio name prefix"
+description = "A matching prefix is removed by a fixed byte count. Rules apply in declaration order. Off has no verified representation."
+kind = "catalog"
+related = ["table:music_prefix_battle/0", "hash:00c6180b"]
+examples = []
+choices = ["original", "custom"]
+terminator = 255
+operands = [
+  { id = "prefix", bindings = [{ table = "music_prefix_team", index = 0, entry = "table:music_prefix_team/0" }], choices = ["original", "custom"], custom_bytes = [5, 5] },
+]
+branches = [
+  { id = "match", when = [], operations = [{ op = "strip_prefix", operand = "prefix", count = 5 }] },
+]
+evidence = "The music_prefix_team table records the exact comparison length and skipped byte count."
+
+[[language_rules]]
+id = "mining-article"
+output = "empty"
+title = "Article token"
+description = "A fixed encoded first-letter test supplies a native article ending. Rewrite the host or omit the optional token; no editable native operand is declared."
+kind = "policy"
+related = ["hash:aaaa98cc", "hash:6e4ee15d"]
+examples = ["table:items/13", "table:items/139"]
+choices = ["original", "enabled"]
+policies = [
+  { kind = "droppable", name = "mining-article" },
+]
+branches = [
+  { id = "vowel", when = [{ op = "first_in", bytes = [187, 191, 195, 201, 207] }], operations = [{ op = "write", at = 0, bytes = [226, 255] }] },
+  { id = "other", when = [], operations = [{ op = "write", at = 0, bytes = [255] }] },
+]
+terminator = 255
+evidence = "The mining-article optional-token capability records the fixed vowel-byte test and native writes; permission changes host validation only."
+
+[[language_rules]]
+id = "pokedex-metric"
+title = "Measurement units"
+description = "The declared replacement changes numeric conversion and unit labels together. Its decimal separator is a fixed comma. Custom unit limits require validation before controls are enabled."
+kind = "policy"
+related = ["hash:60522d3e", "hash:8559ee6d", "hash:c3c3f11e"]
+examples = []
+choices = ["original", "enabled"]
+limit_status = "unverified"
+policies = [
+  { kind = "code_replacement", name = "pokedex-metric", fields = ["height_unit", "weight_unit"] },
+]
+evidence = "The pokedex-metric capability declares two 12-byte entry patches and allocated replacement text. The inferred 18-byte unit limit has not been validated."
+
+[[language_rules]]
+id = "berry-number-prefix"
+title = "Number marker"
+description = "The marker can be retained or omitted by redirecting its declared pointer to the existing terminator. The number remains; no custom prefix is supported."
+kind = "policy"
+related = []
+examples = ["table:items/139"]
+choices = ["original", "off"]
+policies = [
+  { kind = "text_prefix", name = "berry-number-prefix" },
+]
+evidence = "The berry-number-prefix capability declares the pointer, expected source and alternative name limits."
+
+[[language_rules]]
+id = "alphabet-grouping"
+title = "Alphabet groups"
+description = "Grouping follows the active language pack alphabet and folding rules. Inspect the declared list capacity and configure the pack separately."
+kind = "reference"
+related = []
+examples = []
+references = [
+  { section = "easy_chat_alphabet" },
+]
+evidence = "The easy_chat_alphabet declaration owns the source bindings and limits."
+
+[[language_rules]]
+id = "hud-font"
+title = "Overlay font"
+description = "The font declaration controls glyph rendering. Open Fonts; no editable separator operand is declared."
+kind = "reference"
+related = []
+examples = []
+references = [
+  { section = "sprite_font", name = "dexnav-hud" },
+]
+evidence = "The sprite_font declaration owns the source bindings and limits."
+
+[[language_rules]]
+id = "keyboards"
+title = "Naming and chat keyboards"
+description = "Open Keyboards to configure pages and rows; engine page operands remain bound by the existing keyboard declaration."
+kind = "reference"
+related = []
+examples = []
+references = [
+  { section = "keyboard" },
+]
+evidence = "The keyboard declaration owns the source bindings and limits."
+
+[[language_rules]]
+id = "trainer-team"
+title = "Trainer team title"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["hash:23344f89", "hash:1633528f"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "battle-possessives"
+title = "Battle sentence possessives"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["battle:213", "battle:214", "battle:215", "battle:216", "hash:2d8c261b", "hash:ffcabb05"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "battle-prefixes"
+title = "Battle name and side prefixes"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["hash:6ec865d4", "hash:9fa74b33", "hash:53ee6a74", "hash:b72c6aea", "hash:7926fae1", "hash:141d0966", "hash:6773b173", "hash:ff8cb9d7"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "storage-owner"
+title = "Storage owner"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["hash:20f85f3d", "hash:7ecb1657"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "name-suffix"
+title = "Special item suffix"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["hash:98454ad3"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "category-suffix"
+title = "Category suffix"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["hash:fec8a182"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "box-numbering"
+title = "Default box numbering"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["hash:9e92caa1"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "sort-suffix"
+title = "Sort label suffix"
+description = "This wording belongs to catalog text. Immediate ending controls do not change it. Open the affected entries and use their existing layout limits."
+kind = "catalog_text"
+related = ["hash:51c850d7"]
+examples = []
+evidence = "The catalog sources and existing layout declarations own these independent sentence fragments."
+
+[[language_rules]]
+id = "engine-filled-text"
+title = "Engine-filled text"
+description = "Read-only runtime sources and layout measurements. Inspect each referenced declaration, its reachability and source text. Pixel measurements are not writable byte budgets; unverified language measurements remain unverified."
+kind = "engine_fills"
+related = []
+examples = []
+references = [
+  { section = "layout.code_fill" },
+  { section = "context.native_fill" },
+]
+limit_status = "unverified"
+evidence = "All layout.code_fill and context.native_fill declarations describe runtime sources, selectors and measurements; they do not declare editable grammar bytes."
+
+
+
+
+
+

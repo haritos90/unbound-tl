@@ -1,0 +1,1824 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/shadow-base\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 97
+#: 0x01a5cdf
+msgctxt "map:1.45/sign:0/0"
+msgid "map:1.45/sign:0/0"
+msgstr "Дверь открыта…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 58, 137
+#: 0x1f2cbb6
+msgctxt "map:4.12/mapscript:0/1"
+msgid "map:4.12/mapscript:0/1"
+msgstr "Это ещё что?..\\pКак тебе удалось сюда пробраться?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 89, 186, 35
+#: 0x1f2cbda
+msgctxt "map:4.12/mapscript:0/9"
+msgid "map:4.12/mapscript:0/9"
+msgstr "Быстрее, учёный! Чего стоишь столбом?\\pХватай {STR_VAR_1}!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 137, 114, 192, 95
+#: 0x1f2cc17
+msgctxt "map:4.12/mapscript:0/11"
+msgid "map:4.12/mapscript:0/11"
+msgstr ""
+"Теперь выруби {STR_VAR_1} и запри {STR_VAR_1} на складе!\\pЗеф взбесится, "
+"когда узнает…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 127
+#: 0x1f2cc7e
+msgctxt "map:4.10/mapscript:0/7"
+msgid "map:4.10/mapscript:0/7"
+msgstr "{STR_VAR_3} без сознания, Хуппа."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 29, 197, 163, 195, 161, 174, 180, 80
+#: 0x1f2cc98
+msgctxt "map:4.10/mapscript:0/9"
+msgid "map:4.10/mapscript:0/9"
+msgstr ""
+"Стой!\\pРазве я не говорил тебе тысячу раз не входить без прямого "
+"разрешения в моё пространство Куба?\\pЯ знаю, что ты больше не можешь "
+"перемещаться через свои кольца, но это не даёт тебе права ослушаться меня!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 104
+#: 0x1f2cd70
+msgctxt "map:4.10/mapscript:0/11"
+msgid "map:4.10/mapscript:0/11"
+msgstr "И привести {STR_VAR_1} сюда - тоже твоих рук дело?"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 167, 145, 168, 195, 194, 148, 198, 167, 64
+#: 0x1f2cda7
+msgctxt "map:4.10/mapscript:0/13"
+msgid "map:4.10/mapscript:0/13"
+msgstr ""
+"Не знаю, зачем тебе понадобилось тащить {STR_VAR_1} сюда, но с тех пор, "
+"как я нашёл тебя на том пляже в прошлом году, от тебя одни "
+"неприятности!\\pПусть я и не твой настоящий “хранитель”, но теперь я твой "
+"тренер!\\pИ как твой тренер я приказываю тебе прекратить эти ребяческие "
+"выходки…{PAUSE 18} НЕМЕДЛЕННО!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 81
+#: 0x1f2ceb3
+msgctxt "map:4.10/mapscript:0/15"
+msgid "map:4.10/mapscript:0/15"
+msgstr "Какая досада…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 27
+#: 0x1f2cec2
+msgctxt "map:4.10/mapscript:0/17"
+msgid "map:4.10/mapscript:0/17"
+msgstr "Впрочем…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 144, 128
+#: 0x1f2cec8
+msgctxt "map:4.10/mapscript:0/19"
+msgid "map:4.10/mapscript:0/19"
+msgstr "Если подумать, из этого можно извлечь пользу…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 178, 21, 194, 57
+#: 0x1f2cefb
+msgctxt "map:4.10/npc:0/0"
+msgid "map:4.10/npc:0/0"
+msgstr ""
+"И куда это ты направляешься, мелочь?\\pМне строго приказано держать тебя "
+"взаперти."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 91, 63, 172, 30, 75, 32
+#: 0x1f2cf50
+msgctxt "hash:ae84b03c"
+msgid "hash:ae84b03c"
+msgstr ""
+"{COLOR 02}Он без сознания.\\pЧто это?\\pНа его рубашке что-то написано.\\p"
+"Это его имя!\\nЕго зовут…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f2cfb0
+msgctxt "map:4.10/trigger:1/5"
+msgid "map:4.10/trigger:1/5"
+msgstr "{COLOR 02}Его зовут {RIVAL}?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 57, 194
+#: 0x1f2cfc3
+msgctxt "map:4.10/npc:1/1"
+msgid "map:4.10/npc:1/1"
+msgstr "Идём, {PLAYER}. Надо поискать другой выход отсюда."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 170, 153
+#: 0x1f2cff4
+msgctxt "map:4.10/npc:1/3"
+msgid "map:4.10/npc:1/3"
+msgstr "Надо найти тех покемонов! Может, с ними выберемся!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 115, 45
+#: 0x1f2d02e
+msgctxt "map:4.10/npc:1/5"
+msgid "map:4.10/npc:1/5"
+msgstr "Скорее, {PLAYER}, выбирай покемона."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 69
+#: 0x1f2d04e
+msgctxt "map:4.10/npc:1/7"
+msgid "map:4.10/npc:1/7"
+msgstr "Вырвемся отсюда с помощью наших новых покемонов!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 24, 144, 194, 164, 184, 197
+#: 0x1f2d07e
+msgctxt "map:4.10/trigger:1/9"
+msgid "map:4.10/trigger:1/9"
+msgstr ""
+"Эй!\\nТы вообще кто такой?\\pДумаешь, тебе сойдёт с рук держать меня тут "
+"взаперти?\\pЛучше пропусти меня сейчас же, а не то испытаешь на себе мой "
+"гнев!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 76, 194, 57
+#: 0x1f2d124
+msgctxt "map:4.10/trigger:1/11"
+msgid "map:4.10/trigger:1/11"
+msgstr "Отвали, мелочь.\\pМне строго приказано держать тебя взаперти."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 141, 102
+#: 0x1f2d162
+msgctxt "map:4.10/trigger:1/13"
+msgid "map:4.10/trigger:1/13"
+msgstr "Так что вали, если не хочешь…{PAUSE 20} испытать на себе мой гнев."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 73, 164, 131
+#: 0x1f2d192
+msgctxt "map:4.10/trigger:1/15"
+msgid "map:4.10/trigger:1/15"
+msgstr ""
+"Правильный выбор.\\pДержись подальше от этой двери - и жалеть не придётся."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 101, 153, 153, 6, 35, 180, 147, 187
+#: 0x1f2d1d7
+msgctxt "map:4.10/trigger:1/17"
+msgid "map:4.10/trigger:1/17"
+msgstr ""
+"А? Ты кто?\\pКогда меня сюда бросили, я вроде был тут один.\\p…\\p"
+"{PLAYER}, значит?\\pИ, говоришь, тебя сюда затянуло через волшебный "
+"портал?\\pЭффектно, ничего не скажешь."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 110, 168, 171, 153
+#: 0x1f2d28b
+msgctxt "map:4.10/trigger:1/19"
+msgid "map:4.10/trigger:1/19"
+msgstr ""
+"Погоди… Эта одежда… Ты живёшь в Ледяных Высотах?\\pЯ недавно туда "
+"переехал, но так и не зашёл поздороваться."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 155, 183, 185, 124, 200, 87, 62
+#: 0x1f2d2f9
+msgctxt "map:4.10/trigger:1/4"
+msgid "map:4.10/trigger:1/4"
+msgstr ""
+"Слушай…{PAUSE 18} может, объединимся и вместе поищем выход?\\pЧерез ту "
+"дверь не выбраться, пока там стоит охранник.\\pАх да, раз уж мы теперь "
+"команда, надо бы представиться.\\pМеня зовут…"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 60, 182, 180, 86, 184, 151, 181, 175
+#: 0x1f2d3b2
+msgctxt "map:4.10/trigger:1/7"
+msgid "map:4.10/trigger:1/7"
+msgstr ""
+"Меня зовут {RIVAL}.\\pЯ ищу родителей и думал, что эти типы что-нибудь о "
+"них знают.\\pНу и…{PAUSE 18} как видишь, они терпеть не могут, когда суют "
+"нос в их дела.\\pВ общем, пора искать другой выход. Пошли."
+
+#. category: script; mode: field
+#. used in 7 places
+#. original lines: 4, widths px: 114, 181, 182, 121
+#: 0x1f2d4f0
+msgctxt "map:4.10/trigger:0/1"
+msgid "map:4.10/trigger:0/1"
+msgstr ""
+"Слышишь, {PLAYER}?\\pСудя по звукам, в той клетке заперты покемоны!\\p"
+"Пойдём посмотрим."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 167, 98
+#: 0x1f2d560
+msgctxt "map:4.10/sign:0/0"
+msgid "map:4.10/sign:0/0"
+msgstr "В клетке заперто много покемонов…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 148, 121
+#: 0x1f2d590
+msgctxt "map:4.10/sign:0/5"
+msgid "map:4.10/sign:0/5"
+msgstr "Дверца клетки не заперта. Покемонов там больше нет."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 140, 49
+#: 0x1f2d5c1
+msgctxt "map:4.10/sign:0/1"
+msgid "map:4.10/sign:0/1"
+msgstr "Замок на вид хлипкий.\\nСломать его?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 146
+#: 0x1f2d5e5
+msgctxt "map:4.10/sign:0/2"
+msgid "map:4.10/sign:0/2"
+msgstr "Дверца клетки распахнулась!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 173, 162, 200, 182, 183, 64, 163, 157
+#: 0x1f2d5ff
+msgctxt "map:4.10/sign:0/4"
+msgid "map:4.10/sign:0/4"
+msgstr ""
+"Похоже, эти покемоны нам благодарны и хотят пойти с нами!\\pЕсли каждый "
+"возьмёт по одному и посадит в покеболы, которые я тут подобрал, мы сможем "
+"напасть на охранника и сбежать!\\pНу, чего ждёшь? Давай, выбирай покемона."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 152, 6
+#: 0x1f2d705
+msgctxt "map:4.10/npc:4/3"
+msgid "map:4.10/npc:4/3"
+msgstr ""
+"Взять покемона {COLOR 06}{STR_VAR_1}{COLOR 02} типа {COLOR "
+"06}{STR_VAR_2}{COLOR 02}?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 117, 107
+#: 0x1f2d733
+msgctxt "map:4.10/npc:4/4"
+msgid "map:4.10/npc:4/4"
+msgstr ""
+"{COLOR 06}{STR_VAR_1}{COLOR 02} в команде\\nтренера {PLAYER}!\\lХарактер: "
+"{COLOR 06}{STR_VAR_2}{COLOR 02}."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 134
+#: 0x1f2d76f
+msgctxt "map:4.10/npc:4/6"
+msgid "map:4.10/npc:4/6"
+msgstr "{COLOR 08}Тогда я возьму вот этого."
+
+#. category: script; mode: field
+#. used in 9 places
+#. original lines: 1, widths px: 132
+#: 0x1f2d78c
+msgctxt "map:4.10/npc:4/7"
+msgid "map:4.10/npc:4/7"
+msgstr "{COLOR 02}{STR_VAR_1} понуро уходит прочь."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 191, 155, 181
+#: 0x1f2d7aa
+msgctxt "map:4.10/npc:4/9"
+msgid "map:4.10/npc:4/9"
+msgstr ""
+"Теперь у нас есть свои покемоны, так что идём обратно к выходу.\\p"
+"Прорвёмся отсюда силой!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 103, 194, 57
+#: 0x1f2d80a
+msgctxt "map:4.10/trigger:2/1"
+msgid "map:4.10/trigger:2/1"
+msgstr "Я тебе уже говорил.\\pМне строго приказано держать тебя взаперти."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 72, 170, 45, 202, 142
+#: 0x1f2d84c
+msgctxt "map:4.10/trigger:2/3"
+msgid "map:4.10/trigger:2/3"
+msgstr ""
+"Хе-хе-хе…\\pВыбора у тебя больше нет.\\pЛибо выпускаешь нас, либо "
+"получаешь по первое число."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 119, 191, 109
+#: 0x1f2d8c0
+msgctxt "map:4.10/trigger:2/5"
+msgid "map:4.10/trigger:2/5"
+msgstr "Хватит себя обманывать.\\pКак ни старайся, я вас не пропущу."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 134, 138
+#: 0x1f2d90e
+msgctxt "map:4.10/trigger:2/7"
+msgid "map:4.10/trigger:2/7"
+msgstr "{PLAYER}, давай вместе покажем этому типу, на что мы способны!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 156, 114, 84, 160, 97
+#: 0x1f2d942
+msgctxt "map:4.10/trigger:2/9"
+msgid "map:4.10/trigger:2/9"
+msgstr ""
+"Вы оба меня уже достали!\\pИнкей! Скорупи!\\pПокажите им, почему с {COLOR "
+"02}Тенями{COLOR 08} лучше не связываться!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 91
+#: 0x1f2d9b9
+msgctxt "map:4.10/trigger:2/10"
+msgid "map:4.10/trigger:2/10"
+msgstr "Так и знал, что зря их тут заперли…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 172, 97
+#: 0x1f2d9eb
+msgctxt "map:4.10/trigger:2/11"
+msgid "map:4.10/trigger:2/11"
+msgstr "Вот что бывает с теми, кто связывается с Тенями!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 58, 198, 147, 170, 189
+#: 0x1f2da1d
+msgctxt "map:4.10/trigger:2/36"
+msgid "map:4.10/trigger:2/36"
+msgstr ""
+"Неплохо, {PLAYER}!\\nА мы с тобой отличная команда!\\pНо дальше я сам.\\p"
+"Дай-ка я подлечу твоего покемона после боя вот этими предметами."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 93, 185, 112, 187, 173, 127
+#: 0x1f2daab
+msgctxt "map:4.10/trigger:2/13"
+msgid "map:4.10/trigger:2/13"
+msgstr ""
+"Обидно.\\pЯ правда думал, что вдвоём мы с ним справимся.\\pЛадно, "
+"разберусь с ним сам.\\pПодлечи своего покемона этим Зельем - ему "
+"полегчает."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 18, 64
+#: 0x1f2db6d
+msgctxt "map:4.10/trigger:2/34"
+msgid "map:4.10/trigger:2/34"
+msgstr "Нет!\\nМои покемоны!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 18, 52
+#: 0x1f2db7d
+msgctxt "map:4.10/trigger:2/18"
+msgid "map:4.10/trigger:2/18"
+msgstr "Нет!\\nМой Инкей!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 6, 104
+#: 0x1f2db8b
+msgctxt "map:4.10/trigger:2/20"
+msgid "map:4.10/trigger:2/20"
+msgstr "{STR_VAR_1}! Вперёд, в атаку!"
+
+#. category: script; mode: field
+#. used in 5 places
+#. original lines: 1, widths px: 41
+#: 0x1f2dba3
+msgctxt "map:3.36/mapscript:1/3"
+msgid "map:3.36/mapscript:1/3"
+msgstr "{STR_VAR_1}! Используй\\nприём {STR_VAR_2}!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 154, 117, 145, 169
+#: 0x1f2dbb6
+msgctxt "map:4.10/trigger:2/22"
+msgid "map:4.10/trigger:2/22"
+msgstr ""
+"Ладно, ладно, сдаюсь!\\nЯ вас пропущу!\\pПожалуйста, пощадите!\\nНе бейте "
+"меня больше! Прошу!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 155, 5, 182, 192, 184, 97
+#: 0x1f2dc2e
+msgctxt "map:4.10/trigger:2/26"
+msgid "map:4.10/trigger:2/26"
+msgstr ""
+"Всё, я отсюда сматываюсь, {PLAYER}.\\pУверен, дальше ты справишься и без "
+"меня.\\pЕсли попадёшь в передрягу, просто положись на своих покемонов."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 106, 170, 88, 183, 196, 94, 165, 75
+#: 0x1f2dcc8
+msgctxt "map:4.10/trigger:2/28"
+msgid "map:4.10/trigger:2/28"
+msgstr ""
+"Ах да, ещё кое-что.\\pКак только вернёшься домой, мы с тобой сразимся.\\p"
+"Когда мы бились вместе, меня впечатлило, как ты держишься в бою. "
+"Посмотрим, кто кого!\\pА до тех пор не слишком выматывайся."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 106, 170, 88, 167, 157, 151, 165, 75
+#: 0x1f2dd91
+msgctxt "map:4.10/trigger:2/32"
+msgid "map:4.10/trigger:2/32"
+msgstr ""
+"Ах да, ещё кое-что.\\pКак только вернёшься домой, мы с тобой сразимся.\\p"
+"Тебе ещё многому надо научиться в сражениях, и я не прочь показать тебе "
+"пару хитростей.\\pА до тех пор не слишком выматывайся."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 106, 170, 88, 196, 181, 165, 75
+#: 0x1f2de5b
+msgctxt "map:4.10/trigger:2/30"
+msgid "map:4.10/trigger:2/30"
+msgstr ""
+"Ах да, ещё кое-что.\\pКак только вернёшься домой, мы с тобой сразимся.\\p"
+"В этот раз тебе удалось струсить, как Торчик, но больше не отвертишься!\\p"
+"А до тех пор не слишком выматывайся."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 66
+#: 0x1f2df13
+msgctxt "map:4.11/trigger:0/4"
+msgid "map:4.11/trigger:0/4"
+msgstr "А теперь сожгите его."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 181, 182, 126
+#: 0x1f2df20
+msgctxt "map:4.11/trigger:0/6"
+msgid "map:4.11/trigger:0/6"
+msgstr ""
+"{COLOR 04}Как вы убедились, эти образцы полностью невосприимчивы к "
+"сильному холоду и жару."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 146, 64
+#: 0x1f2df7c
+msgctxt "map:4.11/trigger:0/8"
+msgid "map:4.11/trigger:0/8"
+msgstr "А как насчёт невосприимчивости к электричеству?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 192, 164, 193, 145
+#: 0x1f2dfa4
+msgctxt "map:4.11/trigger:0/10"
+msgid "map:4.11/trigger:0/10"
+msgstr ""
+"{COLOR 04}Над этим мы ещё работаем.\\pБыстро улучшать образцы трудно, "
+"когда параллельно идут ещё и внешние исследования."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 56, 115
+#: 0x1f2e027
+msgctxt "map:4.11/trigger:0/12"
+msgid "map:4.11/trigger:0/12"
+msgstr "Хорошо. Пока этого достаточно."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 147, 166, 202, 172, 181, 186, 181, 191
+#: 0x1f2e048
+msgctxt "map:4.11/trigger:0/14"
+msgid "map:4.11/trigger:0/14"
+msgstr ""
+"А, Марлон, ты как раз вовремя.\\pМы ускоряем график.\\pНе знаю почему, но "
+"наша цель, похоже, перебралась поближе к нам раньше, чем мы "
+"рассчитывали.\\pВоины Теней улучшены, а нужная нам посылка прибудет "
+"сегодня, так что можно начинать операцию."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 61, 166, 147, 159, 172
+#: 0x1f2e150
+msgctxt "map:4.11/trigger:0/16"
+msgid "map:4.11/trigger:0/16"
+msgstr ""
+"Понял.\\pПеред уходом нужно обсудить ещё кое-что.\\pНарушители, которых "
+"мы заперли на складе, сбежали."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 163, 52
+#: 0x1f2e1d2
+msgctxt "map:4.11/trigger:0/18"
+msgid "map:4.11/trigger:0/18"
+msgstr "Вот этот агент их упустил."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 78, 131
+#: 0x1f2e1fa
+msgctxt "map:4.11/trigger:0/20"
+msgid "map:4.11/trigger:0/20"
+msgstr "Насколько всё плохо? Что успели увидеть эти двое?"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 150, 170, 139, 161, 145, 171, 54, 188, 88
+#: 0x1f2e221
+msgctxt "map:4.11/trigger:0/28"
+msgid "map:4.11/trigger:0/28"
+msgstr ""
+"Первый, рыжий парень, ничего важного не видел.\\pА вот второй "
+"нарушитель…\\pЕсли Фей станет известно, что {STR_VAR_2} теперь знает о "
+"лаборатории, она потребует переезда в разгар нашей операции.\\pСам "
+"знаешь, на это у нас нет ни времени, ни ресурсов…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 172, 139, 187, 196, 172, 159
+#: 0x1f2e311
+msgctxt "map:4.11/trigger:0/30"
+msgid "map:4.11/trigger:0/30"
+msgstr ""
+"Тогда позаботься о том, чтобы Фей не узнала о случившемся.\\pСейчас "
+"главное - добыть посылку, нужную для миссии.\\pСо вторым нарушителем "
+"разберёмся позже."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 61, 159, 186, 186, 42, 188, 83
+#: 0x1f2e3cf
+msgctxt "map:4.11/trigger:0/32"
+msgid "map:4.11/trigger:0/32"
+msgstr ""
+"Понял.\\pУ меня есть план, как добыть посылку, и он даже позволит этому "
+"горе-агенту искупить вину.\\pКак только посылка будет у меня, я сразу "
+"направлюсь к цели."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 130
+#: 0x1f2e479
+msgctxt "map:4.11/trigger:0/34"
+msgid "map:4.11/trigger:0/34"
+msgstr "Тогда удачи, Марлон."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 166, 188, 152
+#: 0x1f2e491
+msgctxt "map:4.11/trigger:0/36"
+msgid "map:4.11/trigger:0/36"
+msgstr ""
+"Близко…{PAUSE 18} Мы уже так близко…\\pСовсем скоро эта сила наконец "
+"станет нашей…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 175, 115, 55
+#: 0x1f3e9a3
+msgctxt "map:4.11/npc:13/4"
+msgid "map:4.11/npc:13/4"
+msgstr "Похоже, кто-то оставил на полу свою униформу.\\pНадеть её?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 131
+#: 0x1f3e9e5
+msgctxt "map:4.11/npc:13/1"
+msgid "map:4.11/npc:13/1"
+msgstr "Одежда надета."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 69
+#: 0x1f3e9fd
+msgctxt "map:4.11/npc:13/0"
+msgid "map:4.11/npc:13/0"
+msgstr "На полу лежит прежняя одежда.\\nНадеть её?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 178, 108
+#: 0x1f3ea2a
+msgctxt "map:4.11/npc:13/2"
+msgid "map:4.11/npc:13/2"
+msgstr "Униформа Марлона теперь доступна в Коробке костюмов!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 171, 180, 152, 178, 180, 71
+#: 0x1f3ea65
+msgctxt "map:1.45/trigger:3/155"
+msgid "map:1.45/trigger:3/155"
+msgstr ""
+"…вот так Фей и приказала агентам перейти в “Свет гибели” Эклава.\\pТеперь "
+"понимаешь, Марлон?\\pЧестно говоря, чудо уже то, что хоть кому-то из "
+"агентов и учёных позволили остаться…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 177, 89, 188, 82, 189, 165
+#: 0x1f3eb13
+msgctxt "map:1.45/trigger:3/157"
+msgid "map:1.45/trigger:3/157"
+msgstr ""
+"Вот как…{PAUSE 18} Я и не знал, что всё настолько плохо…\\pНо, кажется, я "
+"знаю, как восполнить потери.\\pПонимаю, эта мысль может прийтись тебе не "
+"по душе, но…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 52, 98, 79
+#: 0x1f3ebba
+msgctxt "map:1.45/trigger:3/159"
+msgid "map:1.45/trigger:3/159"
+msgstr "Что за…\\pЭто же моя униформа!\\p{PLAYER}…{PAUSE 18} это ты?"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 35, 68, 171, 137, 67, 144, 68
+#: 0x1f3ebeb
+msgctxt "map:1.45/trigger:3/161"
+msgid "map:1.45/trigger:3/161"
+msgstr ""
+"Что?!\\nТы…{PAUSE 20} ты…\\pНет! Не может быть, что это ты!\\pТы…{PAUSE "
+"18} тебя, должно быть, подослали шпионить!\\pЭклав…{PAUSE 18} сколько ещё "
+"ты будешь меня мучить?.."
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 169, 144, 180, 128, 179, 57, 189, 180, 40, 197, 127
+#: 0x1f3ec74
+msgctxt "map:1.45/trigger:3/4"
+msgid "map:1.45/trigger:3/4"
+msgstr ""
+"Хочешь снова меня одурачить, подделка? Как это сделал он?\\pПусть под "
+"маской ты и выглядишь в точности как {PLAYER}…\\pДо оригинала тебе всё "
+"равно далеко!\\pКогда я прогоню тебя к Эклаву, передай ему от меня "
+"послание!\\pСкажи ему…{PAUSE 20} что все вы поплатитесь за свои "
+"непростительные грехи!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 44
+#: 0x1f3ed9f
+msgctxt "map:1.45/trigger:3/5"
+msgid "map:1.45/trigger:3/5"
+msgstr "Ар-р-р-р-гх!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 160, 158, 18, 126
+#: 0x1f3eda8
+msgctxt "map:1.45/trigger:3/11"
+msgid "map:1.45/trigger:3/11"
+msgstr ""
+"Этот стиль боя…{PAUSE 18} эта аура…{PAUSE 18} не может быть…{PAUSE 18} "
+"неужели ты и правда {PLAYER}?!\\pНет, этого просто не может быть!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 30, 41, 178, 55, 121, 92, 204, 178, 175
+#: 0x1f3ee0a
+msgctxt "map:1.45/trigger:3/13"
+msgid "map:1.45/trigger:3/13"
+msgstr ""
+"Зеф!\\nХватит!\\pСейчас не время грызться между собой!\\pНе {PLAYER} наш "
+"враг, а Свет гибели!\\pЛибо ты это признаешь, либо командование остатками "
+"Теней я беру на себя."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 57, 52, 195, 170, 183, 87
+#: 0x1f3eed6
+msgctxt "map:1.45/trigger:3/15"
+msgid "map:1.45/trigger:3/15"
+msgstr ""
+"Спасибо.\\nИтак…\\pЧто ты задумал, Зеф?\\pНасколько я понял, мы "
+"собираемся напасть на новую базу Света гибели?"
+
+#. category: script; mode: field
+#. original lines: 24, widths px: 69, 186, 100, 177, 171, 130, 189, 186, 189, 85, 194, 183, 198, 26, 178, 101, 196, 142, 186, 174, 175, 170, 185, 102
+#: 0x1f3ef60
+msgctxt "map:1.45/trigger:3/17"
+msgid "map:1.45/trigger:3/17"
+msgstr ""
+"Именно…\\pЯ поручил оставшимся учёным найти их базу.\\pКак только они её "
+"найдут, мы нанесём Свету гибели внезапный удар и уничтожим его.\\pПока их "
+"главные силы будут оправляться от удара, мы вернём Тюремную бутылку и тех "
+"Воинов Теней, что у них ещё остались.\\pОднако я пока не знаю, сколько "
+"времени займут поиски…\\pА времени у нас, к сожалению, мало.\\pСейчас "
+"Эклав вместе с Фей: она изучает Хуппу.\\pКогда она закончит, Эклав "
+"обратит силу Хуппы против Борриуса…\\pЕсли мы уничтожим базу, пока его "
+"нет, то застанем его врасплох, когда он вернётся, и снова запечатаем эту "
+"силу.\\pБез неё Эклав станет намного слабее."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 97, 177, 172, 66
+#: 0x1f3f216
+msgctxt "map:1.45/trigger:3/19"
+msgid "map:1.45/trigger:3/19"
+msgstr ""
+"Принято, Зеф.\\pИ ты точно уверен, что Фей не нанесёт ответный удар, если "
+"мы начнём действовать?"
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 107, 161, 165, 143, 166, 88, 171, 168, 179, 108, 205, 148
+#: 0x1f3f277
+msgctxt "map:1.45/trigger:3/21"
+msgid "map:1.45/trigger:3/21"
+msgstr ""
+"Уверен, Марлон.\\pЯ говорил с некоторыми нашими учёными: цели Эклава Фей "
+"совершенно не интересуют.\\pЕй нужно лишь изучить силу этого покемона.\\p"
+"Разумеется, она окажет ему поддержку, но по большей части успех зависит "
+"от самого Эклава.\\pВпрочем, не стоит забывать, что он опасен и сам по "
+"себе…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 184, 180, 189, 79, 130, 83
+#: 0x1f3f3c9
+msgctxt "map:1.45/trigger:3/23"
+msgid "map:1.45/trigger:3/23"
+msgstr ""
+"Тогда, по-моему, чтобы план сработал без сучка и задоринки, нам "
+"понадобятся все силы, какие только можно собрать.\\pПоэтому предлагаю: "
+"пусть {PLAYER} тоже пойдёт с нами."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 148, 179, 21, 153, 83, 182, 122
+#: 0x1f3f468
+msgctxt "map:1.45/trigger:3/31"
+msgid "map:1.45/trigger:3/31"
+msgstr ""
+"Марлон, я не понимаю…\\pПочему ты с такой уверенностью считаешь "
+"{STR_VAR_1} союзником?\\pДо сих пор {PLAYER} лишь вставляет нам палки в "
+"колёса.\\pПочему ты думаешь, что {STR_VAR_2} вообще захочет нам помогать?"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 189, 100, 196, 106, 183, 182, 92, 146, 181, 177, 109
+#: 0x1f3f514
+msgctxt "map:1.45/trigger:3/33"
+msgid "map:1.45/trigger:3/33"
+msgstr ""
+"Мы были вместе заточены в пространстве Куба, Зеф.\\pИ там мы кое-кому "
+"дали обещание.\\pМы пообещали уничтожить оставшихся Воинов Теней и "
+"освободить их души.\\pИ {PLAYER} знает: пока Воины Теней у Света гибели, "
+"их души будут оставаться в ловушке."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 179, 182, 172, 62, 206, 130
+#: 0x1f3f64a
+msgctxt "map:1.45/trigger:3/35"
+msgid "map:1.45/trigger:3/35"
+msgstr ""
+"Хочешь сказать, что вы оба не только выжили внутри Куба, но и были там не "
+"одни?\\pКто-то, кто знал о существовании Воинов Теней?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 102, 191, 57, 198, 95
+#: 0x1f3f6f5
+msgctxt "map:1.45/trigger:3/37"
+msgid "map:1.45/trigger:3/37"
+msgstr ""
+"Это был Арос, Зеф.\\pФей заточила его там шестнадцать лет назад.\\pИ это "
+"ещё не всё: оказалось, что {PLAYER} - ребёнок Ароса."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 199, 39, 157, 201, 76, 183, 162, 114
+#: 0x1f3f771
+msgctxt "map:1.45/trigger:3/39"
+msgid "map:1.45/trigger:3/39"
+msgstr ""
+"Арос?! Вот как…{PAUSE 18} значит, это с ним и случилось…\\pЧто ж, тогда я "
+"не удивлён.\\pОн всегда быстро находил ошибки в любой системе.\\pЕсли кто "
+"и мог найти выход, пусть даже через малейшую брешь, так это он…"
+
+#. category: script; mode: field
+#. original lines: 15, widths px: 147, 113, 191, 176, 75, 6, 160, 176, 118, 173, 188, 59, 186, 120, 185
+#: 0x1f3f846
+msgctxt "map:1.45/trigger:3/41"
+msgid "map:1.45/trigger:3/41"
+msgstr ""
+"Ну что, {PLAYER}… поможешь нам?\\pМы соберём всё, что сможем, и ударим "
+"прямо по Свету гибели.\\p…\\pДа, знаю - ты и Тени…{PAUSE 18} мы не всегда "
+"ладили, верно?\\pТогда, если я доверю тебе наши главные тайны, этого "
+"будет достаточно?\\pВ таком случае слушай, в чём была наша истинная "
+"цель…\\pИстинная цель Теней…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 193, 181, 197, 192
+#: 0x1f3f9c8
+msgctxt "map:1.45/trigger:3/43"
+msgid "map:1.45/trigger:3/43"
+msgstr ""
+"Всё началось семнадцать лет назад…\\pУ Зефа только что умер сын.\\pМы, "
+"его старые друзья, приехали к нему из родного Хоэнна…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 169, 173, 127
+#: 0x1f3fa54
+msgctxt "map:1.45/trigger:3/45"
+msgid "map:1.45/trigger:3/45"
+msgstr ""
+"{COLOR 04}Зеф…{PAUSE 18} как ты держишься?\\pМне так жаль…{PAUSE 18} Мы с "
+"Марлоном только что узнали…{PAUSE 20} о твоём сыне…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 159, 96, 201, 68
+#: 0x1f3fab5
+msgctxt "map:1.45/trigger:3/47"
+msgid "map:1.45/trigger:3/47"
+msgstr ""
+"Айвори…{PAUSE 18} Марлон…{PAUSE 18} спасибо за соболезнования.\\pРад "
+"снова видеть вас спустя столько лет…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 193, 52, 116
+#: 0x1f3fb1c
+msgctxt "map:1.45/trigger:3/49"
+msgid "map:1.45/trigger:3/49"
+msgstr "Полагаю, вы добирались сюда морем?\\pКак прошло путешествие?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 78, 192, 154
+#: 0x1f3fb5e
+msgctxt "map:1.45/trigger:3/51"
+msgid "map:1.45/trigger:3/51"
+msgstr ""
+"{COLOR 04}Прекрасно.\\pДорога заняла несколько дней, но плавание было "
+"чудесным."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 160, 130
+#: 0x1f3fbaf
+msgctxt "map:1.45/trigger:3/53"
+msgid "map:1.45/trigger:3/53"
+msgstr "Если не ошибаюсь, у вас тоже есть сын… верно?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 40, 194, 128
+#: 0x1f3fbe4
+msgctxt "map:1.45/trigger:3/55"
+msgid "map:1.45/trigger:3/55"
+msgstr "Был…\\pК несчастью, он…{PAUSE 20} он слишком рано умер от болезни."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 177, 195, 100
+#: 0x1f3fc2a
+msgctxt "map:1.45/trigger:3/57"
+msgid "map:1.45/trigger:3/57"
+msgstr ""
+"Вы ведь опытные учёные…{PAUSE 18} вы никогда не думали о том, чтобы "
+"вернуть его к жизни?"
+
+#. category: script; mode: field
+#. original lines: 15, widths px: 57, 179, 186, 34, 187, 141, 178, 46, 195, 48, 192, 71, 186, 180, 175
+#: 0x1f3fc84
+msgctxt "map:1.45/trigger:3/59"
+msgid "map:1.45/trigger:3/59"
+msgstr ""
+"Конечно…\\pМы учёные и думали, что если кто-то и найдёт способ, то именно "
+"мы.\\pУвы, способов по-настоящему воскресить мёртвых не существует.\\pНам "
+"оставалось лишь попытаться жить дальше.\\pА год назад Айвори родила "
+"близнецов…\\pЭто был один из самых счастливых моментов в нашей жизни.\\p"
+"Мы, конечно, тоскуем по первенцу, но малыши во многом заполнили пустоту в "
+"наших сердцах…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 62, 188
+#: 0x1f3fe01
+msgctxt "map:1.45/trigger:3/61"
+msgid "map:1.45/trigger:3/61"
+msgstr "Вот как…\\pГде они сейчас, позвольте узнать?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 197, 165, 159, 83
+#: 0x1f3fe2f
+msgctxt "map:1.45/trigger:3/63"
+msgid "map:1.45/trigger:3/63"
+msgstr ""
+"{COLOR 04}Наш друг Эйлер Лог согласился пока присмотреть за ними.\\p"
+"Сейчас они у него, в Ледяных Высотах."
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 177, 110, 181, 181, 188, 161, 174, 165, 165, 193, 197, 70
+#: 0x1f3fea3
+msgctxt "map:1.45/trigger:3/69"
+msgid "map:1.45/trigger:3/69"
+msgstr ""
+"Ледяные Высоты…{PAUSE 20} там живёт и мой друг.\\pМой давний "
+"партнёр…{PAUSE 18} тот, кто помог мне основать свою компанию…\\pНо здесь "
+"его знают просто как “Хранителя Борриуса”.\\pОн даже дружит с так "
+"называемым “мифическим” покемоном!\\pКажется, у его жены тоже недавно "
+"родился ребёнок…\\pВот только имени ребёнка я толком не помню…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 147, 118
+#: 0x1f40014
+msgctxt "map:1.45/trigger:3/71"
+msgid "map:1.45/trigger:3/71"
+msgstr "А как зовут ваших близнецов?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 90, 62, 193, 71
+#: 0x1f40045
+msgctxt "map:1.45/trigger:3/73"
+msgid "map:1.45/trigger:3/73"
+msgstr ""
+"{COLOR 04}Их зовут {RIVAL} и Мелони.\\pЭто самые прекрасные дети на свете."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 189, 120, 134, 196, 175, 180, 196, 164, 121
+#: 0x1f40099
+msgctxt "map:1.45/trigger:3/75"
+msgid "map:1.45/trigger:3/75"
+msgstr ""
+"Да, всё верно…{PAUSE 18} {RIVAL} и Мелони -\\nнаши с Айвори дети.\\p"
+"{RIVAL}…{PAUSE 18} он ведь ищет нас с тех пор, как приехал, так?\\pЯ "
+"всегда жалел, что оставил их обоих, но после стольких лет разлуки так "
+"надеялся, что они встретятся со старшим братом…\\pАх…{PAUSE 20} каким же "
+"я был глупцом…"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 163, 29, 179, 189, 168, 187, 181, 29, 191, 127
+#: 0x1f401b6
+msgctxt "map:1.45/trigger:3/77"
+msgid "map:1.45/trigger:3/77"
+msgstr ""
+"Пожалуй, дальше рассказывать мне…\\pУзнав, что обе наши семьи пережили "
+"боль утраты детей, я предложил им сотрудничество.\\pНаши научные "
+"знания…{PAUSE 18} объединённые ради одной цели…\\pЯ чувствовал: с такой "
+"решимостью нам под силу невозможное."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 182, 166, 151
+#: 0x1f402c4
+msgctxt "map:1.45/trigger:3/79"
+msgid "map:1.45/trigger:3/79"
+msgstr ""
+"Разумеется, Марлон и Айвори сильно сомневались, но после долгих уговоров "
+"я их убедил."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 201, 173, 162, 189, 99
+#: 0x1f40320
+msgctxt "map:1.45/trigger:3/81"
+msgid "map:1.45/trigger:3/81"
+msgstr ""
+"Они согласились отвезти детей домой, в Хоэнн, а сами переехать в Борриус "
+"без них.\\pЯ был уверен: без лишних помех у нас всё получится."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 199, 190, 62, 157, 185, 125
+#: 0x1f403b9
+msgctxt "map:1.45/trigger:3/83"
+msgid "map:1.45/trigger:3/83"
+msgstr ""
+"Однако вскоре выяснилось, что втроём мы можем не так уж много.\\pПоэтому "
+"мы объединились с независимой организацией под названием “Научное "
+"общество”."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 162, 175, 191, 107, 205, 176, 161, 163
+#: 0x1f40462
+msgctxt "map:1.45/trigger:3/85"
+msgid "map:1.45/trigger:3/85"
+msgstr ""
+"С их помощью наши исследования резко ускорились.\\pОднако они требовали "
+"моего безраздельного внимания.\\pИ вот, поняв, что просто не могу "
+"руководить столькими проектами сразу, я ушёл с поста генерального "
+"директора Куб Корп."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 187, 167, 89
+#: 0x1f40559
+msgctxt "map:1.45/trigger:3/87"
+msgid "map:1.45/trigger:3/87"
+msgstr ""
+"Своё место я передал молодой женщине…{PAUSE 18} Фей, главе Научного "
+"общества."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 179, 64, 177, 195, 187, 175, 172, 176
+#: 0x1f405ad
+msgctxt "map:1.45/trigger:3/89"
+msgid "map:1.45/trigger:3/89"
+msgstr ""
+"Да…{PAUSE 18} Зеф - изобретатель Суперкуба.\\pПервый Куб, задуманный "
+"просто как хранилище, они создали вместе: он, твой отец и Фей.\\p"
+"Благодаря этому Кубу компания Куб Корп. пошла в гору и по сей день "
+"остаётся главной силой Борриуса."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 168, 87, 186, 167, 80, 187, 127
+#: 0x1f406a5
+msgctxt "map:1.45/trigger:3/91"
+msgid "map:1.45/trigger:3/91"
+msgstr ""
+"И вот как она мне отплатила после всего, что было!..\\pОна, по сути, "
+"украла Куб Корп., компанию, которую я создал своими руками…\\pИ ещё "
+"позволяет Эклаву уводить моих Теней!.."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 30, 166, 188, 181, 153
+#: 0x1f4075d
+msgctxt "map:1.45/trigger:3/93"
+msgid "map:1.45/trigger:3/93"
+msgstr ""
+"Уф…\\pСейчас не время об этом думать.\\pТак или иначе…{PAUSE 20} основу "
+"для проекта нам дала именно Фей, как ты, вероятно, уже понимаешь."
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 201, 194, 173, 86, 171, 187, 170, 174, 167, 109, 182, 197
+#: 0x1f407e3
+msgctxt "map:1.45/trigger:3/95"
+msgid "map:1.45/trigger:3/95"
+msgstr ""
+"Поэтому перед уходом с поста генерального директора я создал в Куб Корп. "
+"новый отдел только для работы над воскрешением.\\pЯ назвал его Теневым "
+"отделом. А ты знаешь его как “Тени”.\\pЧтобы не запятнать репутацию Куб "
+"Корп., я позаботился о том, чтобы наши эксперименты никак не были связаны "
+"с компанией.\\pУладив это, мы смогли спокойно ставить эксперименты."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 116
+#: 0x1f40954
+msgctxt "map:1.45/trigger:3/97"
+msgid "map:1.45/trigger:3/97"
+msgstr "Айвори, доложи обстановку."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 200, 29
+#: 0x1f4096b
+msgctxt "map:1.45/trigger:3/99"
+msgid "map:1.45/trigger:3/99"
+msgstr "{COLOR 04}Мы готовы начать первое испытание, Зеф.{COLOR 08}"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 148, 165
+#: 0x1f4099d
+msgctxt "map:1.45/trigger:3/101"
+msgid "map:1.45/trigger:3/101"
+msgstr "Что ж, приступим?\\pВсем занять свои места."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 54
+#: 0x1f409d8
+msgctxt "map:1.45/trigger:3/103"
+msgid "map:1.45/trigger:3/103"
+msgstr "Зеф, ты уверен, что это сработает?"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 157, 38, 165, 61, 183, 74, 179, 100, 181, 156
+#: 0x1f40a03
+msgctxt "map:1.45/trigger:3/105"
+msgid "map:1.45/trigger:3/105"
+msgstr ""
+"Конечно, никаких гарантий нет, Марлон.\\pЭто лишь первый из многих "
+"прототипов.\\pЯ не жду идеальных результатов с первой попытки.\\pНо о "
+"тонкостях можно подумать и позже.\\pА пока…{PAUSE 18} выясним, гипотеза "
+"это или нечто большее."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 177, 75
+#: 0x1f40afc
+msgctxt "map:1.45/trigger:3/107"
+msgid "map:1.45/trigger:3/107"
+msgstr "Для начала я помещаю сюда этого покемона…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 169, 60
+#: 0x1f40b2b
+msgctxt "map:1.45/trigger:3/109"
+msgid "map:1.45/trigger:3/109"
+msgstr "Затем кладу рядом образец останков…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 188, 77
+#: 0x1f40b56
+msgctxt "map:1.45/trigger:3/111"
+msgid "map:1.45/trigger:3/111"
+msgstr "И наконец, включаю устройство молекулярного слияния!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 199, 194, 39
+#: 0x1f40b88
+msgctxt "map:1.45/trigger:3/113"
+msgid "map:1.45/trigger:3/113"
+msgstr ""
+"Теперь, когда плащ защищает его от света, оно должно начать двигаться…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 63, 180, 80
+#: 0x1f40bd9
+msgctxt "map:1.45/trigger:3/115"
+msgid "map:1.45/trigger:3/115"
+msgstr ""
+"Это…{PAUSE 20} сработало!\\pТеперь посмотрим, сможет ли оно пошевелить "
+"телом…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 30
+#: 0x1f40c19
+msgctxt "map:1.45/trigger:3/117"
+msgid "map:1.45/trigger:3/117"
+msgstr "Ох!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 77, 169
+#: 0x1f40c1f
+msgctxt "map:1.45/trigger:3/119"
+msgid "map:1.45/trigger:3/119"
+msgstr "Скорее, Марлон!\\pПодай мне перчатку управления!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 85, 82
+#: 0x1f40c4d
+msgctxt "map:1.45/trigger:3/121"
+msgid "map:1.45/trigger:3/121"
+msgstr "Стой, создание!\\pПодчиняйся мне!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 24
+#: 0x1f40c6c
+msgctxt "map:1.45/trigger:3/123"
+msgid "map:1.45/trigger:3/123"
+msgstr "Хм…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 179, 118, 196, 107, 199, 136
+#: 0x1f40c71
+msgctxt "map:1.45/trigger:3/125"
+msgid "map:1.45/trigger:3/125"
+msgstr ""
+"Признаю, я надеялся совсем не на это.\\pОднако это определённо шаг в "
+"верном направлении.\\pСо временем мы сможем…{PAUSE 20} мы сможем вернуть "
+"их…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 188, 174
+#: 0x1f40d24
+msgctxt "map:1.45/trigger:3/127"
+msgid "map:1.45/trigger:3/127"
+msgstr "И всё же в целом первое испытание прошло довольно гладко."
+
+#. category: script; mode: field
+#. original lines: 15, widths px: 176, 182, 60, 165, 152, 89, 169, 171, 60, 193, 135, 163, 92, 182, 62
+#: 0x1f40d68
+msgctxt "map:1.45/trigger:3/129"
+msgid "map:1.45/trigger:3/129"
+msgstr ""
+"Фей сказала, что мы должны продолжать исследования и не дать этой неудаче "
+"сбить нас с пути.\\pЕё слова…{PAUSE 18} подстегнули нас, и мы продолжили "
+"работу над Воинами Теней.\\pОднако даже с перчаткой управления некоторые "
+"из них с трудом поддавались контролю.\\pОдин полоснул меня по лицу - "
+"отсюда шрам, который ты видишь.\\pДругой набросился на Марлона и отсёк "
+"ему руку.\\pИ всё же, несмотря на раны, мы не отступали…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 187, 165, 188, 162, 173, 169
+#: 0x1f40ee9
+msgctxt "map:1.45/trigger:3/131"
+msgid "map:1.45/trigger:3/131"
+msgstr ""
+"Несколько лет Научное общество помогало нам ловить всё больше покемонов и "
+"соединять их с новыми подопытными.\\pОдни были живыми - так хотела Фей, - "
+"а другие нет."
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 197, 162, 166, 178, 154, 187, 193, 178, 48, 160, 164, 38, 187, 109
+#: 0x1f40fa8
+msgctxt "map:1.45/trigger:3/133"
+msgid "map:1.45/trigger:3/133"
+msgstr ""
+"Конечно, мы никого не превращали в Воинов Теней против воли.\\pВсе "
+"агенты, ставшие ими, пошли на это добровольно ради шанса обрести великую "
+"силу…\\pНо Фей…{PAUSE 18} она была сущим демоном: толкала нас на всё "
+"более жестокие крайности ради воскрешения наших детей.\\pХотя, "
+"подозреваю, до них ей не было ровным счётом никакого дела.\\pЕё всегда "
+"интересовали только Воины Теней."
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 190, 164, 193, 188, 170, 169, 197, 177, 75, 202, 176, 36
+#: 0x1f41136
+msgctxt "map:1.45/trigger:3/135"
+msgid "map:1.45/trigger:3/135"
+msgstr ""
+"В конце концов мы пришли к выводу, что с помощью Воинов Теней наших детей "
+"не вернуть.\\pПоследнее испытание почти удалось, но, продолжи мы в том же "
+"духе, нашим детям пришлось бы заплатить слишком дорого.\\pИ мы были "
+"вынуждены искать новый подход.\\pРадикальный, но осуществимый, если "
+"судить по недавним событиям…"
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 190, 186, 168, 161, 171, 183, 189, 175, 118, 159, 178, 189, 174, 76
+#: 0x1f4129b
+msgctxt "map:1.45/trigger:3/137"
+msgid "map:1.45/trigger:3/137"
+msgstr ""
+"Мы задумали доставить сюда, в Борриус, Абсолютное оружие - то самое, из "
+"древних легенд.\\pПусть это оружие и способно на массовые разрушения, но "
+"именно им чужеземный король вернул к жизни своего покемона.\\pА если "
+"оружие смогло вернуть к жизни покемона…\\p…то, по логике вещей, оно "
+"сможет вернуть и наших детей…\\pНо насколько это была наша идея?..\\pИ "
+"насколько - происки Эклава?.."
+
+#. category: script; mode: field
+#. original lines: 19, widths px: 185, 180, 59, 180, 167, 40, 194, 163, 84, 192, 42, 197, 62, 91, 6, 168, 181, 177, 43
+#: 0x1f41447
+msgctxt "map:1.45/trigger:3/139"
+msgid "map:1.45/trigger:3/139"
+msgstr ""
+"Да…{PAUSE 18} по указанию Зефа мы начали изучать тёмную силу Борриуса.\\p"
+"Тогда мы надеялись с её помощью заполучить Абсолютное оружие.\\pМы, "
+"конечно, и не подозревали, что тёмная сила - это Хуппа, давний напарник "
+"Ароса.\\pА дальше…{PAUSE 18} остальное ты знаешь.\\p… … … …\\pФух…{PAUSE "
+"20} ну и длинный же вышел рассказ.\\pОсмысли всё это, {PLAYER}.\\p…\\pНу "
+"вот, теперь ты знаешь, что происходило на самом деле, и сомневаться, "
+"работать ли с нами, тебе больше незачем."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 120, 189, 112, 198, 178, 86
+#: 0x1f41615
+msgctxt "map:1.45/trigger:3/141"
+msgid "map:1.45/trigger:3/141"
+msgstr ""
+"Я должен извиниться, {PLAYER}…\\pЯ был уверен, что тебя подослал шпионить "
+"Эклав.\\pЗнай я с самого начала, что передо мной оригинал, я бы повёл "
+"себя не так…{PAUSE 18} яростно."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 5, widths px: 21, 189, 159, 197, 29
+#: 0x1f416bc
+msgctxt "map:1.45/trigger:3/143"
+msgid "map:1.45/trigger:3/143"
+msgstr ""
+"Разрешите доложить!\\pМы засекли следы энергии порталов Хуппы в городке "
+"Вивилл!\\pСкорее всего, там находится база Света гибели!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 5, widths px: 65, 163, 191, 85, 115
+#: 0x1f4172e
+msgctxt "map:1.45/trigger:3/145"
+msgid "map:1.45/trigger:3/145"
+msgstr ""
+"Городок Вивилл…\\pЗначит…{PAUSE 20} старая база Научного общества теперь "
+"служит Свету гибели…\\pМне следовало догадаться…"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 8, widths px: 163, 61, 166, 126, 166, 183, 111, 117
+#: 0x1f417a4
+msgctxt "map:1.45/trigger:3/147"
+msgid "map:1.45/trigger:3/147"
+msgstr ""
+"Марлон…{PAUSE 18} нам больше нельзя здесь оставаться.\\pПока Эклав "
+"отвлечён, нужно нанести удар как можно быстрее!\\pПора собрать наши "
+"боевые силы и отправляться в городок Вивилл.\\pГотовь “Тень”!\\nОтплываем "
+"немедленно!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 91, 177, 82
+#: 0x1f41873
+msgctxt "map:1.45/trigger:3/149"
+msgid "map:1.45/trigger:3/149"
+msgstr "Конечно, Зеф.\\pВряд ли у нас много времени до возвращения Эклава."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 132, 116, 168, 64, 170, 186, 93
+#: 0x1f418b4
+msgctxt "map:1.45/trigger:3/151"
+msgid "map:1.45/trigger:3/151"
+msgstr ""
+"И ещё, {PLAYER}…{PAUSE 18} прошу, пусть {RIVAL} не знает о нас с "
+"Айвори.\\pПо крайней мере…{PAUSE 18} пока не придёт подходящее время.\\p"
+"Что мы забросили своих детей ради другого ребёнка…{PAUSE 18} от одной "
+"этой мысли ему станет тошно."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 165, 36, 171, 23, 176, 46
+#: 0x1f4196f
+msgctxt "map:1.45/trigger:3/153"
+msgid "map:1.45/trigger:3/153"
+msgstr ""
+"Ах да, пока не забыл: униформу оставь себе.\\pПо-моему, она тебе очень "
+"идёт.\\pКто знает…{PAUSE 18} может, когда-нибудь ещё пригодится."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 10, widths px: 201, 91, 169, 178, 169, 43, 185, 161, 164, 110
+#: 0x1f419e6
+msgctxt "map:1.45/trigger:3/7"
+msgid "map:1.45/trigger:3/7"
+msgstr ""
+"Есть ли у тебя способ пересечь воду - НМ с приёмом Сёрф?\\pЕсли пока не "
+"можешь его использовать, сначала добудь значок стадиона {COLOR 06}города "
+"Дехара{COLOR 08}, а потом присоединяйся к нам.\\pПрошу, поторопись: нам "
+"нужно скорее попасть в {COLOR 06}городок Вивилл{COLOR 08}.\\pКогда "
+"соберёшься, отправляйся к {COLOR 06}северо-востоку{COLOR 08} от {COLOR "
+"06}города Дехара{COLOR 08}."
+
+#. category: script; mode: field
+#. used in 33 places
+#. original lines: 2, widths px: 188, 183
+#: 0x1f6f1f9
+msgctxt "map:1.42/sign:1/1"
+msgid "map:1.42/sign:1/1"
+msgstr ""
+"Для этой двери нужна Карта-ключ\\nс уровнем допуска {COLOR "
+"06}{STR_VAR_1}{COLOR 02}."
+
+#. category: script; mode: field
+#. used in 29 places
+#. original lines: 3, widths px: 188, 183, 44
+#: 0x1f6f244
+msgctxt "map:1.42/sign:1/2"
+msgid "map:1.42/sign:1/2"
+msgstr ""
+"Для этой двери нужна Карта-ключ\\nс уровнем допуска {COLOR "
+"06}{STR_VAR_1}{COLOR 02}.\\pОткрыть?"
+
+#. category: script; mode: field
+#. used in 29 places
+#. original lines: 2, widths px: 33, 170
+#: 0x1f6f298
+msgctxt "map:1.42/sign:1/3"
+msgid "map:1.42/sign:1/3"
+msgstr "Есть!\\nКарта-ключ открыла дверь!"
+
+#. category: script; mode: field
+#. used in 26 places
+#. original lines: 1, widths px: 97
+#: 0x1f6f2bd
+msgctxt "map:1.42/sign:1/0"
+msgid "map:1.42/sign:1/0"
+msgstr "Дверь открыта…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 102, 142
+#: 0x1f6f2cf
+msgctxt "map:4.10/npc:3/0"
+msgid "map:4.10/npc:3/0"
+msgstr "{STR_VAR_1} скучает в одиночестве.\\nВзять покемона в команду?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 67
+#: 0x1f6f2fe
+msgctxt "map:4.10/npc:3/1"
+msgid "map:4.10/npc:3/1"
+msgstr "{STR_VAR_1} грустит."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 24, 126, 192, 91, 52
+#: 0x1f6f30d
+msgctxt "map:4.10/mapscript:1/0"
+msgid "map:4.10/mapscript:1/0"
+msgstr ""
+"А?\\pПохоже, {COLOR 06}{STR_VAR_1}{COLOR 02} хочет выйти из покебола и "
+"прогуляться вместе!\\pВыпустить покемона {COLOR 06}{STR_VAR_1}{COLOR 02}?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 126, 24
+#: 0x1f6f378
+msgctxt "map:4.10/mapscript:1/1"
+msgid "map:4.10/mapscript:1/1"
+msgstr "{STR_VAR_1} теперь идёт следом!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 101, 182
+#: 0x1f6f397
+msgctxt "map:4.10/mapscript:1/2"
+msgid "map:4.10/mapscript:1/2"
+msgstr "{STR_VAR_1} вернётся в покебол при выходе из комнаты."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 114, 62
+#: 0x1f6f3ce
+msgctxt "map:4.10/npc:11/0"
+msgid "map:4.10/npc:11/0"
+msgstr "{STR_VAR_1} радостно идёт следом."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 133, 174
+#: 0x1f6f3f2
+msgctxt "map:4.10/npc:11/1"
+msgid "map:4.10/npc:11/1"
+msgstr "Что такое? Похоже, {STR_VAR_1} хочет поделиться своей находкой."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 169, 46
+#: 0x1f6f42d
+msgctxt "map:4.11/npc:2/0"
+msgid "map:4.11/npc:2/0"
+msgstr "Этот тип… он взялся просто из ниоткуда…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 130
+#: 0x1f6f454
+msgctxt "map:4.11/npc:9/0"
+msgid "map:4.11/npc:9/0"
+msgstr "Меня разгромили в один миг…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 180, 193, 192, 92, 142, 78
+#: 0x1f6f46d
+msgctxt "map:4.11/npc:7/0"
+msgid "map:4.11/npc:7/0"
+msgstr ""
+"Этот рыжий тип взялся из ниоткуда и вырубил всех моих покемонов, не дав "
+"мне и глазом моргнуть!\\pА теперь мне даже не помешать тебе сбежать…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 169, 67
+#: 0x1f6f50d
+msgctxt "map:4.11/sign:0/0"
+msgid "map:4.11/sign:0/0"
+msgstr "Похоже, дверь разнесло взрывом."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 43, 191, 68, 179, 91
+#: 0x1f6f538
+msgctxt "map:4.11/npc:6/0"
+msgid "map:4.11/npc:6/0"
+msgstr ""
+"Ох, это вы!\\pКакой-то рыжий тип прорвался сюда с боем!\\pЯ пытался его "
+"остановить, но он просто отшвырнул меня в сторону."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 177
+#: 0x1f6f5a3
+msgctxt "map:49.12/npc:0/0"
+msgid "map:49.12/npc:0/0"
+msgstr "Вам на какой этаж?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 137
+#: 0x1f6f5c4
+msgctxt "map:49.12/npc:0/1"
+msgid "map:49.12/npc:0/1"
+msgstr "Тебе на какой этаж?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 160
+#: 0x1f6f5dd
+msgctxt "map:49.12/npc:0/7"
+msgid "map:49.12/npc:0/7"
+msgstr "Мы и так на этом этаже…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 12
+#: 0x1f6f5fb
+msgctxt "map:49.12/npc:0/2"
+msgid "map:49.12/npc:0/2"
+msgstr "1 эт."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f6f5fe
+msgctxt "map:49.12/npc:0/3"
+msgid "map:49.12/npc:0/3"
+msgstr "-1 эт."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f6f602
+msgctxt "map:49.12/npc:0/4"
+msgid "map:49.12/npc:0/4"
+msgstr "-2 эт."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f6f606
+msgctxt "map:49.12/npc:0/5"
+msgid "map:49.12/npc:0/5"
+msgstr "-3 эт."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 64, 177, 162, 196, 173, 172, 99
+#: 0x1f6f60a
+msgctxt "map:1.42/npc:5/0"
+msgid "map:1.42/npc:5/0"
+msgstr ""
+"Господин Марлон!\\pЗнаю, как это выглядит, но, честное слово, я не "
+"бездельничаю!\\pЗеф велел мне смотреть новости и высматривать всех, кто "
+"может быть связан со Светом гибели."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 179, 76, 173, 183, 166, 55, 174, 162
+#: 0x1f6f6cc
+msgctxt "map:1.42/npc:3/0"
+msgid "map:1.42/npc:3/0"
+msgstr ""
+"Простите за жуткий беспорядок на базе.\\pКогда большинство агентов "
+"перешло в Свет гибели, они просто побросали все свои вещи на пол.\\p"
+"Наверняка кто-то из них даже оставил тут свои {COLOR 06}карты-ключи{COLOR "
+"04}…"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 64, 177, 127, 146, 199, 185, 161
+#: 0x1f6f7ac
+msgctxt "map:1.42/npc:8/0"
+msgid "map:1.42/npc:8/0"
+msgstr ""
+"Господин Марлон!\\pХодили слухи, что вы тоже перешли в Свет гибели.\\p"
+"Рад, что вы всё ещё здесь.\\pМожет, теперь, когда вы вернулись, кто-то "
+"наконец удержит Зефа от безрассудных поступков…"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 178, 161, 189, 197, 130, 164, 133, 199, 153
+#: 0x1f6f871
+msgctxt "map:1.42/npc:4/0"
+msgid "map:1.42/npc:4/0"
+msgstr ""
+"С тех пор как большинству агентов приказали перейти в Свет гибели, на "
+"базе стало так тихо.\\pЧестно говоря, мне тоже велели уйти, но я "
+"остаюсь.\\pВ эту организацию меня привели не деньги.\\pМеня привела вера "
+"в то, чего добивается Зеф…"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 195, 163, 41, 192, 162, 199, 124
+#: 0x1f6f986
+msgctxt "map:1.42/npc:9/0"
+msgid "map:1.42/npc:9/0"
+msgstr ""
+"Большинство агентов ушло, и людей у нас теперь очень мало.\\pПоэтому "
+"крайне важно, чтобы все мы стали как можно сильнее.\\pНе окажете ли мне "
+"честь сразиться со мной?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 157, 48
+#: 0x1f6fa4e
+msgctxt "map:1.42/npc:9/2"
+msgid "map:1.42/npc:9/2"
+msgstr "Другого я от вас и не ожидал."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 172, 19, 187, 178, 99
+#: 0x1f6fa75
+msgctxt "map:1.42/npc:9/3"
+msgid "map:1.42/npc:9/3"
+msgstr ""
+"Спасибо, что сразились со мной.\\pТеперь мы оба лучше готовы к "
+"неизбежному столкновению со Светом гибели."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 81, 199, 173
+#: 0x1f6faf1
+msgctxt "map:1.42/npc:9/1"
+msgid "map:1.42/npc:9/1"
+msgstr ""
+"Разумеется.\\pВам ни к чему тратить время на простого агента вроде меня."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 181, 156, 173, 82
+#: 0x1f6fb45
+msgctxt "map:1.42/sign:16/0"
+msgid "map:1.42/sign:16/0"
+msgstr ""
+"По телевизору оглушительно громко идёт Мюзикл покемонов из Юновы.\\pЕсли "
+"смотреть слишком долго, можно и мозги поджарить."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 21, 196, 186, 93, 171, 72
+#: 0x1f6fbb3
+msgctxt "map:1.43/npc:0/1"
+msgid "map:1.43/npc:0/1"
+msgstr ""
+"А, это вы!\\pЗеф приказал мне не пускать в лабораторию никого без нужного "
+"допуска.\\pНо вас, думаю, пропустить можно."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 163, 47
+#: 0x1f6fc3e
+msgctxt "map:1.43/npc:0/0"
+msgid "map:1.43/npc:0/0"
+msgstr "Проходите в лабораторию, пожалуйста."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 182, 157, 183, 199, 174, 183
+#: 0x1f6fc66
+msgctxt "map:1.43/npc:1/0"
+msgid "map:1.43/npc:1/0"
+msgstr ""
+"Я вычисляю по сложному алгоритму примерное местоположение штаба Света "
+"гибели.\\pКогда будут результаты, Зеф собирается с их помощью отомстить "
+"Свету гибели."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 87, 186, 180, 157, 154, 140
+#: 0x1f6fd2e
+msgctxt "map:1.43/npc:2/0"
+msgid "map:1.43/npc:2/0"
+msgstr ""
+"О, господин Марлон!\\pЯ какое-то время работала в штабе с Научным "
+"обществом и узнала о новом способе сделать наших покемонов сильнее в "
+"бою!\\pХотите посмотреть?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 127
+#: 0x1f6fdd5
+msgctxt "map:1.43/npc:2/2"
+msgid "map:1.43/npc:2/2"
+msgstr "Ну как, впечатляет?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 174, 186, 136
+#: 0x1f6fded
+msgctxt "map:1.43/npc:2/3"
+msgid "map:1.43/npc:2/3"
+msgstr ""
+"В благодарность за бой и ваше драгоценное время позвольте вылечить ваших "
+"покемонов."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 81, 156, 174
+#: 0x1f6fe49
+msgctxt "map:1.43/npc:2/1"
+msgid "map:1.43/npc:2/1"
+msgstr "Конечно.\\pУ вас наверняка есть дела поважнее."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 153, 169, 89, 186, 162, 118, 193, 113
+#: 0x1f6fe96
+msgctxt "map:1.44/npc:0/0"
+msgid "map:1.44/npc:0/0"
+msgstr ""
+"Следующую партию Воинов Теней мы синтезируем с особой тщательностью.\\p"
+"Таких сильных Воинов Теней мы ещё никогда не создавали!\\pОни будут "
+"непобедимы!\\pИ у Света гибели против них не будет ни единого шанса!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 180, 178, 174, 120, 182, 49, 194, 172, 146
+#: 0x1f6ff74
+msgctxt "map:1.44/npc:1/0"
+msgid "map:1.44/npc:1/0"
+msgstr ""
+"Нам велели вернуться в штаб и не создавать больше Воинов Теней.\\pНЕ "
+"СОЗДАВАТЬ ВОИНОВ ТЕНЕЙ?!\\pОНИ ЧТО, ИЗДЕВАЮТСЯ?!\\pСоздавать Воинов Теней "
+"- смысл всей моей жизни!\\pМне повезло: Зефу они всё ещё нужны и он "
+"позволил мне продолжить их синтез."
+
+#. category: script; mode: field
+#. used in 7 places
+#. original lines: 2, widths px: 155, 132
+#: 0x1f70073
+msgctxt "map:1.44/sign:3/1"
+msgid "map:1.44/sign:3/1"
+msgstr "В капсуле синтезируется нечто чудовищное."
+
+#. category: script; mode: field
+#. used in 8 places
+#. original lines: 1, widths px: 102
+#: 0x1f700a9
+msgctxt "map:1.44/sign:3/0"
+msgid "map:1.44/sign:3/0"
+msgstr "Капсула пуста."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 103
+#: 0x1f700bc
+msgctxt "map:1.44/sign:0/0"
+msgid "map:1.44/sign:0/0"
+msgstr "Клетка пуста."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 169, 35
+#: 0x1f700cf
+msgctxt "map:1.44/sign:8/1"
+msgid "map:1.44/sign:8/1"
+msgstr "Кто-то сегодня ставил здесь опыты…"
+
+#. category: script; mode: field
+#. original lines: 18, widths px: 147, 46, 187, 150, 115, 172, 172, 160, 189, 174, 196, 67, 206, 171, 206, 119, 188, 194
+#: 0x1f700f5
+msgctxt "map:1.45/npc:0/8"
+msgid "map:1.45/npc:0/8"
+msgstr ""
+"А, {PLAYER}… очень любезно с твоей стороны навестить нас.\\pС тех пор как "
+"меня выпустили из тюрьмы, я стараюсь жить достойнее.\\pРазумеется, ради "
+"сына я обязан сделать всё, чтобы этот второй шанс не пропал даром.\\pЯ "
+"столько лет трудился ради того, чтобы он вернулся ко мне, а теперь хочу, "
+"чтобы молодое поколение определяло будущее.\\pСам же я желаю лишь "
+"провести остаток дней с Зефом-младшим.\\pАх да… не желаешь ли сразиться "
+"со мной, если найдётся время?\\pВидишь ли, похоже, мой сын очень полюбил "
+"бои покемонов."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 206, 119, 188, 194
+#: 0x1f70306
+msgctxt "map:1.45/npc:0/10"
+msgid "map:1.45/npc:0/10"
+msgstr ""
+"Ах да… не желаешь ли сразиться со мной, если найдётся время?\\pВидишь ли, "
+"похоже, мой сын очень полюбил бои покемонов."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 185, 184, 86, 196, 187, 112, 202, 175
+#: 0x1f70387
+msgctxt "map:1.45/npc:0/12"
+msgid "map:1.45/npc:0/12"
+msgstr ""
+"Вот как… да, пожалуй, нам и правда больше незачем вцепляться друг другу в "
+"горло…\\pМир к нам вернулся, но ведь бой может быть просто дружеским "
+"состязанием.\\pЕсли передумаешь, я готов сразиться с тобой в любое время."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 202, 166, 145, 57, 201, 100
+#: 0x1f7047c
+msgctxt "map:1.45/npc:0/14"
+msgid "map:1.45/npc:0/14"
+msgstr ""
+"Наконец-то выпал шанс сразиться с чистой совестью…\\pЧто ж, {PLAYER}, "
+"поблажек не жди.\\pМне ведь нужно показать сыну достойный бой!"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 191, 188, 147, 5, 202, 64, 189, 178, 91, 183
+#: 0x1f70564
+msgctxt "map:1.45/npc:0/3"
+msgid "map:1.45/npc:0/3"
+msgstr ""
+"Давно я не испытывал такого удовлетворения от поражения.\\pМне и правда "
+"следует поблагодарить тебя, {PLAYER}.\\pС твоей помощью ко мне вернулся "
+"сын…\\pНо я благодарен ещё и за то, что при всей своей занятости ты "
+"находишь время его развлечь.\\pПрошу, прими от меня этот подарок."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 180, 57, 143, 178
+#: 0x1f70672
+msgctxt "map:1.45/npc:0/6"
+msgid "map:1.45/npc:0/6"
+msgstr ""
+"Этот кристалл-Z - для покемона {COLOR 06}Десиджуая{COLOR 08}.\\pЗная "
+"приём {COLOR 06}{STR_VAR_1}{COLOR 08}, он сможет провести разрушительную "
+"атаку-Z."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 179, 192, 195, 145, 206, 159
+#: 0x1f706e8
+msgctxt "map:1.45/npc:0/1"
+msgid "map:1.45/npc:0/1"
+msgstr ""
+"Ещё раз спасибо за бой.\\pПусть я снова проиграл, но, если мой сын рад, "
+"для меня только это и важно.\\pЗаходи как-нибудь ещё, если захочешь снова "
+"помериться силами."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 30, 185, 188, 35, 84
+#: 0x1f707af
+msgctxt "map:1.45/npc:15/3"
+msgid "map:1.45/npc:15/3"
+msgstr ""
+"Ух ты!\\pТы тот самый тренер, который помог моему папе вернуть меня из "
+"тёмного места!\\pТы просто супер!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 30, 183, 73, 188, 87
+#: 0x1f70810
+msgctxt "map:1.45/npc:15/1"
+msgid "map:1.45/npc:15/1"
+msgstr ""
+"Ух ты!\\pБыло так здорово смотреть, как ты сражаешься с папой!\\pКогда "
+"вырасту, я тоже стану тренером покемонов!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 155
+#: 0x1f71945
+msgctxt "map:4.11/sign:4/0"
+msgid "map:4.11/sign:4/0"
+msgstr "Тренировочная зона Воинов Теней"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f97855
+msgctxt "map:4.10/npc:4/1"
+msgid "map:4.10/npc:4/1"
+msgstr "Камень"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f97864
+msgctxt "map:4.10/npc:4/2"
+msgid "map:4.10/npc:4/2"
+msgstr "Сталь"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 34
+#: 0x1f97890
+msgctxt "map:4.10/npc:4/0"
+msgid "map:4.10/npc:4/0"
+msgstr "Дракон"

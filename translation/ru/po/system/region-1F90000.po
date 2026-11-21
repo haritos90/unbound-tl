@@ -1,0 +1,414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-1F90000\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 195, 132
+#: 0x1f93cb0
+msgctxt "hash:f58f7198"
+msgid "hash:f58f7198"
+msgstr ""
+"Вдохнуть боевой дух! Одержать\\n{B_COPY_VAR_1} побед на боевых площадках."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f940f9
+msgctxt "hash:50876b4d"
+msgid "hash:50876b4d"
+msgstr "Золото"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 32
+#: 0x1f940fe
+msgctxt "hash:4c2b302e"
+msgid "hash:4c2b302e"
+msgstr "Серебро"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x1f941b4
+msgctxt "hash:00c6180b"
+msgid "hash:00c6180b"
+msgstr "Команда "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 12
+#: 0x1f94416
+msgctxt "hash:95b2a1f2"
+msgid "hash:95b2a1f2"
+msgstr "включены"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f94419
+msgctxt "hash:bed0d350"
+msgid "hash:bed0d350"
+msgstr "выключены"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f9441d
+msgctxt "hash:2cba2a7d"
+msgid "hash:2cba2a7d"
+msgstr "Тишина"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f948f3
+msgctxt "hash:0c118b26"
+msgid "hash:0c118b26"
+msgstr "Без фона"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f94909
+msgctxt "hash:0a261f8e"
+msgid "hash:0a261f8e"
+msgstr " (помещение)"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x1f94913
+msgctxt "hash:4526f724"
+msgid "hash:4526f724"
+msgstr " (песок)"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x1f9491b
+msgctxt "hash:ce91fc49"
+msgid "hash:ce91fc49"
+msgstr " (пещера)"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f94943
+msgctxt "hash:7de149b3"
+msgid "hash:7de149b3"
+msgstr "Под водой"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f949c6
+msgctxt "hash:e79ad6af"
+msgid "hash:e79ad6af"
+msgstr "Чемпион"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 71
+#: 0x1f949d9
+msgctxt "hash:0f1071ee"
+msgid "hash:0f1071ee"
+msgstr "Карта Рубежа"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 17
+#: 0x1f949e7
+msgctxt "hash:2bf42a60"
+msgid "hash:2bf42a60"
+msgstr "БО: "
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 196, 178, 167, 163
+#: 0x1f95164
+msgctxt "hash:b2c91684"
+msgid "hash:b2c91684"
+msgstr ""
+"Место, куда отовсюду съезжаются,\\nчтобы показать силу. Торговцы\\nздесь "
+"сменяются в течение дня."
+
+#. category: data-table; mode: battle
+#. original lines: 10, widths px: 174, 158, 167, 66, 185, 57, 177, 115, 70, 184
+#: 0x1f95aa2
+msgctxt "hash:4d30f6bb"
+msgid "hash:4d30f6bb"
+msgstr ""
+"Только этой ночью и больше никогда:\\nобнулю {COLOR 06}индивидуальное "
+"значение\\lСкорости{COLOR 08} у одного из твоих\\lпокемонов.\\pЕсли оно "
+"ещё не на нуле,\\nконечно…\\pИ обойдётся всего в {COLOR "
+"06}{B_COPY_VAR_2}{COLOR 08} БО.\\pНу, что скажешь, Искорка?\\nУ тебя "
+"{COLOR 06}{B_COPY_VAR_1}{COLOR 08} БО.\\pИдёшь на сделку века?"
+
+#. category: data-table; mode: battle
+#. original lines: 8, widths px: 174, 192, 189, 127, 177, 115, 70, 184
+#: 0x1f95bb5
+msgctxt "hash:d47efae0"
+msgid "hash:d47efae0"
+msgstr ""
+"Только этой ночью и больше никогда:\\nсделаю одному из твоих покемонов\\l"
+"особую операцию и поменяю ему\\l{COLOR 06}пол на противоположный{COLOR "
+"08}.\\pИ обойдётся всего в {COLOR 06}{B_COPY_VAR_2}{COLOR 08} БО.\\pНу, "
+"что скажешь, Искорка?\\nУ тебя {COLOR 06}{B_COPY_VAR_1}{COLOR 08} БО.\\p"
+"Идёшь на сделку века?"
+
+#. category: data-table; mode: battle
+#. original lines: 7, widths px: 170, 175, 72, 177, 115, 70, 184
+#: 0x1f95d8a
+msgctxt "hash:fbe7ed4d"
+msgid "hash:fbe7ed4d"
+msgstr ""
+"Этой ночью, как и любой другой,\\nмогу сделать одного из твоих\\l"
+"покемонов {COLOR 06}сияющим{COLOR 08}.\\pИ обойдётся всего в {COLOR "
+"06}{B_COPY_VAR_2}{COLOR 08} БО.\\pНу, что скажешь, Искорка?\\nУ тебя "
+"{COLOR 06}{B_COPY_VAR_1}{COLOR 08} БО.\\pИдёшь на сделку века?"
+
+#. category: data-table; mode: battle
+#. original lines: 5, widths px: 33, 124, 109, 163, 40
+#: 0x1f9610c
+msgctxt "hash:91af856f"
+msgid "hash:91af856f"
+msgstr ""
+"Хиляк.\\pТеперь у покемона {COLOR 06}{B_COPY_VAR_1}{COLOR 08}\\nпотенциал "
+"{COLOR 06}Атаки{COLOR 08} - {COLOR 06}0{COLOR 08} очков.\\pКак-нибудь "
+"повторим,\\nИскорка…"
+
+#. category: data-table; mode: battle
+#. original lines: 5, widths px: 49, 124, 106, 163, 40
+#: 0x1f9617b
+msgctxt "hash:5575c21e"
+msgid "hash:5575c21e"
+msgstr ""
+"Тормоз.\\pТеперь у покемона {COLOR 06}{B_COPY_VAR_1}{COLOR 08}\\n"
+"потенциал {COLOR 06}Скорости{COLOR 08} - {COLOR 06}0{COLOR 08} очков.\\p"
+"Как-нибудь повторим,\\nИскорка…"
+
+#. category: data-table; mode: battle
+#. original lines: 5, widths px: 44, 176, 135, 163, 40
+#: 0x1f96264
+msgctxt "hash:47ee6317"
+msgid "hash:47ee6317"
+msgstr ""
+"Метаморфоза.\\pТеперь у покемона\\n{B_COPY_VAR_1} другой пол -\\lесли пол "
+"у него есть.\\pКак-нибудь повторим,\\nИскорка…"
+
+#. category: data-table; mode: battle
+#. original lines: 4, widths px: 44, 109, 163, 40
+#: 0x1f962d0
+msgctxt "hash:9d90e745"
+msgid "hash:9d90e745"
+msgstr ""
+"Блеск.\\pТеперь покемон {B_COPY_VAR_1} сияющий.\\pКак-нибудь повторим,\\n"
+"Искорка…"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x1f966ca
+msgctxt "hash:56ac4a36"
+msgid "hash:56ac4a36"
+msgstr "Фелисити"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x1f966d3
+msgctxt "hash:e4946950"
+msgid "hash:e4946950"
+msgstr "Тереза"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f966db
+msgctxt "hash:5f15d6ca"
+msgid "hash:5f15d6ca"
+msgstr "Джейн"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x1f966e0
+msgctxt "hash:c3950f7d"
+msgid "hash:c3950f7d"
+msgstr "Дебора"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x1f966e8
+msgctxt "hash:c772f576"
+msgid "hash:c772f576"
+msgstr "Вирджиния"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x1f966f1
+msgctxt "hash:f51f5e7e"
+msgid "hash:f51f5e7e"
+msgstr "Леринн"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f966f9
+msgctxt "hash:8e4f38dd"
+msgid "hash:8e4f38dd"
+msgstr "Карен"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x1f97830
+msgctxt "hash:5cb80cc6"
+msgid "hash:5cb80cc6"
+msgstr "Обычный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x1f97837
+msgctxt "hash:919b4fed"
+msgid "hash:919b4fed"
+msgstr "Боевой"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x1f97840
+msgctxt "hash:9f581c53"
+msgid "hash:9f581c53"
+msgstr "Летающий"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x1f97847
+msgctxt "hash:f34a6b47"
+msgid "hash:f34a6b47"
+msgstr "Яд"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x1f9784e
+msgctxt "hash:42924a3e"
+msgid "hash:42924a3e"
+msgstr "Земля"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f9785a
+msgctxt "hash:d5725821"
+msgid "hash:d5725821"
+msgstr "Насекомое"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f9785e
+msgctxt "hash:d494d015"
+msgid "hash:d494d015"
+msgstr "Привидение"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x1f9786a
+msgctxt "hash:6653d88c"
+msgid "hash:6653d88c"
+msgstr "Огонь"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f9786f
+msgctxt "hash:47a56a5e"
+msgid "hash:47a56a5e"
+msgstr "Вода"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 27
+#: 0x1f97875
+msgctxt "hash:e8446462"
+msgid "hash:e8446462"
+msgstr "Трава"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 43
+#: 0x1f9787b
+msgctxt "hash:43cb3e9a"
+msgid "hash:43cb3e9a"
+msgstr "Электро"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x1f97884
+msgctxt "hash:e7032c17"
+msgid "hash:e7032c17"
+msgstr "Психо"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f9788c
+msgctxt "hash:69a93f83"
+msgid "hash:69a93f83"
+msgstr "Лёд"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x1f97897
+msgctxt "hash:ef095765"
+msgid "hash:ef095765"
+msgstr "Тёмный"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 27
+#: 0x1f9789c
+msgctxt "hash:0c1a9371"
+msgid "hash:0c1a9371"
+msgstr "Фея"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 165, 169, 162
+#: 0x1f9c853
+msgctxt "hash:eec80db6"
+msgid "hash:eec80db6"
+msgstr ""
+"Пропала маленькая пловчиха\\nв круге! Найти её и вернуть целой\\nи "
+"невредимой встревоженной маме."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 197, 199
+#: 0x1f9ce03
+msgctxt "hash:309c07ec"
+msgid "hash:309c07ec"
+msgstr ""
+"Мальчик в костюме Пикачу сбежал\\nиз дома на Маршрут 8! Найти его\\nи "
+"благополучно вернуть домой."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 174, 187, 109
+#: 0x1f9d369
+msgctxt "hash:99853428"
+msgid "hash:99853428"
+msgstr ""
+"Вызволить брата одного мужчины\\nиз лап банды “Чёрный Эмбор”\\nна "
+"автостраде КБТ."
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 178, 149, 193
+#: 0x1f9eaf1
+msgctxt "hash:def870ad"
+msgid "hash:def870ad"
+msgstr ""
+"У кого-то беда с унитазом! Помочь\\nчлену Чёрного клана “{B_BUFF2}”:\\n"
+"достать его носки из канализации."
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 195, 197, 138
+#: 0x1f9f08f
+msgctxt "hash:2babdecd"
+msgid "hash:2babdecd"
+msgstr ""
+"Чёрный Ферроторн - угроза! Побить\\nего громил и расширить территорию\\n"
+"Чёрного клана “{B_BUFF2}”."
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 179, 148, 170
+#: 0x1f9fbcd
+msgctxt "hash:1cacc5ca"
+msgid "hash:1cacc5ca"
+msgstr ""
+"Невинный вид окупается. Помочь\\nЧёрному клану “{B_BUFF2}” тайком\\n"
+"вывезти груз из порта с 8 вечера."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 180, 170
+#: 0x1f9fc2a
+msgctxt "hash:58d95a6c"
+msgid "hash:58d95a6c"
+msgstr ""
+"Найти Листья Оддиша, спрятанные\\nв западной части порта Антисис,\\nи "
+"тайком доставить их в город."

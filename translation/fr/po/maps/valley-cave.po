@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/valley-cave\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 158, 163
+#: 0x1f82d7b
+msgctxt "map:47.1/sign:0/1"
+msgid "map:47.1/sign:0/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 170, 159, 48
+#: 0x1f82db6
+msgctxt "map:47.1/sign:3/0"
+msgid "map:47.1/sign:3/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 97
+#: 0x1f82dfc
+msgctxt "map:47.1/sign:3/1"
+msgid "map:47.1/sign:3/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 106
+#: 0x1f82e0e
+msgctxt "map:47.1/npc:14/0"
+msgid "map:47.1/npc:14/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 84, 28
+#: 0x1f82e43
+msgctxt "map:47.1/npc:14/1"
+msgid "map:47.1/npc:14/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 169, 60
+#: 0x1f82e59
+msgctxt "map:47.1/npc:14/2"
+msgid "map:47.1/npc:14/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f82e85
+msgctxt "map:47.1/npc:16/0"
+msgid "map:47.1/npc:16/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 94
+#: 0x1f82e8e
+msgctxt "map:47.1/npc:16/1"
+msgid "map:47.1/npc:16/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 161
+#: 0x1f82ea0
+msgctxt "map:47.1/npc:16/2"
+msgid "map:47.1/npc:16/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 162, 164
+#: 0x1f82ee2
+msgctxt "map:47.1/npc:17/0"
+msgid "map:47.1/npc:17/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 110
+#: 0x1f82f1e
+msgctxt "map:47.1/npc:17/1"
+msgid "map:47.1/npc:17/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 160, 167, 177
+#: 0x1f82f33
+msgctxt "map:47.1/npc:17/2"
+msgid "map:47.1/npc:17/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 136
+#: 0x1f82f90
+msgctxt "map:47.1/npc:18/0"
+msgid "map:47.1/npc:18/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 189, 90
+#: 0x1f82fca
+msgctxt "map:47.1/npc:18/1"
+msgid "map:47.1/npc:18/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 173, 174, 173, 102, 193, 186, 186, 65, 150
+#: 0x1f82ffe
+msgctxt "map:47.1/npc:18/3"
+msgid "map:47.1/npc:18/3"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 172, 189, 184, 122
+#: 0x1f830fe
+msgctxt "map:47.1/npc:18/2"
+msgid "map:47.1/npc:18/2"
+msgstr ""

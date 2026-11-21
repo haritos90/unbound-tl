@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-0880000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: The old behaviour-to-script table at 0x88C5B0 has only one code pointer, pool 0x806D1FC. That pool follows the hook at 0x806D1F0 (ldr r3 / bx r3 to 0x8A00795), which reads the live table at 0x8A6C658. Scripts 0x81BE38B (Dive), 0x81BE3D4 (surfacing), 0x878C584 (door) and 0x88886F0 (ladder) have no pointer outside the old table. The 'pool 0x88C614' root of reach is table data.)
+#. category: script; mode: field
+#. original lines: 2, widths px: 152, 40
+#: 0x088882a
+msgctxt "hash:d552a0e9"
+msgid "hash:d552a0e9"
+msgstr "Подняться по лестнице?"
+
+#. reach: never shown (review: The old behaviour-to-script table at 0x88C5B0 has only one code pointer, pool 0x806D1FC. That pool follows the hook at 0x806D1F0 (ldr r3 / bx r3 to 0x8A00795), which reads the live table at 0x8A6C658. Scripts 0x81BE38B (Dive), 0x81BE3D4 (surfacing), 0x878C584 (door) and 0x88886F0 (ladder) have no pointer outside the old table. The 'pool 0x88C614' root of reach is table data.)
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 28
+#: 0x088884e
+msgctxt "hash:4ead9a7f"
+msgid "hash:4ead9a7f"
+msgstr "Отсюда до лестницы не дотянуться."

@@ -1,0 +1,637 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/gurun-town\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 188, 189, 46, 186, 177, 184, 82, 178, 96
+#: 0x1f138f9
+msgctxt "map:3.98/npc:0/0"
+msgid "map:3.98/npc:0/0"
+msgstr ""
+"Я посвятил жизнь изучению тайн легендарных покемонов-титанов!\\pНедавно я "
+"выяснил, что эти покемоны, должно быть, живут в странных скалах, которые "
+"встречаются по всему Борриусу.\\pЗнать бы ещё, как их распечатать…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 164, 195, 173, 158
+#: 0x1f139ef
+msgctxt "map:3.98/npc:4/0"
+msgid "map:3.98/npc:4/0"
+msgstr ""
+"Довольно странно, что у самой пустыни есть лес, где столько покемонов "
+"типа Насекомое.\\pЧто ж, на то он и Борриус!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 196, 182, 190, 198, 159, 171, 167, 94
+#: 0x1f13a70
+msgctxt "map:3.98/npc:2/0"
+msgid "map:3.98/npc:2/0"
+msgstr ""
+"Дома здесь построены по образцу тех, что есть в регионе Юнова.\\pОни из "
+"одного города, известного посудой из вулканической глины.\\pКстати, "
+"где-то здесь живёт один ценитель, который дорого покупает какие-то "
+"древние вазы."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:bdfca98e-9441-5a7b-a8cc-ffeb49b73e63
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 9, widths px: 187, 180, 44, 192, 141, 169, 107, 179, 161
+#: 0x1f13b6a
+msgctxt "map:3.98/npc:3/0"
+msgid "map:3.98/npc:3/0"
+msgstr ""
+"Если пойти от городка на юг, пустыня скоро закончится.\\pТолько будь "
+"осторожнее, если решишь отправиться в ту сторону.\\pЗайдёшь слишком "
+"далеко - окажешься в городе Антисис.\\pА к этому месту тебе, поверь, "
+"лучше и близко не подходить…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 190, 93, 200, 102, 197, 85
+#: 0x1f13c67
+msgctxt "map:3.98/npc:1/1"
+msgid "map:3.98/npc:1/1"
+msgstr ""
+"Моя работа - зажигать по ночам все факелы.\\pКогда садится солнце, в "
+"пустыне бывает довольно холодно.\\pИ тогда факелы - надёжный источник "
+"тепла."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 175, 137, 176, 139, 197, 140
+#: 0x1f13d07
+msgctxt "map:3.98/npc:1/0"
+msgid "map:3.98/npc:1/0"
+msgstr ""
+"Моя работа - следить, чтобы здешние факелы горели всю ночь.\\pСолнце "
+"село, а ночью в пустыне бывает довольно холодно.\\pСейчас только эти "
+"факелы и дают надёжное тепло."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 187, 176, 40, 190, 165
+#: 0x1f13db9
+msgctxt "map:9.3/npc:0/11"
+msgid "map:9.3/npc:0/11"
+msgstr ""
+"Здравствуй. Научное общество направило меня сюда изучать окаменелости.\\p"
+"Если у тебя есть окаменелость, могу попробовать её оживить."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 194, 38
+#: 0x1f13e45
+msgctxt "map:9.3/npc:0/7"
+msgid "map:9.3/npc:0/7"
+msgstr "Похоже, и тебе окаменелость не попадалась…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 18, 93, 184, 123
+#: 0x1f13e71
+msgctxt "map:9.3/npc:0/6"
+msgid "map:9.3/npc:0/6"
+msgstr "О!\\nЧудесно!\\pИз какой окаменелости мне вернуть к жизни покемона?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 30, 167, 35
+#: 0x1f13ec0
+msgctxt "map:9.3/npc:0/9"
+msgid "map:9.3/npc:0/9"
+msgstr "…А?\\pПо-моему, это не окаменелость…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 93, 5
+#: 0x1f13eed
+msgctxt "map:9.3/npc:0/8"
+msgid "map:9.3/npc:0/8"
+msgstr "{COLOR 02}{PLAYER} отдаёт: {STR_VAR_2}."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 182, 91
+#: 0x1f13f07
+msgctxt "map:9.3/npc:0/0"
+msgid "map:9.3/npc:0/0"
+msgstr "Чтобы оживить окаменелость,\\nнужно время. Приходи попозже."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 76, 167, 126, 191, 160
+#: 0x1f13f3a
+msgctxt "map:9.3/npc:0/1"
+msgid "map:9.3/npc:0/1"
+msgstr ""
+"С возвращением!\\pМне удалось оживить окаменелость: это здоровый покемон "
+"{STR_VAR_1}!\\pНо чтобы его забрать, тебе нужно освободить место в "
+"команде."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 76, 167, 126
+#: 0x1f13fc2
+msgctxt "map:9.3/npc:0/2"
+msgid "map:9.3/npc:0/2"
+msgstr ""
+"С возвращением!\\pМне удалось оживить окаменелость: это здоровый покемон "
+"{STR_VAR_1}!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 197, 184
+#: 0x1f14009
+msgctxt "map:9.3/npc:0/4"
+msgid "map:9.3/npc:0/4"
+msgstr "Хочешь вернуть к жизни покемона ещё из какой-нибудь окаменелости?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 178, 43, 198, 96
+#: 0x1f1404f
+msgctxt "map:9.3/npc:0/5"
+msgid "map:9.3/npc:0/5"
+msgstr ""
+"Зато раньше мне довелось изучить окаменелость!\\pНаучное общество будет "
+"довольно моими исследованиями…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 146, 181, 170, 73, 168, 42
+#: 0x1f140af
+msgctxt "map:9.4/npc:1/0"
+msgid "map:9.4/npc:1/0"
+msgstr ""
+"Есть одна вещь, которую этот энтузиаст мечтает заполучить, даже если "
+"придётся выложить кучу денег.\\pУ тебя есть такая редкая вещь?\\nЕсть "
+"ведь?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 127, 127
+#: 0x1f14141
+msgctxt "map:9.4/npc:1/3"
+msgid "map:9.4/npc:1/3"
+msgstr ""
+"Ого, {COLOR 06}{STR_VAR_3}{COLOR 08}! Продашь за ¥{COLOR "
+"06}{STR_VAR_2}{COLOR 08}? Продашь ведь?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 133, 143, 55
+#: 0x1f14180
+msgctxt "map:9.4/npc:1/5"
+msgid "map:9.4/npc:1/5"
+msgstr "Мне досталась очень хорошая вещь!\\nПравда, здорово? Здорово ведь?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 142, 192
+#: 0x1f141bf
+msgctxt "map:9.4/npc:1/2"
+msgid "map:9.4/npc:1/2"
+msgstr "Это немного не то.\\nТы тоже так думаешь? Думаешь ведь?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 192, 147, 50
+#: 0x1f141ff
+msgctxt "map:9.4/npc:1/1"
+msgid "map:9.4/npc:1/1"
+msgstr "Если передумаешь, продашь мне редкую вещь? Продашь ведь?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 117
+#: 0x1f14247
+msgctxt "map:9.4/npc:0/5"
+msgid "map:9.4/npc:0/5"
+msgstr "Крепче некуда"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 52, 176, 96, 193, 55, 177, 147, 102, 142, 113, 123
+#: 0x1f142be
+msgctxt "map:9.4/npc:0/9"
+msgid "map:9.4/npc:0/9"
+msgstr ""
+"Эй, ты.\\nДельце у меня к тебе есть.\\pЯ энтузиаст.\\pЛюбитель твёрдых "
+"штуковин, скажу без ложной скромности.\\pНо, в отличие от моего приятеля "
+"вон там, покупать у тебя я ничего не собираюсь.\\pПросто собери для меня "
+"{COLOR 06}{STR_VAR_1} Камней крепости{COLOR 08}.\\pДумаешь, справишься?"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 48, 184, 177, 175, 159, 141
+#: 0x1f143ca
+msgctxt "map:9.4/npc:0/11"
+msgid "map:9.4/npc:0/11"
+msgstr ""
+"Йи-ха!\\p{COLOR 06}Камни крепости{COLOR 08} можно найти, круша скалы в "
+"{COLOR 06}Великой пустыне{COLOR 08}.\\pДа что там, бьюсь об заклад, в "
+"стенах {COLOR 06}автострады КБТ{COLOR 08} они тоже найдутся."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 201, 123, 168
+#: 0x1f1447f
+msgctxt "map:9.4/npc:0/1"
+msgid "map:9.4/npc:0/1"
+msgstr ""
+"Эти твёрдые штуковины у тебя в Кубе - то, что я просил!\\pДавай-ка их "
+"сюда."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 172, 52, 98
+#: 0x1f144d9
+msgctxt "map:9.4/npc:0/3"
+msgid "map:9.4/npc:0/3"
+msgstr "А, награды ждёшь, что ли?\\pНу, держи."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 184, 177, 175, 159, 141, 181, 93
+#: 0x1f14516
+msgctxt "map:9.4/npc:0/0"
+msgid "map:9.4/npc:0/0"
+msgstr ""
+"{COLOR 06}Камни крепости{COLOR 08} можно найти, круша скалы в {COLOR "
+"06}Великой пустыне{COLOR 08}.\\pДа что там, бьюсь об заклад, в стенах "
+"{COLOR 06}автострады КБТ{COLOR 08} они тоже найдутся.\\pХоть так, хоть "
+"эдак, а принеси мне {COLOR 06}{STR_VAR_1}{COLOR 08} штук."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 133, 58
+#: 0x1f145fe
+msgctxt "map:9.4/npc:0/10"
+msgid "map:9.4/npc:0/10"
+msgstr "Сразу видно: ты не энтузиаст."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 104, 171, 183, 146, 169, 177, 147
+#: 0x1f14623
+msgctxt "map:9.4/npc:0/7"
+msgid "map:9.4/npc:0/7"
+msgstr ""
+"Слушай, знаешь что?\\pНеси мне ещё твёрдых штуковин!\\pУ меня тут целая "
+"гора {COLOR 06}самоцветов{COLOR 08} залежалась, а мне до них ни малейшего "
+"дела нет!\\pОтдам их тебе в обмен на новые Камни крепости."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 136, 68, 193, 138
+#: 0x1f1472a
+msgctxt "map:9.4/npc:0/13"
+msgid "map:9.4/npc:0/13"
+msgstr ""
+"Есть для меня ещё {COLOR 06}Камни крепости{COLOR 08}?\\pОтсыплю тебе "
+"{COLOR 06}самоцветов{COLOR 08}, если не жалко выложить {COLOR "
+"06}{STR_VAR_1}{COLOR 08} штук."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 157
+#: 0x1f147a3
+msgctxt "map:9.4/npc:0/16"
+msgid "map:9.4/npc:0/16"
+msgstr "Какой самоцвет хочешь?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 179, 40
+#: 0x1f147bf
+msgctxt "map:9.4/npc:0/17"
+msgid "map:9.4/npc:0/17"
+msgstr ""
+"Отдаёшь {COLOR 06}{STR_VAR_1} Камней крепости{COLOR 08} за предмет {COLOR "
+"06}{STR_VAR_2}{COLOR 08}?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 48, 166, 29
+#: 0x1f147f8
+msgctxt "map:9.4/npc:0/20"
+msgid "map:9.4/npc:0/20"
+msgstr "Йи-ха!\\pХочешь выменять ещё самоцветов?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 182, 186
+#: 0x1f14825
+msgctxt "map:9.4/npc:0/18"
+msgid "map:9.4/npc:0/18"
+msgstr ""
+"Наберёшь ещё {COLOR 06}{STR_VAR_1} Камней крепости{COLOR 08} - приходи "
+"меняться, лады?"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 184, 177, 175, 159, 141, 181, 93, 194, 67
+#: 0x1f14870
+msgctxt "map:9.4/npc:0/14"
+msgid "map:9.4/npc:0/14"
+msgstr ""
+"{COLOR 06}Камни крепости{COLOR 08} можно найти, круша скалы в {COLOR "
+"06}Великой пустыне{COLOR 08}.\\pДа что там, бьюсь об заклад, в стенах "
+"{COLOR 06}автострады КБТ{COLOR 08} они тоже найдутся.\\pХоть так, хоть "
+"эдак, а принеси мне {COLOR 06}{STR_VAR_1}{COLOR 08} штук.\\pА я дам тебе "
+"взамен самоцвет на твой выбор."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 176, 22, 184, 177, 175, 159, 141
+#: 0x1f14989
+msgctxt "map:9.4/npc:0/15"
+msgid "map:9.4/npc:0/15"
+msgstr ""
+"У тебя меньше {COLOR 06}{STR_VAR_1} Камней крепости{COLOR 08}, так-то.\\p"
+"{COLOR 06}Камни крепости{COLOR 08} можно найти, круша скалы в {COLOR "
+"06}Великой пустыне{COLOR 08}.\\pДа что там, бьюсь об заклад, в стенах "
+"{COLOR 06}автострады КБТ{COLOR 08} они тоже найдутся."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 40, 90, 185, 94
+#: 0x1f14b1c
+msgctxt "map:9.5/npc:0/0"
+msgid "map:9.5/npc:0/0"
+msgstr ""
+"Пожалуйста…{PAUSE 20}\\nУмоляю…\\pСкажи, что тебе хоть {COLOR 06}3{COLOR "
+"08} раза доводилось удить покемонов…"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 132, 190, 155, 189, 194, 130, 106, 90
+#: 0x1f14b72
+msgctxt "map:9.5/npc:0/3"
+msgid "map:9.5/npc:0/3"
+msgstr ""
+"О-о-о-о-о-о-о-о да-а-а-а-а-а-а-а!\\pКо мне заглянул тренер, которому и "
+"правда не лень рыбачить!\\pИменно такого вдохновения мне и не хватало для "
+"новой жизни!\\pПора отрываться в Восточном Борриусе! Ю-ху!\\pБывай, "
+"тренер!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 94
+#: 0x1f14c4e
+msgctxt "map:9.5/npc:0/4"
+msgid "map:9.5/npc:0/4"
+msgstr "{COLOR 02}Похоже, рыбак что-то оставил…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 24, 90
+#: 0x1f14c84
+msgctxt "map:9.5/npc:0/1"
+msgid "map:9.5/npc:0/1"
+msgstr "Пф…\\pНу и молодёжь пошла…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 24, 76, 195
+#: 0x1f14c9a
+msgctxt "map:9.5/npc:0/2"
+msgid "map:9.5/npc:0/2"
+msgstr "Пф…\\pВрёшь! Тебе и 3 раз порыбачить\\nне довелось! Я знаю!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 84
+#: 0x1f14cd2
+msgctxt "map:9.6/npc:0/5"
+msgid "map:9.6/npc:0/5"
+msgstr "Охота за сокровищами"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 192, 194, 198, 90, 175, 172, 155
+#: 0x1f14d23
+msgctxt "map:9.6/npc:0/0"
+msgid "map:9.6/npc:0/0"
+msgstr ""
+"Во время странствий по пустыне тебе, случаем, не попадался вход в склеп "
+"Борриуса?\\pВ наших краях известно, что древние жители Борриуса спрятали "
+"в склепе немало сокровищ."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:b565aec2-5a3d-5eb0-b38f-7617d85bb88c
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 6, widths px: 49, 180, 175, 156, 168, 45
+#: 0x1f14dfc
+msgctxt "map:9.6/npc:0/8"
+msgid "map:9.6/npc:0/8"
+msgstr ""
+"Это ты!\\pТренер, нашедший погребальную камеру в склепе Борриуса!\\pО "
+"тебе говорит весь городок!\\pТак что, прошу, не откажи мне в просьбе!"
+
+#. category: script; mode: field
+#. original lines: 17, widths px: 188, 138, 84, 195, 159, 132, 173, 182, 66, 172, 167, 173, 81, 185, 157, 105, 153
+#: 0x1f14e8b
+msgctxt "map:9.6/npc:0/10"
+msgid "map:9.6/npc:0/10"
+msgstr ""
+"Ещё даже не знаешь, в чём дело, а уже соглашаешься?\\pВот это смелость!\\p"
+"Неудивительно, что тебе удалось пройти склеп Борриуса!\\pЧто ж, вот моя "
+"просьба.\\pНаверняка от тебя не укрылось, что сокровищ в склепе на виду "
+"почти не было.\\pВ наших краях известно, что древние жители Борриуса "
+"маскировали свои сокровища особыми материалами.\\pТак что я прошу тебя "
+"вернуться в склеп и отыскать все предметы, которые спрятали древние "
+"жители.\\pДумаешь, справишься?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 84, 189, 183, 193, 36
+#: 0x1f1505c
+msgctxt "map:9.6/npc:0/11"
+msgid "map:9.6/npc:0/11"
+msgstr ""
+"Ты просто класс!\\pСколько сокровищ ещё спрятано в склепе, я не чувствую, "
+"но почувствую, когда ты найдёшь их все."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 180, 179, 84, 195, 130
+#: 0x1f150dd
+msgctxt "map:9.6/npc:0/3"
+msgid "map:9.6/npc:0/3"
+msgstr ""
+"Чувствую… тебе удалось найти все спрятанные в склепе сокровища!\\pТы "
+"просто класс!\\pВозьми это яйцо: я нашёл его, когда сам осматривал склеп."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 120, 68
+#: 0x1f1516b
+msgctxt "map:9.6/npc:0/4"
+msgid "map:9.6/npc:0/4"
+msgstr "{COLOR 02}{PLAYER} получает яйцо от экстрасенса!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 101, 186, 174, 34
+#: 0x1f15193
+msgctxt "map:9.6/npc:0/9"
+msgid "map:9.6/npc:0/9"
+msgstr ""
+"Я тебя не виню.\\pУ такого известного тренера, как ты, наверняка есть "
+"дела поважнее."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 169, 184, 189, 182, 160
+#: 0x1f151f0
+msgctxt "map:9.6/npc:0/1"
+msgid "map:9.6/npc:0/1"
+msgstr ""
+"Я чувствую, что в склепе ещё есть спрятанные сокровища.\\pНе знаю, "
+"сколько их осталось, но воспользуйся {COLOR 06}Локатором{COLOR 08}, чтобы "
+"ничего не упустить."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 180, 140, 201, 185, 70
+#: 0x1f1529a
+msgctxt "map:9.6/npc:0/2"
+msgid "map:9.6/npc:0/2"
+msgstr ""
+"Чувствую… тебе удалось найти все сокровища склепа!\\pНо прежде чем я "
+"вручу тебе награду, освободи для неё место в команде."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 188, 128, 195, 195, 125
+#: 0x1f15329
+msgctxt "map:9.6/npc:0/7"
+msgid "map:9.6/npc:0/7"
+msgstr ""
+"Это яйцо, должно быть, веками пролежало в склепе!\\pНе найди ты "
+"погребальную камеру, у него, возможно, так и не появилось бы заботливого "
+"тренера."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 36, 100, 110, 172, 59, 109
+#: 0x1f15650
+msgctxt "map:9.0/npc:2/1"
+msgid "map:9.0/npc:2/1"
+msgstr ""
+"Тс-с-с-с!\\pСлышишь их?\\nЗаточённых духов?\\pИх голоса доносятся из "
+"твоего Куба!\\pТебе нужно их освободить!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 182, 74
+#: 0x1f156bd
+msgctxt "map:9.0/npc:2/5"
+msgid "map:9.0/npc:2/5"
+msgstr "{COLOR 02}Спиритум снова скрылся в Ключе-камне."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 171, 40, 176, 28
+#: 0x1f156f0
+msgctxt "map:9.0/npc:2/6"
+msgid "map:9.0/npc:2/6"
+msgstr ""
+"Нельзя пугать заточённых духов!\\pЧтобы их освободить, их нужно поймать."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 163, 34, 46
+#: 0x1f1573f
+msgctxt "map:9.0/npc:2/4"
+msgid "map:9.0/npc:2/4"
+msgstr "Заточённые духи обрели свободу!\\pВозрадуйся!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 36, 100, 110, 118
+#: 0x1f1576d
+msgctxt "map:9.0/npc:2/0"
+msgid "map:9.0/npc:2/0"
+msgstr ""
+"Тс-с-с-с!\\pСлышишь их?\\nЗаточённых духов?\\p…{PAUSE 20}Конечно же, не "
+"слышишь…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 117, 109
+#: 0x1f157b4
+msgctxt "map:9.0/npc:2/2"
+msgid "map:9.0/npc:2/2"
+msgstr "Но им же больно!\\nТебе нужно их освободить!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 42
+#: 0x1f157de
+msgctxt "map:9.0/npc:2/3"
+msgid "map:9.0/npc:2/3"
+msgstr "{COLOR 06}Ша-а-ах!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:4a0ed0a2-d60a-5427-9b50-d08511b6a398
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 8, widths px: 182, 162, 189, 63, 189, 152, 177, 186
+#: 0x1f157e9
+msgctxt "map:9.6/npc:1/0"
+msgid "map:9.6/npc:1/0"
+msgstr ""
+"Раньше мы каждый год устраивали праздник в честь того дня, когда "
+"покемоны-титаны достроили наш городок.\\pНо в последние годы интерес к "
+"нему как-то угас.\\pВидно, люди совсем подсели на телевизоры и гаджеты…"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 9, widths px: 174, 174, 73, 165, 190, 127, 188, 166, 118
+#: 0x1f158da
+msgctxt "map:9.0/npc:1/1"
+msgid "map:9.0/npc:1/1"
+msgstr ""
+"Если поплывёшь на восток от городка Гурун, доберёшься до входа на Дорогу "
+"победы.\\pЭтот трудный путь для опытных тренеров ведёт к Лиге "
+"покемонов.\\pИменно там ты сможешь бросить вызов Элитной четвёрке и "
+"занять пустующее место чемпиона."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 9, widths px: 174, 174, 73, 165, 190, 127, 188, 178, 67
+#: 0x1f159d8
+msgctxt "map:9.0/npc:1/0"
+msgid "map:9.0/npc:1/0"
+msgstr ""
+"Если поплывёшь на восток от городка Гурун, доберёшься до входа на Дорогу "
+"победы.\\pЭтот трудный путь для опытных тренеров ведёт к Лиге "
+"покемонов.\\pИменно там ты сможешь бросить вызов Элитной четвёрке и "
+"защитить свой титул чемпиона."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 168, 95, 179, 46, 177, 184, 115
+#: 0x1f15acf
+msgctxt "map:9.2/npc:2/0"
+msgid "map:9.2/npc:2/0"
+msgstr ""
+"В день рождения магазины дают тебе скидку.\\pНо, как и у всего хорошего, "
+"тут есть подвох.\\pДа, предметы стоят дешевле, но и при продаже за них "
+"дают меньше."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 52, 112, 186, 37, 176
+#: 0x1f15b83
+msgctxt "map:9.2/npc:1/1"
+msgid "map:9.2/npc:1/1"
+msgstr ""
+"Ох, батюшки…\\nДа на тебе лица нет!\\pТы, наверное, мало пьёшь?\\pВот, "
+"держи, поделюсь с тобой."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 163, 61, 176, 129
+#: 0x1f15bed
+msgctxt "map:9.2/npc:1/0"
+msgid "map:9.2/npc:1/0"
+msgstr ""
+"Вот и славно, теперь ты выглядишь гораздо лучше.\\pВ такую жару "
+"путешествуй, пожалуйста, осторожнее!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:03900444-63b6-592d-b312-d5ed92170bc7
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 3, widths px: 57, 191, 43
+#: 0x1f71af5
+msgctxt "map:3.98/sign:0/0"
+msgid "map:3.98/sign:0/0"
+msgstr "Городок Гурун\\pГородок, переживший пески времени."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 168, 76, 191, 181, 155, 155, 58
+#: 0x1f71b2c
+msgctxt "map:3.98/sign:1/0"
+msgid "map:3.98/sign:1/0"
+msgstr ""
+"Это статуя легендарного покемона-титана.\\pНадпись гласит, что в "
+"древности титаны помогли Реджигигасу объединить регион Борриус.\\pГде они "
+"обитают сейчас, неизвестно."

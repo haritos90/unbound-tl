@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-01B0000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 154, 93, 90
+#: 0x01bc4ce
+msgctxt "hash:39d8d4ac"
+msgid "hash:39d8d4ac"
+msgstr ""
+"Когда все игроки будут готовы…\\nКнопка A: подтверждение\\lКнопка B: "
+"отмена"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 135, 93, 90
+#: 0x01bc50d
+msgctxt "hash:d79f6fae"
+msgid "hash:d79f6fae"
+msgstr ""
+"Связать игроков: {STR_VAR_1}.\\nКнопка A: подтверждение\\lКнопка B: отмена"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 85, 114
+#: 0x01bc54c
+msgctxt "hash:7f8fdf8c"
+msgid "hash:7f8fdf8c"
+msgstr "Ожидание связи…\\n… … Кнопка B: отмена"

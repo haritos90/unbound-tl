@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/route-15\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 88, 174, 126, 23, 129, 113
+#: 0x1f5e25d
+msgctxt "map:3.39/npc:1/0"
+msgid "map:3.39/npc:1/0"
+msgstr ""
+"Ты в своём уме?!\\pРазве ты не знаешь, что плавать в грозу опасно?\\p"
+"…{PAUSE 20}Нам?\\pУ нас же второй тип - Земля!\\nНас током не ударит!"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 52, 181, 72, 174, 46, 153, 74
+#: 0x1f5e2db
+msgctxt "map:3.39/npc:0/0"
+msgid "map:3.39/npc:0/0"
+msgstr ""
+"Ох…\\pВ такую погоду плавать надо осторожнее!\\pВидишь ли, это "
+"неестественная гроза.\\pЭтот ливень вызван чем-то зловещим."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 162, 107, 135
+#: 0x1f5e36a
+msgctxt "map:3.39/npc:3/0"
+msgid "map:3.39/npc:3/0"
+msgstr "Та странная гроза уже прошла!\\pПочему она вдруг закончилась?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 199
+#: 0x1f5e3b5
+msgctxt "map:3.39/npc:3/1"
+msgid "map:3.39/npc:3/1"
+msgstr "Кончилась внезапно, как и наш бой!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 141, 151, 188, 133, 177
+#: 0x1f5e3d9
+msgctxt "map:3.39/npc:3/4"
+msgid "map:3.39/npc:3/4"
+msgstr ""
+"Что могло вызвать такую сильную грозу?\\pЯ знаю о таланте {COLOR "
+"06}Изморось{COLOR 04}, но тут было нечто иное.\\pЭтот дождь был "
+"почти…{PAUSE 20} первобытным…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 158
+#: 0x1f5e474
+msgctxt "map:3.39/npc:4/0"
+msgid "map:3.39/npc:4/0"
+msgstr "Гроза влияет на рыбалку!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 177
+#: 0x1f5e492
+msgctxt "map:3.39/npc:4/1"
+msgid "map:3.39/npc:4/1"
+msgstr "Или мне это только показалось?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 184, 113, 92, 185, 61
+#: 0x1f5e4b3
+msgctxt "map:3.39/npc:4/4"
+msgid "map:3.39/npc:4/4"
+msgstr ""
+"На самом деле гроза на рыбалку не влияет.\\pА вот {COLOR "
+"06}Благоухание{COLOR 08}…\\pЕго нельзя использовать, если погода не ясная."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 4, widths px: 47, 102, 133, 77
+#: 0x1f71cc3
+msgctxt "map:3.39/sign:0/0"
+msgid "map:3.39/sign:0/0"
+msgstr ""
+"Маршрут 15\\n“Северное взморье”\\p{LEFT_ARROW} Маршрут 2, Пещера Айсикл\\n"
+"{RIGHT_ARROW} Городок Вивилл"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 70, 172, 170, 192, 133
+#: 0x1f7441f
+msgctxt "map:3.39/sign:1/0"
+msgid "map:3.39/sign:1/0"
+msgstr ""
+"Советы тренерам!\\pЕсли ваш покемон знает приём {COLOR "
+"06}Благоухание{COLOR 02}, в ясную погоду с его помощью можно встретить "
+"сразу двух диких покемонов!"

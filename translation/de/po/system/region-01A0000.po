@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-01A0000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA4FC, 0x80CA510 and 0x80CA520, with loads at 0x80CA4F6, 0x80CA50C and 0x80CA518, in the dead body 0x80CA42C-0x80CA523. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 3, widths px: 145, 182, 142
+#: 0x01a6d17
+msgctxt "hash:35a7ced5"
+msgid "hash:35a7ced5"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA4FC, 0x80CA510 and 0x80CA520, with loads at 0x80CA4F6, 0x80CA50C and 0x80CA518, in the dead body 0x80CA42C-0x80CA523. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 152, 190
+#: 0x01a7137
+msgctxt "hash:57840a48"
+msgid "hash:57840a48"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA4FC, 0x80CA510 and 0x80CA520, with loads at 0x80CA4F6, 0x80CA50C and 0x80CA518, in the dead body 0x80CA42C-0x80CA523. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 191, 93
+#: 0x01a7175
+msgctxt "hash:b7738351"
+msgid "hash:b7738351"
+msgstr ""

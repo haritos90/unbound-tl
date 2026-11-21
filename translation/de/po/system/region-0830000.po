@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0830000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: The older Mega Evolution message table at 0x82FFCC is read only by 0x82EAF0 (pool 0x82EB3C) and 0x82EB44 (pool 0x82EB68). The only pointers to 0x82EB45, 0x82E8C9, 0x82E8F9 and 0x82E931 are pools 0x82E8F4 of 0x82E8C8, 0x82E92C of 0x82E8F8, 0x82E954 of 0x82E930 and 0x82EB40 of 0x82EAF0. None of those functions is a BL target, and no BL, branch or word reaches 0x82EAF0. The live engine sets s096CC1C-s096CCA6 from scripts 0x96CB29-0x96CB84.)
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 103, 36
+#: 0x083001c
+msgctxt "hash:e2e5373b"
+msgid "hash:e2e5373b"
+msgstr ""
+
+#. reach: never shown (review: The older Mega Evolution message table at 0x82FFCC is read only by 0x82EAF0 (pool 0x82EB3C) and 0x82EB44 (pool 0x82EB68). The only pointers to 0x82EB45, 0x82E8C9, 0x82E8F9 and 0x82E931 are pools 0x82E8F4 of 0x82E8C8, 0x82E92C of 0x82E8F8, 0x82E954 of 0x82E930 and 0x82EB40 of 0x82EAF0. None of those functions is a BL target, and no BL, branch or word reaches 0x82EAF0. The live engine sets s096CC1C-s096CCA6 from scripts 0x96CB29-0x96CB84.)
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 204, 6
+#: 0x083003c
+msgctxt "hash:d46c41b8"
+msgid "hash:d46c41b8"
+msgstr ""
+
+#. reach: never shown (review: The older Mega Evolution message table at 0x82FFCC is read only by 0x82EAF0 (pool 0x82EB3C) and 0x82EB44 (pool 0x82EB68). The only pointers to 0x82EB45, 0x82E8C9, 0x82E8F9 and 0x82E931 are pools 0x82E8F4 of 0x82E8C8, 0x82E92C of 0x82E8F8, 0x82E954 of 0x82E930 and 0x82EB40 of 0x82EAF0. None of those functions is a BL target, and no BL, branch or word reaches 0x82EAF0. The live engine sets s096CC1C-s096CCA6 from scripts 0x96CB29-0x96CB84.)
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 79, 76
+#: 0x0830068
+msgctxt "hash:68c4ddfa"
+msgid "hash:68c4ddfa"
+msgstr ""
+
+#. reach: never shown (review: The older Mega Evolution message table at 0x82FFCC is read only by 0x82EAF0 (pool 0x82EB3C) and 0x82EB44 (pool 0x82EB68). The only pointers to 0x82EB45, 0x82E8C9, 0x82E8F9 and 0x82E931 are pools 0x82E8F4 of 0x82E8C8, 0x82E92C of 0x82E8F8, 0x82E954 of 0x82E930 and 0x82EB40 of 0x82EAF0. None of those functions is a BL target, and no BL, branch or word reaches 0x82EAF0. The live engine sets s096CC1C-s096CCA6 from scripts 0x96CB29-0x96CB84.)
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 78, 37
+#: 0x083008c
+msgctxt "hash:11b50f43"
+msgid "hash:11b50f43"
+msgstr ""
+
+#. reach: never shown (review: The EV-IV display title and labels are hash:2873516d, hash:1ff13a81, hash:cc1acf68, hash:04eae721, hash:5189ebd9 and hash:a5ebb379. Each string's only pointer is a pool word of module 0x8833C30-0x8834A87, loaded only there. Pool word 0x834270 is loaded at 0x8834242, and 0x834580 at 0x88342C6. Pool word 0x83459C is loaded at 0x8834334 and 0x883445E, and 0x8345A0 at 0x883435A and 0x8834490. Pool word 0x8345A4 is loaded at 0x8834398 and 0x88344CE, and 0x8345A8 at 0x88343BE and 0x8834500. No other word in the ROM, aligned or not, points at the strings. The only Thumb pointer into the module from outside it is callasm 0x8833CA9 at 0x7C8ADD of script 0x7C8AC8. That script follows a string, and no word points at it. No BL or branch from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data. The other words into the module are unaligned or even and follow no callasm or gotoasm.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 78
+#: 0x0834af4
+msgctxt "hash:2873516d"
+msgid "hash:2873516d"
+msgstr ""
+
+#. reach: never shown (review: The EV-IV display title and labels are hash:2873516d, hash:1ff13a81, hash:cc1acf68, hash:04eae721, hash:5189ebd9 and hash:a5ebb379. Each string's only pointer is a pool word of module 0x8833C30-0x8834A87, loaded only there. Pool word 0x834270 is loaded at 0x8834242, and 0x834580 at 0x88342C6. Pool word 0x83459C is loaded at 0x8834334 and 0x883445E, and 0x8345A0 at 0x883435A and 0x8834490. Pool word 0x8345A4 is loaded at 0x8834398 and 0x88344CE, and 0x8345A8 at 0x88343BE and 0x8834500. No other word in the ROM, aligned or not, points at the strings. The only Thumb pointer into the module from outside it is callasm 0x8833CA9 at 0x7C8ADD of script 0x7C8AC8. That script follows a string, and no word points at it. No BL or branch from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data. The other words into the module are unaligned or even and follow no callasm or gotoasm.)
+#. category: code; mode: field
+#. in place only: 4 bytes max
+#. original lines: 1, widths px: 22
+#: 0x0834b04
+msgctxt "hash:1ff13a81"
+msgid "hash:1ff13a81"
+msgstr ""
+
+#. reach: never shown (review: Routine 0x88342BC prints the EV-IV display labels from pool word 0x834580 (r10 + 8, + 0x10, + 0x34). Only task 0x8833E6C of module 0x8833C30-0x8834A87 calls the routine, through pools 0x83414C and 0x834A40. Only callback 0x8833C30 creates that task, through pool 0x833C9C. Only 0x8833CA8 sets that callback, through pool 0x833CC8. The only pointer to 0x8833CA9 is the callasm at 0x7C8ADD of script 0x7C8AC8 (s07C8AEC, sha256:10f45ad5217402ff59b57e19555a408faa25954463e02e4b6d7a520ad711b6e0). That script follows a string, and no word in the ROM, aligned or not, points at it. No BL, branch or word from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data.)
+#. category: code; mode: field
+#. in place only: 4 bytes max
+#. original lines: 1, widths px: 22
+#: 0x0834b0c
+msgctxt "hash:71f292a0"
+msgid "hash:71f292a0"
+msgstr ""
+
+#. reach: never shown (review: Routine 0x88342BC prints the EV-IV display labels from pool word 0x834580 (r10 + 8, + 0x10, + 0x34). Only task 0x8833E6C of module 0x8833C30-0x8834A87 calls the routine, through pools 0x83414C and 0x834A40. Only callback 0x8833C30 creates that task, through pool 0x833C9C. Only 0x8833CA8 sets that callback, through pool 0x833CC8. The only pointer to 0x8833CA9 is the callasm at 0x7C8ADD of script 0x7C8AC8 (s07C8AEC, sha256:10f45ad5217402ff59b57e19555a408faa25954463e02e4b6d7a520ad711b6e0). That script follows a string, and no word in the ROM, aligned or not, points at it. No BL, branch or word from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data.)
+#. category: code; mode: field
+#. in place only: 3 bytes max
+#. original lines: 1, widths px: 17
+#: 0x0834b14
+msgctxt "hash:c16ef536"
+msgid "hash:c16ef536"
+msgstr ""
+
+#. reach: never shown (review: The EV-IV display title and labels are hash:2873516d, hash:1ff13a81, hash:cc1acf68, hash:04eae721, hash:5189ebd9 and hash:a5ebb379. Each string's only pointer is a pool word of module 0x8833C30-0x8834A87, loaded only there. Pool word 0x834270 is loaded at 0x8834242, and 0x834580 at 0x88342C6. Pool word 0x83459C is loaded at 0x8834334 and 0x883445E, and 0x8345A0 at 0x883435A and 0x8834490. Pool word 0x8345A4 is loaded at 0x8834398 and 0x88344CE, and 0x8345A8 at 0x88343BE and 0x8834500. No other word in the ROM, aligned or not, points at the strings. The only Thumb pointer into the module from outside it is callasm 0x8833CA9 at 0x7C8ADD of script 0x7C8AC8. That script follows a string, and no word points at it. No BL or branch from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data. The other words into the module are unaligned or even and follow no callasm or gotoasm.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0834b18
+msgctxt "hash:cc1acf68"
+msgid "hash:cc1acf68"
+msgstr ""
+
+#. reach: never shown (review: The EV-IV display title and labels are hash:2873516d, hash:1ff13a81, hash:cc1acf68, hash:04eae721, hash:5189ebd9 and hash:a5ebb379. Each string's only pointer is a pool word of module 0x8833C30-0x8834A87, loaded only there. Pool word 0x834270 is loaded at 0x8834242, and 0x834580 at 0x88342C6. Pool word 0x83459C is loaded at 0x8834334 and 0x883445E, and 0x8345A0 at 0x883435A and 0x8834490. Pool word 0x8345A4 is loaded at 0x8834398 and 0x88344CE, and 0x8345A8 at 0x88343BE and 0x8834500. No other word in the ROM, aligned or not, points at the strings. The only Thumb pointer into the module from outside it is callasm 0x8833CA9 at 0x7C8ADD of script 0x7C8AC8. That script follows a string, and no word points at it. No BL or branch from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data. The other words into the module are unaligned or even and follow no callasm or gotoasm.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0834b20
+msgctxt "hash:04eae721"
+msgid "hash:04eae721"
+msgstr ""
+
+#. reach: never shown (review: The EV-IV display title and labels are hash:2873516d, hash:1ff13a81, hash:cc1acf68, hash:04eae721, hash:5189ebd9 and hash:a5ebb379. Each string's only pointer is a pool word of module 0x8833C30-0x8834A87, loaded only there. Pool word 0x834270 is loaded at 0x8834242, and 0x834580 at 0x88342C6. Pool word 0x83459C is loaded at 0x8834334 and 0x883445E, and 0x8345A0 at 0x883435A and 0x8834490. Pool word 0x8345A4 is loaded at 0x8834398 and 0x88344CE, and 0x8345A8 at 0x88343BE and 0x8834500. No other word in the ROM, aligned or not, points at the strings. The only Thumb pointer into the module from outside it is callasm 0x8833CA9 at 0x7C8ADD of script 0x7C8AC8. That script follows a string, and no word points at it. No BL or branch from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data. The other words into the module are unaligned or even and follow no callasm or gotoasm.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0834b28
+msgctxt "hash:5189ebd9"
+msgid "hash:5189ebd9"
+msgstr ""
+
+#. reach: never shown (review: The EV-IV display title and labels are hash:2873516d, hash:1ff13a81, hash:cc1acf68, hash:04eae721, hash:5189ebd9 and hash:a5ebb379. Each string's only pointer is a pool word of module 0x8833C30-0x8834A87, loaded only there. Pool word 0x834270 is loaded at 0x8834242, and 0x834580 at 0x88342C6. Pool word 0x83459C is loaded at 0x8834334 and 0x883445E, and 0x8345A0 at 0x883435A and 0x8834490. Pool word 0x8345A4 is loaded at 0x8834398 and 0x88344CE, and 0x8345A8 at 0x88343BE and 0x8834500. No other word in the ROM, aligned or not, points at the strings. The only Thumb pointer into the module from outside it is callasm 0x8833CA9 at 0x7C8ADD of script 0x7C8AC8. That script follows a string, and no word points at it. No BL or branch from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data. The other words into the module are unaligned or even and follow no callasm or gotoasm.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0834b30
+msgctxt "hash:a5ebb379"
+msgid "hash:a5ebb379"
+msgstr ""
+
+#. reach: never shown (review: Routine 0x88342BC prints the EV-IV display labels from pool word 0x834580 (r10 + 8, + 0x10, + 0x34). Only task 0x8833E6C of module 0x8833C30-0x8834A87 calls the routine, through pools 0x83414C and 0x834A40. Only callback 0x8833C30 creates that task, through pool 0x833C9C. Only 0x8833CA8 sets that callback, through pool 0x833CC8. The only pointer to 0x8833CA9 is the callasm at 0x7C8ADD of script 0x7C8AC8 (s07C8AEC, sha256:10f45ad5217402ff59b57e19555a408faa25954463e02e4b6d7a520ad711b6e0). That script follows a string, and no word in the ROM, aligned or not, points at it. No BL, branch or word from outside enters the module. The BL-shaped pairs at 0x8656CAA, 0x87038CA and 0x870FC4A are data.)
+#. category: code; mode: field
+#. in place only: 4 bytes max
+#. original lines: 1, widths px: 22
+#: 0x0834b38
+msgctxt "hash:9adcd7e5"
+msgid "hash:9adcd7e5"
+msgstr ""

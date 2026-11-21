@@ -1,0 +1,7 @@
+statefile load e6
+partymon 1 133 0x01234567 0x02468ACE
+goto 0x169CCC
+wait 2
+goto 0x1E7CE6A
+wait 1
+shot berry-direct

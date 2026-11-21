@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1FB4FB8\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 98
+#: 0x1f68219
+msgctxt "hash:b17012af"
+msgid "hash:b17012af"
+msgstr "Появился дикий покемон {B_COPY_VAR_2}!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 199
+#: 0x1f6822d
+msgctxt "hash:7c8379c6"
+msgid "hash:7c8379c6"
+msgstr ""
+"Осталось: {B_COPY_VAR_2}    {F8 0C}Ход {F8 00}Бросок {F8 04}Ягода {F8 "
+"01}Уйти"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 70
+#: 0x1f6825b
+msgctxt "hash:4ea7b9f3"
+msgid "hash:4ea7b9f3"
+msgstr "Покемон {B_COPY_VAR_2} пойман!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 113, 69, 0
+#: 0x1f6826a
+msgctxt "hash:f2c76ee9"
+msgid "hash:f2c76ee9"
+msgstr "Данные о покемоне {B_COPY_VAR_2}\\nзанесены в Покедекс.\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 112
+#: 0x1f6828f
+msgctxt "hash:3c47cdc2"
+msgid "hash:3c47cdc2"
+msgstr "Дать кличку покемону {B_COPY_VAR_2}?"
+
+#. category: data-table; mode: battle
+#. original lines: 5, widths px: 105, 5, 90, 41, 0
+#: 0x1f682a6
+msgctxt "hash:c23bb539"
+msgid "hash:c23bb539"
+msgstr ""
+"Покемон {B_COPY_VAR_1}\\nотправляется: {B_COPY_VAR_2}.\\pОн попадает\\nв "
+"ячейку “{B_COPY_VAR_3}”.\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 185, 184
+#: 0x1f682dc
+msgctxt "hash:100c9768"
+msgid "hash:100c9768"
+msgstr "Поймано покемонов: {B_COPY_VAR_2}.\\nПродолжить Игру в сафари?"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 121
+#: 0x1f68321
+msgctxt "hash:990e5867"
+msgid "hash:990e5867"
+msgstr "Какую ягоду дать покемону {B_COPY_VAR_2}?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 101
+#: 0x1f68339
+msgctxt "hash:4552ab5f"
+msgid "hash:4552ab5f"
+msgstr "Нет подходящих ягод!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 128
+#: 0x1f6834c
+msgctxt "hash:f70460da"
+msgid "hash:f70460da"
+msgstr "{F8 0C}Ход {F8 01}Назад {F8 04}Другая {F8 00}Бросок: {B_COPY_VAR_1}"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 0
+#: 0x1f6836d
+msgctxt "hash:c4fea6f2"
+msgid "hash:c4fea6f2"
+msgstr "{B_COPY_VAR_2} съедает: {B_COPY_VAR_3}.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 162
+#: 0x1f68390
+msgctxt "hash:2e8cd05c"
+msgid "hash:2e8cd05c"
+msgstr "Закончить Игру в сафари?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 162, 157
+#: 0x1f683ae
+msgctxt "hash:61237503"
+msgid "hash:61237503"
+msgstr "Закончить Игру в сафари?\\nИли перейти к следующему покемону?"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 158, 157
+#: 0x1f683e9
+msgctxt "hash:c207920d"
+msgid "hash:c207920d"
+msgstr ""
+"Отдать Сафариболы ({B_COPY_VAR_1} из {B_COPY_VAR_2} шт.),\\nчтобы перейти "
+"к следующему покемону?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 115
+#: 0x1f68427
+msgctxt "hash:22ba2360"
+msgid "hash:22ba2360"
+msgstr "Не хватает Сафариболов, чтобы\\nпропустить этого покемона!"

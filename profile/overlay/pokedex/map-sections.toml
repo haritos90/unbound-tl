@@ -1,0 +1,7 @@
+[pokedex.map_sections]
+base = 0x3F1CAC
+stride = 4
+first = 0x58
+count = 109
+evidence = "The region map section name pointer table proven for [maps].mapsec_names; section 0x58 points to Frozen Heights s0720F5C, section 0x59 to Bellin Town s03EED08 and section 0x91 to Magnolia Town s0B50228. Evolution method 19 carries the section id"
+

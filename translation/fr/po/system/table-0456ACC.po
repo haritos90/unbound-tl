@@ -1,0 +1,409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0456ACC\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 15
+#: 0x041a502
+msgctxt "hash:d5b35203"
+msgid "hash:d5b35203"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x041a506
+msgctxt "hash:895f5186"
+msgid "hash:895f5186"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 52, 88, 62
+#: 0x041a53a
+msgctxt "hash:9ae52bcb"
+msgid "hash:9ae52bcb"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 38
+#: 0x041a74e
+msgctxt "hash:bfed8b98"
+msgid "hash:bfed8b98"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x041a756
+msgctxt "hash:c24c0174"
+msgid "hash:c24c0174"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x041a762
+msgctxt "hash:d0f3d10e"
+msgid "hash:d0f3d10e"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 41, 73, 62
+#: 0x041ad9e
+msgctxt "hash:d4ed5a73"
+msgid "hash:d4ed5a73"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 203, 92
+#: 0x041adc8
+msgctxt "hash:b80b3df7"
+msgid "hash:b80b3df7"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 159
+#: 0x041adff
+msgctxt "hash:f35b5565"
+msgid "hash:f35b5565"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 140, 76
+#: 0x041ae1e
+msgctxt "hash:65629916"
+msgid "hash:65629916"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 170, 109
+#: 0x041aea7
+msgctxt "hash:c46f7fcf"
+msgid "hash:c46f7fcf"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 127, 122
+#: 0x041aedc
+msgctxt "hash:2f777dc6"
+msgid "hash:2f777dc6"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x041af98
+msgctxt "hash:4eafa9e4"
+msgid "hash:4eafa9e4"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x041af9f
+msgctxt "hash:a514c0eb"
+msgid "hash:a514c0eb"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x041afd1
+msgctxt "hash:706201d8"
+msgid "hash:706201d8"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 103, 135
+#: 0x041afd6
+msgctxt "hash:5e37bc85"
+msgid "hash:5e37bc85"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 80, 77, 130
+#: 0x041b005
+msgctxt "hash:998be5a1"
+msgid "hash:998be5a1"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x041b0a4
+msgctxt "hash:ebf7acff"
+msgid "hash:ebf7acff"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x041b0b5
+msgctxt "hash:40d97e11"
+msgid "hash:40d97e11"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 112
+#: 0x041b0b9
+msgctxt "hash:75707fd7"
+msgid "hash:75707fd7"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 90
+#: 0x041b0cd
+msgctxt "hash:5354c020"
+msgid "hash:5354c020"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x041b0dd
+msgctxt "hash:308b1ab5"
+msgid "hash:308b1ab5"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 47
+#: 0x041b0f6
+msgctxt "hash:a1fffa1a"
+msgid "hash:a1fffa1a"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x041b0ff
+msgctxt "hash:ec19535d"
+msgid "hash:ec19535d"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x041b109
+msgctxt "hash:8f55056a"
+msgid "hash:8f55056a"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 48
+#: 0x041b116
+msgctxt "hash:71a30ffa"
+msgid "hash:71a30ffa"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 96
+#: 0x041b11f
+msgctxt "hash:b68e6061"
+msgid "hash:b68e6061"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 94
+#: 0x041b130
+msgctxt "hash:fbe28baf"
+msgid "hash:fbe28baf"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x041b141
+msgctxt "hash:1d00e538"
+msgid "hash:1d00e538"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 81
+#: 0x041b14b
+msgctxt "hash:48c6cea2"
+msgid "hash:48c6cea2"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x041b15a
+msgctxt "hash:2c25817b"
+msgid "hash:2c25817b"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x041b166
+msgctxt "hash:306fea91"
+msgid "hash:306fea91"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 76
+#: 0x041b172
+msgctxt "hash:20b97405"
+msgid "hash:20b97405"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 89
+#: 0x041b180
+msgctxt "hash:6ad976a7"
+msgid "hash:6ad976a7"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 104
+#: 0x041b190
+msgctxt "hash:bb35ac45"
+msgid "hash:bb35ac45"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 113
+#: 0x041b1a3
+msgctxt "hash:9bf65461"
+msgid "hash:9bf65461"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 90
+#: 0x041b1b7
+msgctxt "hash:a1ca08af"
+msgid "hash:a1ca08af"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x041b1c7
+msgctxt "hash:a612e4d8"
+msgid "hash:a612e4d8"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x041b1da
+msgctxt "hash:2eb8fad7"
+msgid "hash:2eb8fad7"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x041b1e5
+msgctxt "hash:9d5e5a73"
+msgid "hash:9d5e5a73"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x041b1f4
+msgctxt "hash:ac0ed4df"
+msgid "hash:ac0ed4df"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 75
+#: 0x041b200
+msgctxt "hash:a2780e8a"
+msgid "hash:a2780e8a"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x041b20e
+msgctxt "hash:ee78bdaa"
+msgid "hash:ee78bdaa"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 53
+#: 0x041b21c
+msgctxt "hash:f653f587"
+msgid "hash:f653f587"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 90
+#: 0x041b226
+msgctxt "hash:53e8c40a"
+msgid "hash:53e8c40a"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 88
+#: 0x041b236
+msgctxt "hash:1adb90e5"
+msgid "hash:1adb90e5"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 117
+#: 0x041b246
+msgctxt "hash:5da6466d"
+msgid "hash:5da6466d"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x041b25b
+msgctxt "hash:f4a34739"
+msgid "hash:f4a34739"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 82
+#: 0x041b268
+msgctxt "hash:52dcb7e5"
+msgid "hash:52dcb7e5"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x041b277
+msgctxt "hash:fc1d4f78"
+msgid "hash:fc1d4f78"
+msgstr ""

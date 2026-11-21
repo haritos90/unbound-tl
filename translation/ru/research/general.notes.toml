@@ -1,0 +1,354 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:1e8698cc-6276-54ee-a3b9-6e67aebfb37d"
+subject = { kind = "research", id = "research:4645bf34b2c44f6e9a97b4ec2ed9b3f6" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Write the common noun in lowercase.", "Keep the franchise and game titles as «Pokémon»."]
+facts = ["The common noun is masculine and animate, with accusative «покемона» and plural «покемоны».", "Official TPCi texts capitalize «Покемон»."]
+reason = ["The project style rule treats «покемон» as an established loan."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", quoted_term = "покемон", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Покемон", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Покемон", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Покемон", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:414b4d1b-d5ab-5d56-9bdd-7680ee5ccb77"
+subject = { kind = "research", id = "research:585bc07043ca41ed813570298d5f1d17" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use «покебол».", "Use «Покебол» as the item name.", "Follow the items glossary for other balls."]
+facts = ["The noun is masculine, with plural «покеболы».", "The official TCG and website spelling «Поке-Болл», with a hyphen and double л, is recorded but not used."]
+reason = ["The style rule keeps the established loan «покебол»."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", quoted_term = "покебол", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Поке-Болл", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Поке-Болл", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Brilliant Diamond / Shining Pearl website", address = "bdsp-site-ru", quoted_term = "Поке-Болл", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Покеболл", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Покеболл", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6056d314-f448-59b3-8c69-c96078d3b384"
+subject = { kind = "research", id = "research:23e97b709bf14162aafc43927a22b11e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Write «покемонов» in lowercase."]
+facts = ["The noun «центр» is masculine.", "The official TCG card \"Pokémon Center Lady\" is translated as «Леди из Центра Покемонов».", "The shorter colloquial forms are «Покецентр» and «Поке-центр».", "Official texts capitalize «покемонов»."]
+reason = ["The lowercase spelling follows project style."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Леди из Центра Покемонов", relation = "context", verification = "recorded" }, { kind = "project", name = "Project style rules", address = "project-style", quoted_term = "покемонов", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Поке-центр", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Покецентр", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:39b0269d-f7ce-5b1e-9fe6-6c10ad4be731"
+subject = { kind = "research", id = "research:a68b6aca23b94e1a9d5cc12a80e2212c" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is masculine.", "No Russian rendering of the shop name is found in the checked sources.", "The name is formed like «покебол» and «Покедекс».", "The generic masculine noun «магазин» can be used in running text."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Покемаркет", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a3e4441e-8ca1-5bfc-bc81-2efafeacb088"
+subject = { kind = "research", id = "research:1bc0347d852d43eb85317b979aff5b09" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is feminine.", "The PC storage box label \"BOX 1\" becomes «ЯЧЕЙКА 1» in HG.", "The literal alternative is masculine «Ящик».", "The literal alternative is not attested in the checked sources."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "ЯЧЕЙКА 1", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:99bef7c9-1950-5867-a209-b0a36143fb93"
+subject = { kind = "research", id = "research:9ed5007986d249bda1381e531c68617c" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Write the common noun in lowercase."]
+facts = ["The noun is masculine and is used for women too.", "Official texts capitalize «Тренер».", "«Тренер покемонов» means Pokémon Trainer."]
+reason = ["Lowercase follows the project style rule for common nouns."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", quoted_term = "тренер", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Тренер", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Тренер", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Тренер", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:39cd7436-49c1-5f76-90b0-9d0752a16aca"
+subject = { kind = "research", id = "research:a65a4938278a4a1fac8f8492b89505e3" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use «гим»."]
+facts = ["The noun is masculine, with genitive «гима».", "Official game materials use «Гим».", "The TCG card \"Brock's Pewter City Gym\" is translated as «Гим Брока в Пьютер-Сити».", "The SwSh site uses «Испытание Гима».", "The Russian anime dub and older fan texts use «стадион»."]
+reason = ["Using «стадион» would collide with the TCG Stadium card type and «Стадион сражений» (Battle Stadium)."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Гим Брока в Пьютер-Сити", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Испытание Гима", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "стадион", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "спортзал", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon Black", address = "pojirianets-bw", quoted_term = "Стадион", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:7436f5c1-99f0-5884-888d-65d219a8badd"
+subject = { kind = "research", id = "research:862f0186cb774f35a49e0aadc30a3fb1" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Write the hyphenated compound with its second part lowercase in running text.", "Use «Лидер» as the trainer class label."]
+facts = ["The noun is masculine and is used for women too.", "PokéRogue has the colloquial feminine form «Гим-Лидерша»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Brilliant Diamond / Shining Pearl website", address = "bdsp-site-ru", quoted_term = "гим-лидер", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "гим-лидер", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Гим-Лидерша", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:e9366084-27f6-56c7-920b-1451947562bf"
+subject = { kind = "research", id = "research:c8037eb0abf24512b155923d0b6a25b9" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is masculine, with genitive plural «значков».", "The official BDSP site uses «Гим-Значок» for Gym Badge.", "Individual badges use «Значок …», for example fandom's «Громовой значок»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Brilliant Diamond / Shining Pearl website", address = "bdsp-site-ru", quoted_term = "Гим-Значок", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Громовой значок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2fcf26bd-b29f-588f-9f07-26bb74776ac6"
+subject = { kind = "research", id = "research:7462d758f4ed40999b831d973aeb606d" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is feminine.", "The name denotes the group, and a member is «член Элитной четвёрки».", "Official texts capitalize both words."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Brilliant Diamond / Shining Pearl website", address = "bdsp-site-ru", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:21fc092a-aa20-5db9-b75a-12f28b234917"
+subject = { kind = "research", id = "research:325cc9fb9b7d4c8cbff7f3290bc92707" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use plural agreement."]
+facts = ["«ОС» abbreviates «очки силы» (Power Points).", "The expansion «Очки силы» occurs in fandom, and HG uses «ОС».", "PokéRogue uses «ОД» for «очки действия»."]
+sources = [{ kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "ОС", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Очки силы", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "ОД", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:53c69459-0211-5e8f-8fc1-8551bc5f770e"
+subject = { kind = "research", id = "research:4aa0f2542d1d47e79bd244e607281d33" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Do not use this stat term for \"move\"; see Move."]
+facts = ["The stat name is feminine.", "The label abbreviation is «Атк» in PokéRogue and fandom."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Атака", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Атк", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Атк", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:80cfc146-1147-5645-80a4-eadf47c84130"
+subject = { kind = "research", id = "research:8f54b153c50042de93f7267924d31958" }
+scope = { kind = "language", language = "ru" }
+facts = ["The stat name is feminine.", "The label abbreviation is «Зщт» in PokéRogue and fandom."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Защита", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Зщт", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Зщт", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:123e5b8d-2fd1-5fba-b8cd-fa3419149fad"
+subject = { kind = "research", id = "research:8e2e27dd6d854b36a893f15543bee8dd" }
+scope = { kind = "language", language = "ru" }
+facts = ["The stat name is feminine.", "The official SM site uses «Особая Атака (Special Attack)».", "The label abbreviations consistent with the chosen term are «Ос. атака» and «Ос. ат.».", "Community labels include «Сп. Атк» and «Спец. атака»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Особая Атака (Special Attack)", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Сп. Атк", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Специальная атака", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Спец. атака", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c56319c6-17b4-52c4-a5c3-1923ca623892"
+subject = { kind = "research", id = "research:885f43fcfac540398693754dfaeb421b" }
+scope = { kind = "language", language = "ru" }
+facts = ["The stat name is feminine.", "The official SM site uses «Особая Защита».", "The label abbreviation is «Ос. защ.».", "Community labels include «Сп. Зщт» and «Спец. защита»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Особая Защита", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Сп. Зщт", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Специальная защита", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Спец. защита", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:11da6c8a-85d9-5b22-aa3e-281f80ca7e1b"
+subject = { kind = "research", id = "research:6e60a11c25654f40ad369d439b58e704" }
+scope = { kind = "language", language = "ru" }
+guidance = ["See the items glossary for \"Exp. Share / Exp. Charm\"."]
+facts = ["The noun is masculine.", "\"Exp. Points\" means plural «очки опыта».", "The project label abbreviation is «Оп.».", "The official SwSh form is «Талисман Опыта»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Оп.", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Талисман Опыта", relation = "context", verification = "recorded" }, { kind = "web", name = "Bulbapedia", address = "bulbapedia", quoted_term = "Очки Опыта", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:96b68670-29b3-5e69-866f-97f6adafaf5a"
+subject = { kind = "research", id = "research:f46e96b91fba489fbcf46096646453f4" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is masculine.", "The selected term is official throughout the Pokédex, TCG and SM and SwSh sites.", "«Способность» is the anime-dub term recorded by Bulbapedia for the animated series.", "Hidden Ability is «скрытый талант» on the SwSh site."]
+sources = [{ kind = "web", name = "Official Russian Pokédex on pokemon.com", address = "pokemon-com-ru", quoted_term = "талант", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "талант", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "талант", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "скрытый талант", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Bulbapedia", address = "bulbapedia", quoted_term = "Способность", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:92c656bf-3909-5c88-ab11-9991acb038e2"
+subject = { kind = "research", id = "research:56be1ec3ccc648e98215eca736f5ed18" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep fixed official compounds in their official forms: Z-Move is «атака-Z» and Max Move is «максимальная атака»."]
+facts = ["The noun is masculine.", "Official sources use both «атака» on the SM site and TCG and «приём» on the SwSh site, including «приёмы G-Макс».", "«Приём» is the selected form."]
+reason = ["«Приём» is chosen to keep \"move\" distinct from the stat Attack («Атака»)."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Атака", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Атака", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "приём", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4e302466-abe6-5de6-8569-dd4ccda05796"
+subject = { kind = "research", id = "research:adc26b0af30b4f59ad09b367891f648e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Capitalize the in-game item and party entry as «Яйцо»."]
+facts = ["The noun is neuter, with plural «яйца» and genitive plural «яиц»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Brilliant Diamond / Shining Pearl website", address = "bdsp-site-ru", quoted_term = "Яйцо", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Яйцо покемона", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:146a9c70-8b33-573b-b72c-5f30fe22fb19"
+subject = { kind = "research", id = "research:7d84724b1b4d4900a09266995b44ab27" }
+scope = { kind = "language", language = "ru" }
+facts = ["The verb has imperfective and perfective use.", "\"What? X is evolving!\" becomes «Что? X эволюционирует!»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "эволюционировать", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "эволюционировать", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:bd459e4e-dc91-5560-ae15-06b24c3cc684"
+subject = { kind = "research", id = "research:c0c589a276444d4bb474b7a6cfbfb645" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use выбыть/выбывать из боя with context-appropriate verb forms for Pokemon fainting.", "Keep human unconsciousness and ordinary weakness separate.", "Use the explicit graphic label ОСЛ with the other status icon abbreviations."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "теряет сознание", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "потерять сознание", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:cfeb7024-1d7d-59f3-8a47-52b547d8cdc5"
+subject = { kind = "research", id = "research:e4811f3641e84f13a91b15bc1c8b9440" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is feminine.", "«Битва» is the community term for a battle, including PokéRogue and fandom's «Битва покемонов» and «Двойная битва».", "Official sites also use «сражение».", "The term «сражение» is also the official label of the Fighting type.", "PokéRogue translates \"You can't run from a Trainer battle!\" with «из тренерской битвы»."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "тренерская битва", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "битва покемонов", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "сражение", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b6d1403c-2b92-588f-af01-3961d39d257d"
+subject = { kind = "research", id = "research:05670e6fe17e4b52b094d068a2ad9832" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun phrase is neuter.", "The official TCG translates \"Special Conditions\" as «Особые состояния».", "The SM site uses «особое состояние «отравлен»».", "The Bulbapedia spelling «Особый состояние» is an error."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Особые состояния", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "особое состояние", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Bulbapedia", address = "bulbapedia", quoted_term = "Особый состояние", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:316a5b95-2466-5b93-926d-f7b53ba277c1"
+subject = { kind = "research", id = "research:3b6bd49b70544e0eb1ebfc739a799114" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the condition noun «отравление» and the state «отравлен(а)»."]
+facts = ["The condition noun is neuter.", "The state is official in the TCG and on the SM site.", "The project suggestion for the PSN status label is «ОТР»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Отравлен", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "отравлен(а)", relation = "context", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "ОТР", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b81993aa-29cd-59cc-82c5-aa7bcd32d3b0"
+subject = { kind = "research", id = "research:4454ee53a32545059fe2f67d1fbe6fa5" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the state «сильно отравлен(а)» and the same status label as Poison, «ОТР»."]
+facts = ["The noun is neuter.", "The state renders PokéRogue's \"was badly poisoned\"."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "сильно отравлен", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:08ca6eec-4db6-532f-94bf-17ee1f5fd889"
+subject = { kind = "research", id = "research:d8c41be8b3344ea8a1d0bc58777641b8" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the state «обожжён / обожжена»."]
+facts = ["The noun is masculine.", "The state is official in the TCG.", "The project suggestion for the BRN status label is «ОЖГ»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Обожжён", relation = "alternative", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "ОЖГ", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c4b4488f-6beb-5e7f-91a7-1b8731a837cd"
+subject = { kind = "research", id = "research:f2e8d23648014865bebb072f51e452d6" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the state «парализован(а)»."]
+facts = ["The noun is masculine.", "The state is official in the TCG.", "The project suggestion for the PAR status label is «ПАР»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Парализован", relation = "alternative", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "ПАР", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2deac35d-25b0-59b2-a8a7-707d19bd42cc"
+subject = { kind = "research", id = "research:e804474b3740434d8ca6245cb538ddb9" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the state «спит»."]
+facts = ["The noun is masculine.", "The state is official in the TCG.", "The project suggestion for the SLP status label is «СОН»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Спит", relation = "alternative", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "СОН", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4e099d77-1eb2-5e0c-afcd-6194f9ec6555"
+subject = { kind = "research", id = "research:57c05213dc7c44eeb05b6afeb2006199" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the state «заморожен(а)».", "See Frostbite for the replacement status."]
+facts = ["The noun is feminine.", "The state occurs in PokéRogue.", "Unbound replaces freezing with frostbite in its own texts, including immunity in table:abilities/40/description and possible infliction in table:moves/58/description, table:moves/8/description and table:moves/501/description.", "The project suggestion for the FRZ status label is «ЗАМ»."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "заморожен(а)", relation = "context", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "ЗАМ", relation = "context", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "table:abilities/40/description" }, { kind = "entry", id = "table:moves/501/description" }, { kind = "entry", id = "table:moves/58/description" }, { kind = "entry", id = "table:moves/8/description" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2698f2a4-fbcd-5e94-9ad1-d55ae1c867fb"
+subject = { kind = "research", id = "research:d8b9a452f46f44108f71c6e5d8f82c4c" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is neuter.", "Frostbite is an Unbound status that replaces Freeze, originating from Legends: Arceus.", "No Russian source is found.", "The selected form is the medical term for frostbite.", "The state is «обморожен(а)»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "обморожение", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ab40c6fe-0150-56ee-b7a1-be400a225a9d"
+subject = { kind = "research", id = "research:c627bf59d2764a88a687cb5e7bd8a479" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the state «влюблён(а) в X»."]
+facts = ["The noun is feminine.", "The state occurs in PokéRogue."]
+reason = ["HG's «очарование» would collide with the ability Cute Charm family («Очаровашка»)."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "влюблён(а) в X", relation = "context", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "очарование", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:821dcc23-a46d-5781-b986-fcc2f649fa8f"
+subject = { kind = "research", id = "research:629e31c1a1dc4952be9a03cd1f7449c7" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Follow the same pattern for Unbound device names, including the Pokégear-like phone and DexNav."]
+facts = ["The noun is masculine.", "The selected form is the official TCG card name.", "The short form «Покенав» is attested from Pokémon TV through Bulbapedia."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Поке-навигатор", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Bulbapedia", address = "bulbapedia", quoted_term = "Покенав", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Bulbapedia", address = "bulbapedia", quoted_term = "Навигатор", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d5faf513-43a0-5fa7-9d18-5c300c022eff"
+subject = { kind = "research", id = "research:49ca0c304831403f8a8e249a53cd8b3b" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Write the prefix мега- solid.", "Use the verb «мегаэволюционировать».", "Write forms as «Мега Charizard»."]
+facts = ["The noun is feminine.", "The official hyphenated «Мега-Эволюция» occurs in the TCG, the USUM site and the anime, but is recorded and not used."]
+reason = ["The prefix мега- is written solid in standard orthography.", "Species names stay English."]
+sources = [{ kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Мега-Эволюция", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Мега-Эволюция", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Bulbapedia", address = "bulbapedia", quoted_term = "Мега-Эволюция", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Мега-эволюционировать", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b0af0e94-96b6-5b1e-851a-cb1e8e0879d6"
+subject = { kind = "research", id = "research:e2d2c2ab9eb0427e8306751fc66aab1b" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep this official fixed term although \"move\" is otherwise «приём».", "See the items glossary for Z-Crystal names."]
+facts = ["The noun is feminine, with plural «атаки-Z» on the official SM and USUM site.", "The TCG uses «Нормалиум Z» for a Z-Crystal."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "атаки-Z", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG card translations", address = "tcg-ru", quoted_term = "Нормалиум Z", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Движение-Z", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c01ed8fc-0ffe-5e7b-a2d0-0baf66bd0d4d"
+subject = { kind = "research", id = "research:292a0d5324144bf09ad5d081823b71a3" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Capitalize the mechanic name in UI."]
+facts = ["The noun is masculine.", "The SwSh site uses the verb «динамаксировать» and the noun «динамаксирование»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "динамаксировать", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "динамаксирование", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:262441d9-efd5-5890-aca9-23456c41f117"
+subject = { kind = "research", id = "research:fe0e3bcd2a17424ab8ea97cf36579583" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is masculine.", "The SwSh site uses the verb «гигантамаксировать».", "The form is «Гигантамакс-форма».", "The move prefix G-Max is «G-Макс» on the SwSh site.", "PokéRogue uses «Г-Макс»."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "гигантамаксировать", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "G-Макс", relation = "context", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Г-Макс", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1d85f557-2792-5080-b9a6-cabab03f1c5b"
+subject = { kind = "research", id = "research:f1ee350e89b447008a5e33fd5d0e4a02" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun is feminine, with plural «максимальные атаки» on the SwSh site.", "G-Max Move is «приём G-Макс» on the SwSh site.", "The individual Max Move \"Max Guard\" is «Максимальная Защита» on the SwSh site."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "максимальные атаки", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "приём G-Макс", relation = "context", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Максимальная Защита", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:896c7403-0f6e-5870-84af-bb8b2d9e35bb"
+subject = { kind = "research", id = "research:2859b7b408e740feaa234f2b2b850610" }
+scope = { kind = "language", language = "ru" }
+guidance = ["See the items glossary for Shiny Charm and Shiny Stone."]
+facts = ["The selected adjective occurs in «сияющий покемон».", "The official SwSh site uses «Сияющий Покемон» and «Сияющий Зераора».", "Community slang includes «шайни» in PokéRogue and fandom."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Сияющий Покемон", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Шайни", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Шайни", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:49a3b34b-3186-5720-87af-ad9f1ea63431"
+subject = { kind = "research", id = "research:6f729ccd1fe841679372a17b480545d5" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the Latin abbreviation «EV» if needed."]
+facts = ["The term is plural.", "Fandom uses «значения усилия».", "The plural genitive «усилий» is the grammatical form."]
+sources = [{ kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "значения усилия", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:db95e2d8-65b6-590c-9a72-0f7ee3e80bbe"
+subject = { kind = "research", id = "research:d2e7473b90e147cab87ed13ee436b110" }
+scope = { kind = "language", language = "ru" }
+facts = ["The noun «уход» is masculine.", "The selected term names the building.", "Fandom also uses «центр дневного ухода».", "The colloquial «питомник» is common but is not attested in the checked sources."]
+sources = [{ kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "центр дневного ухода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold", address = "pojirianets-hg", quoted_term = "Дневной уход", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"

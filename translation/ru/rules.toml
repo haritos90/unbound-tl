@@ -1,0 +1,477 @@
+schema = "3.0.0"
+
+[[rule]]
+id = "rule:013fc208a7144ad08276cf55d671abf4"
+ids = ["hash:58043a61", "hash:c6d0be50", "hash:723e805b", "hash:331cf697", "hash:0c9160c6", "hash:59780c28", "battle:321", "hash:787de29f", "hash:aa583d51", "battle:343", "hash:6eb342c8", "battle:282", "battle:365", "hash:08025134", "hash:9ad5459c", "hash:6757db82", "hash:2ed774ab"]
+source_text = ""
+rule = "A trainer class is a singular noun phrase, and a class of two trainers a singular collective («Молодая пара», «Двойня»): the verb after the class and name ({B_TRAINER1_CLASS} {B_TRAINER1_NAME}, {FD 2E} {FD 2F}) stays singular, as in «вызывает на бой», «выпускает», «терпит поражение»."
+source = "project decision"
+
+[[rule]]
+id = "rule:0a47b742180440f1963a0dc2b247b338"
+ids = ["hash:723e805b", "hash:331cf697", "hash:857b5c3a", "hash:e5c2c1fe", "hash:9551ce53"]
+source_text = ""
+rule = "A battle line reached by pointer arithmetic keeps within the byte gap to the next member of its group; where the intro or send-out formula does not fit, the trainer's own call keeps both names in the nominative, as hash:e5c2c1fe and hash:857b5c3a do."
+source = "project style rules"
+
+[[rule]]
+id = "rule:41d2b32647184a2da7c34407bf7ee32c"
+ids = ["battle:104"]
+source_text = ""
+rule = "The Leech Seed application result uses the plural wording «семена посажены!». Keep the inserted Pokémon name in the nominative; named moves and items retain their own glossary forms."
+source = "project style rules"
+
+[[rule]]
+id = "rule:5e4db75444b14bf69f38a5183d0d9135"
+ids = ["battle:176", "battle:208", "battle:156", "hash:63fd75ec"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:7d044c2d-096e-52f9-baed-9180f2f5df83"
+subject = { kind = "wording_rule", id = "rule:5e4db75444b14bf69f38a5183d0d9135" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Name the source in copy results with its complete prefixed display label in quotation marks after «покемона».", "Use «копирует с покемона “Y” талант …» for Role Play and Trace.", "Avoid «образец», «берёт» and «передаёт».", "Keep the quoted source on its own line.", "Preserve every placeholder."]
+facts = ["Copying preserves the source property."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", verification = "recorded" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:ff055940d9ed451299c1a72794b73045"
+ids = ["hash:3b45aebc", "map:2.5/npc:0/51", "map:3.1/npc:16/2", "map:36.6/npc:0/3", "map:3.69/npc:7/12", "map:1.62/npc:0/20", "map:1.62/npc:0/1", "map:8.5/npc:3/0", "map:53.11/npc:14/2", "hash:817ad21d", "hash:ee45878f", "hash:80fdd91d", "hash:05af866e", "hash:b098c91f", "hash:0b78deb1", "hash:18b29db8", "hash:71ce373c", "table:items/24/description", "table:items/25/description", "table:items/33/description", "table:items/45/description", "hash:553ae064", "hash:c435c3b3", "battle:254", "hash:fd3e245e", "table:moves/12/description", "table:moves/32/description", "table:moves/90/description", "table:moves/120/description", "table:moves/153/description", "table:moves/262/description", "table:moves/329/description", "table:moves/470/description", "table:moves/471/description", "table:moves/194/description", "table:moves/195/description", "table:moves/288/description", "table:abilities/119/description", "table:abilities/220/description", "table:moves/495/description", "table:moves/498/description", "table:moves/557/description", "table:moves/718/description", "battle:28", "battle:29", "hash:f343fd50"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:69b3697d-37fd-54a0-a172-be01017ed0e7"
+subject = { kind = "wording_rule", id = "rule:ff055940d9ed451299c1a72794b73045" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use выбывать/выбыть из боя for Pokemon fainting, preserving the source tense and aspect.", "Compact fields may omit the understood из боя: ВЫБЫТЬ, ВЫБЫЛ, выбывший, Выбыв.", "Retain the graphic label ОСЛ."]
+facts = ["Ordinary weakness, human unconsciousness, switching, viable Pokemon and Revive item names are separate meanings."]
+sources = [{ kind = "project", name = "Project decision", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:9b483eb81cb4422692374e930b33f374"
+ids = ["map:0.5/mapscript:0/5"]
+source_text = ""
+rule = "Both BP mentions name Battle Points currency: write БО, indeclinable. Use the same approved label for retained funds and service charges."
+source = "project decision"
+
+[[rule]]
+id = "rule:ab268a49e1914028adf7d3f16d156f32"
+ids = ["table:items/147", "table:items/165"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:e8608d95-2d17-573c-8fe6-ee97a364180c"
+subject = { kind = "wording_rule", id = "rule:ab268a49e1914028adf7d3f16d156f32" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full berry labels Айапапа-ягода and Ватмель-ягода.", "Retain the same X-ягода convention for all berry item labels."]
+facts = ["The selected number-only pouch prefix preserves full names and row termination."]
+sources = [{ kind = "project", name = "Project decision", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:d6cd590528b548e298ca08fad6f3a495"
+ids = ["hash:f914df29"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:29a48068-20f3-5cee-9ae5-d0adf6e3890e"
+subject = { kind = "wording_rule", id = "rule:d6cd590528b548e298ca08fad6f3a495" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full label Выкинуть for the item discard action.", "Preserve the quantity and confirmation behavior.", "Do not abbreviate the label."]
+facts = ["The item discard action permanently removes the chosen quantity after confirmation."]
+sources = [{ kind = "project", name = "Project review", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:b32cb060c19a4373b362382a109e11d3"
+ids = ["hash:09898556"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:c3408e11-19ff-5ec2-94b2-9ab16515a42f"
+subject = { kind = "wording_rule", id = "rule:b32cb060c19a4373b362382a109e11d3" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full action label Удалить for stored Mystery Gift cards and news.", "Do not abbreviate the label."]
+reason = ["The context-specific label Удалить deliberately differs from item disposal Выкинуть."]
+sources = [{ kind = "project", name = "Project review", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:97cb8b8716be4b48b2c6e924efac76d8"
+ids = ["hash:8841be3b"]
+source_text = ""
+rule = "Keep the selected complete message on exactly two visible lines: Разделитель опыта даёт опыт / остальным покемонам команды! Preserve the full item name; no third line, scrolling, abbreviations or extra page."
+source = "review"
+
+[[rule]]
+id = "rule:23fd70e29d0c4a73856fa664b1b1c13c"
+ids = ["battle:150"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:974d0852-3bdb-5cfc-8c97-f6693c9eaa34"
+subject = { kind = "wording_rule", id = "rule:23fd70e29d0c4a73856fa664b1b1c13c" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Retain the break after распознаёт and the subsequent scroll before the defender sentence.", "Wording changes require a separate approved correction."]
+facts = ["The native printer does not safely wrap the sentence."]
+reason = ["Expanded long opponent names overflow without this break."]
+sources = [{ kind = "project", name = "Project review", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:5d58553084d946cfabecf3866da92c7e"
+ids = ["table:items/85", "hash:31dba09c"]
+source_text = ""
+rule = "Use the accepted complete name Походный канат and its matching inflections consistently. Preserve source placeholders, price controls and grammatical context; do not restore the previous compact label."
+source = "project decision"
+
+[[rule]]
+id = "rule:9b086555965f4f48bcc5ad1ec2a00d74"
+ids = ["table:moves/366", "hash:4ef7f9ed"]
+source_text = ""
+rule = "Use the accepted complete name Яд-накрест and its matching inflections consistently. Preserve source placeholders, price controls and grammatical context; do not restore the previous compact label."
+source = "project decision"
+
+[[rule]]
+id = "rule:b63c180a376e4bcdb3b92a9f967b7d19"
+ids = ["hash:e051db64", "hash:a7f34716", "table:trainer_classes/61"]
+source_text = ""
+rule = "Use the accepted complete name Походник and its matching inflections consistently. Preserve source placeholders, price controls and grammatical context; do not restore the previous compact label."
+source = "project decision"
+
+[[rule]]
+id = "rule:476b345e2a444f5db1b561efdef1859f"
+ids = ["hash:e051db64", "hash:a7f34716"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:60fdd2c3-cfaa-591e-bc1a-0a140f3bf490"
+subject = { kind = "wording_rule", id = "rule:476b345e2a444f5db1b561efdef1859f" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep походник and походником lowercase in this prose.", "Retain Походник in the standalone class field.", "Preserve masculine agreement established by the source records."]
+reason = ["Trainer-class references are common nouns in this prose."]
+sources = [{ kind = "project", name = "Project decision", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:c3937c05c93a485c891e892f32b1fe3c"
+ids = ["table:moves/465"]
+source_text = ""
+rule = "Use the accepted complete name Поцелуй феи and its matching inflections consistently. Preserve source placeholders, price controls and grammatical context; do not restore the previous compact label."
+source = "project decision"
+
+[[rule]]
+id = "rule:3a13c97c1a124613bbea78f4d3d99836"
+ids = ["table:moves/318"]
+source_text = ""
+rule = "Use the accepted complete name Пыль серебра and its matching inflections consistently. Preserve source placeholders, price controls and grammatical context; do not restore the previous compact label."
+source = "project decision"
+
+[[rule]]
+id = "rule:6405a6b4c5d04922abce78d6bda6fff0"
+ids = ["table:moves/318"]
+source_text = ""
+rule = "Пыль серебра uses a singular mass noun. Preserve the six reviewed singular case forms; do not manufacture plural forms."
+source = "project decision"
+
+[[rule]]
+id = "rule:d8a4cee77d6d45e0a9e482bec15c60f1"
+ids = ["table:moves/490", "map:1.103/npc:2/0"]
+source_text = ""
+rule = "Use the complete names and matching inflections. Keep named occurrences synchronized; do not restore the former labels."
+source = "project decision"
+
+[[rule]]
+id = "rule:bde2b491bb4841d8b649820a52abe747"
+ids = ["map:3.6/npc:9/11", "map:3.6/npc:9/10", "map:3.6/npc:9/1", "hash:77ffa54a", "hash:252dd4f2", "hash:e219179f", "hash:c444dee2", "hash:83380d21", "hash:f78c731c", "hash:d6a6ecbb", "hash:d20ac680", "hash:f338d45f", "hash:11397f53", "hash:dbbc9009", "hash:26077335", "hash:f341ccbf", "hash:f5abc8ea", "hash:f4e52b76", "hash:4235adc0", "hash:85ee4235", "hash:c16d2997", "table:items/590", "table:items/591", "table:items/592", "table:items/593", "table:items/594", "table:items/595", "table:items/596", "table:items/597", "table:items/598", "table:items/599", "table:items/600", "table:items/601", "table:items/602", "table:items/603", "table:items/604", "table:items/605", "table:items/606", "table:items/607"]
+source_text = ""
+rule = "Use the complete -цвет names and matching inflections, ё only in Лётоцвет (Ледоцвет and Темноцвет have none). Keep named occurrences synchronized; do not restore the earlier names."
+source = "project decision"
+
+[[rule]]
+id = "rule:84b1236c44ea41f89269eb6798118a49"
+ids = ["table:moves/451"]
+source_text = ""
+rule = "Use the accepted complete move name Склёвывание and its reviewed forms; preserve the literal pecking/berry effect description and unrelated ordinary verbs."
+source = "project decision"
+
+[[rule]]
+id = "rule:2c053773dee2464ab5aadbfc868f12d8"
+ids = ["table:trainer_classes/48", "table:trainer_classes/49", "hash:a0feaec9", "hash:0d457bc3", "map:3.84/trigger:0/1", "map:1.103/npc:4/3", "map:1.103/npc:4/2", "map:1.103/npc:9/10", "map:1.103/npc:10/9", "map:1.103/npc:5/1", "map:1.103/npc:5/2"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:f8294949-cac8-578f-bff3-5916e3c1a99d"
+subject = { kind = "wording_rule", id = "rule:2c053773dee2464ab5aadbfc868f12d8" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the curator-title family.", "Use Куратор and Экс-куратор as battle labels.", "Retain the faction in full prose titles.", "Keep generic rank nouns lowercase.", "Preserve female reference to Ivory."]
+sources = [{ kind = "project", name = "Project decision", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:530ffed786b64bbda0dcff08972449a8"
+ids = ["map:3.6/npc:32/3", "map:3.6/npc:32/0", "map:1.94/npc:5/6", "map:1.94/npc:5/11", "map:1.94/npc:3/1", "map:3.9/npc:4/0", "map:31.0/npc:0/0", "map:3.9/sign:3/0", "hash:f3cba471", "hash:444e5e6a", "hash:c7d61390", "hash:d031ecee", "hash:e5b08389", "hash:784167a7", "hash:59fe5b1c", "hash:7fad2f1e", "hash:a63b9d3c", "hash:34022a5a", "table:trainer_classes/101"]
+source_text = ""
+rule = "Use Заводчик покемонов and compact Заводчик with the reviewed animate forms. Keep running-text terms lowercase; retain speaker gender, controls and generic breeding descriptions."
+source = "project decision"
+
+[[rule]]
+id = "rule:43bb5182c7044eb68e45b34871599da8"
+ids = ["map:23.2/npc:0/2", "map:49.4/npc:1/0", "map:49.13/npc:0/2", "map:43.4/npc:13/0", "map:3.10/trigger:0/1", "hash:53a46f8b", "table:trainer_classes/34", "table:trainer_classes/79"]
+source_text = ""
+rule = "Use Птицевод and its reviewed animate masculine forms for Bird Keeper. Keep running-text mentions lowercase; do not restore Смотр. птиц."
+source = "project decision"
+
+[[rule]]
+id = "rule:445d191228f34919bb4300151f6902a9"
+ids = ["hash:791842f5", "hash:b5955904"]
+source_text = ""
+rule = "Use the reviewed complete activity names Круговой обмен and Обмен предметами. The original bytes encode Japanese glyphs, including brace tokens; never copy that source representation into Russian."
+source = "review"
+
+[[rule]]
+id = "rule:7ef733dcf42b4e698136140ddc77047c"
+ids = ["map:22.0/npc:1/17", "map:22.0/npc:1/19", "map:1.5/npc:1/1", "hash:d8c0afeb", "hash:54e780a5", "map:1.92/npc:3/100", "map:3.68/npc:0/0", "map:3.68/sign:0/0", "map:3.78/npc:2/1", "map:3.78/npc:14/0", "map:49.10/npc:0/0", "map:35.3/npc:1/0", "map:35.3/npc:0/0", "map:3.1/trigger:12/1", "map:3.1/sign:0/0", "map:3.1/sign:13/0", "map:3.1/sign:1/0", "map:3.1/trigger:0/1", "map:3.1/trigger:8/11", "map:3.1/trigger:8/14", "map:3.74/npc:3/0", "map:3.74/npc:4/1", "map:3.74/npc:4/0", "map:3.74/npc:2/1", "map:3.74/npc:2/0", "map:6.7/npc:0/3", "map:6.7/npc:0/1", "map:6.2/npc:0/32", "map:6.2/npc:0/1", "map:6.2/npc:2/4", "map:6.2/sign:0/1", "map:6.2/sign:0/0", "map:3.74/sign:0/0", "map:3.74/sign:1/0", "map:3.7/trigger:6/22", "map:10.21/npc:3/2", "map:3.89/trigger:1/24", "map:3.89/trigger:1/30", "map:3.89/trigger:1/36", "map:3.89/trigger:1/38", "map:3.71/npc:3/0", "map:3.71/npc:1/0", "map:3.71/npc:14/0", "map:7.4/sign:0/1", "map:7.4/sign:0/0", "map:7.9/npc:0/65", "map:7.9/mapscript:0/21", "map:3.71/sign:0/0", "map:3.71/sign:1/0", "map:3.86/npc:3/0", "map:3.86/npc:4/1", "map:3.86/npc:4/0", "map:11.11/npc:0/0", "map:3.86/sign:1/0", "map:3.84/npc:10/0", "map:3.84/npc:17/0", "map:3.84/npc:19/0", "map:14.1/npc:0/0", "map:14.3/npc:2/14", "map:3.84/trigger:0/11", "map:3.84/trigger:0/17", "map:3.84/mapscript:1/5", "map:3.84/npc:24/1", "map:14.9/npc:3/8", "map:2.46/npc:1/0", "map:4.8/sign:2/0", "map:4.8/sign:0/0", "map:4.8/sign:3/0", "hash:0293027a", "map:4.9/sign:19/0", "map:4.9/sign:0/0", "map:4.9/sign:7/0", "map:4.9/sign:11/0", "map:4.9/sign:12/0", "map:4.9/sign:17/0", "map:4.9/sign:25/0", "map:4.9/sign:20/0", "map:4.8/sign:5/0", "map:4.2/npc:2/1", "map:4.5/npc:1/15", "map:4.5/npc:1/1", "map:0.5/mapscript:0/5", "map:4.3/npc:3/42", "map:4.3/npc:3/51", "map:4.3/npc:3/57", "map:4.3/npc:3/68", "map:4.3/npc:3/76", "map:3.66/trigger:6/16", "map:3.62/sign:0/0", "map:45.1/sign:0/0", "map:3.98/npc:3/0", "map:9.6/npc:0/8", "map:9.6/npc:1/0", "map:9.0/npc:1/1", "map:9.0/npc:1/0", "map:3.98/sign:0/0", "map:43.2/trigger:0/16", "map:43.2/trigger:0/10", "map:43.6/mapscript:0/7", "map:46.3/npc:2/0", "map:46.1/sign:1/0", "map:46.1/sign:2/0", "map:46.0/sign:3/0", "map:46.0/sign:4/0", "map:46.3/sign:1/0", "map:3.8/sign:1/0", "map:3.26/sign:1/0", "map:3.60/sign:1/0", "map:46.3/sign:0/0", "map:46.0/sign:0/0", "map:46.0/sign:2/0", "map:46.5/sign:0/0", "map:3.26/sign:0/0", "hash:068d9d98", "map:3.4/npc:2/0", "map:3.4/sign:0/0", "map:3.2/npc:0/0", "map:3.2/npc:1/0", "map:3.2/npc:2/0", "map:3.2/sign:0/0", "map:35.5/npc:1/2", "map:45.2/npc:3/1", "map:45.2/npc:3/0", "map:45.2/npc:5/13", "map:12.0/sign:0/1", "map:12.0/sign:0/0", "map:3.0/mapscript:0/4", "map:3.0/npc:0/1", "map:3.0/npc:2/2", "map:34.6/npc:0/17", "map:34.0/npc:1/0", "map:33.3/npc:1/8", "map:3.0/sign:0/0", "map:3.0/sign:1/0", "map:3.0/sign:3/0", "map:1.34/mapscript:0/14", "map:3.67/npc:0/0", "map:3.67/sign:0/0", "map:3.67/sign:1/0", "map:3.81/sign:0/0", "map:3.81/sign:1/0", "map:3.85/sign:0/0", "map:3.88/npc:6/4", "map:3.88/sign:0/0", "map:3.35/npc:5/4", "map:3.58/npc:2/4", "map:3.39/sign:0/0", "map:3.101/sign:0/0", "map:3.42/sign:0/0", "map:3.43/sign:0/0", "map:3.69/npc:0/1", "map:3.69/npc:2/0", "map:3.69/sign:0/0", "map:3.70/sign:2/0", "map:3.72/npc:21/0", "map:3.72/npc:1/1", "map:3.72/sign:6/0", "map:3.73/sign:0/0", "map:3.73/sign:2/0", "map:3.73/sign:3/0", "map:3.73/sign:4/0", "map:51.1/mapscript:0/30", "map:3.79/sign:0/0", "map:3.79/sign:1/0", "map:1.39/mapscript:2/0", "map:33.3/mapscript:1/8", "map:33.3/mapscript:1/10", "map:3.9/npc:1/0", "map:3.9/npc:14/1", "map:3.9/npc:14/2", "map:33.3/npc:1/12", "map:33.3/npc:2/0", "map:33.18/npc:0/1", "map:33.18/npc:0/0", "map:1.45/trigger:3/143", "map:1.45/trigger:3/145", "map:1.45/trigger:3/147", "map:1.45/trigger:3/7", "map:3.87/sign:0/0", "map:3.87/npc:0/0", "map:3.87/npc:2/0", "map:3.87/npc:3/0", "map:3.87/npc:4/0", "map:3.87/npc:11/1", "map:2.36/npc:9/1", "map:12.5/npc:1/1", "map:12.1/npc:0/1", "map:12.1/npc:0/3", "map:12.1/npc:0/6", "map:3.80/mapscript:0/12", "map:3.80/sign:0/0", "map:3.80/npc:13/0", "map:3.80/npc:6/0", "map:3.80/npc:13/7", "map:8.0/npc:1/1", "map:8.0/npc:1/0", "map:3.11/sign:0/0", "map:3.32/npc:12/4", "map:53.11/trigger:1/5", "map:53.11/trigger:1/7", "map:3.36/mapscript:0/12", "map:3.36/sign:0/0", "map:3.36/npc:3/0", "map:3.36/npc:4/1", "map:44.5/npc:0/0", "map:1.99/sign:0/0", "map:1.99/npc:4/0", "map:1.99/npc:4/4", "hash:3145d374", "hash:4ee684bc", "hash:e9b21181", "hash:c4fc5ace", "table:items/349/description", "hash:782c65d8", "hash:4d6122b0", "hash:f3cfecc1", "hash:9c40cb10", "hash:a49dbbc4", "hash:be3f169f", "hash:e03c81e2", "hash:47546a9c", "hash:b053c4c3", "hash:35c48930", "hash:e285e511", "hash:2800bb63", "hash:ab1e5487", "hash:bc49c5f8", "hash:b91bc5f9", "hash:842dc495", "hash:6814ce70", "hash:6528a915", "hash:3ce53ee2", "hash:e91e2ef4", "hash:7daaca35", "hash:6b416c15", "hash:ebfff70b", "hash:24129718", "hash:d0284680", "hash:72d14fe3", "hash:37add89a", "hash:ccf9e5c0", "hash:45733a46", "hash:491ec946", "hash:746c9033", "hash:6e26b7a6", "table:items/280/description", "hash:0c5ccdf0", "hash:5ad0bd93", "hash:b292f124", "hash:088e117d", "hash:92405bcd", "hash:67510070", "hash:39762dde", "hash:de605b90", "hash:88d155cc", "hash:046fc283", "table:items/374/description", "hash:18dc07d7", "hash:b6788cf5", "hash:882625a1", "hash:97626b47", "hash:f2893354", "hash:10735b43", "hash:880c84eb", "hash:1dc1e5e6", "hash:1dbc5d3f", "hash:4a11e138", "hash:4eaaef38", "hash:fccf935b", "hash:00492c64", "hash:eec271de"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:3a633b68-3a4f-5876-96b1-0fa151e0160c"
+subject = { kind = "wording_rule", id = "rule:7ef733dcf42b4e698136140ddc77047c" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use городок with masculine agreement for the selected Town referents.", "Inflect the descriptor and preserve the proper name.", "Keep the descriptor lowercase in running prose.", "Retain деревня for Village.", "Retain город for City."]
+sources = [{ kind = "project", name = "Project decision", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:6857f161f68849e393e320dcc5a44e46"
+ids = ["table:trainer_classes/13", "table:trainer_classes/35", "table:trainer_classes/37", "table:trainer_classes/38", "table:trainer_classes/72", "table:trainer_classes/87", "table:trainer_classes/104", "hash:0fe4c7b0", "hash:2f7bfe8a", "hash:09359924"]
+source_text = ""
+rule = "Use the complete glossary class names; these entries are relocated through the existing pointer dispatch and every class consumer was verified. Do not restore the former compact or truncated labels."
+source = "review"
+
+[[rule]]
+id = "rule:6bbbbaca38994060871ce582c4960acd"
+ids = ["hash:2eff8596", "hash:7482bc4e"]
+source_text = ""
+rule = "Use the complete word «уровень»; the trade texts were measured with their real species and level fills. Do not restore «ур.»."
+source = "review"
+
+[[rule]]
+id = "rule:04d35f89e629476b99fd45f396032769"
+ids = ["hash:6be340f0", "hash:9c3cd432"]
+source_text = ""
+rule = "The move info panel names power and accuracy in full words without a dot, one form for both: «Сила:», «Точность:»; «Мощность: 250» is 67 px in the 64 px window."
+source = "review"
+
+[[rule]]
+id = "rule:a03da2dc02874c83b81a8d37f1c652bc"
+ids = ["hash:12dd74bb", "hash:f95773e9"]
+source_text = ""
+rule = "Keep both keyboard page labels compact: «ПРОПИСНЫЕ» is 54 px in the 48 px tab, and the pair keeps one form."
+source = "review"
+
+[[rule]]
+id = "rule:b19f0f9853a84f379553d0865d42cdfe"
+ids = ["hash:9fc9844e", "hash:edda96ca", "hash:015a151c"]
+source_text = ""
+rule = "Keep «Ур.» in all three level options: «Уровень 50» and «Уровень 100» exceed the shared 48 px windows, and one list keeps one form."
+source = "review"
+
+[[rule]]
+id = "rule:694364de103f468694b82ff8e84b82e2"
+ids = ["table:items/25", "table:items/41", "table:items/45", "table:items/47", "table:items/50", "table:items/51", "table:items/68", "table:items/81", "table:items/83", "table:items/84", "table:items/95", "table:items/96", "table:items/101", "table:items/105", "table:items/107", "table:items/109", "table:items/111", "table:items/115", "table:items/183", "table:items/204", "table:items/226", "table:items/240", "table:items/241", "table:items/242", "table:items/250", "table:items/254", "table:items/256", "table:items/263", "table:items/266", "table:items/268", "table:items/278", "table:items/285", "table:items/348", "table:items/356", "table:items/368", "table:items/374", "table:items/494", "table:items/517", "table:items/518", "table:items/524", "table:items/584", "table:items/618", "table:items/620", "table:items/633", "table:items/636", "table:items/639", "table:items/640", "table:items/641", "table:items/642", "table:items/646", "table:items/648", "table:items/651", "table:items/656", "table:items/665", "table:items/668", "table:items/669", "table:items/707", "table:items/709", "table:items/712", "table:items/717", "table:items/725", "hash:0ae21463", "hash:30bba367", "hash:2dea28e1", "hash:983ccbec", "hash:b766ad50", "hash:baf0b116", "hash:f077dcc8"]
+source_text = ""
+rule = "Use the complete glossary item names; these fields use the long-name pointer dispatch and every item window and name buffer was verified. Do not restore the compact labels."
+source = "review"
+
+[[rule]]
+id = "rule:ff7ac00911a7448288a86e054ed9b5e4"
+ids = ["table:items/197"]
+source_text = ""
+rule = "«Яйцо удачи»: 60 px, narrower than the compact label it replaces, so the upgraded Lucky Egg bag row keeps its room."
+source = "review"
+
+[[rule]]
+id = "rule:e8e7567c595345c3a72bfd9ec0e68f74"
+ids = ["hash:2dd442d9", "hash:182aad00"]
+source_text = ""
+rule = "The start menu entry and its window title read «Костюмы» (76 px windows); the key item stays «Коробка костюмов»."
+source = "review"
+
+[[rule]]
+id = "rule:bdfad1e7ad53411fbbd970c9e3ad5327"
+ids = ["table:items/524", "table:items/636", "table:items/717", "table:items/618", "table:items/620", "table:items/95", "table:items/96", "table:items/101", "table:items/105", "table:items/639", "table:items/640", "table:items/641", "table:items/642", "table:items/646", "table:items/648", "table:items/651"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:b88d1750-b941-54a3-9137-c8b88a6d4730"
+subject = { kind = "wording_rule", id = "rule:bdfad1e7ad53411fbbd970c9e3ad5327" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep item families consistent: «Камень X» for every stone and weather rock.", "Use «Память X» for Memories, as for the Plates.", "Use «Привод X» for Drives.", "Use «Семя X» for terrain seeds.", "Use «Конфета-X» for Sweets.", "Use «Древний X» for Fossils.", "Use «Аромат X» for Incenses."]
+facts = ["Every name fits the 92 px held-item summary and the 94 px shop list.", "Names over 13 characters use the long-name pointer."]
+sources = [{ kind = "project", name = "Project review", address = "translation/ru/rules.toml", verification = "unresolved" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "held-item summary width", value = 92, unit = "px" }, { name = "shop list width", value = 94, unit = "px" }, { name = "name length above which the long-name pointer is used", value = 13, unit = "characters" }] }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:deb945b8d57f47f89cd0155e510ed561"
+ids = ["hash:c73bd3ef"]
+source_text = ""
+rule = "Use the full gang label «Чёрный Ферроторн»; its widest host pair, with «Громила», is 144 px. Keep «Босс банды» for the boss class."
+source = "review"
+
+[[rule]]
+id = "rule:c3bd74ec3e6c4f57b7f3b879f1b3aec5"
+ids = ["hash:c6b2c726", "hash:2b8b5a83", "hash:f3b35a92", "hash:a8891a4b"]
+source_text = ""
+rule = "Use the option values «Включено» and «Выключено»; they print directly in 78 px and 98 px value columns."
+source = "review"
+
+[[rule]]
+id = "rule:53021fafc87a42b8b20b3de5093d0baf"
+ids = ["hash:3c00c6e0", "hash:1c3412a9", "hash:52ce0d9a"]
+source_text = ""
+rule = "The Berry Crush rate unit reads «раз/сек» and the time label «сек», lowercase after numbers. The whole-number count suffix keeps «наж.»: «раз» would need «раза» after 2–4."
+source = "review"
+
+[[rule]]
+id = "rule:dc657557cda545dbadcfa8f193083d74"
+ids = ["hash:b5ce07c0", "hash:278b5ab0"]
+source_text = ""
+rule = "Keep «Ур.» before level numbers: it is the established prefix across the interface (battle boxes, summary, Stat Scanner lists), and the trade board header needs 239 px of its 215 px with the full word."
+source = "review"
+
+[[rule]]
+id = "rule:89d9b0446f754d3a8f5eaeba5a528abe"
+ids = ["table:abilities/172", "table:species/1153", "table:species/1288", "table:abilities/198/description"]
+source_text = ""
+rule = "Use the full forms «Душевное сердце», «Гриммснарл» and «Тёмный»; they fit their fields and windows."
+source = "review"
+
+[[rule]]
+id = "rule:b8de5b218547422284522a360cda249d"
+ids = ["map:3.3/npc:10/3", "map:3.3/npc:10/4", "map:3.3/npc:7/6", "map:3.3/npc:7/4", "hash:ed63518e", "hash:841898d9"]
+source_text = ""
+rule = "Keep these shop and trade list labels identical to the item and move names they offer («Крышка», «Золотая крышка», «Песнь веков», «Драковзлёт», «Плита брызг»)."
+source = "review"
+
+[[rule]]
+id = "rule:3ad56cc573884516a357d2661e5b48ff"
+ids = ["table:items/93"]
+source_text = ""
+rule = "Sun Stone is «Камень солнца» (77 px, 13 characters); the cut «Солнечн.» is retired."
+source = "review"
+
+[[rule]]
+id = "rule:0d1938d74d124e70a7ba4c97a0dcb1ac"
+ids = ["table:items/649", "hash:14953b16"]
+source_text = ""
+rule = "Zap Memory and Electric Seed are «Память молнии» and «Семя молнии»; the cut «Электр.» is retired for items. The one-word Pokédex category keeps «Электрич.»."
+source = "review"
+
+[[rule]]
+id = "rule:226247e7a08341868980f6ef45df645f"
+ids = ["table:abilities/242"]
+source_text = ""
+rule = "Mirror Armor is «Броня-зеркало», the pair of Prism Armor «Броня-призма»: no cut; «Зеркальная броня» needs 94 px of the 93 px summary."
+source = "review"
+
+[[rule]]
+id = "rule:05edd25e51304e1e9dd2787b4db89fc3"
+ids = ["table:items/199", "table:items/223", "hash:05b6e52b"]
+source_text = ""
+rule = "Metal Coat and Metal Powder are «Покров металла» and «Пыль металла»; the cut «Металл.» is retired for items."
+source = "review"
+
+[[rule]]
+id = "rule:34fb7e21e93b4fd48e5a331951c1bad3"
+ids = ["table:abilities/175"]
+source_text = ""
+rule = "Full Metal Body is «Стальное тело»: no cut; «Металлическое тело» needs 18 of 16 characters."
+source = "review"
+
+[[rule]]
+id = "rule:763a93c204af41838970390d08e14b18"
+ids = ["table:abilities/166"]
+source_text = ""
+rule = "Prism Armor is «Броня-призма», the pair of Mirror Armor «Броня-зеркало»: no cut; «Призматическая броня» needs 20 of 16 characters."
+source = "review"
+
+[[rule]]
+id = "rule:6611a1e94b6241148dc4745a301d5b88"
+ids = ["table:pokedex_categories/417"]
+source_text = ""
+rule = "Use the no-cut wording «Искробелка»; the official «Электробелка» needs 12 of 11 characters. Do not restore «Эл. белка»."
+source = "review"
+
+[[rule]]
+id = "rule:153ef55b0e564f07a3ca8ea349887272"
+ids = ["battle:218"]
+source_text = ""
+rule = "A one-hit KO is «мгновенный нокаут» in battle messages too."
+source = "review"
+
+[[rule]]
+id = "rule:4621d39837b34d24914c83969644f067"
+ids = ["battle:151"]
+source_text = ""
+rule = "The Perish count is «отсчёт гибели»."
+source = "review"
+
+[[rule]]
+id = "rule:d9e620c1f05a4b879cf18637831aafba"
+ids = ["map:1.92/trigger:0/110"]
+source_text = ""
+rule = "Devolution is worded «вернуться к прежней стадии эволюции»."
+source = "review"
+
+[[rule]]
+id = "rule:9506b019405445a2847cde0fec859606"
+ids = ["hash:d47cd6e5", "hash:05b6e52b", "hash:4c7aadad", "hash:4bdb4f93", "hash:70744714", "hash:1035cff7", "hash:86f07775", "hash:d3b9145c", "hash:a7756cc4", "hash:a533c679", "hash:7b790e6f", "hash:a523fe73", "hash:7b463800", "hash:2cdd4350", "hash:55595e96", "hash:80d1ed0e", "hash:0ce3cdd9", "hash:86251911"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:56129fe8-de72-55f4-8e96-d0c1b4afc209"
+subject = { kind = "wording_rule", id = "rule:9506b019405445a2847cde0fec859606" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Name each item in Battle Point shop and Game Corner prize lines as its item field does, with no dot.", "End the name at or before the price column {CLEAR_TO n}."]
+facts = ["The lists size themselves up to 222 px, so a column moves for every row of its list.", "Game Corner items use columns 5F / 5A / 55 for 3 / 4 / 5 digits, with «Капсула таланта» measuring 90 px.", "The Battle Point list uses column 5A for its 9 three-digit rows."]
+sources = [{ kind = "project", name = "Project review", address = "translation/ru/rules.toml", verification = "unresolved" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "maximum list width", value = 222, unit = "px" }, { name = "Капсула таланта width", value = 90, unit = "px" }, { name = "Battle Point list three-digit rows", value = 9, unit = "count" }] }]
+status = "unreviewed"
+
+[[rule]]
+id = "rule:20557c89f64f4cca99c536c828b27e44"
+ids = ["hash:aeca083b", "hash:95491645", "hash:8701dea1"]
+source_text = ""
+rule = "The nature list names each nature as the summary page does, in full («Непреклонный», «Расслабленный», «Безрассудный»): the name column is {CLEAR_TO 54} (84 px), the second stat column {CLEAR_TO 9C}; the list sizes itself up to 222 px and the widest row takes 221 px."
+source = "review"
+
+[[rule]]
+id = "rule:18bcc8583779482c8dacca2642469373"
+ids = ["hash:12dd74bb", "hash:f95773e9"]
+source_text = ""
+rule = "Paired labels keep one form: «ПРОПИСН.» / «строчн.» (keyboard pages; «ПРОПИСНЫЕ» is 54 of 48 px)."
+source = "review"
+
+[[rule]]
+id = "rule:7b866a4e856d4953b5027019fc8fa7bc"
+ids = ["hash:f4a4cb0a", "hash:389cc219", "hash:52b9a23e", "hash:52ce0d9a"]
+source_text = ""
+rule = "A unit after a count stays abbreviated («очк.», «прыж.», «наж.»): it suits any number, and the full noun would need a plural form the text cannot choose by the count."
+source = "review"
+
+[[rule]]
+id = "rule:3cb4a279b7584f4a9b5911d14bbf31a4"
+ids = ["table:moves/468", "hash:6e576b34"]
+source_text = ""
+
+[[rule.notes]]
+id = "note:75b3d513-41da-5bac-adb6-66cd32cc7d04"
+subject = { kind = "wording_rule", id = "rule:3cb4a279b7584f4a9b5911d14bbf31a4" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the complete name «Стелс-камни».", "Keep «Стелс-» indeclinable and decline «камни».", "Keep the common noun «камни» in battle messages about the floating stones.", "Do not restore «Камни»."]
+sources = [{ kind = "project", name = "Project decision", address = "translation/ru/rules.toml", verification = "unresolved" }]
+status = "unreviewed"

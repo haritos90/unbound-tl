@@ -1,0 +1,12 @@
+savefile verify/fixtures/observations.sav
+wait 900
+press START 4 90
+press A 4 150
+press A 4 150
+press A 4 200
+wait 200
+goto 0x169CCC
+wait 2
+goto 0x1E7CE6A
+wait 1
+shot berry-full

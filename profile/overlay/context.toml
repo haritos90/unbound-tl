@@ -1,0 +1,84 @@
+[context.speaker_colours]
+"04" = "female"
+"08" = "male"
+"06" = "neutral"
+
+[context.textcolor_genders]
+0 = "male"
+1 = "female"
+3 = "neutral"
+
+[context.sprite_genders]
+49 = { gender = "male", evidence = "Map 4.10 object 1 uses sprite 49; the guard battles as trainer 14, class 85, male, and returns as trainer 367." }
+50 = { gender = "female", evidence = "Map 1.11 object 2 uses sprite 50; its trainerbattle record 388, class 85, is female." }
+
+[[context.participants]]
+text = "s1F364C0"
+role = "speaker"
+sprite = 49
+trainer = 367
+evidence = "Runtime map 53.1 trigger 0 recalls the guard from map 4.10 object 1, sprite 49, trainer 14. The returning guard battles as trainer 367."
+
+[[context.participants]]
+text = "s1F3DB7C"
+role = "addressee"
+trainer = 374
+textcolor = 1
+in_source = "not-stated"
+evidence = "Map 1.51 script 0x1E591EE rebukes the reporting grunt; her preceding text at 0x1F3DB1C uses colour 04. The same grunt battles as trainer 374 in runtime map 6.12 trigger 0."
+
+[[context.participants]]
+text = "s1F3DB1C"
+role = "addressee"
+textcolor = 0
+in_source = "stated"
+basis = "gendered word"
+evidence = "Map 1.51 script 0x1E591EE: the report addresses the next speaker as sir; his reply at 0x1F3DB7C uses textcolor 0."
+
+# Record speakers add gender and class to text context.
+[[context.record_speakers]]
+name = "battle-tower-trainers"
+base = 0xA6F574
+stride = 20
+count = 154
+fields = [8, 0xC, 0x10]
+gender_at = 4
+genders = ["male", "female"]
+class_at = 2
+evidence = "battle-tower-pre-battle records; the gender byte +4 is read at 0x9E661C (0 male, 1 female; also 0x9E7DCA, 0x9E7F36), the class byte +2 by the class getter 0x9E6540"
+
+[[context.record_speakers]]
+name = "frontier-special-trainers"
+base = 0xA6F130
+stride = 52
+count = 21
+fields = [0xC, 0x10, 0x14]
+gender_at = 4
+genders = ["male", "female"]
+class_at = 2
+evidence = "frontier-special-pre-battle records: Frontier Brains and special trainers, class +2, gender +4 as in battle-tower-trainers"
+
+# Layout limits: dialogue lines stay within 201 px for 99%.
+# The message box text area is 26 tiles.
+# Battle messages show 222 px; widths are worst-case estimates.
+[[context.native_fill]]
+name = "ball-changer-ball"
+
+[[context.native_fill]]
+name = "table-1FB30E8"
+
+[[context.native_fill]]
+name = "table-1FB2DF8"
+address = 0x1EB7641
+slot = 0
+base = 0x1FB2DF8
+stride = 4
+count = 28
+exclude = [0]
+variants = [["s1F948F3"], ["s1F94901", "s1F94913"], ["s1F94901", "s1F9491B"], ["s1F94901", "s1F94909"]]
+
+[[context.native_fill]]
+name = "difficulty-names"
+
+[[context.native_fill]]
+name = "ring-record-types"

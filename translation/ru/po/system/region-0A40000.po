@@ -1,0 +1,6059 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0A40000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0a439b0
+msgctxt "hash:5a836f7a"
+msgid "hash:5a836f7a"
+msgstr "Вода"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0a43a18
+msgctxt "hash:67aaf3bb"
+msgid "hash:67aaf3bb"
+msgstr "Магма"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0a43a23
+msgctxt "hash:59328136"
+msgid "hash:59328136"
+msgstr "Водоросли"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 58
+#: 0x0a43a29
+msgctxt "hash:c66657ab"
+msgid "hash:c66657ab"
+msgstr "Глубина"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 32
+#: 0x0a43a34
+msgctxt "hash:6ae6da9c"
+msgid "hash:6ae6da9c"
+msgstr "Цепь: "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 76
+#: 0x0a43a3c
+msgctxt "hash:44d51fef"
+msgid "hash:44d51fef"
+msgstr "Не пойман!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0a43a4b
+msgctxt "hash:f3601a37"
+msgid "hash:f3601a37"
+msgstr "Пешком"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0a43a50
+msgctxt "hash:7ef67d67"
+msgid "hash:7ef67d67"
+msgstr "Сёрф"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 52
+#: 0x0a43a55
+msgctxt "hash:57f8741a"
+msgid "hash:57f8741a"
+msgstr "Сёрф по лаве"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0a43a5f
+msgctxt "hash:6c7d63c8"
+msgid "hash:6c7d63c8"
+msgstr "Старая удочка"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 48
+#: 0x0a43a67
+msgctxt "hash:054e1fe2"
+msgid "hash:054e1fe2"
+msgstr "Хорошая удочка"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 53
+#: 0x0a43a70
+msgctxt "hash:57f470f9"
+msgid "hash:57f470f9"
+msgstr "Суперудочка"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 69
+#: 0x0a43a7a
+msgctxt "hash:2b24ea37"
+msgid "hash:2b24ea37"
+msgstr "Сёрф/Старая"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 76
+#: 0x0a43a87
+msgctxt "hash:261d21f0"
+msgid "hash:261d21f0"
+msgstr "Сёрф/Хорошая"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 81
+#: 0x0a43a95
+msgctxt "hash:465e4f19"
+msgid "hash:465e4f19"
+msgstr "Сёрф/Супер"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0a43aa4
+msgctxt "hash:65708b17"
+msgid "hash:65708b17"
+msgstr "Скопление"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 61
+#: 0x0a43ab3
+msgctxt "hash:ec12b151"
+msgid "hash:ec12b151"
+msgstr "Недоступно"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 43
+#: 0x0a43abf
+msgctxt "hash:3068d1fd"
+msgid "hash:3068d1fd"
+msgstr "Отметить"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a43ac8
+msgctxt "hash:f8926215"
+msgid "hash:f8926215"
+msgstr "Искать"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a43acd
+msgctxt "hash:8cb3b64a"
+msgid "hash:8cb3b64a"
+msgstr "Отмена"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 71
+#: 0x0a43ad4
+msgctxt "hash:78442514"
+msgid "hash:78442514"
+msgstr "Выбран покемон {B_COPY_VAR_1}."
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 121, 122
+#: 0x0a43ae4
+msgctxt "hash:3bb064e9"
+msgid "hash:3bb064e9"
+msgstr ""
+"Чтобы искать покемона {B_COPY_VAR_1},\\nнужен предмет "
+"{B_COPY_VAR_2}.{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 199
+#: 0x0a43b17
+msgctxt "hash:a658b278"
+msgid "hash:a658b278"
+msgstr "Этого покемона пока нельзя искать!{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 185
+#: 0x0a43b3d
+msgctxt "hash:5aecab0a"
+msgid "hash:5aecab0a"
+msgstr "Об этом покемоне нет данных…{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 112
+#: 0x0a43b61
+msgctxt "hash:f12e0f57"
+msgid "hash:f12e0f57"
+msgstr "{B_COPY_VAR_1}: поиск кнопкой {F8 03}!{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 213
+#: 0x0a43b7c
+msgctxt "hash:d47b60e3"
+msgid "hash:d47b60e3"
+msgstr "Слишком темно для поиска покемонов!{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 167
+#: 0x0a43ba5
+msgctxt "hash:d4a3986b"
+msgid "hash:d4a3986b"
+msgstr "Здесь покемонов не найти.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 59
+#: 0x0a43c0b
+msgctxt "hash:221becd9"
+msgid "hash:221becd9"
+msgstr "{B_COPY_VAR_1} убегает!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 59, 129
+#: 0x0a43c18
+msgctxt "hash:1d1c8d8f"
+msgid "hash:1d1c8d8f"
+msgstr "{B_COPY_VAR_1} убегает!\\nНужно двигаться медленнее."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 123
+#: 0x0a43c3d
+msgctxt "hash:68244728"
+msgid "hash:68244728"
+msgstr "Покемон убегает!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 123, 129
+#: 0x0a43c53
+msgctxt "hash:170bb4cf"
+msgid "hash:170bb4cf"
+msgstr "Покемон убегает!\\nНужно двигаться медленнее."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 115, 111
+#: 0x0a43c81
+msgctxt "hash:6e03a40b"
+msgid "hash:6e03a40b"
+msgstr "Никакой реакции.\\nСигнал потерян!"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 125
+#: 0x0a43cac
+msgctxt "hash:b548ffef"
+msgid "hash:b548ffef"
+msgstr "Здесь не водится {B_COPY_VAR_1}."
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 113, 80
+#: 0x0a43cc5
+msgctxt "hash:5a67eb63"
+msgid "hash:5a67eb63"
+msgstr "Эта форма покемона {B_COPY_VAR_1}\\nздесь не водится."
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 145, 175
+#: 0x0a43ceb
+msgctxt "hash:ab70c8d6"
+msgid "hash:ab70c8d6"
+msgstr ""
+"Поблизости нет покемона {B_COPY_VAR_1}.\\nСтоит поискать в другом месте!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 149, 58
+#: 0x0a43d29
+msgctxt "hash:403be768"
+msgid "hash:403be768"
+msgstr "Слишком темно для поиска\\nпокемонов!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 17
+#: 0x0a43d89
+msgctxt "hash:cabf96a2"
+msgid "hash:cabf96a2"
+msgstr "No. "
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 139, 75
+#: 0x0a43d94
+msgctxt "hash:63ea56f9"
+msgid "hash:63ea56f9"
+msgstr "Вокруг команды {FD 35}\\nразбросаны Шипы!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 176, 75
+#: 0x0a43dbe
+msgctxt "hash:e8d84d61"
+msgid "hash:e8d84d61"
+msgstr "Вокруг команды {FD 35}\\nразбросаны Шипы с ядом!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 168, 75
+#: 0x0a43def
+msgctxt "hash:8f8513d3"
+msgid "hash:8f8513d3"
+msgstr "Вокруг команды {FD 35}\\nпарят острые камни!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 169, 75
+#: 0x0a43e1f
+msgctxt "hash:1af3c916"
+msgid "hash:1af3c916"
+msgstr "Вокруг команды {FD 35}\\nраскинута Липкая сеть!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 162, 123
+#: 0x0a43e4e
+msgctxt "hash:b3a5f2cd"
+msgid "hash:b3a5f2cd"
+msgstr "Вокруг команды {FD 35}\\nпарят острые куски стали!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 137, 126
+#: 0x0a43e85
+msgctxt "hash:54bf99b7"
+msgid "hash:54bf99b7"
+msgstr "Ловушки вокруг команды\\n{FD 36} сметены!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 137, 126
+#: 0x0a43eb7
+msgctxt "hash:5a35031c"
+msgid "hash:5a35031c"
+msgstr "Ловушки вокруг команды\\n{FD 35} сметены!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 112
+#: 0x0a43fbc
+msgctxt "hash:e41ef703"
+msgid "hash:e41ef703"
+msgstr "Рекорд одиночных битв"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 115
+#: 0x0a43fd1
+msgctxt "hash:7ad86cd0"
+msgid "hash:7ad86cd0"
+msgstr "Рекорд двойных битв"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 106
+#: 0x0a43fe6
+msgctxt "hash:77120c9f"
+msgid "hash:77120c9f"
+msgstr "Рекорд мультибитв"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 132
+#: 0x0a43ffa
+msgctxt "hash:f49fc868"
+msgid "hash:f49fc868"
+msgstr "Рекорд мульти по связи"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a44013
+msgctxt "hash:47318f26"
+msgid "hash:47318f26"
+msgstr "Рекорд случ. одиночных"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 127
+#: 0x0a4402a
+msgctxt "hash:25557878"
+msgid "hash:25557878"
+msgstr "Рекорд случ. двойных"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x0a44041
+msgctxt "hash:3bfb61b5"
+msgid "hash:3bfb61b5"
+msgstr "Рекорд случ. мульти"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0a440d0
+msgctxt "hash:9fc9844e"
+msgid "hash:9fc9844e"
+msgstr "Ур. 5"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 47
+#: 0x0a440d8
+msgctxt "hash:edda96ca"
+msgid "hash:edda96ca"
+msgstr "Ур. 50"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 53
+#: 0x0a440e1
+msgctxt "hash:015a151c"
+msgid "hash:015a151c"
+msgstr "Ур. 100"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 82, 79
+#: 0x0a440eb
+msgctxt "hash:0a33edff"
+msgid "hash:0a33edff"
+msgstr "Текущая серия:\\nЛучшая серия:"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 79
+#: 0x0a4410a
+msgctxt "hash:961a921a"
+msgid "hash:961a921a"
+msgstr "Лучшая серия:"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0a44119
+msgctxt "hash:2a504d11"
+msgid "hash:2a504d11"
+msgstr "3 на 3"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0a4411f
+msgctxt "hash:8f073aec"
+msgid "hash:8f073aec"
+msgstr "4 на 4"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0a44125
+msgctxt "hash:9df05bb6"
+msgid "hash:9df05bb6"
+msgstr "6 на 6"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 99
+#: 0x0a4414e
+msgctxt "hash:3fcb5fef"
+msgid "hash:3fcb5fef"
+msgstr "Smogon Doubles OU"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0a4419a
+msgctxt "hash:2db9c15e"
+msgid "hash:2db9c15e"
+msgstr "Кубок GS"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 88
+#: 0x0a441e7
+msgctxt "hash:62b2286d"
+msgid "hash:62b2286d"
+msgstr "Кубок GS Camomons"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 11
+#: 0x0a442f5
+msgctxt "hash:3bf53bc1"
+msgid "hash:3bf53bc1"
+msgstr "включены"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 16
+#: 0x0a442f8
+msgctxt "hash:63e9826c"
+msgid "hash:63e9826c"
+msgstr "выключены"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0a442fc
+msgctxt "hash:98a22898"
+msgid "hash:98a22898"
+msgstr "можно"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 63
+#: 0x0a44304
+msgctxt "hash:3b02559d"
+msgid "hash:3b02559d"
+msgstr "нельзя"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a44325
+msgctxt "hash:c071d33e"
+msgid "hash:c071d33e"
+msgstr "Нет"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a451ff
+msgctxt "hash:23e68843"
+msgid "hash:23e68843"
+msgstr "Палмер"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a45206
+msgctxt "hash:7e79cbbe"
+msgid "hash:7e79cbbe"
+msgstr "Патроз"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0a4520d
+msgctxt "hash:b9619cc5"
+msgid "hash:b9619cc5"
+msgstr "Пабло"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0a45213
+msgctxt "hash:5f0ecb37"
+msgid "hash:5f0ecb37"
+msgstr "Пола"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 26
+#: 0x0a45219
+msgctxt "hash:55d64931"
+msgid "hash:55d64931"
+msgstr "Скели"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 35
+#: 0x0a4521f
+msgctxt "hash:bffa3671"
+msgid "hash:bffa3671"
+msgstr "Голче"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 43
+#: 0x0a45226
+msgctxt "hash:7a7e6f05"
+msgid "hash:7a7e6f05"
+msgstr "Танасис"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0a4522f
+msgctxt "hash:74b11c86"
+msgid "hash:74b11c86"
+msgstr "Ликсдел"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 38
+#: 0x0a45236
+msgctxt "hash:6180c052"
+msgid "hash:6180c052"
+msgstr "Синтия"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0a4525a
+msgctxt "hash:0317dc84"
+msgid "hash:0317dc84"
+msgstr "Кэндис"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0a45262
+msgctxt "hash:8d3a8f7c"
+msgid "hash:8d3a8f7c"
+msgstr "Джованни"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0a4526b
+msgctxt "hash:607e75fb"
+msgid "hash:607e75fb"
+msgstr "Майло"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0a45281
+msgctxt "hash:d74b8227"
+msgid "hash:d74b8227"
+msgstr "Кэти"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x0a45287
+msgctxt "hash:39cc607c"
+msgid "hash:39cc607c"
+msgstr "Джинджер"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x0a4528e
+msgctxt "hash:c509182e"
+msgid "hash:c509182e"
+msgstr "Абимбол"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0a45297
+msgctxt "hash:29a91d8d"
+msgid "hash:29a91d8d"
+msgstr "Махина"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0a4529e
+msgctxt "hash:51007188"
+msgid "hash:51007188"
+msgstr "Олфорд"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 156
+#: 0x0a452a8
+msgctxt "hash:be59180a"
+msgid "hash:be59180a"
+msgstr "Удивляет, что я твой ровесник?\\nУверяю, я не слабак."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 170, 86
+#: 0x0a452e6
+msgctxt "hash:b80f6d6a"
+msgid "hash:b80f6d6a"
+msgstr "Похоже, бросать школу\\nбыло не так уж умно…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 147, 52
+#: 0x0a45316
+msgctxt "hash:fb1e6928"
+msgid "hash:fb1e6928"
+msgstr "Хех, я же говорил,\\nчто меня так просто не взять!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 143, 180, 78
+#: 0x0a4533b
+msgctxt "hash:f0268da5"
+msgid "hash:f0268da5"
+msgstr ""
+"Я бросил школу, чтобы быть здесь…\\pИ я не дам тебе встать\\nна моём пути "
+"к величию!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 133, 170
+#: 0x0a45385
+msgctxt "hash:fba3e287"
+msgid "hash:fba3e287"
+msgstr "Хороший был бой!\\nЖду не дождусь реванша."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 182
+#: 0x0a453bc
+msgctxt "hash:7a168483"
+msgid "hash:7a168483"
+msgstr "Ты сражаешься хуже моей бабушки!\\nХотя бабуля - крепкий орешек…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 82
+#: 0x0a453fe
+msgctxt "hash:4e5fbd5e"
+msgid "hash:4e5fbd5e"
+msgstr "Я же ещё маленький,\\nтак что полегче со мной!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x0a4542e
+msgctxt "hash:ebe84d70"
+msgid "hash:ebe84d70"
+msgstr "Уа-а-а! Я на тебя пожалуюсь!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 127, 154
+#: 0x0a45449
+msgctxt "hash:473c4f4c"
+msgid "hash:473c4f4c"
+msgstr "Проиграть малышу…\\nКак тебе теперь спится по ночам?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 103
+#: 0x0a4547d
+msgctxt "hash:1ea6cc1b"
+msgid "hash:1ea6cc1b"
+msgstr "Путь жуколова! Узри же его!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a454ad
+msgctxt "hash:0b9d838d"
+msgid "hash:0b9d838d"
+msgstr "Слава жуколовам!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 147, 46
+#: 0x0a454c4
+msgctxt "hash:10eed299"
+msgid "hash:10eed299"
+msgstr "Вот он, путь жуколова!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x0a454e8
+msgctxt "hash:6e09a8a9"
+msgid "hash:6e09a8a9"
+msgstr "Поймаю тебя сачком!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 113
+#: 0x0a45503
+msgctxt "hash:91824db0"
+msgid "hash:91824db0"
+msgstr "Эй! Не убегай!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 87
+#: 0x0a45518
+msgctxt "hash:8b3cbd37"
+msgid "hash:8b3cbd37"
+msgstr "Дело в шляпе!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 45
+#: 0x0a45529
+msgctxt "hash:ba53df0c"
+msgid "hash:ba53df0c"
+msgstr "Я ловлю и выращиваю самых разных\\nпокемонов типа Насекомое."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 29
+#: 0x0a45555
+msgctxt "hash:e1603ff4"
+msgid "hash:e1603ff4"
+msgstr "Надо ещё подрастить своих покемонов!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 192
+#: 0x0a4557b
+msgctxt "hash:8712a545"
+msgid "hash:8712a545"
+msgstr "Видишь? Я неплохо их вырастил."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 65
+#: 0x0a4559e
+msgctxt "hash:a582a04d"
+msgid "hash:a582a04d"
+msgstr "Я ищу всякие миленькие аксессуары."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 137
+#: 0x0a455cb
+msgctxt "hash:9d930302"
+msgid "hash:9d930302"
+msgstr "Вот бы нарядиться!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 66
+#: 0x0a455e4
+msgctxt "hash:5fee4b23"
+msgid "hash:5fee4b23"
+msgstr "Найдёшь милые аксессуары -\\nдай мне знать!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 147, 54
+#: 0x0a45612
+msgctxt "hash:028b12bf"
+msgid "hash:028b12bf"
+msgstr "Мой принцип - носить мини-юбки!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 105
+#: 0x0a45639
+msgctxt "hash:e46b4a33"
+msgid "hash:e46b4a33"
+msgstr "А какой принцип у тебя?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x0a4564d
+msgctxt "hash:19c859b8"
+msgid "hash:19c859b8"
+msgstr "Мини-юбки - это вещь!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x0a4566a
+msgctxt "hash:d082872d"
+msgid "hash:d082872d"
+msgstr "Поехали!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 26
+#: 0x0a45675
+msgctxt "hash:4bb9777d"
+msgid "hash:4bb9777d"
+msgstr "Как можно обижать\\nбедную маленькую девочку?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 114
+#: 0x0a4569d
+msgctxt "hash:153ab02e"
+msgid "hash:153ab02e"
+msgstr "А нечего зевать!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x0a456b2
+msgctxt "hash:a498f745"
+msgid "hash:a498f745"
+msgstr "Море, моё прекрасное море!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 155, 115
+#: 0x0a456cd
+msgctxt "hash:bac8fd42"
+msgid "hash:bac8fd42"
+msgstr "Я хочу стать большим человеком.\\nБольшим, как море!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 94, 150
+#: 0x0a456ff
+msgctxt "hash:3b2bd8df"
+msgid "hash:3b2bd8df"
+msgstr "О… я их слышу…\\pСлышу шум волн…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 160, 159
+#: 0x0a4572b
+msgctxt "hash:79496c1c"
+msgid "hash:79496c1c"
+msgstr "Я моряк из моряков!\\nЯ родился в открытом море!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 59, 184, 102
+#: 0x0a45766
+msgctxt "hash:1316cb89"
+msgid "hash:1316cb89"
+msgstr "Ик… Буэ…\\pСтоит мне сойти на сушу -\\nи меня мутит без качки…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 168, 128
+#: 0x0a457a6
+msgctxt "hash:66ec5875"
+msgid "hash:66ec5875"
+msgstr "Меня баюкали волны!\\nМоре было мне матерью!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 43
+#: 0x0a457db
+msgctxt "hash:1bb29231"
+msgid "hash:1bb29231"
+msgstr "Давай! Налетай! Я выдержу!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 199
+#: 0x0a45805
+msgctxt "hash:b9590d98"
+msgid "hash:b9590d98"
+msgstr "Молодец! Одолеть такого громилу!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 116, 195
+#: 0x0a45828
+msgctxt "hash:580a2758"
+msgid "hash:580a2758"
+msgstr "Ну, как тебе?\\nСлишком я здоровый для тебя?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 164
+#: 0x0a45861
+msgctxt "hash:eecf134c"
+msgid "hash:eecf134c"
+msgstr "Мои покемоны закалены лесом."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 160
+#: 0x0a45880
+msgctxt "hash:9016982a"
+msgid "hash:9016982a"
+msgstr "Вернусь-ка я в лес."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x0a4589e
+msgctxt "hash:b3e8ee8d"
+msgid "hash:b3e8ee8d"
+msgstr "Вот она, сила лесов."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 33
+#: 0x0a458bd
+msgctxt "hash:e051db64"
+msgid "hash:e051db64"
+msgstr "Неутомимый походник принимает бой!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 46
+#: 0x0a458e7
+msgctxt "hash:d1bf9a76"
+msgid "hash:d1bf9a76"
+msgstr "Вот бы мне пойти по твоим стопам."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 25
+#: 0x0a4590b
+msgctxt "hash:f739118b"
+msgid "hash:f739118b"
+msgstr "Если хочешь, можешь\\nпойти по моим стопам."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 137
+#: 0x0a45933
+msgctxt "hash:9694e851"
+msgid "hash:9694e851"
+msgstr "А? Где все?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x0a4594c
+msgctxt "hash:e470ae49"
+msgid "hash:e470ae49"
+msgstr "Я пошёл в поход, но, кажется,\\nотбился от друзей…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x0a45989
+msgctxt "hash:ae1ee3fd"
+msgid "hash:ae1ee3fd"
+msgstr "Эй, ребята! Вы где?!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 37
+#: 0x0a459a4
+msgctxt "hash:43938215"
+msgid "hash:43938215"
+msgstr "Сражусь с тобой,\\nкак будто я на пикнике!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 60
+#: 0x0a459ca
+msgctxt "hash:17b77f36"
+msgid "hash:17b77f36"
+msgstr "Если делать вид, что это пикник,\\nпобеды не видать."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0a459f8
+msgctxt "hash:6210cb0c"
+msgid "hash:6210cb0c"
+msgstr "Ла-ла-ла!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 45
+#: 0x0a45a00
+msgctxt "hash:430a214c"
+msgid "hash:430a214c"
+msgstr "Кто бы ни победил, давай без обид."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 178
+#: 0x0a45a29
+msgctxt "hash:589eaf0f"
+msgid "hash:589eaf0f"
+msgstr "Ах ты! Я тебе это припомню!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 143
+#: 0x0a45a4a
+msgctxt "hash:798343df"
+msgid "hash:798343df"
+msgstr "Ура, ура, ура! Получилось!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 172, 47
+#: 0x0a45a64
+msgctxt "hash:441b3b10"
+msgid "hash:441b3b10"
+msgstr "Я покажу тебе,\\nкак весело сражаться."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 147, 111
+#: 0x0a45a8e
+msgctxt "hash:2426dcf7"
+msgid "hash:2426dcf7"
+msgstr "Ох, как вдохновляет!\\nТы лучше всех!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 167
+#: 0x0a45abf
+msgctxt "hash:462916a4"
+msgid "hash:462916a4"
+msgstr "Весело со мной сражаться, да?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 196, 41
+#: 0x0a45adf
+msgctxt "hash:fc231c77"
+msgid "hash:fc231c77"
+msgstr "Никто не любит покемонов\\nбольше меня! Никто!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 22, 179, 55
+#: 0x0a45b0a
+msgctxt "hash:24a62494"
+msgid "hash:24a62494"
+msgstr "Гр-р…\\pТвоя любовь к покемонам\\nсильнее моей?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 171, 126
+#: 0x0a45b3b
+msgctxt "hash:f70ba1ed"
+msgid "hash:f70ba1ed"
+msgstr "Фу-ха-ха! Похоже, моя любовь\\nк покемонам сильнее твоей!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 146
+#: 0x0a45b71
+msgctxt "hash:017e485a"
+msgid "hash:017e485a"
+msgstr "Ну-ка, покажи любимых покемонов.\\nНе стесняйся, давай."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0a45baf
+msgctxt "hash:9d3bc2de"
+msgid "hash:9d3bc2de"
+msgstr "Ясно! Милые, но сильные."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 35, 147
+#: 0x0a45bcb
+msgctxt "hash:84e520ee"
+msgid "hash:84e520ee"
+msgstr "Ясно…\\pМилые, но слабоваты."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 76
+#: 0x0a45bed
+msgctxt "hash:064a2cf8"
+msgid "hash:064a2cf8"
+msgstr "У меня есть покемоны.\\nБольше мне ничего не нужно."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 156, 45
+#: 0x0a45c1c
+msgctxt "hash:e8c0f4cb"
+msgid "hash:e8c0f4cb"
+msgstr "Разве у тебя не так же?\\nРазве нет?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 58
+#: 0x0a45c43
+msgctxt "hash:3787a286"
+msgid "hash:3787a286"
+msgstr "С моими покемонами\\nя счастлив каждый день."
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 181, 46, 138, 61
+#: 0x0a45c6e
+msgctxt "hash:ca68378a"
+msgid "hash:ca68378a"
+msgstr "Я просчитал все возможные исходы.\\pТвои шансы на победу - 3%."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 180
+#: 0x0a45cbc
+msgctxt "hash:a6f796da"
+msgid "hash:a6f796da"
+msgstr "Что? Вопреки всем прогнозам!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 39
+#: 0x0a45cdc
+msgctxt "hash:d301c9e4"
+msgid "hash:d301c9e4"
+msgstr "Тебе явно стоит вернуться за парту."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 137, 181
+#: 0x0a45d01
+msgctxt "hash:6c8e33e5"
+msgid "hash:6c8e33e5"
+msgstr ""
+"Я знаю сильные и слабые стороны\\nкаждого покемона.\\pШансы не в твою "
+"пользу."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 150
+#: 0x0a45d5e
+msgctxt "hash:7953d092"
+msgid "hash:7953d092"
+msgstr "Хм… Надо больше заниматься."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 149, 127
+#: 0x0a45d79
+msgctxt "hash:0417ee81"
+msgid "hash:0417ee81"
+msgstr "Ты лишь цифра в статистике -\\nвсё в пределах нормы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 191
+#: 0x0a45dad
+msgctxt "hash:fa4058da"
+msgid "hash:fa4058da"
+msgstr "Моему интеллекту ты не ровня."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 153, 125
+#: 0x0a45dd0
+msgctxt "hash:67132fbf"
+msgid "hash:67132fbf"
+msgstr "Ты явно в 97-м процентиле.\\nВпечатляет."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 27
+#: 0x0a45e04
+msgctxt "hash:3bf224a6"
+msgid "hash:3bf224a6"
+msgstr "Ещё один бой для анализа и выводов."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 176, 67
+#: 0x0a45e2d
+msgctxt "hash:c43d6e16"
+msgid "hash:c43d6e16"
+msgstr "Стремись к образу жизни туриста!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 99, 180, 27
+#: 0x0a45e5b
+msgctxt "hash:8efaad8b"
+msgid "hash:8efaad8b"
+msgstr "Ну же, ну же!\\nБери пример с того, как я живу!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 176, 55
+#: 0x0a45e93
+msgctxt "hash:03158b86"
+msgid "hash:03158b86"
+msgstr "Видишь? Тебе ведь нравится,\\nкак я живу?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 106
+#: 0x0a45ebe
+msgctxt "hash:0c167292"
+msgid "hash:0c167292"
+msgstr "Здорово!\\nДалековато отсюда до гор!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 100, 90
+#: 0x0a45ef3
+msgctxt "hash:2378377a"
+msgid "hash:2378377a"
+msgstr "У меня сенная лихорадка…\\pА-а-а-а-АПЧХИ!!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 126
+#: 0x0a45f15
+msgctxt "hash:636cd49e"
+msgid "hash:636cd49e"
+msgstr "Ха-ха! Давай ещё!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 52, 183, 83
+#: 0x0a45f2c
+msgctxt "hash:76596ddd"
+msgid "hash:76596ddd"
+msgstr "Эге-гей!\\pТы - гора у меня на пути, верно?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 78
+#: 0x0a45f68
+msgctxt "hash:9fb2d915"
+msgid "hash:9fb2d915"
+msgstr "Гр-р-р…\\nМоя победа канула в расщелину…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 138, 131
+#: 0x0a45f98
+msgctxt "hash:ff18f841"
+msgid "hash:ff18f841"
+msgstr "Я-ху-у-у-у! Я-ху-у-у-у-у!\\nВнемли моему победному кличу!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 175, 169
+#: 0x0a45fc8
+msgctxt "hash:d02df754"
+msgid "hash:d02df754"
+msgstr ""
+"Эти тупые охранники не дают мне\\nспокойно гонять тут на байке…\\pСорву "
+"злость на тебе!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 164
+#: 0x0a4602a
+msgctxt "hash:b07349fc"
+msgid "hash:b07349fc"
+msgstr "Что?! У байка кончился бензин!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 89
+#: 0x0a46048
+msgctxt "hash:364fb34d"
+msgid "hash:364fb34d"
+msgstr "Глотай пыль, неумёха!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 187
+#: 0x0a46059
+msgctxt "hash:1d6bb26a"
+msgid "hash:1d6bb26a"
+msgstr "После боя давай погоняем!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x0a4607b
+msgctxt "hash:50b684b9"
+msgid "hash:50b684b9"
+msgstr "Не-е-е-ет! Мама!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 95, 71
+#: 0x0a46089
+msgctxt "hash:d07a4c34"
+msgid "hash:d07a4c34"
+msgstr "Вот и ещё одна жертва\\nмощи моего байка!\\lХе-хе-хе."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 22
+#: 0x0a460ca
+msgctxt "hash:77958129"
+msgid "hash:77958129"
+msgstr "Угонишься за мной\\nна полной скорости?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 24, 171
+#: 0x0a460f1
+msgctxt "hash:f8395b15"
+msgid "hash:f8395b15"
+msgstr "Тьфу…\\pМне тебя никак не победить."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 184, 186, 67
+#: 0x0a46115
+msgctxt "hash:6aafd8fb"
+msgid "hash:6aafd8fb"
+msgstr ""
+"Раз ты не можешь победить меня\\nв бою, то в гонке на байках\\lи подавно."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 70, 161
+#: 0x0a46166
+msgctxt "hash:ac7206b7"
+msgid "hash:ac7206b7"
+msgstr "Переключаю передачу!\\nАтакуем на полной скорости!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 166, 35
+#: 0x0a46191
+msgctxt "hash:4328daac"
+msgid "hash:4328daac"
+msgstr "Ухожу в зону за пределами скорости!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0a461b7
+msgctxt "hash:7620088a"
+msgid "hash:7620088a"
+msgstr "Бабах!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 47, 53, 52
+#: 0x0a461bf
+msgctxt "hash:5daa476e"
+msgid "hash:5daa476e"
+msgstr "Давай!\\pПомчимся!\\pВместе!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x0a461dd
+msgctxt "hash:1139b17c"
+msgid "hash:1139b17c"
+msgstr "Стой! Не бросай меня!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x0a461fa
+msgctxt "hash:87d55cc6"
+msgid "hash:87d55cc6"
+msgstr "Фи-и-и-и-и-иниш!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 61
+#: 0x0a4620b
+msgctxt "hash:857ac3c7"
+msgid "hash:857ac3c7"
+msgstr "Я лучше покатаюсь не спеша,\\nчем на полной скорости."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 164, 51
+#: 0x0a46239
+msgctxt "hash:c187f5c8"
+msgid "hash:c187f5c8"
+msgstr "Тебе бы ко всему относиться попроще…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 102
+#: 0x0a46261
+msgctxt "hash:545e0700"
+msgid "hash:545e0700"
+msgstr "Давай без спешки."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 71
+#: 0x0a46275
+msgctxt "hash:21508c0b"
+msgid "hash:21508c0b"
+msgstr "Я был вором, но завязал\\nи стал тренером."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0a462a6
+msgctxt "hash:f33402a1"
+msgid "hash:f33402a1"
+msgstr "Сдаюсь!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a462b3
+msgctxt "hash:7cd124eb"
+msgid "hash:7cd124eb"
+msgstr "Сдаваться поздно!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 157, 173, 61
+#: 0x0a462ca
+msgctxt "hash:8dc81c24"
+msgid "hash:8dc81c24"
+msgstr "Если у покемона талант Карманник,\\nто он что, покемон типа Вор?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 110
+#: 0x0a46313
+msgctxt "hash:a18e5ddc"
+msgid "hash:a18e5ddc"
+msgstr "Вот бы существовал покемон-вор.\\nС ним бы я победил!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 158
+#: 0x0a4634a
+msgctxt "hash:bfb1b4b4"
+msgid "hash:bfb1b4b4"
+msgstr "Меня так и тянет\\nкрасть чужие серии побед."
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 184, 182, 171, 87
+#: 0x0a4638a
+msgctxt "hash:de517568"
+msgid "hash:de517568"
+msgstr ""
+"Я зову себя “Рисовальщиком”,\\nа с маленькой воровской маской\\lя и вовсе "
+"неузнаваем."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 182
+#: 0x0a463ff
+msgctxt "hash:026c48a2"
+msgid "hash:026c48a2"
+msgstr "Хороший политик так же немыслим,\\nкак честный вор."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 138
+#: 0x0a4643f
+msgctxt "hash:66021fc0"
+msgid "hash:66021fc0"
+msgstr "Мы, воришки, знаем: увести\\nчужую серию можно по-разному."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 106
+#: 0x0a4647c
+msgctxt "hash:bb1b2f39"
+msgid "hash:bb1b2f39"
+msgstr "Это я построил\\nвсе здания в округе."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 168, 127
+#: 0x0a464b3
+msgctxt "hash:8f92b302"
+msgid "hash:8f92b302"
+msgstr "Моя мечта - построить здание\\nвыше горы!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 125, 90
+#: 0x0a464ea
+msgctxt "hash:30dfb10b"
+msgid "hash:30dfb10b"
+msgstr "Ну, что скажешь? Круто, а?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 82
+#: 0x0a46512
+msgctxt "hash:5c243ebb"
+msgid "hash:5c243ebb"
+msgstr "Пущу тебя на лом."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x0a46522
+msgctxt "hash:ac15c327"
+msgid "hash:ac15c327"
+msgstr "Думай экологично. Береги природу."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 94
+#: 0x0a4653e
+msgctxt "hash:5ef66261"
+msgid "hash:5ef66261"
+msgstr "Пущу тебя в переработку."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 87, 155
+#: 0x0a46550
+msgctxt "hash:8eb4f08e"
+msgid "hash:8eb4f08e"
+msgstr "С дороги!\\nМне надо развозить заказы!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 163, 24, 147
+#: 0x0a4657d
+msgctxt "hash:f600bd87"
+msgid "hash:f600bd87"
+msgstr "Каждый день столько доставок…\\pУ меня все мышцы ноют!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 86
+#: 0x0a465bb
+msgctxt "hash:c199274a"
+msgid "hash:c199274a"
+msgstr "Что? Тебя тоже\\nкуда-нибудь доставить?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 165, 160
+#: 0x0a465ec
+msgctxt "hash:539a1427"
+msgid "hash:539a1427"
+msgstr "Рыба, рыба, рыба - вот моё дело!\\nВсю выловлю!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 53, 115
+#: 0x0a4662a
+msgctxt "hash:9ff920b4"
+msgid "hash:9ff920b4"
+msgstr "Ой-ой! Сорвалась рыбка!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 48, 158
+#: 0x0a46649
+msgctxt "hash:f7c0f14b"
+msgid "hash:f7c0f14b"
+msgstr "Ка-ха-ха! Я в отличной форме!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 41
+#: 0x0a4666e
+msgctxt "hash:ee13e84e"
+msgid "hash:ee13e84e"
+msgstr "Приятели зовут меня\\nимператором рыбалки!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 169
+#: 0x0a46699
+msgctxt "hash:80a0c88c"
+msgid "hash:80a0c88c"
+msgstr "Почему император рыбалки?\\nЭто древняя китайская легенда…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0a466d5
+msgctxt "hash:5c648ebf"
+msgid "hash:5c648ebf"
+msgstr "Сегодня опять поймал крупную рыбу!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 65, 73
+#: 0x0a466f5
+msgctxt "hash:4d313612"
+msgid "hash:4d313612"
+msgstr "Удочкой я владею лучше всех.\\pСмотри!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 153
+#: 0x0a46732
+msgctxt "hash:5a1a9a37"
+msgid "hash:5a1a9a37"
+msgstr "Как я управляюсь с удочкой,\\nк боям отношения не имеет…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 39, 95
+#: 0x0a4676f
+msgctxt "hash:41dd1735"
+msgid "hash:41dd1735"
+msgstr "Видишь? Небось впечатляет!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 170
+#: 0x0a46789
+msgctxt "hash:15172c08"
+msgid "hash:15172c08"
+msgstr "С моим умением легко побеждать\\nдаже во сне."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 44
+#: 0x0a467c9
+msgctxt "hash:b9e27d2e"
+msgid "hash:b9e27d2e"
+msgstr "Хр-р-р-р…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0a467d2
+msgctxt "hash:9e9fdc39"
+msgid "hash:9e9fdc39"
+msgstr "Хр-р… Хр-р…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 159, 115
+#: 0x0a467dc
+msgctxt "hash:5ad2035f"
+msgid "hash:5ad2035f"
+msgstr "Скажу прямо: сражаться\\nя не особо люблю."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 22, 142
+#: 0x0a46810
+msgctxt "hash:14a06755"
+msgid "hash:14a06755"
+msgstr "Гр-р…\\pТак обидно, что хоть плачь…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 63, 94
+#: 0x0a4682f
+msgctxt "hash:5517f6d6"
+msgid "hash:5517f6d6"
+msgstr "Я победил, но…\\nменя до сих пор трясёт…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 140
+#: 0x0a4684e
+msgctxt "hash:aa7a2daf"
+msgid "hash:aa7a2daf"
+msgstr "Хочешь сбежать к мамочке -\\nсейчас самое время, малявка!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 30, 94
+#: 0x0a4688a
+msgctxt "hash:61adc07d"
+msgid "hash:61adc07d"
+msgstr "Уа-а! Хочу к мамочке!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 48, 64
+#: 0x0a468a1
+msgctxt "hash:5f8d8c40"
+msgid "hash:5f8d8c40"
+msgstr "Ге-хе-хе! Я же говорил!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 54, 102
+#: 0x0a468b6
+msgctxt "hash:b0aea575"
+msgid "hash:b0aea575"
+msgstr "Отлично! Сыграем!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 28, 81
+#: 0x0a468d4
+msgctxt "hash:4c2f9893"
+msgid "hash:4c2f9893"
+msgstr "Вот досада! Не дотянул!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 181
+#: 0x0a468e9
+msgctxt "hash:81abc5ec"
+msgid "hash:81abc5ec"
+msgstr "Сегодня тебе не повезло."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x0a4690b
+msgctxt "hash:27a19afb"
+msgid "hash:27a19afb"
+msgstr "Я бродяга-игрок!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a46928
+msgctxt "hash:1fc2fd9e"
+msgid "hash:1fc2fd9e"
+msgstr "Упустил такой шанс!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 156, 129
+#: 0x0a4693f
+msgctxt "hash:789e2de5"
+msgid "hash:789e2de5"
+msgstr "Я бродяга-игрок!\\nИ мне сейчас везёт!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 65, 107
+#: 0x0a46975
+msgctxt "hash:cc1daac4"
+msgid "hash:cc1daac4"
+msgstr "Азарт борьбы! Мне всё мало!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 89
+#: 0x0a46996
+msgctxt "hash:f3e0ad7e"
+msgid "hash:f3e0ad7e"
+msgstr "А ведь у меня был шанс!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 63
+#: 0x0a469a6
+msgctxt "hash:5b69929c"
+msgid "hash:5b69929c"
+msgstr "В мире покемонов трусам не место!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 149, 37
+#: 0x0a469d5
+msgctxt "hash:79d8a7e2"
+msgid "hash:79d8a7e2"
+msgstr "Моя красота -\\nвот что делает меня сильной."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 93
+#: 0x0a469f8
+msgctxt "hash:86fc5ce3"
+msgid "hash:86fc5ce3"
+msgstr "В тебе столько красоты…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 181
+#: 0x0a46a0a
+msgctxt "hash:226ddc3d"
+msgid "hash:226ddc3d"
+msgstr "Моя красота тебя сразила."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 170, 110, 59
+#: 0x0a46a2b
+msgctxt "hash:9bf3b035"
+msgid "hash:9bf3b035"
+msgstr "Может быть немножко больно,\\nно мы быстро закончим.\\pНе двигайся!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 46, 62
+#: 0x0a46a6c
+msgctxt "hash:8878b317"
+msgid "hash:8878b317"
+msgstr "Ой, нет! Больно же!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 35, 29
+#: 0x0a46a81
+msgctxt "hash:bf971cda"
+msgid "hash:bf971cda"
+msgstr "Вот! Готово!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 35
+#: 0x0a46a8e
+msgctxt "hash:bbba2f92"
+msgid "hash:bbba2f92"
+msgstr "В последнее время\\nу меня столько забот…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 166
+#: 0x0a46ab5
+msgctxt "hash:70df57f1"
+msgid "hash:70df57f1"
+msgstr "Ты лишь добавляешь мне забот…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 41
+#: 0x0a46ad3
+msgctxt "hash:72bcb30d"
+msgid "hash:72bcb30d"
+msgstr "С победой все заботы\\nкажутся пустяками!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 115, 168
+#: 0x0a46afe
+msgctxt "hash:c7163380"
+msgid "hash:c7163380"
+msgstr "Познай поражение…\\pУзнай, что значит сражаться…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 176
+#: 0x0a46b32
+msgctxt "hash:c0db0c3d"
+msgid "hash:c0db0c3d"
+msgstr "Побеждённые тихо уползают…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 162, 51
+#: 0x0a46b52
+msgctxt "hash:998eba51"
+msgid "hash:998eba51"
+msgstr "Я вижу, как ты\\nстановишься всё сильнее…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 102
+#: 0x0a46b79
+msgctxt "hash:856a09ab"
+msgid "hash:856a09ab"
+msgstr "Смотри мне в глаза!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 59
+#: 0x0a46b8c
+msgctxt "hash:bd84f030"
+msgid "hash:bd84f030"
+msgstr "Моя сила внушения\\nна тебя не подействовала!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 136
+#: 0x0a46bb8
+msgctxt "hash:44e77d40"
+msgid "hash:44e77d40"
+msgstr "Ты под моими чарами!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 161
+#: 0x0a46bd3
+msgctxt "hash:c47b5528"
+msgid "hash:c47b5528"
+msgstr "Я сосредоточился в тишине…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0a46bf1
+msgctxt "hash:8093c4a7"
+msgid "hash:8093c4a7"
+msgstr "…Получилось."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 149, 29, 40
+#: 0x0a46bfa
+msgctxt "hash:581518ff"
+msgid "hash:581518ff"
+msgstr "Закрой глаза и считай…\\pМедленно… Ещё медленнее…"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 24, 167, 33
+#: 0x0a46c23
+msgctxt "hash:982ef81f"
+msgid "hash:982ef81f"
+msgstr "Пф…\\pА я думала, что смогу тебя усыпить."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 44
+#: 0x0a46c4d
+msgctxt "hash:4587899b"
+msgid "hash:4587899b"
+msgstr "Это был отсчёт до моей победы!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 58, 172
+#: 0x0a46c73
+msgctxt "hash:1fed7917"
+msgid "hash:1fed7917"
+msgstr "Мои силы!\\nВ них нет никакого обмана!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x0a46c9e
+msgctxt "hash:7865f044"
+msgid "hash:7865f044"
+msgstr "Обмана и правда нет…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 122
+#: 0x0a46cbb
+msgctxt "hash:d03f99a4"
+msgid "hash:d03f99a4"
+msgstr "Вот она, психическая сила!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 104
+#: 0x0a46cd2
+msgctxt "hash:a3066d67"
+msgid "hash:a3066d67"
+msgstr "Кружись, кружись, кружись…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 41, 102
+#: 0x0a46ce7
+msgctxt "hash:03cdd7f4"
+msgid "hash:03cdd7f4"
+msgstr "О-о-ох…\\pГолова кружится…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a46d03
+msgctxt "hash:8c187e8d"
+msgid "hash:8c187e8d"
+msgstr "Голова кружится?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 138, 179
+#: 0x0a46d1a
+msgctxt "hash:46085e18"
+msgid "hash:46085e18"
+msgstr "О да! Я это чувствую!\\nЯ настроен на твою волну!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 182
+#: 0x0a46d55
+msgctxt "hash:5f248caa"
+msgid "hash:5f248caa"
+msgstr "Пф! Проигрыш сбил мне ритм!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0a46d76
+msgctxt "hash:346de5a3"
+msgid "hash:346de5a3"
+msgstr "Та-да-а-ам!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 165
+#: 0x0a46d80
+msgctxt "hash:46523ed9"
+msgid "hash:46523ed9"
+msgstr "Вкладывай чувства в песни\\nот всей души, понимаешь?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 163, 37
+#: 0x0a46dc1
+msgctxt "hash:c23b435a"
+msgid "hash:c23b435a"
+msgstr "Сейчас у меня на душе\\nчто-то вроде фолка."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 111, 53
+#: 0x0a46de7
+msgctxt "hash:1a16031c"
+msgid "hash:1a16031c"
+msgstr "Что у меня на душе? Рок!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 139
+#: 0x0a46e06
+msgctxt "hash:e69ca2b6"
+msgid "hash:e69ca2b6"
+msgstr "Начинаем сейшн!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 144, 120
+#: 0x0a46e21
+msgctxt "hash:cce387ec"
+msgid "hash:cce387ec"
+msgstr "Мечта о мировом турне…\\pКажется такой далёкой…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 138, 49
+#: 0x0a46e51
+msgctxt "hash:fb38eda2"
+msgid "hash:fb38eda2"
+msgstr "Тебе явно не хватает практики."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 36, 186
+#: 0x0a46e75
+msgctxt "hash:ce53f9d9"
+msgid "hash:ce53f9d9"
+msgstr "Привет! Ты из моего фан-клуба?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a46e9d
+msgctxt "hash:a09dd13a"
+msgid "hash:a09dd13a"
+msgstr "А, так ты не из фан-клуба…"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 46, 160, 173
+#: 0x0a46eb6
+msgctxt "hash:0d9bddee"
+msgid "hash:0d9bddee"
+msgstr "Ла-ла-ла…\\nПокемонов выпускаю -\\lвсех девчонок восхищаю!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 92, 92, 53
+#: 0x0a46efc
+msgctxt "hash:e48da728"
+msgid "hash:e48da728"
+msgstr "Шард-де-бой! Шард-де-бой!\\pЙе-йе!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 53, 81
+#: 0x0a46f28
+msgctxt "hash:6c679a9e"
+msgid "hash:6c679a9e"
+msgstr "Йе-йе! Шард-де-проигрыш!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 53, 74
+#: 0x0a46f41
+msgctxt "hash:7746dd37"
+msgid "hash:7746dd37"
+msgstr "Йе-йе! Шард-де-победа!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 172
+#: 0x0a46f59
+msgctxt "hash:2c854ebc"
+msgid "hash:2c854ebc"
+msgstr "Узри мою ловкость и грацию!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 128
+#: 0x0a46f78
+msgctxt "hash:8d2ad03e"
+msgid "hash:8d2ad03e"
+msgstr "Фух! Вот это встряска!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 85
+#: 0x0a46f8f
+msgctxt "hash:154e11f4"
+msgid "hash:154e11f4"
+msgstr "Узри! Мои лучшие покемоны\\nтебя ослепили!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 64
+#: 0x0a46fc1
+msgctxt "hash:5a705dcb"
+msgid "hash:5a705dcb"
+msgstr "Заповедь укротителя драконов!\\nНомер один!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 117, 125
+#: 0x0a46fec
+msgctxt "hash:9cb82b64"
+msgid "hash:9cb82b64"
+msgstr "Даже проиграв, рычи!\\nРычи вместе со своим драконом!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 94, 125
+#: 0x0a47019
+msgctxt "hash:5199eef7"
+msgid "hash:5199eef7"
+msgstr "Победив, рычи!\\nРычи вместе со своим драконом!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 162, 35, 52
+#: 0x0a47042
+msgctxt "hash:fb64e725"
+msgid "hash:fb64e725"
+msgstr "Смотри! Чувствуй!\\nАбсолютная сила…\\pНаверное!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 138, 52, 107
+#: 0x0a47071
+msgctxt "hash:5b7ba1c8"
+msgid "hash:5b7ba1c8"
+msgstr "Звание абсолютного чемпиона…\\nнаверное!\\pЖалую его тебе!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 49, 52
+#: 0x0a470a9
+msgctxt "hash:2793f8ce"
+msgid "hash:2793f8ce"
+msgstr "Мне, абсолютному чемпиону,\\nпоражение неведомо…\\pНаверное!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a470dc
+msgctxt "hash:d6e012fa"
+msgid "hash:d6e012fa"
+msgstr "Могуч! Как дракон!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 28, 125
+#: 0x0a470f3
+msgctxt "hash:2758e76c"
+msgid "hash:2758e76c"
+msgstr "…Уф…\\pЯ хотел быть сильным…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x0a47110
+msgctxt "hash:82ffc8aa"
+msgid "hash:82ffc8aa"
+msgstr "Силён я!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 77, 175
+#: 0x0a4711e
+msgctxt "hash:bb752656"
+msgid "hash:bb752656"
+msgstr "Лети, лети, лети!\\nМы будем царить в этом бою!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 100
+#: 0x0a4714e
+msgctxt "hash:2ccd56e5"
+msgid "hash:2ccd56e5"
+msgstr "Мы сейчас разобьёмся!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0a47161
+msgctxt "hash:e5e0bb98"
+msgid "hash:e5e0bb98"
+msgstr "Вжух!"
+
+# source: Use the complete title Птицевод for Bird Keeper.
+# source: Do not use the compact label «Смотр. птиц».
+# source: The title is a project proposal with a keeping/breeding emphasis.
+# source: Смотритель птиц (Pokerogue) and Заводчик Птиц (HeartGold fan translation) are documented variants.
+# source: status: unreviewed; sources: kind: project; name: Project rendering; address: own; quoted term: Птицевод; relation: selected_form; verification: recorded
+# source: kind: web; name: PokéRogue Russian localization (pokerogue-locales, ru), commit 597d841c of 2026-10-17; address: pokerogue-ru; quoted term: Смотритель птиц; relation: alternative; verification: recorded
+# source: kind: web; name: Russian fan translation of Pokémon HeartGold (Pojirianets), aligned line by line with the English text of pret/pokeheartgold; address: pojirianets-hg; quoted term: Заводчик Птиц; relation: alternative; verification: recorded; related notes: note:87979aeb-fc94-5872-84b8-1e001a7d3a5e
+# source: The inventory covers eight translated references and two unreachable untranslated duplicates.
+# source: status: unreviewed; evidence: method: lookup; verification: recorded; measurements: name: translated references; value: 8; unit: count
+# source: name: unreachable untranslated duplicates; value: 2; unit: count
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 71, 169, 23
+#: 0x0a47167
+msgctxt "hash:53a46f8b"
+msgid "hash:53a46f8b"
+msgstr "А теперь слушай!\\pЗаповедь птицевода\\nномер один!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 145
+#: 0x0a47198
+msgctxt "hash:1eb06c1f"
+msgid "hash:1eb06c1f"
+msgstr "Проиграв, дай крыльям отдых!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 107
+#: 0x0a471b3
+msgctxt "hash:7dd0659f"
+msgid "hash:7dd0659f"
+msgstr "Победив, взмывай ввысь!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 116
+#: 0x0a471c7
+msgctxt "hash:79b10f2b"
+msgid "hash:79b10f2b"
+msgstr "В жизни многое идёт\\nне так, как хочется."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0a471fe
+msgctxt "hash:3c272d53"
+msgid "hash:3c272d53"
+msgstr "Видишь?.."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 40, 108
+#: 0x0a47204
+msgctxt "hash:9cf26bdd"
+msgid "hash:9cf26bdd"
+msgstr "Ура! Всё вышло, как я хотел!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 154
+#: 0x0a47220
+msgctxt "hash:f0cfe731"
+msgid "hash:f0cfe731"
+msgstr "Бой - дело смертельно серьёзное!\\nНи на миг не отвлекаться!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 40
+#: 0x0a47259
+msgctxt "hash:2b2d606f"
+msgid "hash:2b2d606f"
+msgstr "Похоже, я отвлёкся…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 150
+#: 0x0a4727e
+msgctxt "hash:f9ac8a7c"
+msgid "hash:f9ac8a7c"
+msgstr "Никогда не теряй бдительности!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 156, 165
+#: 0x0a47299
+msgctxt "hash:f123c204"
+msgid "hash:f123c204"
+msgstr "Мой дух пылает, кулаки - сталь,\\nа пот льётся ручьём!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 120, 60
+#: 0x0a472d5
+msgctxt "hash:2645bdf6"
+msgid "hash:2645bdf6"
+msgstr "Я повержен? Г-гва-а-ах!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 86, 142
+#: 0x0a472f7
+msgctxt "hash:6ad24f2a"
+msgid "hash:6ad24f2a"
+msgstr "Я вспотел больше.\\nЗначит, победа за мной!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 165, 164, 51
+#: 0x0a47321
+msgctxt "hash:541e8b71"
+msgid "hash:541e8b71"
+msgstr "Я умею биться только в полную силу,\\nдаже с теми, кто младше!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 172, 111
+#: 0x0a47367
+msgctxt "hash:80196c7c"
+msgid "hash:80196c7c"
+msgstr "Прошу! Позволь отныне звать тебя\\nмастером среди тренеров!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x0a4739b
+msgctxt "hash:1f16a5a3"
+msgid "hash:1f16a5a3"
+msgstr "В полную силу - так я побеждаю!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 49
+#: 0x0a473b4
+msgctxt "hash:a255b30a"
+msgid "hash:a255b30a"
+msgstr "У моих покемонов сила\\nна уровне чёрного пояса!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 46
+#: 0x0a473df
+msgctxt "hash:afd22860"
+msgid "hash:afd22860"
+msgstr "Нечасто мне встречается\\nкто-то сильнее меня…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 128
+#: 0x0a4740a
+msgctxt "hash:03c63265"
+msgid "hash:03c63265"
+msgstr "Какое унижение для тебя!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 41, 143
+#: 0x0a47422
+msgctxt "hash:58ffb790"
+msgid "hash:58ffb790"
+msgstr "Ладно, ладно! Давай по-быстрому!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 93, 148
+#: 0x0a47445
+msgctxt "hash:dba3b793"
+msgid "hash:dba3b793"
+msgstr "Ага! Здорово!\\nМне нравится, как ты сражаешься!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 144, 164
+#: 0x0a47471
+msgctxt "hash:b8f6ca38"
+msgid "hash:b8f6ca38"
+msgstr "Да! Давай ещё раз!\\n…Ой. У тебя кончились покемоны!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 34, 182
+#: 0x0a474aa
+msgctxt "hash:314a34bd"
+msgid "hash:314a34bd"
+msgstr "Хия! Сдерживаться не стану!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 187, 87
+#: 0x0a474d3
+msgctxt "hash:3e737c88"
+msgid "hash:3e737c88"
+msgstr "Я… я сдаюсь!\\nПохоже, ты на совсем другом уровне…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 140
+#: 0x0a47506
+msgctxt "hash:1c2f300d"
+msgid "hash:1c2f300d"
+msgstr "Хия! Я поставила тебя на место!\\nЦени этот урок!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x0a47540
+msgctxt "hash:a9187e34"
+msgid "hash:a9187e34"
+msgstr "Вот она, сила науки!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 102, 190, 52
+#: 0x0a4755b
+msgctxt "hash:93ca3231"
+msgid "hash:93ca3231"
+msgstr "Немыслимо…\\pКак могла проиграть сила науки?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 170, 156
+#: 0x0a4759b
+msgctxt "hash:78388041"
+msgid "hash:78388041"
+msgstr "Видишь? Впечатляет?\\nВот она, сила науки!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 110, 160, 87
+#: 0x0a475d6
+msgctxt "hash:b5bf0263"
+msgid "hash:b5bf0263"
+msgstr "В атаку, мои покемоны!\\pПокажите плоды\\nнаших экспериментов!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 138, 94
+#: 0x0a47619
+msgctxt "hash:30d9fd40"
+msgid "hash:30d9fd40"
+msgstr "Что за эксперименты?\\nЭто засекречено."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 165
+#: 0x0a47646
+msgctxt "hash:cb880589"
+msgid "hash:cb880589"
+msgstr "Да! Покемоны доказали мою теорию!\\nТеперь я стану профессором!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 120, 113
+#: 0x0a47687
+msgctxt "hash:34754787"
+msgid "hash:34754787"
+msgstr "Я уронил очки.\\nНичего толком не вижу."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 84, 150
+#: 0x0a476b3
+msgctxt "hash:411aa724"
+msgid "hash:411aa724"
+msgstr "Видимо, я проиграл.\\nТолком не разглядеть."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 80, 150
+#: 0x0a476df
+msgctxt "hash:3353b5c2"
+msgid "hash:3353b5c2"
+msgstr "Видимо, я победил.\\nТолком не разглядеть."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 168, 141
+#: 0x0a4770a
+msgctxt "hash:f6029ced"
+msgid "hash:f6029ced"
+msgstr "Медленно, но верно.\\nБольшое начинается с малого."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 160, 39
+#: 0x0a47744
+msgctxt "hash:e3f92edf"
+msgid "hash:e3f92edf"
+msgstr "А ведь я всё делала\\nмедленно, но верно…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 186
+#: 0x0a4776a
+msgctxt "hash:635f1a4f"
+msgid "hash:635f1a4f"
+msgstr "Медленно, но верно - и победа моя!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 123, 118
+#: 0x0a4778c
+msgctxt "hash:b57e4ea1"
+msgid "hash:b57e4ea1"
+msgstr "Ты совсем ничего не умеешь.\\nПридётся тебя поучить."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 118
+#: 0x0a477b9
+msgctxt "hash:aecb316c"
+msgid "hash:aecb316c"
+msgstr "У тебя хорошие навыки.\\nИ старания хватает. Отлично!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 178
+#: 0x0a477f1
+msgctxt "hash:a025664f"
+msgid "hash:a025664f"
+msgstr "Нет-нет, так не пойдёт.\\nВставай. Никогда не сдавайся!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 168, 37, 155
+#: 0x0a4782f
+msgctxt "hash:80f7b7ff"
+msgid "hash:80f7b7ff"
+msgstr "Зачем во всём умничать?\\pЕсли весело - к чему вопросы?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 182
+#: 0x0a47874
+msgctxt "hash:8a320e73"
+msgid "hash:8a320e73"
+msgstr "Ну и проиграл! Весело - и ладно!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 114, 124
+#: 0x0a47897
+msgctxt "hash:e0c29a01"
+msgid "hash:e0c29a01"
+msgstr "Видишь, я всё равно побеждаю.\\nНе вижу никаких проблем!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 169
+#: 0x0a478c4
+msgctxt "hash:f24cab8f"
+msgid "hash:f24cab8f"
+msgstr "Мои козырные покемоны рвутся в бой!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 147
+#: 0x0a478e2
+msgctxt "hash:e099aa72"
+msgid "hash:e099aa72"
+msgstr "Мне нравится твоё чутьё!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 183
+#: 0x0a478fd
+msgctxt "hash:a1dcb096"
+msgid "hash:a1dcb096"
+msgstr "Удивляешь! Совсем неплохо!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 70
+#: 0x0a4791e
+msgctxt "hash:2feefc60"
+msgid "hash:2feefc60"
+msgstr "Что ж, нападай!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 112, 104
+#: 0x0a4792c
+msgctxt "hash:c248b50a"
+msgid "hash:c248b50a"
+msgstr "Хо! С тобой непросто!\\nТребую реванша!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x0a47953
+msgctxt "hash:53f5d76b"
+msgid "hash:53f5d76b"
+msgstr "Ха! Слабовато! Старайся дальше!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 114, 45
+#: 0x0a4796f
+msgctxt "hash:4359f1b7"
+msgid "hash:4359f1b7"
+msgstr "Теперь тебе не уйти. Сдавайся."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 109
+#: 0x0a4798d
+msgctxt "hash:12400829"
+msgid "hash:12400829"
+msgstr "Как же так?.."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 89, 92
+#: 0x0a479a1
+msgctxt "hash:0a596995"
+msgid "hash:0a596995"
+msgstr "Неплохо. Давай ещё встретимся."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 176
+#: 0x0a479c4
+msgctxt "hash:08c3c266"
+msgid "hash:08c3c266"
+msgstr "Со мной нужно сражаться всерьёз!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 18, 95
+#: 0x0a479e4
+msgctxt "hash:824f8f76"
+msgid "hash:824f8f76"
+msgstr "Так…\\pВесьма впечатляет…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 76
+#: 0x0a479fa
+msgctxt "hash:bb3c7bb5"
+msgid "hash:bb3c7bb5"
+msgstr "А? Это всё?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 30, 190, 28
+#: 0x0a47a09
+msgctxt "hash:08ebccdb"
+msgid "hash:08ebccdb"
+msgstr "Хм-хм…\\pПризнаюсь,\\nмне по душе твой взгляд."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 161
+#: 0x0a47a38
+msgctxt "hash:96d5d588"
+msgid "hash:96d5d588"
+msgstr "Твои глаза сияют ярче любого\\nкрупного самоцвета в моём доме!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 163, 164
+#: 0x0a47a77
+msgctxt "hash:3d11c83a"
+msgid "hash:3d11c83a"
+msgstr "Твои глаза ясны даже в поражении.\\nСловно самоцветы!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 146
+#: 0x0a47ab3
+msgctxt "hash:da3d2794"
+msgid "hash:da3d2794"
+msgstr "В твои годы, должен сказать,\\nя был тем ещё сорвиголовой."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 106
+#: 0x0a47aef
+msgctxt "hash:7b75f023"
+msgid "hash:7b75f023"
+msgstr "Смею заметить,\\nда ты тоже сорвиголова!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 176, 61
+#: 0x0a47b1f
+msgctxt "hash:e11eb7c2"
+msgid "hash:e11eb7c2"
+msgstr "Глядя на тебя, я вспоминаю\\nсвою бурную молодость."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 86
+#: 0x0a47b4b
+msgctxt "hash:680819bb"
+msgid "hash:680819bb"
+msgstr "В этом бою я впаду в детство."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 145
+#: 0x0a47b7c
+msgctxt "hash:bcc4fc0f"
+msgid "hash:bcc4fc0f"
+msgstr "Ты тренер не из простых."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 145, 57
+#: 0x0a47b98
+msgctxt "hash:1cdc9f17"
+msgid "hash:1cdc9f17"
+msgstr "Впереди у тебя долгий путь, дитя."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 115
+#: 0x0a47bbe
+msgctxt "hash:f9ae8ccf"
+msgid "hash:f9ae8ccf"
+msgstr "Я больше люблю речки, чем море.\\nА ты что больше любишь?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 147
+#: 0x0a47bf4
+msgctxt "hash:309478b2"
+msgid "hash:309478b2"
+msgstr "Не люблю море: от солёной воды\\nглаза щиплет!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 129, 132
+#: 0x0a47c30
+msgctxt "hash:d54a06b3"
+msgid "hash:d54a06b3"
+msgstr "В речке вода холодная,\\nзато так здорово!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 157
+#: 0x0a47c62
+msgctxt "hash:cd643b83"
+msgid "hash:cd643b83"
+msgstr "Давай, давай! Вперёд, мои покемоны!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 132, 64
+#: 0x0a47c7e
+msgctxt "hash:de9f2178"
+msgid "hash:de9f2178"
+msgstr "Хорошо старались!\\nМолодцы, мои покемоны!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 84, 128
+#: 0x0a47ca2
+msgctxt "hash:0c99ee4c"
+msgid "hash:0c99ee4c"
+msgstr "Вот так! Молодцы, мои покемоны!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 124, 150
+#: 0x0a47cc9
+msgctxt "hash:fe705f7e"
+msgid "hash:fe705f7e"
+msgstr "Я… я правда умею плавать!\\nМне не нужен круг!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 93
+#: 0x0a47cfc
+msgctxt "hash:99ec5ced"
+msgid "hash:99ec5ced"
+msgstr "Я… я не вру!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 76
+#: 0x0a47d0e
+msgctxt "hash:7b7ead12"
+msgid "hash:7b7ead12"
+msgstr "Это… это правда!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 143, 162, 36
+#: 0x0a47d1d
+msgctxt "hash:214f0980"
+msgid "hash:214f0980"
+msgstr "Песок на пляже такой горячий!\\pТак и кричу: “Ай-ай-ай!”"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 100
+#: 0x0a47d5b
+msgctxt "hash:a4c0dfb4"
+msgid "hash:a4c0dfb4"
+msgstr "Ай-ай-ай!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 87
+#: 0x0a47d6d
+msgctxt "hash:47d39288"
+msgid "hash:47d39288"
+msgstr "Обожаю море!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 133
+#: 0x0a47d7d
+msgctxt "hash:655368db"
+msgid "hash:655368db"
+msgstr "Я девочка, влюблённая в свой круг!\\nПриятно познакомиться!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 54, 178, 29
+#: 0x0a47db7
+msgctxt "hash:9f21af1c"
+msgid "hash:9f21af1c"
+msgstr "Пока!\\pЯ девочка, влюблённая в свой круг!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 58, 178, 29
+#: 0x0a47de9
+msgctxt "hash:363bc9a0"
+msgid "hash:363bc9a0"
+msgstr "Спасибо!\\pЯ девочка, влюблённая в свой круг!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 142, 143
+#: 0x0a47e1c
+msgctxt "hash:763c043d"
+msgid "hash:763c043d"
+msgstr "Плавать я умею, не думай.\\nПросто люблю свой круг."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0a47e53
+msgctxt "hash:9e20181f"
+msgid "hash:9e20181f"
+msgstr "Шлёп-шлёп!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 82
+#: 0x0a47e5f
+msgctxt "hash:d63979ae"
+msgid "hash:d63979ae"
+msgstr "Плюх-плюх!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 149, 105
+#: 0x0a47e6f
+msgctxt "hash:2ea3f727"
+msgid "hash:2ea3f727"
+msgstr "Позволь представить тебе\\nмоих драгоценных напарников!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 170, 53
+#: 0x0a47e9e
+msgctxt "hash:0e9dd3d9"
+msgid "hash:0e9dd3d9"
+msgstr "Главное - сколько труда вложено."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 125, 122
+#: 0x0a47ec9
+msgctxt "hash:df5b4259"
+msgid "hash:df5b4259"
+msgstr "Ну как тебе они?\\nМои драгоценные напарники."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 166, 77
+#: 0x0a47ef7
+msgctxt "hash:c09a2c95"
+msgid "hash:c09a2c95"
+msgstr "Растить покемонов -\\nэто много честного труда!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 64
+#: 0x0a47f25
+msgctxt "hash:3802b506"
+msgid "hash:3802b506"
+msgstr "Ургх! Смотри, что ты творишь\\nс моими покемонами!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 121
+#: 0x0a47f52
+msgctxt "hash:bad912fe"
+msgid "hash:bad912fe"
+msgstr "Я-ха-ха! Я своими руками\\nвырастил этих покемонов!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 119
+#: 0x0a47f8a
+msgctxt "hash:a9a9f10e"
+msgid "hash:a9a9f10e"
+msgstr "Я живу среди покемонов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 173
+#: 0x0a47fa0
+msgctxt "hash:664e076c"
+msgid "hash:664e076c"
+msgstr "Боец из меня неважный."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 23
+#: 0x0a47fc0
+msgctxt "hash:f8e71c6d"
+msgid "hash:f8e71c6d"
+msgstr "Боец из меня всегда был неважный,\\nно…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 79
+#: 0x0a47fe8
+msgctxt "hash:8030f7b3"
+msgid "hash:8030f7b3"
+msgstr "Давай проверю,\\nкак подросли твои покемоны."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 101, 185, 62
+#: 0x0a48018
+msgctxt "hash:06fe5c9e"
+msgid "hash:06fe5c9e"
+msgstr "Впечатляет!\\pТвои покемоны выращены на совесть."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 94, 167, 22
+#: 0x0a4805a
+msgctxt "hash:18cd1c95"
+msgid "hash:18cd1c95"
+msgstr "Слабовато!\\pТвои методы тренировки\\nне дотягивают."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 164, 145
+#: 0x0a48090
+msgctxt "hash:c4d96a1b"
+msgid "hash:c4d96a1b"
+msgstr "Слишком строго нельзя…\\nНо и баловать тоже нельзя…"
+
+# source: Use Заводчик покемонов for Pokemon Breeder.
+# source: Use Заводчик as the compact form.
+# source: Заводчик Покемонов is attested in the male/female class rows of the HeartGold fan translation.
+# source: Official TCG Бридер Покемонов is a documented variant.
+# source: The selected term preserves breeding/genetics meaning and also covers care/school contexts.
+# source: status: unreviewed; sources: kind: web; name: Russian fan translation of Pokémon HeartGold (Pojirianets), aligned line by line with the English text of pret/pokeheartgold; address: pojirianets-hg; locator: male/female class rows; quoted term: Заводчик Покемонов; relation: selected_form; verification: recorded
+# source: kind: web; name: Official Russian Pokémon TCG card translations (Sun & Moon series, XY Evolutions), The Pokémon Company International; address: tcg-ru; quoted term: Бридер Покемонов; relation: alternative; verification: recorded; related notes: note:817261f4-0265-53ca-b563-cac5ed899d80
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 126
+#: 0x0a480c9
+msgctxt "hash:f3cba471"
+msgid "hash:f3cba471"
+msgstr "Быть заводчиком покемонов -\\nдело сложное и тонкое."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 171, 45
+#: 0x0a48102
+msgctxt "hash:5e1c6e1f"
+msgid "hash:5e1c6e1f"
+msgstr "Чтобы вырастить хороших покемонов,\\nглавное - баланс."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 46
+#: 0x0a4812b
+msgctxt "hash:98062afd"
+msgid "hash:98062afd"
+msgstr "Моя специальность -\\nмилые покемоны!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x0a48151
+msgctxt "hash:affd0ad7"
+msgid "hash:affd0ad7"
+msgstr "Ох, но они же такие милые!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a4816a
+msgctxt "hash:0b1c6ec4"
+msgid "hash:0b1c6ec4"
+msgstr "Милые, но сильные! Правда?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 196, 110
+#: 0x0a48183
+msgctxt "hash:6abe951c"
+msgid "hash:6abe951c"
+msgstr "Любовь к природе и покемонам\\nсделала меня рейнджером!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 112, 66
+#: 0x0a481ba
+msgctxt "hash:2d33cb43"
+msgid "hash:2d33cb43"
+msgstr "Ох…\\nИ всё-таки сражаться я тоже люблю."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 125
+#: 0x0a481dc
+msgctxt "hash:29eb7097"
+msgid "hash:29eb7097"
+msgstr "А ещё я люблю сражаться!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 172, 109
+#: 0x0a481f3
+msgctxt "hash:ac27432f"
+msgid "hash:ac27432f"
+msgstr "Привет!\\nКак насчёт карьеры рейнджера?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 173
+#: 0x0a48226
+msgctxt "hash:26f6ec69"
+msgid "hash:26f6ec69"
+msgstr "Да, характер у тебя есть.\\nБыть рейнджером - это так здорово!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 167, 92
+#: 0x0a48262
+msgctxt "hash:067c50bc"
+msgid "hash:067c50bc"
+msgstr "Что ж, с твоим уровнем\\nтебе, пожалуй, не пробиться."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 29
+#: 0x0a48293
+msgctxt "hash:8ca0780d"
+msgid "hash:8ca0780d"
+msgstr "Победа или поражение - неважно:\\nкаждый бой бывает лишь раз!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 103
+#: 0x0a482bc
+msgctxt "hash:60470295"
+msgid "hash:60470295"
+msgstr "Ни о чём не жалею!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a482cf
+msgctxt "hash:0d13f98e"
+msgid "hash:0d13f98e"
+msgstr "А ты о чём-нибудь жалеешь?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 160
+#: 0x0a482e7
+msgctxt "hash:6fc721b8"
+msgid "hash:6fc721b8"
+msgstr "Я поклялась защищать природу\\nи покемонов, что в ней живут."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 186
+#: 0x0a48323
+msgctxt "hash:d461637f"
+msgid "hash:d461637f"
+msgstr "Это непростая жизнь, но каждый день\\nприносит много радости."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 131, 143
+#: 0x0a48362
+msgctxt "hash:6a86e906"
+msgid "hash:6a86e906"
+msgstr "Это благодарная работа.\\nКак тебе такое?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 115, 94
+#: 0x0a48395
+msgctxt "hash:79042e66"
+msgid "hash:79042e66"
+msgstr "Сила природы! Сейчас покажу!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0a483bb
+msgctxt "hash:6d125f58"
+msgid "hash:6d125f58"
+msgstr "Береги природу…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x0a483dc
+msgctxt "hash:c668635c"
+msgid "hash:c668635c"
+msgstr "Вот она, сила природы!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 162, 174
+#: 0x0a483f9
+msgctxt "hash:6eba08be"
+msgid "hash:6eba08be"
+msgstr "Я не спала всю ночь,\\nпридумывая новую стратегию!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 155, 77
+#: 0x0a48438
+msgctxt "hash:7bb1f041"
+msgid "hash:7bb1f041"
+msgstr "Ох, но…\\nнадо было этой ночью выспаться…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x0a48463
+msgctxt "hash:82b153c0"
+msgid "hash:82b153c0"
+msgstr "Моя стратегия сработала!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 149
+#: 0x0a48477
+msgctxt "hash:ee928009"
+msgid "hash:ee928009"
+msgstr "Ты проиграешь, зато насладишься\\nчудесным ароматом!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 136, 166
+#: 0x0a484b3
+msgctxt "hash:01f3cf43"
+msgid "hash:01f3cf43"
+msgstr "Ах… аромат поражения.\\nКакое горькое послевкусие…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 119
+#: 0x0a484eb
+msgctxt "hash:0d0e6173"
+msgid "hash:0d0e6173"
+msgstr "Кя-ха-ха! Вот что бывает,\\nкогда млеешь от моего аромата!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 40
+#: 0x0a48522
+msgctxt "hash:3cdc6476"
+msgid "hash:3cdc6476"
+msgstr "От сладких ароматов\\nменя так клонит в сон…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x0a4854c
+msgctxt "hash:ce65dd64"
+msgid "hash:ce65dd64"
+msgstr "…А-а-ах… Правда? Я проиграла?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 147, 45
+#: 0x0a48567
+msgctxt "hash:9a4865e1"
+msgid "hash:9a4865e1"
+msgstr "…А-а-ах… А? Уже всё закончилось?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 31
+#: 0x0a4858b
+msgctxt "hash:b84cdba3"
+msgid "hash:b84cdba3"
+msgstr "Нюх-нюх…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 149, 44
+#: 0x0a48592
+msgctxt "hash:3de083d3"
+msgid "hash:3de083d3"
+msgstr "О-о-ох… сладкий аромат победы!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 108, 114
+#: 0x0a485b6
+msgctxt "hash:58b2c0e9"
+msgid "hash:58b2c0e9"
+msgstr "Чуешь? Это аромат поражения!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 58
+#: 0x0a485df
+msgctxt "hash:ffbea1dd"
+msgid "hash:ffbea1dd"
+msgstr "Исследовать древности -\\nэто тебе не игрушки!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 182
+#: 0x0a48609
+msgctxt "hash:6eb219e1"
+msgid "hash:6eb219e1"
+msgstr "В руинах всюду таится опасность!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 167
+#: 0x0a4862b
+msgctxt "hash:53f034c9"
+msgid "hash:53f034c9"
+msgstr "Судя по уровню, фанат руин\\nиз тебя, скорее всего, не выйдет."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 54
+#: 0x0a4866d
+msgctxt "hash:ef0d070e"
+msgid "hash:ef0d070e"
+msgstr "Я путешествую в поисках\\nутраченных сокровищ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x0a4869a
+msgctxt "hash:bd3ed3af"
+msgid "hash:bd3ed3af"
+msgstr "Похоже, у тебя суматошная жизнь."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 174
+#: 0x0a486b6
+msgctxt "hash:858d1474"
+msgid "hash:858d1474"
+msgstr "А в остальное время я каждый день\\nрыбачу и ухаживаю за посевами."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 79
+#: 0x0a486f7
+msgctxt "hash:b0ae4088"
+msgid "hash:b0ae4088"
+msgstr "С этими приятелями\\nя объездил весь мир!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 171, 33
+#: 0x0a48727
+msgctxt "hash:6d13ebd2"
+msgid "hash:6d13ebd2"
+msgstr "Может, нам пора снова в путь…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 94, 111
+#: 0x0a4874e
+msgctxt "hash:000f8ee4"
+msgid "hash:000f8ee4"
+msgstr "Ну, что скажешь?\\nКрепкие ребята, а?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 165, 98
+#: 0x0a48774
+msgctxt "hash:f8da81ae"
+msgid "hash:f8da81ae"
+msgstr "Мой отец - один из богатейших\\nлюдей Борриуса."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 173
+#: 0x0a487a6
+msgctxt "hash:38e6bfd6"
+msgid "hash:38e6bfd6"
+msgstr "Я всё расскажу отцу!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 136, 114
+#: 0x0a487c6
+msgctxt "hash:f15fae62"
+msgid "hash:f15fae62"
+msgstr "Выходит, деньги сильнее упорства."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 152, 156
+#: 0x0a487f5
+msgctxt "hash:5d4e9ace"
+msgid "hash:5d4e9ace"
+msgstr ""
+"Моя семья вложилась в постройку\\nвсего этого, так что на всех шоу\\lу "
+"меня лучшие места."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 157
+#: 0x0a4884f
+msgctxt "hash:ef7e5d74"
+msgid "hash:ef7e5d74"
+msgstr "Лучше бы я просто смотрел…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 142
+#: 0x0a4886b
+msgctxt "hash:a6c71cc6"
+msgid "hash:a6c71cc6"
+msgstr "Ну разумеется. Я ведь богат."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 148, 78, 147
+#: 0x0a48886
+msgctxt "hash:3c01352c"
+msgid "hash:3c01352c"
+msgstr ""
+"В конечном счёте покемоны -\\nэто просто ещё один бренд.\\pТы ведь "
+"знаешь, кто победит?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 71, 146
+#: 0x0a488cd
+msgctxt "hash:59928d36"
+msgid "hash:59928d36"
+msgstr "Но как… Мои…\\nПокемоны, в которых я вложился…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 96
+#: 0x0a488f5
+msgctxt "hash:9c43de4a"
+msgid "hash:9c43de4a"
+msgstr "Мне неинтересен исход,\\nкоторый был неизбежен."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 206, 126
+#: 0x0a4892a
+msgctxt "hash:e3c45988"
+msgid "hash:e3c45988"
+msgstr "Мне по карману всё на свете.\\nЗа деньги можно купить даже бои!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 97
+#: 0x0a48968
+msgctxt "hash:9e763f37"
+msgid "hash:9e763f37"
+msgstr "Отдам тебе свои карманные деньги,\\nесли дашь мне выиграть."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 23
+#: 0x0a48999
+msgctxt "hash:4bc57804"
+msgid "hash:4bc57804"
+msgstr "Нет ничего,\\nчто нельзя купить за деньги."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 81, 127
+#: 0x0a489bf
+msgctxt "hash:09e5ecca"
+msgid "hash:09e5ecca"
+msgstr "Ладно, ладно.\\nМожешь ничего не говорить."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 81, 127
+#: 0x0a489e7
+msgctxt "hash:11005396"
+msgid "hash:11005396"
+msgstr "Ладно, ладно.\\nМожешь ничего не говорить."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 81, 157
+#: 0x0a48a0f
+msgctxt "hash:310aae44"
+msgid "hash:310aae44"
+msgstr "Ладно, ладно.\\nСтарания твои я вижу."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 24, 120
+#: 0x0a48a3d
+msgctxt "hash:f8245320"
+msgid "hash:f8245320"
+msgstr "Хм…\\pЗначит, ты кое-что умеешь, да?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 24, 99, 24
+#: 0x0a48a58
+msgctxt "hash:59bd4d29"
+msgid "hash:59bd4d29"
+msgstr "Хм…\\pЗначит, и правда умеешь. Хм…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 24, 135
+#: 0x0a48a74
+msgctxt "hash:e805a56c"
+msgid "hash:e805a56c"
+msgstr "Хм…\\pДа ты ничего особенного. Хм?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 48
+#: 0x0a48a92
+msgctxt "hash:4ddecae9"
+msgid "hash:4ddecae9"
+msgstr "Напишем же картину на века!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 187, 62
+#: 0x0a48abe
+msgctxt "hash:fb11572d"
+msgid "hash:fb11572d"
+msgstr "Пожалуй, мне лучше писать пейзажи…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 172, 27
+#: 0x0a48aed
+msgctxt "hash:70549545"
+msgid "hash:70549545"
+msgstr "Краски твоих покемонов тусклы."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 180
+#: 0x0a48b12
+msgctxt "hash:aacd423c"
+msgid "hash:aacd423c"
+msgstr "Хм-м-м… не двигайся!\\nЭту мощную позу надо запечатлеть!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 152
+#: 0x0a48b51
+msgctxt "hash:3226f179"
+msgid "hash:3226f179"
+msgstr "Какое великолепное зрелище!\\nВот бы написать твоих покемонов!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 110
+#: 0x0a48b8f
+msgctxt "hash:6eadca3f"
+msgid "hash:6eadca3f"
+msgstr "Ах, мои дорогие!\\nВаши яркие краски засияли!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a48bc3
+msgctxt "hash:2f3c6d9d"
+msgid "hash:2f3c6d9d"
+msgstr "Я талантлив не только в искусстве!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 146, 47
+#: 0x0a48bdd
+msgctxt "hash:881abdc4"
+msgid "hash:881abdc4"
+msgstr "Аргх! Мне краска в глаза попала!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 187
+#: 0x0a48c01
+msgctxt "hash:4822e970"
+msgid "hash:4822e970"
+msgstr "Похоже, сменить городские пейзажи\\nна битвы было верным решением!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 172
+#: 0x0a48c45
+msgctxt "hash:70584a40"
+msgid "hash:70584a40"
+msgstr "Что желаешь заказать?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 135, 105
+#: 0x0a48c64
+msgctxt "hash:5654ee8d"
+msgid "hash:5654ee8d"
+msgstr "Ах, превосходный выбор.\\nПобеда, с пылу с жару."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 100, 122
+#: 0x0a48c91
+msgctxt "hash:397a6630"
+msgid "hash:397a6630"
+msgstr "Ах, прекрасный выбор.\\nОдно поражение, с пылу с жару."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 160, 103
+#: 0x0a48cbb
+msgctxt "hash:7cc6d6e3"
+msgid "hash:7cc6d6e3"
+msgstr "И в бою, и с заказами\\nглавное - скорость!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 118, 129
+#: 0x0a48ced
+msgctxt "hash:56f31135"
+msgid "hash:56f31135"
+msgstr "С едой как с боем:\\nподавать надо горячим!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 92, 86
+#: 0x0a48d1d
+msgctxt "hash:4a507921"
+msgid "hash:4a507921"
+msgstr "Раз-два, и готово! Кушать подано!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 70, 124
+#: 0x0a48d3e
+msgctxt "hash:0365658c"
+msgid "hash:0365658c"
+msgstr "А, добро пожаловать!\\nСегодня я тебя обслуживаю!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 105
+#: 0x0a48d62
+msgctxt "hash:ac28c075"
+msgid "hash:ac28c075"
+msgstr "Большое спасибо!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 166, 26
+#: 0x0a48d75
+msgctxt "hash:1c8d5e40"
+msgid "hash:1c8d5e40"
+msgstr "Не желаешь ли оплатить счёт?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 173, 192
+#: 0x0a48d99
+msgctxt "hash:c7b2b17c"
+msgid "hash:c7b2b17c"
+msgstr "Моя работа - обслуживать людей.\\nНо здесь обслуживания не жди!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 148, 178
+#: 0x0a48ddc
+msgctxt "hash:6e4a36ce"
+msgid "hash:6e4a36ce"
+msgstr "Что, трудно было мне услужить?\\nТак друзей не заводят!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x0a48e18
+msgctxt "hash:483aa355"
+msgid "hash:483aa355"
+msgstr "Чем могу услужить?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 40
+#: 0x0a48e2d
+msgctxt "hash:f4c6adf9"
+msgid "hash:f4c6adf9"
+msgstr "Вообще-то я мечтала стать поваром."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 163, 53
+#: 0x0a48e57
+msgctxt "hash:019b59a2"
+msgid "hash:019b59a2"
+msgstr "Мне просто трудно говорить\\nс незнакомыми людьми."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 23
+#: 0x0a48e81
+msgctxt "hash:8b8c6677"
+msgid "hash:8b8c6677"
+msgstr "Но, заметь, эта работа\\nмне теперь не в тягость."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 176, 115
+#: 0x0a48ea6
+msgctxt "hash:5d4a2b18"
+msgid "hash:5d4a2b18"
+msgstr "Обожаю таких милых посетителей!\\nОбслужу тебя по полной программе!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 23
+#: 0x0a48edc
+msgctxt "hash:fdb86d3d"
+msgid "hash:fdb86d3d"
+msgstr "Ох, но… я ещё не закончила\\nтебя обслуживать."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 76
+#: 0x0a48eff
+msgctxt "hash:e9ed4baf"
+msgid "hash:e9ed4baf"
+msgstr "Ну как, понравилось обслуживание?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 160, 182, 24
+#: 0x0a48f2f
+msgctxt "hash:c196adf7"
+msgid "hash:c196adf7"
+msgstr "Можешь пожать мне руку!\\pДля тебя это большая честь!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 160, 156
+#: 0x0a48f72
+msgctxt "hash:b6015efd"
+msgid "hash:b6015efd"
+msgstr "Моё агентство этого так не оставит!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 133
+#: 0x0a48fac
+msgctxt "hash:de9a5327"
+msgid "hash:de9a5327"
+msgstr "Выиграй ты -\\nя бы даже дала тебе автограф!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 139
+#: 0x0a48fe4
+msgctxt "hash:1cb7901f"
+msgid "hash:1cb7901f"
+msgstr "Спасибо за поддержку!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 27
+#: 0x0a48ffe
+msgctxt "hash:0a529506"
+msgid "hash:0a529506"
+msgstr "Как ужасно так обращаться с айдолом…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a49024
+msgctxt "hash:f6018816"
+msgid "hash:f6018816"
+msgstr "А? Ты не из моих фанатов?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 145
+#: 0x0a4903b
+msgctxt "hash:4ece8b6e"
+msgid "hash:4ece8b6e"
+msgstr "Смотри! Всё внимание на меня!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 110
+#: 0x0a49055
+msgctxt "hash:00aa242c"
+msgid "hash:00aa242c"
+msgstr "Я стала айдолом,\\nчтобы все на меня смотрели!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 162
+#: 0x0a4908b
+msgctxt "hash:98636f14"
+msgid "hash:98636f14"
+msgstr "О-о… Вот ради чего я живу…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 103, 133
+#: 0x0a490a9
+msgctxt "hash:c8ebb347"
+msgid "hash:c8ebb347"
+msgstr "Бой, говоришь?\\nТебе я ни за что не проиграю!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x0a490d5
+msgctxt "hash:b9177d16"
+msgid "hash:b9177d16"
+msgstr "Кх… Мы проиграли…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 88, 75
+#: 0x0a490e3
+msgctxt "hash:d97251c0"
+msgid "hash:d97251c0"
+msgstr "Йи-ха! Ура!\\nЯ победил, я победил!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 121
+#: 0x0a49101
+msgctxt "hash:daec4ebc"
+msgid "hash:daec4ebc"
+msgstr "На колени передо мной!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 36
+#: 0x0a49117
+msgctxt "hash:051c9617"
+msgid "hash:051c9617"
+msgstr "Моя мама всегда так говорит папе!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 71, 109
+#: 0x0a4913e
+msgctxt "hash:6c55dc29"
+msgid "hash:6c55dc29"
+msgstr "Хи-хи-хи. Как я и хотел!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 115, 152
+#: 0x0a4915f
+msgctxt "hash:8ba8637a"
+msgid "hash:8ba8637a"
+msgstr "Мои покемоны милые,\\nно не очень сильные!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 149, 130
+#: 0x0a49190
+msgctxt "hash:a4b95849"
+msgid "hash:a4b95849"
+msgstr "Ничего. Я люблю своих покемонов.\\nЭто главное."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 126
+#: 0x0a491c5
+msgctxt "hash:9b19a74a"
+msgid "hash:9b19a74a"
+msgstr "А? Мы победили? Серьёзно?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x0a491dc
+msgctxt "hash:a3164d3e"
+msgid "hash:a3164d3e"
+msgstr "На старт… Марш!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 103
+#: 0x0a491ea
+msgctxt "hash:a8123ea0"
+msgid "hash:a8123ea0"
+msgstr "Уа-а! Подожди меня!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x0a491fd
+msgctxt "hash:c93ddec6"
+msgid "hash:c93ddec6"
+msgstr "Я первым на финише!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 59
+#: 0x0a4921b
+msgctxt "hash:74b45edb"
+msgid "hash:74b45edb"
+msgstr "Каждое утро бегаю марафон!\\nЭто здорово!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 56
+#: 0x0a49247
+msgctxt "hash:97e1fc48"
+msgid "hash:97e1fc48"
+msgstr "Ну и проиграл!\\nЗато марафоны я бегаю отлично!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 176, 26
+#: 0x0a49273
+msgctxt "hash:4f5379ab"
+msgid "hash:4f5379ab"
+msgstr "С моей мускулатурой побеждать легко!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 149
+#: 0x0a49299
+msgctxt "hash:957f9399"
+msgid "hash:957f9399"
+msgstr "Буду бегать на месте прямо в бою -\\nдля здоровья."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 86, 102
+#: 0x0a492d8
+msgctxt "hash:349ce01c"
+msgid "hash:349ce01c"
+msgstr "Ах! Лодыжка! Я подвернул лодыжку!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0a492fb
+msgctxt "hash:821405fc"
+msgid "hash:821405fc"
+msgstr "Беги! Быстрее!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 130, 114, 75
+#: 0x0a49308
+msgctxt "hash:4a897480"
+msgid "hash:4a897480"
+msgstr "Мальчик? Девочка? Неважно.\\pДавай сразимся!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 130, 175, 63
+#: 0x0a49346
+msgctxt "hash:961af110"
+msgid "hash:961af110"
+msgstr "Мальчик? Девочка?\\pНеважно, но сила у тебя что надо!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 130, 175
+#: 0x0a4938c
+msgctxt "hash:1e7e7659"
+msgid "hash:1e7e7659"
+msgstr "Мальчик? Девочка?\\nНеважно, но уж извини."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 156, 157
+#: 0x0a493c6
+msgctxt "hash:4fdb6cd9"
+msgid "hash:4fdb6cd9"
+msgstr "Ну давай, налетай!\\nМоя широкая грудь всё выдержит!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 111, 160, 34
+#: 0x0a49400
+msgctxt "hash:2ac0ed92"
+msgid "hash:2ac0ed92"
+msgstr "Ох… Ай… Больно…\\pБудто мне грудь проломили…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 156, 184
+#: 0x0a49439
+msgctxt "hash:9373031c"
+msgid "hash:9373031c"
+msgstr "Что? И это всё?\\nМожешь налететь и посильнее!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 52
+#: 0x0a49477
+msgctxt "hash:48b8eb9f"
+msgid "hash:48b8eb9f"
+msgstr "Мой любимый напиток - Молоко Муму.\\nЕсть у тебя?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 110, 147
+#: 0x0a494a3
+msgctxt "hash:5cfb4bdf"
+msgid "hash:5cfb4bdf"
+msgstr "Гва-а! Молоко Муму!\\nПринеси мне Молока Муму!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 127, 172
+#: 0x0a494d2
+msgctxt "hash:bc85bcfa"
+msgid "hash:bc85bcfa"
+msgstr "Ва-ха-ха! Победа моя!\\nОтметим это молочком!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 195
+#: 0x0a49509
+msgctxt "hash:21d597b7"
+msgid "hash:21d597b7"
+msgstr "Постарайтесь, мои любимые детки!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 189
+#: 0x0a4952c
+msgctxt "hash:c32e936d"
+msgid "hash:c32e936d"
+msgstr "Мои покемоны - моя любимая семья."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 105, 114
+#: 0x0a4954e
+msgctxt "hash:23afddb6"
+msgid "hash:23afddb6"
+msgstr "Ва-ха-ха! Молодцы!\\nМама вами гордится!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 154, 138
+#: 0x0a49576
+msgctxt "hash:5926027c"
+msgid "hash:5926027c"
+msgstr "Я уже не молода.\\nНельзя мне перенапрягаться."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 148, 157
+#: 0x0a495ad
+msgctxt "hash:0ac23201"
+msgid "hash:0ac23201"
+msgstr "Ох, вот она, молодость.\\nВ тебе есть искорка."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 98
+#: 0x0a495e5
+msgctxt "hash:5ee33de0"
+msgid "hash:5ee33de0"
+msgstr "Молодости мне недостаёт,\\nзато опыта хватает."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 62, 175, 64
+#: 0x0a49618
+msgctxt "hash:59420e0e"
+msgid "hash:59420e0e"
+msgstr "Чуешь?\\pЭто я насквозь пропахла сеном."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 168, 181, 28
+#: 0x0a49651
+msgctxt "hash:b3d5a41d"
+msgid "hash:b3d5a41d"
+msgstr "Мой запах - сладкий аромат сена,\\nкоторый покемоны точно обожают."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0a49697
+msgctxt "hash:a74bbbb8"
+msgid "hash:a74bbbb8"
+msgstr "Ого!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 160
+#: 0x0a4969d
+msgctxt "hash:b3223d2e"
+msgid "hash:b3223d2e"
+msgstr "Я не проиграю ребёнку вроде тебя,\\nничего не смыслящему в боях."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 141
+#: 0x0a496dc
+msgctxt "hash:d9a54a40"
+msgid "hash:d9a54a40"
+msgstr "Что? Этот ребёнок быстро учится?\\nХа-ха-ха… Кто бы мог подумать!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 169, 51, 158, 39
+#: 0x0a49719
+msgctxt "hash:2697c9be"
+msgid "hash:2697c9be"
+msgstr "Как-никак ты не профи. Пустяки.\\p(Фух… Едва не проиграл!)"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 110, 98, 163
+#: 0x0a49767
+msgctxt "hash:142a7d1a"
+msgid "hash:142a7d1a"
+msgstr "Аргх. Кхе-кхе. Мне нехорошо.\\pПрошу, прояви немного доброты."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 130
+#: 0x0a497ad
+msgctxt "hash:406a2a7f"
+msgid "hash:406a2a7f"
+msgstr "Какая проницательность!\\nТебя не провела моя мнимая болезнь."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 184
+#: 0x0a497e6
+msgctxt "hash:3e3a934e"
+msgid "hash:3e3a934e"
+msgstr ""
+"Я солгал, что мне нездоровится!\\nЭксперты ради победы на всё готовы!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 163, 164
+#: 0x0a4982a
+msgctxt "hash:d56a0078"
+msgid "hash:d56a0078"
+msgstr "Сейчас ты узнаешь, каковы\\nвышколенные покемоны эксперта."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 196, 168, 25
+#: 0x0a49867
+msgctxt "hash:c46ffbb3"
+msgid "hash:c46ffbb3"
+msgstr "Острое же поражение мне подали.\\pНо поражение - тоже часть жизни."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 170, 140
+#: 0x0a498af
+msgctxt "hash:26eff5d5"
+msgid "hash:26eff5d5"
+msgstr "Ну как тебе покемоны эксперта?\\nГорько проигрывать, верно?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 116, 162, 64
+#: 0x0a498ea
+msgctxt "hash:c1cbcec2"
+msgid "hash:c1cbcec2"
+msgstr ""
+"Ох, ну что за прелесть!\\pИди сюда, обещаю быть\\nв этом бою помягче."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 142
+#: 0x0a4992a
+msgctxt "hash:78de4591"
+msgid "hash:78de4591"
+msgstr "Твой стиль боя слишком уж милый.\\nДавай как-нибудь сыграем ещё."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 137, 136, 84
+#: 0x0a49967
+msgctxt "hash:952356cd"
+msgid "hash:952356cd"
+msgstr ""
+"Какая же ты прелесть, право…\\pХочу снова тебя увидеть.\\nБуду ждать."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 144, 169
+#: 0x0a499aa
+msgctxt "hash:c301113e"
+msgid "hash:c301113e"
+msgstr "Ох, да ты ещё ребёнок.\\nКто тебе разрешил сюда прийти?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 155, 136
+#: 0x0a499e3
+msgctxt "hash:0b208bd3"
+msgid "hash:0b208bd3"
+msgstr "Я думала, ты ещё ребёнок.\\nХи-хи… А с тобой непросто…"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 144, 49, 166, 54
+#: 0x0a49a17
+msgctxt "hash:635a80be"
+msgid "hash:635a80be"
+msgstr "Неплохо, но опыта маловато.\\pПриходи, когда чему-нибудь научишься."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 127, 186
+#: 0x0a49a65
+msgctxt "hash:66d5ea83"
+msgid "hash:66d5ea83"
+msgstr "Не называй меня дряхлой!\\nДуша женщины вечно цветёт."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 153, 166, 128
+#: 0x0a49aa0
+msgctxt "hash:d77f886d"
+msgid "hash:d77f886d"
+msgstr "Глаза, плечо и спина у меня болят,\\nно сердце навек молодое."
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 157, 45, 165, 25
+#: 0x0a49af2
+msgctxt "hash:b18fe9b0"
+msgid "hash:b18fe9b0"
+msgstr ""
+"С любовью и покемонами\\nя ещё не закончила.\\pВсю жизнь буду бодрой\\nи "
+"готовой к бою."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 99, 135
+#: 0x0a49b3e
+msgctxt "hash:9ef4d41f"
+msgid "hash:9ef4d41f"
+msgstr "Вступай в ряды покефанов.\\nТвоя жизнь станет счастливой!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 105
+#: 0x0a49b6a
+msgctxt "hash:d7a77a86"
+msgid "hash:d7a77a86"
+msgstr "Вступишь в ряды покефанов -\\nи жизнь твоя будет спасена!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 100
+#: 0x0a49b9d
+msgctxt "hash:cc13007c"
+msgid "hash:cc13007c"
+msgstr "Вступишь в ряды покефанов -\\nи обретёшь силу, как у меня!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 153, 152
+#: 0x0a49bd3
+msgctxt "hash:729a9e6a"
+msgid "hash:729a9e6a"
+msgstr "Я не простой покефан.\\nЯ мегапокефан высшей пробы!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 115, 109
+#: 0x0a49c0a
+msgctxt "hash:545cd071"
+msgid "hash:545cd071"
+msgstr "Ты меня ещё запомнишь!\\nЯ большой покефан!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 87, 116
+#: 0x0a49c34
+msgctxt "hash:b43dd4cf"
+msgid "hash:b43dd4cf"
+msgstr "Я люблю покемонов!\\nЯ люблю-люблю покемонов!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 86
+#: 0x0a49c59
+msgctxt "hash:8955d35e"
+msgid "hash:8955d35e"
+msgstr "Я считаю себя покефаном,\\nследовательно, я покефан."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 141, 86
+#: 0x0a49c8b
+msgctxt "hash:92108441"
+msgid "hash:92108441"
+msgstr "Тебе стоит это запомнить.\\nЯ покефан."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x0a49cb5
+msgctxt "hash:7b01d180"
+msgid "hash:7b01d180"
+msgstr "Покефан - это сила."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 200, 122
+#: 0x0a49ccb
+msgctxt "hash:2d31c15c"
+msgid "hash:2d31c15c"
+msgstr "Я выбрала эту работу, потому что\\nхотела быть кому-то нужной."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 195, 154
+#: 0x0a49d05
+msgctxt "hash:511929e9"
+msgid "hash:511929e9"
+msgstr "Когда пациента выписывают,\\nмне радостно, но немного грустно."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 191, 69
+#: 0x0a49d45
+msgctxt "hash:eb7f49d6"
+msgid "hash:eb7f49d6"
+msgstr "Работа у меня тяжёлая, но я рада\\nпомогать людям."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 196
+#: 0x0a49d74
+msgctxt "hash:e553d08a"
+msgid "hash:e553d08a"
+msgstr "У взрослых много увлечений.\\nВообще-то я собираю униформу."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 166, 34, 196
+#: 0x0a49db9
+msgctxt "hash:f06b72d2"
+msgid "hash:f06b72d2"
+msgstr ""
+"От тебя не скрыть:\\nя ненастоящая медсестра!\\pДа, я просто собираю "
+"униформу."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 97, 181
+#: 0x0a49e02
+msgctxt "hash:317f379d"
+msgid "hash:317f379d"
+msgstr "Я не медсестра.\\nЭту униформу я ношу просто так."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 172, 56, 108
+#: 0x0a49e36
+msgctxt "hash:cc59a15d"
+msgid "hash:cc59a15d"
+msgstr ""
+"Даже если тебя ранят,\\nя тебя вылечу.\\pТак что давай биться всерьёз."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 182
+#: 0x0a49e76
+msgctxt "hash:b28c21f7"
+msgid "hash:b28c21f7"
+msgstr "Это уже слишком! Я выставлю тебе\\nсчёт за своё лечение!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 166, 184
+#: 0x0a49eb9
+msgctxt "hash:fbc73b0a"
+msgid "hash:fbc73b0a"
+msgstr "Прости! Я перестаралась. Тебя нужно\\nсрочно госпитализировать?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 45, 179
+#: 0x0a49efa
+msgctxt "hash:94cb49d9"
+msgid "hash:94cb49d9"
+msgstr "Потрясающе!\\nВопреки всему победа за вами!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 50, 159, 108
+#: 0x0a49f24
+msgctxt "hash:1f4b784c"
+msgid "hash:1f4b784c"
+msgstr ""
+"Эх, жаль!\\pУкрепите свои узы и приходите\\nснова бросить мне вызов!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 115, 198, 54
+#: 0x0a49f5f
+msgctxt "hash:317392a0"
+msgid "hash:317392a0"
+msgstr "Хм, надо же.\\pПохоже, ты всё-таки знаешь,\\nчто делаешь."
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 62, 81, 105, 179, 126, 177
+#: 0x0a49fa3
+msgctxt "hash:5c720ac2"
+msgid "hash:5c720ac2"
+msgstr ""
+"Скукота…\\pСлушай-ка, юный тренер!\\nИ слушай как следует!\\pТебе нужна "
+"команда, которая\\nсправится в любой ситуации!\\pУчти это на будущее!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 138, 140
+#: 0x0a4a02d
+msgctxt "hash:52306b56"
+msgid "hash:52306b56"
+msgstr "Браво! Браво! Чудесно!\\nТы настоящая восходящая звезда!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 70, 169, 201
+#: 0x0a4a061
+msgctxt "hash:ad904d86"
+msgid "hash:ad904d86"
+msgstr ""
+"Ах, как жаль!\\pДамы и господа, мальчики и девочки,\\nнадеюсь, вам "
+"понравилось шоу!"
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 63, 195, 91, 193, 68, 150
+#: 0x0a4a0b1
+msgctxt "hash:101cc799"
+msgid "hash:101cc799"
+msgstr ""
+"Привет!\\pЯ Скели, один из разработчиков\\nPokémon Unbound.\\pРад, что у "
+"тебя нашлось время\\nприйти сюда сразиться!\\pНу что, давай повеселимся!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 43, 74
+#: 0x0a4a13e
+msgctxt "hash:4bf14045"
+msgid "hash:4bf14045"
+msgstr "Отлично! Было весело!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 110
+#: 0x0a4a155
+msgctxt "hash:eee408e0"
+msgid "hash:eee408e0"
+msgstr "Жду не дождусь\\nнашего следующего боя!"
+
+#. category: data-table; mode: field
+#. original lines: 7, widths px: 63, 62, 189, 35, 111, 185, 68
+#: 0x0a4a18e
+msgctxt "hash:433608cb"
+msgid "hash:433608cb"
+msgstr ""
+"Привет! Я Голче!\\pСтратегии тренеров, с которыми тебе\\nдоводилось "
+"сражаться?\\pЯ помогал их создавать!\\pПосмотрим, что ты сможешь\\nпротив "
+"моей стратегии!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 24, 179, 35
+#: 0x0a4a213
+msgctxt "hash:9d089909"
+msgid "hash:9d089909"
+msgstr "Хм…\\pПохоже, мне есть что доработать…"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 102, 168, 148
+#: 0x0a4a241
+msgctxt "hash:5bfa380d"
+msgid "hash:5bfa380d"
+msgstr ""
+"Какой весёлый бой!\\pБуду ждать нового боя с тобой -\\nуже с новыми "
+"трюками!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 177, 18, 180, 98
+#: 0x0a4a28f
+msgctxt "hash:5a975e18"
+msgid "hash:5a975e18"
+msgstr ""
+"Не думай, что победить меня\\nбудет легко!\\pПеред тобой тренер "
+"покемонов\\nстарой закалки… Танасис!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 98
+#: 0x0a4a2e9
+msgctxt "hash:0aa28104"
+msgid "hash:0aa28104"
+msgstr "Признаю: ты и правда\\nнечто особенное."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 69
+#: 0x0a4a31c
+msgctxt "hash:70221a7e"
+msgid "hash:70221a7e"
+msgstr "Похоже, сражаться со мной\\nтебе пока рано!"
+
+#. category: data-table; mode: field
+#. original lines: 7, widths px: 55, 60, 183, 176, 66, 192, 58
+#: 0x0a4a34b
+msgctxt "hash:c3bcb62c"
+msgid "hash:c3bcb62c"
+msgstr ""
+"Как жизнь? Я Ликсдел!\\pЯ сделал немалую часть тех красивых\\nанимаций "
+"атак, что ты видишь\\lв боях.\\pА теперь готовься к шквалу\\nэтих "
+"анимаций!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 196, 98
+#: 0x0a4a3e0
+msgctxt "hash:b5e52e86"
+msgid "hash:b5e52e86"
+msgstr "Этот бой был почти так же красив,\\nкак анимации!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 28, 186, 153
+#: 0x0a4a417
+msgctxt "hash:5b870894"
+msgid "hash:5b870894"
+msgstr "Отлично!\\pЭтот бой почти не уступал\\nв красоте анимациям!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 187
+#: 0x0a4a45c
+msgctxt "hash:8a4295e6"
+msgid "hash:8a4295e6"
+msgstr "Я, Синтия, принимаю твой вызов!\\nПощады от меня не жди!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 139
+#: 0x0a4a4a1
+msgctxt "hash:55fb9c79"
+msgid "hash:55fb9c79"
+msgstr "Каким бы весёлым ни был бой,\\nрано или поздно он заканчивается…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 91
+#: 0x0a4a4df
+msgctxt "hash:236fa7c6"
+msgid "hash:236fa7c6"
+msgstr "Даже проиграв, не теряй\\nлюбви к покемонам."
+
+#. category: data-table; mode: battle
+#. original lines: 7, widths px: 72, 146, 6, 152, 135, 187, 148
+#: 0x0a4a514
+msgctxt "hash:5cd7fb00"
+msgid "hash:5cd7fb00"
+msgstr ""
+"Ха-ха-ха-ха!\\nГляди-ка, кто мне снова попался!\\p{B_BUFF2}!\\pДавно ждал "
+"нового боя с тобой!\\pНу, посмотрим, что ты сможешь\\nпротив хозяина "
+"Антисиса!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 72, 163, 28
+#: 0x0a4a5b5
+msgctxt "hash:5cbe022a"
+msgid "hash:5cbe022a"
+msgstr "Ха-ха-ха-ха!\\pПора бы уже звать тебя\\nБиг {B_PLAYER_NAME}!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 179
+#: 0x0a4a5e8
+msgctxt "hash:a17ba808"
+msgid "hash:a17ba808"
+msgstr "Ха-ха-ха-ха!\\pВыходит, я и крупнее, и круче!"
+
+#. category: data-table; mode: battle
+#. original lines: 7, widths px: 76, 132, 183, 127, 185, 142, 54
+#: 0x0a4a617
+msgctxt "hash:f6fb9451"
+msgid "hash:f6fb9451"
+msgstr ""
+"Йоу, здорово, {B_BUFF2}!\\pКак делишки в последнее время?\\pУверен, путь "
+"досюда дался тебе\\nбез проблем.\\pНу а теперь пора дрожать:\\nсейчас я "
+"оборву твою серию!\\pХа-ха-ха!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 99
+#: 0x0a4a6c2
+msgctxt "hash:dc766e58"
+msgid "hash:dc766e58"
+msgstr "Ого, умеешь ты показать, как надо\\nсражаться! Ха-ха-ха!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 152, 133
+#: 0x0a4a6f3
+msgctxt "hash:5cda0c44"
+msgid "hash:5cda0c44"
+msgstr "А ведь невыгодного положения у тебя\\nдаже не было! Ха-ха-ха!"
+
+#. category: data-table; mode: field
+#. original lines: 9, widths px: 174, 61, 180, 186, 161, 145, 116, 175, 103
+#: 0x0a4a727
+msgctxt "hash:c45b73f2"
+msgid "hash:c45b73f2"
+msgstr ""
+"Так это с тобой сразится Кэндис?\\pОтлично!\\nЯ ждала кого-нибудь "
+"посильнее!\\pНо учти: я сильная, потому что\\nумею сосредоточиться.\\p"
+"Покемоны, мода, любовь…\\nВезде нужна сосредоточенность!\\pСейчас покажу, "
+"что я имею в виду.\\pГотовься проиграть!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 77, 183
+#: 0x0a4a817
+msgctxt "hash:8655b43f"
+msgid "hash:8655b43f"
+msgstr "Вот это сила!\\nТы заслуживаешь огромного уважения."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 59
+#: 0x0a4a848
+msgctxt "hash:b3470e57"
+msgid "hash:b3470e57"
+msgstr "Я чувствовала твою волю к победе,\\nно я не проигрываю!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 90
+#: 0x0a4a875
+msgctxt "hash:93fc8a2d"
+msgid "hash:93fc8a2d"
+msgstr "За свою дерзость ты сполна\\nпознаешь, что такое боль!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 92
+#: 0x0a4a8a8
+msgctxt "hash:b5c7b8d6"
+msgid "hash:b5c7b8d6"
+msgstr "Что? Я - и проиграл?!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 18, 171
+#: 0x0a4a8b9
+msgctxt "hash:cae2f21a"
+msgid "hash:cae2f21a"
+msgstr "Ха! Поистине напряжённый бой!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 125, 6
+#: 0x0a4a8e0
+msgctxt "hash:85256eb7"
+msgid "hash:85256eb7"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: это\\nсуперэффективно!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 131, 35
+#: 0x0a4a8fc
+msgctxt "hash:f82510c4"
+msgid "hash:f82510c4"
+msgstr "{FD 3D}{FD 3B} и\\n{FD 3C}: суперэффективно!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 142, 6
+#: 0x0a4a922
+msgctxt "hash:7e0947d1"
+msgid "hash:7e0947d1"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: не очень\\nэффективно…"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 148, 35
+#: 0x0a4a941
+msgctxt "hash:1acb21a3"
+msgid "hash:1acb21a3"
+msgstr "{FD 3D}{FD 3B} и\\n{FD 3C}: не очень эффективно…"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 114, 35
+#: 0x0a4a96a
+msgctxt "hash:575e188b"
+msgid "hash:575e188b"
+msgstr "{FD 3D}{FD 3B} и\\n{FD 3C}: никакого эффекта…"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 91, 6
+#: 0x0a4a9a2
+msgctxt "hash:1392f6b8"
+msgid "hash:1392f6b8"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}: {COLOR 02}{SHADOW 09}критическое\\n"
+"попадание{COLOR 01}{SHADOW 06}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 97, 35
+#: 0x0a4a9c4
+msgctxt "hash:237804e8"
+msgid "hash:237804e8"
+msgstr ""
+"{FD 3D}{FD 3B} и\\n{FD 3C}: {COLOR 02}{SHADOW 09}критическое "
+"попадание{COLOR 01}{SHADOW 06}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 43, 81
+#: 0x0a4a9f0
+msgctxt "hash:e692eafb"
+msgid "hash:e692eafb"
+msgstr "{B_ATK_NAME_WITH_PREFIX} искажает\\nпространство!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 191, 217
+#: 0x0a4aa0b
+msgctxt "hash:036380ec"
+msgid "hash:036380ec"
+msgstr "Причудливая зона меняет местами\\nЗащиту и Особую защиту!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 185, 165
+#: 0x0a4aa55
+msgctxt "hash:60557ce8"
+msgid "hash:60557ce8"
+msgstr "Причудливая зона лишает силы\\nпредметы покемонов!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 105
+#: 0x0a4aa96
+msgctxt "hash:5749bd2d"
+msgid "hash:5749bd2d"
+msgstr "Гравитация усиливается!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 158, 65
+#: 0x0a4aaab
+msgctxt "hash:5aa3ae74"
+msgid "hash:5aa3ae74"
+msgstr "На поле боя обрушивается\\nпоток ионов!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 48, 162
+#: 0x0a4aad5
+msgctxt "hash:a3b78a83"
+msgid "hash:a3b78a83"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX} не может\\nпарить из-за Гравитации!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 23, 75
+#: 0x0a4aaff
+msgctxt "hash:ebe66c5a"
+msgid "hash:ebe66c5a"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX} падает\\nна землю!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 88
+#: 0x0a4ab14
+msgctxt "hash:7d93b64c"
+msgid "hash:7d93b64c"
+msgstr "По полю боя бежит\\nэлектрический ток!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 131, 65
+#: 0x0a4ab45
+msgctxt "hash:9035be38"
+msgid "hash:9035be38"
+msgstr "Поле боя зарастает травой!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 119, 65
+#: 0x0a4ab6a
+msgctxt "hash:5fe82f83"
+msgid "hash:5fe82f83"
+msgstr "Над полем боя клубится туман!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 145
+#: 0x0a4ab8e
+msgctxt "hash:5f27e8a4"
+msgid "hash:5f27e8a4"
+msgstr "Поле боя становится странным!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 37, 70
+#: 0x0a4aba9
+msgctxt "hash:468c1245"
+msgid "hash:468c1245"
+msgstr "{B_DEF_NAME_WITH_PREFIX} получает\\nтип {B_BUFF1}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 105, 6
+#: 0x0a4abf4
+msgctxt "hash:123eaa5c"
+msgid "hash:123eaa5c"
+msgstr "{B_DEF_NAME_WITH_PREFIX} получает\\nещё и тип {B_BUFF1}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 69, 88
+#: 0x0a4ac2f
+msgctxt "hash:55dba852"
+msgid "hash:55dba852"
+msgstr "{B_ATK_NAME_WITH_PREFIX} блокирует\\nполе боя!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 158, 99
+#: 0x0a4ac4f
+msgctxt "hash:03610605"
+msgid "hash:03610605"
+msgstr "Всех охватывает\\nрадостное настроение!"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 93
+#: 0x0a4ac7e
+msgctxt "hash:b470bd53"
+msgid "hash:b470bd53"
+msgstr "Поздравляем, {B_PLAYER_NAME}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 29, 63
+#: 0x0a4ac92
+msgctxt "hash:131d5a81"
+msgid "hash:131d5a81"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} и\\n{B_DEF_NAME_WITH_PREFIX} держатся\\lза руки!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 161, 35
+#: 0x0a4aca8
+msgctxt "hash:6b092616"
+msgid "hash:6b092616"
+msgstr "Попутный ветер дует\\nв спину команде {FD 36}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 137, 136
+#: 0x0a4accf
+msgctxt "hash:e16ddea1"
+msgid "hash:e16ddea1"
+msgstr "Песнь удачи защищает команду\\n{FD 36} от критических попаданий!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 51, 6
+#: 0x0a4ad04
+msgctxt "hash:37c1db4b"
+msgid "hash:37c1db4b"
+msgstr "{B_DEF_NAME_WITH_PREFIX} получает\\nталант {B_DEF_ABILITY}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 81, 76
+#: 0x0a4ad31
+msgctxt "hash:5ac083ec"
+msgid "hash:5ac083ec"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: изменения\\nхарактеристик сброшены!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 14, 74
+#: 0x0a4ad51
+msgctxt "hash:8842bdc3"
+msgid "hash:8842bdc3"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} сгорает!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 52, 162
+#: 0x0a4ad67
+msgctxt "hash:41aa2036"
+msgid "hash:41aa2036"
+msgstr "{B_DEF_NAME_WITH_PREFIX} становится\\nжертвой Инфестации!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 129, 35
+#: 0x0a4adcb
+msgctxt "hash:b6411f89"
+msgid "hash:b6411f89"
+msgstr "Хитрый щит прикрывает\\nкоманду {FD 36}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 85, 202
+#: 0x0a4adec
+msgctxt "hash:a9d1ce79"
+msgid "hash:a9d1ce79"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} собирается\\nподнять мат и заблокировать атаки!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 119, 35
+#: 0x0a4ae24
+msgctxt "hash:516d398a"
+msgid "hash:516d398a"
+msgstr "Быстрый щит прикрывает\\nкоманду {FD 36}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 114, 35
+#: 0x0a4ae43
+msgctxt "hash:33cce43d"
+msgid "hash:33cce43d"
+msgstr "Широкий щит прикрывает\\nкоманду {FD 36}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 153, 6
+#: 0x0a4ae61
+msgctxt "hash:20462bee"
+msgid "hash:20462bee"
+msgstr "{B_DEF_NAME_WITH_PREFIX} под\\nприкрытием Хитрого щита!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 110, 79
+#: 0x0a4ae81
+msgctxt "hash:08927745"
+msgid "hash:08927745"
+msgstr "Поднятый мат блокирует\\nприём {B_CURRENT_MOVE}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 143, 6
+#: 0x0a4aea6
+msgctxt "hash:6c024622"
+msgid "hash:6c024622"
+msgstr "{B_DEF_NAME_WITH_PREFIX} под\\nприкрытием Быстрого щита!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 138, 6
+#: 0x0a4aec4
+msgctxt "hash:9ab4a6b7"
+msgid "hash:9ab4a6b7"
+msgstr "{B_DEF_NAME_WITH_PREFIX} под\\nприкрытием Широкого щита!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 88, 81
+#: 0x0a4af34
+msgctxt "hash:76b506f0"
+msgid "hash:76b506f0"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} даёт защиту!"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 47, 184, 99
+#: 0x0a4b02d
+msgctxt "hash:ca5d9bde"
+msgid "hash:ca5d9bde"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} меняет\\nместами эффекты на сторонах поля боя!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 67, 122
+#: 0x0a4b06d
+msgctxt "hash:d3cd8132"
+msgid "hash:d3cd8132"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: атака\\nи защита меняются местами!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 57, 133
+#: 0x0a4b0a3
+msgctxt "hash:f8467604"
+msgid "hash:f8467604"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: команда\\nпод защитой Заслона!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 55, 150
+#: 0x0a4b0c9
+msgctxt "hash:6533a506"
+msgid "hash:6533a506"
+msgstr "{B_DEF_NAME_WITH_PREFIX} окружает\\nсебя защитным туманом!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 55, 169
+#: 0x0a4b0f3
+msgctxt "hash:d3451dda"
+msgid "hash:d3451dda"
+msgstr "{B_DEF_NAME_WITH_PREFIX} окружает\\nсебя Полем тока!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 69, 103
+#: 0x0a4b121
+msgctxt "hash:3ccc65a8"
+msgid "hash:3ccc65a8"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уже\\nв особом состоянии!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 61, 40
+#: 0x0a4b144
+msgctxt "hash:eda6a105"
+msgid "hash:eda6a105"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уже\\nклюёт носом!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 171, 181
+#: 0x0a4b1fc
+msgctxt "hash:06a27ecf"
+msgid "hash:06a27ecf"
+msgstr "Правило сна не даёт усыпить\\nещё одного покемона!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 44, 43
+#: 0x0a4b39a
+msgctxt "hash:2718af68"
+msgid "hash:2718af68"
+msgstr "Команда {FD 36}: {B_BUFF1}\\nповышается от приёма {B_CURRENT_MOVE}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 146, 195
+#: 0x0a4b3b2
+msgctxt "hash:0f38dcb1"
+msgid "hash:0f38dcb1"
+msgstr ""
+"Вуаль авроры ослабляет физические\\nи особые атаки по команде {FD 36}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 43, 51
+#: 0x0a4b414
+msgctxt "hash:d2203ac3"
+msgid "hash:d2203ac3"
+msgstr "Приём {B_BUFF1} команды\\n{FD 38} перестал действовать!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 42, 51
+#: 0x0a4b42b
+msgctxt "hash:ba60b76d"
+msgid "hash:ba60b76d"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: Провокация\\nперестала действовать!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 69, 86
+#: 0x0a4b5ae
+msgctxt "hash:e0335133"
+msgid "hash:e0335133"
+msgstr "{B_DEF_NAME_WITH_PREFIX} попадает\\nв капкан!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 69, 24
+#: 0x0a4b5cd
+msgctxt "hash:2564c258"
+msgid "hash:2564c258"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX}: ловушка!\\n{B_DEF_NAME_WITH_PREFIX} в западне!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 138, 6
+#: 0x0a4b5e3
+msgctxt "hash:fd845c8b"
+msgid "hash:fd845c8b"
+msgstr "{B_EFF_NAME_WITH_PREFIX}: в тело\\nвпиваются зазубренные осколки!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 71, 124
+#: 0x0a4b61f
+msgctxt "hash:2e1f9c45"
+msgid "hash:2e1f9c45"
+msgstr "{B_ATK_NAME_WITH_PREFIX} избавляется\\nот осколков!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 43, 107
+#: 0x0a4b647
+msgctxt "hash:a05c5a6d"
+msgid "hash:a05c5a6d"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от моря огня!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 98, 59
+#: 0x0a4b69f
+msgctxt "hash:e718522f"
+msgid "hash:e718522f"
+msgstr "Лозы опутывают\\nкоманду {FD 37}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 61, 199
+#: 0x0a4b6bf
+msgctxt "hash:baeaac92"
+msgid "hash:baeaac92"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} получает\\nурон от лютого Удара лозами G-Макс!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 96, 97
+#: 0x0a4b6f2
+msgctxt "hash:fda7e2f0"
+msgid "hash:fda7e2f0"
+msgstr "Лозы вокруг команды\\n{FD 36} исчезли!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 114, 44
+#: 0x0a4b718
+msgctxt "hash:ca972a57"
+msgid "hash:ca972a57"
+msgstr "Огонь окружает\\nкоманду {FD 37}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 58, 179
+#: 0x0a4b738
+msgctxt "hash:adbdbc13"
+msgid "hash:adbdbc13"
+msgstr "{B_ATK_NAME_WITH_PREFIX} горит\\nв пламени Лесного пожара G-Макс!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 180, 103
+#: 0x0a4b768
+msgctxt "hash:7276896a"
+msgid "hash:7276896a"
+msgstr "Пламя Лесного пожара G-Макс вокруг\\nкоманды {FD 36} исчезло!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 108, 114
+#: 0x0a4b79e
+msgctxt "hash:ed051b3d"
+msgid "hash:ed051b3d"
+msgstr "Водоворот затягивает\\nкоманду {FD 37}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 61, 141
+#: 0x0a4b7c9
+msgctxt "hash:6fdd83d1"
+msgid "hash:6fdd83d1"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} получает\\nурон от водоворота Канонады G-Макс!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 149, 103
+#: 0x0a4b7f1
+msgctxt "hash:65cdbab8"
+msgid "hash:65cdbab8"
+msgstr "Водоворот вокруг команды\\n{FD 36} исчез!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 114, 51
+#: 0x0a4b821
+msgctxt "hash:f5b341f1"
+msgid "hash:f5b341f1"
+msgstr "Камни окружают\\nкоманду {FD 37}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 43, 150
+#: 0x0a4b842
+msgctxt "hash:bcb73a90"
+msgid "hash:bcb73a90"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} получает\\nурон от камней Вулкалита G-Макс!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 182, 103
+#: 0x0a4b869
+msgctxt "hash:5ce55df0"
+msgid "hash:5ce55df0"
+msgstr "Камни Вулкалита G-Макс вокруг\\nкоманды {FD 36} исчезли!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 121, 74
+#: 0x0a4b981
+msgctxt "hash:32a11ca0"
+msgid "hash:32a11ca0"
+msgstr "{B_BUFF1} находит предмет\\n{B_LAST_ITEM} и кладёт его в Куб!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 57, 29
+#: 0x0a4b9a9
+msgctxt "hash:052441be"
+msgid "hash:052441be"
+msgstr "{B_PLAYER_NAME} подбирает\\nпредмет {B_LAST_ITEM}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 107, 137
+#: 0x0a4ba36
+msgctxt "hash:ab1315da"
+msgid "hash:ab1315da"
+msgstr "Предмет {B_LAST_ITEM} забран\\nу покемона {B_BUFF1} и убран в Куб."
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 86, 35
+#: 0x0a4bb4a
+msgctxt "hash:3a4ec9ff"
+msgid "hash:3a4ec9ff"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX} получает\\nтип {B_BUFF1}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 86, 70
+#: 0x0a4bb65
+msgctxt "hash:57ae4abd"
+msgid "hash:57ae4abd"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX} получает\\nтипы {B_BUFF1} и {B_BUFF2}!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 169
+#: 0x0a4bb88
+msgctxt "hash:ff9d657e"
+msgid "hash:ff9d657e"
+msgstr "Воздух полон негативных эмоций!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 149, 113
+#: 0x0a4bbd2
+msgctxt "hash:8d28b6cd"
+msgid "hash:8d28b6cd"
+msgstr "Попутный ветер дует в спину\\nпокемонам типа Летающий!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 15, 179
+#: 0x0a4bc03
+msgctxt "hash:6ae32a41"
+msgid "hash:6ae32a41"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX} парит\\nс помощью электромагнетизма!"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 181, 29, 160, 97
+#: 0x0a4bc7a
+msgctxt "hash:bb351554"
+msgid "hash:bb351554"
+msgstr ""
+"Здесь преимущество\\nу тяжёлых покемонов!\\pЧем тяжелее покемон, тем он "
+"быстрее!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 151
+#: 0x0a4bcd0
+msgctxt "hash:d2b1ea50"
+msgid "hash:d2b1ea50"
+msgstr "Поднялась свирепая песчаная буря!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 162
+#: 0x0a4bcec
+msgctxt "hash:51fa0f48"
+msgid "hash:51fa0f48"
+msgstr "Бушует свирепая песчаная буря."
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 66, 139
+#: 0x0a4bd0b
+msgctxt "hash:55dee993"
+msgid "hash:55dee993"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от свирепой песчаной бури!"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 145, 55, 185, 155
+#: 0x0a4bd34
+msgctxt "hash:dd0058e3"
+msgid "hash:dd0058e3"
+msgstr ""
+"Поле боя накрывает теневая вуаль!\\pПокемоны типа Привидение получают\\n"
+"вдвое меньше урона при полных ОЖ!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 188, 189
+#: 0x0a4bd98
+msgctxt "hash:d1c3a66e"
+msgid "hash:d1c3a66e"
+msgstr ""
+"Но под теневой вуалью Заслон создают\\nлишь покемоны типа Привидение!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 192
+#: 0x0a4be21
+msgctxt "hash:c94c8715"
+msgid "hash:c94c8715"
+msgstr "Над полем боя порхают пикси!"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 199, 125, 206, 191
+#: 0x0a4be6e
+msgctxt "hash:50bf5b0d"
+msgid "hash:50bf5b0d"
+msgstr ""
+"В небе над всем полем боя\\nпоявилась радуга!\\pПриёмы покемонов типа "
+"Дракон\\nвдвое чаще вызывают побочные эффекты!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 133, 64
+#: 0x0a4bf8f
+msgctxt "hash:ab91f96e"
+msgid "hash:ab91f96e"
+msgstr "Вокруг собирается\\nэнергия динамакса!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 46, 79
+#: 0x0a4c097
+msgctxt "hash:61b4c62d"
+msgid "hash:61b4c62d"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX} поражает\\nразмерами!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 164, 93
+#: 0x0a4c249
+msgctxt "hash:93caf08e"
+msgid "hash:93caf08e"
+msgstr "Бушующая над головой буря\\nусиливается!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 139, 49
+#: 0x0a4c279
+msgctxt "hash:7628f6c4"
+msgid "hash:7628f6c4"
+msgstr "Буря усиливается ещё больше!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 187, 54
+#: 0x0a4c29d
+msgctxt "hash:8d2323b2"
+msgid "hash:8d2323b2"
+msgstr "Буря становится невыносимой!"
+
+#. category: code; mode: battle
+#. original lines: 4, widths px: 122, 29, 12, 0
+#: 0x0a4c30c
+msgctxt "hash:a0d0c2e7"
+msgid "hash:a0d0c2e7"
+msgstr ""
+"{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nи {FD 2E} {FD 2F}\\lвызывают на "
+"бой!\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 160, 0
+#: 0x0a4c334
+msgctxt "hash:222256b8"
+msgid "hash:222256b8"
+msgstr "Воин Теней нападает!\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 165, 0
+#: 0x0a4c352
+msgctxt "hash:59ee5f21"
+msgid "hash:59ee5f21"
+msgstr "Воины Теней нападают!\\p"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 6, 56
+#: 0x0a4c3b2
+msgctxt "hash:9ad5459c"
+msgid "hash:9ad5459c"
+msgstr "{FD 2E} {FD 2F}\\nотзывает покемона {B_BUFF1}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 33, 29
+#: 0x0a4c3c5
+msgctxt "hash:6757db82"
+msgid "hash:6757db82"
+msgstr "{FD 2E} {FD 2F}\\nвыпускает покемона {B_BUFF1}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 6, 56
+#: 0x0a4c405
+msgctxt "hash:d6aadc7e"
+msgid "hash:d6aadc7e"
+msgstr "{FD 32} {FD 33}\\nотзывает покемона {B_BUFF1}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 33, 29
+#: 0x0a4c418
+msgctxt "hash:081fbd8e"
+msgid "hash:081fbd8e"
+msgstr "{FD 32} {FD 33}\\nвыпускает покемона {B_BUFF1}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 29, 12
+#: 0x0a4c42b
+msgctxt "hash:6042a436"
+msgid "hash:6042a436"
+msgstr "{B_ATK_NAME_WITH_PREFIX} использует\\nприём Z-{B_BUFF2}"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 122, 35, 0
+#: 0x0a4c49b
+msgctxt "hash:9e43c740"
+msgid "hash:9e43c740"
+msgstr ""
+"{B_LINK_OPPONENT1_NAME} и {B_LINK_OPPONENT2_NAME}\\nвызывают на бой!\\p"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 122, 12, 0
+#: 0x0a4c4bd
+msgctxt "hash:58043a61"
+msgid "hash:58043a61"
+msgstr "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nвызывает на бой!\\p"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 102, 12, 0
+#: 0x0a4c4db
+msgctxt "hash:08025134"
+msgid "hash:08025134"
+msgstr ""
+"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} бросает\\nвызов: {FD 32} {FD 33}!\\p"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 122, 6, 0
+#: 0x0a4c4fa
+msgctxt "hash:fbe5cc10"
+msgid "hash:fbe5cc10"
+msgstr "{B_LINK_OPPONENT1_NAME} вызывает на бой!\\p"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 62, 98, 0
+#: 0x0a4c52a
+msgctxt "hash:a6e54ec1"
+msgid "hash:a6e54ec1"
+msgstr ""
+"Появились дикие {B_OPPONENT_MON1_NAME}\\nи {B_OPPONENT_MON2_NAME}!\\p"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 86, 0
+#: 0x0a4c54d
+msgctxt "hash:1bf9461d"
+msgid "hash:1bf9461d"
+msgstr "{B_OPPONENT_MON1_NAME} и {B_OPPONENT_MON2_NAME} нападают!\\p"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 123, 53, 0
+#: 0x0a4c562
+msgctxt "hash:f36dfc6e"
+msgid "hash:f36dfc6e"
+msgstr "Появился покемон {B_OPPONENT_MON1_NAME}\\nиз Мира деформации!\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 142, 0
+#: 0x0a4c587
+msgctxt "hash:f99592e1"
+msgid "hash:f99592e1"
+msgstr "Это ваш самый страшный кошмар!\\p"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 98
+#: 0x0a4c5b1
+msgctxt "hash:6349af5c"
+msgid "hash:6349af5c"
+msgstr "Появился дикий покемон {B_OPPONENT_MON1_NAME}!{PAUSE 7F}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 98, 0
+#: 0x0a4c5c8
+msgctxt "hash:ba99b47f"
+msgid "hash:ba99b47f"
+msgstr "Появился дикий покемон {B_OPPONENT_MON1_NAME}!\\p"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 38
+#: 0x0a4c5dd
+msgctxt "hash:d83e0647"
+msgid "hash:d83e0647"
+msgstr "Отключение"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a4c5e5
+msgctxt "hash:885588f4"
+msgid "hash:885588f4"
+msgstr "На бис"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0a4c5f6
+msgctxt "hash:35842a34"
+msgid "hash:35842a34"
+msgstr "душевный недуг"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0a4c5fd
+msgctxt "hash:106e3a96"
+msgid "hash:106e3a96"
+msgstr "Провокация"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0a4c603
+msgctxt "hash:173b4979"
+msgid "hash:173b4979"
+msgstr "очень резко "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 45
+#: 0x0a4c610
+msgctxt "hash:624042b9"
+msgid "hash:624042b9"
+msgstr "очень резко "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0a4c61a
+msgctxt "hash:6ec865d4"
+msgid "hash:6ec865d4"
+msgstr "Противник "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0a4c628
+msgctxt "hash:9fa74b33"
+msgid "hash:9fa74b33"
+msgstr "Противники "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 45
+#: 0x0a4c636
+msgctxt "hash:53ee6a74"
+msgid "hash:53ee6a74"
+msgstr "Дикий покемон "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0a4c640
+msgctxt "hash:b72c6aea"
+msgid "hash:b72c6aea"
+msgstr "Покемон Теней "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0a4c64c
+msgctxt "hash:7926fae1"
+msgid "hash:7926fae1"
+msgstr "противника"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0a4c659
+msgctxt "hash:141d0966"
+msgid "hash:141d0966"
+msgstr "противника"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a4c666
+msgctxt "hash:6773b173"
+msgid "hash:6773b173"
+msgstr "игрока"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a4c66b
+msgctxt "hash:ff8cb9d7"
+msgid "hash:ff8cb9d7"
+msgstr "игрока"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 164, 40
+#: 0x0a4c790
+msgctxt "battle:377"
+msgid "battle:377"
+msgstr "Вас ошеломило поражение!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 51, 57
+#: 0x0a4c7b7
+msgctxt "hash:0a6b135f"
+msgid "hash:0a6b135f"
+msgstr ""
+"{PALETTE 05}{COLOR_HIGHLIGHT_SHADOW 0D 0E 0F}Бой{CLEAR_TO 38}Куб\\n"
+"Покемоны{CLEAR_TO 38}Бежать"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 51, 57
+#: 0x0a4c7da
+msgctxt "hash:d23ba066"
+msgid "hash:d23ba066"
+msgstr ""
+"{PALETTE 05}{COLOR_HIGHLIGHT_SHADOW 0D 0E 0F}Бой{CLEAR_TO "
+"38}{COLOR_HIGHLIGHT_SHADOW 0F 0E 0B}Куб\\n{COLOR_HIGHLIGHT_SHADOW 0D 0E "
+"0F}Покемоны{CLEAR_TO 38}Бежать"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 51, 63
+#: 0x0a4c807
+msgctxt "hash:ac6ef15c"
+msgid "hash:ac6ef15c"
+msgstr ""
+"{PALETTE 05}{COLOR_HIGHLIGHT_SHADOW 0D 0E 0F}Бой{CLEAR_TO 38}Куб\\n"
+"Покемоны{CLEAR_TO 38}Назад"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 51, 63
+#: 0x0a4c82b
+msgctxt "hash:9b42915b"
+msgid "hash:9b42915b"
+msgstr ""
+"{PALETTE 05}{COLOR_HIGHLIGHT_SHADOW 0D 0E 0F}Бой{CLEAR_TO "
+"38}{COLOR_HIGHLIGHT_SHADOW 0F 0E 0B}Куб\\n{COLOR_HIGHLIGHT_SHADOW 0D 0E "
+"0F}Покемоны{CLEAR_TO 38}Назад"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 46
+#: 0x0a4c859
+msgctxt "hash:73027a75"
+msgid "hash:73027a75"
+msgstr ""
+"{PALETTE 05}{COLOR_HIGHLIGHT_SHADOW 0D 0E 0F}Ловить{CLEAR_TO 38}Уйти"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 98
+#: 0x0a4c86d
+msgctxt "hash:d5d9f9b2"
+msgid "hash:d5d9f9b2"
+msgstr "{B_OPPONENT_MON1_NAME} устаёт!\\nСкорее покебол!"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 44
+#: 0x0a4c88b
+msgctxt "hash:23344f89"
+msgid "hash:23344f89"
+msgstr "Команда - {B_TRAINER1_CLASS} {B_TRAINER1_NAME}"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 38
+#: 0x0a4c898
+msgctxt "hash:445c14bf"
+msgid "hash:445c14bf"
+msgstr "Команда - {B_LINK_OPPONENT1_NAME} "
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 44, 44
+#: 0x0a4c8a3
+msgctxt "hash:1633528f"
+msgid "hash:1633528f"
+msgstr ""
+"Команда - {B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nКоманда - {FD 2E} {FD 2F}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 38, 38
+#: 0x0a4c8bd
+msgctxt "hash:26f1701e"
+msgid "hash:26f1701e"
+msgstr ""
+"Команда - {B_LINK_OPPONENT1_NAME}\\nКоманда - {B_LINK_OPPONENT2_NAME} "
+
+# source: Native battle captures show the Exp.Share source on two lines and an overlong translation scrolling.
+# source: status: unreviewed; evidence: method: runtime; verification: recorded
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 188, 179
+#: 0x0a4c8d2
+msgctxt "hash:8841be3b"
+msgid "hash:8841be3b"
+msgstr "Разделитель опыта даёт опыт\\nостальным покемонам команды!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 47
+#: 0x0a4c915
+msgctxt "hash:0b5a4e97"
+msgid "hash:0b5a4e97"
+msgstr "обморожение"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 195, 155
+#: 0x0a4c91f
+msgctxt "hash:6faca3d4"
+msgid "hash:6faca3d4"
+msgstr ""
+"Не выйдет! Нельзя прицелиться,\\nкогда покемонов двое!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 195, 180
+#: 0x0a4c962
+msgctxt "hash:662157a1"
+msgid "hash:662157a1"
+msgstr ""
+"Не выйдет! Нельзя прицелиться\\nв покемона, которого не "
+"видно!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 172
+#: 0x0a4c9ab
+msgctxt "hash:b42a11c3"
+msgid "hash:b42a11c3"
+msgstr ""
+"Не выйдет! Бросать покебол нужно\\nв ход первого "
+"покемона!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 181
+#: 0x0a4c9ec
+msgctxt "hash:ea6670ed"
+msgid "hash:ea6670ed"
+msgstr "Бросать покебол пока нельзя!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 160
+#: 0x0a4ca0f
+msgctxt "hash:e5c13757"
+msgid "hash:e5c13757"
+msgstr "Не выйдет!\\nЭтого покемона нельзя поймать!{PAUSE_UNTIL_PRESS}"
+
+# source: Black Emboar refers to Pokemon Emboar, not Ember.
+# source: Эмбор is attested in the official Russian XY BREAKpoint card translations.
+# source: Goon is a generic thug/henchman role, not a personal name.
+# source: status: unreviewed; sources: kind: web; name: Official Russian XY BREAKpoint card translations; address: https://assets.pokemon.com/assets/cms2-ru-ru/pdf/trading-card-game/tcg_xy9_breakpoint_card_translation.pdf; quoted term: Эмбор; relation: selected_form; verification: recorded; related notes: note:9cd5a577-3901-5d76-af21-934c41a6581c
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0a4caa9
+msgctxt "hash:59a5e000"
+msgid "hash:59a5e000"
+msgstr "Чёрный клан "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 87
+#: 0x0a4cab0
+msgctxt "hash:0c364d18"
+msgid "hash:0c364d18"
+msgstr "неизвестное место"
+
+# source: Use the project rank Куратор.
+# source: Use the full titles Куратор Теней, Куратор Света гибели, Экс-куратор Теней.
+# source: Use the corresponding battle labels Куратор, Куратор, Экс-куратор.
+# source: Keep names and faction identities unchanged.
+# source: This is a context-based localization proposal, not official Russian terminology.
+# source: Ivory and Marlon are scientists supervising agents under Zeph.
+# source: status: unreviewed; sources: kind: project; name: Project rendering; address: own; quoted term: Куратор; relation: selected_form; verification: recorded; related notes: note:888bed65-5665-5650-bffa-33ecfa86537f
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 1, widths px: 87
+#: 0x0a4cac1
+msgctxt "hash:a0feaec9"
+msgid "hash:a0feaec9"
+msgstr "Экс-куратор"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a4caf9
+msgctxt "hash:6be340f0"
+msgid "hash:6be340f0"
+msgstr "Сила: "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0a4cb01
+msgctxt "hash:543231e5"
+msgid "hash:543231e5"
+msgstr "Нокаут сразу"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a4cb06
+msgctxt "hash:9c3cd432"
+msgid "hash:9c3cd432"
+msgstr "Точность: "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 38
+#: 0x0a4cb0c
+msgctxt "hash:23cf103b"
+msgid "hash:23cf103b"
+msgstr "-"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0a4cb14
+msgctxt "hash:d543101a"
+msgid "hash:d543101a"
+msgstr "Контакт"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 57
+#: 0x0a4cb1c
+msgctxt "hash:b5dcadc7"
+msgid "hash:b5dcadc7"
+msgstr "Без контакта"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 108
+#: 0x0a4cb27
+msgctxt "hash:fa287a0d"
+msgid "hash:fa287a0d"
+msgstr "Сброс понижений"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 63
+#: 0x0a4cb3b
+msgctxt "hash:bfb6de40"
+msgid "hash:bfb6de40"
+msgstr "+ Все характеристики"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 117
+#: 0x0a4cb47
+msgctxt "hash:2e340f85"
+msgid "hash:2e340f85"
+msgstr "+ Шанс критического удара"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 52
+#: 0x0a4cb5d
+msgctxt "hash:1ff5cd0b"
+msgid "hash:1ff5cd0b"
+msgstr "За мной"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0a4cb67
+msgctxt "hash:115d92c9"
+msgid "hash:115d92c9"
+msgstr "Восполняет ОЖ"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 110
+#: 0x0a4cb72
+msgctxt "hash:d12d4077"
+msgid "hash:d12d4077"
+msgstr "Лечит покемона на замену"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0a4cb86
+msgctxt "hash:bd44f8dd"
+msgid "hash:bd44f8dd"
+msgstr "Самозащита"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 44
+#: 0x0a4cb93
+msgctxt "hash:3b37404d"
+msgid "hash:3b37404d"
+msgstr "Команде + {B_BUFF1}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0a4cb9d
+msgctxt "hash:60428838"
+msgid "hash:60428838"
+msgstr " врагов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 17
+#: 0x0a4cba3
+msgctxt "hash:b51ae02e"
+msgid "hash:b51ae02e"
+msgstr "Вызывает "
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 48, 164, 68, 187, 189
+#: 0x0a4d0bf
+msgctxt "hash:cc52d675"
+msgid "hash:cc52d675"
+msgstr ""
+"ВНИМАНИЕ!\\pНе удалось считать правильное\\nсистемное время.\\pВключите "
+"часы реального времени\\n(RTC) и проверьте, верно ли время."
+
+#. category: code; mode: field
+#. original lines: 27, widths px: 48, 164, 68, 187, 189, 168, 171, 191, 204, 92, 196, 180, 128, 205, 73, 92, 217, 175, 207, 130, 191, 37, 186, 150, 102, 179, 117
+#: 0x0a4d138
+msgctxt "hash:4c59426e"
+msgid "hash:4c59426e"
+msgstr ""
+"ВНИМАНИЕ!\\pНе удалось считать правильное\\nсистемное время.\\pВключите "
+"часы реального времени\\n(RTC) и проверьте, верно ли время.\\pЕсли у вас "
+"VBA, лучше перейти\\nна более совершенный {COLOR 06}mGBA{COLOR 02}.\\pИли "
+"включите RTC\\nпо этой инструкции.\\p{COLOR 04}Инструкция для VBA{COLOR "
+"02}:\\pСначала нажмите {COLOR 06}Options{COLOR 02} вверху.\\pЗатем в "
+"разделе {COLOR 06}Emulator{COLOR 02} выберите\\nпункт {COLOR 06}Real Time "
+"Clock{COLOR 02}.\\pНаконец, полностью закройте\\nи перезапустите "
+"эмулятор.\\p{COLOR 04}Инструкция для 3DS{COLOR 02}:\\pСоздайте CIA-файл в "
+"{COLOR 06}New Super\\nUltimate VC Injector for 3DS{COLOR 02}.\\pОткрыв "
+"его, проверьте, что для\\n{COLOR 06}ROM Save Type{COLOR 02} задано:\\p"
+"{COLOR 06}Flash 1Mbit (Macronix, ID: 0x09C2)\\n+ RTC{COLOR 02}.\\pВ "
+"{COLOR 06}injection method{COLOR 02} также нужно\\nвыбрать {COLOR 06}GBA "
+"Virtual Console{COLOR 02}.\\p{COLOR 04}Инструкция для Delta{COLOR 02}:\\p"
+"Используйте премиум-версию Delta\\nили перейдите на {COLOR "
+"06}GBA4iOS{COLOR 02}."
+
+#. category: code; mode: battle
+#. original lines: 10, widths px: 48, 177, 99, 184, 17, 165, 174, 161, 159, 106
+#: 0x0a4d475
+msgctxt "hash:8878641a"
+msgid "hash:8878641a"
+msgstr ""
+"ВНИМАНИЕ!\\pВ файле сохранения обнаружено\\nвмешательство в RTC!\\p"
+"Текущая дата в игре:\\n{B_COPY_VAR_3}.{B_COPY_VAR_2}.{B_COPY_VAR_1}.\\p"
+"Все ежедневные события, например\\nподарки и рейды, могут работать\\l"
+"неправильно до следующего дня.\\pПожалуйста, больше не вмешивайтесь\\nв "
+"работу RTC."
+
+#. category: code; mode: battle
+#. original lines: 4, widths px: 52, 5, 185, 197
+#: 0x0a4d56c
+msgctxt "hash:8b8704d0"
+msgid "hash:8b8704d0"
+msgstr ""
+"{B_BUFF2} использует:\\n{B_COPY_VAR_2}.\\pТеперь здесь чаще встречаются\\n"
+"сильные дикие покемоны.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 4, widths px: 52, 5, 176, 197
+#: 0x0a4d5c5
+msgctxt "hash:b7c917da"
+msgid "hash:b7c917da"
+msgstr ""
+"{B_BUFF2} использует:\\n{B_COPY_VAR_2}.\\pТеперь здесь чаще встречаются\\n"
+"слабые дикие покемоны.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 104, 86
+#: 0x0a4d768
+msgctxt "hash:b56c3983"
+msgid "hash:b56c3983"
+msgstr "В подарок вы также получаете:\\n{B_COPY_VAR_2}.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 103, 86
+#: 0x0a4d78f
+msgctxt "hash:4ddb2c93"
+msgid "hash:4ddb2c93"
+msgstr ""
+"В подарок вы также получаете:\\n{B_COPY_VAR_2} ({B_COPY_VAR_1} "
+"шт.).{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 4, widths px: 178, 201, 147, 0
+#: 0x0a4d8a4
+msgctxt "hash:0b78deb1"
+msgid "hash:0b78deb1"
+msgstr ""
+"{B_BUFF2} спешит к ближайшему\\nцелителю, оберегая измученных\\nи "
+"выбывших из боя покемонов\\nот новых бед…\\p"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 11, 121
+#: 0x0a4e00d
+msgctxt "hash:5a96c30b"
+msgid "hash:5a96c30b"
+msgstr "{B_COPY_VAR_1} {B_COPY_VAR_3}?\\nС вас ¥{B_COPY_VAR_2}. Хорошо?"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 138
+#: 0x0a4e02c
+msgctxt "hash:e8cd0b58"
+msgid "hash:e8cd0b58"
+msgstr "У вас уже есть ТМ с этим приёмом.{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0a4e065
+msgctxt "hash:55a47ce8"
+msgid "hash:55a47ce8"
+msgstr "Тип"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0a4e06a
+msgctxt "hash:3e8ded6e"
+msgid "hash:3e8ded6e"
+msgstr "Имя"
+
+#. reach: never shown (review: Bag sort Most / Least are context actions 14 / 15 of CFRU table 0xA6BA64. The actions have labels 0xA6BAD4 / 0xA6BADC and functions 0x89F3101 / 0x89F30CD, which only that table points at. The sort lists at 0xA6BA44, read through base 0x8A6BA00, are [12, 4], [12, 16, 4] and [12, 13, 16, 4]. Only those functions load hash:3e6795b4 / hash:43c51e80, through pools 0x9F3128 / 0x9F30F4.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0a4e06f
+msgctxt "hash:6c9dd1b5"
+msgid "hash:6c9dd1b5"
+msgstr "Больше"
+
+#. reach: never shown (review: Bag sort Most / Least are context actions 14 / 15 of CFRU table 0xA6BA64. The actions have labels 0xA6BAD4 / 0xA6BADC and functions 0x89F3101 / 0x89F30CD, which only that table points at. The sort lists at 0xA6BA44, read through base 0x8A6BA00, are [12, 4], [12, 16, 4] and [12, 13, 16, 4]. Only those functions load hash:3e6795b4 / hash:43c51e80, through pools 0x9F3128 / 0x9F30F4.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0a4e074
+msgctxt "hash:8603de1d"
+msgid "hash:8603de1d"
+msgstr "Меньше"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a4e07a
+msgctxt "hash:496a4b06"
+msgid "hash:496a4b06"
+msgstr "Кол-во"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a4e081
+msgctxt "hash:781d8f9d"
+msgid "hash:781d8f9d"
+msgstr "имени"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a4e086
+msgctxt "hash:b4cab9e5"
+msgid "hash:b4cab9e5"
+msgstr "типу"
+
+#. reach: never shown (review: Bag sort Most / Least are context actions 14 / 15 of CFRU table 0xA6BA64. The actions have labels 0xA6BAD4 / 0xA6BADC and functions 0x89F3101 / 0x89F30CD, which only that table points at. The sort lists at 0xA6BA44, read through base 0x8A6BA00, are [12, 4], [12, 16, 4] and [12, 13, 16, 4]. Only those functions load hash:3e6795b4 / hash:43c51e80, through pools 0x9F3128 / 0x9F30F4.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0a4e08b
+msgctxt "hash:3e6795b4"
+msgid "hash:3e6795b4"
+msgstr "убыванию"
+
+#. reach: never shown (review: Bag sort Most / Least are context actions 14 / 15 of CFRU table 0xA6BA64. The actions have labels 0xA6BAD4 / 0xA6BADC and functions 0x89F3101 / 0x89F30CD, which only that table points at. The sort lists at 0xA6BA44, read through base 0x8A6BA00, are [12, 4], [12, 16, 4] and [12, 13, 16, 4]. Only those functions load hash:3e6795b4 / hash:43c51e80, through pools 0x9F3128 / 0x9F30F4.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 27
+#: 0x0a4e090
+msgctxt "hash:43c51e80"
+msgid "hash:43c51e80"
+msgstr "возрастанию"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a4e096
+msgctxt "hash:00c80594"
+msgid "hash:00c80594"
+msgstr "количеству"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 72, 6
+#: 0x0a4e09d
+msgctxt "hash:01506ed6"
+msgid "hash:01506ed6"
+msgstr "Сортировать\\nпо {B_COPY_VAR_1}?"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 85, 6
+#: 0x0a4e0af
+msgctxt "hash:9c3927c4"
+msgid "hash:9c3927c4"
+msgstr "Предметы отсортированы\\nпо {B_COPY_VAR_1}!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 138, 56
+#: 0x0a4e0c3
+msgctxt "hash:04640db1"
+msgid "hash:04640db1"
+msgstr "Можно выставить не больше\\nодного покемона.{PAUSE_UNTIL_PRESS}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x0a4e174
+msgctxt "hash:6c2045de"
+msgid "hash:6c2045de"
+msgstr "Ввод числа"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 79
+#: 0x0a4e183
+msgctxt "hash:5e20d917"
+msgid "hash:5e20d917"
+msgstr "Ввод фразы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x0a4e192
+msgctxt "hash:677f0132"
+msgid "hash:677f0132"
+msgstr "Ввод пароля"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x0a4e1a1
+msgctxt "hash:ab5d939a"
+msgid "hash:ab5d939a"
+msgstr "Ввод вида покемона"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 52
+#: 0x0a4e1b1
+msgctxt "hash:e41816b9"
+msgid "hash:e41816b9"
+msgstr "Куплено"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 37
+#: 0x0a4e1cc
+msgctxt "hash:826f08c3"
+msgid "hash:826f08c3"
+msgstr "{B_COPY_VAR_1} ({B_COPY_VAR_2})"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 0, 14, 76
+#: 0x0a4e1d8
+msgctxt "hash:dc970b16"
+msgid "hash:dc970b16"
+msgstr ""
+"\\nи {B_COPY_VAR_1} ({B_COPY_VAR_2})\\lменяются "
+"предметами!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 124, 134
+#: 0x0a4e240
+msgctxt "hash:e8433727"
+msgid "hash:e8433727"
+msgstr ""
+"{B_COPY_VAR_1} становится дружелюбнее.\\n{B_COPY_VAR_2}: значения усилий "
+"ниже!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 70, 84
+#: 0x0a4e276
+msgctxt "hash:5d9fc6ef"
+msgid "hash:5d9fc6ef"
+msgstr ""
+"{B_COPY_VAR_1} вас обожает!\\n{B_COPY_VAR_2}: значения усилий "
+"ниже!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 124, 139
+#: 0x0a4e299
+msgctxt "hash:3b069400"
+msgid "hash:3b069400"
+msgstr ""
+"{B_COPY_VAR_1} становится дружелюбнее.\\n{B_COPY_VAR_2}: значения усилий "
+"уже 0.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 88
+#: 0x0a4e2d0
+msgctxt "hash:b8484b46"
+msgid "hash:b8484b46"
+msgstr "{B_COPY_VAR_1} меняет форму!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 112, 78
+#: 0x0a4e2ff
+msgctxt "hash:1784d8f9"
+msgid "hash:1784d8f9"
+msgstr ""
+"У вас уже есть покемон {B_COPY_VAR_1},\\nслитый с покемоном "
+"{B_COPY_VAR_2}.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 111, 119
+#: 0x0a4e328
+msgctxt "hash:592057f5"
+msgid "hash:592057f5"
+msgstr ""
+"В команде нет места, чтобы\\nразделить покемонов.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 129, 73
+#: 0x0a4e354
+msgctxt "hash:3da89d13"
+msgid "hash:3da89d13"
+msgstr "С этим покемоном\\nслияние невозможно.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 91, 23
+#: 0x0a4e37c
+msgctxt "hash:f97057cc"
+msgid "hash:f97057cc"
+msgstr "Сменить талант покемона {B_COPY_VAR_1}\\nна талант {B_COPY_VAR_2}?"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 102, 69
+#: 0x0a4e397
+msgctxt "hash:056e9c35"
+msgid "hash:056e9c35"
+msgstr ""
+"У покемона {B_COPY_VAR_1} теперь\\nталант "
+"{B_COPY_VAR_2}.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 163, 6
+#: 0x0a4e3be
+msgctxt "hash:0234582d"
+msgid "hash:0234582d"
+msgstr "Дать покемону {B_COPY_VAR_1}\\nфактор гигантамакса?"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 188, 6
+#: 0x0a4e3e0
+msgctxt "hash:720b3e59"
+msgid "hash:720b3e59"
+msgstr "Убрать у покемона {B_COPY_VAR_1}\\nфактор гигантамакса?"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 114
+#: 0x0a4e406
+msgctxt "hash:8567ec85"
+msgid "hash:8567ec85"
+msgstr "{B_COPY_VAR_1}: гигантамакс доступен!{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 146
+#: 0x0a4e41f
+msgctxt "hash:85a11ced"
+msgid "hash:85a11ced"
+msgstr "{B_COPY_VAR_1}: гигантамакс недоступен.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 93
+#: 0x0a4e440
+msgctxt "hash:6e84653c"
+msgid "hash:6e84653c"
+msgstr "Нужный уровень: "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 143
+#: 0x0a4e452
+msgctxt "hash:88bc6b37"
+msgid "hash:88bc6b37"
+msgstr "{F8 0A}Выбор {F8 00}ОК {F8 04}Наугад {F8 01}Отмена"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 81, 83, 72
+#: 0x0a4e474
+msgctxt "hash:71ce373c"
+msgid "hash:71ce373c"
+msgstr "Конец боя:\\n4 выбывших\\nили 10 ходов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 99
+#: 0x0a4e4a2
+msgctxt "hash:682b3283"
+msgid "hash:682b3283"
+msgstr "Напарники"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0a4e4b8
+msgctxt "hash:8c035d47"
+msgid "hash:8c035d47"
+msgstr "{CLEAR_TO 0F}Декснав"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0a4e4bf
+msgctxt "hash:f6079fc9"
+msgid "hash:f6079fc9"
+msgstr "{CLEAR_TO 12}Миссии"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x0a4e4cb
+msgctxt "hash:2dd442d9"
+msgid "hash:2dd442d9"
+msgstr "Костюмы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0a4e4d7
+msgctxt "hash:70eb06ab"
+msgid "hash:70eb06ab"
+msgstr "{CLEAR_TO 0C}Покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0a4e4e4
+msgctxt "hash:2c502e29"
+msgid "hash:2c502e29"
+msgstr "{CLEAR_TO 12}Куб V3"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0a4e4ec
+msgctxt "hash:67ac47c7"
+msgid "hash:67ac47c7"
+msgstr "{CLEAR_TO 09}Сохранить"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0a4e4f6
+msgctxt "hash:edf91726"
+msgid "hash:edf91726"
+msgstr "{CLEAR_TO 09}Настройки"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0a4e540
+msgctxt "hash:57a55b55"
+msgid "hash:57a55b55"
+msgstr "AM"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0a4e543
+msgctxt "hash:d9b9e05e"
+msgid "hash:d9b9e05e"
+msgstr "PM"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 17
+#: 0x0a4e554
+msgctxt "hash:6a9e0a5d"
+msgid "hash:6a9e0a5d"
+msgstr "Вс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 17
+#: 0x0a4e558
+msgctxt "hash:95b31f41"
+msgid "hash:95b31f41"
+msgstr "Пн"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0a4e55c
+msgctxt "hash:b26548dc"
+msgid "hash:b26548dc"
+msgstr "Вт"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0a4e560
+msgctxt "hash:e2fbb7c5"
+msgid "hash:e2fbb7c5"
+msgstr "Ср"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0a4e564
+msgctxt "hash:cf7ccbdc"
+msgid "hash:cf7ccbdc"
+msgstr "Чт"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 15
+#: 0x0a4e568
+msgctxt "hash:c893926b"
+msgid "hash:c893926b"
+msgstr "Пт"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 17
+#: 0x0a4e56c
+msgctxt "hash:005718ae"
+msgid "hash:005718ae"
+msgstr "Сб"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 16
+#: 0x0a4e570
+msgctxt "hash:cc5b95fe"
+msgid "hash:cc5b95fe"
+msgstr "Err"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 92, 0
+#: 0x0a4e574
+msgctxt "hash:fa255f99"
+msgid "hash:fa255f99"
+msgstr "Время динамакса!\\p "
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 165, 64, 0
+#: 0x0a4e587
+msgctxt "hash:b2eea9af"
+msgid "hash:b2eea9af"
+msgstr "А теперь я высвобожу силу\\nдинамакса!\\p "
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 54, 94, 0
+#: 0x0a4e5b8
+msgctxt "hash:ac392da7"
+msgid "hash:ac392da7"
+msgstr "Ого-о-о-о…\\nВот это было жарко…\\p "
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 72, 98, 0
+#: 0x0a4e664
+msgctxt "hash:c3f52109"
+msgid "hash:c3f52109"
+msgstr "Ха-ха-ха-ха!\\nЕщё не вечер!\\p "
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 171, 181, 0
+#: 0x0a4e72e
+msgctxt "hash:a7af7ef2"
+msgid "hash:a7af7ef2"
+msgstr "Люди-кроты не сдаются!\\nПознай наш гнев, дитя поверхности!\\p "
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 184, 46, 0
+#: 0x0a4e80f
+msgctxt "hash:4d9d1e4d"
+msgid "hash:4d9d1e4d"
+msgstr "Нет! Ты не отнимешь у меня…\\nбольше ничего!\\p "
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 191, 113, 0
+#: 0x0a4e83c
+msgctxt "hash:6029db65"
+msgid "hash:6029db65"
+msgstr ""
+"Остался один покемон…\\pПришло время показать тебе,\\nкак сражаются "
+"по-настоящему!\\p"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 182, 116, 0
+#: 0x0a4e930
+msgctxt "hash:34471728"
+msgid "hash:34471728"
+msgstr "Сила Скрытых гротов!\\nОна подвластна мне!\\p "
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 198, 113
+#: 0x0a4e969
+msgctxt "hash:123fd2bd"
+msgid "hash:123fd2bd"
+msgstr "Эх… должен же быть способ\\nкак-то переломить ход боя!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 204, 170
+#: 0x0a4ea1d
+msgctxt "hash:d01b0050"
+msgid "hash:d01b0050"
+msgstr "Как тебе всегда удаётся находить\\nстолько сил… Это потрясающе…"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 185, 88
+#: 0x0a4ea61
+msgctxt "hash:89421070"
+msgid "hash:89421070"
+msgstr "Вот оно! Вот теперь начинается\\nнастоящий бой, {B_PLAYER_NAME}!"
+
+#. category: code; mode: field
+#. original lines: 7, widths px: 191, 172, 205, 203, 207, 172, 45
+#: 0x0a4eb7c
+msgctxt "hash:ec125f22"
+msgid "hash:ec125f22"
+msgstr ""
+"Ваш файл сохранения несовместим\\nс текущей версией Unbound.\\pПеред тем "
+"как продолжить, войдите\\nв Зал славы в любой версии до 2.0.\\pЕсли всё "
+"же хотите продолжить…\\p…текущий файл сохранения будет\\nудалён."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0a4eced
+msgctxt "hash:ca01069b"
+msgid "hash:ca01069b"
+msgstr "С лимитом, "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0a4ecf5
+msgctxt "hash:47ad9283"
+msgid "hash:47ad9283"
+msgstr "Песочница, "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0a4ecfe
+msgctxt "hash:66f1301f"
+msgid "hash:66f1301f"
+msgstr "Истинный "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 37
+#: 0x0a4ed04
+msgctxt "hash:fc4126db"
+msgid "hash:fc4126db"
+msgstr "Обычный"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 46
+#: 0x0a4ed0c
+msgctxt "hash:54be191a"
+msgid "hash:54be191a"
+msgstr "Сложный"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 89
+#: 0x0a4ed16
+msgctxt "hash:d219e869"
+msgid "hash:d219e869"
+msgstr "Сложный/Обычный"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a4ed28
+msgctxt "hash:926f59af"
+msgid "hash:926f59af"
+msgstr "Эксперт"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0a4ed2f
+msgctxt "hash:fce78992"
+msgid "hash:fce78992"
+msgstr "Безумный"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 58
+#: 0x0a4ed36
+#, empty
+msgctxt "hash:c1a6500b"
+msgid "hash:c1a6500b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 57
+#: 0x0a4ed4a
+msgctxt "hash:71a1748c"
+msgid "hash:71a1748c"
+msgstr ", Scalemons"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 58
+#: 0x0a4ed55
+msgctxt "hash:bc6f14d4"
+msgid "hash:bc6f14d4"
+msgstr ", после финала"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 48
+#: 0x0a4ed69
+msgctxt "hash:40a0d8be"
+msgid "hash:40a0d8be"
+msgstr ", с обменами"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0a4ed72
+msgctxt "hash:65dcc764"
+msgid "hash:65dcc764"
+msgstr "Виды"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0a4ed7a
+msgctxt "hash:470e027a"
+msgid "hash:470e027a"
+msgstr "Приёмы"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0a4ed82
+msgctxt "hash:8d82c50d"
+msgid "hash:8d82c50d"
+msgstr "Таланты"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 62
+#: 0x0a4ed8a
+msgctxt "hash:51635168"
+msgid "hash:51635168"
+msgstr " (рандомизатор)"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 48
+#: 0x0a4ed96
+msgctxt "hash:2c5f7f40"
+msgid "hash:2c5f7f40"
+msgstr "Новая игра "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0a4eda2
+msgctxt "hash:5d613c8f"
+msgid "hash:5d613c8f"
+msgstr "Виды"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0a4edaa
+msgctxt "hash:bb07aea4"
+msgid "hash:bb07aea4"
+msgstr "Предметы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x0a4edb0
+msgctxt "hash:a65e6334"
+msgid "hash:a65e6334"
+msgstr "Таланты"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0a4edba
+msgctxt "hash:e97821e9"
+msgid "hash:e97821e9"
+msgstr "Приёмы"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0a4edc0
+msgctxt "hash:3b6c31ac"
+msgid "hash:3b6c31ac"
+msgstr "{COLOR 04}Запрет: {COLOR 02}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0a4edce
+msgctxt "hash:5e92e51b"
+msgid "hash:5e92e51b"
+msgstr "{COLOR 06}Допуск: {COLOR 02}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0a4eddd
+msgctxt "hash:dfef8153"
+msgid "hash:dfef8153"
+msgstr "Боевая шахта "
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 78
+#: 0x0a4edea
+msgctxt "hash:0810bbb1"
+msgid "hash:0810bbb1"
+msgstr "Испытание ринга"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0a4edf9
+msgctxt "hash:63243014"
+msgid "hash:63243014"
+msgstr "{F8 0A}Листать {F8 01}Выход"

@@ -1,0 +1,10 @@
+[pokedex.growth_rates]
+base = 0xA79560
+entries = 256
+0 = "medium_fast"
+1 = "erratic"
+2 = "fluctuating"
+3 = "medium_slow"
+4 = "fast"
+5 = "slow"
+

@@ -1,0 +1,432 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03FE29C\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 72, 0
+#: 0x03fb525
+msgctxt "battle:274"
+msgid "battle:274"
+msgstr "Сбежать не удаётся!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 119
+#: 0x03fcdf2
+msgctxt "battle:228"
+msgid "battle:228"
+msgstr "Но ничего не происходит!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 76
+#: 0x03fce08
+msgctxt "battle:229"
+msgid "battle:229"
+msgstr "Но ничего не выходит!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 110, 54
+#: 0x03fce17
+msgctxt "battle:230"
+msgid "battle:230"
+msgstr "Покемон в замешательстве\\nранит сам себя!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x03fce38
+msgctxt "battle:231"
+msgid "battle:231"
+msgstr "Приём Повтор не срабатывает!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 104
+#: 0x03fce50
+msgctxt "battle:232"
+msgid "battle:232"
+msgstr "Пошёл дождь!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x03fce64
+msgctxt "battle:233"
+msgid "battle:233"
+msgstr "Хлынул ливень!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x03fce78
+msgctxt "battle:234"
+msgid "battle:234"
+msgstr "Идёт дождь."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x03fce90
+msgctxt "battle:235"
+msgid "battle:235"
+msgstr "Ливень не прекращается."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x03fcea8
+msgctxt "battle:236"
+msgid "battle:236"
+msgstr "Дождь прекратился."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x03fceba
+msgctxt "battle:237"
+msgid "battle:237"
+msgstr "Поднялась песчаная буря!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 112
+#: 0x03fcece
+msgctxt "battle:238"
+msgid "battle:238"
+msgstr "Бушует песчаная буря."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 128
+#: 0x03fcee3
+msgctxt "battle:239"
+msgid "battle:239"
+msgstr "Песчаная буря стихла."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 133
+#: 0x03fcefb
+msgctxt "battle:240"
+msgid "battle:240"
+msgstr "Солнце стало ярким!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x03fcf14
+msgctxt "battle:241"
+msgid "battle:241"
+msgstr "Солнце светит ярко."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 106
+#: 0x03fcf2c
+msgctxt "battle:242"
+msgid "battle:242"
+msgstr "Солнце больше не палит."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 105
+#: 0x03fcf40
+msgctxt "battle:243"
+msgid "battle:243"
+msgstr "Пошёл град!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x03fcf54
+msgctxt "battle:244"
+msgid "battle:244"
+msgstr "Идёт град."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 96
+#: 0x03fcf6c
+msgctxt "battle:245"
+msgid "battle:245"
+msgstr "Град прекратился."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 132, 44
+#: 0x03fcf7e
+msgctxt "battle:246"
+msgid "battle:246"
+msgstr "Но для Плевка ничего не накоплено!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 133, 44
+#: 0x03fcfa0
+msgctxt "battle:247"
+msgid "battle:247"
+msgstr "Но для Глотания ничего не накоплено!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 122, 59
+#: 0x03fcfc2
+msgctxt "battle:248"
+msgid "battle:248"
+msgstr "Ветер превращается в Волну жара!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 118, 59
+#: 0x03fcfe4
+msgctxt "battle:249"
+msgid "battle:249"
+msgstr "Все изменения характеристик\\nсброшены!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x03fd006
+msgctxt "battle:250"
+msgid "battle:250"
+msgstr "Повсюду разлетаются монеты!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 132, 72
+#: 0x03fd022
+msgctxt "battle:251"
+msgid "battle:251"
+msgstr "Не хватает сил,\\nчтобы создать Подмену!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 107, 59
+#: 0x03fd048
+msgctxt "battle:252"
+msgid "battle:252"
+msgstr "Покемоны делят боль между собой!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x03fd068
+msgctxt "battle:253"
+msgid "battle:253"
+msgstr "Звенит колокольчик!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 139, 112
+#: 0x03fd077
+msgctxt "battle:254"
+msgid "battle:254"
+msgstr "Все покемоны, услышавшие песню,\\nвыбудут из боя через три хода!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 121, 56, 0
+#: 0x03fd0a7
+msgctxt "battle:255"
+msgid "battle:255"
+msgstr "У этого приёма не осталось ОС!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 136, 75
+#: 0x03fd0ca
+msgctxt "battle:256"
+msgid "battle:256"
+msgstr "Но у приёма не осталось ОС!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 44, 112
+#: 0x03fd0f1
+msgctxt "battle:275"
+msgid "battle:275"
+msgstr "{B_ATK_NAME_WITH_PREFIX} спит\\nи не слушается приказов!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 44, 39
+#: 0x03fd111
+msgctxt "battle:276"
+msgid "battle:276"
+msgstr "{B_ATK_NAME_WITH_PREFIX} не слушается приказов!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 81
+#: 0x03fd124
+msgctxt "battle:277"
+msgid "battle:277"
+msgstr "{B_ATK_NAME_WITH_PREFIX} устраивается вздремнуть!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 15, 83
+#: 0x03fd135
+msgctxt "battle:278"
+msgid "battle:278"
+msgstr "{B_ATK_NAME_WITH_PREFIX} ленится!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 31, 30
+#: 0x03fd14b
+msgctxt "battle:279"
+msgid "battle:279"
+msgstr "{B_ATK_NAME_WITH_PREFIX} не слушается!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 75
+#: 0x03fd15a
+msgctxt "battle:280"
+msgid "battle:280"
+msgstr "{B_ATK_NAME_WITH_PREFIX} отворачивается!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 77
+#: 0x03fd16a
+msgctxt "battle:281"
+msgid "battle:281"
+msgstr "{B_ATK_NAME_WITH_PREFIX} делает вид,\\nчто не замечает!"
+
+#. category: data-table; mode: battle
+#. original lines: 4, widths px: 21, 80, 67, 46
+#: 0x03fd186
+msgctxt "battle:282"
+msgid "battle:282"
+msgstr ""
+"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} собирается\\nвыпустить покемона "
+"{B_BUFF2}.\\pСменит ли {B_PLAYER_NAME} покемона?"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 76, 46
+#: 0x03fd1df
+msgctxt "battle:283"
+msgid "battle:283"
+msgstr "{B_PLAYER_NAME} бросает камень\\nв покемона {B_OPPONENT_MON1_NAME}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 90, 46
+#: 0x03fd1fa
+msgctxt "battle:284"
+msgid "battle:284"
+msgstr "{B_PLAYER_NAME} бросает корм\\nпокемону {B_OPPONENT_MON1_NAME}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 65, 56
+#: 0x03fd218
+msgctxt "battle:285"
+msgid "battle:285"
+msgstr "{B_OPPONENT_MON1_NAME} внимательно следит!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 55
+#: 0x03fd232
+msgctxt "battle:286"
+msgid "battle:286"
+msgstr "{B_OPPONENT_MON1_NAME} злится!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 59
+#: 0x03fd23f
+msgctxt "battle:287"
+msgid "battle:287"
+msgstr "{B_OPPONENT_MON1_NAME} ест!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 29, 6
+#: 0x03fd650
+msgctxt "battle:257"
+msgid "battle:257"
+msgstr "{B_PLAYER_NAME} использует\\nпредмет {B_LAST_ITEM}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 93, 6
+#: 0x03fd65c
+msgctxt "battle:258"
+msgid "battle:258"
+msgstr "Старик использует\\nпредмет {B_LAST_ITEM}!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 164
+#: 0x03fd697
+msgctxt "battle:259"
+msgid "battle:259"
+msgstr "Тренер отбивает покебол!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 93
+#: 0x03fd6b5
+msgctxt "battle:260"
+msgid "battle:260"
+msgstr "Воровать нехорошо!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 149, 163
+#: 0x03fd6c7
+msgctxt "battle:261"
+msgid "battle:261"
+msgstr "Покемон уклоняется от покебола!\\nЕго невозможно поймать!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x03fd700
+msgctxt "battle:262"
+msgid "battle:262"
+msgstr "Покебол пролетает мимо покемона!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 40, 132
+#: 0x03fd718
+msgctxt "battle:263"
+msgid "battle:263"
+msgstr "О нет!\\nПокемон вырвался!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 24, 146
+#: 0x03fd738
+msgctxt "battle:264"
+msgid "battle:264"
+msgstr "Эх!\\nКазалось, он уже пойман!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 35, 78
+#: 0x03fd757
+msgctxt "battle:265"
+msgid "battle:265"
+msgstr "Аргх!\\nЕщё бы чуть-чуть!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 35, 119
+#: 0x03fd76d
+msgctxt "battle:266"
+msgid "battle:266"
+msgstr "Вот досада!\\nА ведь было так близко!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 41, 70, 0
+#: 0x03fd7a2
+msgctxt "battle:267"
+msgid "battle:267"
+msgstr "Есть!\\nПокемон {FD 3A} пойман!{WAIT_SE}{PLAY_BGM 42 01}\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 41, 70
+#: 0x03fd7c0
+msgctxt "battle:268"
+msgid "battle:268"
+msgstr "Есть!\\nПокемон {FD 3A} пойман!{WAIT_SE}{PLAY_BGM 42 01}{PAUSE 7F}"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 123, 58
+#: 0x03fd7e0
+msgctxt "battle:269"
+msgid "battle:269"
+msgstr "Дать кличку\\nпойманному покемону {FD 3A}?"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 67, 23
+#: 0x03fd804
+msgctxt "battle:270"
+msgid "battle:270"
+msgstr ""
+"Покемон {B_OPPONENT_MON1_NAME}\\nотправляется на ПК {B_PC_CREATOR_NAME}."
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 60, 122, 0
+#: 0x03fd82b
+msgctxt "battle:271"
+msgid "battle:271"
+msgstr "Данные о покемоне {FD 3A}\\nзанесены в Покедекс.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x03fd850
+msgctxt "battle:272"
+msgid "battle:272"
+msgstr "Идёт дождь."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 119
+#: 0x03fd85f
+msgctxt "battle:273"
+msgid "battle:273"
+msgstr "Бушует песчаная буря."

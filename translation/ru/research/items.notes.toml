@@ -1,0 +1,237 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:c3590a1c-23f7-524c-bd6f-3bcb441da021"
+subject = { kind = "research", id = "research:ffe8f7861ba44f54883c6eb178c0f81d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Write ball names as one word ending in -бол with a single л."]
+facts = ["The official GO/TCG name is «Мега-Болл».", "The selected form keeps the first element and writes it as one word.", "Community sources transliterate the name as «Грейтбол» or use «Супербол»."]
+reason = ["Ball names follow the spec loan term «покебол»."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings", address = "pogo", quoted_term = "Мега-Болл", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon TCG card translations", address = "tcg", quoted_term = "Мега-Болл", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Грейтбол", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Супербол", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:aa02fb96-29c7-5780-b8aa-65bdcf883a2e"
+subject = { kind = "research", id = "research:6954ac46d231467bb2cb27f50b7adf43" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the series pattern «<name>-ягода» with an English-based name, as in pjpt, rogue and cobble."]
+facts = ["The selected name is the official GO name.", "The official GO series pattern «<name>-ягода» is attested by «Разз-Ягода», «Нанаб-Ягода» and «Пайнеп-Ягода».", "The pjb, pjhg and pu sources use Japanese-based names as variants.", "Another spelling of the name is «блук»."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings", address = "pogo", quoted_term = "Блак-ягода", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Ягода блак", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", relation = "context", verification = "recorded" }, { kind = "web", name = "Cobblemon Russian localisation", address = "cobble", quoted_term = "Ягода блук", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Ежья Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Ежья Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Плод Ежья", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:289e6301-c47f-59e1-8eab-ba95dda19039"
+subject = { kind = "research", id = "research:b373c74561b74ad9b4b4268a02857acd" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the series pattern «<name>-ягода» with an English-based name, as in pjpt, rogue and cobble."]
+facts = ["The selected name is the official GO name.", "The official GO series pattern «<name>-ягода» is attested by «Разз-Ягода», «Нанаб-Ягода» and «Пайнеп-Ягода».", "The pjb, pjhg and pu sources use Japanese-based names as variants.", "Another spelling of the name is «набаб»."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings", address = "pogo", quoted_term = "Нанаб-ягода", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Ягода набаб", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", relation = "context", verification = "recorded" }, { kind = "web", name = "Cobblemon Russian localisation", address = "cobble", quoted_term = "Ягода нанаб", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Нанаб Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Нанаб Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Плод Нанаб", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:862a69fb-7764-504e-ac9e-13a7f931c689"
+subject = { kind = "research", id = "research:b6c6814edb5c4b2f8fb8b5e5d2aa8375" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the series pattern «<name>-ягода» with an English-based name, as in pjpt, rogue and cobble."]
+facts = ["The selected name is the official GO name.", "The official GO series pattern «<name>-ягода» is attested by «Разз-Ягода», «Нанаб-Ягода» and «Пайнеп-Ягода».", "The pjb, pjhg and pu sources use Japanese-based names as variants.", "Other spellings of the name are «вепир» and «вепэр»."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings", address = "pogo", quoted_term = "Випейр-ягода", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Ягода вепир", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", relation = "context", verification = "recorded" }, { kind = "web", name = "Cobblemon Russian localisation", address = "cobble", quoted_term = "Ягода вепэр", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Заруш Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Заруш Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Плод Заруш", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:361849fb-68fa-5820-8452-77d9ca011dc7"
+subject = { kind = "research", id = "research:a858a702163d447b995c6438737b9c0c" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the series pattern «<name>-ягода» with an English-based name, as in pjpt, rogue and cobble."]
+facts = ["The selected name is the official GO name.", "The official GO series pattern «<name>-ягода» is attested by «Разз-Ягода», «Нанаб-Ягода» and «Пайнеп-Ягода».", "The pjb, pjhg and pu sources use Japanese-based names as variants.", "Other spellings of the name are «пинап» and «пайнап»."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings", address = "pogo", quoted_term = "Пайнеп-ягода", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Ягода пинап", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", relation = "context", verification = "recorded" }, { kind = "web", name = "Cobblemon Russian localisation", address = "cobble", quoted_term = "Ягода пайнап", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Санан Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Санан Ягода", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Плод Санан", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d5f5b429-fff5-56aa-afb5-b787e4a0dc3a"
+subject = { kind = "research", id = "research:3ca7a282274a47918e9fe8a8570f964f" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full form."]
+facts = ["All sources agree.", "Abbreviated source forms are counted with the full form.", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Гладкий камень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Гладкий камень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Гладкий камень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Глад. Камень", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Russian localisation", address = "cobble", quoted_term = "Гладкий камень", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b22ece5c-fa4d-5940-8a01-20f6b8c00079"
+subject = { kind = "research", id = "research:a4f67554980d4ce3ad2407ab6d2d8eb2" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full form."]
+facts = ["All sources agree.", "Abbreviated source forms are counted with the full form.", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Влажный камень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Влажный камень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Влажный камень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Влаж. Камень", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Russian localisation", address = "cobble", quoted_term = "Влажный камень", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6cfa21c5-101f-557e-8ae2-ff480ab1426d"
+subject = { kind = "research", id = "research:d54b9f879a774300bbba7fdbd5e3aa5d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full form."]
+facts = ["All sources agree.", "Abbreviated source forms are counted with the full form.", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Большой корень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Большой корень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Большой корень", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Больш.Корень", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:44a7a4ea-f632-5260-a6dc-08754ad7e438"
+subject = { kind = "research", id = "research:c0ef161562b3485e93e55c31492d876b" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full form.", "Apply the preference order official, major community, then minor community."]
+facts = ["The selected rendering is used by 3 of 4 sources.", "Abbreviated source forms are counted with the full form.", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Странный аромат", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "pjhg", quoted_term = "Странный аромат", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Стран.Аромат", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "pjpt", quoted_term = "Фимиам таинства", relation = "alternative", verification = "recorded" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "supporting sources", value = 3, unit = "count" }, { name = "total sources", value = 4, unit = "count" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5dbaa35c-20f5-5dfe-a2c9-0745864a67cd"
+subject = { kind = "research", id = "research:da3956623af3496db285b6d116686965" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Z-Crystal name in English."]
+facts = ["Russian sources transliterate the whole name in rogue and msd, as recorded in the variants.", "The official English spelling is Ultranecrozium Z.", "The Unbound text uses Necrozium Z as the short form."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Ultranecrozium Z", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Ультранекрозиум Z", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Ультранекрозиум-Z", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:65d93493-bb5c-5e38-8d4c-1cb8fdefea42"
+subject = { kind = "research", id = "research:6aa901359ce146ddbc37b5da68c15b61" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Mega Stone name in English."]
+facts = ["Russian sources transliterate the whole name in pu, fandom, rogue and msd, as recorded in the variants.", "The official English spelling is Charizardite X.", "The Unbound text uses Charizite X as the short form."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Charizardite X", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Чаризардит X", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Чаризардит X", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Чаризардит X", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Чаризардит X", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:50b2892f-ddec-58df-ae19-d0d56cf22652"
+subject = { kind = "research", id = "research:0a0cb048468b4422999ef42972ee8f99" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Mega Stone name in English."]
+facts = ["Russian sources transliterate the whole name in pu, fandom, rogue and msd, as recorded in the variants.", "The official English spelling is Charizardite Y.", "The Unbound text uses Charizite Y as the short form."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Charizardite Y", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Чаризардит Y", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Чаризардит Y", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Чаризардит Y", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Чаризардит Y", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:7a0bc56f-73f1-57ab-b293-ff86c4556db3"
+subject = { kind = "research", id = "research:2815add4ae5e4fd69768ffd7957b3b78" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Mega Stone name in English."]
+facts = ["Russian sources transliterate the whole name in pu, fandom, rogue and msd, as recorded in the variants.", "The official English spelling is Blastoisinite.", "The Unbound text uses Blastoisite, which also fits."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Blastoisinite", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Бластойзнит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Бластойзит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Бластоизинит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Бластоизинит", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:cde3a815-053e-539d-91ef-9a7a2b106d72"
+subject = { kind = "research", id = "research:752c814ebe06418a8311789fca669fbe" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Mega Stone name in English."]
+facts = ["Russian sources transliterate the whole name in fandom, rogue and msd, as recorded in the variants.", "The official English spelling is Kangaskhanite.", "The Unbound text uses Kangaskhite, which also fits."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Kangaskhanite", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Кангасханит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Кангасханит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Кангасканит", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2f1ea7e8-cf3b-5232-8c67-102042f2eec2"
+subject = { kind = "research", id = "research:4c7914549dd64ab19474dbf6c81efa23" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Mega Stone name in English."]
+facts = ["Russian sources transliterate the whole name in pu, fandom, rogue and msd, as recorded in the variants.", "The official English spelling is Aerodactylite.", "The Unbound text uses Aerodactite, which also fits."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Aerodactylite", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Аэродактилит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Аэродактилит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Аэродактилит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Аэродактилит", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:141993de-eaf7-5791-be1e-1b123ac85817"
+subject = { kind = "research", id = "research:0974e1d85ffb420eb341ff536795934f" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Mega Stone name in English."]
+facts = ["Russian sources transliterate the whole name in pu, fandom, rogue and msd, as recorded in the variants.", "The official English spelling is Houndoominite.", "The Unbound text uses Houndoomite, which also fits."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Houndoominite", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Хаундуминит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Хундумит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Хаундуминит", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Хаундуминайт", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:0f850433-972c-515f-92ab-9280c3881a5a"
+subject = { kind = "research", id = "research:881bad465cf34c58984545b315f95cbb" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full form."]
+facts = ["The selected name is the official pogo name.", "Community renderings differ, as recorded in the variants.", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings", address = "pogo", quoted_term = "Шоковый привод", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Шоковый привод", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Кассета Тока", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Кассета Тока", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Электрический Привод", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:682c8389-1d89-5a21-bf87-eddb4e9285fc"
+subject = { kind = "research", id = "research:8b316a9276be4f098f81f064e5d2010f" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Match the type adjectives to the types glossary.", "Use the full form."]
+facts = ["The selected name is the official TCG name.", "The official TCG series pattern is «<type adjective> память».", "The pattern is attested by «Огненная/Водная/Травяная/Электрическая память» and «Психопамять».", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon TCG card translations", address = "tcg", quoted_term = "Огненная память", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Огненная память", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Огненная память", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:140bab54-5673-523d-a39d-06f7f2cfbb27"
+subject = { kind = "research", id = "research:0d368598ec344c55b7e63d17565931f9" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Match the type adjectives to the types glossary.", "Use the full form."]
+facts = ["The selected name is the official TCG name.", "The official TCG series pattern is «<type adjective> память».", "The pattern is attested by «Огненная/Водная/Травяная/Электрическая память» and «Психопамять».", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon TCG card translations", address = "tcg", quoted_term = "Травяная память", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Травяная память", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "rogue", quoted_term = "Память Травы", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:26cc2d13-3a20-5924-b036-79bada3053d5"
+subject = { kind = "research", id = "research:8fdff254a8eb4a61aa3f2266d4e6e339" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full form."]
+facts = ["All sources agree.", "Abbreviated source forms are counted with the full form.", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Древняя статуя", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Древн.Статуя", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9cc57cc4-cffc-593b-ac1a-fcef1e195006"
+subject = { kind = "research", id = "research:611fa72f54f34bc18819ee27b42a96e4" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the full form."]
+facts = ["All sources agree.", "Abbreviated source forms are counted with the full form.", "The full form is restored through the long-name pointer.", "Every item window and name buffer is verified."]
+sources = [{ kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "pjb", quoted_term = "Древняя корона", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Вселенная покемонов", address = "pu", quoted_term = "Древн.Корона", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2b530376-c710-5ca1-8792-1bf6b4a7ff3f"
+subject = { kind = "research", id = "research:d2341b3656034093bc90b13d5bf40cc7" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Z-Crystal name in English."]
+facts = ["Russian sources transliterate the whole name in fandom and msd, as recorded in the variants.", "The official English spelling is Aloraichium Z.", "The Unbound text uses Alorichium Z, which also fits."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Aloraichium Z", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Алоларайчуниум Z", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Алорайхиум-Z", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6ea5144e-8230-5649-9ca2-97d392015b85"
+subject = { kind = "research", id = "research:498b6a4ce9894a518d4de42304957f14" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the species-based Z-Crystal name in English."]
+facts = ["Russian sources transliterate the whole name in fandom and msd, as recorded in the variants.", "The official English spelling is Pikashunium Z.", "The Unbound text uses Pikasunium Z, which also fits."]
+reason = ["The project rule keeps species names in English."]
+sources = [{ kind = "web", name = "Official English item names", address = "en", quoted_term = "Pikashunium Z", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском", address = "fandom", quoted_term = "Пикашуниум Z", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Cobblemon Mega Showdown addon Russian translation", address = "msd", quoted_term = "Пикашуниум-Z", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b90db9af-1673-52d9-a14f-88a8819be5b9"
+subject = { kind = "research", id = "research:f9e3e6d4f4914c1ca0474c719520c5a5" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the pattern «<stat> X» with a Latin X."]
+facts = ["The official GO names Атака X / Защита X use this pattern.", "The word order matches pjpt."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings (i18n_russian.json with i18n_english.json, datamined by PokeMiners)", address = "pogo", relation = "context", verification = "recorded", quoted_term = "Атака X / Защита X" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets (latest of the three projects, Pokerus glossary)", address = "pjpt", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:34d2e73a-e03f-5d04-83d9-b929fb0b7a2d"
+subject = { kind = "research", id = "research:8d091f14ed0a45d3840e03ad85344743" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the pattern «<stat> X» with a Latin X."]
+facts = ["The official GO names Атака X / Защита X use this pattern.", "The word order matches pjpt."]
+sources = [{ kind = "web", name = "Pokémon GO Russian localisation strings (i18n_russian.json with i18n_english.json, datamined by PokeMiners)", address = "pogo", relation = "context", verification = "recorded", quoted_term = "Атака X / Защита X" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets (latest of the three projects, Pokerus glossary)", address = "pjpt", relation = "context", verification = "recorded" }]
+status = "unreviewed"

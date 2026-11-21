@@ -1,0 +1,11 @@
+# Catalog-stage workspace of a made-up game.
+
+[defaults]
+profile = "sample-hack-1.0"
+language = "ru"
+
+[[project]]
+profile = "sample-hack-1.0"
+language = "ru"
+root = "."
+policy = "translation/policy.toml"

@@ -1,0 +1,776 @@
+[[layout.code_fill]]
+ids = ["s04162A9"]
+slots = { STR_VAR_1 = { digits = 3 }, STR_VAR_2 = { digits = 3 }, STR_VAR_3 = { digits = 2 } }
+where = "Safari Zone counter window"
+
+[[layout.code_fill]]
+ids = ["s0418188"]
+slots = { STR_VAR_1 = { digits = 4 }, STR_VAR_2 = { digits = 4 }, STR_VAR_3 = { digits = 4 } }
+where = "link battle records, total line"
+
+[[layout.code_fill]]
+ids = ["s041D13C"]
+slots = { STR_VAR_1 = { digits = 1 } }
+where = "Berry Crush records, players"
+evidence = "0x814E912-0x814E938: ConvertIntToDecimalStringN 0x8008E78 of the player count into gStringVar1, mode 0, 1 digit; s041D13C expanded into gStringVar4 and printed in font 2 from x 4 (0x812E51C)"
+
+[[layout.code_fill]]
+ids = ["s041DF82"]
+slots = { STR_VAR_1 = { digits = 1 } }
+where = "Cable Club player count window"
+evidence = "0x808078C-0x80807C8: ConvertIntToDecimalStringN 0x8008E78 of the count into gStringVar1, mode 0, 1 digit (0x8080798); s041DF82 expanded and printed in font 2 from x 0 (AddTextPrinterParameterized 0x8002C48)"
+
+[[layout.code_fill]]
+ids = ["s03FE998"]
+slots = { B_COPY_VAR_1 = { digits = 2 }, B_COPY_VAR_2 = { digits = 2 }, B_COPY_VAR_3 = { digits = 2 } }
+where = "Trainer Tower board, time"
+
+[[layout.code_fill]]
+name = "fill-05"
+ids = ["s03FE6D5"]
+slots = { "B_ACTIVE_NAME_WITH_PREFIX" = {  } }
+where = "battle action prompt, window 1"
+evidence = "the prompt of the player's battle controllers (pools 0x32C40, 0xEA76C, 0x158BD4, CFRU 0x9FAFF8) for the active battler, always the player's: its name takes no side prefix, so the token shows the nickname, measured at 60 px as nicknames elsewhere; [layout.placeholders] gives the token 143 px with the widest prefix"
+
+# fills of the Unbound system regions
+[[layout.code_fill]]
+name = "fill-06"
+ids = ["s1F11DD6"]
+slots = { "STR_VAR_1" = {  } }
+where = "shop quantity box, In Cube"
+evidence = "0x809BCC6-0x809BCD8: ConvertIntToDecimalStringN 0x8008E78 of the quantity in the Bag into gStringVar1, mode 1 (right-aligned, padded with spaces), 3 digits; s1F11DD6 prints it after {FONT 00}, in the small font, whose digits and space are 5 px: 15 px"
+
+[[layout.code_fill]]
+name = "fill-07"
+ids = ["s1F6822D"]
+slots = { "B_COPY_VAR_2" = {  } }
+where = "Safari Game bar, balls left"
+evidence = "0x1EC3E90-0x1EC3E9E: ConvertIntToDecimalStringN 0x8008E78 of the ball count (u8 at +7 of the state 0x203E038) into gStringVar2 (FD 03), mode 0, 3 digits; the count starts at 30, or 15 with flag 0x9F0 (0x1EC2EA8-0x1EC2EB4), and only falls (0x1EC46F6, 0x1EC5288): at most 2 digits of the small font, 5 px each"
+
+[[layout.code_fill]]
+name = "fill-08"
+ids = ["s1F6834C"]
+slots = { "B_COPY_VAR_1" = {  } }
+where = "Safari Game bar, Berry to throw"
+
+[[layout.code_fill]]
+ids = ["s1F682DC"]
+slots = { B_COPY_VAR_2 = { digits = 3 } }
+where = "Safari Game message box, caught count"
+evidence = "0x1EC3EF2-0x1EC3EF8 and 0x1EC3E96-0x1EC3E9E: ConvertIntToDecimalStringN 0x8008E78 of the caught count (u8 at +0x11 of the state) into gStringVar2 (FD 03), mode 0, 3 digits"
+
+[[layout.code_fill]]
+ids = ["s1F683E9"]
+slots = { B_COPY_VAR_1 = { digits = 1 }, B_COPY_VAR_2 = { digits = 2 } }
+where = "Safari Game message box, skip cost"
+evidence = "0x1EC3F2E-0x1EC3F4E: the skip cost of 0x1EC2E24 (3, 4 or 5) into gStringVar1 (FD 02), mode 0, 1 digit, and the ball count (at most 30, see s1F6822D) into gStringVar2 (FD 03), mode 0, 2 digits (ConvertIntToDecimalStringN 0x8008E78)"
+
+[[layout.code_fill]]
+ids = ["s1F061A0", "s1F061B6", "s1F061F8", "s1F06231", "s1F06270", "s1F065CB", "s1F0660E",
+       "s1F062B0", "s1F062D4", "s1F062FA", "s1F06319", "s1F06702", "s1F0679C"]
+slots = { B_COPY_VAR_2 = { digits = 3 } }
+where = "evolution conditions, level"
+
+[[layout.code_fill]]
+ids = ["s1F06757"]
+slots = { B_COPY_VAR_2 = { digits = 4 } }
+where = "evolution conditions, damage (never shown)"
+evidence = "method 33 (0x1ECC20A-0x1ECC216): ConvertIntToDecimalStringN 0x8008E78 of the record's u16 parameter into gStringVar2 (FD 03), mode 0, 4 digits; the map name of the extra field into gStringVar3 (GetMapName 0x80C4D78). No evolution record uses the method"
+
+# {F7 00} of the PC storage messages
+[[layout.code_fill]]
+name = "fill-13"
+ids = ["s041825C", "s0418295", "s04182CE", "s04182DF", "s0418392"]
+slots = { "F7 00" = {  } }
+where = "PC storage message window, nickname"
+
+[[layout.code_fill]]
+name = "fill-14"
+ids = ["s041825C", "s0418433", "s0418443"]
+slots = { "F7 00" = {  } }
+where = "PC storage message window, item name"
+
+# box names in field texts
+# - 8 characters, 48 px (default-box-name)
+[[layout.code_fill]]
+name = "fill-15"
+ids = ["s1EF779A", "s1EF77F7", "s1EF8C46", "s1EF8C8E", "s1EF8D0E", "s1F026FF", "s1F02A80",
+       "s1F0EF76", "s1F598D8", "s1F5A3F5", "s1F5A560"]
+slots = { "STR_VAR_1" = {  } }
+where = "field message box, name of the current PC box"
+
+[[layout.code_fill]]
+name = "fill-16"
+ids = ["s1F905EF", "s1F573B2"]
+slots = { "STR_VAR_1" = {  } }
+where = "field message box, name of PC box 25"
+
+[[layout.code_fill]]
+name = "fill-17"
+ids = ["s1F682A6"]
+slots = { "B_COPY_VAR_3" = {  } }
+where = "Safari Game message box, PC box of a caught Pokemon"
+
+# tier and format names in field texts
+# - the widest Russian name each code can copy
+# - tiers 0xA6B700, formats 0xA6B768
+[[layout.code_fill]]
+name = "fill-18"
+ids = ["s1F8E9AE"]
+slots = { "STR_VAR_1" = {  }, "STR_VAR_2" = {  } }
+where = "field message box, frontier record: tier and battle format"
+
+[[layout.code_fill]]
+name = "fill-19"
+ids = ["s1F8C8FD"]
+slots = { "FD 07" = {  }, "FD 08" = {  } }
+where = "field message box, Battle Mine trainer: tier and battle format"
+
+# Inserted trainer names: the widest of trainer_names.
+# - Russian 66 px: «Рей и Тайра», «Джиа и Джес»
+# - English 67 px: 'Bryce & Mag'
+[[layout.code_fill]]
+name = "fill-20"
+ids = ["s03FB21F", "s03FB235", "s03FB248", "s03FD186", "s03FD1C7", "s03FD3B1", "s03FD3C7", "s03FD3E4",
+       "s03FD522", "s03FD688", "s03FE9D4", "s03FE9E4", "s03FE9FF", "s08854B0", "s08C0DE8", "s08C0E2D",
+       "s0905770", "s0A4BA90", "s0A4C30C", "s0A4C38C", "s0A4C458", "s0A4C478", "s0A4C4BD", "s0A4C4DB",
+       "s0A4C6FD", "s0A4C88B", "s0A4C8A3"]
+slots = { "B_TRAINER1_NAME" = { "source_width" = 67 } }
+where = "battle text, name of the opposing trainer"
+
+[[layout.code_fill]]
+name = "fill-21"
+ids = ["s0A4C30C", "s0A4C38C", "s0A4C3B2", "s0A4C3C5", "s0A4C458", "s0A4C478", "s0A4C8A3"]
+slots = { "FD 2F" = { "source_width" = 67 } }
+where = "battle text, name of the second opposing trainer"
+
+[[layout.code_fill]]
+name = "fill-22"
+ids = ["s0A4C371", "s0A4C3D8", "s0A4C3F2", "s0A4C405", "s0A4C418", "s0A4C4DB"]
+slots = { "FD 33" = { "source_width" = 67 } }
+where = "battle text, name of the player's partner"
+
+[[layout.code_fill]]
+name = "fill-23"
+ids = ["s1F56BEB"]
+slots = { "FD 07" = {  } }
+where = "field message box, name of the raid partner"
+
+# Inserted trainer classes: the class helper fills the placeholder.
+# The declared sources measure ordinary, frontier and legacy class domains.
+[[layout.code_fill]]
+name = "fill-24"
+ids = ["s0A4C30C", "s0A4C38C", "s0A4C3B2", "s0A4C3C5", "s0A4C458", "s0A4C478", "s0A4C8A3"]
+slots = { "FD 2E" = { "source_width" = 117 } }
+where = "battle text, class of the second opposing trainer"
+
+[[layout.code_fill]]
+name = "fill-25"
+ids = ["s0A4C371", "s0A4C3D8", "s0A4C3F2", "s0A4C405", "s0A4C418", "s0A4C4DB"]
+slots = { "FD 32" = { "source_width" = 87 } }
+where = "battle text, class of the player's partner"
+
+# Class 45 with the player's name: 71 + 42 = 113 px.
+# - shown only for trainer 201, in four hosts
+# The widest original class occupies 117 pixels.
+[[layout.code_fill]]
+name = "fill-26"
+ids = ["s03FD1C7", "s03FD3B1", "s0A4C4BD", "s0A4C6FD"]
+slots = { "B_TRAINER1_CLASS" = { "source_width" = 117 } }
+where = "battle text, class of the opposing trainer, class 45"
+
+# Switch prompts: the paired source measures class and name together.
+# Link classes follow the peer identity.
+[[layout.code_fill]]
+name = "fill-27"
+ids = ["s03FD186", "s0A4BA90"]
+slots = { "B_TRAINER1_CLASS" = { "source_width" = 117 } }
+where = "battle text, class and name of the opposing trainer in the switch prompt"
+
+# Union Room trade offer fills
+# - levels: three digits; species: name, not nickname
+[[layout.code_fill]]
+name = "fill-28"
+ids = ["s0457D44"]
+slots = { "F7 00" = { "digits" = 3 }, "F7 01" = {  }, "F7 02" = { "digits" = 3 }, "F7 03" = {  } }
+where = "Union Room trade offer, registered and offered Pokémon"
+
+# {F7 xx} fills of quest log, chat, diploma and prizes.
+# - names: widths in the language policy
+# - numbers: digits; word tables: their strings
+[[layout.code_fill]]
+name = "fill-29"
+ids = ["s041A2E1"]
+slots = { "F7 00" = {  }, "F7 01" = {  } }
+where = "quest log, champion battle"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_DefeatedChampion (pool 0x8115144): slot 0 the player's name (gSaveBlock2Ptr 0x300500C), 1 the rival's name (gSaveBlock1Ptr 0x3005008 + 0x3A4C), 7 characters each"
+
+[[layout.code_fill]]
+name = "fill-30"
+ids = ["s041A312"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  }, "F7 03" = {  } }
+where = "quest log, champion battle send-outs"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_DefeatedChampion (pool 0x8115190): slot 0 the rival's name, 1 and 3 species names (QuestLog_GetSpeciesName: gSpeciesNames, or hash:84342238 s0415A62), 2 the player's name"
+
+[[layout.code_fill]]
+name = "fill-31"
+ids = ["s041A349"]
+slots = { "F7 00" = { font = "font1", strings = ["s041AF98", "s041A762", "s041AF9F"] } }
+where = "quest log, champion battle result"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_DefeatedChampion (pool 0x81151BC): slot 0 one of sDefeatedChampionFlavorTexts 0x456AD8: hash:4eafa9e4, hash:d0f3d10e, hash:a514c0eb"
+
+[[layout.code_fill]]
+name = "fill-32"
+ids = ["s041A422", "s041A477"]
+slots = { "F7 00" = {  }, "F7 01" = { font = "font1", strings = ["s041A502", "s041A506", "s041AFD1"] } }
+where = "quest log, single and double link battles"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_LinkBattledSingle / Double (pools 0x8114574, 0x8114600): slot 0 the partner's name (7 characters, TranslateLinkPartnersName), 1 the outcome, sBattleOutcomeTexts: hash:d5b35203, hash:895f5186, hash:706201d8"
+
+[[layout.code_fill]]
+name = "fill-33"
+ids = ["s041A4C6"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  }, "F7 03" = {  }, "F7 04" = { font = "font1", strings = ["s041A502", "s041A506", "s041AFD1"] } }
+where = "quest log, multi link battle"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_LinkBattledMulti (pool 0x811470C): slots 0-3 the player's and the three partners' names (7 characters), 4 the outcome: hash:d5b35203, hash:895f5186, hash:706201d8"
+
+[[layout.code_fill]]
+name = "fill-34"
+ids = ["s041A566", "s041A59C"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  }, "F7 03" = {  } }
+where = "quest log, moves between PC boxes"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: SwitchedMonsBetweenBoxes (pool 0x8114914) and MovedMonBetweenBoxes (0x8114A9C): slots 0 and 2 box names (GetBoxNamePtr 0x808BD6C, 8 characters), 1 and 3 species names"
+
+[[layout.code_fill]]
+name = "fill-35"
+ids = ["s041A5D9", "s041A60A", "s041A5FA", "s041A632"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  } }
+where = "quest log, moves within a PC box and with the party"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: SwitchedMonsWithinBox (pool 0x811498C), SwitchedPartyMonForPCMon (0x8114A18), MovedMonWithinBox (0x8114B08), WithdrewMonFromPC (0x8114B74): slot 0 the box name (GetBoxNamePtr 0x808BD6C), 1 and 2 species names"
+
+[[layout.code_fill]]
+name = "fill-36"
+ids = ["s041A64F"]
+slots = { "F7 00" = {  }, "F7 01" = {  } }
+where = "quest log, deposit in the PC"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_DepositedMonInPC (pool 0x8114BE0): slot 0 a species name, 1 the box name (GetBoxNamePtr 0x808BD6C)"
+
+[[layout.code_fill]]
+name = "fill-37"
+ids = ["s041A66E"]
+slots = { "F7 00" = {  }, "F7 01" = { font = "font1", strings = ["s041A694"] } }
+where = "quest log, group move in the PC"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_SwitchedMultipleMons (pool 0x8114C64): slot 0 a box name, 1 another box name or hash:e2a4cb03 s041A694, wider than any 8-character box name"
+
+[[layout.code_fill]]
+name = "fill-38"
+ids = ["s041A7DD", "s041A810", "s041A896"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = { digits = 6 } }
+where = "quest log, Poke Mart purchases and sales"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_BoughtItem (pools 0x811556C, 0x81155A0) and SoldItem (0x81156D4): slot 0 the map name (GetMapNameGeneric 0x80C4DF8), 1 the item name (ItemId_GetName 0x809A8BC), 2 the total (ConvertIntToDecimalStringN, 6 digits)"
+
+[[layout.code_fill]]
+name = "fill-39"
+ids = ["s041A858"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  }, "F7 03" = { font = "font1", strings = ["s041A8D4"] } }
+where = "quest log, Poke Mart sale of one item"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_SoldItem (pool 0x811568C; 0x81155F8-0x8115674): slot 0 the player's name, 1 the map name (0x80C4DF8), 2 the item name (0x809A8BC), 3 hash:4de8b965 s041A8D4, or s041A8DD {F7 04} with a 3-digit count (0x8008E78), narrower than hash:4de8b965"
+
+[[layout.code_fill]]
+name = "fill-40"
+ids = ["s041A9A9", "s041A9D4", "s041AA01", "s041AA2B", "s041AA76", "s041AAAA", "s041AAEC", "s041AB29"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = { digits = 3 }, "F7 03" = {  }, "F7 04" = { digits = 3 }, "F7 05" = {  } }
+where = "quest log, wild Pokemon defeated and caught"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_DefeatedWildMon (pools 0x8114F14-0x8114FB8): slot 0 the map name (GetMapNameGeneric 0x80C4DF8), 1 and 3 species names, 2 and 4 the counts (3 digits), 5 the player's name"
+
+[[layout.code_fill]]
+name = "fill-41"
+ids = ["s041AF0C", "s041AF6D"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  }, "F7 03" = {  }, "F7 04" = { font = "font1", strings = ["s041A74E", "s041A756", "s041A762"] } }
+where = "quest log, Gym Leader and trainer battles"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_DefeatedGymLeader (pool 0x8114DE4) and DefeatedTrainer (0x811527C): slot 0 the map name, 1 the trainer's name (gTrainers; the rival's name in DefeatedTrainer), 2 and 3 species names, 4 sDefeatedOpponentFlavorTexts 0x456ACC: hash:bfed8b98, hash:c24c0174, hash:d0f3d10e"
+
+[[layout.code_fill]]
+name = "fill-42"
+ids = ["s041AF3E"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  }, "F7 03" = { font = "font1", strings = ["s041A74E", "s041A756", "s041A762"] } }
+where = "quest log, Elite Four battles"
+evidence = "FireRed quest log (dead), LoadEvent_* of quest_log_events.c: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC: LoadEvent_DefeatedEliteFourMember (pool 0x8115074): slot 0 the trainer's name (gTrainers), 1 and 2 species names, 3 sDefeatedOpponentFlavorTexts: hash:bfed8b98, hash:c24c0174, hash:d0f3d10e"
+
+[[layout.code_fill]]
+name = "fill-43"
+ids = ["s041B306", "s041B32E"]
+slots = { "F7 00" = {  }, "F7 01" = {  } }
+where = "quest log item animation, move forgotten and learned"
+evidence = "0x811D3DC-0x811D3F4 and 0x811D450-0x811D468: DynamicPlaceholderTextUtil_SetPlaceholderPtr 0x813CCAC slot 0 the nickname at state + 0x6C (0x811D0F4, copied by StringCopy at 0x811D0EA), slot 1 the move name at state + 0x84 (0x811D0D0, learned) or + 0x77 (0x811D0C4, forgotten); ExpandPlaceholders 0x813CCC8 of s041B32E (pool 0x811D400) or s041B306 (0x811D478)"
+
+[[layout.code_fill]]
+name = "fill-44"
+ids = ["s041B3AA", "s041B3BE", "s041B3FB", "s041B4C6", "s041B60E"]
+slots = { "F7 00" = {  } }
+where = "Union Room chat log; diploma player line"
+
+[[layout.code_fill]]
+name = "fill-45"
+ids = ["s041B619"]
+slots = { "F7 01" = { font = "font1", strings = ["s041B68F", "s1F0EF08"] } }
+where = "diploma body"
+evidence = "diploma (pool 0x88B4410): slot 1 s041B68F hash:963639e9 or s1F0EF08 (Borrius) by the Pokedex check (0x80F5034 / 0x80F5048)"
+
+[[layout.code_fill]]
+name = "fill-46"
+ids = ["s041CBA9"]
+slots = { "F7 00" = {  }, "F7 01" = { digits = 1 } }
+where = "Pokemon Jump prize message"
+evidence = "pokemon_jump.c PrintPrizeMessage (pool 0x814A534): slot 0 the prize name (CopyItemName to +0x26, 0x814A47E) from the list 0x46B75C, items 138 and 141-147 (Leppa ... Iapapa Berry), slot 1 the quantity (ConvertIntToDecimalStringN, 1 digit); the plural suffix code is skipped (0x814A490 jumps to Unbound's 0x89A2498)"
+
+[[layout.code_fill]]
+name = "fill-47"
+ids = ["s041CD7A"]
+slots = { "F7 00" = {  } }
+where = "Dodrio Berry Picking prize line"
+evidence = "dodrio_berry_picking.c prize text (pool 0x815556C): slot 0 the prize berry name (0x81554EE) from sPrizeBerryIds 0x475558, berries 15-34 = items 148-167 (Razz ... Belue Berry)"
+
+# Frontier trainer names in field text
+[[layout.code_fill]]
+name = "fill-48"
+ids = ["s1F8EBF3", "s1F8EC20", "s1F8EC5C", "s1F8ECC3"]
+slots = { "STR_VAR_1" = { source_width = 60 }, "STR_VAR_2" = { source_width = 45 } }
+where = "Battle Sands announcer, field message box"
+
+
+
+[[layout.code_fill]]
+ids = ["s1F90F9C", "s1F91096", "s1F911A0", "s1F91296", "s1F921A0", "s1F921DE", "s1F9221F",
+       "s1F922E7", "s1F9231D", "s1F9952A", "s1F9954C", "s1F99574", "s1F995D1", "s1F9B245"]
+slots = { "FD 07" = { width = 0 }, "B_PLAYER_MON2_NAME" = { width = 0 } }
+where = "field message box, colour reset from script buffer 5"
+
+[[layout.code_fill]]
+ids = ["s1F99574"]
+slots = { "STR_VAR_1" = { digits = 3 }, "STR_VAR_2" = { digits = 5 } }
+where = "Battle Frontier item quantity and total BP price"
+
+# the summary trainer memo
+# - nature, met level, meeting place
+[[layout.code_fill]]
+name = "fill-49"
+ids = ["s0419782", "s041979D", "s04197B8", "s04197ED", "s0419822", "s0419841", "s0419860", "s041988A", "s04198B4", "s04198D5", "s041992F", "s041996D", "s04199AB", "s04199F4"]
+slots = { "F7 00" = { font = "font1", strings = ["s0463DBC", "s0463DC2", "s0463DC9", "s0463DCF", "s0463DD7", "s0463DDF", "s0463DE4", "s0463DEB", "s0463DF3", "s0463DFA", "s0463DFE", "s0463E04", "s0463E0A", "s0463E12", "s0463E18", "s0463E1E", "s0463E25", "s0463E2A", "s0463E30", "s0463E38", "s0463E3D", "s0463E42", "s0463E49", "s0463E4F", "s0463E57"] }, "F7 01" = { digits = 3 }, "F7 02" = {  } }
+where = "Pokemon summary, trainer memo"
+
+# the Union Room trainer card
+# - class, name, card rank, counts, time
+[[layout.code_fill]]
+name = "fill-50"
+ids = ["s04594C4", "s0459588", "s0459544", "s0459564"]
+slots = { "F7 00" = {  }, "F7 01" = {  }, "F7 02" = {  }, "F7 03" = { digits = 3 }, "F7 04" = { digits = 3 }, "F7 05" = { digits = 2 } }
+where = "Union Room, a partner's trainer card and greeting, field message box"
+
+# the Union Room trainer card record line
+[[layout.code_fill]]
+name = "fill-51"
+ids = ["s0459504"]
+slots = { "F7 00" = { digits = 4 }, "F7 02" = { digits = 4 }, "F7 03" = { digits = 5 }, "F7 04" = {  }, "F7 05" = {  }, "F7 06" = {  }, "F7 07" = {  } }
+where = "Union Room, a partner's trainer card, field message box"
+
+# the Z-move names (GetZMoveName)
+# - move menu, small font: 128 px, the bound
+# - battle message: 180 px in the normal font
+[[layout.code_fill]]
+name = "stat-names"
+ids = ["s03FCB5F", "s03FCB8F", "s03FCB9A", "s0966078", "s0A4C200", "s03FCB75", "s0965C00",
+       "s096DCFD", "s0A4BE45", "s03FB7D5", "s03FB7EE", "s0A4B39A", "s08A9944", "s0A4B2F9",
+       "s03FCB6A"]
+slots = { "B_BUFF1" = { font = "font1", strings = ["s03FD590", "s03FD593", "s03FD59A", "s03FD5A2",
+                                                   "s03FD5A8", "s03FD5B0", "s03FD5B8", "s03FD5C1"] } }
+where = "stat-change messages: battle message window, bag message box"
+
+[[layout.code_fill]]
+ids = ["s0457234", "s0457264", "s0457700"]
+slots = { STR_VAR_1 = { font = "font1", strings = ["s0459394", "s04593A4", "s04593B4", "s04593C4", "s04593D4", "s04593DC", "s04593E4", "s04593F4", "s0459400", "s0459410", "s045941C", "s045942C", "s0459434", "s0459440"] } }
+where = "Union Room activity names"
+
+# the ball changer's question
+[[layout.code_fill]]
+name = "mega-nickname"
+ids = ["s096CC1C", "s096CC5A", "s082FFEC", "s083001C", "s083003C", "s0830068", "s083008C"]
+where = "Mega Evolution and wish messages, unprefixed nickname"
+evidence = ""
+[layout.code_fill.slots."B_BUFF1"]
+width = 60
+
+[[layout.code_fill]]
+name = "mega-keystones"
+ids = ["s096CC1C"]
+where = "Mega Evolution reaction, keystone item name"
+evidence = ""
+[layout.code_fill.slots."B_BUFF2"]
+font = "font1"
+strings = [
+  "items:353", "s0EB920E", "items:119", "items:528", "items:120", "items:527",
+  "items:530", "items:531",
+]
+
+[[layout.code_fill]]
+name = "mega-stones"
+ids = ["s096CC1C"]
+where = "Mega Evolution reaction, held Mega Stone name"
+evidence = ""
+[layout.code_fill.slots."B_LAST_ITEM"]
+font = "font1"
+strings = [
+  "items:446", "items:447", "items:448", "items:449", "items:450", "items:451",
+  "items:452", "items:453", "items:454", "items:455", "items:456", "items:457",
+  "items:458", "items:459", "items:460", "items:461", "items:462", "items:463",
+  "items:464", "items:465", "items:466", "items:467", "items:468", "items:469",
+  "items:470", "items:471", "items:472", "items:473", "items:474", "items:475",
+  "items:476", "items:477", "items:478", "items:479", "items:480", "items:481",
+  "items:482", "items:483", "items:484", "items:485", "items:486", "items:487",
+  "items:488", "items:489", "items:490", "items:491", "items:492",
+]
+
+[[layout.code_fill]]
+name = "mega-species"
+ids = ["s096CC3C"]
+where = "Mega Evolution completion, transformed species name"
+evidence = ""
+[layout.code_fill.slots."FD 34"]
+font = "font1"
+strings = [
+  "species:869", "species:870", "species:871", "species:872", "species:873", "species:874",
+  "species:875", "species:876", "species:877", "species:878", "species:879", "species:880",
+  "species:881", "species:882", "species:883", "species:884", "species:885", "species:886",
+  "species:887", "species:888", "species:889", "species:890", "species:891", "species:892",
+  "species:893", "species:894", "species:895", "species:896", "species:897", "species:898",
+  "species:899", "species:900", "species:901", "species:902", "species:903", "species:904",
+  "species:905", "species:906", "species:907", "species:908", "species:911", "species:912",
+  "species:913", "species:914", "species:915", "species:916", "species:917", "species:918",
+]
+
+[[layout.code_fill]]
+name = "mega-trainers"
+ids = ["s096CC1C", "s096CC5A"]
+where = "Mega Evolution and wish messages, scripting trainer name"
+evidence = ""
+[layout.code_fill.slots."FD 39"]
+font = "font1"
+strings = [
+  "trainer_names:0", "trainer_names:1", "trainer_names:2", "trainer_names:3", "trainer_names:4", "trainer_names:5",
+  "trainer_names:6", "trainer_names:7", "trainer_names:8", "trainer_names:9", "trainer_names:10", "trainer_names:11",
+  "trainer_names:12", "trainer_names:13", "trainer_names:14", "trainer_names:15", "trainer_names:16", "trainer_names:17",
+  "trainer_names:18", "trainer_names:19", "trainer_names:20", "trainer_names:21", "trainer_names:22", "trainer_names:23",
+  "trainer_names:24", "trainer_names:25", "trainer_names:26", "trainer_names:27", "trainer_names:28", "trainer_names:29",
+  "trainer_names:30", "trainer_names:31", "trainer_names:32", "trainer_names:33", "trainer_names:34", "trainer_names:35",
+  "trainer_names:36", "trainer_names:37", "trainer_names:38", "trainer_names:39", "trainer_names:40", "trainer_names:41",
+  "trainer_names:42", "trainer_names:43", "trainer_names:44", "trainer_names:49", "trainer_names:50", "trainer_names:51",
+  "trainer_names:52", "trainer_names:53", "trainer_names:54", "trainer_names:55", "trainer_names:56", "trainer_names:57",
+  "trainer_names:58", "trainer_names:59", "trainer_names:60", "trainer_names:61", "trainer_names:62", "trainer_names:63",
+  "trainer_names:64", "trainer_names:65", "trainer_names:66", "trainer_names:67", "trainer_names:68", "trainer_names:72",
+  "trainer_names:73", "trainer_names:74", "trainer_names:75", "trainer_names:76", "trainer_names:77", "trainer_names:78",
+  "trainer_names:79", "trainer_names:80", "trainer_names:81", "trainer_names:82", "trainer_names:83", "trainer_names:84",
+  "trainer_names:85", "trainer_names:86", "trainer_names:87", "trainer_names:88", "trainer_names:89", "trainer_names:90",
+  "trainer_names:91", "trainer_names:92", "trainer_names:93", "trainer_names:94", "trainer_names:95", "trainer_names:96",
+  "trainer_names:97", "trainer_names:98", "trainer_names:99", "trainer_names:100", "trainer_names:101", "trainer_names:102",
+  "trainer_names:103", "trainer_names:104", "trainer_names:105", "trainer_names:106", "trainer_names:107", "trainer_names:108",
+  "trainer_names:109", "trainer_names:110", "trainer_names:111", "trainer_names:112", "trainer_names:113", "trainer_names:114",
+  "trainer_names:115", "trainer_names:116", "trainer_names:117", "trainer_names:118", "trainer_names:119", "trainer_names:120",
+  "trainer_names:121", "trainer_names:122", "trainer_names:123", "trainer_names:124", "trainer_names:125", "trainer_names:126",
+  "trainer_names:127", "trainer_names:128", "trainer_names:129", "trainer_names:130", "trainer_names:131", "trainer_names:132",
+  "trainer_names:133", "trainer_names:134", "trainer_names:135", "trainer_names:136", "trainer_names:137", "trainer_names:138",
+  "trainer_names:139", "trainer_names:140", "trainer_names:141", "trainer_names:142", "trainer_names:143", "trainer_names:144",
+  "trainer_names:145", "trainer_names:146", "trainer_names:147", "trainer_names:148", "trainer_names:149", "trainer_names:150",
+  "trainer_names:151", "trainer_names:152", "trainer_names:153", "trainer_names:154", "trainer_names:155", "trainer_names:156",
+  "trainer_names:157", "trainer_names:158", "trainer_names:159", "trainer_names:160", "trainer_names:161", "trainer_names:162",
+  "trainer_names:163", "trainer_names:164", "trainer_names:165", "trainer_names:166", "trainer_names:167", "trainer_names:168",
+  "trainer_names:169", "trainer_names:170", "trainer_names:171", "trainer_names:172", "trainer_names:173", "trainer_names:174",
+  "trainer_names:175", "trainer_names:176", "trainer_names:177", "trainer_names:178", "trainer_names:179", "trainer_names:180",
+  "trainer_names:181", "trainer_names:182", "trainer_names:183", "trainer_names:184", "trainer_names:185", "trainer_names:186",
+  "trainer_names:187", "trainer_names:188", "trainer_names:189", "trainer_names:190", "trainer_names:191", "trainer_names:192",
+  "trainer_names:193", "trainer_names:194", "trainer_names:195", "trainer_names:196", "trainer_names:197", "trainer_names:198",
+  "trainer_names:199", "trainer_names:200", "trainer_names:201", "trainer_names:202", "trainer_names:203", "trainer_names:204",
+  "trainer_names:205", "trainer_names:206", "trainer_names:207", "trainer_names:208", "trainer_names:209", "trainer_names:210",
+  "trainer_names:211", "trainer_names:212", "trainer_names:213", "trainer_names:214", "trainer_names:215", "trainer_names:216",
+  "trainer_names:217", "trainer_names:218", "trainer_names:219", "trainer_names:220", "trainer_names:221", "trainer_names:222",
+  "trainer_names:223", "trainer_names:224", "trainer_names:225", "trainer_names:226", "trainer_names:227", "trainer_names:228",
+  "trainer_names:229", "trainer_names:230", "trainer_names:231", "trainer_names:232", "trainer_names:233", "trainer_names:234",
+  "trainer_names:235", "trainer_names:236", "trainer_names:237", "trainer_names:238", "trainer_names:239", "trainer_names:240",
+  "trainer_names:241", "trainer_names:242", "trainer_names:243", "trainer_names:244", "trainer_names:245", "trainer_names:246",
+  "trainer_names:247", "trainer_names:248", "trainer_names:249", "trainer_names:250", "trainer_names:251", "trainer_names:252",
+  "trainer_names:253", "trainer_names:254", "trainer_names:255", "trainer_names:256", "trainer_names:257", "trainer_names:258",
+  "trainer_names:259", "trainer_names:260", "trainer_names:261", "trainer_names:262", "trainer_names:263", "trainer_names:264",
+  "trainer_names:265", "trainer_names:266", "trainer_names:267", "trainer_names:268", "trainer_names:269", "trainer_names:270",
+  "trainer_names:271", "trainer_names:272", "trainer_names:273", "trainer_names:274", "trainer_names:275", "trainer_names:276",
+  "trainer_names:277", "trainer_names:278", "trainer_names:279", "trainer_names:280", "trainer_names:281", "trainer_names:282",
+  "trainer_names:283", "trainer_names:284", "trainer_names:285", "trainer_names:286", "trainer_names:287", "trainer_names:288",
+  "trainer_names:289", "trainer_names:290", "trainer_names:291", "trainer_names:292", "trainer_names:293", "trainer_names:294",
+  "trainer_names:295", "trainer_names:296", "trainer_names:297", "trainer_names:298", "trainer_names:299", "trainer_names:300",
+  "trainer_names:301", "trainer_names:302", "trainer_names:303", "trainer_names:304", "trainer_names:305", "trainer_names:306",
+  "trainer_names:307", "trainer_names:308", "trainer_names:309", "trainer_names:310", "trainer_names:311", "trainer_names:312",
+  "trainer_names:313", "trainer_names:314", "trainer_names:315", "trainer_names:316", "trainer_names:317", "trainer_names:318",
+  "trainer_names:319", "trainer_names:320", "trainer_names:321", "trainer_names:322", "trainer_names:323", "trainer_names:324",
+  "trainer_names:325", "trainer_names:335", "trainer_names:336", "trainer_names:337", "trainer_names:338", "trainer_names:339",
+  "trainer_names:340", "trainer_names:341", "trainer_names:342", "trainer_names:343", "trainer_names:344", "trainer_names:345",
+  "trainer_names:346", "trainer_names:347", "trainer_names:348", "trainer_names:349", "trainer_names:350", "trainer_names:351",
+  "trainer_names:352", "trainer_names:353", "trainer_names:354", "trainer_names:355", "trainer_names:356", "trainer_names:357",
+  "trainer_names:358", "trainer_names:359", "trainer_names:360", "trainer_names:361", "trainer_names:362", "trainer_names:363",
+  "trainer_names:364", "trainer_names:365", "trainer_names:366", "trainer_names:367", "trainer_names:368", "trainer_names:369",
+  "trainer_names:370", "trainer_names:371", "trainer_names:372", "trainer_names:373", "trainer_names:374", "trainer_names:375",
+  "trainer_names:376", "trainer_names:377", "trainer_names:378", "trainer_names:379", "trainer_names:380", "trainer_names:381",
+  "trainer_names:382", "trainer_names:383", "trainer_names:384", "trainer_names:385", "trainer_names:386", "trainer_names:387",
+  "trainer_names:388", "trainer_names:389", "trainer_names:390", "trainer_names:391", "trainer_names:392", "trainer_names:393",
+  "trainer_names:394", "trainer_names:395", "trainer_names:396", "trainer_names:397", "trainer_names:398", "trainer_names:399",
+  "trainer_names:400", "trainer_names:401", "trainer_names:402", "trainer_names:403", "trainer_names:404", "trainer_names:405",
+  "trainer_names:406", "trainer_names:407", "trainer_names:408", "trainer_names:409", "trainer_names:410", "trainer_names:411",
+  "trainer_names:412", "trainer_names:413", "trainer_names:414", "trainer_names:415", "trainer_names:416", "trainer_names:417",
+  "trainer_names:418", "trainer_names:419", "trainer_names:420", "trainer_names:421", "trainer_names:422", "trainer_names:423",
+  "trainer_names:424", "trainer_names:425", "trainer_names:441", "trainer_names:442", "trainer_names:443", "trainer_names:444",
+  "trainer_names:445", "trainer_names:446", "trainer_names:447", "trainer_names:448", "trainer_names:449", "trainer_names:450",
+  "trainer_names:451", "trainer_names:452", "trainer_names:453", "trainer_names:454", "trainer_names:455", "trainer_names:456",
+  "trainer_names:457", "trainer_names:458", "trainer_names:459", "trainer_names:460", "trainer_names:461", "trainer_names:462",
+  "trainer_names:463", "trainer_names:464", "trainer_names:465", "trainer_names:466", "trainer_names:467", "trainer_names:468",
+  "trainer_names:469", "trainer_names:470", "trainer_names:471", "trainer_names:472", "trainer_names:473", "trainer_names:474",
+  "trainer_names:475", "trainer_names:476", "trainer_names:477", "trainer_names:478", "trainer_names:479", "trainer_names:480",
+  "trainer_names:481", "trainer_names:482", "trainer_names:483", "trainer_names:484", "trainer_names:485", "trainer_names:486",
+  "trainer_names:487", "trainer_names:488", "trainer_names:489", "trainer_names:490", "trainer_names:491", "trainer_names:492",
+  "trainer_names:493", "trainer_names:494", "trainer_names:495", "trainer_names:496", "trainer_names:497", "trainer_names:498",
+  "trainer_names:499", "trainer_names:500", "trainer_names:501", "trainer_names:502", "trainer_names:503", "trainer_names:504",
+  "trainer_names:505", "trainer_names:506", "trainer_names:507", "trainer_names:508", "trainer_names:509", "trainer_names:510",
+  "trainer_names:511", "trainer_names:512", "trainer_names:513", "trainer_names:514", "trainer_names:515", "trainer_names:516",
+  "trainer_names:517", "trainer_names:518", "trainer_names:519", "trainer_names:520", "trainer_names:521", "trainer_names:522",
+  "trainer_names:523", "trainer_names:524", "trainer_names:525", "trainer_names:526", "trainer_names:527", "trainer_names:528",
+  "trainer_names:529", "trainer_names:530", "trainer_names:531", "trainer_names:532", "trainer_names:533", "trainer_names:534",
+  "trainer_names:535", "trainer_names:536", "trainer_names:537", "trainer_names:538", "trainer_names:539", "trainer_names:540",
+  "trainer_names:541", "trainer_names:542", "trainer_names:543", "trainer_names:544", "trainer_names:545", "trainer_names:546",
+  "trainer_names:547", "trainer_names:548", "trainer_names:549", "trainer_names:550", "trainer_names:551", "trainer_names:552",
+  "trainer_names:553", "trainer_names:554", "trainer_names:555", "trainer_names:556", "trainer_names:557", "trainer_names:558",
+  "trainer_names:559", "trainer_names:560", "trainer_names:561", "trainer_names:562", "trainer_names:563", "trainer_names:564",
+  "trainer_names:565", "trainer_names:566", "trainer_names:567", "trainer_names:568", "trainer_names:569", "trainer_names:570",
+  "trainer_names:571", "trainer_names:572", "trainer_names:573", "trainer_names:574", "trainer_names:575", "trainer_names:576",
+  "trainer_names:577", "trainer_names:578", "trainer_names:579", "trainer_names:580", "trainer_names:581", "trainer_names:582",
+  "trainer_names:583", "trainer_names:584", "trainer_names:585", "trainer_names:586", "trainer_names:587", "trainer_names:588",
+  "trainer_names:589", "trainer_names:590", "trainer_names:591", "trainer_names:592", "trainer_names:593", "trainer_names:594",
+  "trainer_names:595", "trainer_names:596", "trainer_names:597", "trainer_names:598", "trainer_names:599", "trainer_names:600",
+  "trainer_names:601", "trainer_names:602", "trainer_names:603", "trainer_names:604", "trainer_names:605", "trainer_names:606",
+  "trainer_names:607", "trainer_names:608", "trainer_names:609", "trainer_names:610", "trainer_names:611", "trainer_names:612",
+  "trainer_names:613", "trainer_names:614", "trainer_names:615", "trainer_names:616", "trainer_names:617", "trainer_names:618",
+  "trainer_names:619", "trainer_names:620", "trainer_names:621", "trainer_names:622", "trainer_names:623", "trainer_names:624",
+  "trainer_names:625", "trainer_names:626", "trainer_names:627", "trainer_names:628", "trainer_names:629", "trainer_names:630",
+  "trainer_names:631", "trainer_names:632", "trainer_names:633", "trainer_names:634", "trainer_names:635", "trainer_names:636",
+  "trainer_names:637", "trainer_names:638", "trainer_names:639", "trainer_names:640", "trainer_names:641", "trainer_names:642",
+  "trainer_names:643", "trainer_names:644", "trainer_names:645", "trainer_names:646", "trainer_names:647", "trainer_names:648",
+  "trainer_names:649", "trainer_names:650", "trainer_names:651", "trainer_names:652", "trainer_names:653", "trainer_names:654",
+  "trainer_names:655", "trainer_names:656", "trainer_names:657", "trainer_names:658", "trainer_names:659", "trainer_names:660",
+  "trainer_names:661", "trainer_names:662", "trainer_names:663", "trainer_names:664", "trainer_names:665", "trainer_names:666",
+  "trainer_names:667", "trainer_names:668", "trainer_names:669", "trainer_names:670", "trainer_names:671", "trainer_names:672",
+  "trainer_names:673", "trainer_names:674", "trainer_names:675", "trainer_names:676", "trainer_names:677", "trainer_names:678",
+  "trainer_names:679", "trainer_names:680", "trainer_names:681", "trainer_names:682", "trainer_names:683", "trainer_names:684",
+  "trainer_names:685", "trainer_names:686", "trainer_names:687", "trainer_names:688", "trainer_names:689", "trainer_names:690",
+  "trainer_names:691", "trainer_names:692", "trainer_names:693", "trainer_names:694", "trainer_names:695", "trainer_names:696",
+  "trainer_names:697", "trainer_names:698", "trainer_names:699", "trainer_names:700", "trainer_names:701", "trainer_names:702",
+  "trainer_names:703", "trainer_names:704", "trainer_names:705", "trainer_names:706", "trainer_names:707", "trainer_names:708",
+  "trainer_names:709", "trainer_names:710", "trainer_names:711", "trainer_names:712", "trainer_names:713", "trainer_names:714",
+  "trainer_names:715", "trainer_names:716", "trainer_names:717", "trainer_names:718", "trainer_names:719", "trainer_names:720",
+  "trainer_names:721", "trainer_names:722", "trainer_names:723", "trainer_names:724", "trainer_names:725", "trainer_names:726",
+  "trainer_names:727", "trainer_names:728", "trainer_names:729", "trainer_names:730", "trainer_names:731", "trainer_names:732",
+  "trainer_names:733", "trainer_names:734", "trainer_names:735", "trainer_names:736", "trainer_names:737", "trainer_names:738",
+  "trainer_names:739", "trainer_names:740", "trainer_names:741", "trainer_names:742", "s0A44F4D", "s0A44F52",
+  "s0A44F59", "s0A44F5D", "s0A44F66", "s0A44F6D", "s0A44F71", "s0A44F7B",
+  "s0A44F82", "s0A44F89", "s0A44F91", "s0A44F98", "s0A44F9E", "s0A44FA8",
+  "s0A44FAE", "s0A44FB4", "s0A44FB9", "s0A44FC1", "s0A44FCA", "s0A44FD3",
+  "s0A44FD8", "s0A44FDE", "s0A44FE4", "s0A44FEB", "s0A44FF4", "s0A44FFA",
+  "s0A45000", "s0A45008", "s0A4500D", "s0A45012", "s0A45017", "s0A4501E",
+  "s0A45025", "s0A4502A", "s0A45032", "s0A4503A", "s0A45042", "s0A45047",
+  "s0A45050", "s0A45059", "s0A4505E", "s0A45062", "s0A45069", "s0A4506F",
+  "s0A45075", "s0A4507D", "s0A45084", "s0A4508B", "s0A45092", "s0A45099",
+  "s0A4509F", "s0A450A6", "s0A450AB", "s0A450B0", "s0A450B9", "s0A450C2",
+  "s0A450CA", "s0A450D2", "s0A450DA", "s0A450E2", "s0A450EA", "s0A450EF",
+  "s0A450F5", "s0A450FD", "s0A45105", "s0A4510B", "s0A45112", "s0A45118",
+  "s0A45122", "s0A45128", "s0A4512E", "s0A45134", "s0A4513B", "s0A4513F",
+  "s0A45146", "s0A4514D", "s0A45153", "s0A4515A", "s0A45160", "s0A45165",
+  "s0A4516E", "s0A45175", "s0A4517C", "s0A45181", "s0A45188", "s0A4518E",
+  "s0A45195", "s0A4519D", "s0A451A4", "s0A451AB", "s0A451B3", "s0A451BA",
+  "s0A451C3", "s0A451C9", "s0A451D3", "s0A451D8", "s0A451DE", "s0A451E5",
+  "s0A451EC", "s0A451F6", "s0A44CA0", "s0A44CA5", "s0A44CAA", "s0A44CB2",
+  "s0A44CB8", "s0A44CBE", "s0A44CC7", "s0A44CCD", "s0A44CD4", "s0A44CDB",
+  "s0A44CE1", "s0A44CE7", "s0A44CEF", "s0A44CF9", "s0A44CFF", "s0A44D06",
+  "s0A44D0E", "s0A44D14", "s0A44D1A", "s0A44D21", "s0A44D29", "s0A44D30",
+  "s0A44D3A", "s0A44D40", "s0A44D47", "s0A44D4D", "s0A44D54", "s0A44D59",
+  "s0A44D5E", "s0A44D64", "s0A44D69", "s0A44D71", "s0A44D79", "s0A44D7F",
+  "s0A44D87", "s0A44D8C", "s0A44D93", "s0A44D98", "s0A44DA4", "s0A44DAB",
+  "s0A44DB2", "s0A44DBA", "s0A44DC0", "s0A44DC5", "s0A44DCB", "s0A44DD2",
+  "s0A44DD8", "s0A44DDF", "s0A44DE6", "s0A44DEE", "s0A44DF4", "s0A44DFB",
+  "s0A44E05", "s0A44E0C", "s0A44E10", "s0A44E19", "s0A44E20", "s0A44E27",
+  "s0A44E2E", "s0A44E34", "s0A44E3C", "s0A44E40", "s0A44E49", "s0A44E52",
+  "s0A44E59", "s0A44E60", "s0A44E67", "s0A44E6D", "s0A44E76", "s0A44E7B",
+  "s0A44E82", "s0A44E88", "s0A44E90", "s0A44E97", "s0A44E9F", "s0A44EA6",
+  "s0A44EAA", "s0A44EAF", "s0A44EB5", "s0A44EBC", "s0A44EC4", "s0A44EC9",
+  "s0A44ED1", "s0A44ED8", "s0A44EDD", "s0A44EE6", "s0A44EED", "s0A44EF2",
+  "s0A44EF9", "s0A44F00", "s0A44F07", "s0A44F0D", "s0A44F13", "s0A44F1C",
+  "s0A44F22", "s0A44F29", "s0A44F2F", "s0A44F38", "s0A44F3F", "s0A44F45",
+  "s0A451FF", "s0A45206", "s0A4520D", "s0A45213", "s0A4524B", "s0A45219",
+  "s0A4521F", "s0A45226", "s0A4522F", "s0A45236", "s0A4523E", "s0A45252",
+  "s0A4525A", "s0A45262", "s0A4526B", "s0A45270", "s0A45277", "s0A4527B",
+  "s0A45281", "s0A45287", "s0A4528E", "s0A45297", "s0A4529E", "s0A45242",
+  "s0A45247",
+]
+
+[[layout.code_fill]]
+name = "mega-typed-trainers"
+ids = ["s096CC1C", "s096CC5A"]
+where = "Mega Evolution and wish messages, typed trainer name"
+evidence = ""
+[layout.code_fill.slots."FD 39"]
+width = 42
+
+[[layout.code_fill]]
+name = "trace-source"
+ids = ["s03FC8C2"]
+slots = { B_BUFF1 = {}, B_BUFF2 = {} }
+where = "Trace source name and copied ability"
+
+# The battle:<id> catalog keys
+[[layout.code_fill]]
+name = "last-item-s08A0D00"
+ids = ["s08A0D00"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s08B4EC0"
+ids = ["s08B4EC0"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s08B99B0"
+ids = ["s08B99B0"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s08B9D40"
+ids = ["s08B9D40"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s08BF360"
+ids = ["s08BF360"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s08BF460"
+ids = ["s08BF460"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s0A4AF77"
+ids = ["s0A4AF77"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s03FD8D2"
+ids = ["s03FD8D2"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s0A4B2BF"
+ids = ["s0A4B2BF"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s03FD937"
+ids = ["s03FD937"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "last-item-s03FCCA0"
+ids = ["s03FCCA0"]
+slots = {"B_LAST_ITEM" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "paired-first-trainer"
+ids = ["s03FE9D4", "s0A4C4DB", "s0A4C8A3", "s03FD3C7"]
+slots = {"B_TRAINER1_CLASS" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "paired-trainer-title"
+ids = ["s0A4C88B"]
+slots = {"B_TRAINER1_CLASS" = {}}
+where = "battle message window"
+evidence = ""
+
+[[layout.code_fill]]
+name = "friendship-berry-stats"
+ids = ["s0A4E240", "s0A4E276", "s0A4E299"]
+slots = { "B_COPY_VAR_2" = {  } }
+where = "Party menu friendship berry messages"
+
+[[layout.code_fill]]
+name = "vitamin-stats"
+ids = ["s0417032"]
+slots = { "STR_VAR_2" = {  } }
+where = "Party menu vitamin and wing messages"
+
+[[layout.code_fill]]
+name = "script-berry-stats"
+ids = ["s08C99E3", "s08C9A4C", "s08C9A17"]
+slots = { "STR_VAR_2" = {  } }
+where = "Unused berry script messages"
+
+[[layout.code_fill]]
+name = "training-stat-limit"
+ids = ["s1F96A74"]
+slots = { "STR_VAR_2" = {  } }
+where = "Stat training refusal message"
+
+[[layout.code_fill]]
+name = "daily-stat-request"
+ids = ["s1F85BDD"]
+slots = { "STR_VAR_1" = {  } }
+where = "Daily stat request message"
+
+[[layout.code_fill]]
+name = "training-stat-success"
+ids = ["s1F96B83"]
+slots = { "STR_VAR_2" = {  } }
+where = "Stat training success message"
+
+[[layout.code_fill]]
+name = "effort-raise-stat"
+ids = ["s1F9703A", "s1F970D7", "s1F96F9A"]
+slots = { "STR_VAR_2" = {  } }
+where = "Effort value raising messages"
+
+[[layout.code_fill]]
+name = "effort-reset-stat"
+ids = ["s1F96FEA", "s1F9708C", "s1F9712F"]
+slots = { "STR_VAR_2" = {  } }
+where = "Effort value reset messages"
+
+[[layout.code_fill]]
+name = "effort-raise-amount"
+ids = ["s1F9703A", "s1F970D7"]
+slots = { "STR_VAR_3" = { "digits" = 3 } }
+where = "Effort value raising messages, the number of points"
+

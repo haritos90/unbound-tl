@@ -1,0 +1,791 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/battle-tower\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 66
+#: 0x07464e9
+msgctxt "map:2.10/npc:10/0"
+msgid "map:2.10/npc:10/0"
+msgstr "{COLOR 02}Крук: {COLOR 06}Дайл!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 84
+#: 0x074ac0a
+msgctxt "map:2.10/npc:13/0"
+msgid "map:2.10/npc:13/0"
+msgstr "{COLOR 02}Хитмонтоп: {COLOR 06}Топ!"
+
+#. category: script; mode: field
+#. original lines: 17, widths px: 53, 101, 157, 6, 41, 137, 178, 70, 181, 178, 197, 116, 197, 126, 160, 189, 33
+#: 0x074ae91
+msgctxt "hash:c80cac85"
+msgid "hash:c80cac85"
+msgstr ""
+"???: {COLOR 08}А-а… Точно по расписанию.\\pСкажи, {STR_VAR_1}, как тебя "
+"зовут?\\p…\\p{PLAYER}, верно?\\pНаконец-то мы встретились.\\pЯ Зеф - тот, "
+"кто стоит во главе Теней.\\pМне доложили о твоём вторжении в нашу "
+"лабораторию: теперь ты знаешь, что мы создали.\\pЭто недопустимо.\\pЕсли "
+"о наших опытах узнают, нам придёт конец.\\pНаша тайна должна оставаться в "
+"тени, пока мы не достигнем своих целей."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 164, 178, 135
+#: 0x074b022
+msgctxt "hash:a20ee8a8"
+msgid "hash:a20ee8a8"
+msgstr ""
+"{COLOR 08}Поэтому Айвори даст тебе небольшой стимул держать язык за "
+"зубами."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 49, 131
+#: 0x074b195
+msgctxt "hash:bcd1906d"
+msgid "hash:bcd1906d"
+msgstr "Сюрприз! А теперь - бой!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 185, 61
+#: 0x074b1b8
+msgctxt "hash:492bf7fd"
+msgid "hash:492bf7fd"
+msgstr "Похоже, напугать тебя - ещё не значит победить."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 163, 120
+#: 0x074b1e7
+msgctxt "hash:f27b536f"
+msgid "hash:f27b536f"
+msgstr "Сижу тут в палатке и пугаю всех, кто проходит мимо."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:8d5f3d0a-9ef5-503f-94dc-b4928b8f07aa
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 3, widths px: 67, 152, 53
+#: 0x074b29e
+msgctxt "hash:d8c0afeb"
+msgid "hash:d8c0afeb"
+msgstr "Городок Эпидими\\pУютный городок, окружённый горами."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 77, 182
+#: 0x074b2df
+msgctxt "hash:38ee353a"
+msgid "hash:38ee353a"
+msgstr "Город Фоллшор\\pСтолица водопадов Борриуса."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:2b39b282-6816-5409-b5a7-55709ac65780
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 2, widths px: 52, 177
+#: 0x074b31c
+msgctxt "hash:54e780a5"
+msgid "hash:54e780a5"
+msgstr "Городок Тель\\pГородок вечной осени."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 165, 26, 95
+#: 0x074b381
+msgctxt "hash:898803b2"
+msgid "hash:898803b2"
+msgstr "Бежать по мосту под дождём…\\pЭто потрясающе!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 155
+#: 0x074b3bc
+msgctxt "hash:0b78c6e6"
+msgid "hash:0b78c6e6"
+msgstr "А теперь уже не так потрясающе."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 194, 64
+#: 0x074b3d9
+msgctxt "hash:9437f415"
+msgid "hash:9437f415"
+msgstr "Только бы не поскользнуться и не свалиться с этого моста."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 95, 109, 84
+#: 0x074b40a
+msgctxt "hash:e08efe8b"
+msgid "hash:e08efe8b"
+msgstr "Замри!\\pХочу запечатлеть этот прекрасный миг."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 157, 49
+#: 0x074b441
+msgctxt "hash:f935810f"
+msgid "hash:f935810f"
+msgstr "Ребёнок, бегущий сквозь дождь…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 174, 140, 127, 71
+#: 0x074b5f5
+msgctxt "hash:3b1e8175"
+msgid "hash:3b1e8175"
+msgstr ""
+"Пожалуй, писать картины под дождём - не самая удачная мысль.\\pВсё, что я "
+"рисую, тут же смывает…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 167, 106
+#: 0x074b796
+msgctxt "hash:48971bc9"
+msgid "hash:48971bc9"
+msgstr "Юный тренер, ты не знаешь, во что ввязываешься."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 84, 28
+#: 0x074b7cb
+msgctxt "hash:92e7ddee"
+msgid "hash:92e7ddee"
+msgstr "Ну что ж, эм… Ладно."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 45
+#: 0x074b7fa
+msgctxt "hash:b497c856"
+msgid "hash:b497c856"
+msgstr "Хия-а!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 186, 43
+#: 0x074b811
+msgctxt "hash:0cf04ff2"
+msgid "hash:0cf04ff2"
+msgstr "Жизнь азартного игрока - жизнь без сожалений."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 94
+#: 0x074b83d
+msgctxt "hash:2ca8b101"
+msgid "hash:2ca8b101"
+msgstr "Без боли нет побед!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 189, 161
+#: 0x074b84f
+msgctxt "hash:fbc5ea1e"
+msgid "hash:fbc5ea1e"
+msgstr "Каждый день тренируюсь: бегаю босиком по этим камням."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 96
+#: 0x074b8a7
+msgctxt "hash:e3f7d77c"
+msgid "hash:e3f7d77c"
+msgstr "Моя работа - охранять диких обитателей этой пещеры."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 110
+#: 0x074b8da
+msgctxt "hash:8761ee22"
+msgid "hash:8761ee22"
+msgstr "У меня важная работа."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 120
+#: 0x074bb52
+msgctxt "hash:13c79fb5"
+msgid "hash:13c79fb5"
+msgstr "Ну ты даёшь."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 146, 118
+#: 0x074bb69
+msgctxt "hash:b0d621af"
+msgid "hash:b0d621af"
+msgstr "Я только начало: на этой дороге тебя ждёт ещё много тренеров."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 188, 191
+#: 0x074bb9b
+msgctxt "hash:e2fcdea5"
+msgid "hash:e2fcdea5"
+msgstr "Я только что из пещеры Айсикл, но порох в пороховницах ещё есть!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 28, 187
+#: 0x074bbe2
+msgctxt "hash:ecaadb73"
+msgid "hash:ecaadb73"
+msgstr "Вот досада! В той пещере меня укусил Зубат."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 84
+#: 0x074bc0a
+msgctxt "hash:b0c9ff6f"
+msgid "hash:b0c9ff6f"
+msgstr "У моего друга столько милых покемонов. Я так завидую!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 151, 117
+#: 0x074bc3b
+msgctxt "hash:d787974a"
+msgid "hash:d787974a"
+msgstr "Ты из пещеры Айсикл? А можно мне Свинуба?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 175, 167, 145, 174, 32
+#: 0x074bcad
+msgctxt "map:2.10/npc:12/0"
+msgid "map:2.10/npc:12/0"
+msgstr ""
+"Посмотрим, как они расставят ловушки при тебе, Хитмонтоп!\\pМы будем "
+"царить в {COLOR 06}OU Doubles{COLOR 08}!\\pВсе падут под шипом на твоей "
+"голове!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 93
+#: 0x074bd59
+msgctxt "hash:ef557742"
+msgid "hash:ef557742"
+msgstr "Дневной уход"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 137, 177, 77, 198, 54, 159, 175, 170, 155
+#: 0x074be3d
+msgctxt "hash:8ef661e9"
+msgid "hash:8ef661e9"
+msgstr ""
+"Набрав достаточно опыта, покемоны могут эволюционировать и стать "
+"сильнее.\\pНекоторые даже выучивают особые приёмы после эволюции.\\p"
+"Однако не все покемоны эволюционируют только от боёв.\\pНекоторым нужны "
+"особые предметы: {COLOR 06}Камни огня{COLOR 08} или {COLOR 06}Камни "
+"воды{COLOR 08}."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 152
+#: 0x074bf86
+msgctxt "hash:7226ecf5"
+msgid "hash:7226ecf5"
+msgstr "Айвори: {COLOR 04}Сейчас узнаешь, что будет, если проболтаешься!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 185, 77
+#: 0x074bfc6
+msgctxt "hash:948e4f93"
+msgid "hash:948e4f93"
+msgstr "Будь со мной вся моя команда, победа была бы моей!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 93, 194, 18, 182, 26
+#: 0x074bff6
+msgctxt "hash:c7a50899"
+msgid "hash:c7a50899"
+msgstr ""
+"Зеф: {COLOR 08}Ах, Айвори…\\pКак вы с Марлоном оба могли меня подвести?\\p"
+"Я думал, ты сильнее…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 162, 176, 75
+#: 0x074c058
+msgctxt "hash:13538f73"
+msgid "hash:13538f73"
+msgstr ""
+"Айвори: {COLOR 04}Зеф, мы учёные.\\pПодобные дела - не по нашей части…"
+
+#. reach: never shown (review: Leave text that the game never shows untranslated. Source script entries 0x74C1D1, 0x770E85, 0x770EB2 and 0x76120D have no incoming pointers into their executable ranges. The reachability walk across 534 map headers and 3205 map roots reaches none of these entries. Live signs use separate 0x1F7... strings. Arrow-led extraction catalogs these obsolete copies.)
+#. category: script; mode: field
+#. original lines: 1, widths px: 111
+#: 0x074c1da
+msgctxt "hash:33cba013"
+msgid "hash:33cba013"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 166, 180, 60, 183, 141, 97, 189, 157
+#: 0x074c275
+msgctxt "map:2.10/npc:7/0"
+msgid "map:2.10/npc:7/0"
+msgstr ""
+"На книжной полке у стены есть отличные книги о продвинутых боевых "
+"техниках.\\pСейчас я изучаю разные {COLOR 06}поля{COLOR 08} и их действие "
+"в бою.\\pОбязательно полистай их, если метишь в лучшие."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 24, 181, 80, 194, 191, 168
+#: 0x074c358
+msgctxt "map:2.10/npc:8/0"
+msgid "map:2.10/npc:8/0"
+msgstr ""
+"Ха!\\pЭти {COLOR 06}Накладки защиты{COLOR 08} тебе очень идут, Крук!\\p"
+"Когда нам снова попадётся {COLOR 06}Ферроторн{COLOR 08} с {COLOR "
+"06}Каменной каской{COLOR 08}, его ждёт неприятный сюрприз!"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 195, 74, 171, 50, 188, 165, 107, 162, 171, 197, 135
+#: 0x07a95bc
+msgctxt "map:2.10/npc:9/0"
+msgid "map:2.10/npc:9/0"
+msgstr ""
+"Знаешь, что мне нравится в этой Боевой башне?\\pЗдесь столько всего можно "
+"настроить!\\pМожно поменять музыку боя, уровень покемонов и даже задать "
+"свои ограничения!\\pА главное - башня записывает каждую серию побед "
+"отдельно, так что легко понять, в каком формате у тебя получается лучше "
+"всего!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 172, 141
+#: 0x1f8d3cc
+msgctxt "map:2.1/mapscript:0/17"
+msgid "map:2.1/mapscript:0/17"
+msgstr "Хотите провести ещё одну битву “Метроном”?"
+
+#. category: script; mode: field
+#. used in 8 places
+#. original lines: 1, widths px: 34
+#: 0x1f8d621
+msgctxt "map:2.1/mapscript:0/30"
+msgid "map:2.1/mapscript:0/30"
+msgstr "Палмер"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 16, 94, 139, 106, 81, 199, 157, 192, 74, 201, 119
+#: 0x1f8d628
+msgctxt "map:2.1/mapscript:0/31"
+msgid "map:2.1/mapscript:0/31"
+msgstr ""
+"Привет! Меня зовут Палмер.\\pЯ много о тебе слышал.\\pТы ведь {PLAYER} из "
+"Ледяных Высот?\\pТы гораздо моложе, чем я думал. Что ж, покажи мне.\\p"
+"Покажи узы, что связывают тебя с твоими покемонами.\\pПокажи, чему тебя "
+"научили бои с тренерами!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 161
+#: 0x1f8d72a
+msgctxt "map:2.1/mapscript:0/34"
+msgid "map:2.1/mapscript:0/34"
+msgstr "Проиграть блестящему тренеру вроде тебя совсем не обидно!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 190, 81
+#: 0x1f8d76b
+msgctxt "map:2.1/mapscript:0/35"
+msgid "map:2.1/mapscript:0/35"
+msgstr "Ах, чудесно! Это было потрясающе! Приходи ещё!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 35, 182, 182, 188, 74, 191, 188, 192, 59
+#: 0x1f8d79d
+msgctxt "map:2.1/mapscript:0/37"
+msgid "map:2.1/mapscript:0/37"
+msgstr ""
+"Браво!\\pНаверняка многие тренеры теперь тоже бросят мне вызов.\\pЯ жду "
+"этого с огромным нетерпением.\\pТы станешь ещё искуснее.\\pПродолжай "
+"сражаться с тренерами со всего мира и расти над собой!"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 140, 187, 135, 183, 125, 179, 112
+#: 0x1f8d88d
+msgctxt "map:2.1/mapscript:0/33"
+msgid "map:2.1/mapscript:0/33"
+msgstr ""
+"Подумать только, ты уже здесь!\\pКак Башенный магнат я обязан выложиться "
+"в этом бою полностью.\\pТак лучшие тренеры выражают уважение друг к "
+"другу.\\pСражаясь изо всех сил как преданные ученики мира покемонов!"
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 35, 154, 198, 155, 185, 184, 170, 38, 168, 38, 190, 18
+#: 0x1f8d951
+msgctxt "map:2.1/mapscript:0/39"
+msgid "map:2.1/mapscript:0/39"
+msgstr ""
+"Браво! Моё сердце полно вдохновения!\\pЮный тренер, мир и твоё будущее "
+"полны безграничных возможностей.\\pДуши людей и покемонов взывают друг к "
+"другу, звуча в унисон.\\pИ узы, что их связывают, бесконечно крепки!\\p"
+"Вперёд! Ты можешь стать кем пожелаешь!\\pТвоему пути нет предела!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 190, 183
+#: 0x1f8db49
+msgctxt "map:2.1/mapscript:0/20"
+msgid "map:2.1/mapscript:0/20"
+msgstr "Хотите завершить испытание в Боевом зале “Метроном”?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 70
+#: 0x1f8dd26
+msgctxt "map:2.1/mapscript:0/25"
+msgid "map:2.1/mapscript:0/25"
+msgstr "Башенный магнат"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 161, 165, 137
+#: 0x1f8f63c
+msgctxt "map:2.10/npc:1/0"
+msgid "map:2.10/npc:1/0"
+msgstr ""
+"Добро пожаловать в Боевую башню!\\pЯ ваш гид по Боевым залам одиночных и "
+"двойных битв."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 161, 159, 73
+#: 0x1f8f690
+msgctxt "map:2.10/npc:2/0"
+msgid "map:2.10/npc:2/0"
+msgstr ""
+"Добро пожаловать в Боевую башню!\\pЯ ваш гид по Боевым залам мультибитв."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 161, 127, 130
+#: 0x1f8f6d8
+msgctxt "map:2.10/npc:0/0"
+msgid "map:2.10/npc:0/0"
+msgstr ""
+"Добро пожаловать в Боевую башню!\\pЯ ваш гид по Боевым залам “Метроном”."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 186, 87
+#: 0x1f8f724
+msgctxt "map:2.10/npc:0/1"
+msgid "map:2.10/npc:0/1"
+msgstr "Хотите пройти испытание в Боевом зале?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 188, 96
+#: 0x1f8f756
+msgctxt "map:2.10/npc:1/18"
+msgid "map:2.10/npc:1/18"
+msgstr "Какой Боевой зал вы выберете: одиночных или двойных битв?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 188
+#: 0x1f8f78a
+msgctxt "map:2.10/npc:1/6"
+msgid "map:2.10/npc:1/6"
+msgstr "Какой Боевой зал вы выберете?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 148, 68
+#: 0x1f8f845
+msgctxt "map:2.10/npc:0/7"
+msgid "map:2.10/npc:0/7"
+msgstr "Теперь я провожу вас в Боевой зал."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 148, 72
+#: 0x1f8f86d
+msgctxt "map:2.10/npc:1/17"
+msgid "map:2.10/npc:1/17"
+msgstr "Теперь я провожу вас в Боевой салон."
+
+#. category: script; mode: field
+#. original lines: 27, widths px: 188, 143, 157, 181, 193, 125, 198, 177, 66, 201, 171, 66, 168, 181, 56, 160, 166, 188, 157, 162, 179, 165, 48, 186, 174, 113, 138
+#: 0x1f8f8eb
+msgctxt "map:2.10/npc:1/58"
+msgid "map:2.10/npc:1/58"
+msgstr ""
+"Испытания Боевой башни - это одиночные и двойные битвы, мультибитвы и "
+"битвы “Метроном”.\\pНачатое испытание длится, пока вы не победите "
+"Башенного магната или не решите отдохнуть.\\pВ одиночных битвах можно "
+"участвовать с тремя или шестью покемонами.\\pВ двойных битвах - с "
+"четырьмя или шестью покемонами.\\pБои проходят в Боевых залах, которых в "
+"башне много.\\pВ каждом из Боевых залов вашего вызова ждут тренеры.\\pЗа "
+"каждого побеждённого тренера вы получаете {COLOR 06}боевые очки{COLOR 08} "
+"({COLOR 06}БО{COLOR 08}).\\pЕсли захотите прервать испытание, ваш "
+"результат сохранится до тех пор, пока вы не решите продолжить.\\pЕсли в "
+"какой-то момент вы уйдёте, не сохранившись, вас дисквалифицируют.\\p"
+"Пожалуйста, имейте это в виду!"
+
+#. category: script; mode: field
+#. original lines: 37, widths px: 188, 143, 157, 181, 193, 125, 171, 189, 43, 165, 165, 75, 180, 172, 110, 179, 177, 43, 170, 141, 180, 174, 163, 152, 197, 181, 162, 179, 165, 48, 186, 174, 113, 168, 145, 138, 138
+#: 0x1f8fbef
+msgctxt "map:2.10/npc:1/57"
+msgid "map:2.10/npc:1/57"
+msgstr ""
+"Испытания Боевой башни - это одиночные и двойные битвы, мультибитвы и "
+"битвы “Метроном”.\\pНачатое испытание длится, пока вы не победите "
+"Башенного магната или не решите отдохнуть.\\pВ Боевых залах мультибитв "
+"Боевой башни сражаются вместе с напарником.\\pЧтобы участвовать, "
+"объединитесь с другим тренером: у каждого будет по два или три "
+"покемона.\\pВ башне есть зал под названием Боевой салон, где можно "
+"встретить других тренеров.\\pТам можно найти тренера, который станет "
+"вашим напарником в мультибитвах.\\pМожно также объединиться с другом "
+"через соединительный кабель.\\pКогда напарник найден, вас проводят в "
+"Боевой зал.\\pВ Боевом зале мультибитв вашего вызова ждут пары "
+"тренеров.\\pЗа каждую побеждённую пару вы получаете {COLOR 06}боевые "
+"очки{COLOR 04} ({COLOR 06}БО{COLOR 04}).\\pЕсли захотите прервать "
+"испытание, ваш результат сохранится до тех пор, пока вы не решите "
+"продолжить.\\pЕсли в какой-то момент вы уйдёте, не сохранившись, вас "
+"дисквалифицируют.\\pКроме того, в паре с другом прервать испытание "
+"нельзя.\\pПожалуйста, имейте это в виду!"
+
+#. category: script; mode: field
+#. original lines: 21, widths px: 188, 143, 157, 194, 193, 160, 124, 194, 199, 184, 45, 163, 149, 188, 175, 181, 188, 186, 174, 113, 138
+#: 0x1f9000d
+msgctxt "map:2.10/npc:0/21"
+msgid "map:2.10/npc:0/21"
+msgstr ""
+"Испытания Боевой башни - это одиночные и двойные битвы, мультибитвы и "
+"битвы “Метроном”.\\pВ Боевых залах “Метроном” вы получаете команду из 6 "
+"случайных покемонов, и единственный приём каждого из них - Метроном.\\p"
+"Все бои в Боевых залах “Метроном” проходят как двойные битвы, а серия "
+"побед не записывается.\\pПоэтому испытание длится, пока вы сами не решите "
+"его завершить.\\pЗа каждую победу вы получаете {COLOR 06}10 боевых "
+"очков{COLOR 04} ({COLOR 06}БО{COLOR 04}).\\pОсобые тренеры и Мозг Рубежа "
+"здесь никогда не появляются.\\pЕсли в какой-то момент вы уйдёте, не "
+"сохранившись, вас дисквалифицируют.\\pПожалуйста, имейте это в виду!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 199, 123, 66, 81, 157, 84, 72, 102
+#: 0x1f90295
+msgctxt "map:2.10/npc:1/59"
+msgid "map:2.10/npc:1/59"
+msgstr ""
+"Для своих боёв вы можете настроить следующее:\\p-Категория боёв\\n"
+"-Уровень покемонов\\l-Число покемонов в команде\\l-Инверсная битва\\l"
+"-Музыка боя\\l-Фон боя"
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 155, 192, 128, 143, 170, 65, 198, 126, 186, 124, 161, 172
+#: 0x1f90c0e
+msgctxt "map:2.10/npc:1/67"
+msgid "map:2.10/npc:1/67"
+msgstr ""
+"В двойных битвах формата “Кубок GS”\\nможно брать до двух покемонов\\lиз "
+"ограниченного списка.\\pВ мультибитвах у каждого тренера может быть "
+"только один покемон из этого списка.\\pВ ограниченный список входят, "
+"например, Мьюту и Граудон.\\pКроме того, нельзя повторять виды покемонов "
+"и предметы.\\pЭта категория доступна только в двойных битвах и "
+"мультибитвах."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 166, 135
+#: 0x1f921de
+msgctxt "map:2.10/npc:1/31"
+msgid "map:2.10/npc:1/31"
+msgstr ""
+"В категории {COLOR 06}Монотип{FD 07}\\nбои только на {COLOR 06}уровне "
+"100{FD 07}."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 194, 153
+#: 0x1f9221f
+msgctxt "map:2.10/npc:1/32"
+msgid "map:2.10/npc:1/32"
+msgstr ""
+"В категории {COLOR 06}Стандарт с динамаксом{FD 07}\\nбои только на {COLOR "
+"06}уровне 100{FD 07}."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 176, 76, 145
+#: 0x1f9260f
+msgctxt "map:2.10/mapscript:0/7"
+msgid "map:2.10/mapscript:0/7"
+msgstr ""
+"Поздравляем с победой над Башенным магнатом!\\pБудем рады видеть вас "
+"снова!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 176, 76, 164, 161
+#: 0x1f92658
+msgctxt "map:2.10/mapscript:0/8"
+msgid "map:2.10/mapscript:0/8"
+msgstr ""
+"Поздравляем с победой над Башенным магнатом!\\pВ честь вашей победы мы "
+"вручаем вам этот трофей!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 121, 106
+#: 0x1f926c3
+msgctxt "map:2.10/mapscript:0/9"
+msgid "map:2.10/mapscript:0/9"
+msgstr ""
+"{PLAYER} получает от сотрудника трофей “{COLOR 06}{STR_VAR_1}{COLOR 02}”!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 165, 186
+#: 0x1f92d98
+msgctxt "map:2.10/npc:1/70"
+msgid "map:2.10/npc:1/70"
+msgstr "Перед боем, пожалуйста, поговорите с сотрудницей справа."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 163, 68
+#: 0x1f949fc
+msgctxt "map:2.10/sign:4/0"
+msgid "map:2.10/sign:4/0"
+msgstr "О чём вы хотите узнать?"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 163, 184, 177, 161, 185, 143, 39, 196, 173, 191, 79
+#: 0x1f94a27
+msgctxt "map:2.10/sign:4/6"
+msgid "map:2.10/sign:4/6"
+msgstr ""
+"{COLOR 06}Мегаэволюция{COLOR 02} - временная эволюция, которую покемон "
+"может пройти в бою, если держит {COLOR 06}мегакамень{COLOR 02} своего "
+"вида.\\pЧтобы провести мегаэволюцию, нажмите {F8 04} при выборе приёма.\\p"
+"Мегаэволюционировать может только один покемон в команде, а после боя "
+"мегаформа сменяется исходной формой."
+
+#. category: script; mode: field
+#. original lines: 15, widths px: 195, 153, 148, 170, 90, 143, 185, 138, 149, 177, 198, 151, 174, 193, 119
+#: 0x1f94b70
+msgctxt "map:2.10/sign:4/7"
+msgid "map:2.10/sign:4/7"
+msgstr ""
+"{COLOR 06}Атака-Z{COLOR 02} - особый приём: желания тренера и его "
+"покемона сливаются воедино и раз за бой высвобождают очень мощную "
+"атаку.\\pЕсли такой приём доступен, при выборе приёма нажмите {F8 04}, а "
+"затем {F8 00}.\\pЧтобы использовать атаку-Z, покемон должен держать "
+"особый предмет - {COLOR 06}кристалл-Z{COLOR 02}.\\pБольшинство "
+"кристаллов-Z связано с типом приёма, а некоторые - с видом покемона."
+
+#. category: script; mode: field
+#. original lines: 22, widths px: 125, 167, 186, 166, 191, 176, 128, 196, 181, 99, 177, 190, 182, 145, 188, 136, 172, 166, 65, 147, 143, 39
+#: 0x1f94d38
+msgctxt "map:2.10/sign:4/8"
+msgid "map:2.10/sign:4/8"
+msgstr ""
+"{COLOR 06}Динамакс{COLOR 02} - временное превращение: покемон искажает "
+"пространство и меняет размер.\\pПри динамаксе ОЖ покемона на три хода "
+"увеличиваются, а все его приёмы усиливаются, превращаясь в особые {COLOR "
+"06}приёмы макс{COLOR 02}.\\pУ каждого приёма макс свой эффект, который "
+"зависит от типа исходного приёма.\\pПокемона с фактором гигантамакса "
+"можно гигантамаксировать.\\pЭто особый вид динамакса: покемон не только "
+"становится больше, но и выглядит иначе, чем в обычной форме.\\pУ каждого "
+"гигантамакс-покемона есть собственный приём макс - приём G-Макс.\\pЧтобы "
+"динамаксировать покемона, нажмите {F8 04} при выборе приёма."
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 192, 152, 149, 180, 192, 103, 185, 105, 178, 181, 189, 178
+#: 0x1f94fb5
+msgctxt "map:2.10/sign:4/9"
+msgid "map:2.10/sign:4/9"
+msgstr ""
+"При выборе приёма в бою рядом с ним могут появляться символы.\\pОни "
+"показывают, насколько приём эффективен против цели.\\pЗелёная стрелка "
+"{COLOR 06}{UP_ARROW}{COLOR 02} означает, что приём суперэффективен.\\p"
+"Жёлтая стрелка {COLOR 05}{DOWN_ARROW}{COLOR 02} означает, что приём не "
+"очень эффективен.\\pКрасный крестик {COLOR 07}×{COLOR 02} означает, что "
+"приём вовсе не влияет на цель.\\pА символ + означает бонус за совпадение "
+"типа."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 79
+#: 0x1f95134
+msgctxt "map:2.10/sign:4/1"
+msgid "map:2.10/sign:4/1"
+msgstr "Мегаэволюция"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 41
+#: 0x1f95143
+msgctxt "map:2.10/sign:4/2"
+msgid "map:2.10/sign:4/2"
+msgstr "Атаки-Z"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 41
+#: 0x1f9514b
+msgctxt "map:2.10/sign:4/3"
+msgid "map:2.10/sign:4/3"
+msgstr "Динамакс"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 70
+#: 0x1f95153
+msgctxt "map:2.10/sign:4/4"
+msgid "map:2.10/sign:4/4"
+msgstr "Эффективность"
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 188, 189, 152, 91, 188, 184, 179, 179, 172, 148, 167, 61, 181, 197
+#: 0x1f951e4
+msgctxt "map:2.10/npc:5/0"
+msgid "map:2.10/npc:5/0"
+msgstr ""
+"Из всех моих боёв один запомнился мне больше остальных.\\pСтояла страшная "
+"жара, напряжение было огромным.\\pУ соперницы вышел Ротом-Вентилятор\\nс "
+"Воздушным шаром.\\pДо этого я едва держалась, но при виде этой дважды "
+"парящей причуды природы не выдержала.\\pЯ упала в обморок от изумления и "
+"проиграла бой.\\pНе недооценивай {COLOR 06}Ротома-Вентилятора{COLOR 04}\\n"
+"с {COLOR 06}Воздушным шаром{COLOR 04}!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 193, 182, 63, 189, 125
+#: 0x1f95397
+msgctxt "map:2.10/npc:6/0"
+msgid "map:2.10/npc:6/0"
+msgstr ""
+"Как видишь, Боевой рубеж - отличное место, чтобы испытать свои силы.\\p"
+"Говорят, похожие боевые площадки есть и у Куб Корп."
+
+#. category: script; mode: field
+#. original lines: 17, widths px: 187, 171, 185, 181, 135, 188, 175, 195, 186, 46, 187, 137, 175, 174, 175, 193, 140
+#: 0x1f95425
+msgctxt "map:2.10/npc:4/0"
+msgid "map:2.10/npc:4/0"
+msgstr ""
+"Если ты участвуешь в случайной битве с командой из 3 или 4 покемонов, "
+"перед каждым боем тебе дадут выбрать, с какими случайными покемонами "
+"сражаться.\\pА после победы сможешь выбирать из смеси своей прежней "
+"команды и команды противника!\\pПравда, это работает только в пределах "
+"каждых 10 боёв.\\pПотом тебе предложат совсем новую случайную команду.\\p"
+"Да, и учти: перед случайными мультибитвами тебе всегда предлагают выбрать "
+"команду, ведь полную команду из 6 покемонов там собрать нельзя."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 77
+#: 0x1f98e23
+msgctxt "hash:68c3a980"
+msgid "hash:68c3a980"
+msgstr "У вас {COLOR 06}{STR_VAR_1}{COLOR 02} БО."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 179, 39, 192, 89
+#: 0x1f98e3c
+msgctxt "map:2.10/npc:3/0"
+msgid "map:2.10/npc:3/0"
+msgstr "Добро пожаловать в Пункт обмена!\\pХотите обменять БО на призы?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 152, 109
+#: 0x1f9941a
+msgctxt "map:2.10/npc:3/4"
+msgid "map:2.10/npc:3/4"
+msgstr ""
+"Какой приз вы выберете?\\nУ вас сейчас {COLOR 06}{STR_VAR_1}{STR_VAR_2}"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 179, 39, 192, 97
+#: 0x1f9b1e8
+msgctxt "map:2.10/npc:15/0"
+msgid "map:2.10/npc:15/0"
+msgstr "Добро пожаловать в Пункт обмена!\\pХотите обменять БО на покемонов?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 206, 77
+#: 0x1f9b245
+msgctxt "map:2.10/npc:15/4"
+msgid "map:2.10/npc:15/4"
+msgstr ""
+"Какого покемона вы хотите купить? У вас {COLOR 06}{STR_VAR_1}{FD 07} "
+"БО.\\pПишите название как в Покедексе,\\nс теми же заглавными буквами и "
+"Ё.\\pФорма - через дефис, латиницей:\\n-a Алола, -g Галар, -h Хисуи."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 186, 17
+#: 0x1f9b27f
+msgctxt "map:2.10/npc:15/5"
+msgid "map:2.10/npc:15/5"
+msgstr ""
+"Я не знаю покемона под названием “{STR_VAR_3}”.\\pПроверьте заглавные, "
+"строчные\\nбуквы и Ё."

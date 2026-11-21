@@ -1,0 +1,32 @@
+[[text_prefixes]]
+name = "berry-number-prefix"
+pointer = 0x13D38C
+source = { offset = 0x416226, size = 6, sha256 = "0cc1df52b336a342f90f149f2f73657748c97acff8b8af324926231cb964ea4b" }
+[text_prefixes.limits]
+table = "items"
+where = "Berry Pouch formatted item rows"
+original_width = 71
+original_chars = 12
+width = 82
+chars = 17
+
+[[coverage.unread_reference]]
+at = 0x3DFEC0
+evidence = "item 1 (B1F) of FireRed multichoice list 0x14 (0x3DFEB8: ROOFTOP, B1F, Exit), entry 0x14 of sMultichoiceLists 0x3E04B0 (pools 0x9CB58, 0x9CFD4); the 139 multichoice, multichoicedefault and multichoicegrid commands of the walked scripts open lists 16, 17, 32-36, 39, 47, 50 and 63 only"
+
+[[coverage.unread_reference]]
+at = 0x3E0228
+evidence = "item 0 (B1F) of FireRed multichoice list 0x2A (0x3E0228: B1F, B2F, B4F, Exit), entry 0x2A of sMultichoiceLists 0x3E04B0; no walked multichoice command opens list 0x2A"
+
+[[coverage.unread_reference]]
+at = 0x3E0230
+evidence = "item 1 (B2F) of FireRed multichoice list 0x2A (0x3E0228); no walked multichoice command opens list 0x2A"
+
+[[coverage.unread_reference]]
+at = 0x3E0238
+evidence = "item 2 (B4F) of FireRed multichoice list 0x2A (0x3E0228); no walked multichoice command opens list 0x2A"
+
+[[coverage.unread_reference]]
+at = 0x11383A0
+evidence = "aligned word inside 8-bit sample data (signed bytes varying smoothly, 0x1138300-0x1138440); no PC-relative load reads it; the word beside it (+8, 0x09FFF4E8) addresses 0x1FFF4E8, free space (0xFF) in the base ROM, so it is no pointer either"
+

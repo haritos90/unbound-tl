@@ -1,0 +1,347 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:a7044afd-30ef-5aa5-8275-f8509cbf21da"
+subject = { kind = "research", id = "research:a291dd4a8a6a4451bf0042a70bc53381" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Эйса».", "The name is the default rival name, a ROM string in a field of 7 characters like the player name."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "not in the input lists", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "field length", value = 7, unit = "characters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:91c6a1ef-ff87-57dd-885e-bb163be5dd7d"
+subject = { kind = "research", id = "research:7a1acbef903d4be690447e5a41102dff" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Эклава».", "No pronunciation source is recorded.", "The rendering reads the name as Ak + love [ˈæklʌv], with [æ] → э and [ʌ] → а."]
+reason = ["The spelling-based form «Аклов» looks like a Russian surname, so it is not the selected form."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "Spelling-based form", address = "spelling", quoted_term = "Аклов", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:3347f640-9827-5e9c-a96c-49dec7fb36c0"
+subject = { kind = "research", id = "research:f4f433a52eda4bcf9b34f6fff1efccb1" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is feminine and indeclinable.", "The wiki derives the name from altitude + ice.", "«Алиса» is the traditional form for Carroll's heroine and is not used for modern English bearers of the name."]
+sources = [{ kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }, { kind = "project", name = "Traditional literary form", address = "traditional-literary", quoted_term = "Алиса", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:87352ddd-d8cf-5d1f-8d38-f11db0f4451e"
+subject = { kind = "research", id = "research:f463bfd0ff6a4304b79e8fdb6beb8c5c" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is feminine and declines: «Арабеллы».", "The selected form is the traditional one.", "The character was named Anabella before version 2.0."]
+status = "unreviewed"
+
+[[note]]
+id = "note:00903215-b16b-5e50-8f71-cc5e6cf3b2c8"
+subject = { kind = "research", id = "research:eb9150e5acd64b30a05e28d4f1fbf727" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render \"Grampa Arthur\" as «дедушка Артур»."]
+facts = ["The name is masculine and declines: «Артура».", "The selected form is the traditional one, which Ermolovich keeps."]
+sources = [{ kind = "publication", name = "Ermolovich, Proper names: theory and practice of interlingual transfer", address = "ermolovich-rule", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6ada0339-0ef2-5080-ac8a-ed646bec33dd"
+subject = { kind = "research", id = "research:1041e21057cf4ee890afdbee490dc50a" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and indeclinable.", "Artie is a diminutive of Arthur."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8414737a-ce75-571b-b003-950e5e2bac4f"
+subject = { kind = "research", id = "research:1dba39f277894afa9437bfcee96befc6" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render \"Ayla's PC\" as «ПК Айлы»."]
+facts = ["The name is feminine and declines: «Айлы»."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:0b782fca-f9d3-5975-9dcf-d7d0bf1601fb"
+subject = { kind = "research", id = "research:6b4b3514952a4d7293cdba2965d5b52a" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Decline each name by its own gender.", "Use the plural past tense for the pair.", "Use plural agreement for the lines the pair speaks together."]
+facts = ["Bryce & Mag is a pair of the Young Couple class: Bryce is male and Mag is female.", "The male trainer flag covers the pair."]
+status = "unreviewed"
+
+[[note]]
+id = "note:5598b183-be23-507f-9f55-40cf2ab396cb"
+subject = { kind = "research", id = "research:0d7048e8a7494191861b61608efa6f3e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Write the title in lowercase in running text.", "Address the player with вы."]
+facts = ["The name «Дейви» is masculine and indeclinable."]
+reason = ["He is a seller acting in his role."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:7e6b85c1-1692-50e3-8688-98d0e6472bab"
+subject = { kind = "research", id = "research:fb8c7b6c2d754bc1b773b9f8b5252897" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is feminine and declines: «Синтии».", "The selected form is the Russian wiki form, page «Синтия (игра)»."]
+sources = [{ kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", locator = "Синтия (игра)", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:bde4ab00-b52c-54a8-acd2-ccaa2a7c2a22"
+subject = { kind = "research", id = "research:a282b090a6b24af79307bf54175080b0" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Элайаса».", "The initial unstressed e- becomes э.", "The wiki derives the name from hell + lie.", "«Элайас» keeps the \"lie\" syllable."]
+sources = [{ kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ccf98669-0cd1-5b12-9963-925f19af9ab9"
+subject = { kind = "research", id = "research:08985c0b37ae48a79f49872a5725b920" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Эйлера».", "«Эйлер» is the traditional Russian form of the mathematician's name."]
+reason = ["The pun Euler + log relies on the mathematician's name."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:392a770d-9b33-5c78-863b-7f62536ca1fa"
+subject = { kind = "research", id = "research:4c010279d37e4bd2ac5cfa8592fe6e8f" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Фрэнсиса».", "The name is the default player name, a ROM string of 7 characters at most."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "not in the input lists", verification = "recorded" }]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "field length", value = 7, unit = "characters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:130593ac-8196-5fa5-931d-f603ebaec476"
+subject = { kind = "research", id = "research:1110267ff15a437285559c5cf0d9483c" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is feminine and declines: «Фрезии».", "The wiki builds the name on \"free\".", "The name coincides with the flower «фрезия» (freesia)."]
+sources = [{ kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "not in the input lists", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:903b0118-803a-57c9-90eb-75c8427e57c2"
+subject = { kind = "research", id = "research:f968284c5e94453aafbac220c49abad0" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Decline each name by its own gender.", "Use the plural past tense for the pair.", "Use plural agreement for the lines the pair speaks together."]
+facts = ["GIA & JES is a pair of the Young Couple class: Gia is female and Jes is male.", "The male trainer flag covers the pair."]
+reason = ["The double s of the name is dropped to fit 11 characters."]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "field length", value = 11, unit = "characters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:fb9bd857-be27-54d3-a2cd-8c910dabde81"
+subject = { kind = "research", id = "research:53fca23482a7430f89e0a7756af0b361" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render the title \"Dr. Harth\" as «доктор Харт»."]
+facts = ["The name is masculine and declines: «Харта».", "The English th becomes т."]
+status = "unreviewed"
+
+[[note]]
+id = "note:b5f9a6bf-a479-5184-b8f1-8f511c44be26"
+subject = { kind = "research", id = "research:f306883612bf45aeba9c06c20a520619" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render the title \"Lady Ivory\" as «леди Айвори»."]
+facts = ["The name is feminine and indeclinable, as a foreign female name ending in -и.", "The form follows the project's style rules."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:99aee64a-0926-5c00-ac9b-03ae7749e042"
+subject = { kind = "research", id = "research:412b4524c99c4f2bb48ab2d25db1fcce" }
+scope = { kind = "language", language = "ru" }
+facts = ["«Борриус» is masculine and declines: «короля Борриуса Третьего».", "The name is the same word as the region."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c1e242a8-ce10-5df9-b566-84284d83b2c9"
+subject = { kind = "research", id = "research:e528d8c227bb4120a0472cef4797e74d" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Лога».", "The full name is «профессор Эйлер Лог».", "The wiki reads the name as a Yule log pun.", "With Euler the name is also a mathematician + logarithm pun, which «Эйлер Лог» keeps."]
+sources = [{ kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9a98d9c6-c83c-5b52-b91c-55566935c413"
+subject = { kind = "research", id = "research:b34a4699f9da47199f4fad3243c3ce9e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Address the player with вы."]
+facts = ["The name is masculine and declines: «Лукера».", "The selected form is the Russian wiki name of the canon character, page «Лукер (аниме)».", "ты is the alternative if the relation is read as personal."]
+reason = ["He speaks formally without contractions in the greeting and invitation of hash:67547b66 and is an official."]
+sources = [{ kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", locator = "Лукер (аниме)", relation = "selected_form", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "hash:67547b66" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5144f786-a43b-544d-98c9-7b3475d6bf75"
+subject = { kind = "research", id = "research:fabbd42f51b6447b9fc2182bc2f9fbf5" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Марлона».", "The form follows the project's style rules.", "The Black 2/White 2 Gym Leader has the same English name."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1e980c74-5fca-5c63-8f29-15bcc04e2208"
+subject = { kind = "research", id = "research:7353914ee3fd417b8b953b015983ced2" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render \"Successor Maxima\" as «наследница Максима»."]
+facts = ["The name is feminine and declines: «Максимы».", "The selected form is the traditional form of the Latin name."]
+status = "unreviewed"
+
+[[note]]
+id = "note:5b1d0c75-d25a-5d55-935a-dc0a6b449512"
+subject = { kind = "research", id = "research:5717a7271f8c471a8263591c03a6efa2" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render the short form \"Nat\" as «Нат»."]
+facts = ["The name is feminine and declines: «Наташи».", "The selected form restores the Russian name."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "not in the input lists", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b41b1e7b-13f2-51fe-ae65-0e67d86f931b"
+subject = { kind = "research", id = "research:0d2cd1824fae4af883eec2c17ee4a4d1" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Оука».", "The selected form follows the Russian wiki form «Профессор Оук»."]
+sources = [{ kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", quoted_term = "Профессор Оук", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:89c70950-92d9-54c9-a2a3-2f12cd7c0945"
+subject = { kind = "research", id = "research:62505e9853264666bc6a2c3cc3ee805d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Decline each name by its own gender.", "Use the plural past tense for the pair.", "Use plural agreement for the lines the pair speaks together."]
+facts = ["Ray & Tyra is a pair of the Camping Duo class: Ray is male and Tyra is female.", "The male trainer flag covers the pair."]
+status = "unreviewed"
+
+[[note]]
+id = "note:88ffdd7e-66e5-507b-b7f4-ea9c62931973"
+subject = { kind = "research", id = "research:0b9c084405df482c9ab662bda8438344" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and indeclinable.", "The input term \"Scamo\" is a fragment of \"El-Scamo\".", "The name is a pun on scam."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:da92b21b-36a1-58a8-8e4b-16b46951b897"
+subject = { kind = "research", id = "research:c5e17a03d14f4a35a47992c3a10f8fcd" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and indeclinable.", "Skeli is a developer nickname."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a4c63fc1-400e-5366-95c3-ae8d71958e88"
+subject = { kind = "research", id = "research:f6661262e27a4958b28e3d882c0c725f" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Address the player with вы."]
+facts = ["The name is feminine and declines: «Тилы»."]
+reason = ["Service staff in this role use вы."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "proper-nouns.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:adc81bbf-5620-54d1-b2e6-425a60334df2"
+subject = { kind = "research", id = "research:606a877130a846458b8af67b92ac32b9" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: «Танасиса».", "Thanasis is a Greek name (Θανάσης), and th becomes т."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "not in the input lists", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:fcc30559-3446-5efc-9b81-4b07e94d35a4"
+subject = { kind = "research", id = "research:03248c3e75cd40edb38ed56be02f6c0d" }
+scope = { kind = "language", language = "ru" }
+facts = ["The selected form follows the French reading /ɡi/.", "The name is masculine and indeclinable.", "The author-intended interpretation and pronunciation remain unconfirmed.", "This Guy is separate from the father label in hash:695a6a26."]
+sources = [{ kind = "web", name = "Collins Dictionary: Guy", address = "collins-guy", relation = "selected_form", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "hash:695a6a26" }, { kind = "research", id = "research:075473453faf456789e8d70dd59b1b67" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:900be01e-8f6c-56af-ae18-66db6ed99974"
+subject = { kind = "research", id = "research:5da08be61f394886ae6ebf902eee3f5f" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Read Eli as Ellie and render the pair as «Эли и Энн»."]
+facts = ["The pair consists of Twins, two girls.", "The names are feminine and indeclinable.", "The trainer class is Twins «Двойня»."]
+reason = ["The selected name and class match character:eli-anne, trainer-class:twins and their catalog entries."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", relation = "alternative", verification = "recorded", quoted_term = "Илай и Энн" }, { kind = "project", name = "Project rendering", address = "own", relation = "alternative", verification = "recorded", quoted_term = "Элли и Энн" }, { kind = "rom", name = "Game text", address = "game-text", relation = "context", verification = "recorded", locator = "table:trainer_names/484; table:trainer_classes/92" }]
+related_subjects = [{ kind = "term", id = "character:eli-anne" }, { kind = "term", id = "trainer-class:twins" }, { kind = "entry", id = "table:trainer_names/484" }, { kind = "entry", id = "table:trainer_classes/92" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5cf9741c-fbf7-5ff2-94e1-45ce160fe006"
+subject = { kind = "research", id = "research:fa98b31c0d1349e0a733d4c6b2e9a0f1" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render the letter name G as «Джи»."]
+facts = ["The name is masculine and declines: «Джи-Рафса».", "The name is a pun on Gruff + roughs."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d248fb77-2b84-50fd-bb31-3acb2e177015"
+subject = { kind = "research", id = "research:d5bb25344a594f07baf727226db13ab1" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render [ʌ] as а."]
+facts = ["The name is masculine and declines: Граффа."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:df2f4947-f827-5dfc-9aa0-b83c9e4b5b78"
+subject = { kind = "research", id = "research:d4b6d068fe0e4e60b161c4b8e3b7a066" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: Джеймса.", "Several unrelated trainers share the name: Bug Catcher, Bird Keeper and a female Beauty."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b4d5d527-33a0-5c7f-9868-1a04d02a6ebb"
+subject = { kind = "research", id = "research:5f33de8cf8e04dfeaf798beac2a77411" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines: Джекса.", "The form follows the project's style rules ([æ] after дж → е)."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:f80d18ea-91ac-5398-8756-75e8caf9c79f"
+subject = { kind = "research", id = "research:e46e5588f2b3445c88ee3e390d95022a" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the masculine form «Милан» despite the female trainer flag."]
+facts = ["Milan is a male name in Slavic use, but the trainer is flagged female here.", "The name is masculine and declines."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:98633f97-8c87-5952-b6f9-d0a9bf6992aa"
+subject = { kind = "research", id = "research:4dce2e4ea55a4d2eb5cd6505a50e4c25" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render [ɜː] as ё.", "Render final -le as л."]
+facts = ["The name is masculine and declines: Мёрскла.", "The name comes from myrrh [mɜː] according to the wiki."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Unbound Wiki (Miraheze), read through the MediaWiki API on 2026-10-18", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:37b7c702-bed2-5a39-b6e0-4da17bce01d6"
+subject = { kind = "research", id = "research:b335e8c1338846619e49789e93b22f93" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render -man as -мен.", "In dialogue, \"the Mole-man … mole-people\" can be rendered «человек-крот … люди-кроты» while the name stays Моулмен."]
+facts = ["The name is masculine and declines: Моулмена."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:f47dbfb1-d896-5c16-a3de-7212ce22c0b2"
+subject = { kind = "research", id = "research:538965e65eca498ea26c91782acecdab" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is masculine and declines like a noun in -а: Веги, Веге (as Никита).", "The character is named after the lunar crater Vega (wiki), Russian «кратер Вега»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Unbound Wiki (Miraheze), read through the MediaWiki API on 2026-10-18", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:30311a42-b946-5a31-a834-38639da505d8"
+subject = { kind = "research", id = "research:889587f1294f41f7b99ad31e54d4e89e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render [zef] as Зеф."]
+facts = ["The name is masculine and declines: Зефа, Зефу, Зефом."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"

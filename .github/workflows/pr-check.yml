@@ -1,0 +1,50 @@
+name: Pull request checks
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Detect catalog, policy, engine rule and note inputs
+        id: changed
+        run: |
+          changed="$(git diff --name-only "origin/${GITHUB_BASE_REF}...HEAD")"
+          printf '%s\n' "$changed"
+          if printf '%s\n' "$changed" | grep -E '^(translation/[^/]+/(po/|notes/|research/[^/]+\.notes\.toml$|rules\.toml$|glossary\.tsv$|policy\.toml$)|profile/|profiles/|families/|source/|assets/lang/|project(s)?\.toml$)' >/dev/null; then
+            echo "catalog=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "catalog=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v7
+        if: steps.changed.outputs.catalog == 'true'
+        with:
+          python-version: '3.13'
+      - uses: ./.github/actions/toolkit
+        if: steps.changed.outputs.catalog == 'true'
+      - name: Record pull request number
+        if: steps.changed.outputs.catalog == 'true'
+        run: |
+          mkdir -p pr-check
+          printf '%s\n' '${{ github.event.pull_request.number }}' > pr-check/pr-number.txt
+      - name: Check combined catalog and engine rule behavior
+        if: steps.changed.outputs.catalog == 'true'
+        run: |
+          base="$(git merge-base HEAD "origin/${GITHUB_BASE_REF}")"
+          python -m gen3tl check pr --base "$base" --out pr-check
+      - name: Upload report and approximate previews
+        if: always() && steps.changed.outputs.catalog == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: pr-check
+          path: pr-check
+          if-no-files-found: error
+          retention-days: 14

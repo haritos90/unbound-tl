@@ -1,0 +1,36 @@
+[pokedex.evolution]
+index = "slot"
+base = 0x19F3A7A
+stride = 128
+slots = 16
+record = 8
+stop = 0
+tile_methods = [34]
+evidence = "x128 + slot x 8 accessor at 0x42F66 / 0x43182 (ldr 0x099F3A7A; lsls/lsls #3), six pointers; nine species fit the arithmetic exactly, and the only method-28 record (Rockruff to Lycanroc) carries extra = 0x1114, hours 17 and 20, the two hours this profile already records"
+
+[pokedex.evolution.form_kinds.mega]
+method = 254
+parameter_min = 1
+extras = [0, 2]
+
+[pokedex.evolution.form_kinds.primal]
+method = 254
+parameter_min = 1
+extras = [1]
+
+[pokedex.evolution.form_kinds.ultra]
+method = 254
+parameter_min = 1
+extras = [3]
+
+[pokedex.evolution.parameter_kinds.move]
+method = 254
+parameter_min = 1
+extras = [2]
+
+[pokedex.evolution.fields]
+method = { offset = 0, width = 2 }
+parameter = { offset = 2, width = 2 }
+target = { offset = 4, width = 2 }
+extra = { offset = 6, width = 2 }
+

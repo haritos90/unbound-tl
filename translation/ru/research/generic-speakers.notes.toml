@@ -1,0 +1,347 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:505c036c-90b4-5f91-8c03-386bed73139e"
+subject = { kind = "research", id = "research:8a1fff3395fc4ea2aa22a666e11ab818" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use «Агент» for male and female Shadow grunts; do not use «агентка».", "Keep «Боец» as a variant.", "Use «Адепт» for the Light of Ruin; the scene determines the faction label."]
+facts = ["The English Grunt labels both factions; this research row records the Shadow form «Агент».", "The form matches the trainer class Shadow → «Агент Теней» and the PokéRogue form «Агент Команды Ракет»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Агент Теней", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "Агент Команды Ракет", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv, trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:971d0b5d-abcf-57cf-a057-c5b0c89d22b2"
+subject = { kind = "research", id = "research:28540750aeb04cf69274936cd6ee393c" }
+scope = { kind = "language", language = "ru" }
+facts = ["Shadow Grunt names a grunt of the Shadows, called Ronald in the scene with Billy.", "The form follows the trainer class Shadow → «Агент Теней»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Агент Теней", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:53c448be-0f8d-5caf-a881-eeb4ddd85a88"
+subject = { kind = "research", id = "research:da0f5d43adda434dbaca7d75f624c627" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use «Адепт Света гибели» for LOR Grunt; the label has no abbreviation.", "Keep «Агент СГ» only as a previous variant."]
+facts = ["LOR Grunt names a grunt of the Light of Ruin (Billy).", "LOR stands for Light of Ruin, which the trainer classes render as «Свет гибели»."]
+reason = ["Speaker labels have no fixed limit, so no abbreviation is needed."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Свет гибели", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:f1d79f25-1e2f-5ce2-bcd8-dabd0de52f31"
+subject = { kind = "research", id = "research:c9674c7bf9d24549b4c4d88d9c092787" }
+scope = { kind = "language", language = "ru" }
+facts = ["Goon names a gang member of the Terror Granbull, Black Ferrothorn, Black Emboar or Black Horizon.", "«громила» is a common-gender noun, which also covers the 2 female Black Horizon goons."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv, trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ffed077f-70e3-581d-ad03-c0ee58c7867d"
+subject = { kind = "research", id = "research:1693c68046d74048a3ccb1136aeb09eb" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Address the player with ты."]
+facts = ["The speaker is a police officer questioning the player about Mirskle (\"Hey, kid!\").", "The trainer class Officer is rendered «Офицер»."]
+reason = ["The familiar \"kid\" makes ты natural, although the project's style rules give officials вы."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Офицер", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:18dba452-3462-55c5-ac73-785c2d4d7552"
+subject = { kind = "research", id = "research:0aa324440b4f491dbd955124f8dfc88e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["See the finding for Officer 1."]
+facts = ["The speaker is the second officer, whom Officer 1 names Frank."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+related_subjects = [{ kind = "research", id = "research:1693c68046d74048a3ccb1136aeb09eb" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:dce88ba7-bf5c-5d89-a9df-f2098004c521"
+subject = { kind = "research", id = "research:6b9ac967e6074763ae5f51ca6e7de63c" }
+scope = { kind = "language", language = "ru" }
+facts = ["The trainer class Burglar is rendered «Воришка», a common-gender noun.", "The \"her\" the speaker talks about is the Ninetales, not himself."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Воришка", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:0c4e7055-76c7-5904-889a-ab4457f493b6"
+subject = { kind = "research", id = "research:328d6e3fe5c54c0098080bd9aa8190ab" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use the feminine «учёная» (PokéRogue) for the female table entries."]
+facts = ["Scientist is both a speaker label and a placeholder trainer name.", "The trainer class Scientist is rendered «Учёный»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Учёный", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localisation", address = "pokerogue-ru", quoted_term = "учёная", relation = "context", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv, trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b1915e74-4b37-586a-951f-9f9aa463c9a6"
+subject = { kind = "research", id = "research:836b41a16b8c4e6c8481484f705a0c7a" }
+scope = { kind = "language", language = "ru" }
+facts = ["The speaker is Harth's wife in the Route 9 scene.", "The project's style rules use «Жена» as their example."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", quoted_term = "Жена", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:bbb60c10-895d-5d91-8db0-3385b5607a1a"
+subject = { kind = "research", id = "research:075473453faf456789e8d70dd59b1b67" }
+scope = { kind = "language", language = "ru" }
+facts = ["Guy is the generic father label in hash:695a6a26.", "This label is distinct from the Fisherman Guy, trainer record 123."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv only", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "hash:695a6a26" }, { kind = "research", id = "research:03248c3e75cd40edb38ed56be02f6c0d" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:717e959f-e1c3-5f2d-bf05-025bfcce0f47"
+subject = { kind = "research", id = "research:dec08ea91b1645ad9ea88eb885e2b626" }
+scope = { kind = "language", language = "ru" }
+facts = ["The speaker is James as leader of the Black Emboar, demanding an end to interference with the gang in map:6.9/mapscript:0/1."]
+reason = ["He is not a Gym Leader, so the form is not «Лидер»."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "map:6.9/mapscript:0/1" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ad8a968d-562b-5c41-90d0-c9b28f7e820f"
+subject = { kind = "research", id = "research:cf907f4cf03c4dec9ae8d0b317b90d1a" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label is not a speaker: \"They read: {STR_VAR_1}\" introduces numbers on a crate.", "«Цифры:» is the alternative."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:01325eb1-4cd2-5c42-963e-43e529a846c3"
+subject = { kind = "research", id = "research:77b91b73f75f4b3ebc84ec6ebfcc5a00" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "The variant is the fandom-ru form, listed for reference only.", "Hoopa is a story character: Aros's former partner and Aklove's Pokémon.", "The wiki gives no gender for Hoopa."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", quoted_term = "Хуппа", relation = "alternative", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b5a8528d-72d9-5ae1-9264-3fbcf887c225"
+subject = { kind = "research", id = "research:77b91b73f75f4b3ebc84ec6ebfcc5a00" }
+scope = { kind = "language", language = "ru" }
+facts = ["The note says that a wiki gives no gender, but neither the note nor the fixed data identifies which wiki.", "The Hoopa research row lists species-name sources and a fandom-ru spelling, without a wiki page supporting the gender claim.", "The wiki name, Hoopa page and passage supporting the absence of gender information are needed."]
+status = "needs_review"
+
+[[note]]
+id = "note:35019cea-88b1-5297-b21b-d0a4983ccb0d"
+subject = { kind = "research", id = "research:6e37ae78c4c2471c9f110ae8a7d948bc" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "The variant is the fandom-ru form, listed for reference only."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", quoted_term = "Элективайр", relation = "alternative", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:95ef8779-9a4a-534a-ad91-7f3aaf5da97e"
+subject = { kind = "research", id = "research:a8a7ebe7c0db4cffbb705b0c0b5fb545" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise.", "Feminine agreement is possible."]
+facts = ["The speaker label is a species name from species.tsv.", "The variant is the fandom-ru form, listed for reference only."]
+reason = ["Floette is an all-female species."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", quoted_term = "Флоэтт", relation = "alternative", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:46263b74-ddf0-5521-ac08-bbf2f263e91d"
+subject = { kind = "research", id = "research:94271b877316429fa77162f44afa2f72" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "The variant is the fandom-ru form, listed for reference only.", "Chansey is an all-female species."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", quoted_term = "Ченси", relation = "alternative", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a8dce0b7-8757-590d-9e65-c8ed21d33aa9"
+subject = { kind = "research", id = "research:b3dc89f3e4fe45bb80e8c76912c519c7" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "No variant is recorded."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom", relation = "selected_form", verification = "recorded", quoted_term = "Хитмонтоп" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:813cb89d-b02e-5da5-8e9b-1eb7b165afc7"
+subject = { kind = "research", id = "research:680a9917771442eb9d3ce97d866b3cce" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "The ROM spells the species Crabminble.", "No variant is recorded."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom", relation = "selected_form", verification = "recorded", quoted_term = "Крабаминабл" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:f2a0af53-c609-5eea-af5c-d93e69908026"
+subject = { kind = "research", id = "research:59af730429404fcebdd43e9b10184e0d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "No variant is recorded."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom", relation = "selected_form", verification = "recorded", quoted_term = "Сэндслэш" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c6470b47-c885-5344-899e-ee9d7743a79d"
+subject = { kind = "research", id = "research:f773c9c6fc4247238fe8bbfdfd3ddc0e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "No variant is recorded."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom", relation = "selected_form", verification = "recorded", quoted_term = "Лапрас" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2e515442-e890-5099-89f9-090ea30b7a7d"
+subject = { kind = "research", id = "research:efc7ad950bc54184a0cedefd86ce1090" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "No variant is recorded."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom", relation = "selected_form", verification = "recorded", quoted_term = "Гравелер" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:33530cc1-7cad-5659-b416-720fb331dc86"
+subject = { kind = "research", id = "research:c2a217ba25b14795a35f31407e18c7c8" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise."]
+facts = ["The speaker label is a species name from species.tsv.", "The variant is the fandom-ru form, listed for reference only."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", quoted_term = "Крукодайл", relation = "alternative", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a0ca5785-08a2-543e-a954-933b724542f1"
+subject = { kind = "research", id = "research:387f31bc9d994db3aa771b6b116fcca7" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Take the species name from the species glossary, which is researched separately.", "Use masculine agreement through «покемон» unless stated otherwise.", "Use masculine agreement and address the player with ты."]
+facts = ["The speaker label is a species name from species.tsv.", "The variant is the fandom-ru form, listed for reference only.", "Arceus speaks as a deity, announcing judgement in map:1.118/npc:1/11."]
+sources = [{ kind = "project", name = "Project style rules", address = "project-style", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki на русском (Покепедия)", address = "fandom-ru", quoted_term = "Аркеус", relation = "alternative", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "map:1.118/npc:1/11" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:aec96ad2-556b-5dd7-966d-57a34cde95f4"
+subject = { kind = "research", id = "research:d586aaf41ea2444c9b235b47b49b8a43" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Transcribe the nickname like a name.", "Let the cry \"Dile!\" follow the species name."]
+facts = ["Krook is the nickname of a Krookodile addressed with praise for its Protective Pads in map:2.10/npc:8/0."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "speakers.tsv", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "map:2.10/npc:8/0" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a56d97d6-ae79-54be-884c-3b7e89ea47c1"
+subject = { kind = "research", id = "research:9695f498b22f4bb8896af3d1cf44cf4d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Leave the name empty."]
+facts = ["The trainer name is empty in 3 entries: Boarder x2, Super Nerd x1."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:120a24f2-a022-5447-bed0-f4c81e66246e"
+subject = { kind = "research", id = "research:d093b9faef654180bb4941623dbc7e5b" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the eleven spaces as they are."]
+facts = ["The name is eleven spaces at index 0, the dummy trainer, and at index 54, a trainer of the class Leader."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2e9dec30-8838-5074-b4e0-6cd0c70955a1"
+subject = { kind = "research", id = "research:7f482bdcec304364b2d32bdce96ccede" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use «Агент» with normal capitalization."]
+facts = ["GRUNT is an all-caps FireRed-style grunt name of the class Shadow.", "The release 1.0.2 trainer-name catalog selects «Агент»; «АГЕНТ» is an earlier research variant."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }, { kind = "project", name = "Release 1.0.2 catalog", address = "git:e2f15b123e60db304394c224d3826b0babe0a82d:translation/ru/po/tables/trainer_names.po", locator = "table:trainer_names/390", quoted_term = "Агент", relation = "selected_form", verification = "checked" }, { kind = "project", name = "Earlier research selection", address = "git:e2f15b123e60db304394c224d3826b0babe0a82d:translation/ru/research/generic-speakers.tsv", locator = "research:7f482bdcec304364b2d32bdce96ccede", quoted_term = "АГЕНТ", relation = "alternative", verification = "checked" }, { kind = "project", name = "Released class and battle wording", address = "git:e2f15b123e60db304394c224d3826b0babe0a82d:translation/ru/po", locator = "table:trainer_classes/85, hash:58043a61, hash:723e805b, hash:23344f89", relation = "context", verification = "checked" }]
+related_subjects = [{ kind = "entry", id = "table:trainer_names/390" }, { kind = "entry", id = "table:trainer_classes/85" }, { kind = "entry", id = "hash:58043a61" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ea30d8b7-b86c-5805-9f79-f2183399a8c9"
+subject = { kind = "research", id = "research:aa316588bcf34a9689711acef7090ac4" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use «Спецагент» after the class label «Теневой».", "Keep the masculine role noun; use feminine agreement when these trainers speak about themselves."]
+facts = ["Grunt Elite names a stronger Shadow grunt of the class Shadow, female x2.", "«Элитный агент» has 13 characters and would not fit the 11-character field.", "The release 1.0.2 trainer-name catalog selects «Спецагент»; «Агент-элита» is an earlier research variant.", "«Спецагент» uses 9 of the 11 characters available in the name field."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }, { kind = "project", name = "Release 1.0.2 catalog", address = "git:e2f15b123e60db304394c224d3826b0babe0a82d:translation/ru/po/tables/trainer_names.po", locator = "table:trainer_names/665, table:trainer_names/667", quoted_term = "Спецагент", relation = "selected_form", verification = "checked" }, { kind = "project", name = "Earlier research selection", address = "git:e2f15b123e60db304394c224d3826b0babe0a82d:translation/ru/research/generic-speakers.tsv", locator = "research:aa316588bcf34a9689711acef7090ac4", quoted_term = "Агент-элита", relation = "alternative", verification = "checked" }, { kind = "project", name = "Released class and battle wording", address = "git:e2f15b123e60db304394c224d3826b0babe0a82d:translation/ru/po", locator = "table:trainer_classes/85, hash:58043a61, hash:723e805b, hash:23344f89", relation = "context", verification = "checked" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "alternative length", value = 13, unit = "characters" }, { name = "field length", value = 11, unit = "characters" }, { name = "selected length", value = 9, unit = "characters" }] }]
+related_subjects = [{ kind = "entry", id = "table:trainer_names/665" }, { kind = "entry", id = "table:trainer_names/667" }, { kind = "entry", id = "table:trainer_classes/85" }, { kind = "entry", id = "hash:58043a61" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c04a07de-09f6-5269-97e3-833bb0bb10b1"
+subject = { kind = "research", id = "research:ab3805c8b18b41e2b13c24dbb74f1c19" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label belongs to rival battles.", "The game shows the rival's chosen name ({RIVAL}, default Ace → «Эйс»), so this label is probably never displayed.", "The trainer class Rival is rendered «Соперник»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Соперник", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:254e2558-210b-50a8-9d1b-fecaa6ce6b83"
+subject = { kind = "research", id = "research:eb2aee6bf0954bc588ae1dc013a6f6d1" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label belongs to rival battles.", "The game shows the rival's chosen name ({RIVAL}, default Ace → «Эйс»), so this label is probably never displayed.", "The trainer class Rival is rendered «Соперник»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Соперник", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1d7fb9f9-4c88-5ca0-9d00-3488585d4707"
+subject = { kind = "research", id = "research:a0c64629dc1149ad96f9c9a6dd55a74e" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label belongs to rival battles.", "The game shows the rival's chosen name ({RIVAL}, default Ace → «Эйс»), so this label is probably never displayed.", "The trainer class Rival is rendered «Соперник»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Соперник", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8cd24216-490c-51fe-a541-b1c5ada71e73"
+subject = { kind = "research", id = "research:c40d54eb1ee74072813849414cf33c22" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label belongs to rival battles.", "The game shows the rival's chosen name ({RIVAL}, default Ace → «Эйс»), so this label is probably never displayed.", "The trainer class Rival is rendered «Соперник»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Соперник", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:64861b6d-41c6-5bba-9f23-737a324e0bde"
+subject = { kind = "research", id = "research:3af4fbfad95047ba8cf5b2eb1054bcd8" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label belongs to rival battles.", "The game shows the rival's chosen name ({RIVAL}, default Ace → «Эйс»), so this label is probably never displayed.", "The trainer class Rival is rendered «Соперник»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Соперник", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:866d5d90-0797-5f78-85a2-8aafce6b38af"
+subject = { kind = "research", id = "research:3ea3953073704c7da55e3c984c2df218" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label belongs to rival battles.", "The game shows the rival's chosen name ({RIVAL}, default Ace → «Эйс»), so this label is probably never displayed.", "The trainer class Rival is rendered «Соперник»."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Соперник", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:82bf5e12-5fab-5d2f-8284-fbcf7927e418"
+subject = { kind = "research", id = "research:aee49494ee374a178c93443aee095304" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label belongs to rival team-up battles.", "The game shows the rival's chosen name ({RIVAL}), so this label is probably never displayed.", "«Команда соперника» has 17 characters and would not fit the 11-character field."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "alternative length", value = 17, unit = "characters" }, { name = "field length", value = 11, unit = "characters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9cdf3cff-23ab-5c2b-9360-36923390926c"
+subject = { kind = "research", id = "research:0076fae1b2b84c56af99083567b3ae3d" }
+scope = { kind = "language", language = "ru" }
+facts = ["The entry is the female Expert; F stands for female and becomes «Ж».", "The entry is probably never shown."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:bb708345-8aef-544d-b860-8276d7aa01d7"
+subject = { kind = "research", id = "research:67c2fe6097174748af7c396c1baffc52" }
+scope = { kind = "language", language = "ru" }
+facts = ["The label gives an explicit female role identity for trainer records 342, 466, 469 and 470.", "The masculine-name exception of class 85 remains separate."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2e65c786-ec89-5d22-9113-24c69f29b7aa"
+subject = { kind = "research", id = "research:baad47ee1a26484b8890655c700ac23d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use «Адепт» for female and male Light of Ruin trainer names.", "Keep the female trainer-record evidence; the shared role word does not change it."]
+facts = ["Trainer records 374, 381, 621 and 623 are female members of class 47.", "Class 47 names use «Адепт»; Shadow class 85 names remain «Агент»."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "trainers.tsv", verification = "recorded" }]
+status = "unreviewed"

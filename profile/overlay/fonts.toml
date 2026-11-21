@@ -1,0 +1,102 @@
+[[font]]
+name = "font0"
+glyphs = 0x1F3100
+widths = 0x1FB100
+evidence = "literal pool at 0x6594: 0x081F3100 beside 0x081FB100"
+
+[[font]]
+name = "font1"
+glyphs = 0x1FF300
+widths = 0x207300
+evidence = "literal pool at 0x66F4: 0x081FF300 beside 0x08207300"
+
+[[font]]
+name = "font2"
+glyphs = 0x20F618
+widths = 0x217618
+evidence = "literal pool at 0x6928: 0x0820F618 beside 0x08217618"
+
+[[font]]
+name = "font3"
+glyphs = 0x21F930
+widths = 0x227930
+evidence = "literal pool at 0x6A94: 0x0821F930 beside 0x08227930"
+
+# Small font (FONT_SMALL): party names and compact UI.
+# Glyphs are two stacked 8x8 tiles, widths after.
+# Charset follows vanilla order.
+[[font]]
+name = "small"
+glyphs = 0x1EAF00
+widths = 0x1EEF00
+style = "unbound-small"
+evidence = "literal pools at 0x64C4 (0x081EAF00) and 0x64CC (0x081EEF00); charset order matches font0"
+
+[font_style]
+# Style key of the glyph art in assets/lang/<code>/fonts/<style>.txt
+style = "unbound"
+cell_height = 14
+
+# Further styles: first cell row and row count.
+[font_styles.unbound-small]
+top = 1
+rows = 12
+
+# DexNav HUD draws text from a glyph sheet.
+[[sprite_font]]
+name = "dexnav-hud"
+style = "unbound-outlined"
+cell_rows = 8
+sheet = 0xACAE6C
+tiles = 95
+pointers = [0x9D78F4]
+order = "0123456789 ;?-./“”‘’…,♂♀ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+aliases = { ":" = " " }
+fallback = 9
+ink = 1
+shadow = 12
+background = 0
+advance = 4   # 4 px per character; pack letters step their width
+lookup = { guard = { offset = 0x9D7674, size = 12, sha256 = "909fb8dc8de5e0f75a5ec90f467f321cba3a1dde12aeb1b4ef83b557bd1f8871" }, code = "014b9b5c5b0105e0" }
+shared = 1
+advances = { " " = 2 }
+routine = { code = "f0b5534cff2200f092f8002b03d001231b02994204d94422040020004f4b184742464b460cb452465b460cb4c0b0ea468a0891464e4a904644234343454ad3189b889b055b0c444a9b189b4668460022402302600430013bfbd13d4c00252078ff283cd03e49095c49013e4e76180027fa0892007907890f8918715cfb0700d509090907090f21d07b075b0feb184b451cd2d808400180185a07920f801850440278db0709d413071b0f01d043450dd1120912010a43027008e0130901d0434504d11207120f09010a4302700137402fced320782449095c6d180134bfe7504659464a46920003680b6004300431043af9dc40b00cbc92469b460cbc90469946f0bdf5b5124c0a0000f011f8164d002000278f4207d2174e002b01d0e65dae5d80190137f5e7019a168c8319f5bd0c4d0e4e0027974208d2e35dff2b05d0eb5c0137b342f6d30123704700237047c046181d02023c0602020000010629769d08", words = ["table", "sheet", "advance", "tiles", "shadow", "step"] }
+calls = [
+  { guard = { offset = 0x9D7620, size = 8, sha256 = "4c7fc574caf9f21cdb5ffc984a112c1da3262395bb5de1d6bd1973bd2a065305" }, code = "004b1847", entry = 0 },
+  { guard = { offset = 0x9D8C94, size = 16, sha256 = "709241def4572a004ca6f53a0e51caba522cf4261ae45e76fbab5bf6a6b283b2" }, code = "1218024b00f087f902e0c046", entry = 0x102 },
+]
+# Move and ability canvases of the HUD, 64 px each.
+windows = [
+  { table = "moves", width = 64, suffix = "/", where = "DexNav HUD move" },
+  { table = "abilities", width = 64, where = "DexNav HUD ability" },
+]
+pair = { width = 111, where = "DexNav HUD move and ability before the eye icon", encounters = ["land", "water"], learnsets = ["level_up", "egg"] }
+
+# Metric Pokédex printers replace imperial unit printers.
+[[code_replacement]]
+name = "pokedex-metric"
+routines = [
+  { guard = { offset = 0x1058C4, size = 376, sha256 = "94d13ccdba12a8c90a449bf5c5446783871b00a8e07a27530fd3223e0b463103" }, where = "Pokédex height printer" },
+  { guard = { offset = 0x105A3C, size = 628, sha256 = "12aba1705cef70f36d237a87fb9f0ce03f3e234f4ab385915ab0999c5bed92e9" }, where = "Pokédex weight printer" },
+]
+routine = { code = "0c274e4c55a502e00e274d4c54a58eb00006000e0a901206120e0b921b061b0e0c9324682d680e04360c301c79080639454b00f07af80d90301c444b00f075f80604360c0d98002805d12420704340494018c05b0d90301c012100223d4b00f064f802aefc213170142171700521b170033600061ed00d9f2da2002311880232a1208f4202d37f1a0130fae70a2906d9002b04d1a12801d1002006e00123012903d1b821317001360121307001360129e4d108e0ac2030707070b070f070b82131717071063600203070fc2171701421b170f070043609a903318e4206d22878ff2803d0307001350136f6e7ff2030700c980090002001900a980021221c0b9b154f00f013f80c980090002001900a98002102aa0b9b1e331b061b0e0e4f00f005f80eb0f0bc01bc004718473847c0461027e80364000a000100c04678591008ac5c1008a85c1008fd059d0899320408cc57a309b14a1008c9471008", words = ["height_unit", "weight_unit"], fallback = { weight_unit = { at = 0x105CA8, code = "0c274e4c55a502e00e274d4c4d4d8eb00006000e0a901206120e0b921b061b0e0c9324682d680e04360c301c79080639454b00f07af80d90301c444b00f075f80604360c0d98002805d12420704340494018c05b0d90301c012100223d4b00f064f802aefc213170142171700521b170033600061ed00d9f2da2002311880232a1208f4202d37f1a0130fae70a2906d9002b04d1a12801d1002006e00123012903d1b821317001360121307001360129e4d108e0ac2030707070b070f070b82131717071063600203070fc2171701421b170f070043609a903318e4206d22878ff2803d0307001350136f6e7ff2030700c980090002001900a980021221c0b9b154f00f013f80c980090002001900a98002102aa0b9b1e331b061b0e0e4f00f005f80eb0f0bc01bc004718473847c0461027e80364000a000100c04678591008ac5c1008a85c1008fd059d0899320408cc57a309b14a1008c9471008", words = ["height_unit"] } } }
+calls = [
+  { guard = { offset = 0x1058C4, size = 12, sha256 = "7e96718813ea7738ff7566d4c9e7036b35db129196269236174f581fe037af10" }, code = "f0b5014c2047c046", entry = 0 },
+  { guard = { offset = 0x105A3C, size = 12, sha256 = "7e96718813ea7738ff7566d4c9e7036b35db129196269236174f581fe037af10" }, code = "f0b5014c2047c046", entry = 8 },
+]
+
+# Easy-chat words file under their initial's letter button.
+[[easy_chat_alphabet]]
+records = { at = 0x3EDEC0, count = 27, sha1 = "d1507d6fc6dcf9746baabbed7fd51046bbcc1386" }
+lists = { at = 0x3ECF84, end = 0x3EDEBE, sha1 = "3b40e3cf32a6ed85e7009cc52782f0a145fbc944" }
+groups = { at = 0x3ECED4, count = 22 }
+names = [
+  { groups = [0, 21], table = "species" },
+  { groups = [18, 19], table = "moves" },
+]
+limit = 270
+keys = { offset = 0x43F39C, size = 28, sha256 = "c13c66b97d66e9a50af4a05a76f0ced3ca85325ec74b22e628b18582b85faa0e" }
+rows = ["s047A8D8", "s047A8FA", "s047A913", "s047A934"]
+
+# Extended trainerbattle: battle type to text pointer offsets.
+# Decoded from 0x5C commands of each type.

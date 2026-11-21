@@ -1,0 +1,1269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-096DE04\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 106
+#: 0x0a34f4c
+msgctxt "table:abilities/40/description"
+msgid "table:abilities/40/description"
+msgstr "Защищает от обморожения."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 157
+#: 0x0a34f61
+msgctxt "table:abilities/78/description"
+msgid "table:abilities/78/description"
+msgstr "Защищает команду от сна."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 167
+#: 0x0a34f7e
+msgctxt "table:abilities/79/description"
+msgid "table:abilities/79/description"
+msgstr "Многоударные приёмы бьют 5 раз."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 158
+#: 0x0a34f9e
+msgctxt "table:abilities/80/description"
+msgid "table:abilities/80/description"
+msgstr "Превращает ток в Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 150
+#: 0x0a34fbc
+msgctxt "table:abilities/81/description"
+msgid "table:abilities/81/description"
+msgstr "Уменьшает урон при полных ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 113
+#: 0x0a34fd7
+msgctxt "table:abilities/82/description"
+msgid "table:abilities/82/description"
+msgstr "Усиливает слабые приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 164
+#: 0x0a34fec
+msgctxt "table:abilities/83/description"
+msgid "table:abilities/83/description"
+msgstr "Бьёт покемонов типа Привидение."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 162
+#: 0x0a3500a
+msgctxt "table:abilities/84/description"
+msgid "table:abilities/84/description"
+msgstr "Критические попадания чаще."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 111
+#: 0x0a35029
+msgctxt "table:abilities/85/description"
+msgid "table:abilities/85/description"
+msgstr "Усиливает критические попадания."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 138
+#: 0x0a3503f
+msgctxt "table:abilities/86/description"
+msgid "table:abilities/86/description"
+msgstr "Исцеляется при замене."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x0a35059
+msgctxt "table:abilities/87/description"
+msgid "table:abilities/87/description"
+msgstr "Приёмы без урона идут первыми."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x0a35071
+msgctxt "table:abilities/88/description"
+msgid "table:abilities/88/description"
+msgstr "Усиливает атаки своего типа."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x0a3508b
+msgctxt "table:abilities/89/description"
+msgid "table:abilities/89/description"
+msgstr "Защита не понижается."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 122
+#: 0x0a350a7
+msgctxt "table:abilities/90/description"
+msgid "table:abilities/90/description"
+msgstr "Отражает приёмы без урона."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 138
+#: 0x0a350be
+msgctxt "table:abilities/91/description"
+msgid "table:abilities/91/description"
+msgstr "Усиливает приёмы с отдачей."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 176
+#: 0x0a350d8
+msgctxt "table:abilities/92/description"
+msgid "table:abilities/92/description"
+msgstr "Мощнее ценой побочных эффектов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 123
+#: 0x0a350f8
+msgctxt "table:abilities/93/description"
+msgid "table:abilities/93/description"
+msgstr "Усиливает кулачные приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 169
+#: 0x0a3510f
+msgctxt "table:abilities/94/description"
+msgid "table:abilities/94/description"
+msgstr "Усиливается против своего пола."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0a3512e
+msgctxt "table:abilities/95/description"
+msgid "table:abilities/95/description"
+msgstr "Приёмы мощнее в песчаную бурю."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0a3514b
+msgctxt "table:abilities/96/description"
+msgid "table:abilities/96/description"
+msgstr "На солнце мощнее ценой ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 88
+#: 0x0a3516c
+msgctxt "table:abilities/97/description"
+msgid "table:abilities/97/description"
+msgstr "Защита от жара."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 138
+#: 0x0a3517d
+msgctxt "table:abilities/98/description"
+msgid "table:abilities/98/description"
+msgstr "Предпочитает дождь жаре."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 191
+#: 0x0a35197
+msgctxt "table:abilities/99/description"
+msgid "table:abilities/99/description"
+msgstr "Малоэффективные приёмы мощнее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 168
+#: 0x0a351ba
+msgctxt "table:abilities/101/description"
+msgid "table:abilities/101/description"
+msgstr "Суперэффективные приёмы слабее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 179
+#: 0x0a351d9
+msgctxt "table:abilities/102/description"
+msgid "table:abilities/102/description"
+msgstr "Проходит через барьеры и туман."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 170
+#: 0x0a351fa
+msgctxt "table:abilities/103/description"
+msgid "table:abilities/103/description"
+msgstr "Мощность зависит от противника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 132
+#: 0x0a3521a
+msgctxt "table:abilities/104/description"
+msgid "table:abilities/104/description"
+msgstr "При отравлении восполняет ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x0a35233
+msgctxt "table:abilities/105/description"
+msgid "table:abilities/105/description"
+msgstr "В град понемногу восполняет ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 174
+#: 0x0a3524f
+msgctxt "table:abilities/106/description"
+msgid "table:abilities/106/description"
+msgstr "Характеристики растут и падают."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 163
+#: 0x0a3526f
+msgctxt "table:abilities/107/description"
+msgid "table:abilities/107/description"
+msgstr "В дождь лечит особое состояние."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0a3528e
+msgctxt "table:abilities/108/description"
+msgid "table:abilities/108/description"
+msgstr "Может вылечить недуг союзника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x0a352af
+msgctxt "table:abilities/109/description"
+msgid "table:abilities/109/description"
+msgstr "Уклонение выше в град."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 132
+#: 0x0a352c4
+msgctxt "table:abilities/110/description"
+msgid "table:abilities/110/description"
+msgstr "Уклонение выше в замешательстве."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x0a352dd
+msgctxt "table:abilities/111/description"
+msgid "table:abilities/111/description"
+msgstr "Вызывает град в бою."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 126
+#: 0x0a352fc
+msgctxt "table:abilities/112/description"
+msgid "table:abilities/112/description"
+msgstr "При недуге повышает Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 164
+#: 0x0a35314
+msgctxt "table:abilities/113/description"
+msgid "table:abilities/113/description"
+msgstr "Удар типа Трава повышает Атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 167
+#: 0x0a35333
+msgctxt "table:abilities/114/description"
+msgid "table:abilities/114/description"
+msgstr "Защищает от погоды и пыли."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 137
+#: 0x0a35351
+msgctxt "table:abilities/115/description"
+msgid "table:abilities/115/description"
+msgstr "Урон получает только от атак."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x0a3536a
+msgctxt "table:abilities/116/description"
+msgid "table:abilities/116/description"
+msgstr "Защищает от шаров и бомб."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 152
+#: 0x0a35386
+msgctxt "table:abilities/117/description"
+msgid "table:abilities/117/description"
+msgstr "Приёмы типа Летающий - первыми."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 128
+#: 0x0a353a3
+msgctxt "table:abilities/118/description"
+msgid "table:abilities/118/description"
+msgstr "Нокауты повышают Атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 139
+#: 0x0a353bb
+msgctxt "table:abilities/119/description"
+msgid "table:abilities/119/description"
+msgstr "Выбыв, бьёт противника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x0a353d5
+msgctxt "table:abilities/120/description"
+msgid "table:abilities/120/description"
+msgstr "Может отключить чужой приём."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x0a353ef
+msgctxt "table:abilities/121/description"
+msgid "table:abilities/121/description"
+msgstr "Понижает Скорость ударившего."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 117
+#: 0x0a3540e
+msgctxt "table:abilities/122/description"
+msgid "table:abilities/122/description"
+msgstr "Распространяется при касании."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0a35434
+msgctxt "table:abilities/124/description"
+msgid "table:abilities/124/description"
+msgstr "Скорость выше в песчаную бурю."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 139
+#: 0x0a35451
+msgctxt "table:abilities/125/description"
+msgid "table:abilities/125/description"
+msgstr "Действуя последним, мощнее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x0a3546b
+msgctxt "table:abilities/126/description"
+msgid "table:abilities/126/description"
+msgstr "Все приёмы всегда попадают."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 159
+#: 0x0a35488
+msgctxt "table:abilities/127/description"
+msgid "table:abilities/127/description"
+msgstr "Усиливает приёмы ауры и пульса."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 175
+#: 0x0a354a5
+msgctxt "table:abilities/128/description"
+msgid "table:abilities/128/description"
+msgstr "Усиливает контактные приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 109
+#: 0x0a354c5
+msgctxt "table:abilities/129/description"
+msgid "table:abilities/129/description"
+msgstr "Усиливает укусы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 172
+#: 0x0a354da
+msgctxt "table:abilities/130/description"
+msgid "table:abilities/130/description"
+msgstr "Повышает Точность команды."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 162
+#: 0x0a354fa
+msgctxt "table:abilities/131/description"
+msgid "table:abilities/131/description"
+msgstr "Превращает воду в Особую атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x0a35518
+msgctxt "table:abilities/132/description"
+msgid "table:abilities/132/description"
+msgstr "Усиливает приёмы типа Тёмный."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x0a35533
+msgctxt "table:abilities/133/description"
+msgid "table:abilities/133/description"
+msgstr "Усиливает приёмы типа Фея."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 130
+#: 0x0a3554f
+msgctxt "table:abilities/134/description"
+msgid "table:abilities/134/description"
+msgstr "Обращает эффект талантов ауры."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x0a35568
+msgctxt "table:abilities/135/description"
+msgid "table:abilities/135/description"
+msgstr "Приёмы типа Обычный - Лёд."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x0a35581
+msgctxt "table:abilities/136/description"
+msgid "table:abilities/136/description"
+msgstr "Приёмы типа Обычный - Фея."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x0a3559c
+msgctxt "table:abilities/137/description"
+msgid "table:abilities/137/description"
+msgstr "Приёмы типа Обычный - Летающий."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 167
+#: 0x0a355b8
+msgctxt "table:abilities/138/description"
+msgid "table:abilities/138/description"
+msgstr "Все приёмы - типа Обычный."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x0a355d6
+msgctxt "table:abilities/139/description"
+msgid "table:abilities/139/description"
+msgstr "Потеряв предмет, вдвое быстрее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x0a355f5
+msgctxt "table:abilities/140/description"
+msgid "table:abilities/140/description"
+msgstr "Характеристики меняются вдвое."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x0a3560b
+msgctxt "table:abilities/141/description"
+msgid "table:abilities/141/description"
+msgstr "Игнорирует изменения противника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 157
+#: 0x0a35627
+msgctxt "table:abilities/142/description"
+msgid "table:abilities/142/description"
+msgstr "При снижении повышает Атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 163
+#: 0x0a35645
+msgctxt "table:abilities/143/description"
+msgid "table:abilities/143/description"
+msgstr "Особая атака выше при снижении."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 113
+#: 0x0a35664
+msgctxt "table:abilities/144/description"
+msgid "table:abilities/144/description"
+msgstr "Сдаётся при половине ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 151
+#: 0x0a35679
+msgctxt "table:abilities/145/description"
+msgid "table:abilities/145/description"
+msgstr "Долго раскачивается."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x0a35695
+msgctxt "table:abilities/146/description"
+msgid "table:abilities/146/description"
+msgstr "При отравлении повышает Атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x0a356b1
+msgctxt "table:abilities/147/description"
+msgid "table:abilities/147/description"
+msgstr "При ожоге повышает Особую атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x0a356cc
+msgctxt "table:abilities/148/description"
+msgid "table:abilities/148/description"
+msgstr "Вдвое снижает физический урон."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a356e4
+msgctxt "table:abilities/149/description"
+msgid "table:abilities/149/description"
+msgstr "Приёмы без урона реже попадают."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x0a356fd
+msgctxt "table:abilities/150/description"
+msgid "table:abilities/150/description"
+msgstr "Получает тип своего приёма."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 170
+#: 0x0a35719
+msgctxt "table:abilities/151/description"
+msgid "table:abilities/151/description"
+msgstr "Бьёт дважды, второй раз слабее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 123
+#: 0x0a35738
+msgctxt "table:abilities/152/description"
+msgid "table:abilities/152/description"
+msgstr "Приёмы игнорируют таланты."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x0a35750
+msgctxt "table:abilities/155/description"
+msgid "table:abilities/155/description"
+msgstr "Превращается ниже половины ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 122
+#: 0x0a3576a
+msgctxt "table:abilities/156/description"
+msgid "table:abilities/156/description"
+msgstr "Превращается после нокаута."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 161
+#: 0x0a35781
+msgctxt "table:abilities/157/description"
+msgid "table:abilities/157/description"
+msgstr "Нокаут - рост лучшего параметра."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 113
+#: 0x0a3579f
+msgctxt "table:abilities/158/description"
+msgid "table:abilities/158/description"
+msgstr "Может отравить любого покемона."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 163
+#: 0x0a357b4
+msgctxt "table:abilities/159/description"
+msgid "table:abilities/159/description"
+msgstr "Держит 1 удар без урона."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 153
+#: 0x0a357d2
+msgctxt "table:abilities/160/description"
+msgid "table:abilities/160/description"
+msgstr "Заменяется ниже половины ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 188
+#: 0x0a357ee
+msgctxt "table:abilities/161/description"
+msgid "table:abilities/161/description"
+msgstr "Смягчает касания. Боится огня."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x0a35825
+msgctxt "table:abilities/165/description"
+msgid "table:abilities/165/description"
+msgstr "Превращается ниже половины ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 167
+#: 0x0a3583f
+msgctxt "table:abilities/167/description"
+msgid "table:abilities/167/description"
+msgstr "Получает тип своей памяти."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 136
+#: 0x0a3585d
+msgctxt "table:abilities/168/description"
+msgid "table:abilities/168/description"
+msgstr "Образует косяк при высоких ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 150
+#: 0x0a35876
+msgctxt "table:abilities/169/description"
+msgid "table:abilities/169/description"
+msgstr "Уменьшает урон при полных ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 163
+#: 0x0a35891
+msgctxt "table:abilities/170/description"
+msgid "table:abilities/170/description"
+msgstr "Опускает щиты ниже половины ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 115
+#: 0x0a358af
+msgctxt "table:abilities/171/description"
+msgid "table:abilities/171/description"
+msgstr "Повышает Скорость в град."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a358c5
+msgctxt "table:abilities/172/description"
+msgid "table:abilities/172/description"
+msgstr "Нокауты повышают Особую атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x0a358de
+msgctxt "table:abilities/173/description"
+msgid "table:abilities/173/description"
+msgstr "Удар повышает Защиту."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0a358fb
+msgctxt "table:abilities/174/description"
+msgid "table:abilities/174/description"
+msgstr "Усиливает приёмы типа Сталь."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 175
+#: 0x0a35917
+msgctxt "table:abilities/176/description"
+msgid "table:abilities/176/description"
+msgstr "Даёт приоритет лечащим приёмам."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 183
+#: 0x0a35938
+msgctxt "table:abilities/177/description"
+msgid "table:abilities/177/description"
+msgstr "Мощнее бьёт водой. Без ожогов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x0a3595a
+msgctxt "table:abilities/178/description"
+msgid "table:abilities/178/description"
+msgstr "Удар типа Вода повышает Защиту."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 103
+#: 0x0a35979
+msgctxt "table:abilities/179/description"
+msgid "table:abilities/179/description"
+msgstr "Часто атакует последним."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 189
+#: 0x0a3598d
+msgctxt "table:abilities/180/description"
+msgid "table:abilities/180/description"
+msgstr "Получает тип своей плиты."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 153
+#: 0x0a359af
+msgctxt "table:abilities/181/description"
+msgid "table:abilities/181/description"
+msgstr "Создаёт Поле тока."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 138
+#: 0x0a359cc
+msgctxt "table:abilities/182/description"
+msgid "table:abilities/182/description"
+msgstr "Создаёт Травяное поле."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x0a359e6
+msgctxt "table:abilities/183/description"
+msgid "table:abilities/183/description"
+msgstr "Создаёт Туманное поле."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x0a359ff
+msgctxt "table:abilities/184/description"
+msgid "table:abilities/184/description"
+msgstr "Создаёт Поле разума."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 183
+#: 0x0a35a1a
+msgctxt "table:abilities/185/description"
+msgid "table:abilities/185/description"
+msgstr "Поле тока повышает Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 166
+#: 0x0a35a3c
+msgctxt "table:abilities/186/description"
+msgid "table:abilities/186/description"
+msgstr "Травяное поле повышает Защиту."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 186
+#: 0x0a35a5b
+msgctxt "table:abilities/187/description"
+msgid "table:abilities/187/description"
+msgstr "Макс. Атака от крит. попадания."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 162
+#: 0x0a35a7e
+msgctxt "table:abilities/188/description"
+msgid "table:abilities/188/description"
+msgstr "Чует суперэффективные приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 187
+#: 0x0a35a9c
+msgctxt "table:abilities/189/description"
+msgid "table:abilities/189/description"
+msgstr "Узнаёт сильнейший чужой приём."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0a35abf
+msgctxt "table:abilities/190/description"
+msgid "table:abilities/190/description"
+msgstr "Раскрывает предмет противника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 123
+#: 0x0a35adc
+msgctxt "table:abilities/191/description"
+msgid "table:abilities/191/description"
+msgstr "Меняет характеристики наоборот."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 188
+#: 0x0a35af3
+msgctxt "table:abilities/192/description"
+msgid "table:abilities/192/description"
+msgstr "Не даёт противнику есть ягоды."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 176
+#: 0x0a35b16
+msgctxt "table:abilities/193/description"
+msgid "table:abilities/193/description"
+msgstr "Удар меняет Защиту на Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x0a35b36
+msgctxt "table:abilities/194/description"
+msgid "table:abilities/194/description"
+msgstr "Удваивает вес."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x0a35b46
+msgctxt "table:abilities/195/description"
+msgid "table:abilities/195/description"
+msgstr "Вдвое снижает вес."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 125
+#: 0x0a35b55
+msgctxt "table:abilities/196/description"
+msgid "table:abilities/196/description"
+msgstr "Вздрогнув, повышает Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 175
+#: 0x0a35b6d
+msgctxt "table:abilities/197/description"
+msgid "table:abilities/197/description"
+msgstr "Выходя в бой, превращается."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 153
+#: 0x0a35b8e
+msgctxt "table:abilities/198/description"
+msgid "table:abilities/198/description"
+msgstr "Удар типа Тёмный повышает Атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 166
+#: 0x0a35bab
+msgctxt "table:abilities/199/description"
+msgid "table:abilities/199/description"
+msgstr "Испугавшись, повышает Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 161
+#: 0x0a35bc9
+msgctxt "table:abilities/200/description"
+msgid "table:abilities/200/description"
+msgstr "Критически бьёт отравленных."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 182
+#: 0x0a35be8
+msgctxt "table:abilities/201/description"
+msgid "table:abilities/201/description"
+msgstr "Защищает от ментальных эффектов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 182
+#: 0x0a35c0a
+msgctxt "table:abilities/202/description"
+msgid "table:abilities/202/description"
+msgstr "Защищает тип Трава от недугов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0a35c2c
+msgctxt "table:abilities/203/description"
+msgid "table:abilities/203/description"
+msgstr "На солнце защищает от недугов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 85
+#: 0x0a35c4d
+msgctxt "table:abilities/204/description"
+msgid "table:abilities/204/description"
+msgstr "Не может использовать предметы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x0a35c5e
+msgctxt "table:abilities/205/description"
+msgid "table:abilities/205/description"
+msgstr "На солнце усиливает команду."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 109
+#: 0x0a35c79
+msgctxt "table:abilities/206/description"
+msgid "table:abilities/206/description"
+msgstr "Ранит спящих противников."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x0a35c8e
+msgctxt "table:abilities/207/description"
+msgid "table:abilities/207/description"
+msgstr "Крадёт предмет ударившего."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x0a35caa
+msgctxt "table:abilities/208/description"
+msgid "table:abilities/208/description"
+msgstr "Ослабляет неконтактные приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 145
+#: 0x0a35cc5
+msgctxt "table:abilities/209/description"
+msgid "table:abilities/209/description"
+msgstr "Может отравить при касании."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 185
+#: 0x0a35ce0
+msgctxt "table:abilities/210/description"
+msgid "table:abilities/210/description"
+msgstr "Атакуя, может украсть предмет."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 160
+#: 0x0a35d03
+msgctxt "table:abilities/211/description"
+msgid "table:abilities/211/description"
+msgstr "Меняет форму при атаке."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x0a35d21
+msgctxt "table:abilities/212/description"
+msgid "table:abilities/212/description"
+msgstr "Вызывает проливной дождь."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 184
+#: 0x0a35d3c
+msgctxt "table:abilities/213/description"
+msgid "table:abilities/213/description"
+msgstr "Вызывает крайне яркое солнце."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 182
+#: 0x0a35d5e
+msgctxt "table:abilities/214/description"
+msgid "table:abilities/214/description"
+msgstr "Вызывает таинственный ветер."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x0a35d80
+msgctxt "table:abilities/216/description"
+msgid "table:abilities/216/description"
+msgstr "Слабея, повышает Особую атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 113
+#: 0x0a35d9b
+msgctxt "table:abilities/217/description"
+msgid "table:abilities/217/description"
+msgstr "Никогда не касается противника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 174
+#: 0x0a35db0
+msgctxt "table:abilities/218/description"
+msgid "table:abilities/218/description"
+msgstr "Звуковые приёмы - типа Вода."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 139
+#: 0x0a35de6
+msgctxt "table:abilities/220/description"
+msgid "table:abilities/220/description"
+msgstr "Выбыв, бьёт противника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 120
+#: 0x0a35e00
+msgctxt "table:abilities/221/description"
+msgid "table:abilities/221/description"
+msgstr "Блокирует приёмы с приоритетом."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 104
+#: 0x0a35e17
+msgctxt "table:abilities/222/description"
+msgid "table:abilities/222/description"
+msgstr "Съедает ягоды раньше."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x0a35e2b
+msgctxt "table:abilities/223/description"
+msgid "table:abilities/223/description"
+msgstr "Подбирает Мёд после боя."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 171
+#: 0x0a35e48
+msgctxt "table:abilities/224/description"
+msgid "table:abilities/224/description"
+msgstr "Уменьшает урон по союзникам."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0a35e67
+msgctxt "table:abilities/225/description"
+msgid "table:abilities/225/description"
+msgstr "Может вернуть съеденные ягоды."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x0a35e84
+msgctxt "table:abilities/226/description"
+msgid "table:abilities/226/description"
+msgstr "Защищает от приёмов союзников."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 130
+#: 0x0a35ea1
+msgctxt "table:abilities/227/description"
+msgid "table:abilities/227/description"
+msgstr "Выходит в бой под маской."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 147
+#: 0x0a35eba
+msgctxt "table:abilities/228/description"
+msgid "table:abilities/228/description"
+msgstr "Съев ягоду, восполняет ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 160
+#: 0x0a35ed6
+msgctxt "table:abilities/229/description"
+msgid "table:abilities/229/description"
+msgstr "Отдаёт предмет союзнику взамен."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0a35ef4
+msgctxt "table:abilities/230/description"
+msgid "table:abilities/230/description"
+msgstr "Удваивает урон по заменившим."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 99
+#: 0x0a35f14
+msgctxt "table:abilities/231/description"
+msgid "table:abilities/231/description"
+msgstr "Ведёт себя, будто спит."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x0a35f27
+msgctxt "table:abilities/232/description"
+msgid "table:abilities/232/description"
+msgstr "Копирует танцевальные приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 94
+#: 0x0a35f3b
+msgctxt "table:abilities/233/description"
+msgid "table:abilities/233/description"
+msgstr "Усиливает союзников."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 182
+#: 0x0a35f4d
+msgctxt "table:abilities/234/description"
+msgid "table:abilities/234/description"
+msgstr "Берёт талант выбывшего союзника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 172
+#: 0x0a35f6f
+msgctxt "table:abilities/236/description"
+msgid "table:abilities/236/description"
+msgstr "Суперэффективные удары мощнее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x0a35f8f
+msgctxt "table:abilities/237/description"
+msgid "table:abilities/237/description"
+msgstr "Приёмы типа Обычный - Электро."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 111
+#: 0x0a35fad
+msgctxt "table:abilities/238/description"
+msgid "table:abilities/238/description"
+msgstr "Выходя в бой, повышает Атаку."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 117
+#: 0x0a35fc2
+msgctxt "table:abilities/239/description"
+msgid "table:abilities/239/description"
+msgstr "Выходя в бой, повышает Защиту."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 170
+#: 0x0a35fd8
+msgctxt "table:abilities/240/description"
+msgid "table:abilities/240/description"
+msgstr "Приносит неудачный покебол."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 185
+#: 0x0a35ff8
+msgctxt "table:abilities/241/description"
+msgid "table:abilities/241/description"
+msgstr "Удар понижает Скорость всех."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 158
+#: 0x0a3601a
+msgctxt "table:abilities/242/description"
+msgid "table:abilities/242/description"
+msgstr "Отражает снижения характеристик."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 168
+#: 0x0a36037
+msgctxt "table:abilities/243/description"
+msgid "table:abilities/243/description"
+msgstr "Нырнув, плюёт добычей от удара."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 136
+#: 0x0a36057
+msgctxt "table:abilities/244/description"
+msgid "table:abilities/244/description"
+msgstr "Приёмы не перенаправляются."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 179
+#: 0x0a36071
+msgctxt "table:abilities/245/description"
+msgid "table:abilities/245/description"
+msgstr "Огонь и Вода повышают Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0a36092
+msgctxt "table:abilities/246/description"
+msgid "table:abilities/246/description"
+msgstr "Свой звук мощнее, чужой слабее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 161
+#: 0x0a360af
+msgctxt "table:abilities/247/description"
+msgid "table:abilities/247/description"
+msgstr "Удар вызывает песчаную бурю."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 125
+#: 0x0a360cd
+msgctxt "table:abilities/248/description"
+msgid "table:abilities/248/description"
+msgstr "Вдвое снижает особый урон."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 123
+#: 0x0a360e4
+msgctxt "table:abilities/249/description"
+msgid "table:abilities/249/description"
+msgstr "Удваивает эффекты ягод."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 170
+#: 0x0a360fb
+msgctxt "table:abilities/250/description"
+msgid "table:abilities/250/description"
+msgstr "Держит физ. удар. Град чинит."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 120
+#: 0x0a3611b
+msgctxt "table:abilities/251/description"
+msgid "table:abilities/251/description"
+msgstr "Усиливает приёмы союзников."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 143
+#: 0x0a36131
+msgctxt "table:abilities/252/description"
+msgid "table:abilities/252/description"
+msgstr "Меняет тип вместе с полем."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 164
+#: 0x0a3614c
+msgctxt "table:abilities/253/description"
+msgid "table:abilities/253/description"
+msgstr "Выходя в бой, убирает экраны."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 181
+#: 0x0a3616a
+msgctxt "table:abilities/162/description"
+msgid "table:abilities/162/description"
+msgstr "Команда мощнее бьёт сталью."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 178
+#: 0x0a3618b
+msgctxt "table:abilities/163/description"
+msgid "table:abilities/163/description"
+msgstr "Даёт отсчёт гибели при касании."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x0a361ac
+msgctxt "table:abilities/164/description"
+msgid "table:abilities/164/description"
+msgstr "Меняется талантами при касании."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 181
+#: 0x0a361c9
+msgctxt "table:abilities/215/description"
+msgid "table:abilities/215/description"
+msgstr "Атака выше, но лишь 1 приём."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 147
+#: 0x0a361ea
+msgctxt "table:abilities/74/description"
+msgid "table:abilities/74/description"
+msgstr "Подавляет все таланты."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x0a36207
+msgctxt "table:abilities/254/description"
+msgid "table:abilities/254/description"
+msgstr "Защищает команду от отравления."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 130
+#: 0x0a36222
+msgctxt "table:abilities/76/description"
+msgid "table:abilities/76/description"
+msgstr "Меняет форму каждый ход."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 164
+#: 0x0a3623a
+msgctxt "table:abilities/100/description"
+msgid "table:abilities/100/description"
+msgstr "Касаясь, бьёт даже защищённых."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 161
+#: 0x0a36258
+msgctxt "table:abilities/73/description"
+msgid "table:abilities/73/description"
+msgstr "Усиливает приёмы типа Дракон."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 170
+#: 0x0a36275
+msgctxt "table:abilities/72/description"
+msgid "table:abilities/72/description"
+msgstr "Усиливает приёмы типа Электро."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a36294
+msgctxt "table:abilities/123/description"
+msgid "table:abilities/123/description"
+msgstr "Нокауты повышают Особую атаку."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 157
+#: 0x0a362ad
+msgctxt "table:abilities/153/description"
+msgid "table:abilities/153/description"
+msgstr "И Напряжение, и Грозное ржание."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0a362ca
+msgctxt "table:abilities/154/description"
+msgid "table:abilities/154/description"
+msgstr "И Напряжение, и Ледяное ржание."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0a362eb
+msgctxt "table:abilities/219/description"
+msgid "table:abilities/219/description"
+msgstr "Иногда действует быстрее."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 147
+#: 0x0a36304
+msgctxt "table:abilities/235/description"
+msgid "table:abilities/235/description"
+msgstr "Сбрасывает изменения союзника."

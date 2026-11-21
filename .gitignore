@@ -1,0 +1,14 @@
+.DS_Store
+local/
+rom/
+build/
+/build/patches/
+/source/catalog.pot
+translation/batches/
+/site/
+__pycache__/
+*.pyc
+*.gba
+*.sav
+.venv/
+verify/states/

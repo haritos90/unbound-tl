@@ -1,0 +1,12 @@
+statefile load e1
+repeat 6 press A 4 120
+shot naming-full
+repeat 4 press B 4 60
+press A 4 120
+shot isolated-a
+press RIGHT 4 60
+shot cursor-b
+press SELECT 4 120
+shot page-upper
+press SELECT 4 120
+shot page-others

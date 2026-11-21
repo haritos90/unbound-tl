@@ -1,0 +1,30 @@
+[pokedex.species]
+base = 0x19E0C9C
+stride = 28
+count = 1294
+first = 1
+
+[pokedex.species.fields]
+hp = 0
+attack = 1
+defense = 2
+speed = 3
+sp_attack = 4
+sp_defense = 5
+type1 = 6
+type2 = 7
+catch_rate = 8
+base_exp = 9
+gender_ratio = 16
+growth = 19
+base_friendship = 18
+egg_group1 = 20
+egg_group2 = 21
+ability1 = 22
+ability2 = 23
+hidden_ability = 26
+
+# EV yield: two bits per stat in a u16.
+[pokedex.species.ev_yield]
+offset = 10
+

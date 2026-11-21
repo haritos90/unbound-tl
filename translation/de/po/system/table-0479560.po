@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0479560\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 14, widths px: 172, 190, 46, 184, 187, 191, 188, 182, 77, 174, 112, 123, 191, 90
+#: 0x041b8bf
+msgctxt "hash:f33b71f9"
+msgid "hash:f33b71f9"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 9, widths px: 130, 162, 162, 174, 151, 109, 145, 177, 173
+#: 0x041ba41
+msgctxt "hash:fd3e245e"
+msgid "hash:fd3e245e"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 16, widths px: 172, 175, 186, 126, 172, 135, 166, 163, 182, 136, 172, 170, 183, 123, 191, 90
+#: 0x041bb40
+msgctxt "hash:e3253334"
+msgid "hash:e3253334"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 12, widths px: 167, 113, 187, 160, 184, 160, 174, 153, 137, 145, 177, 173
+#: 0x041bd10
+msgctxt "hash:69f39d95"
+msgid "hash:69f39d95"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 21, widths px: 167, 52, 152, 133, 189, 111, 182, 138, 188, 120, 182, 186, 170, 184, 170, 155, 170, 69, 123, 191, 90
+#: 0x041be76
+msgctxt "hash:db373ed8"
+msgid "hash:db373ed8"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 14, widths px: 188, 172, 171, 143, 176, 170, 177, 87, 145, 186, 182, 74, 160, 137
+#: 0x041c0af
+msgctxt "hash:1cc68878"
+msgid "hash:1cc68878"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 13, widths px: 176, 175, 170, 172, 90, 127, 144, 103, 188, 56, 123, 191, 90
+#: 0x041c23b
+msgctxt "hash:8ed4ac34"
+msgid "hash:8ed4ac34"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 7, widths px: 178, 186, 141, 155, 145, 177, 173
+#: 0x041c384
+msgctxt "hash:e9326460"
+msgid "hash:e9326460"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 12, widths px: 81, 117, 167, 117, 173, 190, 161, 154, 174, 99, 186, 22
+#: 0x041c459
+msgctxt "hash:12b0d45b"
+msgid "hash:12b0d45b"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 149, 145, 177, 173
+#: 0x041c7b4
+msgctxt "hash:8b4297c7"
+msgid "hash:8b4297c7"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 13, widths px: 168, 146, 151, 116, 170, 152, 186, 128, 183, 125, 123, 190, 124
+#: 0x041c82a
+msgctxt "hash:e493d5e5"
+msgid "hash:e493d5e5"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 16, widths px: 149, 59, 104, 141, 163, 186, 120, 139, 174, 183, 110, 182, 71, 145, 177, 173
+#: 0x041c994
+msgctxt "hash:095990d4"
+msgid "hash:095990d4"
+msgstr ""

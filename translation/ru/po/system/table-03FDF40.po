@@ -1,0 +1,1557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03FDF40\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 39, 72, 0
+#: 0x03fb265
+msgctxt "battle:13"
+msgid "battle:13"
+msgstr "{B_BUFF1} получает{B_BUFF2}\\nочки опыта: {FD 34}!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 46, 29, 0
+#: 0x03fb28e
+msgctxt "battle:14"
+msgid "battle:14"
+msgstr "{B_BUFF1} поднимается\\nдо уровня {B_BUFF2}!{WAIT_SE}\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 45, 6, 0
+#: 0x03fb2a4
+msgctxt "battle:15"
+msgid "battle:15"
+msgstr "Покемон {B_BUFF1} выучил\\nприём {B_BUFF2}!{WAIT_SE}\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 69, 38, 0
+#: 0x03fb2b6
+msgctxt "battle:16"
+msgid "battle:16"
+msgstr "{B_BUFF1} пытается выучить\\nприём {B_BUFF2}.\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 92, 119, 0
+#: 0x03fb2d1
+msgctxt "battle:17"
+msgid "battle:17"
+msgstr "Но {B_BUFF1} не может знать\\nбольше четырёх приёмов.\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 122, 57
+#: 0x03fb2fc
+msgctxt "battle:18"
+msgid "battle:18"
+msgstr "Забыть один из приёмов\\nради приёма {B_BUFF2}?"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 39, 5, 0
+#: 0x03fb31f
+msgctxt "battle:19"
+msgid "battle:19"
+msgstr "Покемон {B_BUFF1} забыл\\nприём {B_BUFF2}.\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 71, 6
+#: 0x03fb32e
+msgctxt "battle:20"
+msgid "battle:20"
+msgstr "{PAUSE 20}Отказаться от изучения\\nприёма {B_BUFF2}?"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 77, 5, 0
+#: 0x03fb343
+msgctxt "battle:21"
+msgid "battle:21"
+msgstr "Покемон {B_BUFF1} не выучил\\nприём {B_BUFF2}.\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 8, 77
+#: 0x03fb36b
+msgctxt "battle:23"
+msgid "battle:23"
+msgstr "{B_ATK_NAME_WITH_PREFIX} не попадает!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 0, 93
+#: 0x03fb37f
+msgctxt "battle:24"
+msgid "battle:24"
+msgstr "{B_DEF_NAME_WITH_PREFIX} защищается!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 75
+#: 0x03fb394
+msgctxt "battle:26"
+msgid "battle:26"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}: талант\\n{B_DEF_ABILITY} защищает от урона!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 0, 43, 0
+#: 0x03fb400
+msgctxt "battle:28"
+msgid "battle:28"
+msgstr "{B_ATK_NAME_WITH_PREFIX} выбывает\\nиз боя!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 0, 43, 0
+#: 0x03fb40d
+msgctxt "battle:29"
+msgid "battle:29"
+msgstr "{B_DEF_NAME_WITH_PREFIX} выбывает\\nиз боя!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 50, 74, 0
+#: 0x03fb508
+msgctxt "battle:33"
+msgid "battle:33"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: талант\\n{B_SCR_ACTIVE_ABILITY} не даёт "
+"сбежать!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 69
+#: 0x03fb545
+msgctxt "battle:34"
+msgid "battle:34"
+msgstr "Нанесено ударов: {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 0, 67
+#: 0x03fb555
+msgctxt "battle:35"
+msgid "battle:35"
+msgstr "{B_EFF_NAME_WITH_PREFIX} засыпает!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 70
+#: 0x03fb565
+msgctxt "battle:36"
+msgid "battle:36"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: срабатывает\\nталант "
+"{B_SCR_ACTIVE_ABILITY}!\\l{B_EFF_NAME_WITH_PREFIX} засыпает!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 15, 86
+#: 0x03fb57c
+msgctxt "battle:37"
+msgid "battle:37"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уже спит!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 15, 86
+#: 0x03fb592
+msgctxt "battle:38"
+msgid "battle:38"
+msgstr "{B_ATK_NAME_WITH_PREFIX} уже спит!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 0, 87
+#: 0x03fb5a8
+msgctxt "battle:39"
+msgid "battle:39"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: никакого\\nэффекта!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 0, 73
+#: 0x03fb5bc
+msgctxt "battle:40"
+msgid "battle:40"
+msgstr "{B_EFF_NAME_WITH_PREFIX} получает\\nотравление!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 56
+#: 0x03fb5cd
+msgctxt "battle:41"
+msgid "battle:41"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: срабатывает\\nталант "
+"{B_SCR_ACTIVE_ABILITY}!\\l{B_EFF_NAME_WITH_PREFIX}: отравление!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 43, 56
+#: 0x03fb5e2
+msgctxt "battle:42"
+msgid "battle:42"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от отравления!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 61, 49
+#: 0x03fb5f8
+msgctxt "battle:43"
+msgid "battle:43"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уже страдает\\nот отравления."
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 50, 50
+#: 0x03fb610
+msgctxt "battle:44"
+msgid "battle:44"
+msgstr "{B_EFF_NAME_WITH_PREFIX} получает\\nсильное отравление!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 44, 84
+#: 0x03fb626
+msgctxt "battle:45"
+msgid "battle:45"
+msgstr "{B_DEF_NAME_WITH_PREFIX} лишается\\nэнергии!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 69
+#: 0x03fb641
+msgctxt "battle:46"
+msgid "battle:46"
+msgstr "{B_EFF_NAME_WITH_PREFIX}: ожог!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 46
+#: 0x03fb650
+msgctxt "battle:47"
+msgid "battle:47"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: срабатывает\\nталант "
+"{B_SCR_ACTIVE_ABILITY}!\\l{B_EFF_NAME_WITH_PREFIX}: ожог!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 43, 66
+#: 0x03fb663
+msgctxt "battle:48"
+msgid "battle:48"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от ожога!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 72
+#: 0x03fb6a7
+msgctxt "battle:50"
+msgid "battle:50"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: срабатывает\\nталант "
+"{B_SCR_ACTIVE_ABILITY}!\\l{B_EFF_NAME_WITH_PREFIX}: заморозка!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 15, 71
+#: 0x03fb6bf
+msgctxt "battle:51"
+msgid "battle:51"
+msgstr "{B_ATK_NAME_WITH_PREFIX} остаётся\\nво льду!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 79, 146
+#: 0x03fb70f
+msgctxt "battle:55"
+msgid "battle:55"
+msgstr ""
+"{B_EFF_NAME_WITH_PREFIX}: паралич!\\nИногда покемон не сможет двигаться!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 14, 64, 146
+#: 0x03fb73a
+msgctxt "battle:56"
+msgid "battle:56"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: срабатывает\\nталант "
+"{B_SCR_ACTIVE_ABILITY}!\\l{B_EFF_NAME_WITH_PREFIX}: паралич!\\lИногда "
+"покемон не сможет двигаться!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 79, 78
+#: 0x03fb76a
+msgctxt "battle:57"
+msgid "battle:57"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: паралич!\\nПокемон не может двигаться!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 15, 104
+#: 0x03fb78a
+msgctxt "battle:58"
+msgid "battle:58"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уже страдает\\nот паралича!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 23, 112
+#: 0x03fb7a3
+msgctxt "battle:59"
+msgid "battle:59"
+msgstr "{B_DEF_NAME_WITH_PREFIX} излечивается\\nот паралича!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 8, 92
+#: 0x03fb7bf
+msgctxt "battle:60"
+msgid "battle:60"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: сон съеден!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 88
+#: 0x03fb7d5
+msgctxt "battle:61"
+msgid "battle:61"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: выше\\n{B_BUFF1} не поднимется!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 83
+#: 0x03fb7ee
+msgctxt "battle:62"
+msgid "battle:62"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: ниже\\n{B_BUFF1} не опустится!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 66, 89
+#: 0x03fb806
+msgctxt "battle:63"
+msgid "battle:63"
+msgstr "Приём {B_BUFF1} команды\\nигрока перестал действовать!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 55, 89
+#: 0x03fb826
+msgctxt "battle:64"
+msgid "battle:64"
+msgstr "Приём {B_BUFF1} команды\\nпротивника перестал действовать!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 15, 51
+#: 0x03fb844
+msgctxt "battle:65"
+msgid "battle:65"
+msgstr "{B_ATK_NAME_WITH_PREFIX} оказывается\\nв замешательстве!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 94
+#: 0x03fb854
+msgctxt "battle:66"
+msgid "battle:66"
+msgstr "{B_ATK_NAME_WITH_PREFIX} выходит\\nиз замешательства!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 42, 51
+#: 0x03fb871
+msgctxt "battle:67"
+msgid "battle:67"
+msgstr "{B_EFF_NAME_WITH_PREFIX} приходит\\nв замешательство!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 15, 97
+#: 0x03fb885
+msgctxt "battle:68"
+msgid "battle:68"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уже\\nв замешательстве!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 0, 71
+#: 0x03fb89d
+msgctxt "battle:69"
+msgid "battle:69"
+msgstr "{B_DEF_NAME_WITH_PREFIX} влюбляется!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 59, 33
+#: 0x03fb8ae
+msgctxt "battle:70"
+msgid "battle:70"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} теряет\\nголову от любви!\\l"
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX} - причина!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 15, 112
+#: 0x03fb8c5
+msgctxt "battle:71"
+msgid "battle:71"
+msgstr "{B_ATK_NAME_WITH_PREFIX} цепенеет\\nот любви!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 23, 64
+#: 0x03fb8e0
+msgctxt "battle:72"
+msgid "battle:72"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уносится\\nпрочь!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 55
+#: 0x03fb914
+msgctxt "battle:74"
+msgid "battle:74"
+msgstr "{B_ATK_NAME_WITH_PREFIX} вздрагивает!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 50, 40
+#: 0x03fb921
+msgctxt "battle:75"
+msgid "battle:75"
+msgstr "{B_DEF_NAME_WITH_PREFIX} восполняет\\nОЖ!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 8, 60
+#: 0x03fb935
+msgctxt "battle:76"
+msgid "battle:76"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: ОЖ\\nуже на максимуме!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 84
+#: 0x03fb946
+msgctxt "battle:77"
+msgid "battle:77"
+msgstr "{B_ATK_PREFIX2}: приём {B_CURRENT_MOVE}\\nповышает Особую защиту!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 83
+#: 0x03fb97f
+msgctxt "battle:78"
+msgid "battle:78"
+msgstr "{B_ATK_PREFIX2}: приём {B_CURRENT_MOVE}\\nповышает Защиту!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 91, 57
+#: 0x03fb9b8
+msgctxt "battle:79"
+msgid "battle:79"
+msgstr "Вуаль окутывает\\nкоманду {FD 38}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 133
+#: 0x03fb9d9
+msgctxt "battle:80"
+msgid "battle:80"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: команда\\nпод защитой Заслона!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 100, 133
+#: 0x03fb9ff
+msgctxt "battle:81"
+msgid "battle:81"
+msgstr "Команда {FD 38} больше\\nне под защитой Заслона!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 28, 51
+#: 0x03fba2f
+msgctxt "battle:82"
+msgid "battle:82"
+msgstr "{B_ATK_NAME_WITH_PREFIX} засыпает!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 56, 88
+#: 0x03fba41
+msgctxt "battle:83"
+msgid "battle:83"
+msgstr "{B_ATK_NAME_WITH_PREFIX} засыпает\\nи исцеляется!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 83
+#: 0x03fba5e
+msgctxt "battle:84"
+msgid "battle:84"
+msgstr "{B_ATK_NAME_WITH_PREFIX} поднимает\\nвихрь!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 28, 63
+#: 0x03fba79
+msgctxt "battle:85"
+msgid "battle:85"
+msgstr "{B_ATK_NAME_WITH_PREFIX} поглощает\\nсолнечный свет!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 50
+#: 0x03fba8e
+msgctxt "battle:86"
+msgid "battle:86"
+msgstr "{B_ATK_NAME_WITH_PREFIX} пригибает\\nголову!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 28, 46
+#: 0x03fbab2
+msgctxt "battle:88"
+msgid "battle:88"
+msgstr "{B_ATK_NAME_WITH_PREFIX} взмывает\\nввысь!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 71
+#: 0x03fbac3
+msgctxt "battle:89"
+msgid "battle:89"
+msgstr "{B_ATK_NAME_WITH_PREFIX} копает яму!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 76, 59
+#: 0x03fbaf3
+msgctxt "battle:90"
+msgid "battle:90"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX}: Связывание!\\n{B_DEF_NAME_WITH_PREFIX} в тисках!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 69, 78
+#: 0x03fbb11
+msgctxt "battle:91"
+msgid "battle:91"
+msgstr "{B_DEF_NAME_WITH_PREFIX} попадает\\nв вихрь!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 88, 6
+#: 0x03fbb4c
+msgctxt "battle:92"
+msgid "battle:92"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX}: Обхват!\\n{B_DEF_NAME_WITH_PREFIX} в захвате!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 47, 6
+#: 0x03fbb62
+msgctxt "battle:93"
+msgid "battle:93"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX}: Захлоп!\\n{B_DEF_NAME_WITH_PREFIX} в тисках!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 43, 24
+#: 0x03fbb71
+msgctxt "battle:94"
+msgid "battle:94"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от приёма {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 34
+#: 0x03fbb83
+msgctxt "battle:95"
+msgid "battle:95"
+msgstr "{B_ATK_NAME_WITH_PREFIX} избавляется\\nот приёма {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 61, 69
+#: 0x03fbb99
+msgctxt "battle:96"
+msgid "battle:96"
+msgstr "{B_ATK_NAME_WITH_PREFIX} по инерции\\nврезается в землю!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 72, 44
+#: 0x03fbbd0
+msgctxt "battle:98"
+msgid "battle:98"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX} под защитой\\nТумана!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 36, 65
+#: 0x03fbbff
+msgctxt "battle:100"
+msgid "battle:100"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от отдачи!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 36
+#: 0x03fbc16
+msgctxt "battle:101"
+msgid "battle:101"
+msgstr "{B_ATK_NAME_WITH_PREFIX} защищается!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 66, 96
+#: 0x03fbc2b
+msgctxt "battle:102"
+msgid "battle:102"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от песчаной бури!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 55, 45
+#: 0x03fbc4c
+msgctxt "battle:103"
+msgid "battle:103"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон от града!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 70
+#: 0x03fbc74
+msgctxt "battle:104"
+msgid "battle:104"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: семена\\nпосажены!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 42, 62
+#: 0x03fbc83
+msgctxt "battle:105"
+msgid "battle:105"
+msgstr "{B_DEF_NAME_WITH_PREFIX} уклоняется\\nот атаки!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 63, 125
+#: 0x03fbc99
+msgctxt "battle:106"
+msgid "battle:106"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: Семя-пиявка\\nвысасывает ОЖ!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 42, 39
+#: 0x03fbcbe
+msgctxt "battle:107"
+msgid "battle:107"
+msgstr "{B_ATK_NAME_WITH_PREFIX} крепко спит."
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 53
+#: 0x03fbcd1
+msgctxt "battle:108"
+msgid "battle:108"
+msgstr "{B_ATK_NAME_WITH_PREFIX} просыпается!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 71, 78
+#: 0x03fbcdd
+msgctxt "battle:109"
+msgid "battle:109"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: Шум и гам,\\nоднако, не даёт уснуть!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 47, 78
+#: 0x03fbcfc
+msgctxt "battle:110"
+msgid "battle:110"
+msgstr "{B_ATK_NAME_WITH_PREFIX} просыпается\\nот Шума и гама!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 41, 57
+#: 0x03fbd16
+msgctxt "battle:111"
+msgid "battle:111"
+msgstr "{B_ATK_NAME_WITH_PREFIX} поднимает\\nШум и гам!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 53, 57
+#: 0x03fbd2b
+msgctxt "battle:112"
+msgid "battle:112"
+msgstr "{B_ATK_NAME_WITH_PREFIX} продолжает\\nподнимать Шум и гам!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 75
+#: 0x03fbd43
+msgctxt "battle:113"
+msgid "battle:113"
+msgstr "{B_ATK_NAME_WITH_PREFIX} утихает."
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 54, 106
+#: 0x03fbd53
+msgctxt "battle:114"
+msgid "battle:114"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}, однако,\\nне может уснуть из-за Шума и гама!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 61, 6
+#: 0x03fbd74
+msgctxt "battle:115"
+msgid "battle:115"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: Запасение!\\nНакоплено: {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 31, 107
+#: 0x03fbd86
+msgctxt "battle:116"
+msgid "battle:116"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: Запасение\\nбольше невозможно!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 54, 106
+#: 0x03fbda3
+msgctxt "battle:117"
+msgid "battle:117"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}, однако,\\nне может уснуть из-за Шума и гама!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 108, 41
+#: 0x03fbdc4
+msgctxt "battle:118"
+msgid "battle:118"
+msgstr "{B_DEF_NAME_WITH_PREFIX}, однако,\\nне засыпает из-за Шума и гама!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 75, 58
+#: 0x03fbde2
+msgctxt "battle:119"
+msgid "battle:119"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX} не засыпает\\nблагодаря таланту {B_DEF_ABILITY}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 40
+#: 0x03fbe00
+msgctxt "battle:120"
+msgid "battle:120"
+msgstr "{B_ATK_NAME_WITH_PREFIX} копит\\nэнергию!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 40
+#: 0x03fbe16
+msgctxt "battle:121"
+msgid "battle:121"
+msgstr "{B_ATK_NAME_WITH_PREFIX} высвобождает\\nэнергию!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 42, 136
+#: 0x03fbe2b
+msgctxt "battle:122"
+msgid "battle:122"
+msgstr "{B_ATK_NAME_WITH_PREFIX} от усталости\\nприходит в замешательство!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 57, 14, 0
+#: 0x03fbe4e
+msgctxt "battle:123"
+msgid "battle:123"
+msgstr "{B_PLAYER_NAME} подбирает ¥{B_BUFF1}!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 15, 62
+#: 0x03fbe61
+msgctxt "battle:124"
+msgid "battle:124"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: никакого\\nэффекта!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 66, 32
+#: 0x03fbe73
+msgctxt "battle:125"
+msgid "battle:125"
+msgstr "{B_ATK_NAME_WITH_PREFIX} превращается\\nв покемона {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 30, 72
+#: 0x03fbe8b
+msgctxt "battle:126"
+msgid "battle:126"
+msgstr "{B_ATK_NAME_WITH_PREFIX} создаёт\\nПодмену!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 95
+#: 0x03fbea1
+msgctxt "battle:127"
+msgid "battle:127"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: Подмена\\nуже создана!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 148, 28, 0
+#: 0x03fbebe
+msgctxt "battle:128"
+msgid "battle:128"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: Подмена\\nпринимает удар на себя!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 8, 95, 0
+#: 0x03fbee2
+msgctxt "battle:129"
+msgid "battle:129"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: Подмена\\nисчезает!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 28, 52
+#: 0x03fbefa
+msgctxt "battle:130"
+msgid "battle:130"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: нужна\\nперезарядка!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 38, 63
+#: 0x03fbf0c
+msgctxt "battle:131"
+msgid "battle:131"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: Ярость\\nнарастает!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 73
+#: 0x03fbf23
+msgctxt "battle:132"
+msgid "battle:132"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: приём\\n{B_BUFF1} отключён!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 65, 46
+#: 0x03fbf39
+msgctxt "battle:134"
+msgid "battle:134"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: приём\\nбольше не отключён!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 23, 57
+#: 0x03fbf51
+msgctxt "battle:135"
+msgid "battle:135"
+msgstr "{B_DEF_NAME_WITH_PREFIX} попадает\\nпод действие приёма На бис!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 48, 35
+#: 0x03fbf63
+msgctxt "battle:136"
+msgid "battle:136"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: приём\\nНа бис перестал действовать!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 50, 23
+#: 0x03fbf76
+msgctxt "battle:137"
+msgid "battle:137"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} целится!\\n{B_DEF_NAME_WITH_PREFIX} на прицеле!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 52, 6
+#: 0x03fbf89
+msgctxt "battle:138"
+msgid "battle:138"
+msgstr "{B_ATK_NAME_WITH_PREFIX} копирует\\nприём {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 52, 130
+#: 0x03fbf99
+msgctxt "battle:139"
+msgid "battle:139"
+msgstr "{B_ATK_NAME_WITH_PREFIX} собирается\\nзабрать противника с собой!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 28, 48
+#: 0x03fbfbf
+msgctxt "battle:140"
+msgid "battle:140"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX} забирает\\nпротивника с собой!\\l"
+"{B_ATK_NAME_WITH_PREFIX} - жертва!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 56, 30
+#: 0x03fbfd3
+msgctxt "battle:141"
+msgid "battle:141"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}: ОС приёма\\n{B_BUFF1} уменьшаются на {B_BUFF2}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 33, 20
+#: 0x03fbfea
+msgctxt "battle:142"
+msgid "battle:142"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} крадёт\\nпредмет {B_LAST_ITEM}!\\l"
+"{B_DEF_NAME_WITH_PREFIX} его теряет!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 53, 68
+#: 0x03fc011
+msgctxt "battle:144"
+msgid "battle:144"
+msgstr "{B_DEF_NAME_WITH_PREFIX} погружается\\nв Кошмар!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 55, 83
+#: 0x03fc02b
+msgctxt "battle:145"
+msgid "battle:145"
+msgstr "{B_ATK_NAME_WITH_PREFIX} мучается\\nот Кошмара!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 84, 107, 6
+#: 0x03fc048
+msgctxt "battle:146"
+msgid "battle:146"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} тратит ОЖ\\nи насылает Проклятие!\\l"
+"{B_DEF_NAME_WITH_PREFIX} - цель!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 69, 75
+#: 0x03fc072
+msgctxt "battle:147"
+msgid "battle:147"
+msgstr "{B_ATK_NAME_WITH_PREFIX} страдает\\nот Проклятия!"
+
+# source: Native tests show that deleting the first authored break can overflow the 222 px battle line.
+# source: Short and typical first sentences use 143/190 px, but a supported long opponent name produces 279 px.
+# source: The printer does not wrap that expanded sentence safely.
+# source: Native original/current/removed-break tests include short names, ordinary species names and ten-character names with the wild-opponent prefix.
+# source: The removed-break long case clips and overwrites visible text.
+# source: Released wording stays within its lines.
+# source: status: unreviewed; evidence: method: runtime; verification: recorded; measurements: name: battle line width; value: 222; unit: px
+# source: name: short first sentence; value: 143; unit: px
+# source: name: typical first sentence; value: 190; unit: px
+# source: name: long opponent first sentence; value: 279; unit: px
+# source: name: long name length; value: 10; unit: characters
+# source-notes: generated
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 57, 6
+#: 0x03fc0dc
+msgctxt "battle:150"
+msgid "battle:150"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} распознаёт\\nпротивника!\\l"
+"{B_DEF_NAME_WITH_PREFIX} на виду!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 80, 50
+#: 0x03fc0ee
+msgctxt "battle:151"
+msgid "battle:151"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: отсчёт\\nгибели доходит до {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 41, 36
+#: 0x03fc10c
+msgctxt "battle:152"
+msgid "battle:152"
+msgstr "{B_ATK_NAME_WITH_PREFIX} готовится\\nвыстоять!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 44
+#: 0x03fc11e
+msgctxt "battle:153"
+msgid "battle:153"
+msgstr "{B_DEF_NAME_WITH_PREFIX} выдерживает\\nудар!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 62
+#: 0x03fc132
+msgctxt "battle:154"
+msgid "battle:154"
+msgstr "Магнитуда {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 84, 118
+#: 0x03fc140
+msgctxt "battle:155"
+msgid "battle:155"
+msgstr "{B_ATK_NAME_WITH_PREFIX} тратит ОЖ\\nи повышает Атаку до максимума!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 40, 87
+#: 0x03fc168
+msgctxt "battle:156"
+msgid "battle:156"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} копирует\\pс покемона "
+"“{B_DEF_NAME_WITH_PREFIX}”\\nизменения характеристик!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 68, 20
+#: 0x03fc185
+msgctxt "battle:157"
+msgid "battle:157"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} избавляется\\nот приёма {B_BUFF1}!\\l"
+"{B_DEF_NAME_WITH_PREFIX} без захвата!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 29, 66
+#: 0x03fc19d
+msgctxt "battle:158"
+msgid "battle:158"
+msgstr "{B_ATK_NAME_WITH_PREFIX} сбрасывает\\nСемя-пиявку!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 56, 39
+#: 0x03fc1c6
+msgctxt "battle:160"
+msgid "battle:160"
+msgstr "{B_ATK_NAME_WITH_PREFIX} сбегает\\nс поля боя!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 45, 56
+#: 0x03fc1db
+msgctxt "battle:161"
+msgid "battle:161"
+msgstr "{B_ATK_NAME_WITH_PREFIX} предвидит\\nатаку!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 51, 45
+#: 0x03fc1f1
+msgctxt "battle:162"
+msgid "battle:162"
+msgstr "{B_DEF_NAME_WITH_PREFIX} принимает\\nудар приёма {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 53
+#: 0x03fc224
+msgctxt "battle:163"
+msgid "battle:163"
+msgstr "Атакует {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 65, 109
+#: 0x03fc231
+msgctxt "battle:164"
+msgid "battle:164"
+msgstr "{B_DEF_NAME_WITH_PREFIX} привлекает\\nвсё внимание!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 35, 85
+#: 0x03fc254
+msgctxt "battle:165"
+msgid "battle:165"
+msgstr "{B_ATK_NAME_WITH_PREFIX} начинает\\nкопить заряд!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 134, 6
+#: 0x03fc26d
+msgctxt "battle:166"
+msgid "battle:166"
+msgstr "Сила природы\\nпревращается в приём {B_CURRENT_MOVE}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 106
+#: 0x03fc28a
+msgctxt "battle:167"
+msgid "battle:167"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: особое\\nсостояние излечено!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 81, 62
+#: 0x03fc2aa
+msgctxt "battle:169"
+msgid "battle:169"
+msgstr "{B_DEF_NAME_WITH_PREFIX} подвергается\\nМучению!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 73, 54
+#: 0x03fc2c7
+msgctxt "battle:171"
+msgid "battle:171"
+msgstr "{B_ATK_NAME_WITH_PREFIX} собирается\\nс силами!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 49, 57
+#: 0x03fc2e3
+msgctxt "battle:172"
+msgid "battle:172"
+msgstr "{B_DEF_NAME_WITH_PREFIX} поддаётся\\nна Провокацию!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 67, 35
+#: 0x03fc2fa
+msgctxt "battle:174"
+msgid "battle:174"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} протягивает\\nруку помощи!\\l"
+"{B_DEF_NAME_WITH_PREFIX} её получает!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 50, 130
+#: 0x03fc312
+msgctxt "battle:175"
+msgid "battle:175"
+msgstr "{B_ATK_NAME_WITH_PREFIX} меняется\\nпредметами с противником!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 40, 20
+#: 0x03fc377
+msgctxt "battle:176"
+msgid "battle:176"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} копирует\\pс покемона "
+"“{B_DEF_NAME_WITH_PREFIX}”\\nталант {B_DEF_ABILITY}!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 75
+#: 0x03fc38a
+msgctxt "battle:177"
+msgid "battle:177"
+msgstr "{B_ATK_NAME_WITH_PREFIX} загадывает\\nМечту!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 35, 58
+#: 0x03fc39a
+msgctxt "battle:178"
+msgid "battle:178"
+msgstr "{B_BUFF1}: Мечта\\nсбывается!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 65, 33
+#: 0x03fc3af
+msgctxt "battle:179"
+msgid "battle:179"
+msgstr "{B_ATK_NAME_WITH_PREFIX} пускает\\nкорни!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 52, 132
+#: 0x03fc3c5
+msgctxt "battle:180"
+msgid "battle:180"
+msgstr "{B_ATK_NAME_WITH_PREFIX} впитывает\\nпитательные вещества корнями!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 52, 116
+#: 0x03fc3eb
+msgctxt "battle:181"
+msgid "battle:181"
+msgstr "{B_DEF_NAME_WITH_PREFIX} держится\\nкорнями!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 30, 46
+#: 0x03fc40e
+msgctxt "battle:182"
+msgid "battle:182"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} зевает!\\n{B_DEF_NAME_WITH_PREFIX} клюёт носом!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 67, 20
+#: 0x03fc421
+msgctxt "battle:183"
+msgid "battle:183"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} выбивает\\nпредмет {B_LAST_ITEM}!\\l"
+"{B_DEF_NAME_WITH_PREFIX} его теряет!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 47, 149
+#: 0x03fc439
+msgctxt "battle:184"
+msgid "battle:184"
+msgstr "{B_ATK_NAME_WITH_PREFIX} меняется\\nталантами с противником!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 63, 104
+#: 0x03fc461
+msgctxt "battle:185"
+msgid "battle:185"
+msgstr "{B_ATK_NAME_WITH_PREFIX} запечатывает\\nприёмы противника!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 56, 150
+#: 0x03fc483
+msgctxt "battle:187"
+msgid "battle:187"
+msgstr "{B_ATK_NAME_WITH_PREFIX} хочет, чтобы\\nпротивник затаил Обиду!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 192
+#: 0x03fc4ab
+msgctxt "battle:188"
+msgid "battle:188"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX}: из-за Обиды\\nу приёма {B_BUFF1} не осталось ОС!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 52, 57
+#: 0x03fc4d6
+msgctxt "battle:189"
+msgid "battle:189"
+msgstr "{B_ATK_NAME_WITH_PREFIX} окутывается\\nприёмом {B_CURRENT_MOVE}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 180
+#: 0x03fc4f0
+msgctxt "battle:190"
+msgid "battle:190"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX}: приём\\n{B_CURRENT_MOVE} отражён Чудо-покровом!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 97, 88
+#: 0x03fc518
+msgctxt "battle:191"
+msgid "battle:191"
+msgstr "{B_ATK_NAME_WITH_PREFIX} ждёт\\nхода противника!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 52, 44
+#: 0x03fc53d
+msgctxt "battle:192"
+msgid "battle:192"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX} крадёт\\nприём!\\l"
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX} его теряет!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 40, 62, 0
+#: 0x03fc670
+msgctxt "battle:168"
+msgid "battle:168"
+msgstr "{B_ACTIVE_NAME_WITH_PREFIX}: приёмов\\nбольше не осталось!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 14, 65, 0
+#: 0x03fc687
+msgctxt "battle:133"
+msgid "battle:133"
+msgstr "{B_ACTIVE_NAME_WITH_PREFIX}: приём\\n{B_CURRENT_MOVE} отключён!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 106, 189, 0
+#: 0x03fc69d
+msgctxt "battle:170"
+msgid "battle:170"
+msgstr ""
+"{B_ACTIVE_NAME_WITH_PREFIX}: из-за\\nМучения приём нельзя повторить!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 54, 96, 0
+#: 0x03fc6d6
+msgctxt "battle:173"
+msgid "battle:173"
+msgstr ""
+"{B_ACTIVE_NAME_WITH_PREFIX}: из-за\\nПровокации приём\\l{B_CURRENT_MOVE} "
+"недоступен!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 77, 46, 0
+#: 0x03fc6f8
+msgctxt "battle:186"
+msgid "battle:186"
+msgstr "{B_ACTIVE_NAME_WITH_PREFIX}: приём\\n{B_CURRENT_MOVE} запечатан!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 71
+#: 0x03fc715
+msgctxt "battle:193"
+msgid "battle:193"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: талант\\n{B_SCR_ACTIVE_ABILITY} вызывает "
+"дождь!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 94
+#: 0x03fc72b
+msgctxt "battle:194"
+msgid "battle:194"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: талант\\n{B_SCR_ACTIVE_ABILITY} повышает "
+"Скорость!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 80, 24
+#: 0x03fc745
+msgctxt "battle:195"
+msgid "battle:195"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: талант\\n{B_DEF_ABILITY} даёт защиту!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 14, 50, 66
+#: 0x03fc75d
+msgctxt "battle:196"
+msgid "battle:196"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}: срабатывает\\nталант {B_DEF_ABILITY}!\\l"
+"{B_ATK_NAME_WITH_PREFIX}: приём\\l{B_CURRENT_MOVE} недоступен!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 68, 58
+#: 0x03fc780
+msgctxt "battle:197"
+msgid "battle:197"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: талант\\n{B_DEF_ABILITY} восполняет ОЖ!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 103
+#: 0x03fc7b6
+msgctxt "battle:198"
+msgid "battle:198"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}: талант\\n{B_DEF_ABILITY} даёт тип {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 104
+#: 0x03fc7d3
+msgctxt "battle:199"
+msgid "battle:199"
+msgstr ""
+"{B_EFF_NAME_WITH_PREFIX}: талант\\n{B_DEF_ABILITY} спасает от паралича!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 96
+#: 0x03fc7ef
+msgctxt "battle:200"
+msgid "battle:200"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}: талант\\n{B_DEF_ABILITY} не даёт влюбиться!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 103
+#: 0x03fc809
+msgctxt "battle:201"
+msgid "battle:201"
+msgstr ""
+"{B_EFF_NAME_WITH_PREFIX}: талант\\n{B_DEF_ABILITY} не даёт отравиться!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 45, 36
+#: 0x03fc860
+msgctxt "battle:204"
+msgid "battle:204"
+msgstr "{B_DEF_NAME_WITH_PREFIX} держится\\nна месте!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 81
+#: 0x03fc87b
+msgctxt "battle:205"
+msgid "battle:205"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: срабатывает\\nталант "
+"{B_SCR_ACTIVE_ABILITY}!\\l{B_DEF_NAME_WITH_PREFIX}: Атака\\lпонижается!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 40, 20
+#: 0x03fc8c2
+msgctxt "battle:208"
+msgid "battle:208"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX} копирует\\pс покемона “{B_BUFF1}”\\n"
+"талант {B_BUFF2}!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x03fcb41
+msgctxt "battle:209"
+msgid "battle:209"
+msgstr "резко "
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x03fcb50
+msgctxt "battle:211"
+msgid "battle:211"
+msgstr "резко "
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 27
+#: 0x03fcb59
+msgctxt "battle:212"
+msgid "battle:212"
+msgstr "понижается!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 0
+#: 0x03fcb5f
+msgctxt "battle:213"
+msgid "battle:213"
+msgstr "{B_ATK_NAME_WITH_PREFIX}:\\n{B_BUFF1} {B_BUFF2}"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 0
+#: 0x03fcb8f
+msgctxt "battle:215"
+msgid "battle:215"
+msgstr "{B_ATK_NAME_WITH_PREFIX}:\\n{B_BUFF1} {B_BUFF2}"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 0
+#: 0x03fcb9a
+msgctxt "battle:216"
+msgid "battle:216"
+msgstr "{B_DEF_NAME_WITH_PREFIX}:\\n{B_BUFF1} {B_BUFF2}"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 71, 80
+#: 0x03fcba5
+msgctxt "battle:25"
+msgid "battle:25"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: выше\\nхарактеристики не поднимутся!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 99
+#: 0x03fcbf4
+msgctxt "battle:218"
+msgid "battle:218"
+msgstr "Мгновенный нокаут!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 116, 0
+#: 0x03fcc07
+msgctxt "battle:219"
+msgid "battle:219"
+msgstr ""
+"{PAUSE 20}1, {PAUSE 0F}2 и{PAUSE 0F}… {PAUSE 0F}… {PAUSE 0F}… {PAUSE "
+"0F}{PLAY_SE 31 00}Пуф!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 23, 0
+#: 0x03fcc33
+msgctxt "battle:220"
+msgid "battle:220"
+msgstr "И…\\p"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x03fcc5b
+msgctxt "battle:221"
+msgid "battle:221"
+msgstr "Это не очень эффективно…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 114
+#: 0x03fcc74
+msgctxt "battle:222"
+msgid "battle:222"
+msgstr "Это суперэффективно!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 61
+#: 0x03fccd2
+msgctxt "battle:224"
+msgid "battle:224"
+msgstr "{PLAY_SE 11 00}Дикий покемон {B_BUFF1} сбегает!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 120, 122, 0
+#: 0x03fcdb3
+msgctxt "battle:225"
+msgid "battle:225"
+msgstr "Нет! От боя с тренером\\nсбежать нельзя!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 72, 0
+#: 0x03fcde2
+msgctxt "battle:226"
+msgid "battle:226"
+msgstr "Сбежать не удаётся!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 45, 6
+#: 0x03fd1b8
+msgctxt "battle:22"
+msgid "battle:22"
+msgstr "{B_ATK_NAME_WITH_PREFIX} осваивает\\nприём {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 108, 6
+#: 0x0800880
+msgctxt "battle:27"
+msgid "battle:27"
+msgstr "{B_DEF_NAME_WITH_PREFIX}: никакого\\nэффекта…"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 43, 79
+#: 0x08bb1e0
+msgctxt "battle:149"
+msgid "battle:149"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX} получает\\nурон от Шипов!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 84, 119
+#: 0x0a37a4d
+msgctxt "battle:203"
+msgid "battle:203"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX}: сила\\nприёмов типа Огонь растёт!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 57
+#: 0x0a37be3
+msgctxt "battle:207"
+msgid "battle:207"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nурон!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 185, 46
+#: 0x0a43f8f
+msgctxt "battle:159"
+msgid "battle:159"
+msgstr "{B_ATK_NAME_WITH_PREFIX}: ловушки\\nвокруг команды сметены!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x0a4a98c
+msgctxt "battle:217"
+msgid "battle:217"
+msgstr "{COLOR 02}{SHADOW 09}Критическое попадание!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 37, 70
+#: 0x0a4abc2
+msgctxt "battle:73"
+msgid "battle:73"
+msgstr "{B_ATK_NAME_WITH_PREFIX} получает\\nтип {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 79, 41
+#: 0x0a4aeff
+msgctxt "battle:143"
+msgid "battle:143"
+msgstr "{B_DEF_NAME_WITH_PREFIX} больше\\nне может сбежать!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 42, 93
+#: 0x0a4af18
+msgctxt "battle:87"
+msgid "battle:87"
+msgstr "{B_ATK_NAME_WITH_PREFIX} окутывается\\nсветом!"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 82
+#: 0x0a4b23c
+msgctxt "battle:49"
+msgid "battle:49"
+msgstr "{B_EFF_NAME_WITH_PREFIX} получает\\nобморожение!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 61, 82
+#: 0x0a4b26b
+msgctxt "battle:54"
+msgid "battle:54"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} излечивается\\nот обморожения приёмом "
+"{B_CURRENT_MOVE}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 61, 58
+#: 0x0a4b28b
+msgctxt "battle:52"
+msgid "battle:52"
+msgstr "{B_DEF_NAME_WITH_PREFIX} излечивается\\nот обморожения!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 61, 58
+#: 0x0a4b2a5
+msgctxt "battle:53"
+msgid "battle:53"
+msgstr "{B_ATK_NAME_WITH_PREFIX} излечивается\\nот обморожения!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 69, 68
+#: 0x0a4b2dc
+msgctxt "battle:206"
+msgid "battle:206"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: однако,\\nхарактеристики не понижаются!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 42, 93
+#: 0x0a4b312
+msgctxt "battle:202"
+msgid "battle:202"
+msgstr "{B_SCR_ACTIVE_NAME_WITH_PREFIX} не приходит\\nв замешательство!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 71, 93
+#: 0x0a4b3f3
+msgctxt "battle:97"
+msgid "battle:97"
+msgstr "Команда {FD 38}\\nокутывается Туманом!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 55, 63
+#: 0x0a4c670
+msgctxt "battle:30"
+msgid "battle:30"
+msgstr "Получено за победу:\\n¥{B_BUFF1}!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 140, 83, 0
+#: 0x0a4c689
+msgctxt "battle:31"
+msgid "battle:31"
+msgstr "Больше нет покемонов,\\nспособных сражаться!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 4, widths px: 138, 42, 164, 40
+#: 0x0a4c6b3
+msgctxt "battle:32"
+msgid "battle:32"
+msgstr ""
+"В панике потеряно ¥{B_BUFF1}…\\p… … … …\\pВас ошеломило "
+"поражение!{PAUSE_UNTIL_PRESS}"

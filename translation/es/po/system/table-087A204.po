@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-087A204\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 108, 92, 94, 78
+#: 0x0a38019
+msgctxt "table:moves/360/description"
+msgid "table:moves/360/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 112, 98, 59
+#: 0x0a38215
+msgctxt "table:moves/367/description"
+msgid "table:moves/367/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 97, 92, 109
+#: 0x0a382f2
+msgctxt "table:moves/370/description"
+msgid "table:moves/370/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 90, 103, 78
+#: 0x0a3833e
+msgctxt "table:moves/371/description"
+msgid "table:moves/371/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 108, 95, 89, 77
+#: 0x0a384ad
+msgctxt "table:moves/376/description"
+msgid "table:moves/376/description"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 88, 93, 94, 89
+#: 0x0a384f3
+msgctxt "table:moves/377/description"
+msgid "table:moves/377/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 95, 91, 114, 112
+#: 0x0a388f4
+msgctxt "table:moves/392/description"
+msgid "table:moves/392/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 95, 106, 89
+#: 0x0a38941
+msgctxt "table:moves/393/description"
+msgid "table:moves/393/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 75, 91, 102, 99
+#: 0x0a38a43
+msgctxt "table:moves/397/description"
+msgid "table:moves/397/description"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 90, 112, 89, 75
+#: 0x0a38b1a
+msgctxt "table:moves/400/description"
+msgid "table:moves/400/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 94, 106, 107
+#: 0x0a38c36
+msgctxt "table:moves/404/description"
+msgid "table:moves/404/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 107, 111, 94
+#: 0x0a38cd2
+msgctxt "table:moves/406/description"
+msgid "table:moves/406/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 80, 112, 109, 79
+#: 0x0a38d21
+msgctxt "table:moves/407/description"
+msgid "table:moves/407/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 79, 76, 76
+#: 0x0a38ef2
+msgctxt "table:moves/414/description"
+msgid "table:moves/414/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 81, 63, 62
+#: 0x0a38fb8
+msgctxt "table:moves/417/description"
+msgid "table:moves/417/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 79, 77, 84, 75
+#: 0x0a38ff2
+msgctxt "table:moves/418/description"
+msgid "table:moves/418/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 106, 89, 91, 71
+#: 0x0a3902f
+msgctxt "table:moves/419/description"
+msgid "table:moves/419/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 101, 112, 110
+#: 0x0a39106
+msgctxt "table:moves/422/description"
+msgid "table:moves/422/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 102, 95, 47
+#: 0x0a39155
+msgctxt "table:moves/423/description"
+msgid "table:moves/423/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 98, 93, 111
+#: 0x0a39198
+msgctxt "table:moves/424/description"
+msgid "table:moves/424/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 112, 74, 99
+#: 0x0a39307
+msgctxt "table:moves/429/description"
+msgid "table:moves/429/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 97, 94, 102, 90
+#: 0x0a39351
+msgctxt "table:moves/430/description"
+msgid "table:moves/430/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 83, 92, 102, 95
+#: 0x0a3961d
+msgctxt "table:moves/440/description"
+msgid "table:moves/440/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 94, 73, 79
+#: 0x0a39693
+msgctxt "table:moves/442/description"
+msgid "table:moves/442/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 94, 73, 79
+#: 0x0a396d3
+msgctxt "table:moves/443/description"
+msgid "table:moves/443/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 99, 99, 89
+#: 0x0a39713
+msgctxt "table:moves/444/description"
+msgid "table:moves/444/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 82, 90, 97, 99
+#: 0x0a3987a
+msgctxt "table:moves/449/description"
+msgid "table:moves/449/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 80, 94, 93, 66
+#: 0x0a398ff
+msgctxt "table:moves/451/description"
+msgid "table:moves/451/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 90, 98, 39
+#: 0x0a39b3c
+msgctxt "table:moves/459/description"
+msgid "table:moves/459/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 93, 96, 111, 78
+#: 0x0a39ccd
+msgctxt "table:moves/465/description"
+msgid "table:moves/465/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 93, 90, 71, 83
+#: 0x0a39d15
+msgctxt "table:moves/466/description"
+msgid "table:moves/466/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 107, 104, 95
+#: 0x0a39d8d
+msgctxt "table:moves/468/description"
+msgid "table:moves/468/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 79, 108, 113, 94
+#: 0x0a39f3a
+msgctxt "table:moves/474/description"
+msgid "table:moves/474/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 110, 105, 89, 91
+#: 0x0a3a733
+msgctxt "table:moves/502/description"
+msgid "table:moves/502/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 105, 97, 70
+#: 0x0a3a77d
+msgctxt "table:moves/503/description"
+msgid "table:moves/503/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 102, 88, 92
+#: 0x0a3a87d
+msgctxt "table:moves/506/description"
+msgid "table:moves/506/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 100, 108, 111, 109
+#: 0x0a3a99e
+msgctxt "table:moves/510/description"
+msgid "table:moves/510/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 106, 93, 70
+#: 0x0a3cc31
+msgctxt "table:moves/610/description"
+msgid "table:moves/610/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 107, 113, 94
+#: 0x0a3e065
+msgctxt "table:moves/671/description"
+msgid "table:moves/671/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 196, 189, 97
+#: 0x0eb1d88
+msgctxt "table:items/373/description"
+msgid "table:items/373/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 183, 199
+#: 0x0eb1de2
+msgctxt "table:items/374/description"
+msgid "table:items/374/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 158, 109
+#: 0x0eb5c36
+msgctxt "table:items/445/description"
+msgid "table:items/445/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 184, 155, 117
+#: 0x0eb5c8b
+msgctxt "table:items/446/description"
+msgid "table:items/446/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 155, 117
+#: 0x0eb5ce0
+msgctxt "table:items/447/description"
+msgid "table:items/447/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 155, 117
+#: 0x0eb5d36
+msgctxt "table:items/448/description"
+msgid "table:items/448/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 155, 117
+#: 0x0eb5d8c
+msgctxt "table:items/449/description"
+msgid "table:items/449/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 155, 117
+#: 0x0eb5de2
+msgctxt "table:items/450/description"
+msgid "table:items/450/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 196, 76
+#: 0x0eb5e37
+msgctxt "table:items/451/description"
+msgid "table:items/451/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 155, 117
+#: 0x0eb5e8b
+msgctxt "table:items/452/description"
+msgid "table:items/452/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 196, 76
+#: 0x0eb5ee0
+msgctxt "table:items/453/description"
+msgid "table:items/453/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 173, 196, 76
+#: 0x0eb5f34
+msgctxt "table:items/454/description"
+msgid "table:items/454/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 181, 117
+#: 0x0eb5f87
+msgctxt "table:items/455/description"
+msgid "table:items/455/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 168, 196, 76
+#: 0x0eb5fde
+msgctxt "table:items/456/description"
+msgid "table:items/456/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 155, 117
+#: 0x0eb6031
+msgctxt "table:items/457/description"
+msgid "table:items/457/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 170, 181, 117
+#: 0x0eb6086
+msgctxt "table:items/458/description"
+msgid "table:items/458/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 174, 196, 76
+#: 0x0eb60dd
+msgctxt "table:items/459/description"
+msgid "table:items/459/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 174, 196, 76
+#: 0x0eb6130
+msgctxt "table:items/460/description"
+msgid "table:items/460/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 155, 117
+#: 0x0eb6183
+msgctxt "table:items/461/description"
+msgid "table:items/461/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 177, 196, 76
+#: 0x0eb61d8
+msgctxt "table:items/462/description"
+msgid "table:items/462/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 172, 196, 76
+#: 0x0eb622c
+msgctxt "table:items/463/description"
+msgid "table:items/463/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 155, 117
+#: 0x0eb627f
+msgctxt "table:items/464/description"
+msgid "table:items/464/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 155, 117
+#: 0x0eb62d5
+msgctxt "table:items/465/description"
+msgid "table:items/465/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 155, 117
+#: 0x0eb632a
+msgctxt "table:items/466/description"
+msgid "table:items/466/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 155, 117
+#: 0x0eb6380
+msgctxt "table:items/467/description"
+msgid "table:items/467/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 155, 117
+#: 0x0eb63d5
+msgctxt "table:items/468/description"
+msgid "table:items/468/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 155, 117
+#: 0x0eb642a
+msgctxt "table:items/469/description"
+msgid "table:items/469/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 155, 117
+#: 0x0eb647f
+msgctxt "table:items/470/description"
+msgid "table:items/470/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 196, 76
+#: 0x0eb64d5
+msgctxt "table:items/471/description"
+msgid "table:items/471/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 172, 196, 76
+#: 0x0eb6529
+msgctxt "table:items/472/description"
+msgid "table:items/472/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 173, 196, 76
+#: 0x0eb657c
+msgctxt "table:items/473/description"
+msgid "table:items/473/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 155, 117
+#: 0x0eb65cf
+msgctxt "table:items/474/description"
+msgid "table:items/474/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 188, 155, 117
+#: 0x0eb6624
+msgctxt "table:items/475/description"
+msgid "table:items/475/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 155, 117
+#: 0x0eb667a
+msgctxt "table:items/476/description"
+msgid "table:items/476/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 155, 117
+#: 0x0eb66cf
+msgctxt "table:items/477/description"
+msgid "table:items/477/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 196, 76
+#: 0x0eb6724
+msgctxt "table:items/478/description"
+msgid "table:items/478/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 196, 76
+#: 0x0eb6778
+msgctxt "table:items/479/description"
+msgid "table:items/479/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 167, 196, 76
+#: 0x0eb67cc
+msgctxt "table:items/480/description"
+msgid "table:items/480/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 171, 196, 76
+#: 0x0eb681e
+msgctxt "table:items/481/description"
+msgid "table:items/481/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 155, 117
+#: 0x0eb6871
+msgctxt "table:items/482/description"
+msgid "table:items/482/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 155, 117
+#: 0x0eb68c7
+msgctxt "table:items/483/description"
+msgid "table:items/483/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 171, 196, 76
+#: 0x0eb691d
+msgctxt "table:items/484/description"
+msgid "table:items/484/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 171, 196, 76
+#: 0x0eb6970
+msgctxt "table:items/485/description"
+msgid "table:items/485/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 196, 76
+#: 0x0eb69c3
+msgctxt "table:items/486/description"
+msgid "table:items/486/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 155, 117
+#: 0x0eb6a17
+msgctxt "table:items/487/description"
+msgid "table:items/487/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 196, 76
+#: 0x0eb6a6c
+msgctxt "table:items/488/description"
+msgid "table:items/488/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 155, 117
+#: 0x0eb6ac0
+msgctxt "table:items/489/description"
+msgid "table:items/489/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 196, 76
+#: 0x0eb6b16
+msgctxt "table:items/490/description"
+msgid "table:items/490/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 172, 196, 76
+#: 0x0eb6b6a
+msgctxt "table:items/491/description"
+msgid "table:items/491/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 196, 76
+#: 0x0eb6bbd
+msgctxt "table:items/492/description"
+msgid "table:items/492/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 127, 112, 121, 122
+#: 0x0eb8d15
+msgctxt "table:items/416/description"
+msgid "table:items/416/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 125, 139, 96, 125
+#: 0x0eb8d71
+msgctxt "table:items/417/description"
+msgid "table:items/417/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 138, 118, 138, 92
+#: 0x0eb8dce
+msgctxt "table:items/419/description"
+msgid "table:items/419/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 133, 105, 93, 115
+#: 0x0eb8e28
+msgctxt "table:items/421/description"
+msgid "table:items/421/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 135, 125, 101, 112
+#: 0x0eb8e7d
+msgctxt "table:items/425/description"
+msgid "table:items/425/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 138, 122, 133, 39
+#: 0x0eb8ed7
+msgctxt "table:items/427/description"
+msgid "table:items/427/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 113, 106, 110, 120
+#: 0x0eb8f29
+msgctxt "table:items/429/description"
+msgid "table:items/429/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 116, 119, 140
+#: 0x0eb8f7d
+msgctxt "table:items/432/description"
+msgid "table:items/432/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 131, 105, 113, 107
+#: 0x0eb8fd7
+msgctxt "table:items/433/description"
+msgid "table:items/433/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 139, 139, 110, 103
+#: 0x0eb902d
+msgctxt "table:items/434/description"
+msgid "table:items/434/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 128, 125, 117, 54
+#: 0x0eb9089
+msgctxt "table:items/435/description"
+msgid "table:items/435/description"
+msgstr ""

@@ -1,0 +1,1025 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0450000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 594, 44
+#: 0x04541de
+msgctxt "hash:590fedcf"
+msgid "hash:590fedcf"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 2, widths px: 583, 44
+#: 0x04541e0
+msgctxt "hash:79bebb9a"
+msgid "hash:79bebb9a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 87, 96, 56
+#: 0x0454f2d
+msgctxt "hash:0c1080f1"
+msgid "hash:0c1080f1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x0454f5a
+msgctxt "hash:89fb70e7"
+msgid "hash:89fb70e7"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x04556f8
+msgctxt "hash:f78782ce"
+msgid "hash:f78782ce"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 204
+#: 0x04571b8
+msgctxt "hash:87fec6d7"
+msgid "hash:87fec6d7"
+msgstr "Пожалуйста, начните сначала."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 156, 185
+#: 0x04571e0
+msgctxt "hash:5cbc0732"
+msgid "hash:5cbc0732"
+msgstr "Система беспроводной связи:\\nпоиск отменён."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 54, 189
+#: 0x0457234
+msgctxt "hash:7448a0cd"
+msgid "hash:7448a0cd"
+msgstr "{STR_VAR_1}! Ожидание связи\\nс другим игроком."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 85, 192
+#: 0x0457264
+msgctxt "hash:e15ea86d"
+msgid "hash:e15ea86d"
+msgstr "{STR_VAR_1}! Ожидание связи!\\nКогда все готовы, нажмите START."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 46, 40
+#: 0x04573b4
+msgctxt "hash:7d836d93"
+msgid "hash:7d836d93"
+msgstr "Нужен ещё\\n1 игрок."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 51, 40
+#: 0x04573c5
+msgctxt "hash:2d938bb2"
+msgid "hash:2d938bb2"
+msgstr "Нужно ещё\\n2 игрока."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 51, 40
+#: 0x04573d7
+msgctxt "hash:f589c9c8"
+msgid "hash:f589c9c8"
+msgstr "Нужно ещё\\n3 игрока."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 48, 24
+#: 0x04573f4
+msgctxt "hash:4fa883a9"
+msgid "hash:4fa883a9"
+msgstr "Игроков:\\n2"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 48, 24
+#: 0x0457410
+msgctxt "hash:340a08eb"
+msgid "hash:340a08eb"
+msgstr "Игроков:\\n4"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x045747c
+msgctxt "hash:3221af9d"
+msgid "hash:3221af9d"
+msgstr "{F8 01}Отмена"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 103, 52
+#: 0x04574a0
+msgctxt "hash:9e401e92"
+msgid "hash:9e401e92"
+msgstr "Запрос от тренера {STR_VAR_2}:\\n{STR_VAR_1}. Принять?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 86, 90
+#: 0x04574c4
+msgctxt "hash:bac2e21a"
+msgid "hash:bac2e21a"
+msgstr "Вас вызывает {STR_VAR_2}.\\nПоделиться: {STR_VAR_1}?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 86, 110
+#: 0x04574ec
+msgctxt "hash:b55076cd"
+msgid "hash:b55076cd"
+msgstr "Запрос от тренера {STR_VAR_2}.\\nДобавить в участники?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 6, 121
+#: 0x0457514
+msgctxt "hash:d1de2c27"
+msgid "hash:d1de2c27"
+msgstr "{STR_VAR_1}!\\nЭтот состав подходит?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 70, 107
+#: 0x0457530
+msgctxt "hash:651c8677"
+msgid "hash:651c8677"
+msgstr "Отменить режим {STR_VAR_1}\\nс этими участниками?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 91, 22
+#: 0x0457554
+msgctxt "hash:4a385ea3"
+msgid "hash:4a385ea3"
+msgstr "Тренеру {STR_VAR_1}\\nотправлено “ОК”."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 114, 0
+#: 0x045756c
+msgctxt "hash:3f10566d"
+msgid "hash:3f10566d"
+msgstr "Похоже, другой тренер\\nсейчас недоступен…\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 113, 0
+#: 0x04575a4
+msgctxt "hash:d2887e15"
+msgid "hash:d2887e15"
+msgstr "Нельзя связаться с тренером,\\nкоторый слишком далеко.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 171, 57, 0
+#: 0x04575dc
+msgctxt "hash:e7040ef4"
+msgid "hash:e7040ef4"
+msgstr "Другие тренеры ещё не готовы.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 81, 175
+#: 0x0457610
+msgctxt "hash:43fab7eb"
+msgid "hash:43fab7eb"
+msgstr "Режим {STR_VAR_1}\\nс этими участниками отменяется.{PAUSE 5A}"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 161, 132, 0
+#: 0x0457644
+msgctxt "hash:d15b2a62"
+msgid "hash:d15b2a62"
+msgstr "Один из участников\\nбольше недоступен.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 141, 67, 0
+#: 0x0457684
+msgctxt "hash:938ae3fd"
+msgid "hash:938ae3fd"
+msgstr "Другой тренер, похоже,\\nнедоступен…\\p"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 109
+#: 0x04576ac
+msgctxt "hash:c79e4f75"
+msgid "hash:c79e4f75"
+msgstr "{STR_VAR_1} отвечает: “ОК”!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 141, 52
+#: 0x04576c4
+msgctxt "hash:d7e8a731"
+msgid "hash:d7e8a731"
+msgstr "{STR_VAR_1} принимает вас\\nв участники."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 85, 0
+#: 0x04576ec
+msgctxt "hash:dc322457"
+msgid "hash:dc322457"
+msgstr "{STR_VAR_1}: “Нет…”\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 6, 128
+#: 0x0457700
+msgctxt "hash:2f6dadef"
+msgid "hash:2f6dadef"
+msgstr "{STR_VAR_1}!\\nОжидание других участников!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 113
+#: 0x045771c
+msgctxt "hash:3dc3ec01"
+msgid "hash:3dc3ec01"
+msgstr "Покинуть группу?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 155, 0
+#: 0x0457734
+msgctxt "hash:b45244d0"
+msgid "hash:b45244d0"
+msgstr "Вы покинули группу.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 156, 184
+#: 0x045777c
+msgctxt "hash:91430244"
+msgid "hash:91430244"
+msgstr "Система беспроводной связи:\\nсоединение установлено."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 156, 166
+#: 0x04577bc
+msgctxt "hash:f5f2cac2"
+msgid "hash:f5f2cac2"
+msgstr "Система беспроводной связи:\\nсоединение прервано…"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 188, 47
+#: 0x04577f8
+msgctxt "hash:51851f59"
+msgid "hash:51851f59"
+msgstr "Связь с другом прервана…"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 85
+#: 0x0457824
+msgctxt "hash:12162fb4"
+msgid "hash:12162fb4"
+msgstr "{STR_VAR_1}: “Нет…”"
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 93, 30
+#: 0x0457860
+msgctxt "hash:8956cb35"
+msgid "hash:8956cb35"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 93, 30
+#: 0x045787c
+msgctxt "hash:3f6a7a08"
+msgid "hash:3f6a7a08"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 141, 57
+#: 0x04578bc
+msgctxt "hash:61ee77f7"
+msgid "hash:61ee77f7"
+msgstr "Ожидание ответа тренера {STR_VAR_1}\\nнасчёт обмена…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 96, 90
+#: 0x04578e4
+msgctxt "hash:71411416"
+msgid "hash:71411416"
+msgstr ""
+"Обмен данными{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.\\n"
+"{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 119, 90
+#: 0x0457950
+msgctxt "hash:d02beb36"
+msgid "hash:d02beb36"
+msgstr ""
+"Связь с тренером {STR_VAR_1}{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.\\n{PAUSE "
+"0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 136, 90
+#: 0x04579bc
+msgctxt "hash:37b3fcc9"
+msgid "hash:37b3fcc9"
+msgstr ""
+"Подождите немного{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}.\\n{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE 0F}.{PAUSE "
+"0F}.{PAUSE 0F}."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 75
+#: 0x0457a40
+msgctxt "hash:c8db3bed"
+msgid "hash:c8db3bed"
+msgstr "Привет! Хочешь чем-нибудь\\nзаняться?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 34, 175
+#: 0x0457a70
+msgctxt "hash:c35a1909"
+msgid "hash:c35a1909"
+msgstr "Здравствуй!\\nХочешь чем-нибудь заняться?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 124, 169
+#: 0x0457a98
+msgctxt "hash:fc631463"
+msgid "hash:fc631463"
+msgstr "{STR_VAR_1}: Привет, снова видимся!\\nЧем займёмся на этот раз?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 80, 175
+#: 0x0457ad0
+msgctxt "hash:49a931c5"
+msgid "hash:49a931c5"
+msgstr "{STR_VAR_1}: О! {PLAYER}, привет!\\nХочешь чем-нибудь заняться?"
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x0457b14
+msgctxt "hash:7d833e4a"
+msgid "hash:7d833e4a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 175
+#: 0x0457b2c
+msgctxt "hash:e56c08b7"
+msgid "hash:e56c08b7"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 136, 41
+#: 0x0457b4c
+msgctxt "hash:072e2621"
+msgid "hash:072e2621"
+msgstr "{STR_VAR_1}: Чем хочешь\\nзаняться теперь?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 157
+#: 0x0457b90
+msgctxt "hash:b5f0449f"
+msgid "hash:b5f0449f"
+msgstr "Вас кто-то вызывает.{PAUSE 3C}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 109
+#: 0x0457bb0
+msgctxt "hash:5d67ee1f"
+msgid "hash:5d67ee1f"
+msgstr "Вас вызывает {STR_VAR_1}.{PAUSE 3C}"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 132, 100
+#: 0x0457bd4
+msgctxt "hash:2471fb00"
+msgid "hash:2471fb00"
+msgstr "Ожидание ответа\\nдругого тренера…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 132, 6
+#: 0x0457c00
+msgctxt "hash:084f9df8"
+msgid "hash:084f9df8"
+msgstr "Ожидание ответа\\nтренера {STR_VAR_1}…"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 136, 127, 154, 72
+#: 0x0457c48
+msgctxt "hash:0670b264"
+msgid "hash:0670b264"
+msgstr ""
+"Другой тренер показывает\\nвам свою карточку тренера.\\pПоказать в ответ "
+"свою\\nкарточку тренера?"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 181, 55, 147, 57
+#: 0x0457ca4
+msgctxt "hash:15359c3c"
+msgid "hash:15359c3c"
+msgstr "Другой тренер вызывает\\nвас на бой.\\pПринять вызов?"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 160, 45, 137, 56
+#: 0x0457cf8
+msgctxt "hash:47676b54"
+msgid "hash:47676b54"
+msgstr "Другой тренер приглашает\\nвас в чат.\\pПринять приглашение?"
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 174, 89, 96, 34, 145, 33
+#: 0x0457d44
+msgctxt "hash:7482bc4e"
+msgid "hash:7482bc4e"
+msgstr ""
+"Вам предлагают обменять\\nвыставленного покемона\\p{F7 01} (уровень {F7 "
+"00})\\nна покемона {F7 03}\\l(уровень {F7 02}).\\pПринять это предложение?"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 174, 83, 184
+#: 0x0457db8
+msgctxt "hash:72671fd7"
+msgid "hash:72671fd7"
+msgstr "Вам предлагают обменять\\nвыставленное яйцо.\\lПринять предложение?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 151, 0
+#: 0x0457e0c
+msgctxt "hash:ec9c07c4"
+msgid "hash:ec9c07c4"
+msgstr "Чат прерван.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 129, 0
+#: 0x0457e28
+msgctxt "hash:13b1dadd"
+msgid "hash:13b1dadd"
+msgstr "Вы отклонили предложение.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 129, 0
+#: 0x0457e44
+msgctxt "hash:a32f279a"
+msgid "hash:a32f279a"
+msgstr "Вы отклонили предложение.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 110, 0
+#: 0x0457e60
+msgctxt "hash:8c22d3d9"
+msgid "hash:8c22d3d9"
+msgstr "Чат завершён.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 195, 89
+#: 0x0457e88
+msgctxt "hash:fd6d7867"
+msgid "hash:fd6d7867"
+msgstr "О, привет! Мы тут болтаем в чате.\\nПрисоединишься?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 46, 166, 89
+#: 0x0457ec0
+msgctxt "hash:7fe05e10"
+msgid "hash:7fe05e10"
+msgstr ""
+"{STR_VAR_1}: Привет, {PLAYER}!\\nМы тут болтаем в чате.\\lПрисоединишься?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 146
+#: 0x0457f00
+msgctxt "hash:db48d992"
+msgid "hash:db48d992"
+msgstr "Ой, привет! У нас тут чат.\\nХочешь присоединиться?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 61, 134, 146
+#: 0x0457f3c
+msgctxt "hash:38599ba1"
+msgid "hash:38599ba1"
+msgstr ""
+"{STR_VAR_1}: Ой, привет, {PLAYER}!\\nУ нас тут чат.\\lХочешь "
+"присоединиться?"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 12, 177, 0
+#: 0x0457f90
+msgctxt "hash:80316b81"
+msgid "hash:80316b81"
+msgstr "……\\nПохоже, тренер занят…\\p"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 80, 188
+#: 0x0457fb4
+msgctxt "hash:167b5147"
+msgid "hash:167b5147"
+msgstr "Бой, значит?\\nЛадно, дай мне немного времени."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 127, 136
+#: 0x0457fe8
+msgctxt "hash:75cd1fb8"
+msgid "hash:75cd1fb8"
+msgstr "Хочешь поболтать?\\nКонечно, подожди немного."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 167, 126
+#: 0x045801c
+msgctxt "hash:3ab88fd5"
+msgid "hash:3ab88fd5"
+msgstr "Конечно! Мой “Привет” -\\nэто моя карточка тренера."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 101
+#: 0x0458054
+msgctxt "hash:cbdace0b"
+msgid "hash:cbdace0b"
+msgstr "Бой? Конечно, но мне нужно\\nвремя, чтобы подготовиться."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 120, 175
+#: 0x0458088
+msgctxt "hash:ebc60ca5"
+msgid "hash:ebc60ca5"
+msgstr "Поболтать? Хорошо,\\nтолько подожди минутку."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 89
+#: 0x04580c0
+msgctxt "hash:4222a595"
+msgid "hash:4222a595"
+msgstr "Для знакомства покажу тебе\\nсвою карточку тренера."
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 175, 166, 175, 0
+#: 0x0458260
+msgctxt "hash:f4a26be2"
+msgid "hash:f4a26be2"
+msgstr ""
+"Прости! Мои покемоны сейчас\\nневажно себя чувствуют.\\lДавай сразимся в "
+"другой раз.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 188, 107, 141, 0
+#: 0x04582c0
+msgctxt "hash:634418d3"
+msgid "hash:634418d3"
+msgstr ""
+"Мне ужасно жаль, но мои покемоны\\nплохо себя чувствуют…\\pДавай сразимся "
+"в другой раз.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 120, 100, 190, 0
+#: 0x045831c
+msgctxt "hash:457fbcd8"
+msgid "hash:457fbcd8"
+msgstr ""
+"А? Моя карточка тренера…\\nКуда она подевалась?\\lПрости! Покажу в другой "
+"раз!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 152, 78, 151, 0
+#: 0x045836c
+msgctxt "hash:75892579"
+msgid "hash:75892579"
+msgstr ""
+"Ой, куда же я дела свою\\nкарточку тренера?..\\lПрости! Покажу потом!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 143, 0
+#: 0x04583bc
+msgctxt "hash:6a7e174d"
+msgid "hash:6a7e174d"
+msgstr "Если захочешь чем-нибудь заняться\\nсо мной, просто позови!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 94, 0
+#: 0x04583f8
+msgctxt "hash:a447c3ec"
+msgid "hash:a447c3ec"
+msgstr "Если захочешь чем-нибудь заняться\\nсо мной, не стесняйся.\\p"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 180, 82, 106, 0
+#: 0x0458434
+msgctxt "hash:aa9120ea"
+msgid "hash:aa9120ea"
+msgstr ""
+"Ой! Прости, но мне нужно заняться\\nкое-чем другим.\\lДавай в другой раз, "
+"ладно?\\p"
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 177, 149, 40, 0
+#: 0x045847c
+msgctxt "hash:7f5e9880"
+msgid "hash:7f5e9880"
+msgstr "Чтобы сразиться, нужны два\\nпокемона до 30-го уровня.\\p"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 149, 172, 0
+#: 0x04584c0
+msgctxt "hash:26939070"
+msgid "hash:26939070"
+msgstr "Для боя нужны два покемона\\nдо 30-го уровня.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 76, 149, 0
+#: 0x04584fc
+msgctxt "hash:b85d279a"
+msgid "hash:b85d279a"
+msgstr "А, ну ладно.\\nЗаходи в любое время, хорошо?\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 18, 131, 0
+#: 0x0458528
+msgctxt "hash:a5d930e9"
+msgid "hash:a5d930e9"
+msgstr "Ох…\\nПриходи, когда захочешь.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 56, 169, 131, 0
+#: 0x0458550
+msgctxt "hash:73a16d96"
+msgid "hash:73a16d96"
+msgstr ""
+"Ой, прости!\\nПрямо сейчас никак не могу.\\lДавай поболтаем в другой "
+"раз.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 76, 184, 149, 0
+#: 0x0458598
+msgctxt "hash:ab58f02a"
+msgid "hash:ab58f02a"
+msgstr ""
+"Ой, извини.\\nУ меня сейчас слишком много дел.\\lДавай поболтаем "
+"как-нибудь потом.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 177, 124, 0
+#: 0x04588dc
+msgctxt "hash:4b598830"
+msgid "hash:4b598830"
+msgstr "Я просто показываю свою карточку\\nтренера в знак приветствия.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 0
+#: 0x0458918
+msgctxt "hash:84c37cb9"
+msgid "hash:84c37cb9"
+msgstr "Надеюсь, мы познакомимся поближе!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 157, 179, 0
+#: 0x045893c
+msgctxt "hash:a5557e42"
+msgid "hash:a5557e42"
+msgstr ""
+"Мы показываем друг другу карточки\\nтренера, чтобы познакомиться.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 98, 150, 0
+#: 0x045897c
+msgctxt "hash:29c51293"
+msgid "hash:29c51293"
+msgstr "Приятно познакомиться.\\nНе пропадай!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 42, 163, 0
+#: 0x04589bc
+msgctxt "hash:57974574"
+msgid "hash:57974574"
+msgstr "Ура-а!\\nЯ так хотел этого покемона!\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 157, 173, 0
+#: 0x04589e4
+msgctxt "hash:490da183"
+msgid "hash:490da183"
+msgstr "Наконец-то я выменял покемона,\\nо котором давно мечтал.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 164, 0
+#: 0x0458a24
+msgctxt "hash:6818caac"
+msgid "hash:6818caac"
+msgstr "Я как раз меняюсь покемонами.\\p"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 157, 101, 0
+#: 0x0458a44
+msgctxt "hash:b275d1c0"
+msgid "hash:b275d1c0"
+msgstr "Наконец-то я выменяла покемона,\\nкоторого так хотела!\\p"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 70, 83, 0
+#: 0x0458a98
+msgctxt "hash:6251202b"
+msgid "hash:6251202b"
+msgstr "{STR_VAR_1} заглядывает\\nна Доску обмена.\\p"
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 170, 165, 156, 184, 75
+#: 0x0458ab8
+msgctxt "hash:1e8a4e08"
+msgid "hash:1e8a4e08"
+msgstr ""
+"Добро пожаловать на Доску обмена.\\pЗдесь можно выставить своего\\n"
+"покемона на обмен.\\pВыставить одного из своих\\nпокемонов?"
+
+#. category: code; mode: field
+#. original lines: 11, widths px: 171, 173, 179, 113, 185, 177, 186, 170, 81, 184, 75
+#: 0x0458b44
+msgctxt "hash:9212cf97"
+msgid "hash:9212cf97"
+msgstr ""
+"Доска обмена нужна, чтобы\\nпредлагать покемонов на обмен.\\pДостаточно "
+"выставить\\nпокемона на обмен.\\pДругой тренер может предложить\\nвзамен "
+"покемона из своей команды.\\pНадеемся, вы будете выставлять\\nпокемонов и "
+"меняться с множеством\\lдругих тренеров.\\pВыставить одного из своих\\n"
+"покемонов?"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 190, 184, 0
+#: 0x0458cd4
+msgctxt "hash:3cb0af53"
+msgid "hash:3cb0af53"
+msgstr "Выберите тип покемона, которого\\nвы хотите получить при обмене.\\n"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 180, 106, 0
+#: 0x0458d1c
+msgctxt "hash:5d4d74f0"
+msgid "hash:5d4d74f0"
+msgstr "Какого покемона из команды\\nвы предложите на обмен?\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 172, 0
+#: 0x0458d54
+msgctxt "hash:4c881913"
+msgid "hash:4c881913"
+msgstr "Выставление на обмен отменено.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 178, 0
+#: 0x0458d78
+msgctxt "hash:a591cdf9"
+msgid "hash:a591cdf9"
+msgstr "Выставление на обмен завершено.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 161, 0
+#: 0x0458d9c
+msgctxt "hash:50bd9cc2"
+msgid "hash:50bd9cc2"
+msgstr "Обмен отменён.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 171, 35
+#: 0x0458dbc
+msgctxt "hash:2eff8596"
+msgid "hash:2eff8596"
+msgstr "Снять с обмена покемона {STR_VAR_1}\\n(уровень {STR_VAR_2})?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 171, 24
+#: 0x0458de8
+msgctxt "hash:012f6c02"
+msgid "hash:012f6c02"
+msgstr "Снять яйцо с обмена?"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 195, 0
+#: 0x0458e10
+msgctxt "hash:d55e0a7a"
+msgid "hash:d55e0a7a"
+msgstr "Предложение обмена снято.\\p"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 141, 75
+#: 0x0458e70
+msgctxt "hash:3408810d"
+msgid "hash:3408810d"
+msgstr "Предложить обмен\\nтренеру {STR_VAR_1}?"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 126, 112, 0
+#: 0x0458ed0
+msgctxt "hash:6518669a"
+msgid "hash:6518669a"
+msgstr ""
+"У вас нет покемона типа {STR_VAR_2},\\nкоторого хочет {STR_VAR_1}.\\p"
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 148, 38, 0
+#: 0x0458f04
+msgctxt "hash:f064ed56"
+msgid "hash:f064ed56"
+msgstr "У вас нет яйца, которое\\nхочет {STR_VAR_1}.\\p"
+
+#. reach: never shown (reach study: unreachable system text; review: trade refusal pair: their only pointers are the two words of table 0x458F94; no word in the ROM, aligned or not, points at 0x8458F94, 0x8458F98 or either string, so no code selects them)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 128, 129, 0
+#: 0x0458f2c
+msgctxt "hash:37215212"
+msgid "hash:37215212"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: trade refusal pair: their only pointers are the two words of table 0x458F94; no word in the ROM, aligned or not, points at 0x8458F94, 0x8458F98 or either string, so no code selects them)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 146, 114, 0
+#: 0x0458f60
+msgctxt "hash:ff403580"
+msgid "hash:ff403580"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 0
+#: 0x0458f9c
+msgctxt "hash:46e0143d"
+msgid "hash:46e0143d"
+msgstr "Ваше предложение обмена отклонено.\\p"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 53
+#: 0x0458fbc
+msgctxt "hash:c8c41664"
+msgid "hash:c8c41664"
+msgstr "Обмен яйцами"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 114
+#: 0x0458fc8
+msgctxt "hash:55933b4a"
+msgid "hash:55933b4a"
+msgstr "{F8 0A}Выбор  {F8 00}Вход  {F8 01}Отмена"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 135
+#: 0x0458fe4
+msgctxt "hash:3a03800d"
+msgid "hash:3a03800d"
+msgstr "Выберите тренера."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 132, 158
+#: 0x04591dc
+msgctxt "hash:050adc06"
+msgid "hash:050adc06"
+msgstr "Поиск Системы беспроводной связи.\\nПодождите…"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 112
+#: 0x0459238
+msgctxt "hash:4e03411c"
+msgid "hash:4e03411c"
+msgstr "Ожидание ответа: {STR_VAR_1}…"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 151, 165
+#: 0x0459250
+msgctxt "hash:a2a442ba"
+msgid "hash:a2a442ba"
+msgstr "Тренеру {STR_VAR_1} отправлен\\nзапрос на участие. Подождите."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 155, 164
+#: 0x045928c
+msgctxt "hash:874865c8"
+msgid "hash:874865c8"
+msgstr "Ожидание ответа\\nСистемы беспроводной связи."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 162, 54
+#: 0x04592e8
+msgctxt "hash:8900c1e5"
+msgid "hash:8900c1e5"
+msgstr "Сейчас никто не раздаёт\\nЧудо-карты."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 162, 54
+#: 0x0459314
+msgctxt "hash:6225db2c"
+msgid "hash:6225db2c"
+msgstr "Сейчас никто не раздаёт\\nЧудо-новости."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0459344
+msgctxt "hash:a32377f1"
+msgid "hash:a32377f1"
+msgstr "Бой"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x045934c
+msgctxt "hash:e0f7f082"
+msgid "hash:e0f7f082"
+msgstr "Чат"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 48
+#: 0x0459354
+msgctxt "hash:3662b4f9"
+msgid "hash:3662b4f9"
+msgstr "Привет"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0459360
+msgctxt "hash:ff862ae7"
+msgid "hash:ff862ae7"
+msgstr "Выход"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0459370
+msgctxt "hash:c5b95ead"
+msgid "hash:c5b95ead"
+msgstr "Справка"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 102
+#: 0x0459378
+msgctxt "hash:278b5ab0"
+msgid "hash:278b5ab0"
+msgstr "Имя{CLEAR_TO 3C}Ищет{CLEAR_TO 6E}Предлагает{CLEAR_TO C6}Ур."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 105
+#: 0x045944c
+msgctxt "hash:525da8d7"
+msgid "hash:525da8d7"
+msgstr "Обычная карточка."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 106
+#: 0x0459460
+msgctxt "hash:6e4db349"
+msgid "hash:6e4db349"
+msgstr "Бронзовая карточка!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 107
+#: 0x0459474
+msgctxt "hash:f2f87ce5"
+msgid "hash:f2f87ce5"
+msgstr "Медная карточка!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 104
+#: 0x0459488
+msgctxt "hash:d97106d9"
+msgid "hash:d97106d9"
+msgstr "Серебряная карточка!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x045949c
+msgctxt "hash:fb230f87"
+msgid "hash:fb230f87"
+msgstr "Золотая карточка!"
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 56, 72, 0, 52, 56, 0
+#: 0x04594c4
+msgctxt "hash:218ac0b5"
+msgid "hash:218ac0b5"
+msgstr ""
+"Карточка тренера:\\n{F7 00} {F7 01}…\\l{F7 02}\\pПокедекс: {F7 03}\\n"
+"Время:    {F7 04}:{F7 05}\\p"
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 126, 84, 12, 12, 0
+#: 0x0459504
+msgctxt "hash:29a43248"
+msgid "hash:29a43248"
+msgstr ""
+"Побед: {F7 00}  Поражений: {F7 02}\\nОбменов: {F7 03}\\p“{F7 04} {F7 "
+"05}\\n{F7 06} {F7 07}”\\p"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0459544
+msgctxt "hash:e47e6e07"
+msgid "hash:e47e6e07"
+msgstr "{F7 01}: Было очень приятно!{PAUSE 3C}"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 110
+#: 0x0459564
+msgctxt "hash:8fd4d719"
+msgid "hash:8fd4d719"
+msgstr "{F7 01}: Очень приятно!{PAUSE 3C}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 106, 71
+#: 0x0459588
+msgctxt "hash:ee66e5cc"
+msgid "hash:ee66e5cc"
+msgstr "Карточка тренера {F7 01} просмотрена.{PAUSE 3C}"

@@ -1,0 +1,568 @@
+[pokedex.sources]
+evidence = "The map walk supplies map sections and root scripts for live commands. reach.Code accepts standalone commands only in 0x1E40000-0x1EC0000, or in the original script area when an unambiguous call/goto references their entry; overlapping map-decoded operands and gift commands with implausible trailing arguments are excluded"
+regions = [{start = 0x1E40000, end = 0x1EC0000}]
+linked_regions = [{start = 0x160000, end = 0x1D0000}, {start = 0x700000, end = 0x800000}]
+
+[pokedex.sources.commands]
+table = 0x15F9B4
+gift = 0x79
+egg = 0x7A
+
+[pokedex.sources.trades]
+base = 0x1FB7074
+stride = 40
+count = 39
+species = 16
+wanted = 18
+original_trainer = 4
+command = 0xFE
+context = { groups = 3483304, engine_groups = 11994264, engine_count = 57, bank_xor = 12011998 }
+proofs = [
+  { offset = 0x53A9C, size = 8, sha256 = "53a83500537fd7f51f7fade13314fd26d4919b489d3540929b8dbd08fab20c75" },
+  { offset = 0x53B48, size = 8, sha256 = "c4179f5fe60e51c4ca0dcaca17f413ed3be28002ce1cdfb429d8c9e27936371d" },
+  { offset = 0x1ED81DC, size = 88, sha256 = "b8202ff90d8e19e1daab514b6ce779aedc63163784c2e1c99130de90007eef68" },
+  { offset = 0x1ED82AC, size = 328, sha256 = "da2768416399ef725ca69d8ef48dd1da92f11d251ee125662224ff6d0447bace" },
+  { offset = 0x1ED847C, size = 48, sha256 = "c75698be9e09e494759e4b9d1a2938c07cb1eb1622112b3abf21c52686c9808b" },
+  { offset = 0x1ED83F4, size = 52, sha256 = "fe0f27749b55d84fe016600cef18cfed236dc91a726644ae015986f5a85a8f36" },
+  { offset = 0x1EBB5C0, size = 200, sha256 = "b6d6051960d2f512cec5c47780ecac321a95cc265c6e43870cb4d44de9a43170" },
+  { offset = 0x1EBB2CC, size = 176, sha256 = "d1e06a428b430114a498a45ac6f77cd2e3ceb382197ba5283338350a82176570" },
+  { offset = 0x1EBB534, size = 140, sha256 = "046b5fdc25b4c820dec5611e4486f1e38a428fdf88c4338879529d8c79f3b95c" },
+  { offset = 0x6A248, size = 20, sha256 = "302174142fb6a223f18e306b0cb71a54567dabe1d5c1a8cf14b1fa90e5141a82" },
+  { offset = 0x1E94570, size = 64, sha256 = "fe93427b3f12fc225c56c8504278ba5b35f1845f382f147684c5d6f9b1bdb394" },
+  { offset = 0x1FB3324, size = 156, sha256 = "3b55cd8f7e1821aeafe3080bd73fa7312ed8707ee7f87792a1d1ab1b43d09bcb" },
+  { offset = 0x1FB3680, size = 232, sha256 = "c089773f061f78a3dce8c5b377a0a0515827001d314a8a8424bac5ee2c7a1834" },
+  { offset = 0x1E7B141, size = 22, sha256 = "f4e73d500b4b6e8246252d3ed3246e141f5d9ec305183a56a52bf4fee707ab1b" },
+  { offset = 0x1E7CA99, size = 15, sha256 = "1a328f1a8acee64658e4df78c4495b2af6f4dac704f8bd313df820c3c5da5817" },
+  { offset = 0x34FC10, size = 4, sha256 = "339d479d1002443703495ce46b4b6f8d3174a7fbde00e69dfc7415495cb06c0f" },
+  { offset = 0x1E53048, size = 26, sha256 = "e7bc536e1c7c668c6014ce5f0245b44c8691bdd00d6008f1cf4d6d8aade3b378" },
+  { offset = 0xBAA138, size = 24, sha256 = "9b40440249f6208f8af7d44571a7771ff7c6da5f7071ebfbd9347f2dd3fc4ce2" },
+  { offset = 0x1E53076, size = 39, sha256 = "a964a3b7fecf03606ea8a55387202d8646f17f5d785c9815cae26651e485c5e8" },
+  { offset = 0x1EB0918, size = 96, sha256 = "7de37b1ac804149df07f84ff29fb7961e525f508921b4c88bb1e902665d9063e" },
+  { offset = 0x1EB0978, size = 164, sha256 = "4103e0d54e31a3aad73d9ef16c7aeb1a74c16860843a483f7fd5b1e59b82994e" },
+  { offset = 0x1EB0A1C, size = 56, sha256 = "62eacc0a636a72a66406f6d213e205d60cbe54422275e4eddd51a72ff17d0710" },
+  { offset = 0x1D804, size = 8, sha256 = "a73ce20b401cfad49f71cf635453907d49fbf1be127962d62fa279198172e8f9" },
+  { offset = 0x9C9E54, size = 52, sha256 = "5f11f11dc0988226b44336a98dc5f26f254ee28e14f8f2e8728e5dd37cd0d40e" },
+  { offset = 0x1FB0BBC, size = 64, sha256 = "0a8cc2cc9cd354c43689a77b74b1b1573a392add5f076315cea95ca2898a76b2" },
+  { offset = 0x1E53171, size = 143, sha256 = "71dd4d2159cecf96eaa17d3f778e4581b8acef5cc224b0da1a23996f120ad11d" },
+  { offset = 0x1E55941, size = 25, sha256 = "0f4b52b40bab9bc9c6ce845e7727684169f049f2c09dfcbea98bd39592346372" },
+]
+
+[[pokedex.sources.trades.bindings]]
+index = 0
+selector = { offset = 0x1E6885D, width = 2 }
+map = "7.7"
+map_header = 0xb54e14
+script = 0x1e68859
+roots = [0x1e68859]
+guard = { offset = 0x1e6885a, size = 10, sha256 = "34059a6ae9001ff38c1782b2a8a949b26e9c3d1510356bd7a84655c32431ff68" }
+evidence = "The local NPC root writes this selector to variable 0x8008 and calls the shared species formatter; the accepted trade copies it into 0x8004 before specials 0xFD and 0xFE."
+
+[[pokedex.sources.trades.bindings]]
+index = 1
+selector = { offset = 0x1E56F79, width = 2 }
+map = "49.3"
+map_header = 0x792cb4
+script = 0x1e56f75
+roots = [0x1e56f75]
+guard = { offset = 0x1e56f76, size = 10, sha256 = "aa8d44d6cd3860ce82722e2215eea4ec847898046e512ed10559427b3122734e" }
+evidence = "The local NPC root writes this selector to variable 0x8008 and calls the shared species formatter; the accepted trade copies it into 0x8004 before specials 0xFD and 0xFE."
+
+[[pokedex.sources.trades.bindings]]
+index = 2
+selector = { offset = 0x1E697C4, width = 2 }
+map = "11.4"
+map_header = 0x351488
+script = 0x1e697c0
+roots = [0x1e697c0]
+guard = { offset = 0x1e697c1, size = 10, sha256 = "04789645180c1c63f970fe8652e88bc263dfa7fa340088798560b39b47523382" }
+evidence = "The local NPC root writes this selector to variable 0x8008 and calls the shared species formatter; the accepted trade copies it into 0x8004 before specials 0xFD and 0xFE."
+
+[[pokedex.sources.trades.bindings]]
+index = 3
+selector = { offset = 0x1E944EA, width = 2 }
+map = "12.2"
+map_header = 0x351568
+script = 0x1e944e6
+roots = [0x1e944e6]
+guard = { offset = 0x1e944e7, size = 10, sha256 = "4bd3d843153cb64f32030a96c5d711e8aa1af64d82e16eb873749acf10a42654" }
+evidence = "The local NPC root writes this selector to variable 0x8008 and calls the shared species formatter; the accepted trade copies it into 0x8004 before specials 0xFD and 0xFE."
+
+[[pokedex.sources.trades.bindings]]
+index = 4
+selector = { offset = 0x1E9B72C, width = 2 }
+map = "44.3"
+map_header = 0x75501c
+script = 0x1e9b718
+roots = [0x1e9b718]
+guard = { offset = 0x1e9b729, size = 10, sha256 = "8a686eeb401e161cb93b4957f27301ec307702854110583b7e4dea70247c970c" }
+evidence = "The local NPC root writes this selector to variable 0x8008 and calls the shared species formatter; the accepted trade copies it into 0x8004 before specials 0xFD and 0xFE."
+
+[[pokedex.sources.trades.bindings]]
+index = 5
+selector = { offset = 0x1E9B7A4, width = 2 }
+map = "44.3"
+map_header = 0x75501c
+script = 0x1e9b718
+roots = [0x1e9b718]
+guard = { offset = 0x1e9b7a1, size = 10, sha256 = "38067cd2030b7de23006aa9d34d03a0ba6dfe4bb612b00cf99dc6226577b9e03" }
+evidence = "The local NPC root writes this selector to variable 0x8008 and calls the shared species formatter; the accepted trade copies it into 0x8004 before specials 0xFD and 0xFE."
+
+[[pokedex.sources.trades.bindings]]
+index = 6
+selector = { offset = 0x1E82285, width = 2 }
+map = "36.0"
+map_header = 0x351ed0
+script = 0x1e82281
+roots = [0x1e82281]
+guard = { offset = 0x1e82282, size = 10, sha256 = "d8569bcb8f549612a60b215dd66ef56dafe1fe5e97f6f817e413ca2650536199" }
+evidence = "The local NPC root writes this selector to variable 0x8008 and calls the shared species formatter; the accepted trade copies it into 0x8004 before specials 0xFD and 0xFE."
+
+[[pokedex.sources.trades.bindings]]
+index = 7
+selector = { offset = 0x1FB7058, width = 1 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c9f3
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb375c
+guard = { offset = 0x1fb7058, size = 4, sha256 = "21c7249344c54bd0b5bd8314e009a9e7278eb1881f0874500a36d07e70267b93" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 8
+selector = { offset = 0x1FB705C, width = 1 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c9f3
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb375c
+guard = { offset = 0x1fb705c, size = 4, sha256 = "7c1c21bdd0c651aeeca325d0039578b6807ea931522caac612053f21405f6235" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 9
+selector = { offset = 0x1FB7060, width = 1 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c9f3
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb375c
+guard = { offset = 0x1fb7060, size = 4, sha256 = "8bbd8d81b96b4de17ef27bfd00ea6dbcda7b372f992e53f668c8e2b9335a1bb5" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 10
+selector = { offset = 0x1FB7064, width = 1 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c9f3
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb375c
+guard = { offset = 0x1fb7064, size = 4, sha256 = "afde3ecb2d06c6725a3669741afc4947f0cfb7cdfb0bcf2b7ac2025cef81bd97" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 11
+selector = { offset = 0x1FB7068, width = 1 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c9f3
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb375c
+guard = { offset = 0x1fb7068, size = 4, sha256 = "792699639e396d9f062712315e618a474b6e765f7399ef3e5bc6a93267924943" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 12
+selector = { offset = 0x1FB706C, width = 1 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c9f3
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb375c
+guard = { offset = 0x1fb706c, size = 4, sha256 = "19b85eb667759f73fc8749514e5db9261f7f28e89176e267bec4b112a068eafc" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 13
+selector = { offset = 0x1FB7070, width = 1 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c9f3
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb375c
+guard = { offset = 0x1fb7070, size = 4, sha256 = "cb4af0c70584d147042d760b846d2a538304723ab10d76da1eab2c3cc4ec98c2" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 15
+selector = { offset = 0x1E7B7F0, width = 2, second = 0x1E7B7F5, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7b796
+speaker = "s1F15C64"
+speaker_offset = 0x1E7B7D4
+speaker_evidence = "The trade branch loads Mirskle into the dialogue name box at 0x1E7B7D4 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb36fc
+guard = { offset = 0x1e7b7ed, size = 25, sha256 = "56c3da3c43fb7c2d68a3258a147a46f2ba89407d8ccf7fb852f11ee926aff1ed" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 16
+selector = { offset = 0x1E7B87A, width = 2, second = 0x1E7B87F, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7b796
+speaker = "s1F15C64"
+speaker_offset = 0x1E7B7D4
+speaker_evidence = "The trade branch loads Mirskle into the dialogue name box at 0x1E7B7D4 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb36fc
+guard = { offset = 0x1e7b877, size = 25, sha256 = "f7cc3f5f4b32f9f24aa318382cf7bde4148764375e3ba90a8b9e38d53e6e08a2" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 17
+selector = { offset = 0x1E7B904, width = 2, second = 0x1E7B909, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7b796
+speaker = "s1F15C64"
+speaker_offset = 0x1E7B7D4
+speaker_evidence = "The trade branch loads Mirskle into the dialogue name box at 0x1E7B7D4 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb36fc
+guard = { offset = 0x1e7b901, size = 25, sha256 = "29bc07ecc3d6594aa131dcd54bbf50ff30292cd28f1294bd8858ce82351be0fa" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 18
+selector = { offset = 0x1E7BA24, width = 2, second = 0x1E7BA29, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7b9cf
+speaker = "s1F164B9"
+speaker_offset = 0x1E7BA08
+speaker_evidence = "The trade branch loads Véga into the dialogue name box at 0x1E7BA08 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3704
+guard = { offset = 0x1e7ba21, size = 25, sha256 = "2931c47945a65a3b210490a396eb18e564cf4f5e2e55e3fe94a649516a278bc9" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 19
+selector = { offset = 0x1E7BAA4, width = 2, second = 0x1E7BAA9, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7b9cf
+speaker = "s1F164B9"
+speaker_offset = 0x1E7BA08
+speaker_evidence = "The trade branch loads Véga into the dialogue name box at 0x1E7BA08 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3704
+guard = { offset = 0x1e7baa1, size = 25, sha256 = "81b2f37b3d219390661d840697775749ff1358f30de473f8ff57844c861d99a3" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 20
+selector = { offset = 0x1E7BB24, width = 2, second = 0x1E7BB29, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7b9cf
+speaker = "s1F164B9"
+speaker_offset = 0x1E7BA08
+speaker_evidence = "The trade branch loads Véga into the dialogue name box at 0x1E7BA08 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3704
+guard = { offset = 0x1e7bb21, size = 25, sha256 = "085b6c73e791f34f24645a6d0727ede4ed9865d8db27c7e3ff45e06995660b8c" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 21
+selector = { offset = 0x1E7BC30, width = 2, second = 0x1E7BC35, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bbdb
+speaker = "s1F16D88"
+speaker_offset = 0x1E7BC14
+speaker_evidence = "The trade branch loads Alice into the dialogue name box at 0x1E7BC14 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb370c
+guard = { offset = 0x1e7bc2d, size = 25, sha256 = "5836e75d4d86c5a36af791ecfc6b82f798d411ce8700ae61da636a66b53297b2" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 22
+selector = { offset = 0x1E7BCB0, width = 2, second = 0x1E7BCB5, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bbdb
+speaker = "s1F16D88"
+speaker_offset = 0x1E7BC14
+speaker_evidence = "The trade branch loads Alice into the dialogue name box at 0x1E7BC14 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb370c
+guard = { offset = 0x1e7bcad, size = 25, sha256 = "fb7d8a957035c74c60cceb47a41a3186f77176965e9f3da2ecfa03cf8a9d6d08" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 23
+selector = { offset = 0x1E7BD30, width = 2, second = 0x1E7BD35, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bbdb
+speaker = "s1F16D88"
+speaker_offset = 0x1E7BC14
+speaker_evidence = "The trade branch loads Alice into the dialogue name box at 0x1E7BC14 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb370c
+guard = { offset = 0x1e7bd2d, size = 25, sha256 = "b58b7b3cd3aff7e21a47dcda4e0543564b14c8f44759d1562eeadef97151bf03" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 24
+selector = { offset = 0x1E7BE3C, width = 2, second = 0x1E7BE41, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bde7
+speaker = "s1F17512"
+speaker_offset = 0x1E7BE20
+speaker_evidence = "The trade branch loads Mel into the dialogue name box at 0x1E7BE20 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3714
+guard = { offset = 0x1e7be39, size = 25, sha256 = "8b853cab66474774848156b38c70dfa1243aef7909ffc17d6fbd8813ce89d013" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 25
+selector = { offset = 0x1E7BEBC, width = 2, second = 0x1E7BEC1, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bde7
+speaker = "s1F17512"
+speaker_offset = 0x1E7BE20
+speaker_evidence = "The trade branch loads Mel into the dialogue name box at 0x1E7BE20 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3714
+guard = { offset = 0x1e7beb9, size = 25, sha256 = "0ebe68077b213a3fcdb21d71b776f2fbba445ca9429071ce8e1aafd70fda3a56" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 26
+selector = { offset = 0x1E7BF3C, width = 2, second = 0x1E7BF41, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bde7
+speaker = "s1F17512"
+speaker_offset = 0x1E7BE20
+speaker_evidence = "The trade branch loads Mel into the dialogue name box at 0x1E7BE20 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3714
+guard = { offset = 0x1e7bf39, size = 25, sha256 = "5779c7eb0462f35aba8af9e027448a22fa76211b4027c8bac8738ae9579cdb50" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 27
+selector = { offset = 0x1E7C048, width = 2, second = 0x1E7C04D, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bff3
+speaker = "s1F17ADA"
+speaker_offset = 0x1E7C02C
+speaker_evidence = "The trade branch loads Galavan into the dialogue name box at 0x1E7C02C and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb371c
+guard = { offset = 0x1e7c045, size = 25, sha256 = "f82ea86cfb1c5bb51f10571b549ae993d9ef17bc9d3af3f5e300beeae1460429" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 28
+selector = { offset = 0x1E7C0C8, width = 2, second = 0x1E7C0CD, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bff3
+speaker = "s1F17ADA"
+speaker_offset = 0x1E7C02C
+speaker_evidence = "The trade branch loads Galavan into the dialogue name box at 0x1E7C02C and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb371c
+guard = { offset = 0x1e7c0c5, size = 25, sha256 = "4a20a55e1ff426c14acfd535704d392352686ae9c8585cd7e1d4b7fa6ab6ec7d" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 29
+selector = { offset = 0x1E7C148, width = 2, second = 0x1E7C14D, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7bff3
+speaker = "s1F17ADA"
+speaker_offset = 0x1E7C02C
+speaker_evidence = "The trade branch loads Galavan into the dialogue name box at 0x1E7C02C and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb371c
+guard = { offset = 0x1e7c145, size = 25, sha256 = "1b9afebc1d0c5594fe617d9bf75d51f61c6780c741fb186b608ca0b6e0b377b6" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 30
+selector = { offset = 0x1E7C254, width = 2, second = 0x1E7C259, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c1ff
+speaker = "s1F18108"
+speaker_offset = 0x1E7C238
+speaker_evidence = "The trade branch loads Big Mo into the dialogue name box at 0x1E7C238 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3724
+guard = { offset = 0x1e7c251, size = 25, sha256 = "3285c77e59c6df5d533ce0443368c164370a1315b68f2aa9b42c5fe491222a73" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 31
+selector = { offset = 0x1E7C2D4, width = 2, second = 0x1E7C2D9, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c1ff
+speaker = "s1F18108"
+speaker_offset = 0x1E7C238
+speaker_evidence = "The trade branch loads Big Mo into the dialogue name box at 0x1E7C238 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3724
+guard = { offset = 0x1e7c2d1, size = 25, sha256 = "e1d1ba728102b98619f18e64055ed7f62b76d8868729289d01e0264eb09ce48a" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 32
+selector = { offset = 0x1E7C354, width = 2, second = 0x1E7C359, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c1ff
+speaker = "s1F18108"
+speaker_offset = 0x1E7C238
+speaker_evidence = "The trade branch loads Big Mo into the dialogue name box at 0x1E7C238 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3724
+guard = { offset = 0x1e7c351, size = 25, sha256 = "3fdcda9ea6229f8673c7e63d63348f8cae21a8034bb7ee1e95634f0900474edf" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 33
+selector = { offset = 0x1E7C460, width = 2, second = 0x1E7C465, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c40b
+speaker = "s1F187A9"
+speaker_offset = 0x1E7C444
+speaker_evidence = "The trade branch loads Tessy into the dialogue name box at 0x1E7C444 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb372c
+guard = { offset = 0x1e7c45d, size = 25, sha256 = "4fd1ba6fb56beaf0494ab6f60a360080c3f7611d492e9e46ca252d2e205e94e3" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 34
+selector = { offset = 0x1E7C4E0, width = 2, second = 0x1E7C4E5, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c40b
+speaker = "s1F187A9"
+speaker_offset = 0x1E7C444
+speaker_evidence = "The trade branch loads Tessy into the dialogue name box at 0x1E7C444 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb372c
+guard = { offset = 0x1e7c4dd, size = 25, sha256 = "81ed6d2656a76a0a4440641f2dcdc06a98a62344f12985f4df6223ba1514525e" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 35
+selector = { offset = 0x1E7C560, width = 2, second = 0x1E7C565, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c40b
+speaker = "s1F187A9"
+speaker_offset = 0x1E7C444
+speaker_evidence = "The trade branch loads Tessy into the dialogue name box at 0x1E7C444 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb372c
+guard = { offset = 0x1e7c55d, size = 25, sha256 = "34c8d683d7f3b0f54b517f3a0420159fd01c589a128805e7593ffda00b828f28" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 36
+selector = { offset = 0x1E7C66C, width = 2, second = 0x1E7C671, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c617
+speaker = "s1F18D94"
+speaker_offset = 0x1E7C650
+speaker_evidence = "The trade branch loads Benjamin into the dialogue name box at 0x1E7C650 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3734
+guard = { offset = 0x1e7c669, size = 25, sha256 = "808076ecaf03445f7e5dd0955e7cfd2ac0234cd4f67890106f4f9a9989a1aa43" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 37
+selector = { offset = 0x1E7C6EC, width = 2, second = 0x1E7C6F1, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c617
+speaker = "s1F18D94"
+speaker_offset = 0x1E7C650
+speaker_evidence = "The trade branch loads Benjamin into the dialogue name box at 0x1E7C650 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3734
+guard = { offset = 0x1e7c6e9, size = 25, sha256 = "a9cd5deac847c637e01ac8bbdfd525db722bc4ffafcd4e6e9d89515a5bdb3319" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 38
+selector = { offset = 0x1E7C76C, width = 2, second = 0x1E7C771, first = 1, stride = 3, base = 15 }
+map = "3.2"
+map_header = 0x350784
+script = 0x1e7c617
+speaker = "s1F18D94"
+speaker_offset = 0x1E7C650
+speaker_evidence = "The trade branch loads Benjamin into the dialogue name box at 0x1E7C650 and repeats it before every offer."
+roots = [0x1e7b141, 0x1e7b14c]
+dispatch = 0x1fb3734
+guard = { offset = 0x1e7c769, size = 25, sha256 = "b8a2721b26b7c4d7bc4d0d69a74d57fcc8419fdc12fedc2bd7ff0bafe31e25c4" }
+availability = "visiting_trader"
+
+[[pokedex.sources.trades.bindings]]
+index = 1
+selector = { offset = 0x1E56F79, width = 2 }
+map = "33.6"
+map_header = 0x34FC08
+script = 0x1E53171
+roots = [0x1E53171]
+guard = { offset = 0x1E56F76, size = 10, sha256 = "aa8d44d6cd3860ce82722e2215eea4ec847898046e512ed10559427b3122734e" }
+availability = "alternate_trade"
+
+[[pokedex.sources.choices]]
+offset = 0x1E8802F
+kind = "starter"
+species = [548, 551, 554]
+item = 0
+
+[[pokedex.sources.choices]]
+offset = 0x1E7B3A6
+map_section = 0x9B
+species = [1, 4, 7, 758, 761, 764, 187, 332, 344, 502, 593, 604, 686, 572, 16, 139]
+
+[[pokedex.sources.choices]]
+offset = 0x1E7B41F
+map_section = 0x9B
+species = [1, 4, 7, 758, 761, 764, 187, 332, 344, 502, 593, 604, 686, 572, 16, 139]
+evidence = "The second rare-egg sale calls the same selector 0x9EBB805 at 0x1E7B417 before giveegg 0x800D; it therefore uses the same 16-entry table at 0x1FB33C4, beginning Bulbasaur, Charmander and Squirtle. Its Day-Care Man's sister dialogue and map section 0x9B match the free-egg script"
+
+[[pokedex.sources.choices]]
+offset = 0x1E7B48C
+map_section = 0x9B
+species = [1, 4, 7, 758, 761, 764, 187, 332, 344, 502, 593, 604, 686, 572, 16, 139]
+evidence = "The repeat rare-egg sale calls the same selector 0x9EBB805 at 0x1E7B484 before giveegg 0x800D; it therefore uses the same 16-entry table at 0x1FB33C4, beginning Bulbasaur, Charmander and Squirtle. Its Day-Care Man's sister dialogue and map section 0x9B match the free-egg script"
+
+# Page labels: the game string behind each Pokédex label.
+# - strings: a catalog id; holes {n} fill {STR_VAR_n}
+# - symbols: no word; unmapped: no game string fits

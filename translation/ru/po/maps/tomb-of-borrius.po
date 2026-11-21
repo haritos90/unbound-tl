@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/tomb-of-borrius\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. used in 20 places
+#. original lines: 1, widths px: 23
+#: 0x1f80d06
+msgctxt "map:1.83/npc:0/1"
+msgid "map:1.83/npc:0/1"
+msgstr "Фред"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 119, 148
+#: 0x1f80d0b
+msgctxt "map:1.83/npc:0/0"
+msgid "map:1.83/npc:0/0"
+msgstr "Эту деталь - сюда…\\pА вон ту - туда…"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 78, 89, 198, 166, 132, 195, 62, 184, 183, 97
+#: 0x1f80d3c
+msgctxt "map:1.83/npc:0/4"
+msgid "map:1.83/npc:0/4"
+msgstr ""
+"О, тренер!\\pЯ Фред.\\pМы с коллегами уже не первую неделю пытаемся "
+"побольше узнать об этом древнем склепе.\\pК сожалению, вот эта "
+"головоломка поставила нас в тупик.\\pЕсли думаешь, что у тебя больше "
+"шансов её решить, чем было у нас, милости прошу."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 201, 56, 184
+#: 0x1f80e3d
+msgctxt "map:1.83/npc:0/2"
+msgid "map:1.83/npc:0/2"
+msgstr ""
+"Над этой головоломкой мы бьёмся уже не первую неделю!\\pСобрать её нам "
+"просто не под силу…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 81, 80, 153, 157
+#: 0x1f80e8e
+msgctxt "map:1.83/npc:1/0"
+msgid "map:1.83/npc:1/0"
+msgstr ""
+"Давай, Фред!\\nУ тебя получится!\\p…Стой, ты что делаешь?!\\pЭту деталь "
+"не туда!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 164, 184, 118, 191, 179, 148
+#: 0x1f80ee5
+msgctxt "map:1.83/npc:1/1"
+msgid "map:1.83/npc:1/1"
+msgstr ""
+"Древние жители Борриуса устроили этот склеп так, чтобы в него не проникли "
+"чужаки вроде нас.\\pС этой головоломки наверняка только начинается череда "
+"ловушек на пути к погребальной камере…"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 164, 184, 118, 191, 179, 148, 135
+#: 0x1f80f9c
+msgctxt "map:1.83/npc:1/2"
+msgid "map:1.83/npc:1/2"
+msgstr ""
+"Древние жители Борриуса устроили этот склеп так, чтобы в него не проникли "
+"чужаки вроде нас.\\pС этой головоломки наверняка только начинается череда "
+"ловушек на пути к погребальной камере…\\pУдачи там, внизу."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 192, 85, 145
+#: 0x1f8106c
+msgctxt "map:1.83/npc:2/0"
+msgid "map:1.83/npc:2/0"
+msgstr "Эта дверь ведёт в погребальную камеру!\\pНутром чую!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 192, 85, 145, 172, 175, 86
+#: 0x1f810ba
+msgctxt "map:1.83/npc:2/2"
+msgid "map:1.83/npc:2/2"
+msgstr ""
+"Эта дверь ведёт в погребальную камеру!\\pНутром чую!\\pМожет, то, что ты "
+"обнаружишь внизу, и окажется ключом к ней…"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 50, 116, 167, 6, 163, 46, 155
+#: 0x1f81159
+msgctxt "map:1.84/mapscript:0/1"
+msgid "map:1.84/mapscript:0/1"
+msgstr ""
+"Эй, юный тренер!\\pТы там, внизу, в порядке?\\pПохоже, тебя здорово "
+"приложило!\\p…\\p…Уверен, тебе это нипочём!\\pПогоди…\\nСейчас сброшу "
+"тебе лестницу."
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 178, 102, 76, 189, 172, 69, 192, 174, 162, 184, 190, 46, 171, 101
+#: 0x1f811dd
+msgctxt "map:1.84/mapscript:0/3"
+msgid "map:1.84/mapscript:0/3"
+msgstr ""
+"Ого, юный тренер, похоже, тебе удалось пробраться в склеп!\\p"
+"Впечатляет!\\pДаже величайшие умы Археологического общества не смогли "
+"разгадать эту головоломку!\\pДа ты прирождённый археолог!\\pЗнаешь что? "
+"Почему бы тебе не возглавить исследование склепа?\\pГоворят, того, кто "
+"найдёт погребальную камеру, ждут несметные богатства.\\pС твоим-то "
+"талантом это должно быть проще простого."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 161, 188, 174, 161, 40
+#: 0x1f81352
+msgctxt "map:1.84/npc:26/1"
+msgid "map:1.84/npc:26/1"
+msgstr ""
+"Когда бродишь по склепу, высматривай спрятанные сокровища.\\pВряд ли "
+"древняя цивилизация оставила много ценностей просто так валяться на виду…"
+
+#. category: script; mode: field
+#. used in 8 places
+#. original lines: 1, widths px: 66
+#: 0x1f813d8
+msgctxt "map:1.84/npc:0/0"
+msgid "map:1.84/npc:0/0"
+msgstr "{COLOR 06}Бу-у-у-у-у-у-у-у-у!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 70, 176, 122, 56, 145, 188, 192, 186, 97
+#: 0x1f813e7
+msgctxt "map:1.85/mapscript:0/1"
+msgid "map:1.85/mapscript:0/1"
+msgstr ""
+"…Вулкан?..\\pКак они вообще умудрились запихнуть в склеп вулкан?..\\p…Ну "
+"да ладно.\\nНечего над этим голову ломать.\\pПохоже, мы слишком высоко, "
+"чтобы пересечь лаву на покемоне, так что ты и дальше ищи нам путь через "
+"склеп."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 182, 33, 183, 74, 189, 188, 146
+#: 0x1f814cc
+msgctxt "map:1.85/npc:0/1"
+msgid "map:1.85/npc:0/1"
+msgstr ""
+"Будь осторожнее, когда прыгаешь по этим камням!\\pОдин неверный шаг - и "
+"сгинешь в огне…\\pТак что береги себя и ищи потайные кнопки: вдруг они "
+"приведут нас на следующий этаж."
+
+#. category: script; mode: field
+#. used in 9 places
+#. original lines: 1, widths px: 179
+#: 0x1f81584
+msgctxt "map:1.85/sign:0/0"
+msgid "map:1.85/sign:0/0"
+msgstr "Камень отозвался на прикосновение!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 79, 118, 182, 149, 161, 43, 81, 175
+#: 0x1f815a4
+msgctxt "map:1.88/mapscript:0/1"
+msgid "map:1.88/mapscript:0/1"
+msgstr ""
+"О-о-ох… тренер…\\nЧто-то мне нехорошо…\\pДолжно быть, Даскнуары искажают "
+"пространство нашего измерения…\\pЧем больше я двигаюсь, тем сильнее всё "
+"плывёт…\\pТак что будь осторожнее…\\nИ не попадайся им на глаза-а-а-а…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 182, 149, 63, 175
+#: 0x1f8165c
+msgctxt "map:1.88/npc:0/1"
+msgid "map:1.88/npc:0/1"
+msgstr ""
+"Должно быть, Даскнуары искажают пространство нашего измерения…\\pБудь "
+"осторожнее…\\nИ не попадайся им на глаза-а-а-а…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 30, 191, 72
+#: 0x1f816c6
+msgctxt "map:1.89/mapscript:0/1"
+msgid "map:1.89/mapscript:0/1"
+msgstr "Фух…\\pКак же я рад, что выбрался оттуда целым и невредимым!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 35, 182, 191, 107, 202, 132, 182, 35
+#: 0x1f816fc
+msgctxt "map:1.89/mapscript:0/3"
+msgid "map:1.89/mapscript:0/3"
+msgstr ""
+"Ой-ой.\\pПохоже, здесь один неверный шаг - и рухнешь обратно на этаж "
+"ниже.\\pНо как-то же можно перебраться на ту сторону, правда?\\pМожет, "
+"если разогнаться до определённой скорости?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 178, 171, 167, 144
+#: 0x1f817c1
+msgctxt "map:1.89/npc:0/1"
+msgid "map:1.89/npc:0/1"
+msgstr ""
+"Готов поспорить, что если найдёшь способ быстро пересечь зал, то в дыры "
+"не провалишься."
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 57, 109, 51, 196, 113, 159, 184, 147, 176, 188, 195, 74
+#: 0x1f8183b
+msgctxt "map:1.90/mapscript:0/1"
+msgid "map:1.90/mapscript:0/1"
+msgstr ""
+"Вот она…\\nПогребальная камера!\\pСмотри-ка!\\pДолжно быть, вот где "
+"похоронен древний король Борриуса.\\pРаз уж мы сюда добрались, соберём "
+"столько сокровищ, сколько сможем, и уберёмся отсюда.\\pА на случай, если "
+"тут ещё притаились ловушки, давай-ка я потрачу на твоих покемонов "
+"последние лечебные предметы."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 166, 46, 180, 167, 65
+#: 0x1f8196f
+msgctxt "map:1.90/npc:1/5"
+msgid "map:1.90/npc:1/5"
+msgstr ""
+"Собери столько сокровищ, сколько сможешь.\\pА когда закончишь, готов "
+"поспорить, внутри того саркофага прячется ещё больше…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 198
+#: 0x1f819e4
+msgctxt "map:1.90/sign:0/0"
+msgid "map:1.90/sign:0/0"
+msgstr "Саркофаг холодный на ощупь…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 156, 108, 192, 78
+#: 0x1f81a08
+msgctxt "map:1.90/sign:0/1"
+msgid "map:1.90/sign:0/1"
+msgstr ""
+"{COLOR 04}ТРЕВОГА! ТРЕВОГА! ТРЕВОГА!\\pОБНАРУЖЕН НАРУШИТЕЛЬ!\\pВКЛЮЧЕНА "
+"АВТОМАТИЧЕСКАЯ СИСТЕМА ЗАЩИТЫ!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 192, 175, 144, 179, 158
+#: 0x1f81a68
+msgctxt "map:1.90/sign:0/4"
+msgid "map:1.90/sign:0/4"
+msgstr ""
+"Так и знал, что будет ещё ловушка!\\pНе зря я до сих пор держался от "
+"этого саркофага подальше.\\pХорошо всё-таки, что возглавить исследование "
+"я предложил тебе!"
+
+#. category: script; mode: field
+#. original lines: 17, widths px: 161, 157, 96, 185, 170, 144, 184, 153, 193, 187, 159, 97, 182, 189, 177, 111, 125
+#: 0x1f81b05
+msgctxt "map:1.90/npc:1/0"
+msgid "map:1.90/npc:1/0"
+msgstr ""
+"Похоже, твой бой с тем древним покемоном снял печать с двери.\\pВыходит, "
+"мой коллега всё-таки не ошибся: та дверь и правда ведёт в погребальную "
+"камеру.\\pЧто ж, пора мне вернуться в Археологическое общество - с "
+"докладом и всем, что я собрал.\\pНо прежде чем я уйду… Пока мы "
+"пробирались через склеп, я подобрал одну вещицу.\\pСперва я принял её за "
+"древнее сокровище, но это всего лишь один из тех кристаллов-Z, от которых "
+"нынче без ума вся детвора.\\pВот, держи, он твой."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f81cf3
+msgctxt "map:1.90/npc:0/0"
+msgid "map:1.90/npc:0/0"
+msgstr "{COLOR 06}Кри-и-икру-укри-и-и!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 151
+#: 0x1f81d06
+msgctxt "map:1.90/npc:0/1"
+msgid "map:1.90/npc:0/1"
+msgstr "{COLOR 06}{STR_VAR_1} скрывается в склепе."

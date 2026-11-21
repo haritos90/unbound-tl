@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0880000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: older stat-adverb hook 0x883550 (returns to 0x80D8491): its pools 0x883578 / 0x88357C are the strings' only pointers, and no BL, branch or word reaches 0x883550-0x883587; the FireRed hook at 0x80D8486 (ldr r0 / bx r0, pool 0x80D848C) jumps to 0x89A32C1, which loads s0A4C603 / s0A4C610)
+#. category: code; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0883590
+msgctxt "hash:aad87292"
+msgid "hash:aad87292"
+msgstr "очень резко "
+
+#. reach: never shown (reach study: unreachable system text; review: older stat-adverb hook 0x883550 (returns to 0x80D8491): its pools 0x883578 / 0x88357C are the strings' only pointers, and no BL, branch or word reaches 0x883550-0x883587; the FireRed hook at 0x80D8486 (ldr r0 / bx r0, pool 0x80D848C) jumps to 0x89A32C1, which loads s0A4C603 / s0A4C610)
+#. category: code; mode: field
+#. original lines: 1, widths px: 45
+#: 0x08835a0
+msgctxt "hash:2333b039"
+msgid "hash:2333b039"
+msgstr "очень резко "
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 131, 127, 0
+#: 0x08835b0
+msgctxt "hash:6a33de4f"
+msgid "hash:6a33de4f"
+msgstr "{STR_VAR_1} выдерживает яд.\\nОтравление прошло!\\p"
+
+#. reach: never shown (review: The older printfromtable hook at 0x884640 has pool 0x8846BC as the string's only pointer. The hook is entered only at 0x801FE5C (ldr r1 / bx r1) in FireRed's command 0x13 at 0x801FE30. No BL reaches that command, and only entry 0x13 of tables 0x25011C and 0x95F480 points at it. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x13 is 0x8A0C3F5.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 59, 64
+#: 0x0884620
+msgctxt "hash:2329f665"
+msgid "hash:2329f665"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX}:\\n{B_BUFF1} резко повышается\\lот таланта "
+"{B_DEF_ABILITY}!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed BufferStringBattle 0x80D7274 jumps to CFRU 0x89BDA88 at its entry (ldr r1 / bx r1); the strings' only pointers are the pools 0x80D73C0 / 0x80D7420 of the dead body 0x80D727C-0x80D77F3, which no BL or branch enters; CFRU loads its own s0A4C4BD (pool 0x9BDDC4) and s0A4C5C8 (pool 0x9BDE00))
+#. category: code; mode: battle
+#. original lines: 3, widths px: 122, 12, 0
+#: 0x08854b0
+msgctxt "hash:c6d0be50"
+msgid "hash:c6d0be50"
+msgstr "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nвызывает на бой!\\p"

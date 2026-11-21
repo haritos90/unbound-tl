@@ -1,0 +1,8 @@
+[keys.battle]
+base = 0x3FDF0C
+first = 0x0C
+count = 0x182
+evidence = "gBattleStringsTable: CFRU 0x89BDA88, entered from FireRed BufferStringBattle 0x80D7274, loads [0x83FDF0C + 4 * id] into gDisplayedStringBattle; battle string id i has its pointer at 0x3FDF0C + 4 * i, and the ids 0x0C-0x181 point at the battle strings (374 pointers from 0x3FDF3C, [[layout.table_window]] battle-strings-1 to battle-strings-4)"
+
+# Pokedex dataset: the language-neutral tables a page reads.
+# Each block names how its layout is proven.

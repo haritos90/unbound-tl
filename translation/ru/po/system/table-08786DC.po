@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-08786DC\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 183, 158
+#: 0x07b4395
+msgctxt "table:items/227/description"
+msgid "table:items/227/description"
+msgstr ""
+"Предмет, который держит покемон.\\nСуперэффективный удар повышает\\nАтаку "
+"и Особую атаку покемона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 195, 186, 147
+#: 0x07b4406
+msgctxt "table:items/228/description"
+msgid "table:items/228/description"
+msgstr ""
+"Очень крупные жемчужины с красивым\\nсеребристым блеском. Коллекционер\\n"
+"купит их за большие деньги."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 171, 162, 198
+#: 0x07b4468
+msgctxt "table:items/229/description"
+msgid "table:items/229/description"
+msgstr ""
+"Большой самородок чистого золота\\nс ярким блеском. Коллекционер\\nкупит "
+"его за большие деньги."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 108, 187
+#: 0x0eb1aa0
+msgctxt "table:items/260/description"
+msgid "table:items/260/description"
+msgstr ""
+"Кейс для монет, полученных\\nв Игровом уголке.\\nВмещает до 999999999 "
+"монет."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 179, 161
+#: 0x0eb37e9
+msgctxt "table:items/250/description"
+msgid "table:items/250/description"
+msgstr ""
+"Предмет, который держит покемон.\\nПриёмы, высасывающие ОЖ,\\nвосполняют "
+"больше ОЖ."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 188, 193
+#: 0x0eb38a8
+msgctxt "table:items/226/description"
+msgid "table:items/226/description"
+msgstr ""
+"Предмет, который держит покемон.\\nЕсли покемон получает удар, ранит\\n"
+"ударившего при касании."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 182, 198
+#: 0x0eb3a2d
+msgctxt "table:items/235/description"
+msgid "table:items/235/description"
+msgstr ""
+"Предмет, который держит покемон. Это поношенный пояс, усиливающий "
+"суперэффективные приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 193, 186
+#: 0x0eb3a94
+msgctxt "table:items/236/description"
+msgid "table:items/236/description"
+msgstr ""
+"Одноразовый предмет, который держит покемон. Позволяет сразу применить "
+"двухходовый приём."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 191, 127
+#: 0x0eb3afc
+msgctxt "table:items/237/description"
+msgid "table:items/237/description"
+msgstr ""
+"Предмет, который держит покемон.\\nЭто увеличительная линза, которая\\n"
+"повышает точность приёмов."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 193, 162
+#: 0x0eb3b61
+msgctxt "table:items/238/description"
+msgid "table:items/238/description"
+msgstr ""
+"Предмет, который держит покемон.\\nПовышает точность, если покемон\\n"
+"действует после противника."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 186, 190
+#: 0x0eb3bc3
+msgctxt "table:items/239/description"
+msgid "table:items/239/description"
+msgstr ""
+"Предмет, который держит покемон.\\nЕсли покемон влюбляется, то\\n"
+"влюбляется и покемон противника."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 198, 194
+#: 0x0eb3c29
+msgctxt "table:items/240/description"
+msgid "table:items/240/description"
+msgstr ""
+"Предмет, который держит покемон.\\nПродлевает действие его приёма\\n"
+"Песчаная буря."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 198, 200
+#: 0x0eb3c91
+msgctxt "table:items/241/description"
+msgid "table:items/241/description"
+msgstr ""
+"Предмет, который держит покемон.\\nПродлевает действие его приёма\\nТанец "
+"дождя."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 198, 196
+#: 0x0eb3cfa
+msgctxt "table:items/242/description"
+msgid "table:items/242/description"
+msgstr ""
+"Предмет, который держит покемон.\\nПродлевает действие его приёма\\nЯркий "
+"день."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 198, 165
+#: 0x0eb3d62
+msgctxt "table:items/243/description"
+msgid "table:items/243/description"
+msgstr ""
+"Предмет, который держит покемон.\\nПродлевает действие его приёма\\nГрад."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 193, 190
+#: 0x0eb7b35
+msgctxt "table:items/251/description"
+msgid "table:items/251/description"
+msgstr ""
+"Важнейший предмет, который\\nне даёт каменной башне рухнуть.\\nИногда из "
+"него доносятся голоса."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 177, 66
+#: 0x0eb7e43
+msgctxt "table:items/253/description"
+msgid "table:items/253/description"
+msgstr ""
+"Предмет, который держит покемон.\\nДелает покемона сытым\\nи "
+"неповоротливым."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 173, 108
+#: 0x0eb7e91
+msgctxt "table:items/254/description"
+msgid "table:items/254/description"
+msgstr ""
+"Предмет, который держит покемон.\\nНемного усиливает приёмы типа\\nПсихо."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 192, 202
+#: 0x0eb7ee6
+msgctxt "table:items/255/description"
+msgid "table:items/255/description"
+msgstr ""
+"Предмет, который держит покемон.\\nОтпугивает диких покемонов, если\\n"
+"покемон стоит в команде первым."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 173, 92
+#: 0x0eb7f50
+msgctxt "table:items/256/description"
+msgid "table:items/256/description"
+msgstr ""
+"Предмет, который держит покемон.\\nНемного усиливает приёмы типа\\nКамень."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 173, 96
+#: 0x0eb7fa2
+msgctxt "table:items/257/description"
+msgid "table:items/257/description"
+msgstr ""
+"Предмет, который держит покемон.\\nНемного усиливает приёмы типа\\nТрава."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 173, 97
+#: 0x0eb7ff5
+msgctxt "table:items/258/description"
+msgid "table:items/258/description"
+msgstr ""
+"Предмет, который держит покемон.\\nНемного усиливает приёмы типа\\nВода."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 190, 170
+#: 0x0eb8048
+msgctxt "table:items/230/description"
+msgid "table:items/230/description"
+msgstr ""
+"Предмет, который держит покемон.\\nОстрый крючковатый коготь повышает\\n"
+"шанс критического попадания."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 199, 149
+#: 0x0eb80ad
+msgctxt "table:items/231/description"
+msgid "table:items/231/description"
+msgstr ""
+"Предмет, который держит покемон.\\nКогда покемон наносит урон, может\\n"
+"заставить противника вздрогнуть."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 161, 153
+#: 0x0eb810e
+msgctxt "table:items/232/description"
+msgid "table:items/232/description"
+msgstr ""
+"Ткань, пропитанная пугающе сильной\\nпотусторонней энергией. Её любит\\n"
+"некий покемон."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 177, 189, 43
+#: 0x0eb816a
+msgctxt "table:items/233/description"
+msgid "table:items/233/description"
+msgstr ""
+"Прозрачное устройство,\\nпереполненное сомнительными\\nданными. Его "
+"создатель неизвестен."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 172, 177, 153
+#: 0x0eb81b7
+msgctxt "table:items/234/description"
+msgid "table:items/234/description"
+msgstr ""
+"Ящик, наполненный огромным\\nколичеством электрической энергии.\\nЕго "
+"любит некий покемон."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 191, 187
+#: 0x0eb8732
+msgctxt "table:items/249/description"
+msgid "table:items/249/description"
+msgstr ""
+"Предмет, который держит покемон.\\nВ бою понижает Скорость, зато\\n"
+"максимальные ОЖ растут сильнее."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 191, 184
+#: 0x0eb8798
+msgctxt "table:items/244/description"
+msgid "table:items/244/description"
+msgstr ""
+"Предмет, который держит покемон.\\nВ бою понижает Скорость, зато\\nАтака "
+"растёт сильнее."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 191, 190
+#: 0x0eb87fe
+msgctxt "table:items/245/description"
+msgid "table:items/245/description"
+msgstr ""
+"Предмет, который держит покемон.\\nВ бою понижает Скорость, зато\\nЗащита "
+"растёт сильнее."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 191, 190
+#: 0x0eb8865
+msgctxt "table:items/246/description"
+msgid "table:items/246/description"
+msgstr ""
+"Предмет, который держит покемон.\\nВ бою понижает Скорость, зато\\nОсобая "
+"атака растёт сильнее."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 191, 191
+#: 0x0eb88cc
+msgctxt "table:items/247/description"
+msgid "table:items/247/description"
+msgstr ""
+"Предмет, который держит покемон.\\nВ бою понижает Скорость, зато\\nОсобая "
+"защита растёт сильнее."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 191, 181
+#: 0x0eb8933
+msgctxt "table:items/248/description"
+msgid "table:items/248/description"
+msgstr ""
+"Предмет, который держит покемон.\\nВ бою понижает Скорость, зато\\n"
+"Скорость растёт сильнее."

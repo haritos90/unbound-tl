@@ -1,0 +1,30 @@
+[layout]
+dialogue_width = 208
+battle_width = 222
+# Prompt arrow after a line that waits, before \l or \p.
+# - TextPrinterDrawDownArrow 0x80054F8: drawn at the text cursor
+# - 0x8005530-0x8005590: cleared and blitted 10 x 12 px
+# - frames at 0x81EA14C (dark 0x81EA24C): ink in all 10 columns
+# - waits through 0x8005634, which jumps to 0x8A0F1CC
+# - 0x8A0F1CC still draws through 0x80054F8
+# - message box: x 0 (0x80F6CF8) in 26 tiles (0x841F42C)
+# - so a line that waits takes at most 208 - 10 px
+prompt_arrow_width = 10
+# Letter spacing the printer adds after each key icon.
+# - RenderText 0x8005B60: icon width plus letter spacing
+# - glyphs get it only in Japanese mode (0x8005C28)
+# - message box: AddTextPrinterParameterized2 0x80F6CD0 passes 1
+# - battle window: entry 0 of table 0x83FEB64 passes 0
+icon_letter_spacing = { dialogue = 1, battle = 0 }
+
+# Text width of message boxes, measured in game.
+# Dialogue and battle entries never exceed their width.
+# A window_width for the id takes precedence.
+
+# Measured by a ruler of digits in probe builds.
+# - dialogue and sign: text from x=16, cut at x=224
+# - battle: text from x=10, cut at x=232
+[layout.box_width]
+dialogue = 208
+sign = 208
+battle = 222

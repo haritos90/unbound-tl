@@ -1,0 +1,17 @@
+[pokedex.form_names]
+  # Standard names follow verified ROM identities.
+
+[[pokedex.form_names.type_families]]
+base = 990
+dex = 773
+count = 18
+type_table = "types"
+label_base = false
+
+[[pokedex.form_names.type_families]]
+base = 546
+dex = 493
+count = 18
+type_table = "types"
+evidence = "The dex map groups base 546, slots 720-735 and Fairy slot 834 under national number 493. Each record stores the same type in type1/type2, including Normal for the base and Fairy type 23 for slot 834; type catalog references label every member without a page-specific slot range."
+

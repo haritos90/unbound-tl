@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-08B0000\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 142
+#: 0x08b2fbb
+msgctxt "hash:63cefbca"
+msgid "hash:63cefbca"
+msgstr "Удерживайте {COLOR 06}кнопку B{COLOR 02}, чтобы бежать!"

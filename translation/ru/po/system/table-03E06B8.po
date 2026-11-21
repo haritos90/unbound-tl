@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03E06B8\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 187, 158
+#: 0x01bc388
+msgctxt "hash:0495be2d"
+msgid "hash:0495be2d"
+msgstr "Обмен покемонами с другим\\nигроком по кабелю GBA Game Link."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 158
+#: 0x01bc3c7
+msgctxt "hash:c08ea67d"
+msgid "hash:c08ea67d"
+msgstr "Бой с другим тренером\\nпо кабелю GBA Game Link."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 114
+#: 0x01bca95
+msgctxt "hash:9348e5ae"
+msgid "hash:9348e5ae"
+msgstr "Здесь можно обменяться\\nпокемонами с другим тренером."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 28
+#: 0x01bcacb
+msgctxt "hash:79b25e15"
+msgid "hash:79b25e15"
+msgstr "Здесь можно сразиться с друзьями."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 162, 128
+#: 0x01bcaf2
+msgctxt "hash:08781188"
+msgid "hash:08781188"
+msgstr "От двух до пяти тренеров могут\\nвместе делать ягодный порошок."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 175
+#: 0x01bcb42
+msgctxt "hash:657deb4d"
+msgid "hash:657deb4d"
+msgstr "Отменяет выбор в меню."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0417abf
+msgctxt "hash:90381d00"
+msgid "hash:90381d00"
+msgstr "КРУТОЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0417ac4
+msgctxt "hash:21aa2d09"
+msgid "hash:21aa2d09"
+msgstr "КРАСОТА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0417acb
+msgctxt "hash:8e99e01c"
+msgid "hash:8e99e01c"
+msgstr "МИЛЫЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0417ad0
+msgctxt "hash:74b11be6"
+msgid "hash:74b11be6"
+msgstr "УМНЫЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0417ad6
+msgctxt "hash:65cd1d01"
+msgid "hash:65cd1d01"
+msgstr "СТОЙКИЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0417af4
+msgctxt "hash:c50946a2"
+msgid "hash:c50946a2"
+msgstr "КРУТОЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0417af9
+msgctxt "hash:26e57376"
+msgid "hash:26e57376"
+msgstr "КРАСОТА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0417b00
+msgctxt "hash:b8fa6fd7"
+msgid "hash:b8fa6fd7"
+msgstr "МИЛЫЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0417b05
+msgctxt "hash:5af1d617"
+msgid "hash:5af1d617"
+msgstr "УМНЫЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0417b0b
+msgctxt "hash:b286cfa9"
+msgid "hash:b286cfa9"
+msgstr "СТОЙКИЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0417b11
+msgctxt "hash:20724089"
+msgid "hash:20724089"
+msgstr "Предметы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x0417b17
+msgctxt "hash:13455333"
+msgid "hash:13455333"
+msgstr "Важное"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x0417b21
+msgctxt "hash:a030d7e1"
+msgid "hash:a030d7e1"
+msgstr "Покеболы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0417b2c
+msgctxt "hash:eb016771"
+msgid "hash:eb016771"
+msgstr "ТМ и НМ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0417b36
+msgctxt "hash:942ce327"
+msgid "hash:942ce327"
+msgstr "Ягоды"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0417b3e
+msgctxt "hash:383f37d3"
+msgid "hash:383f37d3"
+msgstr "Значок валуна"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0417b4b
+msgctxt "hash:7f08e79f"
+msgid "hash:7f08e79f"
+msgstr "Значок каскада"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0417b58
+msgctxt "hash:23c213f7"
+msgid "hash:23c213f7"
+msgstr "Значок грома"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0417b65
+msgctxt "hash:4b3741bd"
+msgid "hash:4b3741bd"
+msgstr "Радужный значок"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0417b72
+msgctxt "hash:3c962b43"
+msgid "hash:3c962b43"
+msgstr "Значок души"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0417b7c
+msgctxt "hash:4bafad12"
+msgid "hash:4bafad12"
+msgstr "Значок топи"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0417b87
+msgctxt "hash:a77ec3ba"
+msgid "hash:a77ec3ba"
+msgstr "Значок вулкана"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0417b94
+msgctxt "hash:7287fca2"
+msgid "hash:7287fca2"
+msgstr "Значок земли"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0417da9
+msgctxt "hash:ff89e33a"
+msgid "hash:ff89e33a"
+msgstr "раздел “Предметы”"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 92
+#: 0x0417db6
+msgctxt "hash:9fe63d13"
+msgid "hash:9fe63d13"
+msgstr "раздел “Важное”"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 96
+#: 0x0417dc7
+msgctxt "hash:08e3c5d7"
+msgid "hash:08e3c5d7"
+msgstr "раздел “Покеболы”"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0417dd9
+msgctxt "hash:f1e81475"
+msgid "hash:f1e81475"
+msgstr "Кейс ТМ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x0417de1
+msgctxt "hash:3e390ed2"
+msgid "hash:3e390ed2"
+msgstr "Мешок ягод"

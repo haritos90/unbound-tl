@@ -1,0 +1,21 @@
+savefile verify/fixtures/observations.sav
+wait 900
+press START 4 90
+press A 4 150
+press A 4 150
+shot continue
+press A 4 200
+wait 200
+shot field
+press START 4 60
+press A 4 220
+shot party
+press A 4 60
+press A 4 150
+shot summary-1
+press RIGHT 4 90
+shot summary-2
+press RIGHT 4 90
+shot summary-3
+press A 4 90
+shot summary-3-detail

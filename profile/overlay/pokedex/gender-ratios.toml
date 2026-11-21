@@ -1,0 +1,7 @@
+[pokedex.gender_ratios]
+thresholds = [0, 31, 63, 127, 191, 223, 254, 255]
+male_only = 0
+female_only = 254
+genderless = 255
+
+# Move data: the CFRU table, not the separate move-name table.

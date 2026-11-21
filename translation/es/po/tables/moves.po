@@ -1,0 +1,7393 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/moves\n"
+"X-Source: key-only\n"
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 0)
+#. original lines: 1, widths px: 6
+#: 0x0a40a10
+msgctxt "table:moves/0"
+msgid "table:moves/0"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 1)
+#. original lines: 1, widths px: 29
+#: 0x0a40a1d
+msgctxt "table:moves/1"
+msgid "table:moves/1"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 2)
+#. original lines: 1, widths px: 64
+#: 0x0a40a2a
+msgctxt "table:moves/2"
+msgid "table:moves/2"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 3)
+#. original lines: 1, widths px: 64
+#: 0x0a40a37
+msgctxt "table:moves/3"
+msgid "table:moves/3"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 4)
+#. original lines: 1, widths px: 64
+#: 0x0a40a44
+msgctxt "table:moves/4"
+msgid "table:moves/4"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 5)
+#. original lines: 1, widths px: 59
+#: 0x0a40a51
+msgctxt "table:moves/5"
+msgid "table:moves/5"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 6)
+#. original lines: 1, widths px: 42
+#: 0x0a40a5e
+msgctxt "table:moves/6"
+msgid "table:moves/6"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 7)
+#. original lines: 1, widths px: 56
+#: 0x0a40a6b
+msgctxt "table:moves/7"
+msgid "table:moves/7"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 8)
+#. original lines: 1, widths px: 53
+#: 0x0a40a78
+msgctxt "table:moves/8"
+msgid "table:moves/8"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 9)
+#. original lines: 1, widths px: 69
+#: 0x0a40a85
+msgctxt "table:moves/9"
+msgid "table:moves/9"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 10)
+#. original lines: 1, widths px: 40
+#: 0x0a40a92
+msgctxt "table:moves/10"
+msgid "table:moves/10"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 11)
+#. original lines: 1, widths px: 48
+#: 0x0a40a9f
+msgctxt "table:moves/11"
+msgid "table:moves/11"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 12)
+#. original lines: 1, widths px: 52
+#: 0x0a40aac
+msgctxt "table:moves/12"
+msgid "table:moves/12"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 13)
+#. original lines: 1, widths px: 56
+#: 0x0a40ab9
+msgctxt "table:moves/13"
+msgid "table:moves/13"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 14)
+#. original lines: 1, widths px: 69
+#: 0x0a40ac6
+msgctxt "table:moves/14"
+msgid "table:moves/14"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 15)
+#. original lines: 1, widths px: 17
+#: 0x0a40ad3
+msgctxt "table:moves/15"
+msgid "table:moves/15"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 16)
+#. original lines: 1, widths px: 22
+#: 0x0a40ae0
+msgctxt "table:moves/16"
+msgid "table:moves/16"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 17)
+#. original lines: 1, widths px: 60
+#: 0x0a40aed
+msgctxt "table:moves/17"
+msgid "table:moves/17"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 18)
+#. original lines: 1, widths px: 47
+#: 0x0a40afa
+msgctxt "table:moves/18"
+msgid "table:moves/18"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 19)
+#. original lines: 1, widths px: 17
+#: 0x0a40b07
+msgctxt "table:moves/19"
+msgid "table:moves/19"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 20)
+#. original lines: 1, widths px: 21
+#: 0x0a40b14
+msgctxt "table:moves/20"
+msgid "table:moves/20"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 21)
+#. original lines: 1, widths px: 23
+#: 0x0a40b21
+msgctxt "table:moves/21"
+msgid "table:moves/21"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 22)
+#. original lines: 1, widths px: 49
+#: 0x0a40b2e
+msgctxt "table:moves/22"
+msgid "table:moves/22"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 23)
+#. original lines: 1, widths px: 29
+#: 0x0a40b3b
+msgctxt "table:moves/23"
+msgid "table:moves/23"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 24)
+#. original lines: 1, widths px: 62
+#: 0x0a40b48
+msgctxt "table:moves/24"
+msgid "table:moves/24"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 25)
+#. original lines: 1, widths px: 51
+#: 0x0a40b55
+msgctxt "table:moves/25"
+msgid "table:moves/25"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 26)
+#. original lines: 1, widths px: 51
+#: 0x0a40b62
+msgctxt "table:moves/26"
+msgid "table:moves/26"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 27)
+#. original lines: 1, widths px: 64
+#: 0x0a40b6f
+msgctxt "table:moves/27"
+msgid "table:moves/27"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 28)
+#. original lines: 1, widths px: 62
+#: 0x0a40b7c
+msgctxt "table:moves/28"
+msgid "table:moves/28"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 29)
+#. original lines: 1, widths px: 46
+#: 0x0a40b89
+msgctxt "table:moves/29"
+msgid "table:moves/29"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 30)
+#. original lines: 1, widths px: 61
+#: 0x0a40b96
+msgctxt "table:moves/30"
+msgid "table:moves/30"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 31)
+#. original lines: 1, widths px: 62
+#: 0x0a40ba3
+msgctxt "table:moves/31"
+msgid "table:moves/31"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 32)
+#. original lines: 1, widths px: 53
+#: 0x0a40bb0
+msgctxt "table:moves/32"
+msgid "table:moves/32"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 33)
+#. original lines: 1, widths px: 34
+#: 0x0a40bbd
+msgctxt "table:moves/33"
+msgid "table:moves/33"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 34)
+#. original lines: 1, widths px: 53
+#: 0x0a40bca
+msgctxt "table:moves/34"
+msgid "table:moves/34"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 35)
+#. original lines: 1, widths px: 23
+#: 0x0a40bd7
+msgctxt "table:moves/35"
+msgid "table:moves/35"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 36)
+#. original lines: 1, widths px: 52
+#: 0x0a40be4
+msgctxt "table:moves/36"
+msgid "table:moves/36"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 37)
+#. original lines: 1, widths px: 34
+#: 0x0a40bf1
+msgctxt "table:moves/37"
+msgid "table:moves/37"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 38)
+#. original lines: 1, widths px: 65
+#: 0x0a40bfe
+msgctxt "table:moves/38"
+msgid "table:moves/38"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 39)
+#. original lines: 1, widths px: 49
+#: 0x0a40c0b
+msgctxt "table:moves/39"
+msgid "table:moves/39"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 40)
+#. original lines: 1, widths px: 64
+#: 0x0a40c18
+msgctxt "table:moves/40"
+msgid "table:moves/40"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 41)
+#. original lines: 1, widths px: 50
+#: 0x0a40c25
+msgctxt "table:moves/41"
+msgid "table:moves/41"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 42)
+#. original lines: 1, widths px: 56
+#: 0x0a40c32
+msgctxt "table:moves/42"
+msgid "table:moves/42"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 43)
+#. original lines: 1, widths px: 23
+#: 0x0a40c3f
+msgctxt "table:moves/43"
+msgid "table:moves/43"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 44)
+#. original lines: 1, widths px: 21
+#: 0x0a40c4c
+msgctxt "table:moves/44"
+msgid "table:moves/44"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 45)
+#. original lines: 1, widths px: 28
+#: 0x0a40c59
+msgctxt "table:moves/45"
+msgid "table:moves/45"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 46)
+#. original lines: 1, widths px: 23
+#: 0x0a40c66
+msgctxt "table:moves/46"
+msgid "table:moves/46"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 47)
+#. original lines: 1, widths px: 21
+#: 0x0a40c73
+msgctxt "table:moves/47"
+msgid "table:moves/47"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 48)
+#. original lines: 1, widths px: 55
+#: 0x0a40c80
+msgctxt "table:moves/48"
+msgid "table:moves/48"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 49)
+#. original lines: 1, widths px: 57
+#: 0x0a40c8d
+msgctxt "table:moves/49"
+msgid "table:moves/49"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 50)
+#. original lines: 1, widths px: 38
+#: 0x0a40c9a
+msgctxt "table:moves/50"
+msgid "table:moves/50"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 51)
+#. original lines: 1, widths px: 22
+#: 0x0a40ca7
+msgctxt "table:moves/51"
+msgid "table:moves/51"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 52)
+#. original lines: 1, widths px: 29
+#: 0x0a40cb4
+msgctxt "table:moves/52"
+msgid "table:moves/52"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 53)
+#. original lines: 1, widths px: 68
+#: 0x0a40cc1
+msgctxt "table:moves/53"
+msgid "table:moves/53"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 54)
+#. original lines: 1, widths px: 20
+#: 0x0a40cce
+msgctxt "table:moves/54"
+msgid "table:moves/54"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 55)
+#. original lines: 1, widths px: 51
+#: 0x0a40cdb
+msgctxt "table:moves/55"
+msgid "table:moves/55"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 56)
+#. original lines: 1, widths px: 59
+#: 0x0a40ce8
+msgctxt "table:moves/56"
+msgid "table:moves/56"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 57)
+#. original lines: 1, widths px: 22
+#: 0x0a40cf5
+msgctxt "table:moves/57"
+msgid "table:moves/57"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 58)
+#. original lines: 1, widths px: 48
+#: 0x0a40d02
+msgctxt "table:moves/58"
+msgid "table:moves/58"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 59)
+#. original lines: 1, widths px: 44
+#: 0x0a40d0f
+msgctxt "table:moves/59"
+msgid "table:moves/59"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 60)
+#. original lines: 1, widths px: 41
+#: 0x0a40d1c
+msgctxt "table:moves/60"
+msgid "table:moves/60"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 61)
+#. original lines: 1, widths px: 65
+#: 0x0a40d29
+msgctxt "table:moves/61"
+msgid "table:moves/61"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 62)
+#. original lines: 1, widths px: 64
+#: 0x0a40d36
+msgctxt "table:moves/62"
+msgid "table:moves/62"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 63)
+#. original lines: 1, widths px: 59
+#: 0x0a40d43
+msgctxt "table:moves/63"
+msgid "table:moves/63"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 64)
+#. original lines: 1, widths px: 23
+#: 0x0a40d50
+msgctxt "table:moves/64"
+msgid "table:moves/64"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 65)
+#. original lines: 1, widths px: 54
+#: 0x0a40d5d
+msgctxt "table:moves/65"
+msgid "table:moves/65"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 66)
+#. original lines: 1, widths px: 53
+#: 0x0a40d6a
+msgctxt "table:moves/66"
+msgid "table:moves/66"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 67)
+#. original lines: 1, widths px: 45
+#: 0x0a40d77
+msgctxt "table:moves/67"
+msgid "table:moves/67"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 68)
+#. original lines: 1, widths px: 39
+#: 0x0a40d84
+msgctxt "table:moves/68"
+msgid "table:moves/68"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 69)
+#. original lines: 1, widths px: 65
+#: 0x0a40d91
+msgctxt "table:moves/69"
+msgid "table:moves/69"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 70)
+#. original lines: 1, widths px: 44
+#: 0x0a40d9e
+msgctxt "table:moves/70"
+msgid "table:moves/70"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 71)
+#. original lines: 1, widths px: 34
+#: 0x0a40dab
+msgctxt "table:moves/71"
+msgid "table:moves/71"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 72)
+#. original lines: 1, widths px: 56
+#: 0x0a40db8
+msgctxt "table:moves/72"
+msgid "table:moves/72"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 73)
+#. original lines: 1, widths px: 60
+#: 0x0a40dc5
+msgctxt "table:moves/73"
+msgid "table:moves/73"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 74)
+#. original lines: 1, widths px: 34
+#: 0x0a40dd2
+msgctxt "table:moves/74"
+msgid "table:moves/74"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 75)
+#. original lines: 1, widths px: 58
+#: 0x0a40ddf
+msgctxt "table:moves/75"
+msgid "table:moves/75"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 76)
+#. original lines: 1, widths px: 58
+#: 0x0a40dec
+msgctxt "table:moves/76"
+msgid "table:moves/76"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 77)
+#. original lines: 1, widths px: 67
+#: 0x0a40df9
+msgctxt "table:moves/77"
+msgid "table:moves/77"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 78)
+#. original lines: 1, widths px: 57
+#: 0x0a40e06
+msgctxt "table:moves/78"
+msgid "table:moves/78"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 79)
+#. original lines: 1, widths px: 70
+#: 0x0a40e13
+msgctxt "table:moves/79"
+msgid "table:moves/79"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 80)
+#. original lines: 1, widths px: 63
+#: 0x0a40e20
+msgctxt "table:moves/80"
+msgid "table:moves/80"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 81)
+#. original lines: 1, widths px: 60
+#: 0x0a40e2d
+msgctxt "table:moves/81"
+msgid "table:moves/81"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 82)
+#. original lines: 1, widths px: 64
+#: 0x0a40e3a
+msgctxt "table:moves/82"
+msgid "table:moves/82"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 83)
+#. original lines: 1, widths px: 48
+#: 0x0a40e47
+msgctxt "table:moves/83"
+msgid "table:moves/83"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 84)
+#. original lines: 1, widths px: 69
+#: 0x0a40e54
+msgctxt "table:moves/84"
+msgid "table:moves/84"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 85)
+#. original lines: 1, widths px: 62
+#: 0x0a40e61
+msgctxt "table:moves/85"
+msgid "table:moves/85"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 86)
+#. original lines: 1, widths px: 70
+#: 0x0a40e6e
+msgctxt "table:moves/86"
+msgid "table:moves/86"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 87)
+#. original lines: 1, widths px: 40
+#: 0x0a40e7b
+msgctxt "table:moves/87"
+msgid "table:moves/87"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 88)
+#. original lines: 1, widths px: 58
+#: 0x0a40e88
+msgctxt "table:moves/88"
+msgid "table:moves/88"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 89)
+#. original lines: 1, widths px: 57
+#: 0x0a40e95
+msgctxt "table:moves/89"
+msgid "table:moves/89"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 90)
+#. original lines: 1, widths px: 37
+#: 0x0a40ea2
+msgctxt "table:moves/90"
+msgid "table:moves/90"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 91)
+#. original lines: 1, widths px: 16
+#: 0x0a40eaf
+msgctxt "table:moves/91"
+msgid "table:moves/91"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 92)
+#. original lines: 1, widths px: 28
+#: 0x0a40ebc
+msgctxt "table:moves/92"
+msgid "table:moves/92"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 93)
+#. original lines: 1, widths px: 48
+#: 0x0a40ec9
+msgctxt "table:moves/93"
+msgid "table:moves/93"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 94)
+#. original lines: 1, widths px: 39
+#: 0x0a40ed6
+msgctxt "table:moves/94"
+msgid "table:moves/94"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 95)
+#. original lines: 1, widths px: 43
+#: 0x0a40ee3
+msgctxt "table:moves/95"
+msgid "table:moves/95"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 96)
+#. original lines: 1, widths px: 44
+#: 0x0a40ef0
+msgctxt "table:moves/96"
+msgid "table:moves/96"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 97)
+#. original lines: 1, widths px: 36
+#: 0x0a40efd
+msgctxt "table:moves/97"
+msgid "table:moves/97"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 98)
+#. original lines: 1, widths px: 66
+#: 0x0a40f0a
+msgctxt "table:moves/98"
+msgid "table:moves/98"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 99)
+#. original lines: 1, widths px: 24
+#: 0x0a40f17
+msgctxt "table:moves/99"
+msgid "table:moves/99"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 100)
+#. original lines: 1, widths px: 45
+#: 0x0a40f24
+msgctxt "table:moves/100"
+msgid "table:moves/100"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 101)
+#. original lines: 1, widths px: 63
+#: 0x0a40f31
+msgctxt "table:moves/101"
+msgid "table:moves/101"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 102)
+#. original lines: 1, widths px: 26
+#: 0x0a40f3e
+msgctxt "table:moves/102"
+msgid "table:moves/102"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 103)
+#. original lines: 1, widths px: 41
+#: 0x0a40f4b
+msgctxt "table:moves/103"
+msgid "table:moves/103"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 104)
+#. original lines: 1, widths px: 65
+#: 0x0a40f58
+msgctxt "table:moves/104"
+msgid "table:moves/104"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 105)
+#. original lines: 1, widths px: 41
+#: 0x0a40f65
+msgctxt "table:moves/105"
+msgid "table:moves/105"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 106)
+#. original lines: 1, widths px: 34
+#: 0x0a40f72
+msgctxt "table:moves/106"
+msgid "table:moves/106"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 107)
+#. original lines: 1, widths px: 41
+#: 0x0a40f7f
+msgctxt "table:moves/107"
+msgid "table:moves/107"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 108)
+#. original lines: 1, widths px: 62
+#: 0x0a40f8c
+msgctxt "table:moves/108"
+msgid "table:moves/108"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 109)
+#. original lines: 1, widths px: 63
+#: 0x0a40f99
+msgctxt "table:moves/109"
+msgid "table:moves/109"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 110)
+#. original lines: 1, widths px: 44
+#: 0x0a40fa6
+msgctxt "table:moves/110"
+msgid "table:moves/110"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 111)
+#. original lines: 1, widths px: 67
+#: 0x0a40fb3
+msgctxt "table:moves/111"
+msgid "table:moves/111"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 112)
+#. original lines: 1, widths px: 37
+#: 0x0a40fc0
+msgctxt "table:moves/112"
+msgid "table:moves/112"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 113)
+#. original lines: 1, widths px: 67
+#: 0x0a40fcd
+msgctxt "table:moves/113"
+msgid "table:moves/113"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 114)
+#. original lines: 1, widths px: 24
+#: 0x0a40fda
+msgctxt "table:moves/114"
+msgid "table:moves/114"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 115)
+#. original lines: 1, widths px: 39
+#: 0x0a40fe7
+msgctxt "table:moves/115"
+msgid "table:moves/115"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 116)
+#. original lines: 1, widths px: 69
+#: 0x0a40ff4
+msgctxt "table:moves/116"
+msgid "table:moves/116"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 117)
+#. original lines: 1, widths px: 22
+#: 0x0a41001
+msgctxt "table:moves/117"
+msgid "table:moves/117"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 118)
+#. original lines: 1, widths px: 51
+#: 0x0a4100e
+msgctxt "table:moves/118"
+msgid "table:moves/118"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 119)
+#. original lines: 1, widths px: 61
+#: 0x0a4101b
+msgctxt "table:moves/119"
+msgid "table:moves/119"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 120)
+#. original lines: 1, widths px: 66
+#: 0x0a41028
+msgctxt "table:moves/120"
+msgid "table:moves/120"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 121)
+#. original lines: 1, widths px: 48
+#: 0x0a41035
+msgctxt "table:moves/121"
+msgid "table:moves/121"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 122)
+#. original lines: 1, widths px: 21
+#: 0x0a41042
+msgctxt "table:moves/122"
+msgid "table:moves/122"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 123)
+#. original lines: 1, widths px: 24
+#: 0x0a4104f
+msgctxt "table:moves/123"
+msgid "table:moves/123"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 124)
+#. original lines: 1, widths px: 35
+#: 0x0a4105c
+msgctxt "table:moves/124"
+msgid "table:moves/124"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 125)
+#. original lines: 1, widths px: 52
+#: 0x0a41069
+msgctxt "table:moves/125"
+msgid "table:moves/125"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 126)
+#. original lines: 1, widths px: 54
+#: 0x0a41076
+msgctxt "table:moves/126"
+msgid "table:moves/126"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 127)
+#. original lines: 1, widths px: 49
+#: 0x0a41083
+msgctxt "table:moves/127"
+msgid "table:moves/127"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 128)
+#. original lines: 1, widths px: 29
+#: 0x0a41090
+msgctxt "table:moves/128"
+msgid "table:moves/128"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 129)
+#. original lines: 1, widths px: 26
+#: 0x0a4109d
+msgctxt "table:moves/129"
+msgid "table:moves/129"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 130)
+#. original lines: 1, widths px: 56
+#: 0x0a410aa
+msgctxt "table:moves/130"
+msgid "table:moves/130"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 131)
+#. original lines: 1, widths px: 66
+#: 0x0a410b7
+msgctxt "table:moves/131"
+msgid "table:moves/131"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 132)
+#. original lines: 1, widths px: 47
+#: 0x0a410c4
+msgctxt "table:moves/132"
+msgid "table:moves/132"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 133)
+#. original lines: 1, widths px: 38
+#: 0x0a410d1
+msgctxt "table:moves/133"
+msgid "table:moves/133"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 134)
+#. original lines: 1, widths px: 35
+#: 0x0a410de
+msgctxt "table:moves/134"
+msgid "table:moves/134"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 135)
+#. original lines: 1, widths px: 61
+#: 0x0a410eb
+msgctxt "table:moves/135"
+msgid "table:moves/135"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 136)
+#. original lines: 1, widths px: 67
+#: 0x0a410f8
+msgctxt "table:moves/136"
+msgid "table:moves/136"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 137)
+#. original lines: 1, widths px: 28
+#: 0x0a41105
+msgctxt "table:moves/137"
+msgid "table:moves/137"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 138)
+#. original lines: 1, widths px: 63
+#: 0x0a41112
+msgctxt "table:moves/138"
+msgid "table:moves/138"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 139)
+#. original lines: 1, widths px: 55
+#: 0x0a4111f
+msgctxt "table:moves/139"
+msgid "table:moves/139"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 140)
+#. original lines: 1, widths px: 40
+#: 0x0a4112c
+msgctxt "table:moves/140"
+msgid "table:moves/140"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 141)
+#. original lines: 1, widths px: 57
+#: 0x0a41139
+msgctxt "table:moves/141"
+msgid "table:moves/141"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 142)
+#. original lines: 1, widths px: 61
+#: 0x0a41146
+msgctxt "table:moves/142"
+msgid "table:moves/142"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 143)
+#. original lines: 1, widths px: 56
+#: 0x0a41153
+msgctxt "table:moves/143"
+msgid "table:moves/143"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 144)
+#. original lines: 1, widths px: 49
+#: 0x0a41160
+msgctxt "table:moves/144"
+msgid "table:moves/144"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 145)
+#. original lines: 1, widths px: 35
+#: 0x0a4116d
+msgctxt "table:moves/145"
+msgid "table:moves/145"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 146)
+#. original lines: 1, widths px: 63
+#: 0x0a4117a
+msgctxt "table:moves/146"
+msgid "table:moves/146"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 147)
+#. original lines: 1, widths px: 29
+#: 0x0a41187
+msgctxt "table:moves/147"
+msgid "table:moves/147"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 148)
+#. original lines: 1, widths px: 28
+#: 0x0a41194
+msgctxt "table:moves/148"
+msgid "table:moves/148"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 149)
+#. original lines: 1, widths px: 41
+#: 0x0a411a1
+msgctxt "table:moves/149"
+msgid "table:moves/149"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 150)
+#. original lines: 1, widths px: 34
+#: 0x0a411ae
+msgctxt "table:moves/150"
+msgid "table:moves/150"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 151)
+#. original lines: 1, widths px: 56
+#: 0x0a411bb
+msgctxt "table:moves/151"
+msgid "table:moves/151"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 152)
+#. original lines: 1, widths px: 58
+#: 0x0a411c8
+msgctxt "table:moves/152"
+msgid "table:moves/152"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 153)
+#. original lines: 1, widths px: 49
+#: 0x0a411d5
+msgctxt "table:moves/153"
+msgid "table:moves/153"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 154)
+#. original lines: 1, widths px: 62
+#: 0x0a411e2
+msgctxt "table:moves/154"
+msgid "table:moves/154"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 155)
+#. original lines: 1, widths px: 57
+#: 0x0a411ef
+msgctxt "table:moves/155"
+msgid "table:moves/155"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 156)
+#. original lines: 1, widths px: 22
+#: 0x0a411fc
+msgctxt "table:moves/156"
+msgid "table:moves/156"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 157)
+#. original lines: 1, widths px: 56
+#: 0x0a41209
+msgctxt "table:moves/157"
+msgid "table:moves/157"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 158)
+#. original lines: 1, widths px: 58
+#: 0x0a41216
+msgctxt "table:moves/158"
+msgid "table:moves/158"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 159)
+#. original lines: 1, widths px: 40
+#: 0x0a41223
+msgctxt "table:moves/159"
+msgid "table:moves/159"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 160)
+#. original lines: 1, widths px: 54
+#: 0x0a41230
+msgctxt "table:moves/160"
+msgid "table:moves/160"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 161)
+#. original lines: 1, widths px: 54
+#: 0x0a4123d
+msgctxt "table:moves/161"
+msgid "table:moves/161"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 162)
+#. original lines: 1, widths px: 58
+#: 0x0a4124a
+msgctxt "table:moves/162"
+msgid "table:moves/162"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 163)
+#. original lines: 1, widths px: 28
+#: 0x0a41257
+msgctxt "table:moves/163"
+msgid "table:moves/163"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 164)
+#. original lines: 1, widths px: 54
+#: 0x0a41264
+msgctxt "table:moves/164"
+msgid "table:moves/164"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 165)
+#. original lines: 1, widths px: 45
+#: 0x0a41271
+msgctxt "table:moves/165"
+msgid "table:moves/165"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 166)
+#. original lines: 1, widths px: 34
+#: 0x0a4127e
+msgctxt "table:moves/166"
+msgid "table:moves/166"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 167)
+#. original lines: 1, widths px: 59
+#: 0x0a4128b
+msgctxt "table:moves/167"
+msgid "table:moves/167"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 168)
+#. original lines: 1, widths px: 27
+#: 0x0a41298
+msgctxt "table:moves/168"
+msgid "table:moves/168"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 169)
+#. original lines: 1, widths px: 57
+#: 0x0a412a5
+msgctxt "table:moves/169"
+msgid "table:moves/169"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 170)
+#. original lines: 1, widths px: 62
+#: 0x0a412b2
+msgctxt "table:moves/170"
+msgid "table:moves/170"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 171)
+#. original lines: 1, widths px: 50
+#: 0x0a412bf
+msgctxt "table:moves/171"
+msgid "table:moves/171"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 172)
+#. original lines: 1, widths px: 64
+#: 0x0a412cc
+msgctxt "table:moves/172"
+msgid "table:moves/172"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 173)
+#. original lines: 1, widths px: 28
+#: 0x0a412d9
+msgctxt "table:moves/173"
+msgid "table:moves/173"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 174)
+#. original lines: 1, widths px: 28
+#: 0x0a412e6
+msgctxt "table:moves/174"
+msgid "table:moves/174"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 175)
+#. original lines: 1, widths px: 26
+#: 0x0a412f3
+msgctxt "table:moves/175"
+msgid "table:moves/175"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 176)
+#. original lines: 1, widths px: 66
+#: 0x0a41300
+msgctxt "table:moves/176"
+msgid "table:moves/176"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 177)
+#. original lines: 1, widths px: 50
+#: 0x0a4130d
+msgctxt "table:moves/177"
+msgid "table:moves/177"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 178)
+#. original lines: 1, widths px: 68
+#: 0x0a4131a
+msgctxt "table:moves/178"
+msgid "table:moves/178"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 179)
+#. original lines: 1, widths px: 45
+#: 0x0a41327
+msgctxt "table:moves/179"
+msgid "table:moves/179"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 180)
+#. original lines: 1, widths px: 27
+#: 0x0a41334
+msgctxt "table:moves/180"
+msgid "table:moves/180"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 181)
+#. original lines: 1, widths px: 64
+#: 0x0a41341
+msgctxt "table:moves/181"
+msgid "table:moves/181"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 182)
+#. original lines: 1, widths px: 39
+#: 0x0a4134e
+msgctxt "table:moves/182"
+msgid "table:moves/182"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 183)
+#. original lines: 1, widths px: 59
+#: 0x0a4135b
+msgctxt "table:moves/183"
+msgid "table:moves/183"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 184)
+#. original lines: 1, widths px: 59
+#: 0x0a41368
+msgctxt "table:moves/184"
+msgid "table:moves/184"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 185)
+#. original lines: 1, widths px: 65
+#: 0x0a41375
+msgctxt "table:moves/185"
+msgid "table:moves/185"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 186)
+#. original lines: 1, widths px: 55
+#: 0x0a41382
+msgctxt "table:moves/186"
+msgid "table:moves/186"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 187)
+#. original lines: 1, widths px: 57
+#: 0x0a4138f
+msgctxt "table:moves/187"
+msgid "table:moves/187"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 188)
+#. original lines: 1, widths px: 65
+#: 0x0a4139c
+msgctxt "table:moves/188"
+msgid "table:moves/188"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 189)
+#. original lines: 1, widths px: 47
+#: 0x0a413a9
+msgctxt "table:moves/189"
+msgid "table:moves/189"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 190)
+#. original lines: 1, widths px: 52
+#: 0x0a413b6
+msgctxt "table:moves/190"
+msgid "table:moves/190"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 191)
+#. original lines: 1, widths px: 32
+#: 0x0a413c3
+msgctxt "table:moves/191"
+msgid "table:moves/191"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 192)
+#. original lines: 1, widths px: 57
+#: 0x0a413d0
+msgctxt "table:moves/192"
+msgid "table:moves/192"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 193)
+#. original lines: 1, widths px: 49
+#: 0x0a413dd
+msgctxt "table:moves/193"
+msgid "table:moves/193"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 194)
+#. original lines: 1, widths px: 66
+#: 0x0a413ea
+msgctxt "table:moves/194"
+msgid "table:moves/194"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 195)
+#. original lines: 1, widths px: 61
+#: 0x0a413f7
+msgctxt "table:moves/195"
+msgid "table:moves/195"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 196)
+#. original lines: 1, widths px: 45
+#: 0x0a41404
+msgctxt "table:moves/196"
+msgid "table:moves/196"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 197)
+#. original lines: 1, widths px: 34
+#: 0x0a41411
+msgctxt "table:moves/197"
+msgid "table:moves/197"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 198)
+#. original lines: 1, widths px: 52
+#: 0x0a4141e
+msgctxt "table:moves/198"
+msgid "table:moves/198"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 199)
+#. original lines: 1, widths px: 40
+#: 0x0a4142b
+msgctxt "table:moves/199"
+msgid "table:moves/199"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 200)
+#. original lines: 1, widths px: 40
+#: 0x0a41438
+msgctxt "table:moves/200"
+msgid "table:moves/200"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 201)
+#. original lines: 1, widths px: 50
+#: 0x0a41445
+msgctxt "table:moves/201"
+msgid "table:moves/201"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 202)
+#. original lines: 1, widths px: 54
+#: 0x0a41452
+msgctxt "table:moves/202"
+msgid "table:moves/202"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 203)
+#. original lines: 1, widths px: 34
+#: 0x0a4145f
+msgctxt "table:moves/203"
+msgid "table:moves/203"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 204)
+#. original lines: 1, widths px: 29
+#: 0x0a4146c
+msgctxt "table:moves/204"
+msgid "table:moves/204"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 205)
+#. original lines: 1, widths px: 39
+#: 0x0a41479
+msgctxt "table:moves/205"
+msgid "table:moves/205"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 206)
+#. original lines: 1, widths px: 62
+#: 0x0a41486
+msgctxt "table:moves/206"
+msgid "table:moves/206"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 207)
+#. original lines: 1, widths px: 41
+#: 0x0a41493
+msgctxt "table:moves/207"
+msgid "table:moves/207"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 208)
+#. original lines: 1, widths px: 51
+#: 0x0a414a0
+msgctxt "table:moves/208"
+msgid "table:moves/208"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 209)
+#. original lines: 1, widths px: 28
+#: 0x0a414ad
+msgctxt "table:moves/209"
+msgid "table:moves/209"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 210)
+#. original lines: 1, widths px: 62
+#: 0x0a414ba
+msgctxt "table:moves/210"
+msgid "table:moves/210"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 211)
+#. original lines: 1, widths px: 55
+#: 0x0a414c7
+msgctxt "table:moves/211"
+msgid "table:moves/211"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 212)
+#. original lines: 1, widths px: 52
+#: 0x0a414d4
+msgctxt "table:moves/212"
+msgid "table:moves/212"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 213)
+#. original lines: 1, widths px: 38
+#: 0x0a414e1
+msgctxt "table:moves/213"
+msgid "table:moves/213"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 214)
+#. original lines: 1, widths px: 57
+#: 0x0a414ee
+msgctxt "table:moves/214"
+msgid "table:moves/214"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 215)
+#. original lines: 1, widths px: 51
+#: 0x0a414fb
+msgctxt "table:moves/215"
+msgid "table:moves/215"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 216)
+#. original lines: 1, widths px: 33
+#: 0x0a41508
+msgctxt "table:moves/216"
+msgid "table:moves/216"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 217)
+#. original lines: 1, widths px: 38
+#: 0x0a41515
+msgctxt "table:moves/217"
+msgid "table:moves/217"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 218)
+#. original lines: 1, widths px: 58
+#: 0x0a41522
+msgctxt "table:moves/218"
+msgid "table:moves/218"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 219)
+#. original lines: 1, widths px: 52
+#: 0x0a4152f
+msgctxt "table:moves/219"
+msgid "table:moves/219"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 220)
+#. original lines: 1, widths px: 53
+#: 0x0a4153c
+msgctxt "table:moves/220"
+msgid "table:moves/220"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 221)
+#. original lines: 1, widths px: 62
+#: 0x0a41549
+msgctxt "table:moves/221"
+msgid "table:moves/221"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 222)
+#. original lines: 1, widths px: 50
+#: 0x0a41556
+msgctxt "table:moves/222"
+msgid "table:moves/222"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 223)
+#. original lines: 1, widths px: 68
+#: 0x0a41563
+msgctxt "table:moves/223"
+msgid "table:moves/223"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 224)
+#. original lines: 1, widths px: 46
+#: 0x0a41570
+msgctxt "table:moves/224"
+msgid "table:moves/224"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 225)
+#. original lines: 1, widths px: 68
+#: 0x0a4157d
+msgctxt "table:moves/225"
+msgid "table:moves/225"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 226)
+#. original lines: 1, widths px: 56
+#: 0x0a4158a
+msgctxt "table:moves/226"
+msgid "table:moves/226"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 227)
+#. original lines: 1, widths px: 34
+#: 0x0a41597
+msgctxt "table:moves/227"
+msgid "table:moves/227"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 228)
+#. original lines: 1, widths px: 37
+#: 0x0a415a4
+msgctxt "table:moves/228"
+msgid "table:moves/228"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 229)
+#. original lines: 1, widths px: 55
+#: 0x0a415b1
+msgctxt "table:moves/229"
+msgid "table:moves/229"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 230)
+#. original lines: 1, widths px: 63
+#: 0x0a415be
+msgctxt "table:moves/230"
+msgid "table:moves/230"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 231)
+#. original lines: 1, widths px: 49
+#: 0x0a415cb
+msgctxt "table:moves/231"
+msgid "table:moves/231"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 232)
+#. original lines: 1, widths px: 57
+#: 0x0a415d8
+msgctxt "table:moves/232"
+msgid "table:moves/232"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 233)
+#. original lines: 1, widths px: 61
+#: 0x0a415e5
+msgctxt "table:moves/233"
+msgid "table:moves/233"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 234)
+#. original lines: 1, widths px: 60
+#: 0x0a415f2
+msgctxt "table:moves/234"
+msgid "table:moves/234"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 235)
+#. original lines: 1, widths px: 48
+#: 0x0a415ff
+msgctxt "table:moves/235"
+msgid "table:moves/235"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 236)
+#. original lines: 1, widths px: 49
+#: 0x0a4160c
+msgctxt "table:moves/236"
+msgid "table:moves/236"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 237)
+#. original lines: 1, widths px: 68
+#: 0x0a41619
+msgctxt "table:moves/237"
+msgid "table:moves/237"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 238)
+#. original lines: 1, widths px: 57
+#: 0x0a41626
+msgctxt "table:moves/238"
+msgid "table:moves/238"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 239)
+#. original lines: 1, widths px: 37
+#: 0x0a41633
+msgctxt "table:moves/239"
+msgid "table:moves/239"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 240)
+#. original lines: 1, widths px: 56
+#: 0x0a41640
+msgctxt "table:moves/240"
+msgid "table:moves/240"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 241)
+#. original lines: 1, widths px: 52
+#: 0x0a4164d
+msgctxt "table:moves/241"
+msgid "table:moves/241"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 242)
+#. original lines: 1, widths px: 34
+#: 0x0a4165a
+msgctxt "table:moves/242"
+msgid "table:moves/242"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 243)
+#. original lines: 1, widths px: 60
+#: 0x0a41667
+msgctxt "table:moves/243"
+msgid "table:moves/243"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 244)
+#. original lines: 1, widths px: 47
+#: 0x0a41674
+msgctxt "table:moves/244"
+msgid "table:moves/244"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 245)
+#. original lines: 1, widths px: 70
+#: 0x0a41681
+msgctxt "table:moves/245"
+msgid "table:moves/245"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 246)
+#. original lines: 1, widths px: 66
+#: 0x0a4168e
+msgctxt "table:moves/246"
+msgid "table:moves/246"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 247)
+#. original lines: 1, widths px: 64
+#: 0x0a4169b
+msgctxt "table:moves/247"
+msgid "table:moves/247"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 248)
+#. original lines: 1, widths px: 67
+#: 0x0a416a8
+msgctxt "table:moves/248"
+msgid "table:moves/248"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 249)
+#. original lines: 1, widths px: 58
+#: 0x0a416b5
+msgctxt "table:moves/249"
+msgid "table:moves/249"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 250)
+#. original lines: 1, widths px: 49
+#: 0x0a416c2
+msgctxt "table:moves/250"
+msgid "table:moves/250"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 251)
+#. original lines: 1, widths px: 41
+#: 0x0a416cf
+msgctxt "table:moves/251"
+msgid "table:moves/251"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 252)
+#. original lines: 1, widths px: 46
+#: 0x0a416dc
+msgctxt "table:moves/252"
+msgid "table:moves/252"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 253)
+#. original lines: 1, widths px: 34
+#: 0x0a416e9
+msgctxt "table:moves/253"
+msgid "table:moves/253"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 254)
+#. original lines: 1, widths px: 49
+#: 0x0a416f6
+msgctxt "table:moves/254"
+msgid "table:moves/254"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 255)
+#. original lines: 1, widths px: 39
+#: 0x0a41703
+msgctxt "table:moves/255"
+msgid "table:moves/255"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 256)
+#. original lines: 1, widths px: 40
+#: 0x0a41710
+msgctxt "table:moves/256"
+msgid "table:moves/256"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 257)
+#. original lines: 1, widths px: 53
+#: 0x0a4171d
+msgctxt "table:moves/257"
+msgid "table:moves/257"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 258)
+#. original lines: 1, widths px: 21
+#: 0x0a4172a
+msgctxt "table:moves/258"
+msgid "table:moves/258"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 259)
+#. original lines: 1, widths px: 39
+#: 0x0a41737
+msgctxt "table:moves/259"
+msgid "table:moves/259"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 260)
+#. original lines: 1, widths px: 38
+#: 0x0a41744
+msgctxt "table:moves/260"
+msgid "table:moves/260"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 261)
+#. original lines: 1, widths px: 59
+#: 0x0a41751
+msgctxt "table:moves/261"
+msgid "table:moves/261"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 262)
+#. original lines: 1, widths px: 40
+#: 0x0a4175e
+msgctxt "table:moves/262"
+msgid "table:moves/262"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 263)
+#. original lines: 1, widths px: 36
+#: 0x0a4176b
+msgctxt "table:moves/263"
+msgid "table:moves/263"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 264)
+#. original lines: 1, widths px: 64
+#: 0x0a41778
+msgctxt "table:moves/264"
+msgid "table:moves/264"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 265)
+#. original lines: 1, widths px: 65
+#: 0x0a41785
+msgctxt "table:moves/265"
+msgid "table:moves/265"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 266)
+#. original lines: 1, widths px: 52
+#: 0x0a41792
+msgctxt "table:moves/266"
+msgid "table:moves/266"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 267)
+#. original lines: 1, widths px: 69
+#: 0x0a4179f
+msgctxt "table:moves/267"
+msgid "table:moves/267"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 268)
+#. original lines: 1, widths px: 35
+#: 0x0a417ac
+msgctxt "table:moves/268"
+msgid "table:moves/268"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 269)
+#. original lines: 1, widths px: 28
+#: 0x0a417b9
+msgctxt "table:moves/269"
+msgid "table:moves/269"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 270)
+#. original lines: 1, widths px: 67
+#: 0x0a417c6
+msgctxt "table:moves/270"
+msgid "table:moves/270"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 271)
+#. original lines: 1, widths px: 26
+#: 0x0a417d3
+msgctxt "table:moves/271"
+msgid "table:moves/271"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 272)
+#. original lines: 1, widths px: 52
+#: 0x0a417e0
+msgctxt "table:moves/272"
+msgid "table:moves/272"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 273)
+#. original lines: 1, widths px: 21
+#: 0x0a417ed
+msgctxt "table:moves/273"
+msgid "table:moves/273"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 274)
+#. original lines: 1, widths px: 30
+#: 0x0a417fa
+msgctxt "table:moves/274"
+msgid "table:moves/274"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 275)
+#. original lines: 1, widths px: 37
+#: 0x0a41807
+msgctxt "table:moves/275"
+msgid "table:moves/275"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 276)
+#. original lines: 1, widths px: 58
+#: 0x0a41814
+msgctxt "table:moves/276"
+msgid "table:moves/276"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 277)
+#. original lines: 1, widths px: 57
+#: 0x0a41821
+msgctxt "table:moves/277"
+msgid "table:moves/277"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 278)
+#. original lines: 1, widths px: 41
+#: 0x0a4182e
+msgctxt "table:moves/278"
+msgid "table:moves/278"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 279)
+#. original lines: 1, widths px: 41
+#: 0x0a4183b
+msgctxt "table:moves/279"
+msgid "table:moves/279"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 280)
+#. original lines: 1, widths px: 60
+#: 0x0a41848
+msgctxt "table:moves/280"
+msgid "table:moves/280"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 281)
+#. original lines: 1, widths px: 23
+#: 0x0a41855
+msgctxt "table:moves/281"
+msgid "table:moves/281"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 282)
+#. original lines: 1, widths px: 50
+#: 0x0a41862
+msgctxt "table:moves/282"
+msgid "table:moves/282"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 283)
+#. original lines: 1, widths px: 46
+#: 0x0a4186f
+msgctxt "table:moves/283"
+msgid "table:moves/283"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 284)
+#. original lines: 1, widths px: 43
+#: 0x0a4187c
+msgctxt "table:moves/284"
+msgid "table:moves/284"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 285)
+#. original lines: 1, widths px: 55
+#: 0x0a41889
+msgctxt "table:moves/285"
+msgid "table:moves/285"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 286)
+#. original lines: 1, widths px: 43
+#: 0x0a41896
+msgctxt "table:moves/286"
+msgid "table:moves/286"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 287)
+#. original lines: 1, widths px: 39
+#: 0x0a418a3
+msgctxt "table:moves/287"
+msgid "table:moves/287"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 288)
+#. original lines: 1, widths px: 35
+#: 0x0a418b0
+msgctxt "table:moves/288"
+msgid "table:moves/288"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 289)
+#. original lines: 1, widths px: 34
+#: 0x0a418bd
+msgctxt "table:moves/289"
+msgid "table:moves/289"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 290)
+#. original lines: 1, widths px: 69
+#: 0x0a418ca
+msgctxt "table:moves/290"
+msgid "table:moves/290"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 291)
+#. original lines: 1, widths px: 22
+#: 0x0a418d7
+msgctxt "table:moves/291"
+msgid "table:moves/291"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 292)
+#. original lines: 1, widths px: 56
+#: 0x0a418e4
+msgctxt "table:moves/292"
+msgid "table:moves/292"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 293)
+#. original lines: 1, widths px: 58
+#: 0x0a418f1
+msgctxt "table:moves/293"
+msgid "table:moves/293"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 294)
+#. original lines: 1, widths px: 50
+#: 0x0a418fe
+msgctxt "table:moves/294"
+msgid "table:moves/294"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 295)
+#. original lines: 1, widths px: 68
+#: 0x0a4190b
+msgctxt "table:moves/295"
+msgid "table:moves/295"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 296)
+#. original lines: 1, widths px: 48
+#: 0x0a41918
+msgctxt "table:moves/296"
+msgid "table:moves/296"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 297)
+#. original lines: 1, widths px: 69
+#: 0x0a41925
+msgctxt "table:moves/297"
+msgid "table:moves/297"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 298)
+#. original lines: 1, widths px: 69
+#: 0x0a41932
+msgctxt "table:moves/298"
+msgid "table:moves/298"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 299)
+#. original lines: 1, widths px: 56
+#: 0x0a4193f
+msgctxt "table:moves/299"
+msgid "table:moves/299"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 300)
+#. original lines: 1, widths px: 52
+#: 0x0a4194c
+msgctxt "table:moves/300"
+msgid "table:moves/300"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 301)
+#. original lines: 1, widths px: 46
+#: 0x0a41959
+msgctxt "table:moves/301"
+msgid "table:moves/301"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 302)
+#. original lines: 1, widths px: 58
+#: 0x0a41966
+msgctxt "table:moves/302"
+msgid "table:moves/302"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 303)
+#. original lines: 1, widths px: 50
+#: 0x0a41973
+msgctxt "table:moves/303"
+msgid "table:moves/303"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 304)
+#. original lines: 1, widths px: 63
+#: 0x0a41980
+msgctxt "table:moves/304"
+msgid "table:moves/304"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 305)
+#. original lines: 1, widths px: 61
+#: 0x0a4198d
+msgctxt "table:moves/305"
+msgid "table:moves/305"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 306)
+#. original lines: 1, widths px: 57
+#: 0x0a4199a
+msgctxt "table:moves/306"
+msgid "table:moves/306"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 307)
+#. original lines: 1, widths px: 55
+#: 0x0a419a7
+msgctxt "table:moves/307"
+msgid "table:moves/307"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 308)
+#. original lines: 1, widths px: 68
+#: 0x0a419b4
+msgctxt "table:moves/308"
+msgid "table:moves/308"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 309)
+#. original lines: 1, widths px: 63
+#: 0x0a419c1
+msgctxt "table:moves/309"
+msgid "table:moves/309"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 310)
+#. original lines: 1, widths px: 42
+#: 0x0a419ce
+msgctxt "table:moves/310"
+msgid "table:moves/310"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 311)
+#. original lines: 1, widths px: 68
+#: 0x0a419db
+msgctxt "table:moves/311"
+msgid "table:moves/311"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 312)
+#. original lines: 1, widths px: 69
+#: 0x0a419e8
+msgctxt "table:moves/312"
+msgid "table:moves/312"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 313)
+#. original lines: 1, widths px: 57
+#: 0x0a419f5
+msgctxt "table:moves/313"
+msgid "table:moves/313"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 314)
+#. original lines: 1, widths px: 54
+#: 0x0a41a02
+msgctxt "table:moves/314"
+msgid "table:moves/314"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 315)
+#. original lines: 1, widths px: 46
+#: 0x0a41a0f
+msgctxt "table:moves/315"
+msgid "table:moves/315"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 316)
+#. original lines: 1, widths px: 63
+#: 0x0a41a1c
+msgctxt "table:moves/316"
+msgid "table:moves/316"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 317)
+#. original lines: 1, widths px: 53
+#: 0x0a41a29
+msgctxt "table:moves/317"
+msgid "table:moves/317"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 318)
+#. original lines: 1, widths px: 59
+#: 0x0a41a36
+msgctxt "table:moves/318"
+msgid "table:moves/318"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 319)
+#. original lines: 1, widths px: 63
+#: 0x0a41a43
+msgctxt "table:moves/319"
+msgid "table:moves/319"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 320)
+#. original lines: 1, widths px: 64
+#: 0x0a41a50
+msgctxt "table:moves/320"
+msgid "table:moves/320"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 321)
+#. original lines: 1, widths px: 32
+#: 0x0a41a5d
+msgctxt "table:moves/321"
+msgid "table:moves/321"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 322)
+#. original lines: 1, widths px: 68
+#: 0x0a41a6a
+msgctxt "table:moves/322"
+msgid "table:moves/322"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 323)
+#. original lines: 1, widths px: 63
+#: 0x0a41a77
+msgctxt "table:moves/323"
+msgid "table:moves/323"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 324)
+#. original lines: 1, widths px: 62
+#: 0x0a41a84
+msgctxt "table:moves/324"
+msgid "table:moves/324"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 325)
+#. original lines: 1, widths px: 71
+#: 0x0a41a91
+msgctxt "table:moves/325"
+msgid "table:moves/325"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 326)
+#. original lines: 1, widths px: 66
+#: 0x0a41a9e
+msgctxt "table:moves/326"
+msgid "table:moves/326"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 327)
+#. original lines: 1, widths px: 69
+#: 0x0a41aab
+msgctxt "table:moves/327"
+msgid "table:moves/327"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 328)
+#. original lines: 1, widths px: 53
+#: 0x0a41ab8
+msgctxt "table:moves/328"
+msgid "table:moves/328"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 329)
+#. original lines: 1, widths px: 58
+#: 0x0a41ac5
+msgctxt "table:moves/329"
+msgid "table:moves/329"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 330)
+#. original lines: 1, widths px: 64
+#: 0x0a41ad2
+msgctxt "table:moves/330"
+msgid "table:moves/330"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 331)
+#. original lines: 1, widths px: 63
+#: 0x0a41adf
+msgctxt "table:moves/331"
+msgid "table:moves/331"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 332)
+#. original lines: 1, widths px: 56
+#: 0x0a41aec
+msgctxt "table:moves/332"
+msgid "table:moves/332"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 333)
+#. original lines: 1, widths px: 68
+#: 0x0a41af9
+msgctxt "table:moves/333"
+msgid "table:moves/333"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 334)
+#. original lines: 1, widths px: 67
+#: 0x0a41b06
+msgctxt "table:moves/334"
+msgid "table:moves/334"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 335)
+#. original lines: 1, widths px: 28
+#: 0x0a41b13
+msgctxt "table:moves/335"
+msgid "table:moves/335"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 336)
+#. original lines: 1, widths px: 23
+#: 0x0a41b20
+msgctxt "table:moves/336"
+msgid "table:moves/336"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 337)
+#. original lines: 1, widths px: 63
+#: 0x0a41b2d
+msgctxt "table:moves/337"
+msgid "table:moves/337"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 338)
+#. original lines: 1, widths px: 67
+#: 0x0a41b3a
+msgctxt "table:moves/338"
+msgid "table:moves/338"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 339)
+#. original lines: 1, widths px: 40
+#: 0x0a41b47
+msgctxt "table:moves/339"
+msgid "table:moves/339"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 340)
+#. original lines: 1, widths px: 35
+#: 0x0a41b54
+msgctxt "table:moves/340"
+msgid "table:moves/340"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 341)
+#. original lines: 1, widths px: 47
+#: 0x0a41b61
+msgctxt "table:moves/341"
+msgid "table:moves/341"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 342)
+#. original lines: 1, widths px: 59
+#: 0x0a41b6e
+msgctxt "table:moves/342"
+msgid "table:moves/342"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 343)
+#. original lines: 1, widths px: 29
+#: 0x0a41b7b
+msgctxt "table:moves/343"
+msgid "table:moves/343"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 344)
+#. original lines: 1, widths px: 62
+#: 0x0a41b88
+msgctxt "table:moves/344"
+msgid "table:moves/344"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 345)
+#. original lines: 1, widths px: 68
+#: 0x0a41b95
+msgctxt "table:moves/345"
+msgid "table:moves/345"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 346)
+#. original lines: 1, widths px: 62
+#: 0x0a41ba2
+msgctxt "table:moves/346"
+msgid "table:moves/346"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 347)
+#. original lines: 1, widths px: 50
+#: 0x0a41baf
+msgctxt "table:moves/347"
+msgid "table:moves/347"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 348)
+#. original lines: 1, widths px: 58
+#: 0x0a41bbc
+msgctxt "table:moves/348"
+msgid "table:moves/348"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 349)
+#. original lines: 1, widths px: 69
+#: 0x0a41bc9
+msgctxt "table:moves/349"
+msgid "table:moves/349"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 350)
+#. original lines: 1, widths px: 56
+#: 0x0a41bd6
+msgctxt "table:moves/350"
+msgid "table:moves/350"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 351)
+#. original lines: 1, widths px: 59
+#: 0x0a41be3
+msgctxt "table:moves/351"
+msgid "table:moves/351"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 352)
+#. original lines: 1, widths px: 62
+#: 0x0a41bf0
+msgctxt "table:moves/352"
+msgid "table:moves/352"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 353)
+#. original lines: 1, widths px: 62
+#: 0x0a41bfd
+msgctxt "table:moves/353"
+msgid "table:moves/353"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 354)
+#. original lines: 1, widths px: 69
+#: 0x0a41c0a
+msgctxt "table:moves/354"
+msgid "table:moves/354"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 355)
+#. original lines: 1, widths px: 59
+#: 0x0a41c17
+msgctxt "table:moves/355"
+msgid "table:moves/355"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 356)
+#. original lines: 1, widths px: 49
+#: 0x0a41c24
+msgctxt "table:moves/356"
+msgid "table:moves/356"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 357)
+#. original lines: 1, widths px: 47
+#: 0x0a41c31
+msgctxt "table:moves/357"
+msgid "table:moves/357"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 358)
+#. original lines: 1, widths px: 51
+#: 0x0a41c3e
+msgctxt "table:moves/358"
+msgid "table:moves/358"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 359)
+#. original lines: 1, widths px: 64
+#: 0x0a41c4b
+msgctxt "table:moves/359"
+msgid "table:moves/359"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 360)
+#. original lines: 1, widths px: 52
+#: 0x0a41c58
+msgctxt "table:moves/360"
+msgid "table:moves/360"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 361)
+#. original lines: 1, widths px: 56
+#: 0x0a41c65
+msgctxt "table:moves/361"
+msgid "table:moves/361"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 362)
+#. original lines: 1, widths px: 48
+#: 0x0a41c72
+msgctxt "table:moves/362"
+msgid "table:moves/362"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 363)
+#. original lines: 1, widths px: 68
+#: 0x0a41c7f
+msgctxt "table:moves/363"
+msgid "table:moves/363"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 364)
+#. original lines: 1, widths px: 65
+#: 0x0a41c8c
+msgctxt "table:moves/364"
+msgid "table:moves/364"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 365)
+#. original lines: 1, widths px: 69
+#: 0x0a41c99
+msgctxt "table:moves/365"
+msgid "table:moves/365"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 366)
+#. original lines: 1, widths px: 65
+#: 0x0a41ca6
+msgctxt "table:moves/366"
+msgid "table:moves/366"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 367)
+#. original lines: 1, widths px: 56
+#: 0x0a41cb3
+msgctxt "table:moves/367"
+msgid "table:moves/367"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 368)
+#. original lines: 1, widths px: 50
+#: 0x0a41cc0
+msgctxt "table:moves/368"
+msgid "table:moves/368"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 369)
+#. original lines: 1, widths px: 69
+#: 0x0a41ccd
+msgctxt "table:moves/369"
+msgid "table:moves/369"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 370)
+#. original lines: 1, widths px: 68
+#: 0x0a41cda
+msgctxt "table:moves/370"
+msgid "table:moves/370"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 371)
+#. original lines: 1, widths px: 61
+#: 0x0a41ce7
+msgctxt "table:moves/371"
+msgid "table:moves/371"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 372)
+#. original lines: 1, widths px: 63
+#: 0x0a41cf4
+msgctxt "table:moves/372"
+msgid "table:moves/372"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 373)
+#. original lines: 1, widths px: 62
+#: 0x0a41d01
+msgctxt "table:moves/373"
+msgid "table:moves/373"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 374)
+#. original lines: 1, widths px: 62
+#: 0x0a41d0e
+msgctxt "table:moves/374"
+msgid "table:moves/374"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 375)
+#. original lines: 1, widths px: 58
+#: 0x0a41d1b
+msgctxt "table:moves/375"
+msgid "table:moves/375"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 376)
+#. original lines: 1, widths px: 63
+#: 0x0a41d28
+msgctxt "table:moves/376"
+msgid "table:moves/376"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 377)
+#. original lines: 1, widths px: 55
+#: 0x0a41d35
+msgctxt "table:moves/377"
+msgid "table:moves/377"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 378)
+#. original lines: 1, widths px: 51
+#: 0x0a41d42
+msgctxt "table:moves/378"
+msgid "table:moves/378"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 379)
+#. original lines: 1, widths px: 58
+#: 0x0a41d4f
+msgctxt "table:moves/379"
+msgid "table:moves/379"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 380)
+#. original lines: 1, widths px: 59
+#: 0x0a41d5c
+msgctxt "table:moves/380"
+msgid "table:moves/380"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 381)
+#. original lines: 1, widths px: 53
+#: 0x0a41d69
+msgctxt "table:moves/381"
+msgid "table:moves/381"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 382)
+#. original lines: 1, widths px: 52
+#: 0x0a41d76
+msgctxt "table:moves/382"
+msgid "table:moves/382"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 383)
+#. original lines: 1, widths px: 59
+#: 0x0a41d83
+msgctxt "table:moves/383"
+msgid "table:moves/383"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 384)
+#. original lines: 1, widths px: 64
+#: 0x0a41d90
+msgctxt "table:moves/384"
+msgid "table:moves/384"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 385)
+#. original lines: 1, widths px: 48
+#: 0x0a41d9d
+msgctxt "table:moves/385"
+msgid "table:moves/385"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 386)
+#. original lines: 1, widths px: 56
+#: 0x0a41daa
+msgctxt "table:moves/386"
+msgid "table:moves/386"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 387)
+#. original lines: 1, widths px: 61
+#: 0x0a41db7
+msgctxt "table:moves/387"
+msgid "table:moves/387"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 388)
+#. original lines: 1, widths px: 65
+#: 0x0a41dc4
+msgctxt "table:moves/388"
+msgid "table:moves/388"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 389)
+#. original lines: 1, widths px: 53
+#: 0x0a41dd1
+msgctxt "table:moves/389"
+msgid "table:moves/389"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 390)
+#. original lines: 1, widths px: 57
+#: 0x0a41dde
+msgctxt "table:moves/390"
+msgid "table:moves/390"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 391)
+#. original lines: 1, widths px: 58
+#: 0x0a41deb
+msgctxt "table:moves/391"
+msgid "table:moves/391"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 392)
+#. original lines: 1, widths px: 56
+#: 0x0a41df8
+msgctxt "table:moves/392"
+msgid "table:moves/392"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 393)
+#. original lines: 1, widths px: 61
+#: 0x0a41e05
+msgctxt "table:moves/393"
+msgid "table:moves/393"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 394)
+#. original lines: 1, widths px: 68
+#: 0x0a41e12
+msgctxt "table:moves/394"
+msgid "table:moves/394"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 395)
+#. original lines: 1, widths px: 28
+#: 0x0a41e1f
+msgctxt "table:moves/395"
+msgid "table:moves/395"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 396)
+#. original lines: 1, widths px: 54
+#: 0x0a41e2c
+msgctxt "table:moves/396"
+msgid "table:moves/396"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 397)
+#. original lines: 1, widths px: 65
+#: 0x0a41e39
+msgctxt "table:moves/397"
+msgid "table:moves/397"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 398)
+#. original lines: 1, widths px: 70
+#: 0x0a41e46
+msgctxt "table:moves/398"
+msgid "table:moves/398"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 399)
+#. original lines: 1, widths px: 66
+#: 0x0a41e53
+msgctxt "table:moves/399"
+msgid "table:moves/399"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 400)
+#. original lines: 1, widths px: 49
+#: 0x0a41e60
+msgctxt "table:moves/400"
+msgid "table:moves/400"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 401)
+#. original lines: 1, widths px: 69
+#: 0x0a41e6d
+msgctxt "table:moves/401"
+msgid "table:moves/401"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 402)
+#. original lines: 1, widths px: 56
+#: 0x0a41e7a
+msgctxt "table:moves/402"
+msgid "table:moves/402"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 403)
+#. original lines: 1, widths px: 48
+#: 0x0a41e87
+msgctxt "table:moves/403"
+msgid "table:moves/403"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 404)
+#. original lines: 1, widths px: 46
+#: 0x0a41e94
+msgctxt "table:moves/404"
+msgid "table:moves/404"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 405)
+#. original lines: 1, widths px: 57
+#: 0x0a41ea1
+msgctxt "table:moves/405"
+msgid "table:moves/405"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 406)
+#. original lines: 1, widths px: 70
+#: 0x0a41eae
+msgctxt "table:moves/406"
+msgid "table:moves/406"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 407)
+#. original lines: 1, widths px: 67
+#: 0x0a41ebb
+msgctxt "table:moves/407"
+msgid "table:moves/407"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 408)
+#. original lines: 1, widths px: 63
+#: 0x0a41ec8
+msgctxt "table:moves/408"
+msgid "table:moves/408"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 409)
+#. original lines: 1, widths px: 57
+#: 0x0a41ed5
+msgctxt "table:moves/409"
+msgid "table:moves/409"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 410)
+#. original lines: 1, widths px: 58
+#: 0x0a41ee2
+msgctxt "table:moves/410"
+msgid "table:moves/410"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 411)
+#. original lines: 1, widths px: 21
+#: 0x0a41eef
+msgctxt "table:moves/411"
+msgid "table:moves/411"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 412)
+#. original lines: 1, widths px: 49
+#: 0x0a41efc
+msgctxt "table:moves/412"
+msgid "table:moves/412"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 413)
+#. original lines: 1, widths px: 67
+#: 0x0a41f09
+msgctxt "table:moves/413"
+msgid "table:moves/413"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 414)
+#. original lines: 1, widths px: 40
+#: 0x0a41f16
+msgctxt "table:moves/414"
+msgid "table:moves/414"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 415)
+#. original lines: 1, widths px: 68
+#: 0x0a41f23
+msgctxt "table:moves/415"
+msgid "table:moves/415"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 416)
+#. original lines: 1, widths px: 69
+#: 0x0a41f30
+msgctxt "table:moves/416"
+msgid "table:moves/416"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 417)
+#. original lines: 1, widths px: 54
+#: 0x0a41f3d
+msgctxt "table:moves/417"
+msgid "table:moves/417"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 418)
+#. original lines: 1, widths px: 27
+#: 0x0a41f4a
+msgctxt "table:moves/418"
+msgid "table:moves/418"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 419)
+#. original lines: 1, widths px: 69
+#: 0x0a41f57
+msgctxt "table:moves/419"
+msgid "table:moves/419"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 420)
+#. original lines: 1, widths px: 61
+#: 0x0a41f64
+msgctxt "table:moves/420"
+msgid "table:moves/420"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 421)
+#. original lines: 1, widths px: 63
+#: 0x0a41f71
+msgctxt "table:moves/421"
+msgid "table:moves/421"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 422)
+#. original lines: 1, widths px: 51
+#: 0x0a41f7e
+msgctxt "table:moves/422"
+msgid "table:moves/422"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 423)
+#. original lines: 1, widths px: 62
+#: 0x0a41f8b
+msgctxt "table:moves/423"
+msgid "table:moves/423"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 424)
+#. original lines: 1, widths px: 56
+#: 0x0a41f98
+msgctxt "table:moves/424"
+msgid "table:moves/424"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 425)
+#. original lines: 1, widths px: 57
+#: 0x0a41fa5
+msgctxt "table:moves/425"
+msgid "table:moves/425"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 426)
+#. original lines: 1, widths px: 62
+#: 0x0a41fb2
+msgctxt "table:moves/426"
+msgid "table:moves/426"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 427)
+#. original lines: 1, widths px: 58
+#: 0x0a41fbf
+msgctxt "table:moves/427"
+msgid "table:moves/427"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 428)
+#. original lines: 1, widths px: 57
+#: 0x0a41fcc
+msgctxt "table:moves/428"
+msgid "table:moves/428"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 429)
+#. original lines: 1, widths px: 58
+#: 0x0a41fd9
+msgctxt "table:moves/429"
+msgid "table:moves/429"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 430)
+#. original lines: 1, widths px: 41
+#: 0x0a41fe6
+msgctxt "table:moves/430"
+msgid "table:moves/430"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 431)
+#. original lines: 1, widths px: 50
+#: 0x0a41ff3
+msgctxt "table:moves/431"
+msgid "table:moves/431"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 432)
+#. original lines: 1, widths px: 47
+#: 0x0a42000
+msgctxt "table:moves/432"
+msgid "table:moves/432"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 433)
+#. original lines: 1, widths px: 69
+#: 0x0a4200d
+msgctxt "table:moves/433"
+msgid "table:moves/433"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 434)
+#. original lines: 1, widths px: 60
+#: 0x0a4201a
+msgctxt "table:moves/434"
+msgid "table:moves/434"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 435)
+#. original lines: 1, widths px: 38
+#: 0x0a42027
+msgctxt "table:moves/435"
+msgid "table:moves/435"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 436)
+#. original lines: 1, widths px: 18
+#: 0x0a42034
+msgctxt "table:moves/436"
+msgid "table:moves/436"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 437)
+#. original lines: 1, widths px: 53
+#: 0x0a42041
+msgctxt "table:moves/437"
+msgid "table:moves/437"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 438)
+#. original lines: 1, widths px: 56
+#: 0x0a4204e
+msgctxt "table:moves/438"
+msgid "table:moves/438"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 439)
+#. original lines: 1, widths px: 68
+#: 0x0a4205b
+msgctxt "table:moves/439"
+msgid "table:moves/439"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 440)
+#. original lines: 1, widths px: 55
+#: 0x0a42068
+msgctxt "table:moves/440"
+msgid "table:moves/440"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 441)
+#. original lines: 1, widths px: 62
+#: 0x0a42075
+msgctxt "table:moves/441"
+msgid "table:moves/441"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 442)
+#. original lines: 1, widths px: 33
+#: 0x0a42082
+msgctxt "table:moves/442"
+msgid "table:moves/442"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 443)
+#. original lines: 1, widths px: 61
+#: 0x0a4208f
+msgctxt "table:moves/443"
+msgid "table:moves/443"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 444)
+#. original lines: 1, widths px: 61
+#: 0x0a4209c
+msgctxt "table:moves/444"
+msgid "table:moves/444"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 445)
+#. original lines: 1, widths px: 67
+#: 0x0a420a9
+msgctxt "table:moves/445"
+msgid "table:moves/445"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 446)
+#. original lines: 1, widths px: 60
+#: 0x0a420b6
+msgctxt "table:moves/446"
+msgid "table:moves/446"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 447)
+#. original lines: 1, widths px: 65
+#: 0x0a420c3
+msgctxt "table:moves/447"
+msgid "table:moves/447"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 448)
+#. original lines: 1, widths px: 57
+#: 0x0a420d0
+msgctxt "table:moves/448"
+msgid "table:moves/448"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 449)
+#. original lines: 1, widths px: 67
+#: 0x0a420dd
+msgctxt "table:moves/449"
+msgid "table:moves/449"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 450)
+#. original lines: 1, widths px: 45
+#: 0x0a420ea
+msgctxt "table:moves/450"
+msgid "table:moves/450"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 451)
+#. original lines: 1, widths px: 28
+#: 0x0a420f7
+msgctxt "table:moves/451"
+msgid "table:moves/451"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 452)
+#. original lines: 1, widths px: 63
+#: 0x0a42104
+msgctxt "table:moves/452"
+msgid "table:moves/452"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 453)
+#. original lines: 1, widths px: 65
+#: 0x0a42111
+msgctxt "table:moves/453"
+msgid "table:moves/453"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 454)
+#. original lines: 1, widths px: 70
+#: 0x0a4211e
+msgctxt "table:moves/454"
+msgid "table:moves/454"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 455)
+#. original lines: 1, widths px: 63
+#: 0x0a4212b
+msgctxt "table:moves/455"
+msgid "table:moves/455"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 456)
+#. original lines: 1, widths px: 41
+#: 0x0a42138
+msgctxt "table:moves/456"
+msgid "table:moves/456"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 457)
+#. original lines: 1, widths px: 62
+#: 0x0a42145
+msgctxt "table:moves/457"
+msgid "table:moves/457"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 458)
+#. original lines: 1, widths px: 69
+#: 0x0a42152
+msgctxt "table:moves/458"
+msgid "table:moves/458"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 459)
+#. original lines: 1, widths px: 29
+#: 0x0a4215f
+msgctxt "table:moves/459"
+msgid "table:moves/459"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 460)
+#. original lines: 1, widths px: 26
+#: 0x0a4216c
+msgctxt "table:moves/460"
+msgid "table:moves/460"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 461)
+#. original lines: 1, widths px: 54
+#: 0x0a42179
+msgctxt "table:moves/461"
+msgid "table:moves/461"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 462)
+#. original lines: 1, widths px: 51
+#: 0x0a42186
+msgctxt "table:moves/462"
+msgid "table:moves/462"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 463)
+#. original lines: 1, widths px: 59
+#: 0x0a42193
+msgctxt "table:moves/463"
+msgid "table:moves/463"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 464)
+#. original lines: 1, widths px: 50
+#: 0x0a421a0
+msgctxt "table:moves/464"
+msgid "table:moves/464"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 465)
+#. original lines: 1, widths px: 52
+#: 0x0a421ad
+msgctxt "table:moves/465"
+msgid "table:moves/465"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 466)
+#. original lines: 1, widths px: 70
+#: 0x0a421ba
+msgctxt "table:moves/466"
+msgid "table:moves/466"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 467)
+#. original lines: 1, widths px: 55
+#: 0x0a421c7
+msgctxt "table:moves/467"
+msgid "table:moves/467"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 468)
+#. original lines: 1, widths px: 68
+#: 0x0a421d4
+msgctxt "table:moves/468"
+msgid "table:moves/468"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 469)
+#. original lines: 1, widths px: 66
+#: 0x0a421e1
+msgctxt "table:moves/469"
+msgid "table:moves/469"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 470)
+#. original lines: 1, widths px: 65
+#: 0x0a421ee
+msgctxt "table:moves/470"
+msgid "table:moves/470"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 471)
+#. original lines: 1, widths px: 63
+#: 0x0a421fb
+msgctxt "table:moves/471"
+msgid "table:moves/471"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 472)
+#. original lines: 1, widths px: 42
+#: 0x0a42208
+msgctxt "table:moves/472"
+msgid "table:moves/472"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 473)
+#. original lines: 1, widths px: 51
+#: 0x0a42215
+msgctxt "table:moves/473"
+msgid "table:moves/473"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 474)
+#. original lines: 1, widths px: 54
+#: 0x0a42222
+msgctxt "table:moves/474"
+msgid "table:moves/474"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 475)
+#. original lines: 1, widths px: 58
+#: 0x0a4222f
+msgctxt "table:moves/475"
+msgid "table:moves/475"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 476)
+#. original lines: 1, widths px: 61
+#: 0x0a4223c
+msgctxt "table:moves/476"
+msgid "table:moves/476"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 477)
+#. original lines: 1, widths px: 47
+#: 0x0a42249
+msgctxt "table:moves/477"
+msgid "table:moves/477"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 478)
+#. original lines: 1, widths px: 69
+#: 0x0a42256
+msgctxt "table:moves/478"
+msgid "table:moves/478"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 479)
+#. original lines: 1, widths px: 53
+#: 0x0a42263
+msgctxt "table:moves/479"
+msgid "table:moves/479"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 480)
+#. original lines: 1, widths px: 55
+#: 0x0a42270
+msgctxt "table:moves/480"
+msgid "table:moves/480"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 481)
+#. original lines: 1, widths px: 56
+#: 0x0a4227d
+msgctxt "table:moves/481"
+msgid "table:moves/481"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 482)
+#. original lines: 1, widths px: 69
+#: 0x0a4228a
+msgctxt "table:moves/482"
+msgid "table:moves/482"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 483)
+#. original lines: 1, widths px: 62
+#: 0x0a42297
+msgctxt "table:moves/483"
+msgid "table:moves/483"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 484)
+#. original lines: 1, widths px: 54
+#: 0x0a422a4
+msgctxt "table:moves/484"
+msgid "table:moves/484"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 485)
+#. original lines: 1, widths px: 50
+#: 0x0a422b1
+msgctxt "table:moves/485"
+msgid "table:moves/485"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 486)
+#. original lines: 1, widths px: 63
+#: 0x0a422be
+msgctxt "table:moves/486"
+msgid "table:moves/486"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 487)
+#. original lines: 1, widths px: 50
+#: 0x0a422cb
+msgctxt "table:moves/487"
+msgid "table:moves/487"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 488)
+#. original lines: 1, widths px: 26
+#: 0x0a422d8
+msgctxt "table:moves/488"
+msgid "table:moves/488"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 489)
+#. original lines: 1, widths px: 69
+#: 0x0a422e5
+msgctxt "table:moves/489"
+msgid "table:moves/489"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 490)
+#. original lines: 1, widths px: 62
+#: 0x0a422f2
+msgctxt "table:moves/490"
+msgid "table:moves/490"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 491)
+#. original lines: 1, widths px: 51
+#: 0x0a422ff
+msgctxt "table:moves/491"
+msgid "table:moves/491"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 492)
+#. original lines: 1, widths px: 68
+#: 0x0a4230c
+msgctxt "table:moves/492"
+msgid "table:moves/492"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 493)
+#. original lines: 1, widths px: 68
+#: 0x0a42319
+msgctxt "table:moves/493"
+msgid "table:moves/493"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 494)
+#. original lines: 1, widths px: 64
+#: 0x0a42326
+msgctxt "table:moves/494"
+msgid "table:moves/494"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 495)
+#. original lines: 1, widths px: 65
+#: 0x0a42333
+msgctxt "table:moves/495"
+msgid "table:moves/495"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 496)
+#. original lines: 1, widths px: 71
+#: 0x0a42340
+msgctxt "table:moves/496"
+msgid "table:moves/496"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 497)
+#. original lines: 1, widths px: 35
+#: 0x0a4234d
+msgctxt "table:moves/497"
+msgid "table:moves/497"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 498)
+#. original lines: 1, widths px: 49
+#: 0x0a4235a
+msgctxt "table:moves/498"
+msgid "table:moves/498"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 499)
+#. original lines: 1, widths px: 57
+#: 0x0a42367
+msgctxt "table:moves/499"
+msgid "table:moves/499"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 500)
+#. original lines: 1, widths px: 46
+#: 0x0a42374
+msgctxt "table:moves/500"
+msgid "table:moves/500"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 501)
+#. original lines: 1, widths px: 58
+#: 0x0a42381
+msgctxt "table:moves/501"
+msgid "table:moves/501"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 502)
+#. original lines: 1, widths px: 45
+#: 0x0a4238e
+msgctxt "table:moves/502"
+msgid "table:moves/502"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 503)
+#. original lines: 1, widths px: 29
+#: 0x0a4239b
+msgctxt "table:moves/503"
+msgid "table:moves/503"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 504)
+#. original lines: 1, widths px: 50
+#: 0x0a423a8
+msgctxt "table:moves/504"
+msgid "table:moves/504"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 505)
+#. original lines: 1, widths px: 55
+#: 0x0a423b5
+msgctxt "table:moves/505"
+msgid "table:moves/505"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 506)
+#. original lines: 1, widths px: 65
+#: 0x0a423c2
+msgctxt "table:moves/506"
+msgid "table:moves/506"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 507)
+#. original lines: 1, widths px: 52
+#: 0x0a423cf
+msgctxt "table:moves/507"
+msgid "table:moves/507"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 508)
+#. original lines: 1, widths px: 58
+#: 0x0a423dc
+msgctxt "table:moves/508"
+msgid "table:moves/508"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 509)
+#. original lines: 1, widths px: 59
+#: 0x0a423e9
+msgctxt "table:moves/509"
+msgid "table:moves/509"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 510)
+#. original lines: 1, widths px: 51
+#: 0x0a423f6
+msgctxt "table:moves/510"
+msgid "table:moves/510"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 511)
+#. original lines: 1, widths px: 59
+#: 0x0a42403
+msgctxt "table:moves/511"
+msgid "table:moves/511"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 512)
+#. original lines: 1, widths px: 67
+#: 0x0a42410
+msgctxt "table:moves/512"
+msgid "table:moves/512"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 513)
+#. original lines: 1, widths px: 68
+#: 0x0a4241d
+msgctxt "table:moves/513"
+msgid "table:moves/513"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 514)
+#. original lines: 1, widths px: 57
+#: 0x0a4242a
+msgctxt "table:moves/514"
+msgid "table:moves/514"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 515)
+#. original lines: 1, widths px: 50
+#: 0x0a42437
+msgctxt "table:moves/515"
+msgid "table:moves/515"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 516)
+#. original lines: 1, widths px: 29
+#: 0x0a42444
+msgctxt "table:moves/516"
+msgid "table:moves/516"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 517)
+#. original lines: 1, widths px: 64
+#: 0x0a42451
+msgctxt "table:moves/517"
+msgid "table:moves/517"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 518)
+#. original lines: 1, widths px: 65
+#: 0x0a4245e
+msgctxt "table:moves/518"
+msgid "table:moves/518"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 519)
+#. original lines: 1, widths px: 59
+#: 0x0a4246b
+msgctxt "table:moves/519"
+msgid "table:moves/519"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 520)
+#. original lines: 1, widths px: 59
+#: 0x0a42478
+msgctxt "table:moves/520"
+msgid "table:moves/520"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 521)
+#. original lines: 1, widths px: 61
+#: 0x0a42485
+msgctxt "table:moves/521"
+msgid "table:moves/521"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 522)
+#. original lines: 1, widths px: 43
+#: 0x0a42492
+msgctxt "table:moves/522"
+msgid "table:moves/522"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 523)
+#. original lines: 1, widths px: 59
+#: 0x0a4249f
+msgctxt "table:moves/523"
+msgid "table:moves/523"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 524)
+#. original lines: 1, widths px: 61
+#: 0x0a424ac
+msgctxt "table:moves/524"
+msgid "table:moves/524"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 525)
+#. original lines: 1, widths px: 67
+#: 0x0a424b9
+msgctxt "table:moves/525"
+msgid "table:moves/525"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 526)
+#. original lines: 1, widths px: 49
+#: 0x0a424c6
+msgctxt "table:moves/526"
+msgid "table:moves/526"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 527)
+#. original lines: 1, widths px: 65
+#: 0x0a424d3
+msgctxt "table:moves/527"
+msgid "table:moves/527"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 528)
+#. original lines: 1, widths px: 47
+#: 0x0a424e0
+msgctxt "table:moves/528"
+msgid "table:moves/528"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 529)
+#. original lines: 1, widths px: 56
+#: 0x0a424ed
+msgctxt "table:moves/529"
+msgid "table:moves/529"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 530)
+#. original lines: 1, widths px: 67
+#: 0x0a424fa
+msgctxt "table:moves/530"
+msgid "table:moves/530"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 531)
+#. original lines: 1, widths px: 65
+#: 0x0a42507
+msgctxt "table:moves/531"
+msgid "table:moves/531"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 532)
+#. original lines: 1, widths px: 59
+#: 0x0a42514
+msgctxt "table:moves/532"
+msgid "table:moves/532"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 533)
+#. original lines: 1, widths px: 66
+#: 0x0a42521
+msgctxt "table:moves/533"
+msgid "table:moves/533"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 534)
+#. original lines: 1, widths px: 67
+#: 0x0a4252e
+msgctxt "table:moves/534"
+msgid "table:moves/534"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 535)
+#. original lines: 1, widths px: 52
+#: 0x0a4253b
+msgctxt "table:moves/535"
+msgid "table:moves/535"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 536)
+#. original lines: 1, widths px: 58
+#: 0x0a42548
+msgctxt "table:moves/536"
+msgid "table:moves/536"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 537)
+#. original lines: 1, widths px: 57
+#: 0x0a42555
+msgctxt "table:moves/537"
+msgid "table:moves/537"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 538)
+#. original lines: 1, widths px: 70
+#: 0x0a42562
+msgctxt "table:moves/538"
+msgid "table:moves/538"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 539)
+#. original lines: 1, widths px: 65
+#: 0x0a4256f
+msgctxt "table:moves/539"
+msgid "table:moves/539"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 540)
+#. original lines: 1, widths px: 63
+#: 0x0a4257c
+msgctxt "table:moves/540"
+msgid "table:moves/540"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 541)
+#. original lines: 1, widths px: 58
+#: 0x0a42589
+msgctxt "table:moves/541"
+msgid "table:moves/541"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 542)
+#. original lines: 1, widths px: 55
+#: 0x0a42596
+msgctxt "table:moves/542"
+msgid "table:moves/542"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 543)
+#. original lines: 1, widths px: 70
+#: 0x0a425a3
+msgctxt "table:moves/543"
+msgid "table:moves/543"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 544)
+#. original lines: 1, widths px: 57
+#: 0x0a425b0
+msgctxt "table:moves/544"
+msgid "table:moves/544"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 545)
+#. original lines: 1, widths px: 65
+#: 0x0a425bd
+msgctxt "table:moves/545"
+msgid "table:moves/545"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 546)
+#. original lines: 1, widths px: 68
+#: 0x0a425ca
+msgctxt "table:moves/546"
+msgid "table:moves/546"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 547)
+#. original lines: 1, widths px: 56
+#: 0x0a425d7
+msgctxt "table:moves/547"
+msgid "table:moves/547"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 548)
+#. original lines: 1, widths px: 69
+#: 0x0a425e4
+msgctxt "table:moves/548"
+msgid "table:moves/548"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 549)
+#. original lines: 1, widths px: 44
+#: 0x0a425f1
+msgctxt "table:moves/549"
+msgid "table:moves/549"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 550)
+#. original lines: 1, widths px: 59
+#: 0x0a425fe
+msgctxt "table:moves/550"
+msgid "table:moves/550"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 551)
+#. original lines: 1, widths px: 57
+#: 0x0a4260b
+msgctxt "table:moves/551"
+msgid "table:moves/551"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 552)
+#. original lines: 1, widths px: 70
+#: 0x0a42618
+msgctxt "table:moves/552"
+msgid "table:moves/552"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 553)
+#. original lines: 1, widths px: 46
+#: 0x0a42625
+msgctxt "table:moves/553"
+msgid "table:moves/553"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 554)
+#. original lines: 1, widths px: 46
+#: 0x0a42632
+msgctxt "table:moves/554"
+msgid "table:moves/554"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 555)
+#. original lines: 1, widths px: 66
+#: 0x0a4263f
+msgctxt "table:moves/555"
+msgid "table:moves/555"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 556)
+#. original lines: 1, widths px: 60
+#: 0x0a4264c
+msgctxt "table:moves/556"
+msgid "table:moves/556"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 557)
+#. original lines: 1, widths px: 65
+#: 0x0a42659
+msgctxt "table:moves/557"
+msgid "table:moves/557"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 558)
+#. original lines: 1, widths px: 58
+#: 0x0a42666
+msgctxt "table:moves/558"
+msgid "table:moves/558"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 559)
+#. original lines: 1, widths px: 67
+#: 0x0a42673
+msgctxt "table:moves/559"
+msgid "table:moves/559"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 560)
+#. original lines: 1, widths px: 66
+#: 0x0a42680
+msgctxt "table:moves/560"
+msgid "table:moves/560"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 561)
+#. original lines: 1, widths px: 64
+#: 0x0a4268d
+msgctxt "table:moves/561"
+msgid "table:moves/561"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 562)
+#. original lines: 1, widths px: 68
+#: 0x0a4269a
+msgctxt "table:moves/562"
+msgid "table:moves/562"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 563)
+#. original lines: 1, widths px: 39
+#: 0x0a426a7
+msgctxt "table:moves/563"
+msgid "table:moves/563"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 564)
+#. original lines: 1, widths px: 38
+#: 0x0a426b4
+msgctxt "table:moves/564"
+msgid "table:moves/564"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 565)
+#. original lines: 1, widths px: 56
+#: 0x0a426c1
+msgctxt "table:moves/565"
+msgid "table:moves/565"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 566)
+#. original lines: 1, widths px: 59
+#: 0x0a426ce
+msgctxt "table:moves/566"
+msgid "table:moves/566"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 567)
+#. original lines: 1, widths px: 66
+#: 0x0a426db
+msgctxt "table:moves/567"
+msgid "table:moves/567"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 568)
+#. original lines: 1, widths px: 67
+#: 0x0a426e8
+msgctxt "table:moves/568"
+msgid "table:moves/568"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 569)
+#. original lines: 1, widths px: 52
+#: 0x0a426f5
+msgctxt "table:moves/569"
+msgid "table:moves/569"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 570)
+#. original lines: 1, widths px: 58
+#: 0x0a42702
+msgctxt "table:moves/570"
+msgid "table:moves/570"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 571)
+#. original lines: 1, widths px: 68
+#: 0x0a4270f
+msgctxt "table:moves/571"
+msgid "table:moves/571"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 572)
+#. original lines: 1, widths px: 63
+#: 0x0a4271c
+msgctxt "table:moves/572"
+msgid "table:moves/572"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 573)
+#. original lines: 1, widths px: 59
+#: 0x0a42729
+msgctxt "table:moves/573"
+msgid "table:moves/573"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 574)
+#. original lines: 1, widths px: 64
+#: 0x0a42736
+msgctxt "table:moves/574"
+msgid "table:moves/574"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 575)
+#. original lines: 1, widths px: 67
+#: 0x0a42743
+msgctxt "table:moves/575"
+msgid "table:moves/575"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 576)
+#. original lines: 1, widths px: 58
+#: 0x0a42750
+msgctxt "table:moves/576"
+msgid "table:moves/576"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 577)
+#. original lines: 1, widths px: 57
+#: 0x0a4275d
+msgctxt "table:moves/577"
+msgid "table:moves/577"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 578)
+#. original lines: 1, widths px: 63
+#: 0x0a4276a
+msgctxt "table:moves/578"
+msgid "table:moves/578"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 579)
+#. original lines: 1, widths px: 61
+#: 0x0a42777
+msgctxt "table:moves/579"
+msgid "table:moves/579"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 580)
+#. original lines: 1, widths px: 67
+#: 0x0a42784
+msgctxt "table:moves/580"
+msgid "table:moves/580"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 581)
+#. original lines: 1, widths px: 56
+#: 0x0a42791
+msgctxt "table:moves/581"
+msgid "table:moves/581"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 582)
+#. original lines: 1, widths px: 66
+#: 0x0a4279e
+msgctxt "table:moves/582"
+msgid "table:moves/582"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 583)
+#. original lines: 1, widths px: 40
+#: 0x0a427ab
+msgctxt "table:moves/583"
+msgid "table:moves/583"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 584)
+#. original lines: 1, widths px: 68
+#: 0x0a427b8
+msgctxt "table:moves/584"
+msgid "table:moves/584"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 585)
+#. original lines: 1, widths px: 60
+#: 0x0a427c5
+msgctxt "table:moves/585"
+msgid "table:moves/585"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 586)
+#. original lines: 1, widths px: 70
+#: 0x0a427d2
+msgctxt "table:moves/586"
+msgid "table:moves/586"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 587)
+#. original lines: 1, widths px: 50
+#: 0x0a427df
+msgctxt "table:moves/587"
+msgid "table:moves/587"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 588)
+#. original lines: 1, widths px: 58
+#: 0x0a427ec
+msgctxt "table:moves/588"
+msgid "table:moves/588"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 589)
+#. original lines: 1, widths px: 67
+#: 0x0a427f9
+msgctxt "table:moves/589"
+msgid "table:moves/589"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 590)
+#. original lines: 1, widths px: 62
+#: 0x0a42806
+msgctxt "table:moves/590"
+msgid "table:moves/590"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 591)
+#. original lines: 1, widths px: 41
+#: 0x0a42813
+msgctxt "table:moves/591"
+msgid "table:moves/591"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 592)
+#. original lines: 1, widths px: 67
+#: 0x0a42820
+msgctxt "table:moves/592"
+msgid "table:moves/592"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 593)
+#. original lines: 1, widths px: 59
+#: 0x0a4282d
+msgctxt "table:moves/593"
+msgid "table:moves/593"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 594)
+#. original lines: 1, widths px: 63
+#: 0x0a4283a
+msgctxt "table:moves/594"
+msgid "table:moves/594"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 595)
+#. original lines: 1, widths px: 41
+#: 0x0a42847
+msgctxt "table:moves/595"
+msgid "table:moves/595"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 596)
+#. original lines: 1, widths px: 58
+#: 0x0a42854
+msgctxt "table:moves/596"
+msgid "table:moves/596"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 597)
+#. original lines: 1, widths px: 29
+#: 0x0a42861
+msgctxt "table:moves/597"
+msgid "table:moves/597"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 598)
+#. original lines: 1, widths px: 56
+#: 0x0a4286e
+msgctxt "table:moves/598"
+msgid "table:moves/598"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 599)
+#. original lines: 1, widths px: 65
+#: 0x0a4287b
+msgctxt "table:moves/599"
+msgid "table:moves/599"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 600)
+#. original lines: 1, widths px: 66
+#: 0x0a42888
+msgctxt "table:moves/600"
+msgid "table:moves/600"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 601)
+#. original lines: 1, widths px: 61
+#: 0x0a42895
+msgctxt "table:moves/601"
+msgid "table:moves/601"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 602)
+#. original lines: 1, widths px: 56
+#: 0x0a428a2
+msgctxt "table:moves/602"
+msgid "table:moves/602"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 603)
+#. original lines: 1, widths px: 60
+#: 0x0a428af
+msgctxt "table:moves/603"
+msgid "table:moves/603"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 604)
+#. original lines: 1, widths px: 68
+#: 0x0a428bc
+msgctxt "table:moves/604"
+msgid "table:moves/604"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 605)
+#. original lines: 1, widths px: 32
+#: 0x0a428c9
+msgctxt "table:moves/605"
+msgid "table:moves/605"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 606)
+#. original lines: 1, widths px: 64
+#: 0x0a428d6
+msgctxt "table:moves/606"
+msgid "table:moves/606"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 607)
+#. original lines: 1, widths px: 65
+#: 0x0a428e3
+msgctxt "table:moves/607"
+msgid "table:moves/607"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 608)
+#. original lines: 1, widths px: 57
+#: 0x0a428f0
+msgctxt "table:moves/608"
+msgid "table:moves/608"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 609)
+#. original lines: 1, widths px: 47
+#: 0x0a428fd
+msgctxt "table:moves/609"
+msgid "table:moves/609"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 610)
+#. original lines: 1, widths px: 65
+#: 0x0a4290a
+msgctxt "table:moves/610"
+msgid "table:moves/610"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 611)
+#. original lines: 1, widths px: 63
+#: 0x0a42917
+msgctxt "table:moves/611"
+msgid "table:moves/611"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 612)
+#. original lines: 1, widths px: 66
+#: 0x0a42924
+msgctxt "table:moves/612"
+msgid "table:moves/612"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 613)
+#. original lines: 1, widths px: 62
+#: 0x0a42931
+msgctxt "table:moves/613"
+msgid "table:moves/613"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 614)
+#. original lines: 1, widths px: 60
+#: 0x0a4293e
+msgctxt "table:moves/614"
+msgid "table:moves/614"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 615)
+#. original lines: 1, widths px: 59
+#: 0x0a4294b
+msgctxt "table:moves/615"
+msgid "table:moves/615"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 616)
+#. original lines: 1, widths px: 49
+#: 0x0a42958
+msgctxt "table:moves/616"
+msgid "table:moves/616"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 617)
+#. original lines: 1, widths px: 63
+#: 0x0a42965
+msgctxt "table:moves/617"
+msgid "table:moves/617"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 618)
+#. original lines: 1, widths px: 68
+#: 0x0a42972
+msgctxt "table:moves/618"
+msgid "table:moves/618"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 619)
+#. original lines: 1, widths px: 68
+#: 0x0a4297f
+msgctxt "table:moves/619"
+msgid "table:moves/619"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 620)
+#. original lines: 1, widths px: 58
+#: 0x0a4298c
+msgctxt "table:moves/620"
+msgid "table:moves/620"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 621)
+#. original lines: 1, widths px: 64
+#: 0x0a42999
+msgctxt "table:moves/621"
+msgid "table:moves/621"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 622)
+#. original lines: 1, widths px: 69
+#: 0x0a429a6
+msgctxt "table:moves/622"
+msgid "table:moves/622"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 623)
+#. original lines: 1, widths px: 50
+#: 0x0a429b3
+msgctxt "table:moves/623"
+msgid "table:moves/623"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 624)
+#. original lines: 1, widths px: 45
+#: 0x0a429c0
+msgctxt "table:moves/624"
+msgid "table:moves/624"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 625)
+#. original lines: 1, widths px: 66
+#: 0x0a429cd
+msgctxt "table:moves/625"
+msgid "table:moves/625"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 626)
+#. original lines: 1, widths px: 64
+#: 0x0a429da
+msgctxt "table:moves/626"
+msgid "table:moves/626"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 627)
+#. original lines: 1, widths px: 63
+#: 0x0a429e7
+msgctxt "table:moves/627"
+msgid "table:moves/627"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 628)
+#. original lines: 1, widths px: 66
+#: 0x0a429f4
+msgctxt "table:moves/628"
+msgid "table:moves/628"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 629)
+#. original lines: 1, widths px: 68
+#: 0x0a42a01
+msgctxt "table:moves/629"
+msgid "table:moves/629"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 630)
+#. original lines: 1, widths px: 62
+#: 0x0a42a0e
+msgctxt "table:moves/630"
+msgid "table:moves/630"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 631)
+#. original lines: 1, widths px: 69
+#: 0x0a42a1b
+msgctxt "table:moves/631"
+msgid "table:moves/631"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 632)
+#. original lines: 1, widths px: 56
+#: 0x0a42a28
+msgctxt "table:moves/632"
+msgid "table:moves/632"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 633)
+#. original lines: 1, widths px: 58
+#: 0x0a42a35
+msgctxt "table:moves/633"
+msgid "table:moves/633"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 634)
+#. original lines: 1, widths px: 64
+#: 0x0a42a42
+msgctxt "table:moves/634"
+msgid "table:moves/634"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 635)
+#. original lines: 1, widths px: 68
+#: 0x0a42a4f
+msgctxt "table:moves/635"
+msgid "table:moves/635"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 636)
+#. original lines: 1, widths px: 51
+#: 0x0a42a5c
+msgctxt "table:moves/636"
+msgid "table:moves/636"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 637)
+#. original lines: 1, widths px: 62
+#: 0x0a42a69
+msgctxt "table:moves/637"
+msgid "table:moves/637"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 638)
+#. original lines: 1, widths px: 57
+#: 0x0a42a76
+msgctxt "table:moves/638"
+msgid "table:moves/638"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 639)
+#. original lines: 1, widths px: 51
+#: 0x0a42a83
+msgctxt "table:moves/639"
+msgid "table:moves/639"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 640)
+#. original lines: 1, widths px: 55
+#: 0x0a42a90
+msgctxt "table:moves/640"
+msgid "table:moves/640"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 641)
+#. original lines: 1, widths px: 29
+#: 0x0a42a9d
+msgctxt "table:moves/641"
+msgid "table:moves/641"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 642)
+#. original lines: 1, widths px: 34
+#: 0x0a42aaa
+msgctxt "table:moves/642"
+msgid "table:moves/642"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 643)
+#. original lines: 1, widths px: 26
+#: 0x0a42ab7
+msgctxt "table:moves/643"
+msgid "table:moves/643"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 644)
+#. original lines: 1, widths px: 65
+#: 0x0a42ac4
+msgctxt "table:moves/644"
+msgid "table:moves/644"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 645)
+#. original lines: 1, widths px: 38
+#: 0x0a42ad1
+msgctxt "table:moves/645"
+msgid "table:moves/645"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 646)
+#. original lines: 1, widths px: 61
+#: 0x0a42ade
+msgctxt "table:moves/646"
+msgid "table:moves/646"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 647)
+#. original lines: 1, widths px: 57
+#: 0x0a42aeb
+msgctxt "table:moves/647"
+msgid "table:moves/647"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 648)
+#. original lines: 1, widths px: 58
+#: 0x0a42af8
+msgctxt "table:moves/648"
+msgid "table:moves/648"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 649)
+#. original lines: 1, widths px: 63
+#: 0x0a42b05
+msgctxt "table:moves/649"
+msgid "table:moves/649"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 650)
+#. original lines: 1, widths px: 61
+#: 0x0a42b12
+msgctxt "table:moves/650"
+msgid "table:moves/650"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 651)
+#. original lines: 1, widths px: 63
+#: 0x0a42b1f
+msgctxt "table:moves/651"
+msgid "table:moves/651"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 652)
+#. original lines: 1, widths px: 35
+#: 0x0a42b2c
+msgctxt "table:moves/652"
+msgid "table:moves/652"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 653)
+#. original lines: 1, widths px: 61
+#: 0x0a42b39
+msgctxt "table:moves/653"
+msgid "table:moves/653"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 654)
+#. original lines: 1, widths px: 69
+#: 0x0a42b46
+msgctxt "table:moves/654"
+msgid "table:moves/654"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 655)
+#. original lines: 1, widths px: 63
+#: 0x0a42b53
+msgctxt "table:moves/655"
+msgid "table:moves/655"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 656)
+#. original lines: 1, widths px: 23
+#: 0x0a42b60
+msgctxt "table:moves/656"
+msgid "table:moves/656"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 657)
+#. original lines: 1, widths px: 57
+#: 0x0a42b6d
+msgctxt "table:moves/657"
+msgid "table:moves/657"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 658)
+#. original lines: 1, widths px: 60
+#: 0x0a42b7a
+msgctxt "table:moves/658"
+msgid "table:moves/658"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 659)
+#. original lines: 1, widths px: 69
+#: 0x0a42b87
+msgctxt "table:moves/659"
+msgid "table:moves/659"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 660)
+#. original lines: 1, widths px: 63
+#: 0x0a42b94
+msgctxt "table:moves/660"
+msgid "table:moves/660"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 661)
+#. original lines: 1, widths px: 55
+#: 0x0a42ba1
+msgctxt "table:moves/661"
+msgid "table:moves/661"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 662)
+#. original lines: 1, widths px: 68
+#: 0x0a42bae
+msgctxt "table:moves/662"
+msgid "table:moves/662"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 663)
+#. original lines: 1, widths px: 65
+#: 0x0a42bbb
+msgctxt "table:moves/663"
+msgid "table:moves/663"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 664)
+#. original lines: 1, widths px: 48
+#: 0x0a42bc8
+msgctxt "table:moves/664"
+msgid "table:moves/664"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 665)
+#. original lines: 1, widths px: 41
+#: 0x0a42bd5
+msgctxt "table:moves/665"
+msgid "table:moves/665"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 666)
+#. original lines: 1, widths px: 56
+#: 0x0a42be2
+msgctxt "table:moves/666"
+msgid "table:moves/666"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 667)
+#. original lines: 1, widths px: 66
+#: 0x0a42bef
+msgctxt "table:moves/667"
+msgid "table:moves/667"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 668)
+#. original lines: 1, widths px: 58
+#: 0x0a42bfc
+msgctxt "table:moves/668"
+msgid "table:moves/668"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 669)
+#. original lines: 1, widths px: 51
+#: 0x0a42c09
+msgctxt "table:moves/669"
+msgid "table:moves/669"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 670)
+#. original lines: 1, widths px: 43
+#: 0x0a42c16
+msgctxt "table:moves/670"
+msgid "table:moves/670"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 671)
+#. original lines: 1, widths px: 29
+#: 0x0a42c23
+msgctxt "table:moves/671"
+msgid "table:moves/671"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 672)
+#. original lines: 1, widths px: 59
+#: 0x0a42c30
+msgctxt "table:moves/672"
+msgid "table:moves/672"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 673)
+#. original lines: 1, widths px: 63
+#: 0x0a42c3d
+msgctxt "table:moves/673"
+msgid "table:moves/673"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 674)
+#. original lines: 1, widths px: 61
+#: 0x0a42c4a
+msgctxt "table:moves/674"
+msgid "table:moves/674"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 675)
+#. original lines: 1, widths px: 46
+#: 0x0a42c57
+msgctxt "table:moves/675"
+msgid "table:moves/675"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 676)
+#. original lines: 1, widths px: 51
+#: 0x0a42c64
+msgctxt "table:moves/676"
+msgid "table:moves/676"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 677)
+#. original lines: 1, widths px: 57
+#: 0x0a42c71
+msgctxt "table:moves/677"
+msgid "table:moves/677"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 678)
+#. original lines: 1, widths px: 63
+#: 0x0a42c7e
+msgctxt "table:moves/678"
+msgid "table:moves/678"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 679)
+#. original lines: 1, widths px: 56
+#: 0x0a42c8b
+msgctxt "table:moves/679"
+msgid "table:moves/679"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 680)
+#. original lines: 1, widths px: 47
+#: 0x0a42c98
+msgctxt "table:moves/680"
+msgid "table:moves/680"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 681)
+#. original lines: 1, widths px: 67
+#: 0x0a42ca5
+msgctxt "table:moves/681"
+msgid "table:moves/681"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 682)
+#. original lines: 1, widths px: 57
+#: 0x0a42cb2
+msgctxt "table:moves/682"
+msgid "table:moves/682"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 683)
+#. original lines: 1, widths px: 46
+#: 0x0a42cbf
+msgctxt "table:moves/683"
+msgid "table:moves/683"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 684)
+#. original lines: 1, widths px: 69
+#: 0x0a42ccc
+msgctxt "table:moves/684"
+msgid "table:moves/684"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 685)
+#. original lines: 1, widths px: 67
+#: 0x0a42cd9
+msgctxt "table:moves/685"
+msgid "table:moves/685"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 686)
+#. original lines: 1, widths px: 39
+#: 0x0a42ce6
+msgctxt "table:moves/686"
+msgid "table:moves/686"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 687)
+#. original lines: 1, widths px: 45
+#: 0x0a42cf3
+msgctxt "table:moves/687"
+msgid "table:moves/687"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 688)
+#. original lines: 1, widths px: 51
+#: 0x0a42d00
+msgctxt "table:moves/688"
+msgid "table:moves/688"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 689)
+#. original lines: 1, widths px: 65
+#: 0x0a42d0d
+msgctxt "table:moves/689"
+msgid "table:moves/689"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 690)
+#. original lines: 1, widths px: 69
+#: 0x0a42d1a
+msgctxt "table:moves/690"
+msgid "table:moves/690"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 691)
+#. original lines: 1, widths px: 57
+#: 0x0a42d27
+msgctxt "table:moves/691"
+msgid "table:moves/691"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 692)
+#. original lines: 1, widths px: 57
+#: 0x0a42d34
+msgctxt "table:moves/692"
+msgid "table:moves/692"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 693)
+#. original lines: 1, widths px: 46
+#: 0x0a42d41
+msgctxt "table:moves/693"
+msgid "table:moves/693"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 694)
+#. original lines: 1, widths px: 67
+#: 0x0a42d4e
+msgctxt "table:moves/694"
+msgid "table:moves/694"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 695)
+#. original lines: 1, widths px: 52
+#: 0x0a42d5b
+msgctxt "table:moves/695"
+msgid "table:moves/695"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 696)
+#. original lines: 1, widths px: 51
+#: 0x0a42d68
+msgctxt "table:moves/696"
+msgid "table:moves/696"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 697)
+#. original lines: 1, widths px: 61
+#: 0x0a42d75
+msgctxt "table:moves/697"
+msgid "table:moves/697"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 698)
+#. original lines: 1, widths px: 55
+#: 0x0a42d82
+msgctxt "table:moves/698"
+msgid "table:moves/698"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 699)
+#. original lines: 1, widths px: 58
+#: 0x0a42d8f
+msgctxt "table:moves/699"
+msgid "table:moves/699"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 700)
+#. original lines: 1, widths px: 62
+#: 0x0a42d9c
+msgctxt "table:moves/700"
+msgid "table:moves/700"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 701)
+#. original lines: 1, widths px: 63
+#: 0x0a42da9
+msgctxt "table:moves/701"
+msgid "table:moves/701"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 702)
+#. original lines: 1, widths px: 50
+#: 0x0a42db6
+msgctxt "table:moves/702"
+msgid "table:moves/702"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 703)
+#. original lines: 1, widths px: 57
+#: 0x0a42dc3
+msgctxt "table:moves/703"
+msgid "table:moves/703"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 704)
+#. original lines: 1, widths px: 58
+#: 0x0a42dd0
+msgctxt "table:moves/704"
+msgid "table:moves/704"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 705)
+#. original lines: 1, widths px: 64
+#: 0x0a42ddd
+msgctxt "table:moves/705"
+msgid "table:moves/705"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 706)
+#. original lines: 1, widths px: 62
+#: 0x0a42dea
+msgctxt "table:moves/706"
+msgid "table:moves/706"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 707)
+#. original lines: 1, widths px: 45
+#: 0x0a42df7
+msgctxt "table:moves/707"
+msgid "table:moves/707"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 708)
+#. original lines: 1, widths px: 44
+#: 0x0a42e04
+msgctxt "table:moves/708"
+msgid "table:moves/708"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 709)
+#. original lines: 1, widths px: 61
+#: 0x0a42e11
+msgctxt "table:moves/709"
+msgid "table:moves/709"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 710)
+#. original lines: 1, widths px: 63
+#: 0x0a42e1e
+msgctxt "table:moves/710"
+msgid "table:moves/710"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 711)
+#. original lines: 1, widths px: 57
+#: 0x0a42e2b
+msgctxt "table:moves/711"
+msgid "table:moves/711"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 712)
+#. original lines: 1, widths px: 58
+#: 0x0a42e38
+msgctxt "table:moves/712"
+msgid "table:moves/712"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 713)
+#. original lines: 1, widths px: 70
+#: 0x0a42e45
+msgctxt "table:moves/713"
+msgid "table:moves/713"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 714)
+#. original lines: 1, widths px: 67
+#: 0x0a42e52
+msgctxt "table:moves/714"
+msgid "table:moves/714"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 715)
+#. original lines: 1, widths px: 58
+#: 0x0a42e5f
+msgctxt "table:moves/715"
+msgid "table:moves/715"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 716)
+#. original lines: 1, widths px: 64
+#: 0x0a42e6c
+msgctxt "table:moves/716"
+msgid "table:moves/716"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 717)
+#. original lines: 1, widths px: 67
+#: 0x0a42e79
+msgctxt "table:moves/717"
+msgid "table:moves/717"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 718)
+#. original lines: 1, widths px: 67
+#: 0x0a42e86
+msgctxt "table:moves/718"
+msgid "table:moves/718"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 719)
+#. original lines: 1, widths px: 66
+#: 0x0a42e93
+msgctxt "table:moves/719"
+msgid "table:moves/719"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 720)
+#. original lines: 1, widths px: 58
+#: 0x0a42ea0
+msgctxt "table:moves/720"
+msgid "table:moves/720"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 721)
+#. original lines: 1, widths px: 65
+#: 0x0a42ead
+msgctxt "table:moves/721"
+msgid "table:moves/721"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 722)
+#. original lines: 1, widths px: 65
+#: 0x0a42eba
+msgctxt "table:moves/722"
+msgid "table:moves/722"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 723)
+#. original lines: 1, widths px: 68
+#: 0x0a42ec7
+msgctxt "table:moves/723"
+msgid "table:moves/723"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 724)
+#. original lines: 1, widths px: 46
+#: 0x0a42ed4
+msgctxt "table:moves/724"
+msgid "table:moves/724"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 725)
+#. original lines: 1, widths px: 59
+#: 0x0a42ee1
+msgctxt "table:moves/725"
+msgid "table:moves/725"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 726)
+#. original lines: 1, widths px: 63
+#: 0x0a42eee
+msgctxt "table:moves/726"
+msgid "table:moves/726"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 727)
+#. original lines: 1, widths px: 45
+#: 0x0a42efb
+msgctxt "table:moves/727"
+msgid "table:moves/727"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 728)
+#. original lines: 1, widths px: 49
+#: 0x0a42f08
+msgctxt "table:moves/728"
+msgid "table:moves/728"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 729)
+#. original lines: 1, widths px: 61
+#: 0x0a42f15
+msgctxt "table:moves/729"
+msgid "table:moves/729"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 730)
+#. original lines: 1, widths px: 67
+#: 0x0a42f22
+msgctxt "table:moves/730"
+msgid "table:moves/730"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 731)
+#. original lines: 1, widths px: 69
+#: 0x0a42f2f
+msgctxt "table:moves/731"
+msgid "table:moves/731"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 732)
+#. original lines: 1, widths px: 63
+#: 0x0a42f3c
+msgctxt "table:moves/732"
+msgid "table:moves/732"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 733)
+#. original lines: 1, widths px: 62
+#: 0x0a42f49
+msgctxt "table:moves/733"
+msgid "table:moves/733"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 734)
+#. original lines: 1, widths px: 65
+#: 0x0a42f56
+msgctxt "table:moves/734"
+msgid "table:moves/734"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 735)
+#. original lines: 1, widths px: 69
+#: 0x0a42f63
+msgctxt "table:moves/735"
+msgid "table:moves/735"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 736)
+#. original lines: 1, widths px: 67
+#: 0x0a42f70
+msgctxt "table:moves/736"
+msgid "table:moves/736"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 737)
+#. original lines: 1, widths px: 61
+#: 0x0a42f7d
+msgctxt "table:moves/737"
+msgid "table:moves/737"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 738)
+#. original lines: 1, widths px: 61
+#: 0x0a42f8a
+msgctxt "table:moves/738"
+msgid "table:moves/738"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 739)
+#. original lines: 1, widths px: 70
+#: 0x0a42f97
+msgctxt "table:moves/739"
+msgid "table:moves/739"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 740)
+#. original lines: 1, widths px: 68
+#: 0x0a42fa4
+msgctxt "table:moves/740"
+msgid "table:moves/740"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 741)
+#. original lines: 1, widths px: 66
+#: 0x0a42fb1
+msgctxt "table:moves/741"
+msgid "table:moves/741"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 742)
+#. original lines: 1, widths px: 67
+#: 0x0a42fbe
+msgctxt "table:moves/742"
+msgid "table:moves/742"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 743)
+#. original lines: 1, widths px: 50
+#: 0x0a42fcb
+msgctxt "table:moves/743"
+msgid "table:moves/743"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 744)
+#. original lines: 1, widths px: 67
+#: 0x0a42fd8
+msgctxt "table:moves/744"
+msgid "table:moves/744"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 745)
+#. original lines: 1, widths px: 61
+#: 0x0a42fe5
+msgctxt "table:moves/745"
+msgid "table:moves/745"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 746)
+#. original lines: 1, widths px: 52
+#: 0x0a42ff2
+msgctxt "table:moves/746"
+msgid "table:moves/746"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 747)
+#. original lines: 1, widths px: 67
+#: 0x0a42fff
+msgctxt "table:moves/747"
+msgid "table:moves/747"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 748)
+#. original lines: 1, widths px: 62
+#: 0x0a4300c
+msgctxt "table:moves/748"
+msgid "table:moves/748"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 749)
+#. original lines: 1, widths px: 58
+#: 0x0a43019
+msgctxt "table:moves/749"
+msgid "table:moves/749"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 750)
+#. original lines: 1, widths px: 61
+#: 0x0a43026
+msgctxt "table:moves/750"
+msgid "table:moves/750"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 751)
+#. original lines: 1, widths px: 66
+#: 0x0a43033
+msgctxt "table:moves/751"
+msgid "table:moves/751"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 752)
+#. original lines: 1, widths px: 67
+#: 0x0a43040
+msgctxt "table:moves/752"
+msgid "table:moves/752"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 753)
+#. original lines: 1, widths px: 69
+#: 0x0a4304d
+msgctxt "table:moves/753"
+msgid "table:moves/753"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 754)
+#. original lines: 1, widths px: 69
+#: 0x0a4305a
+msgctxt "table:moves/754"
+msgid "table:moves/754"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 755)
+#. original lines: 1, widths px: 55
+#: 0x0a43067
+msgctxt "table:moves/755"
+msgid "table:moves/755"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 756)
+#. original lines: 1, widths px: 64
+#: 0x0a43074
+msgctxt "table:moves/756"
+msgid "table:moves/756"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 757)
+#. original lines: 1, widths px: 39
+#: 0x0a43081
+msgctxt "table:moves/757"
+msgid "table:moves/757"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 758)
+#. original lines: 1, widths px: 65
+#: 0x0a4308e
+msgctxt "table:moves/758"
+msgid "table:moves/758"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 759)
+#. original lines: 1, widths px: 67
+#: 0x0a4309b
+msgctxt "table:moves/759"
+msgid "table:moves/759"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 760)
+#. original lines: 1, widths px: 68
+#: 0x0a430a8
+msgctxt "table:moves/760"
+msgid "table:moves/760"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 761)
+#. original lines: 1, widths px: 65
+#: 0x0a430b5
+msgctxt "table:moves/761"
+msgid "table:moves/761"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 762)
+#. original lines: 1, widths px: 64
+#: 0x0a430c2
+msgctxt "table:moves/762"
+msgid "table:moves/762"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 763)
+#. original lines: 1, widths px: 66
+#: 0x0a430cf
+msgctxt "table:moves/763"
+msgid "table:moves/763"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 764)
+#. original lines: 1, widths px: 59
+#: 0x0a430dc
+msgctxt "table:moves/764"
+msgid "table:moves/764"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 765)
+#. original lines: 1, widths px: 61
+#: 0x0a430e9
+msgctxt "table:moves/765"
+msgid "table:moves/765"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 766)
+#. original lines: 1, widths px: 57
+#: 0x0a430f6
+msgctxt "table:moves/766"
+msgid "table:moves/766"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 767)
+#. original lines: 1, widths px: 48
+#: 0x0a43103
+msgctxt "table:moves/767"
+msgid "table:moves/767"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 768)
+#. original lines: 1, widths px: 48
+#: 0x0a43110
+msgctxt "table:moves/768"
+msgid "table:moves/768"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 769)
+#. original lines: 1, widths px: 48
+#: 0x0a4311d
+msgctxt "table:moves/769"
+msgid "table:moves/769"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 770)
+#. original lines: 1, widths px: 48
+#: 0x0a4312a
+msgctxt "table:moves/770"
+msgid "table:moves/770"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 771)
+#. original lines: 1, widths px: 48
+#: 0x0a43137
+msgctxt "table:moves/771"
+msgid "table:moves/771"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 772)
+#. original lines: 1, widths px: 48
+#: 0x0a43144
+msgctxt "table:moves/772"
+msgid "table:moves/772"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 773)
+#. original lines: 1, widths px: 48
+#: 0x0a43151
+msgctxt "table:moves/773"
+msgid "table:moves/773"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 774)
+#. original lines: 1, widths px: 48
+#: 0x0a4315e
+msgctxt "table:moves/774"
+msgid "table:moves/774"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 775)
+#. original lines: 1, widths px: 48
+#: 0x0a4316b
+msgctxt "table:moves/775"
+msgid "table:moves/775"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 776)
+#. original lines: 1, widths px: 54
+#: 0x0a43178
+msgctxt "table:moves/776"
+msgid "table:moves/776"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 777)
+#. original lines: 1, widths px: 54
+#: 0x0a43185
+msgctxt "table:moves/777"
+msgid "table:moves/777"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 778)
+#. original lines: 1, widths px: 54
+#: 0x0a43192
+msgctxt "table:moves/778"
+msgid "table:moves/778"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 779)
+#. original lines: 1, widths px: 54
+#: 0x0a4319f
+msgctxt "table:moves/779"
+msgid "table:moves/779"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 780)
+#. original lines: 1, widths px: 54
+#: 0x0a431ac
+msgctxt "table:moves/780"
+msgid "table:moves/780"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 781)
+#. original lines: 1, widths px: 54
+#: 0x0a431b9
+msgctxt "table:moves/781"
+msgid "table:moves/781"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 782)
+#. original lines: 1, widths px: 54
+#: 0x0a431c6
+msgctxt "table:moves/782"
+msgid "table:moves/782"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 783)
+#. original lines: 1, widths px: 54
+#: 0x0a431d3
+msgctxt "table:moves/783"
+msgid "table:moves/783"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 784)
+#. original lines: 1, widths px: 54
+#: 0x0a431e0
+msgctxt "table:moves/784"
+msgid "table:moves/784"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 785)
+#. original lines: 1, widths px: 54
+#: 0x0a431ed
+msgctxt "table:moves/785"
+msgid "table:moves/785"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 786)
+#. original lines: 1, widths px: 54
+#: 0x0a431fa
+msgctxt "table:moves/786"
+msgid "table:moves/786"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 787)
+#. original lines: 1, widths px: 54
+#: 0x0a43207
+msgctxt "table:moves/787"
+msgid "table:moves/787"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 788)
+#. original lines: 1, widths px: 54
+#: 0x0a43214
+msgctxt "table:moves/788"
+msgid "table:moves/788"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 789)
+#. original lines: 1, widths px: 54
+#: 0x0a43221
+msgctxt "table:moves/789"
+msgid "table:moves/789"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 790)
+#. original lines: 1, widths px: 54
+#: 0x0a4322e
+msgctxt "table:moves/790"
+msgid "table:moves/790"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 791)
+#. original lines: 1, widths px: 54
+#: 0x0a4323b
+msgctxt "table:moves/791"
+msgid "table:moves/791"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 792)
+#. original lines: 1, widths px: 54
+#: 0x0a43248
+msgctxt "table:moves/792"
+msgid "table:moves/792"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 793)
+#. original lines: 1, widths px: 54
+#: 0x0a43255
+msgctxt "table:moves/793"
+msgid "table:moves/793"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 794)
+#. original lines: 1, widths px: 54
+#: 0x0a43262
+msgctxt "table:moves/794"
+msgid "table:moves/794"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 795)
+#. original lines: 1, widths px: 54
+#: 0x0a4326f
+msgctxt "table:moves/795"
+msgid "table:moves/795"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 796)
+#. original lines: 1, widths px: 54
+#: 0x0a4327c
+msgctxt "table:moves/796"
+msgid "table:moves/796"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 797)
+#. original lines: 1, widths px: 54
+#: 0x0a43289
+msgctxt "table:moves/797"
+msgid "table:moves/797"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 798)
+#. original lines: 1, widths px: 54
+#: 0x0a43296
+msgctxt "table:moves/798"
+msgid "table:moves/798"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 799)
+#. original lines: 1, widths px: 54
+#: 0x0a432a3
+msgctxt "table:moves/799"
+msgid "table:moves/799"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 800)
+#. original lines: 1, widths px: 54
+#: 0x0a432b0
+msgctxt "table:moves/800"
+msgid "table:moves/800"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 801)
+#. original lines: 1, widths px: 54
+#: 0x0a432bd
+msgctxt "table:moves/801"
+msgid "table:moves/801"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 802)
+#. original lines: 1, widths px: 54
+#: 0x0a432ca
+msgctxt "table:moves/802"
+msgid "table:moves/802"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 803)
+#. original lines: 1, widths px: 54
+#: 0x0a432d7
+msgctxt "table:moves/803"
+msgid "table:moves/803"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 804)
+#. original lines: 1, widths px: 54
+#: 0x0a432e4
+msgctxt "table:moves/804"
+msgid "table:moves/804"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 805)
+#. original lines: 1, widths px: 54
+#: 0x0a432f1
+msgctxt "table:moves/805"
+msgid "table:moves/805"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 806)
+#. original lines: 1, widths px: 54
+#: 0x0a432fe
+msgctxt "table:moves/806"
+msgid "table:moves/806"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 807)
+#. original lines: 1, widths px: 54
+#: 0x0a4330b
+msgctxt "table:moves/807"
+msgid "table:moves/807"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 808)
+#. original lines: 1, widths px: 54
+#: 0x0a43318
+msgctxt "table:moves/808"
+msgid "table:moves/808"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 809)
+#. original lines: 1, widths px: 54
+#: 0x0a43325
+msgctxt "table:moves/809"
+msgid "table:moves/809"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 810)
+#. original lines: 1, widths px: 54
+#: 0x0a43332
+msgctxt "table:moves/810"
+msgid "table:moves/810"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 811)
+#. original lines: 1, widths px: 54
+#: 0x0a4333f
+msgctxt "table:moves/811"
+msgid "table:moves/811"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 812)
+#. original lines: 1, widths px: 54
+#: 0x0a4334c
+msgctxt "table:moves/812"
+msgid "table:moves/812"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 813)
+#. original lines: 1, widths px: 54
+#: 0x0a43359
+msgctxt "table:moves/813"
+msgid "table:moves/813"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 814)
+#. original lines: 1, widths px: 54
+#: 0x0a43366
+msgctxt "table:moves/814"
+msgid "table:moves/814"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 815)
+#. original lines: 1, widths px: 54
+#: 0x0a43373
+msgctxt "table:moves/815"
+msgid "table:moves/815"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 816)
+#. original lines: 1, widths px: 54
+#: 0x0a43380
+msgctxt "table:moves/816"
+msgid "table:moves/816"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 817)
+#. original lines: 1, widths px: 54
+#: 0x0a4338d
+msgctxt "table:moves/817"
+msgid "table:moves/817"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 818)
+#. original lines: 1, widths px: 54
+#: 0x0a4339a
+msgctxt "table:moves/818"
+msgid "table:moves/818"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 819)
+#. original lines: 1, widths px: 54
+#: 0x0a433a7
+msgctxt "table:moves/819"
+msgid "table:moves/819"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 820)
+#. original lines: 1, widths px: 29
+#: 0x0a433b4
+msgctxt "table:moves/820"
+msgid "table:moves/820"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 821)
+#. original lines: 1, widths px: 31
+#: 0x0a433c1
+msgctxt "table:moves/821"
+msgid "table:moves/821"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 822)
+#. original lines: 1, widths px: 31
+#: 0x0a433ce
+msgctxt "table:moves/822"
+msgid "table:moves/822"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 823)
+#. original lines: 1, widths px: 39
+#: 0x0a433db
+msgctxt "table:moves/823"
+msgid "table:moves/823"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 824)
+#. original lines: 1, widths px: 39
+#: 0x0a433e8
+msgctxt "table:moves/824"
+msgid "table:moves/824"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 825)
+#. original lines: 1, widths px: 48
+#: 0x0a433f5
+msgctxt "table:moves/825"
+msgid "table:moves/825"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 826)
+#. original lines: 1, widths px: 48
+#: 0x0a43402
+msgctxt "table:moves/826"
+msgid "table:moves/826"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 827)
+#. original lines: 1, widths px: 24
+#: 0x0a4340f
+msgctxt "table:moves/827"
+msgid "table:moves/827"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 828)
+#. original lines: 1, widths px: 24
+#: 0x0a4341c
+msgctxt "table:moves/828"
+msgid "table:moves/828"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 829)
+#. original lines: 1, widths px: 29
+#: 0x0a43429
+msgctxt "table:moves/829"
+msgid "table:moves/829"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 830)
+#. original lines: 1, widths px: 29
+#: 0x0a43436
+msgctxt "table:moves/830"
+msgid "table:moves/830"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 831)
+#. original lines: 1, widths px: 44
+#: 0x0a43443
+msgctxt "table:moves/831"
+msgid "table:moves/831"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 832)
+#. original lines: 1, widths px: 44
+#: 0x0a43450
+msgctxt "table:moves/832"
+msgid "table:moves/832"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 833)
+#. original lines: 1, widths px: 50
+#: 0x0a4345d
+msgctxt "table:moves/833"
+msgid "table:moves/833"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 834)
+#. original lines: 1, widths px: 50
+#: 0x0a4346a
+msgctxt "table:moves/834"
+msgid "table:moves/834"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 835)
+#. original lines: 1, widths px: 45
+#: 0x0a43477
+msgctxt "table:moves/835"
+msgid "table:moves/835"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 836)
+#. original lines: 1, widths px: 45
+#: 0x0a43484
+msgctxt "table:moves/836"
+msgid "table:moves/836"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 837)
+#. original lines: 1, widths px: 54
+#: 0x0a43491
+msgctxt "table:moves/837"
+msgid "table:moves/837"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 838)
+#. original lines: 1, widths px: 54
+#: 0x0a4349e
+msgctxt "table:moves/838"
+msgid "table:moves/838"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 839)
+#. original lines: 1, widths px: 28
+#: 0x0a434ab
+msgctxt "table:moves/839"
+msgid "table:moves/839"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 840)
+#. original lines: 1, widths px: 28
+#: 0x0a434b8
+msgctxt "table:moves/840"
+msgid "table:moves/840"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 841)
+#. original lines: 1, widths px: 34
+#: 0x0a434c5
+msgctxt "table:moves/841"
+msgid "table:moves/841"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 842)
+#. original lines: 1, widths px: 34
+#: 0x0a434d2
+msgctxt "table:moves/842"
+msgid "table:moves/842"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 843)
+#. original lines: 1, widths px: 57
+#: 0x0a434df
+msgctxt "table:moves/843"
+msgid "table:moves/843"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 844)
+#. original lines: 1, widths px: 57
+#: 0x0a434ec
+msgctxt "table:moves/844"
+msgid "table:moves/844"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 845)
+#. original lines: 1, widths px: 47
+#: 0x0a434f9
+msgctxt "table:moves/845"
+msgid "table:moves/845"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 846)
+#. original lines: 1, widths px: 47
+#: 0x0a43506
+msgctxt "table:moves/846"
+msgid "table:moves/846"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 847)
+#. original lines: 1, widths px: 48
+#: 0x0a43513
+msgctxt "table:moves/847"
+msgid "table:moves/847"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 848)
+#. original lines: 1, widths px: 48
+#: 0x0a43520
+msgctxt "table:moves/848"
+msgid "table:moves/848"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 849)
+#. original lines: 1, widths px: 48
+#: 0x0a4352d
+msgctxt "table:moves/849"
+msgid "table:moves/849"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 850)
+#. original lines: 1, widths px: 48
+#: 0x0a4353a
+msgctxt "table:moves/850"
+msgid "table:moves/850"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 851)
+#. original lines: 1, widths px: 44
+#: 0x0a43547
+msgctxt "table:moves/851"
+msgid "table:moves/851"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 852)
+#. original lines: 1, widths px: 44
+#: 0x0a43554
+msgctxt "table:moves/852"
+msgid "table:moves/852"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 853)
+#. original lines: 1, widths px: 43
+#: 0x0a43561
+msgctxt "table:moves/853"
+msgid "table:moves/853"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 854)
+#. original lines: 1, widths px: 43
+#: 0x0a4356e
+msgctxt "table:moves/854"
+msgid "table:moves/854"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 855)
+#. original lines: 1, widths px: 43
+#: 0x0a4357b
+msgctxt "table:moves/855"
+msgid "table:moves/855"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 856)
+#. original lines: 1, widths px: 43
+#: 0x0a43588
+msgctxt "table:moves/856"
+msgid "table:moves/856"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 857)
+#. original lines: 1, widths px: 50
+#: 0x0a43595
+msgctxt "table:moves/857"
+msgid "table:moves/857"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 858)
+#. original lines: 1, widths px: 50
+#: 0x0a435a2
+msgctxt "table:moves/858"
+msgid "table:moves/858"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 859)
+#. original lines: 1, widths px: 41
+#: 0x0a435af
+msgctxt "table:moves/859"
+msgid "table:moves/859"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 860)
+#. original lines: 1, widths px: 41
+#: 0x0a435bc
+msgctxt "table:moves/860"
+msgid "table:moves/860"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 861)
+#. original lines: 1, widths px: 51
+#: 0x0a435c9
+msgctxt "table:moves/861"
+msgid "table:moves/861"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 862)
+#. original lines: 1, widths px: 51
+#: 0x0a435d6
+msgctxt "table:moves/862"
+msgid "table:moves/862"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 863)
+#. original lines: 1, widths px: 46
+#: 0x0a435e3
+msgctxt "table:moves/863"
+msgid "table:moves/863"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 864)
+#. original lines: 1, widths px: 46
+#: 0x0a435f0
+msgctxt "table:moves/864"
+msgid "table:moves/864"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 865)
+#. original lines: 1, widths px: 50
+#: 0x0a435fd
+msgctxt "table:moves/865"
+msgid "table:moves/865"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 866)
+#. original lines: 1, widths px: 50
+#: 0x0a4360a
+msgctxt "table:moves/866"
+msgid "table:moves/866"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 867)
+#. original lines: 1, widths px: 45
+#: 0x0a43617
+msgctxt "table:moves/867"
+msgid "table:moves/867"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 868)
+#. original lines: 1, widths px: 45
+#: 0x0a43624
+msgctxt "table:moves/868"
+msgid "table:moves/868"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 869)
+#. original lines: 1, widths px: 46
+#: 0x0a43631
+msgctxt "table:moves/869"
+msgid "table:moves/869"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 870)
+#. original lines: 1, widths px: 46
+#: 0x0a4363e
+msgctxt "table:moves/870"
+msgid "table:moves/870"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 871)
+#. original lines: 1, widths px: 33
+#: 0x0a4364b
+msgctxt "table:moves/871"
+msgid "table:moves/871"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 872)
+#. original lines: 1, widths px: 33
+#: 0x0a43658
+msgctxt "table:moves/872"
+msgid "table:moves/872"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 873)
+#. original lines: 1, widths px: 51
+#: 0x0a43665
+msgctxt "table:moves/873"
+msgid "table:moves/873"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 874)
+#. original lines: 1, widths px: 51
+#: 0x0a43672
+msgctxt "table:moves/874"
+msgid "table:moves/874"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 875)
+#. original lines: 1, widths px: 51
+#: 0x0a4367f
+msgctxt "table:moves/875"
+msgid "table:moves/875"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 876)
+#. original lines: 1, widths px: 51
+#: 0x0a4368c
+msgctxt "table:moves/876"
+msgid "table:moves/876"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 877)
+#. original lines: 1, widths px: 35
+#: 0x0a43699
+msgctxt "table:moves/877"
+msgid "table:moves/877"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 878)
+#. original lines: 1, widths px: 35
+#: 0x0a436a6
+msgctxt "table:moves/878"
+msgid "table:moves/878"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 879)
+#. original lines: 1, widths px: 49
+#: 0x0a436b3
+msgctxt "table:moves/879"
+msgid "table:moves/879"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 880)
+#. original lines: 1, widths px: 49
+#: 0x0a436c0
+msgctxt "table:moves/880"
+msgid "table:moves/880"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 881)
+#. original lines: 1, widths px: 40
+#: 0x0a436cd
+msgctxt "table:moves/881"
+msgid "table:moves/881"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 882)
+#. original lines: 1, widths px: 40
+#: 0x0a436da
+msgctxt "table:moves/882"
+msgid "table:moves/882"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 883)
+#. original lines: 1, widths px: 45
+#: 0x0a436e7
+msgctxt "table:moves/883"
+msgid "table:moves/883"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 884)
+#. original lines: 1, widths px: 45
+#: 0x0a436f4
+msgctxt "table:moves/884"
+msgid "table:moves/884"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 885)
+#. original lines: 1, widths px: 52
+#: 0x0a43701
+msgctxt "table:moves/885"
+msgid "table:moves/885"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 886)
+#. original lines: 1, widths px: 52
+#: 0x0a4370e
+msgctxt "table:moves/886"
+msgid "table:moves/886"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 887)
+#. original lines: 1, widths px: 43
+#: 0x0a4371b
+msgctxt "table:moves/887"
+msgid "table:moves/887"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 888)
+#. original lines: 1, widths px: 43
+#: 0x0a43728
+msgctxt "table:moves/888"
+msgid "table:moves/888"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 889)
+#. original lines: 1, widths px: 55
+#: 0x0a43735
+msgctxt "table:moves/889"
+msgid "table:moves/889"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 890)
+#. original lines: 1, widths px: 55
+#: 0x0a43742
+msgctxt "table:moves/890"
+msgid "table:moves/890"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 891)
+#. original lines: 1, widths px: 44
+#: 0x0a4374f
+msgctxt "table:moves/891"
+msgid "table:moves/891"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 892)
+#. original lines: 1, widths px: 44
+#: 0x0a4375c
+msgctxt "table:moves/892"
+msgid "table:moves/892"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 893)
+#. original lines: 1, widths px: 43
+#: 0x0a43769
+msgctxt "table:moves/893"
+msgid "table:moves/893"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 894)
+#. original lines: 1, widths px: 43
+#: 0x0a43776
+msgctxt "table:moves/894"
+msgid "table:moves/894"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 895)
+#. original lines: 1, widths px: 56
+#: 0x0a43783
+msgctxt "table:moves/895"
+msgid "table:moves/895"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 896)
+#. original lines: 1, widths px: 56
+#: 0x0a43790
+msgctxt "table:moves/896"
+msgid "table:moves/896"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 897)
+#. original lines: 1, widths px: 49
+#: 0x0a4379d
+msgctxt "table:moves/897"
+msgid "table:moves/897"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 898)
+#. original lines: 1, widths px: 49
+#: 0x0a437aa
+msgctxt "table:moves/898"
+msgid "table:moves/898"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 899)
+#. original lines: 1, widths px: 43
+#: 0x0a437b7
+msgctxt "table:moves/899"
+msgid "table:moves/899"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 900)
+#. original lines: 1, widths px: 43
+#: 0x0a437c4
+msgctxt "table:moves/900"
+msgid "table:moves/900"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 901)
+#. original lines: 1, widths px: 50
+#: 0x0a437d1
+msgctxt "table:moves/901"
+msgid "table:moves/901"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 902)
+#. original lines: 1, widths px: 50
+#: 0x0a437de
+msgctxt "table:moves/902"
+msgid "table:moves/902"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 903)
+#. original lines: 1, widths px: 50
+#: 0x0a437eb
+msgctxt "table:moves/903"
+msgid "table:moves/903"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 904)
+#. original lines: 1, widths px: 50
+#: 0x0a437f8
+msgctxt "table:moves/904"
+msgid "table:moves/904"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 905)
+#. original lines: 1, widths px: 50
+#: 0x0a43805
+msgctxt "table:moves/905"
+msgid "table:moves/905"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 906)
+#. original lines: 1, widths px: 50
+#: 0x0a43812
+msgctxt "table:moves/906"
+msgid "table:moves/906"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 907)
+#. original lines: 1, widths px: 53
+#: 0x0a4381f
+msgctxt "table:moves/907"
+msgid "table:moves/907"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 908)
+#. original lines: 1, widths px: 53
+#: 0x0a4382c
+msgctxt "table:moves/908"
+msgid "table:moves/908"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 909)
+#. original lines: 1, widths px: 27
+#: 0x0a43839
+msgctxt "table:moves/909"
+msgid "table:moves/909"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 910)
+#. original lines: 1, widths px: 27
+#: 0x0a43846
+msgctxt "table:moves/910"
+msgid "table:moves/910"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 911)
+#. original lines: 1, widths px: 35
+#: 0x0a43853
+msgctxt "table:moves/911"
+msgid "table:moves/911"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 912)
+#. original lines: 1, widths px: 35
+#: 0x0a43860
+msgctxt "table:moves/912"
+msgid "table:moves/912"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 913)
+#. original lines: 1, widths px: 32
+#: 0x0a4386d
+msgctxt "table:moves/913"
+msgid "table:moves/913"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 914)
+#. original lines: 1, widths px: 32
+#: 0x0a4387a
+msgctxt "table:moves/914"
+msgid "table:moves/914"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 915)
+#. original lines: 1, widths px: 56
+#: 0x0a43887
+msgctxt "table:moves/915"
+msgid "table:moves/915"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 916)
+#. original lines: 1, widths px: 56
+#: 0x0a43894
+msgctxt "table:moves/916"
+msgid "table:moves/916"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 917)
+#. original lines: 1, widths px: 49
+#: 0x0a438a1
+msgctxt "table:moves/917"
+msgid "table:moves/917"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 918)
+#. original lines: 1, widths px: 49
+#: 0x0a438ae
+msgctxt "table:moves/918"
+msgid "table:moves/918"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 919)
+#. original lines: 1, widths px: 46
+#: 0x0a438bb
+msgctxt "table:moves/919"
+msgid "table:moves/919"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 920)
+#. original lines: 1, widths px: 46
+#: 0x0a438c8
+msgctxt "table:moves/920"
+msgid "table:moves/920"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 921)
+#. original lines: 1, widths px: 57
+#: 0x0a438d5
+msgctxt "table:moves/921"
+msgid "table:moves/921"
+msgstr ""
+
+#. category: table:moves; mode: field
+#. fixed field: 12 characters max (table moves, index 922)
+#. original lines: 1, widths px: 57
+#: 0x0a438e2
+msgctxt "table:moves/922"
+msgid "table:moves/922"
+msgstr ""

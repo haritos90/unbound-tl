@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0479560\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 14, widths px: 172, 190, 46, 184, 187, 191, 188, 182, 77, 174, 112, 123, 191, 90
+#: 0x041b8bf
+msgctxt "hash:f33b71f9"
+msgid "hash:f33b71f9"
+msgstr ""
+"Сегодня Поке-чувак расскажет вам, как сражаться с покемонами!\\pДопустим, "
+"вы гуляете и вдруг появляется дикий покемон!\\pВаша задача - с умом "
+"использовать своих покемонов и их приёмы, чтобы свести ОЖ противника к "
+"нулю и победить!\\pЯ лично покажу вам, как это делается, честное слово!\\p"
+"Ну что, поехали!\\pНе отрывайте глаз от супершоу Поке-чувака!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 9, widths px: 130, 162, 162, 174, 151, 109, 145, 177, 173
+#: 0x041ba41
+msgctxt "hash:fd3e245e"
+msgid "hash:fd3e245e"
+msgstr ""
+"Ну как, всё поняли?\\pДаже если ОЖ вашего покемона упадут до нуля и он "
+"выбудет из боя, не волнуйтесь!\\pПросто отнесите его в любой Центр "
+"покемонов и вылечите!\\pНу всё, до встречи!\\pПомните, тренеры: доброе "
+"дело в день - и счастью нет предела!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 16, widths px: 172, 175, 186, 126, 172, 135, 166, 163, 182, 136, 172, 170, 183, 123, 191, 90
+#: 0x041bb40
+msgctxt "hash:e3253334"
+msgid "hash:e3253334"
+msgstr ""
+"Сегодня Поке-чувак расскажет вам об особых состояниях!\\pЭто, например, "
+"отравление, паралич, сон, ожог…\\pЕсть и пара других, но все они - сущая "
+"беда.\\pПодхватит покемон любое из них - и в бою может стать "
+"бесполезным.\\pЗнаете, Поке-чуваку больно видеть, как страдают "
+"покемоны…\\pТак что же делать, если у вашего покемона особое состояние?\\p"
+"Что ж, для этого у вас есть я!\\pНу что, поехали!\\pНе отрывайте глаз от "
+"супершоу Поке-чувака!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 12, widths px: 167, 113, 187, 160, 184, 160, 174, 153, 137, 145, 177, 173
+#: 0x041bd10
+msgctxt "hash:69f39d95"
+msgid "hash:69f39d95"
+msgstr ""
+"Отравление и паралич не проходят после боя.\\pОтравленный покемон теряет "
+"ОЖ, даже пока вы просто идёте.\\pТакие особые состояния нужно лечить "
+"сразу.\\pИспользуйте предмет или скорее отправляйтесь в Центр "
+"покемонов.\\pЭто было несложно, правда?\\nНу всё, до встречи!\\pПомните, "
+"тренеры: доброе дело в день - и счастью нет предела!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 21, widths px: 167, 52, 152, 133, 189, 111, 182, 138, 188, 120, 182, 186, 170, 184, 170, 155, 170, 69, 123, 191, 90
+#: 0x041be76
+msgctxt "hash:db373ed8"
+msgid "hash:db373ed8"
+msgstr ""
+"Все ли знают, как типы действуют друг на друга?\\pУ каждого покемона и "
+"каждого приёма есть свой тип.\\pНапример, есть такие типы, как Трава и "
+"Вода.\\pНужно учитывать тип приёма, которым атакуют…\\pИ тип покемона, в "
+"которого этот приём попадает.\\pОт того, как сочетаются эти два типа, "
+"зависит урон.\\pПонимаете, всё дело в том, выгодно сочетание типов или "
+"нет.\\pЕсли не знать, как работают типы, бои будут тяжёлыми.\\pДавайте я "
+"покажу, что именно имею в виду.\\pНу что, поехали!\\pНе отрывайте глаз от "
+"супершоу Поке-чувака!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 14, widths px: 188, 172, 171, 143, 176, 170, 177, 87, 145, 186, 182, 74, 160, 137
+#: 0x041c0af
+msgctxt "hash:1cc68878"
+msgid "hash:1cc68878"
+msgstr ""
+"Можно ли провести атаку, которая нанесёт большой урон?\\pОпасен ли "
+"покемон противника для вашего покемона?\\pНет ли у него разрушительно "
+"мощных приёмов?\\pСледите за сочетанием типов, чтобы получить "
+"преимущество!\\pНу всё, до встречи!\\pАх да: для Поке-чувака типа Крутой "
+"ребята типа Потрясный вроде вас - идеальное сочетание!\\pПомните: доброе "
+"дело в день - и счастью нет предела!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 13, widths px: 176, 175, 170, 172, 90, 127, 144, 103, 188, 56, 123, 191, 90
+#: 0x041c23b
+msgctxt "hash:8ed4ac34"
+msgid "hash:8ed4ac34"
+msgstr ""
+"Сегодня Поке-чувак покажет вам, как ловить покемонов!\\pПредставьте… "
+"Вдруг появляется классный дикий покемон!\\pОх, вы его хотите!\\nНу просто "
+"не устоять!\\pОх, его надо поймать!\\nОн должен стать вашим!\\pСейчас я "
+"покажу, как это сделать!\\pНу что, поехали!\\pНе отрывайте глаз от "
+"супершоу Поке-чувака!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 7, widths px: 178, 186, 141, 155, 145, 177, 173
+#: 0x041c384
+msgctxt "hash:e9326460"
+msgid "hash:e9326460"
+msgstr ""
+"Если первый покебол не поймал покемона, не сдавайтесь!\\pБросайте "
+"покеболы снова и снова…\\nРано или поздно получится!\\pНу всё, до "
+"встречи!\\pПомните, тренеры: доброе дело в день - и счастью нет предела!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 12, widths px: 81, 117, 167, 117, 173, 190, 161, 154, 174, 99, 186, 22
+#: 0x041c459
+msgctxt "hash:12b0d45b"
+msgid "hash:12b0d45b"
+msgstr ""
+"Всем привет!\\nУ вас есть ТМ?\\pТМ - техническая машина, потрясающе "
+"классный предмет!\\pОн учит покемона приёму, который тот может не выучить "
+"по уровню!\\pНу разве не здорово? В каком удобном мире мы живём!\\p"
+"Откройте Кейс ТМ и посмотрите, какие ТМ у вас есть.\\pИх можно и подробно "
+"рассмотреть."
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 149, 145, 177, 173
+#: 0x041c7b4
+msgctxt "hash:8b4297c7"
+msgid "hash:8b4297c7"
+msgstr ""
+"Ух, сегодня я наговорился!\\nНу всё, до встречи!\\pПомните, тренеры: "
+"доброе дело в день - и счастью нет предела!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 13, widths px: 168, 146, 151, 116, 170, 152, 186, 128, 183, 125, 123, 190, 124
+#: 0x041c82a
+msgctxt "hash:e493d5e5"
+msgid "hash:e493d5e5"
+msgstr ""
+"В сумке тренера есть куча классных и удобных функций!\\pВозьмём раздел "
+"“Важные вещи”.\\pВажную вещь можно использовать, не открывая каждый раз "
+"сумку.\\pНапример, представим, что у меня в сумке есть Обучающее ТВ.\\p"
+"Его можно отметить для быстрого доступа, и я покажу как!\\pНу что, "
+"поехали!\\pНе отрывайте глаз от почти что супершоу Поке-чувака!"
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: data-table; mode: field
+#. original lines: 16, widths px: 149, 59, 104, 141, 163, 186, 120, 139, 174, 183, 110, 182, 71, 145, 177, 173
+#: 0x041c994
+msgctxt "hash:095990d4"
+msgid "hash:095990d4"
+msgstr ""
+"Готово, ваше Обучающее ТВ отмечено.\\pКак им пользоваться?\\nСейчас "
+"расскажу.\\pОтмеченный предмет из раздела “Важные вещи” можно "
+"использовать кнопкой Select.\\pТеперь Обучающее ТВ включается одним "
+"нажатием.\\pЧтобы увидеть меня, достаточно нажать одну кнопку!\\pДаже "
+"как-то неловко от такого внимания!\\pНу всё, до встречи!\\pПомните, "
+"тренеры: доброе дело в день - и счастью нет предела!"

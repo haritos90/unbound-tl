@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0710000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 65
+#: 0x071a8d7
+msgctxt "hash:92600e0c"
+msgid "hash:92600e0c"
+msgstr ""
+
+#. reach: never shown (review: FireRed professor's introduction: only tasks 0x812FA78 and 0x812FB4C load them, reached only through task 0x812F7C0, which case 10 of task 0x812EB58 sets (0x812EE6E) or the controls-guide chain 0x812EF50-0x812F7BC sets, a loop no outside word or BL enters; StartNewGameScene 0x812EB2C creates 0x812EB58 but sets callback 0x8A10A21, whose new-game reset destroys the task before gMain.state reaches 10 (headless new game: the task lives frames 152-159 while gMain.state stays 0, and 200 presses into play run Unbound's tasks 0x9EB3030 and 0x9EB2EA8 instead))
+#. category: code; mode: field
+#. original lines: 3, widths px: 169, 192, 0
+#: 0x071a8e5
+msgctxt "hash:f2a0b92a"
+msgid "hash:f2a0b92a"
+msgstr ""
+
+#. reach: never shown (review: FireRed professor's introduction: only tasks 0x812FA78 and 0x812FB4C load them, reached only through task 0x812F7C0, which case 10 of task 0x812EB58 sets (0x812EE6E) or the controls-guide chain 0x812EF50-0x812F7BC sets, a loop no outside word or BL enters; StartNewGameScene 0x812EB2C creates 0x812EB58 but sets callback 0x8A10A21, whose new-game reset destroys the task before gMain.state reaches 10 (headless new game: the task lives frames 152-159 while gMain.state stays 0, and 200 presses into play run Unbound's tasks 0x9EB3030 and 0x9EB2EA8 instead))
+#. category: code; mode: field
+#. original lines: 6, widths px: 183, 140, 78, 170, 133, 0
+#: 0x071a92b
+msgctxt "hash:58f4f8c3"
+msgid "hash:58f4f8c3"
+msgstr ""

@@ -1,0 +1,9 @@
+[progress]
+
+# Graphics with text pixels, one entry per ROM graphic.
+# inventory lists offset, compression, size, tiles, palette, pointers.
+# sheet_width is the sprite frame width in tiles.
+
+# The area form holds edited palette indices in text areas.
+# The build checks each edited sheet against the original.
+# Fits in place, otherwise written to free space.

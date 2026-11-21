@@ -1,0 +1,622 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/tarmigan-mansion\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 192, 61, 184, 108, 196, 164
+#: 0x1f1d272
+msgctxt "map:1.59/npc:8/4"
+msgid "map:1.59/npc:8/4"
+msgstr ""
+"Ты ведь метишь в чемпионы!\\nУдивляешься, что я и тут?\\pЗдорово, что ты "
+"берёшься за испытание особняка!\\pДержи Свежую воду высшего сорта прямо "
+"из пруда на заднем дворе."
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 163, 39, 179, 174, 181, 156, 185, 93, 200, 182, 65, 185, 166, 115
+#: 0x1f1d31a
+msgctxt "map:1.59/npc:8/3"
+msgid "map:1.59/npc:8/3"
+msgstr ""
+"Начнём с наследницы Максимы.\\pЗдесь всем заправляет она, но, в отличие "
+"от обычных лидеров стадионов, не выбирает один тип.\\pТак что "
+"разносторонняя команда, готовая ко всему, тебе очень пригодится!\\pА "
+"чтобы добраться до неё, найди кнопку: она спрятана в статуе где-то в этом "
+"особняке.\\pНажми её - и откроется новый проход вниз, к Максиме.\\pУдачи!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 141, 158, 154
+#: 0x1f1d49e
+msgctxt "map:1.59/npc:8/1"
+msgid "map:1.59/npc:8/1"
+msgstr ""
+"Великолепно, {PLAYER}, великолепно!\\pХоть это и не официальный стадион, "
+"держи этот самоцвет!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 169, 169, 53, 179, 189, 120
+#: 0x1f1d4f5
+msgctxt "map:1.59/npc:8/0"
+msgid "map:1.59/npc:8/0"
+msgstr ""
+"Этот самоцвет - редкость: он один раз усилит в бою приём типа {COLOR "
+"06}Фея{COLOR 08}.\\pТип Фея и так один из сильнейших в атаке, а с этим "
+"самоцветом станет ещё мощнее!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 87, 96, 88, 18
+#: 0x1f1edba
+msgctxt "map:1.59/sign:0/2"
+msgid "map:1.59/sign:0/2"
+msgstr ""
+"Особняк Тармиган\\nНаследница: Максима\\pТренеры-победители:\\nДжекс"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 87, 96, 88, 29
+#: 0x1f1edf3
+msgctxt "map:1.59/sign:0/1"
+msgid "map:1.59/sign:0/1"
+msgstr ""
+"Особняк Тармиган\\nНаследница: Максима\\pТренеры-победители:\\nДжекс, "
+"{PLAYER}"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 87, 96, 88, 40
+#: 0x1f1ee30
+msgctxt "map:1.59/sign:0/0"
+msgid "map:1.59/sign:0/0"
+msgstr ""
+"Особняк Тармиган\\nНаследница: Максима\\pТренеры-победители:\\nДжекс, "
+"{PLAYER}, {RIVAL}"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 172, 96, 177, 98
+#: 0x1f79e29
+msgctxt "map:1.59/npc:5/0"
+msgid "map:1.59/npc:5/0"
+msgstr ""
+"Где-то в этом доме живёт наследница Максима.\\pНайдёшь её - и она даст "
+"тебе кое-что особенное."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 176, 124, 180, 145
+#: 0x1f79e8f
+msgctxt "map:1.59/npc:6/0"
+msgid "map:1.59/npc:6/0"
+msgstr ""
+"В одной из статуй особняка спрятана кнопка.\\pЕсли удастся её найти, она "
+"откроет новый проход."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 161, 181, 80, 179
+#: 0x1f79f04
+msgctxt "map:1.59/npc:10/0"
+msgid "map:1.59/npc:10/0"
+msgstr ""
+"В особняке к твоим услугам масса разных способов лечения.\\pЧестно "
+"говоря, их даже многовато…"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 182, 194, 147, 158, 56
+#: 0x1f79f75
+msgctxt "map:1.60/npc:0/0"
+msgid "map:1.60/npc:0/0"
+msgstr ""
+"Мы, повара, дали клятву готовить блюда высочайшего качества для хозяйки "
+"этого особняка.\\pРазумеется, речь о наследнице Максиме."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 180, 195, 172, 123, 184, 154, 168, 180, 138
+#: 0x1f79fff
+msgctxt "map:1.60/npc:1/0"
+msgid "map:1.60/npc:1/0"
+msgstr ""
+"Ягоды вроде {COLOR 06}Окка-ягоды{COLOR 08} и {COLOR 06}Пасшо-ягоды{COLOR "
+"08} уменьшают урон, который покемон получает от {COLOR "
+"06}суперэффективных{COLOR 08} приёмов.\\pКак и все ягоды, в обычных боях "
+"они {COLOR 06}одноразовые{COLOR 08}.\\pНо, говорят, сильные покемоны в "
+"{COLOR 06}Скрытых гротах{COLOR 08} после боя часто их оставляют…"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 173, 183, 155, 166, 177, 158, 129
+#: 0x1f7a131
+msgctxt "map:1.60/npc:2/0"
+msgid "map:1.60/npc:2/0"
+msgstr ""
+"Некоторые ягоды, например {COLOR 06}Ки-ягоду{COLOR 08} и {COLOR "
+"06}Маранг-ягоду{COLOR 08}, очень трудно достать.\\pКогда нашему главному "
+"добытчику продуктов попадается такая ягода, мы непременно готовим из неё "
+"изысканное блюдо."
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 181, 166, 106, 82, 75, 192, 56, 177, 184, 136
+#: 0x1f7a20e
+msgctxt "map:1.60/npc:4/0"
+msgid "map:1.60/npc:4/0"
+msgstr ""
+"Ягоды вроде {COLOR 06}Личи-ягоды{COLOR 08} и {COLOR 06}Салак-ягоды{COLOR "
+"08} покемон съедает, только когда он {COLOR 06}в беде{COLOR 08}!\\pЧто "
+"значит “в беде”?\\pВсё просто!\\p{COLOR 06}В беде{COLOR 08} - это когда "
+"полоска ОЖ {COLOR 07}красная{COLOR 08}.\\pНо для покемонов с талантом "
+"{COLOR 06}Обжорство{COLOR 08} беда наступает, уже когда полоска {COLOR "
+"05}жёлтая{COLOR 08}."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 152, 70, 171, 105
+#: 0x1f7a335
+msgctxt "map:1.60/npc:5/0"
+msgid "map:1.60/npc:5/0"
+msgstr ""
+"Мне досталось мытьё посуды…\\nВот тоска…\\pА все остальные готовят и "
+"болтают о ягодах…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 153
+#: 0x1f7a391
+msgctxt "map:1.60/npc:3/1"
+msgid "map:1.60/npc:3/1"
+msgstr "Вот, держи: свежие продукты из сада, собранные вручную."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 180, 95
+#: 0x1f7a3d1
+msgctxt "map:1.60/npc:3/0"
+msgid "map:1.60/npc:3/0"
+msgstr "Я отвечаю за ежедневный сбор продуктов."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 166
+#: 0x1f7a40d
+msgctxt "map:1.60/npc:16/0"
+msgid "map:1.60/npc:16/0"
+msgstr "Не могу найти наследницу Максиму!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 85
+#: 0x1f7a42c
+msgctxt "map:1.60/npc:16/1"
+msgid "map:1.60/npc:16/1"
+msgstr "О нет! Я проиграл!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 149
+#: 0x1f7a43c
+msgctxt "map:1.60/npc:16/2"
+msgid "map:1.60/npc:16/2"
+msgstr "Где-то тут есть кнопка, которая открывает путь к Максиме."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 40, 181, 45
+#: 0x1f7a477
+msgctxt "map:1.60/npc:13/0"
+msgid "map:1.60/npc:13/0"
+msgstr "Ура!\\pСила мегаэволюции будет моей!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 36
+#: 0x1f7a4a9
+msgctxt "map:1.60/npc:13/1"
+msgid "map:1.60/npc:13/1"
+msgstr "Ау-ух!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 105
+#: 0x1f7a4b0
+msgctxt "map:1.60/npc:13/2"
+msgid "map:1.60/npc:13/2"
+msgstr "Если так и буду тут стоять, наверное, ничего не добьюсь."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 196, 169, 68
+#: 0x1f7a4e7
+msgctxt "map:1.60/npc:12/0"
+msgid "map:1.60/npc:12/0"
+msgstr ""
+"Может, я и моложе некоторых здешних дам, но сильна ничуть не меньше!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1f7a536
+msgctxt "map:1.60/npc:12/1"
+msgid "map:1.60/npc:12/1"
+msgstr "Меня сбили!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 105
+#: 0x1f7a541
+msgctxt "map:1.60/npc:12/2"
+msgid "map:1.60/npc:12/2"
+msgstr "Мне нужно стать ещё сильнее, чтобы превзойти остальных."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 168
+#: 0x1f7a575
+msgctxt "map:1.61/npc:7/0"
+msgid "map:1.61/npc:7/0"
+msgstr "Ну вот ты и наверху, юный тренер."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 185
+#: 0x1f7a594
+msgctxt "map:1.61/npc:7/1"
+msgid "map:1.61/npc:7/1"
+msgstr "До конца тебе ещё далеко."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 131
+#: 0x1f7a5b6
+msgctxt "map:1.61/npc:7/2"
+msgid "map:1.61/npc:7/2"
+msgstr "Я бы сказал, это примерно середина испытания."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 71, 100
+#: 0x1f7a5f3
+msgctxt "map:1.59/npc:4/0"
+msgid "map:1.59/npc:4/0"
+msgstr "Ты кто?\\nЧто ты здесь делаешь?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 30
+#: 0x1f7a612
+msgctxt "map:1.59/npc:4/1"
+msgid "map:1.59/npc:4/1"
+msgstr "Ох!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 128, 101
+#: 0x1f7a618
+msgctxt "map:1.59/npc:4/2"
+msgid "map:1.59/npc:4/2"
+msgstr "Статуя с кнопкой?\\nВпервые слышу."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 163, 93
+#: 0x1f7a643
+msgctxt "map:1.61/npc:6/0"
+msgid "map:1.61/npc:6/0"
+msgstr "Зацени моих супер-пупер-мега-крутых\\nпокемонов!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 195
+#: 0x1f7a671
+msgctxt "map:1.61/npc:6/1"
+msgid "map:1.61/npc:6/1"
+msgstr "Чем не ультраклёвые меганиндзя?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 130
+#: 0x1f7a695
+msgctxt "map:1.61/npc:6/2"
+msgid "map:1.61/npc:6/2"
+msgstr "Супер-пупер-дупер-ду!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 120
+#: 0x1f7a6ac
+msgctxt "map:1.61/npc:0/0"
+msgid "map:1.61/npc:0/0"
+msgstr "Я опытный огнедув!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 171, 123
+#: 0x1f7a6c3
+msgctxt "map:1.61/npc:0/1"
+msgid "map:1.61/npc:0/1"
+msgstr "Когда-нибудь я со своим огнём ещё заткну тебя за пояс!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 189, 86
+#: 0x1f7a6fa
+msgctxt "map:1.61/npc:0/2"
+msgid "map:1.61/npc:0/2"
+msgstr "В отличие от других экспертов, я ещё молод и свободен!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 167
+#: 0x1f7a72e
+msgctxt "map:1.61/npc:5/0"
+msgid "map:1.61/npc:5/0"
+msgstr "Драконы тоже мегаэволюционируют!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 120
+#: 0x1f7a74c
+msgctxt "map:1.61/npc:5/1"
+msgid "map:1.61/npc:5/1"
+msgstr "Но пока ещё нет!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 157
+#: 0x1f7a762
+msgctxt "map:1.61/npc:5/2"
+msgid "map:1.61/npc:5/2"
+msgstr "Когда-нибудь мои драконы взмоют ввысь после мегаэволюции!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 77
+#: 0x1f7a7a2
+msgctxt "map:1.59/npc:7/0"
+msgid "map:1.59/npc:7/0"
+msgstr "Знаешь, какие тайны хранит этот особняк?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f7a7d4
+msgctxt "map:1.59/npc:7/1"
+msgid "map:1.59/npc:7/1"
+msgstr "Так и быть, расскажу."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 189, 171, 163
+#: 0x1f7a7e3
+msgctxt "map:1.59/npc:7/2"
+msgid "map:1.59/npc:7/2"
+msgstr ""
+"Если сумеешь пробиться через весь особняк, то постигнешь священное "
+"искусство мегаэволюции."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 172
+#: 0x1f7a843
+msgctxt "map:1.60/npc:10/0"
+msgid "map:1.60/npc:10/0"
+msgstr "Каково это - знать, что противники становятся сильнее?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 137
+#: 0x1f7a886
+msgctxt "map:1.60/npc:10/1"
+msgid "map:1.60/npc:10/1"
+msgstr "Обидно, наверное, а?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 75
+#: 0x1f7a8a1
+msgctxt "map:1.60/npc:10/2"
+msgid "map:1.60/npc:10/2"
+msgstr "Надейся, что лечебных предметов тебе хватит."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 155
+#: 0x1f7a8d2
+msgctxt "map:1.60/npc:14/0"
+msgid "map:1.60/npc:14/0"
+msgstr "Дальше тебе не пройти."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 46
+#: 0x1f7a8ef
+msgctxt "map:1.60/npc:14/1"
+msgid "map:1.60/npc:14/1"
+msgstr "Проходи."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 88
+#: 0x1f7a8f8
+msgctxt "map:1.60/npc:14/2"
+msgid "map:1.60/npc:14/2"
+msgstr "Конец уже близок."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 140, 71
+#: 0x1f7a909
+msgctxt "map:1.60/npc:11/0"
+msgid "map:1.60/npc:11/0"
+msgstr "И куда это ты направляешься, дитя?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 125, 85
+#: 0x1f7a931
+msgctxt "map:1.60/npc:11/1"
+msgid "map:1.60/npc:11/1"
+msgstr "За силой мегаэволюции?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 191, 197, 150, 84, 62
+#: 0x1f7a958
+msgctxt "map:1.60/npc:11/2"
+msgid "map:1.60/npc:11/2"
+msgstr ""
+"Помни: власть развращает, а абсолютная власть - абсолютно.\\pТо же можно "
+"сказать и о мегаэволюции.\\pБудь осторожнее."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 195, 68, 82
+#: 0x1f7a9d6
+msgctxt "map:1.60/npc:15/0"
+msgid "map:1.60/npc:15/0"
+msgstr "Я последний тренер на твоём пути к Максиме.\\pНу что, начнём?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 115
+#: 0x1f7aa16
+msgctxt "map:1.60/npc:15/1"
+msgid "map:1.60/npc:15/1"
+msgstr "Пожалуй, тебе можно и к Максиме."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 165, 180, 143
+#: 0x1f7aa2c
+msgctxt "map:1.60/npc:15/2"
+msgid "map:1.60/npc:15/2"
+msgstr ""
+"Когда захочешь сразиться с Максимой, просто шагни с уступа.\\pНе бойся: "
+"больно не будет."
+
+#. category: script; mode: field
+#. original lines: 28, widths px: 115, 160, 39, 163, 172, 87, 180, 184, 102, 6, 74, 193, 184, 174, 167, 150, 190, 171, 149, 84, 161, 189, 160, 165, 179, 156, 140, 153
+#: 0x1f7aa87
+msgctxt "map:1.62/npc:0/24"
+msgid "map:1.62/npc:0/24"
+msgstr ""
+"Здравствуй, тренер.\\pЯ Максима, наследница особняка.\\pРаз ты здесь, "
+"позволь тебя поздравить: тебе удалось найти дорогу ко мне.\\pПолагаю, ты, "
+"как и многие, ищешь здесь силу {COLOR 06}мегаэволюции{COLOR 04}?\\p…\\p"
+"Так я и думала.\\pОднако “хотеть” - это одно. А “заслуживать” - совсем "
+"другое.\\pВидишь ли, мегаэволюция возможна, лишь когда тренера и покемона "
+"связывают глубокие узы.\\pИ всё же ко мне приходят и те, кого волнует "
+"лишь мнимая сила, которую сулит мегаэволюция.\\pА узы, благодаря которым "
+"возможна мегаэволюция…{PAUSE 18} не всегда узы дружбы и любви.\\pПоэтому "
+"если я и передам кому-то это искусство, то лишь тому, в ком есть и "
+"мастерство, и искренняя любовь к покемонам.\\pТаково моё последнее "
+"испытание."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 208, 199
+#: 0x1f7ad7d
+msgctxt "map:1.62/npc:0/9"
+msgid "map:1.62/npc:0/9"
+msgstr "Одолей меня и докажи, что ты заслуживаешь мой величайший дар!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 158, 177, 67, 210, 179, 212, 206, 206, 161
+#: 0x1f7adc7
+msgctxt "map:1.62/npc:0/10"
+msgid "map:1.62/npc:0/10"
+msgstr ""
+"Невероятно… узы, которые вы с покемонами так долго закаляли…\\pИ доверие, "
+"которое ты пробуждаешь даже в едва знакомых покемонах…\\pЯ… не смогла их "
+"различить: так сильны и ощутимы они были.\\pЯ рада, что проиграла "
+"поистине замечательному тренеру!"
+
+#. category: script; mode: field
+#. original lines: 12, widths px: 195, 171, 192, 94, 195, 103, 181, 177, 130, 175, 143, 82
+#: 0x1f7aee7
+msgctxt "map:1.62/npc:0/12"
+msgid "map:1.62/npc:0/12"
+msgstr ""
+"Поразительно…{PAUSE 18} теперь я убедилась, что тебе можно доверить эту "
+"силу: ты распорядишься ею ответственно и благоразумно.\\pЧто ж, вручаю "
+"тебе собственный ключевой камень мегаэволюции.\\pНо прежде…{PAUSE 18} "
+"прошу тебя выбрать для него подходящую оправу.\\pХе-хе-хе…{PAUSE 18} не "
+"беспокойся. Действуют они одинаково.\\pПросто…{PAUSE 18} выбери ту, что "
+"подходит тебе больше всего."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 143, 82
+#: 0x1f7b046
+msgctxt "map:1.62/npc:0/18"
+msgid "map:1.62/npc:0/18"
+msgstr "Просто…{PAUSE 18} выбери ту, что подходит тебе больше всего."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 102, 6
+#: 0x1f7b073
+msgctxt "map:1.62/npc:0/17"
+msgid "map:1.62/npc:0/17"
+msgstr "Значит, тебе по душе {COLOR 06}{STR_VAR_1}{COLOR 04}?"
+
+#. category: script; mode: field
+#. original lines: 25, widths px: 34, 169, 106, 192, 145, 174, 176, 184, 193, 192, 90, 135, 154, 38, 194, 144, 170, 180, 193, 183, 81, 181, 141, 205, 194
+#: 0x1f7b090
+msgctxt "map:1.62/npc:0/20"
+msgid "map:1.62/npc:0/20"
+msgstr ""
+"Понимаю.\\pДа, по-моему, {STR_VAR_1} тебе очень к лицу.\\pИтак, теперь "
+"тебе подвластна {COLOR 06}мегаэволюция{COLOR 04} покемонов.\\pЧтобы "
+"мегаэволюционировать в бою, покемон должен держать свой уникальный {COLOR "
+"06}мегакамень{COLOR 04}.\\pСможет ли покемон мегаэволюционировать, "
+"подскажет {COLOR 06}значок мегаэволюции{COLOR 04} в меню боя.\\pЕсли он "
+"появится, нажми {F8 04}, прежде чем выбрать приём.\\pТогда покемон "
+"мегаэволюционирует и станет сильнее.\\pНо учти: провести мегаэволюцию "
+"можно лишь {COLOR 06}один раз{COLOR 04} за бой, а её действие проходит в "
+"конце боя или когда покемон выбудет из боя.\\pА теперь прими эту "
+"силу…{PAUSE 18} и используй её во благо людей.\\pЯ рассчитываю, что ты "
+"изменишь мир…{PAUSE 18} и оставишь яркий след…"
+
+#. category: script; mode: field
+#. original lines: 20, widths px: 174, 176, 184, 193, 192, 90, 135, 154, 38, 194, 144, 170, 180, 193, 183, 81, 181, 141, 205, 194
+#: 0x1f7b371
+msgctxt "map:1.62/npc:0/1"
+msgid "map:1.62/npc:0/1"
+msgstr ""
+"Чтобы мегаэволюционировать в бою, покемон должен держать свой уникальный "
+"{COLOR 06}мегакамень{COLOR 04}.\\pСможет ли покемон мегаэволюционировать, "
+"подскажет {COLOR 06}значок мегаэволюции{COLOR 04} в меню боя.\\pЕсли он "
+"появится, нажми {F8 04}, прежде чем выбрать приём.\\pТогда покемон "
+"мегаэволюционирует и станет сильнее.\\pНо учти: провести мегаэволюцию "
+"можно лишь {COLOR 06}один раз{COLOR 04} за бой, а её действие проходит в "
+"конце боя или когда покемон выбудет из боя.\\pА теперь прими эту "
+"силу…{PAUSE 18} и используй её во благо людей.\\pЯ рассчитываю, что ты "
+"изменишь мир…{PAUSE 18} и оставишь яркий след…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 107, 144, 193, 180
+#: 0x1f7b5d4
+msgctxt "map:1.62/npc:0/3"
+msgid "map:1.62/npc:0/3"
+msgstr ""
+"Ах да, конечно.\\nЧуть не забыла.\\pПрими мегакамень для Алтарии - точно "
+"такой же, как у меня."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1f7b647
+msgctxt "map:1.62/npc:0/13"
+msgid "map:1.62/npc:0/13"
+msgstr "Мегакольцо"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f7b651
+msgctxt "map:1.62/npc:0/14"
+msgid "map:1.62/npc:0/14"
+msgstr "Мегабраслет"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1f7b65f
+msgctxt "map:1.62/npc:0/15"
+msgid "map:1.62/npc:0/15"
+msgstr "Мегаманжет"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f7b669
+msgctxt "map:1.62/npc:0/16"
+msgid "map:1.62/npc:0/16"
+msgstr "Мегаамулет"
+
+#. category: script; mode: field
+#. used in 11 places
+#. original lines: 1, widths px: 129
+#: 0x1f7b674
+msgctxt "map:1.60/sign:1/0"
+msgid "map:1.60/sign:1/0"
+msgstr "Это обычная статуя."
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 2, widths px: 89, 48
+#: 0x1f7b68d
+msgctxt "map:1.59/sign:2/0"
+msgid "map:1.59/sign:2/0"
+msgstr "Потайная кнопка!\\pНажать?"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 194, 197, 107, 173, 157, 76, 167, 184
+#: 0x1f7b6c5
+msgctxt "map:1.60/sign:0/0"
+msgid "map:1.60/sign:0/0"
+msgstr ""
+"Мегаэволюцию впервые открыл в регионе Калос знаменитый профессор "
+"Сикамор.\\pБлагодаря его исследованиям покемоны теперь могут "
+"мегаэволюционировать в бою.\\pОднако многое в мегаэволюции до сих пор "
+"остаётся загадкой."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 162, 75, 184, 178, 182, 197, 178
+#: 0x1f7b7ad
+msgctxt "map:1.62/sign:1/0"
+msgid "map:1.62/sign:1/0"
+msgstr ""
+"Это книга профессора Лога о мегаэволюции!\\pВ ней сказано, что "
+"мегаэволюция в бою повышает параметры покемона до конца боя.\\pДальше "
+"пусто. Профессор Лог\\nизучает только параметры."

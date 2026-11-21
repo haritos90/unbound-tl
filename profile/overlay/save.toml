@@ -1,0 +1,117 @@
+[save]
+size = 0x20000
+sector_size = 0x1000
+data_size = 0xFF0
+signature = 0x01121999
+slot_sectors = 14
+section_sizes = [0xF24, 0xFF0, 0xFF0, 0xFF0, 0xD98, 0xFF0, 0xFF0, 0xFF0, 0xFF0, 0xFF0, 0xFF0, 0xFF0, 0xFF0, 0x450]
+box_record = { size = 58, species = 0x1C, ivs = 0x36, per_box = 30 }
+party = { count = 0x2025560, base = 0x2025564, slots = 6, stride = 100, species = 0x20, ivs = 0x48 }
+daycare = { base = 0x20284AC, slots = 2, stride = 0x8C, species = 0x20, ivs = 0x48 }
+boxes = [
+  { first = 1, count = 19, ram = 0x2029318 },
+  { first = 20, count = 3, ram = 0x203CB44 },
+  { first = 23, count = 2, ram = 0x2027434 },
+  { first = 25, count = 1, ram = 0x2024638 },
+]
+names = { species_table = 0x166A98C, species_stride = 11, species_count = 1294, egg_pointer = 0x3FF88, box_text_pointer = 0x8C850, box_name_pointers = { 25 = 0x1EC5B38 } }
+
+[save.blocks]
+saveblock2 = { ram = 0x2024588, sections = [0] }
+saveblock1 = { ram = 0x202552C, sections = [1, 2, 3, 4] }
+storage = { ram = 0x2029314, sections = [5, 6, 7, 8, 9, 10, 11, 12, 13] }
+
+[save.parasite]
+ram = 0x203B174
+sections = [[0, 0xCC], [4, 0x258], [13, 0xBA0]]
+
+[save.extra]
+ram = 0x203C038
+sectors = [30, 31]
+
+# Name field limits follow the naming screen templates.
+# Seven letters for player and rival, eight for a box.
+# Ten for a Pokemon.
+[save.player]
+name = 0x2024588
+size = 8
+limit = 7
+trainer_id = 0x2024592
+
+[save.rival]
+name = 0x2028F78
+size = 8
+limit = 7
+evidence = "SaveBlock1+0x3A4C. The player types the rival's name: scripts 0x1E90321 and 0x1EA3F24 callasm 0x09EC7889, DoNamingScreen(4, gSaveBlock1Ptr + 0x3A4C); a name typed there (Юра) is stored at this address"
+
+[save.mon_names]
+personality = 0
+ot_id = 4
+nickname = 8
+nickname_size = 10
+nickname_limit = 10
+ot_name = 0x14
+ot_name_size = 7
+ot_name_limit = 7
+
+[save.box_names]
+size = 9
+limit = 8
+addresses = [
+  0x2031658, 0x2031661, 0x203166A, 0x2031673, 0x203167C, 0x2031685, 0x203168E,
+  0x2031697, 0x20316A0, 0x20316A9, 0x20316B2, 0x20316BB, 0x20316C4, 0x20316CD,
+  0x203164F, 0x2031646, 0x203163D, 0x2031634, 0x203162B, 0x2031622, 0x2031619,
+  0x2031610, 0x2031607, 0x20315FE, 0x20315F5,
+]
+
+[save.mail]
+base = 0x20281FC
+count = 16
+stride = 36
+author = 0x12
+author_size = 8
+author_limit = 7
+author_pad = 6
+trainer_id = 0x1A
+item = 0x20
+
+[save.daycare_mail]
+mail = 0x50
+ot_name = 0x74
+ot_name_size = 8
+nickname = 0x7C
+nickname_size = 11
+evidence = "StorePokemonInDaycare (0x080454CC): when the deposited Pokemon holds mail, the mail is copied to the daycare record +0x50 (the mail layout above), the player's name to +0x74 and the nickname to +0x7C"
+
+[save.link_records]
+base = 0x2025020
+count = 5
+stride = 16
+name_size = 8
+limit = 7
+trainer_id = 8
+evidence = "SaveBlock2+0xA98: ClearPlayerLinkBattleRecords (0x080CD8DC) and UpdatePlayerLinkBattleRecords (0x080CD98C) keep 5 records of 16 bytes, the opponent's name at +0 and the low half of the opponent's trainer id at +8; a game-made save holds 5 cleared records (name 0xFF, the rest 0)"
+
+[save.hall_of_fame]
+sectors = [28, 29]
+data_size = 0xF80
+signature = 0x01121998
+team_size = 0x90
+mons = 6
+mon_size = 0x18
+trainer_id = 0
+personality = 4
+species = 8
+nickname = 0xB
+nickname_size = 10
+nickname_limit = 10
+egg_species = 412
+
+# Egg hatching in the field: each step adds one.
+# At 255, an egg with no cycles left hatches.
+[save.egg_hatch]
+step_counter = 0x20285C6
+cycles = 0x29
+eggs_waiting = 0x203B468
+
+# Maps translate first, before the order by trainer level.

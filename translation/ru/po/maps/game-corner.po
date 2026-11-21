@@ -1,0 +1,515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/game-corner\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 174, 162, 155
+#: 0x1f0da30
+msgctxt "map:10.14/npc:1/1"
+msgid "map:10.14/npc:1/1"
+msgstr ""
+"Игровой уголок Дехары рад гостям!\\pВам нужны игровые монеты?\\nХотите их "
+"купить?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 57, 113
+#: 0x1f0da88
+msgctxt "map:10.14/npc:1/9"
+msgid "map:10.14/npc:1/9"
+msgstr "Спасибо.\\nВот ваши монеты!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 76, 152
+#: 0x1f0daa8
+msgctxt "map:10.14/npc:0/0"
+msgid "map:10.14/npc:0/0"
+msgstr "Ой, простите.\\nУ вас нет Кейса монет."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 41, 126
+#: 0x1f0dad3
+msgctxt "map:10.14/npc:1/7"
+msgid "map:10.14/npc:1/7"
+msgstr "Ой-ой!\\nВаш Кейс монет уже полон."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 18, 149
+#: 0x1f0daf3
+msgctxt "map:10.14/npc:1/11"
+msgid "map:10.14/npc:1/11"
+msgstr "Нет?\\nТогда заходите поиграть как-нибудь!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 148
+#: 0x1f0db12
+msgctxt "map:10.14/npc:1/8"
+msgid "map:10.14/npc:1/8"
+msgstr "На монеты у вас не хватает денег."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 105
+#: 0x1f0db2e
+msgctxt "map:10.14/npc:1/2"
+msgid "map:10.14/npc:1/2"
+msgstr "{FONT 00}50 монет{CLEAR_TO 40}¥5000"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 105
+#: 0x1f0db47
+msgctxt "map:10.14/npc:1/3"
+msgid "map:10.14/npc:1/3"
+msgstr "{FONT 00}500 монет{CLEAR_TO 40}¥50000"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 105
+#: 0x1f0db60
+msgctxt "map:10.14/npc:1/4"
+msgid "map:10.14/npc:1/4"
+msgstr "{FONT 00}2000 монет{CLEAR_TO 40}¥200000"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 105
+#: 0x1f0db79
+msgctxt "map:10.14/npc:1/5"
+msgid "map:10.14/npc:1/5"
+msgstr "{FONT 00}5000 монет{CLEAR_TO 40}¥500000"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 165, 37, 195
+#: 0x1f0db92
+msgctxt "map:10.14/npc:0/1"
+msgid "map:10.14/npc:0/1"
+msgstr "Я могу обменять ваши монеты на призы.\\pЧто вас интересует?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 125
+#: 0x1f0dbdc
+msgctxt "map:10.14/npc:0/7"
+msgid "map:10.14/npc:0/7"
+msgstr "{STR_VAR_1}? Что именно выберете?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 88, 138
+#: 0x1f0dbf5
+msgctxt "map:10.14/npc:0/8"
+msgid "map:10.14/npc:0/8"
+msgstr ""
+"Хотите предмет {COLOR 06}{STR_VAR_1}{COLOR 04}?\\nСколько вам нужно?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 71, 110
+#: 0x1f0dc27
+msgctxt "map:10.14/npc:0/14"
+msgid "map:10.14/npc:0/14"
+msgstr ""
+"{COLOR 06}{STR_VAR_1} ({STR_VAR_3} шт.){COLOR 04}?\\nЭто будет стоить "
+"{COLOR 06}{STR_VAR_2}{COLOR 04} монет."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 88, 110
+#: 0x1f0dc5c
+msgctxt "map:10.14/npc:0/18"
+msgid "map:10.14/npc:0/18"
+msgstr ""
+"Хотите покемона {COLOR 06}{STR_VAR_1}{COLOR 04}?\\nЭто будет стоить "
+"{COLOR 06}{STR_VAR_2}{COLOR 04} монет."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 112
+#: 0x1f0dc92
+msgctxt "map:10.14/npc:0/24"
+msgid "map:10.14/npc:0/24"
+msgstr "Хотите ТМ с приёмом {STR_VAR_1}?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 179, 114
+#: 0x1f0dca9
+msgctxt "map:10.14/npc:0/12"
+msgid "map:10.14/npc:0/12"
+msgstr "Простите, но на этот приз у вас не хватает монет."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 174
+#: 0x1f0dce0
+msgctxt "map:10.14/npc:0/17"
+msgid "map:10.14/npc:0/17"
+msgstr "Пожалуйста, освободите место в команде для этого покемона."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 138
+#: 0x1f0dd20
+msgctxt "map:10.14/npc:0/23"
+msgid "map:10.14/npc:0/23"
+msgstr "У вас уже есть ТМ с этим приёмом."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f0dd39
+msgctxt "map:10.14/npc:0/2"
+msgid "map:10.14/npc:0/2"
+msgstr "Предметы"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 40
+#: 0x1f0dd3f
+msgctxt "map:10.14/npc:0/3"
+msgid "map:10.14/npc:0/3"
+msgstr "Покемоны"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 17
+#: 0x1f0dd47
+msgctxt "map:10.14/npc:0/4"
+msgid "map:10.14/npc:0/4"
+msgstr "ТМ"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 21
+#: 0x1f0dd4b
+msgctxt "map:10.14/npc:0/6"
+msgid "map:10.14/npc:0/6"
+msgstr "Предметы"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 12
+#: 0x1f0dd50
+msgctxt "map:10.14/npc:0/21"
+msgid "map:10.14/npc:0/21"
+msgstr "ТМ"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 152, 73, 149, 182, 96
+#: 0x1f0e017
+msgctxt "map:10.14/npc:2/0"
+msgid "map:10.14/npc:2/0"
+msgstr ""
+"Я частенько прогуливаю школу, чтобы полопать здесь шарики.\\pЭто так "
+"затягивает, понимаешь?\\pИ весело, и монет заодно целая куча!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 183, 139, 162, 42
+#: 0x1f0e092
+msgctxt "map:10.14/npc:3/0"
+msgid "map:10.14/npc:3/0"
+msgstr ""
+"Как включила музыку, эта дурацкая штуковина стала тормозить!\\pПожалуй, "
+"лучше поиграю на старых автоматах."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 132
+#: 0x1f0e0f4
+msgctxt "map:10.14/npc:4/1"
+msgid "map:10.14/npc:4/1"
+msgstr "Что, хочешь поиграть?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 95
+#: 0x1f0e10c
+msgctxt "map:10.14/npc:4/4"
+msgid "map:10.14/npc:4/4"
+msgstr "{COLOR 02}{PLAYER}: +{COLOR 06}{STR_VAR_1}{COLOR 02} монет!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 171, 70, 193, 182, 175, 70
+#: 0x1f0e12b
+msgctxt "map:10.14/npc:4/0"
+msgid "map:10.14/npc:4/0"
+msgstr ""
+"Увидишь {COLOR 06}зелёный{COLOR 08} шарик - сразу лопай!\\pОн не только "
+"удвоит твои монеты, но и ускорит тебя, а всё, что соберёшь во время "
+"ускорения, тоже засчитается вдвойне!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 29, 140
+#: 0x1f0e1d0
+msgctxt "map:10.14/npc:4/2"
+msgid "map:10.14/npc:4/2"
+msgstr "{COLOR 02}Ой!\\nНет Кейса монет!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 138
+#: 0x1f0e1f3
+msgctxt "map:10.14/npc:4/3"
+msgid "map:10.14/npc:4/3"
+msgstr "{COLOR 02}Монет уже слишком много!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 193, 103, 180, 151, 177, 137, 184, 181
+#: 0x1f0e20f
+msgctxt "map:10.14/npc:6/0"
+msgid "map:10.14/npc:6/0"
+msgstr ""
+"Говорят, в некоторых регионах есть игры совсем как эта!\\pНо там, по "
+"слухам, нет никакой цели: просто летаешь над пустой картой.\\pКому это "
+"надо? Скукотища!\\nПо мне, так лучше шарики лопать!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 179, 184, 76, 153, 155
+#: 0x1f0e300
+msgctxt "map:10.14/npc:7/0"
+msgid "map:10.14/npc:7/0"
+msgstr ""
+"Мой приятель отхватил целую кучу монет на одном из этих старых игровых "
+"автоматов.\\pОт добра добра не ищут!\\nСяду-ка и я на то же место!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 55, 89
+#: 0x1f0e38b
+msgctxt "map:10.14/npc:8/1"
+msgid "map:10.14/npc:8/1"
+msgstr "Как жизнь?\\nМонет хочешь?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 199, 116
+#: 0x1f0e3a7
+msgctxt "map:10.14/npc:8/0"
+msgid "map:10.14/npc:8/0"
+msgstr "Тьфу ты! Эти шарики в горошек всё время отнимают у меня монеты!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 164
+#: 0x1f0e3e1
+msgctxt "map:10.14/npc:9/1"
+msgid "map:10.14/npc:9/1"
+msgstr "Эй, в чём дело? Ты меня сбиваешь!\\nВот тебе монеты, и кыш отсюда!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 190, 104, 198, 180
+#: 0x1f0e422
+msgctxt "map:10.14/npc:9/0"
+msgid "map:10.14/npc:9/0"
+msgstr ""
+"Весь секрет в том, чтобы всегда играть в самом сложном режиме.\\pДа, "
+"времени дают меньше, зато скорость с лихвой это окупает."
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 29, 151, 172, 51, 194, 138, 191, 169, 144, 134
+#: 0x1f0e49d
+msgctxt "map:10.14/npc:10/3"
+msgid "map:10.14/npc:10/3"
+msgstr ""
+"О, {PLAYER}!\\nСколько лет, сколько зим!\\pПоздравляю с титулом "
+"чемпиона!\\pЕсли ещё не доводилось сыграть, очень советую “Облачный "
+"взрыв”.\\pАлтарию там, знаешь ли, срисовали с моего покемона.\\pСыграй - "
+"и сразу увидишь сходство, честное слово!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 174, 169, 192, 71
+#: 0x1f0e59e
+msgctxt "map:10.14/npc:10/1"
+msgid "map:10.14/npc:10/1"
+msgstr ""
+"Сыграй в “Облачный взрыв”: Алтария там совсем как у меня!\\pЯ, между "
+"прочим, прихожу сюда каждый день только ради этого."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 157, 74
+#: 0x1f0e642
+msgctxt "map:10.14/sign:30/2"
+msgid "map:10.14/sign:30/2"
+msgstr "Это старинный игровой автомат!\\nСыграть?"
+
+#. category: script; mode: field
+#. used in 23 places
+#. original lines: 1, widths px: 133
+#: 0x1f0e66e
+msgctxt "map:10.14/sign:12/0"
+msgid "map:10.14/sign:12/0"
+msgstr "Нужен {COLOR 06}Кейс монет{COLOR 02}…"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 157, 173, 167, 167, 45
+#: 0x1f0e68d
+msgctxt "map:10.14/sign:30/1"
+msgid "map:10.14/sign:30/1"
+msgstr ""
+"Это старинный игровой автомат!\\pНо с таким полным Кейсом монет ему не "
+"справиться!\\pПотратьте лишнее, прежде чем играть."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 72, 80
+#: 0x1f0e712
+msgctxt "hash:74e17863"
+msgid "hash:74e17863"
+msgstr "НЕ РАБОТАЕТ\\nАвтомат сломан."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 113
+#: 0x1f0e72f
+msgctxt "map:10.14/npc:11/3"
+msgid "map:10.14/npc:11/3"
+msgstr "Жизнь без сожалений"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 190, 73, 166, 99, 180, 186, 117, 183, 181, 22, 177
+#: 0x1f0e798
+msgctxt "map:10.14/npc:11/16"
+msgid "map:10.14/npc:11/16"
+msgstr ""
+"Мама всегда говорила, что нужно найти дело по душе.\\pНо работа требует "
+"усилий - вот я и стал азартным игроком.\\pИногда я выигрываю и остаюсь "
+"при деньгах, а иногда влезаю в долги к Чёрному Ферроторну.\\pЯ хочу "
+"завязать, но я лучший, а бросать, пока я номер один, нельзя.\\pЛопнешь "
+"больше шариков, чем я?"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 117, 187, 154, 190, 171, 174, 124
+#: 0x1f0e8bb
+msgctxt "map:10.14/npc:11/18"
+msgid "map:10.14/npc:11/18"
+msgstr ""
+"А ты не робкого десятка.\\pЧтобы побить мой рекорд, нужно за день набрать "
+"в “{COLOR 06}Облачном взрыве{COLOR 08}” не меньше {COLOR "
+"06}{STR_VAR_1}{COLOR 08} монет.\\pЯ бы подкинул тебе на игру, но сам всё "
+"ещё в долгу у Чёрного Ферроторна."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 188, 191, 67
+#: 0x1f0e997
+msgctxt "map:10.14/npc:11/17"
+msgid "map:10.14/npc:11/17"
+msgstr ""
+"Надо же, какие мы праведные! Не хотим поддаваться соблазнам азартных игр?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 154, 152, 117
+#: 0x1f0e9eb
+msgctxt "map:10.14/npc:11/15"
+msgid "map:10.14/npc:11/15"
+msgstr ""
+"Сейчас не время сдаваться.\\pСегодня у тебя уже {STR_VAR_1}, а до {COLOR "
+"06}{STR_VAR_2}{COLOR 08} не так уж далеко!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 167, 53, 187, 169, 39, 125, 188, 175, 159
+#: 0x1f0ea44
+msgctxt "map:10.14/npc:11/0"
+msgid "map:10.14/npc:11/0"
+msgstr ""
+"Надо же… меня обставили на моём же поле…\\pПожалуй, можно и завязать: мой "
+"рекорд побил ребёнок, которому тут, наверное, и играть ещё рано.\\pВот, "
+"возьми моего покемона.\\pЯ думал, с ним взлечу к новым высотам, а вместо "
+"этого только глубже увяз в долгах."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 165
+#: 0x1f0eb2c
+msgctxt "map:10.14/npc:11/1"
+msgid "map:10.14/npc:11/1"
+msgstr "Вернее, отдал бы, будь у тебя в команде место."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 191, 149, 140, 154
+#: 0x1f0eb6d
+msgctxt "map:10.14/npc:11/8"
+msgid "map:10.14/npc:11/8"
+msgstr ""
+"Знаешь, я тут давний клиент, и кое-какое влияние у меня есть.\\pЕсли "
+"хочешь, могу устроить для тебя “{COLOR 06}Счастливый час{COLOR 08}”."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 197, 160, 174, 184, 156
+#: 0x1f0ebe7
+msgctxt "map:10.14/npc:11/13"
+msgid "map:10.14/npc:11/13"
+msgstr ""
+"Когда начнётся “Счастливый час”, выигрыш в “{COLOR 06}Облачном "
+"взрыве{COLOR 08}” целый час будет двойным.\\pПо сути, за каждую игру ты "
+"будешь получать {COLOR 06}вдвое больше монет{COLOR 08}!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 186, 166, 72, 205, 64
+#: 0x1f0ec94
+msgctxt "map:10.14/npc:11/14"
+msgid "map:10.14/npc:11/14"
+msgstr ""
+"Хочешь подождать, пока не сможешь провести здесь все шестьдесят минут? "
+"Понимаю.\\pВозвращайся, когда захочешь начать “Счастливый час”."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 182, 126, 176, 177, 169, 64
+#: 0x1f0ed13
+msgctxt "map:10.14/npc:11/12"
+msgid "map:10.14/npc:11/12"
+msgstr ""
+"Тогда скажу персоналу, что пора начинать “Счастливый час”!\\pЦелый час "
+"выигрыш в “Облачном взрыве” будет двойным.\\pТак что шевелись, "
+"молодёжь!\\nДавай, давай, давай!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 153, 50, 151, 64
+#: 0x1f0edb9
+msgctxt "map:10.14/npc:11/6"
+msgid "map:10.14/npc:11/6"
+msgstr ""
+"“Счастливый час” на исходе! Осталось минут: {STR_VAR_1}.\\pШевелись, "
+"молодёжь!\\nДавай, давай, давай!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 182, 42, 123, 64
+#: 0x1f0ee09
+msgctxt "map:10.14/npc:11/5"
+msgid "map:10.14/npc:11/5"
+msgstr ""
+"До конца “Счастливого часа” осталось меньше минуты!\\pПоторопись, "
+"молодёжь!\\nДавай, давай, давай!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 180, 51, 201, 93
+#: 0x1f0ee56
+msgctxt "map:10.14/npc:11/7"
+msgid "map:10.14/npc:11/7"
+msgstr ""
+"Завтра можно снова провести “Счастливый час”!\\pПриходи тогда ко мне, и я "
+"опять его для тебя устрою."
+
+#. category: script; mode: field
+#. used in 19 places
+#. original lines: 1, widths px: 67
+#: 0x1f0eed7
+msgctxt "map:10.14/sign:12/1"
+msgid "map:10.14/sign:12/1"
+msgstr "{PLAYER}: выигрыш - {STR_VAR_1}!"
+
+#. category: script; mode: field
+#. used in 19 places
+#. original lines: 1, widths px: 158
+#: 0x1f0eee8
+msgctxt "map:10.14/sign:12/2"
+msgid "map:10.14/sign:12/2"
+msgstr "А раз сейчас “Счастливый час”…"
+
+#. category: script; mode: field
+#. original lines: 13, widths px: 81, 169, 168, 166, 163, 56, 193, 170, 167, 135, 164, 188, 82
+#: 0x1f387f2
+msgctxt "map:10.14/npc:5/4"
+msgid "map:10.14/npc:5/4"
+msgstr ""
+"{PLAYER}! Вот и ты!\\pПрости, что не заметил: убивал время у этих "
+"автоматов…\\p“{COLOR 06}Облачный взрыв{COLOR 08}” так затягивает - вот я, "
+"видно, и выпал из реальности.\\pЗато, пока играл, набрал монет не на "
+"одну, а сразу на две {COLOR 06}Капсулы таланта{COLOR 08}!\\pЗнаешь, что "
+"это такое?\\pЕсли у покемона может быть один из двух талантов, такая "
+"капсула меняет его на другой."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 145, 186, 149
+#: 0x1f38960
+msgctxt "map:10.14/npc:5/6"
+msgid "map:10.14/npc:5/6"
+msgstr ""
+"Но “Облачный взрыв” подождёт.\\pДавай поговорим на улице: там потише."
+
+#. category: script; mode: field
+#. used in 9 places
+#. original lines: 1, widths px: 34
+#: 0x1f7a406
+msgctxt "map:1.62/npc:0/0"
+msgid "map:1.62/npc:0/0"
+msgstr "Максима"

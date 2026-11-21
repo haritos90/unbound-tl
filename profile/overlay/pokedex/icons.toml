@@ -1,0 +1,18 @@
+[pokedex.icons.split]
+base = 0xAC9B20
+stride = 192
+width = 24
+height = 16
+symbol = [3, 15, 15]
+
+# The currency glyph used by native prices.
+[pokedex.icons.pokedollar]
+font = "font0"
+glyph = 0xB7
+
+# The item icons.
+[pokedex.icons.items]
+table = 0x25A554
+count = 729
+
+# Area maps of the runtime maps with encounters.

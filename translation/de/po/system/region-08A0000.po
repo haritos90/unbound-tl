@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-08A0000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 185
+#: 0x08a43e0
+msgctxt "hash:50c88105"
+msgid "hash:50c88105"
+msgstr ""
+
+#. reach: never shown (review: Older battle command 0x77 loads the strings only through pools 0x8A94A8-0x8A94B0 of 0x8A9350. Only stub 0x8026F68 (ldr r0 / bx r0) enters 0x8A9350. Only entry 0x77 of FireRed's command table 0x25011C and of the older table 0x95F480 points at that stub. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x77 is 0x89ED2C5.)
+#. category: code; mode: battle
+#. original lines: 1, widths px: 121
+#: 0x08a985e
+msgctxt "hash:e6481523"
+msgid "hash:e6481523"
+msgstr ""
+
+#. reach: never shown (review: Older battle command 0x77 loads the strings only through pools 0x8A94A8-0x8A94B0 of 0x8A9350. Only stub 0x8026F68 (ldr r0 / bx r0) enters 0x8A9350. Only entry 0x77 of FireRed's command table 0x25011C and of the older table 0x95F480 points at that stub. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x77 is 0x89ED2C5.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 80, 88
+#: 0x08a9876
+msgctxt "hash:b02f83c0"
+msgid "hash:b02f83c0"
+msgstr ""
+
+#. reach: never shown (review: Older battle command 0x77 loads the strings only through pools 0x8A94A8-0x8A94B0 of 0x8A9350. Only stub 0x8026F68 (ldr r0 / bx r0) enters 0x8A9350. Only entry 0x77 of FireRed's command table 0x25011C and of the older table 0x95F480 points at that stub. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x77 is 0x89ED2C5.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 138, 149
+#: 0x08a9898
+msgctxt "hash:5d534e90"
+msgid "hash:5d534e90"
+msgstr ""
+
+#. reach: never shown (review: The older resultmessage hook at 0x8A957C has pools 0x8A9680-0x8A968C as the strings' only pointers. The hook is entered only at 0x801FBD0 (ldr r0 / bx r0) in FireRed's command 0x0F at 0x801FBA0. No BL reaches that command, and only entry 0x0F of tables 0x25011C and 0x95F480 points at it. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x0F is 0x89EB5C5.)
+#. category: code; mode: battle
+#. original lines: 1, widths px: 126
+#: 0x08a98d0
+msgctxt "hash:4c1a1f5d"
+msgid "hash:4c1a1f5d"
+msgstr ""
+
+#. reach: never shown (review: The older resultmessage hook at 0x8A957C has pools 0x8A9680-0x8A968C as the strings' only pointers. The hook is entered only at 0x801FBD0 (ldr r0 / bx r0) in FireRed's command 0x0F at 0x801FBA0. No BL reaches that command, and only entry 0x0F of tables 0x25011C and 0x95F480 points at it. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x0F is 0x89EB5C5.)
+#. category: code; mode: battle
+#. original lines: 1, widths px: 131
+#: 0x08a98e9
+msgctxt "hash:960ddc6f"
+msgid "hash:960ddc6f"
+msgstr ""
+
+#. reach: never shown (review: The older resultmessage hook at 0x8A957C has pools 0x8A9680-0x8A968C as the strings' only pointers. The hook is entered only at 0x801FBD0 (ldr r0 / bx r0) in FireRed's command 0x0F at 0x801FBA0. No BL reaches that command, and only entry 0x0F of tables 0x25011C and 0x95F480 points at it. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x0F is 0x89EB5C5.)
+#. category: code; mode: battle
+#. original lines: 1, widths px: 141
+#: 0x08a9903
+msgctxt "hash:10761d8b"
+msgid "hash:10761d8b"
+msgstr ""
+
+#. reach: never shown (review: The older resultmessage hook at 0x8A957C has pools 0x8A9680-0x8A968C as the strings' only pointers. The hook is entered only at 0x801FBD0 (ldr r0 / bx r0) in FireRed's command 0x0F at 0x801FBA0. No BL reaches that command, and only entry 0x0F of tables 0x25011C and 0x95F480 points at it. No code word points into either table. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0x0F is 0x89EB5C5.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 110, 79
+#: 0x08a991f
+msgctxt "hash:c0e8c608"
+msgid "hash:c0e8c608"
+msgstr ""

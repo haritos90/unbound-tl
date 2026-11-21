@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0A6D4D0\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 90, 178, 0
+#: 0x0a4e686
+msgctxt "hash:7a1208eb"
+msgid "hash:7a1208eb"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 104, 0
+#: 0x0a4e6ba
+msgctxt "hash:9d594082"
+msgid "hash:9d594082"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 128, 160, 0
+#: 0x0a4e6f4
+msgctxt "hash:3ad00b30"
+msgid "hash:3ad00b30"
+msgstr ""

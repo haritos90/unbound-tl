@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0900000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 97, 180
+#: 0x0906619
+msgctxt "hash:6de17b70"
+msgid "hash:6de17b70"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 161, 102
+#: 0x09068a0
+msgctxt "hash:109f3fe4"
+msgid "hash:109f3fe4"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 132, 101
+#: 0x09068e0
+msgctxt "hash:fbbcacfe"
+msgid "hash:fbbcacfe"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 55, 121
+#: 0x0906bf0
+msgctxt "hash:7cff92af"
+msgid "hash:7cff92af"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 179, 58
+#: 0x090b2a0
+msgctxt "hash:2c89c870"
+msgid "hash:2c89c870"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 168, 98
+#: 0x090c850
+msgctxt "hash:ef3eaa6c"
+msgid "hash:ef3eaa6c"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 176, 142
+#: 0x090cae0
+msgctxt "hash:c8f8218c"
+msgid "hash:c8f8218c"
+msgstr ""
+
+#. reach: never shown (review: The older swap-move messages have only pointers in pools 0x90FB64-0x90FB7C of 0x90FA50. Function 0x90FA50 is entry 0 of table 0x909C24, which only 0x908410 reads through pool 0x908430 and base 0x909C20. Function 0x908410 is entry 0xFF of the older command table 0x95F480, into which no word points. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0xFF is 0x89FC429.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 127
+#: 0x090f8f0
+msgctxt "hash:efa0d270"
+msgid "hash:efa0d270"
+msgstr ""
+
+#. reach: never shown (review: The older swap-move messages have only pointers in pools 0x90FB64-0x90FB7C of 0x90FA50. Function 0x90FA50 is entry 0 of table 0x909C24, which only 0x908410 reads through pool 0x908430 and base 0x909C20. Function 0x908410 is entry 0xFF of the older command table 0x95F480, into which no word points. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0xFF is 0x89FC429.)
+#. category: code; mode: battle
+#. original lines: 3, widths px: 72, 184, 33
+#: 0x090f920
+msgctxt "hash:5a183d33"
+msgid "hash:5a183d33"
+msgstr ""
+
+#. reach: never shown (review: The older swap-move messages have only pointers in pools 0x90FB64-0x90FB7C of 0x90FA50. Function 0x90FA50 is entry 0 of table 0x909C24, which only 0x908410 reads through pool 0x908430 and base 0x909C20. Function 0x908410 is entry 0xFF of the older command table 0x95F480, into which no word points. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0xFF is 0x89FC429.)
+#. category: code; mode: battle
+#. original lines: 3, widths px: 72, 191, 33
+#: 0x090f960
+msgctxt "hash:b255002f"
+msgid "hash:b255002f"
+msgstr ""
+
+#. reach: never shown (review: The older swap-move messages have only pointers in pools 0x90FB64-0x90FB7C of 0x90FA50. Function 0x90FA50 is entry 0 of table 0x909C24, which only 0x908410 reads through pool 0x908430 and base 0x909C20. Function 0x908410 is entry 0xFF of the older command table 0x95F480, into which no word points. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0xFF is 0x89FC429.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 68
+#: 0x090f9a0
+msgctxt "hash:f3d7944f"
+msgid "hash:f3d7944f"
+msgstr ""
+
+#. reach: never shown (review: The older swap-move messages have only pointers in pools 0x90FB64-0x90FB7C of 0x90FA50. Function 0x90FA50 is entry 0 of table 0x909C24, which only 0x908410 reads through pool 0x908430 and base 0x909C20. Function 0x908410 is entry 0xFF of the older command table 0x95F480, into which no word points. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0xFF is 0x89FC429.)
+#. category: code; mode: battle
+#. original lines: 3, widths px: 50, 94, 6
+#: 0x090f9c0
+msgctxt "hash:07327dad"
+msgid "hash:07327dad"
+msgstr ""
+
+#. reach: never shown (review: The older swap-move messages have only pointers in pools 0x90FB64-0x90FB7C of 0x90FA50. Function 0x90FA50 is entry 0 of table 0x909C24, which only 0x908410 reads through pool 0x908430 and base 0x909C20. Function 0x908410 is entry 0xFF of the older command table 0x95F480, into which no word points. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0xFF is 0x89FC429.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 60, 124
+#: 0x090f9f0
+msgctxt "hash:34626f55"
+msgid "hash:34626f55"
+msgstr ""
+
+#. reach: never shown (review: The older swap-move messages have only pointers in pools 0x90FB64-0x90FB7C of 0x90FA50. Function 0x90FA50 is entry 0 of table 0x909C24, which only 0x908410 reads through pool 0x908430 and base 0x909C20. Function 0x908410 is entry 0xFF of the older command table 0x95F480, into which no word points. The live dispatcher at 0x8015A04 reads 0x899FFFC, whose entry 0xFF is 0x89FC429.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 60, 124
+#: 0x090fa20
+msgctxt "hash:99b953b9"
+msgid "hash:99b953b9"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 130, 58
+#: 0x090fc0b
+msgctxt "hash:f871730d"
+msgid "hash:f871730d"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 130, 102
+#: 0x090fc30
+msgctxt "hash:71d1dfe7"
+msgid "hash:71d1dfe7"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 99, 58
+#: 0x090fc60
+msgctxt "hash:63621047"
+msgid "hash:63621047"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 99, 102
+#: 0x090fc80
+msgctxt "hash:93f72b2c"
+msgid "hash:93f72b2c"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 163, 110
+#: 0x090fcb0
+msgctxt "hash:fc050938"
+msgid "hash:fc050938"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 163, 154
+#: 0x090fcf0
+msgctxt "hash:bf899213"
+msgid "hash:bf899213"
+msgstr ""

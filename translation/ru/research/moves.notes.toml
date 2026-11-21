@@ -1,0 +1,638 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:4785876e-54e3-5fee-abb2-4820e6c416ec"
+subject = { kind = "research", id = "research:ad492b9b8df44cd6a39a19545f8f991e" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name is project-selected.", "The name is a fixed phrase, and all stored forms remain «На бис».", "The former «Бис» and the source capitalization variant «На Бис» remain recorded."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "На бис", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Бис", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "hgru", quoted_term = "На Бис", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9cb43fe3-a011-51db-b899-c5f901854591"
+subject = { kind = "research", id = "research:2acf3e2e927744b383f42d106d1177c2" }
+scope = { kind = "language", language = "ru" }
+guidance = ["For the accepted project exception, shorten the adjective and preserve «пилотаж» in the short form."]
+facts = ["The selected form is the official Pokémon GO name.", "The most common community form is 'Воздушный ас' (bulba, bwru, hgru, ptru).", "The source forms within the limit are «Воздушный ас» (bulba, bwru, hgru, ptru) and «Пилотаж» (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Высший пилотаж", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Bulbapedia move articles", address = "bulba", quoted_term = "Воздушный ас", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets", address = "bwru", quoted_term = "Воздушный ас", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets", address = "hgru", quoted_term = "Воздушный ас", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "ptru", quoted_term = "Воздушный ас", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Пилотаж", relation = "alternative", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "Выс. пилотаж", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ac86a107-9944-5fad-a621-4312e703b0ea"
+subject = { kind = "research", id = "research:95ab00c554054b25951afb315953d8fc" }
+scope = { kind = "language", language = "ru" }
+facts = ["Leech Fang is an Unbound/CFRU-specific move (MOVE_LEECHFANG) with no official counterpart.", "The name is built from the established «Пиявка» (Leech Life, GO official) and «клык» (Fire Fang, Hyper Fang in GO).", "The construction follows the pattern of 'Рог-вампир' (Horn Leech, pokerogue).", "The alternative is «Вампирский клык»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Клык-пиявка", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Пиявка", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "клык", relation = "context", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Рог-вампир", relation = "context", verification = "recorded" }, { kind = "project", name = "Project alternative", address = "own", quoted_term = "Вампирский клык", relation = "alternative", verification = "recorded" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "alternative length", value = 15, unit = "characters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:586fdee9-d035-5d9a-957d-21f5b1ab91d7"
+subject = { kind = "research", id = "research:891f3ef39eac4f2892b28d737a6933ca" }
+scope = { kind = "language", language = "ru" }
+facts = ["The complete name is accepted.", "The name is attested in the Platinum fan translation.", "The name describes pecking and eating, matching Japanese ついばむ and the berry-consumption effect.", "The attack also works without a berry."]
+sources = [{ kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets", address = "ptru", quoted_term = "Склёвывание", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9952b003-5658-5c21-9085-6cb3904255f0"
+subject = { kind = "research", id = "research:3119cde3da194c2f8c472f27b692243b" }
+scope = { kind = "language", language = "ru" }
+facts = ["Dazzle Gleam is an Unbound abbreviation of 'Dazzling Gleam'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Блеск' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Ослепительный проблеск", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Блеск", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:27b57272-31d8-5e4e-908c-95dd651d1973"
+subject = { kind = "research", id = "research:3d272c2bd88f4a078c3a1893cf305827" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep petals in literal effect descriptions."]
+facts = ["The project title is accepted.", "The name retains the storm image and replaces petals with flowers.", "The official Pokémon GO rendering «Буря лепестков» remains a variant."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Буря цветов", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Буря лепестков", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:53c37420-6526-54ef-9cd5-2b9544540fba"
+subject = { kind = "research", id = "research:734a48cf28434e5b9f47cefce405e038" }
+scope = { kind = "language", language = "ru" }
+facts = ["Space Hole is an Unbound abbreviation of 'Hyperspace Hole'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Чёрная дыра' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Гиперпространственная дыра", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Чёрная дыра", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1a0ac7f8-2868-5f6a-9cef-9a4d16f34b24"
+subject = { kind = "research", id = "research:79c9ee0f99fe4220a259f5740dac046d" }
+scope = { kind = "language", language = "ru" }
+facts = ["Water Star is an Unbound abbreviation of 'Water Shuriken'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Аква сюрикен' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Водяной сюрикен", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Аква сюрикен", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1080ce8a-da42-5b45-ab74-7f00dbe855e6"
+subject = { kind = "research", id = "research:f8771d98a2d748f78fdd573808b6bde6" }
+scope = { kind = "language", language = "ru" }
+facts = ["Para Charge is an Unbound abbreviation of 'Parabolic Charge'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Электродуга' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Параболический заряд", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Электродуга", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:cec23c0c-135c-5374-a808-e33d97dc6c73"
+subject = { kind = "research", id = "research:cfea33635675457aa84f87e9330efaba" }
+scope = { kind = "language", language = "ru" }
+facts = ["Clang Scales is an Unbound abbreviation of 'Clanging Scales'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Лязг чешуи' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Лязгающая чешуя", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Лязг чешуи", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:21b37f59-6eef-5324-bfca-30b954134eac"
+subject = { kind = "research", id = "research:cccbfb6032524c2884fb011575d5c26f" }
+scope = { kind = "language", language = "ru" }
+facts = ["Geist Beam is an Unbound abbreviation of 'Moongeist Beam'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Лунный дух' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Луч лунного духа", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Лунный дух", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d13afdde-69e1-536f-9e23-037005b8d01a"
+subject = { kind = "research", id = "research:b3eb9d68b765490bb779d812f7285773" }
+scope = { kind = "language", language = "ru" }
+facts = ["Nature’s Mad is an Unbound abbreviation of 'Nature’s Madness'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Гнев природы' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Безумие природы", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Гнев природы", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1122d5ff-16aa-5f0a-8039-14098f3e56af"
+subject = { kind = "research", id = "research:04b1c281ed6c46f385a90151c4cde1d2" }
+scope = { kind = "language", language = "ru" }
+facts = ["Prism Laser is an Unbound abbreviation of 'Prismatic Laser'.", "No official name is recorded.", "The selected form has the most source support, followed by 'Призма-лазер' (pokerogue).", "The source form within the limit is «Призма-лазер» (pokerogue)."]
+sources = [{ kind = "web", name = "Bulbapedia move articles", address = "bulba", quoted_term = "Призматический лазер", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Призматический лазер", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Призма-лазер", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d880f61f-e690-5451-96e1-7dfabc6e54d4"
+subject = { kind = "research", id = "research:6e2240739fc34a5cb7ac78f999538c9e" }
+scope = { kind = "language", language = "ru" }
+facts = ["Sparkle Aria is an Unbound abbreviation of 'Sparkling Aria'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Ария пузырей' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Искрящаяся ария", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Ария пузырей", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:55a4fdad-3f6c-5b75-a483-b7db084c6335"
+subject = { kind = "research", id = "research:bf41c90865c44c838b1ceaa940756117" }
+scope = { kind = "language", language = "ru" }
+facts = ["Teary Look is an Unbound abbreviation of 'Tearful Look'.", "No official name is recorded.", "The sources tie with 'Слёзный взгляд' (pokeliga).", "The name is shortened for the DexNav bar."]
+reason = ["The selected form comes from the higher-priority source in the tie.", "The former name runs under the sight icon next to long names in the DexNav bar."]
+sources = [{ kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Скорбный вид", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Слёзный взгляд", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:e0abbe1a-1014-574d-a038-70ac509ea84c"
+subject = { kind = "research", id = "research:b64448fe0293427d9f96067747a5cbec" }
+scope = { kind = "language", language = "ru" }
+facts = ["WildboltWind is an Unbound abbreviation of 'Wildbolt Storm'.", "The selected form is the official Pokémon GO name.", "The most common community form and the source form within the limit is 'Вихрь грома' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Громовая буря", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Вихрь грома", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:116084da-c3a9-573f-8201-0dd4cc395a33"
+subject = { kind = "research", id = "research:5a88478f73754de4afb8a82a5a75422b" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Guard' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Защита Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Protect, and the prefix keeps them apart as in GO.", "The most common community form is 'Мегазащита' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Защита Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Мегазащита", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8af5a5d2-5118-5555-b2a0-39a0b38f2770"
+subject = { kind = "research", id = "research:72db1846eb9a493fa98d2b9843b14530" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Strike' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Удар Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Максимальный удар' (bulba)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Удар Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Bulbapedia move articles", address = "bulba", quoted_term = "Максимальный удар", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6dc38b29-0d2a-543b-8787-8fd867191d81"
+subject = { kind = "research", id = "research:c47ee32e53464ef59d03934ee46d389c" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Airstream' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Вихрь Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Whirlwind, and the prefix keeps them apart as in GO."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Вихрь Макс", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4b0576c3-e43a-532e-b866-15cf9d8026dd"
+subject = { kind = "research", id = "research:80f35fa0687e48848998c800d34a9abb" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Quake' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Землетрясение Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Earthquake, and the prefix keeps them apart as in GO."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Землетрясение Макс", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ac605270-17af-5381-a1fb-d7fb3165762d"
+subject = { kind = "research", id = "research:8e9380ba28a14a16ab7dc7d47d2ac229" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Flare' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Вспышка Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Flash, and the prefix keeps them apart as in GO."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Вспышка Макс", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1ac4d4bd-6eb6-56ec-9ee3-09a9fd20c2ad"
+subject = { kind = "research", id = "research:d6042802af6c435da5eb72564e57e1fb" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Overgrowth' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Рост Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Growth, and the prefix keeps them apart as in GO."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Рост Макс", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:91f8bb9c-e014-52ad-9ee5-e230a4c76ac6"
+subject = { kind = "research", id = "research:af17104f8df2425aa1705dbb9fdc3125" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Mindstorm' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Психокинез Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Psychic, and the prefix keeps them apart as in GO."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Психокинез Макс", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:3ddb09b3-3ac6-5955-b076-b7cbfc00532a"
+subject = { kind = "research", id = "research:0f234f6d9f754d3486a0afa070cab170" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Hailstorm' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Град Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Hail, and the prefix keeps them apart as in GO."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Град Макс", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a722a603-58ca-5c51-aabe-bbfb59eb5c31"
+subject = { kind = "research", id = "research:7edc08b13ad0443d8171e27be57cd6c4" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Max move 'Max Wyrmwind' is stored without the prefix.", "The move menu shows 'M-' + name, and battle text adds 'Max '.", "The official Pokémon GO full name is 'Дракон Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Виверна' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Дракон Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Виверна", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:e4da2b64-1d92-54ed-9a0e-c61a2d208cfc"
+subject = { kind = "research", id = "research:11a7244ca11548edac40b9015abf022a" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Vine Lash' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Удар Лозами G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Лозы' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Удар Лозами G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Лозы", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:481fb6f0-843e-57be-9db2-b888757d3fff"
+subject = { kind = "research", id = "research:44d424df4ca24acab7b10a6a049b8a16" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Wildfire' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Лесной Пожар G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Пожар' (pokerogue, pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Лесной Пожар G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Пожар", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Пожар", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:dcc256a9-4305-5bf9-8c9b-00bb6db3f2c5"
+subject = { kind = "research", id = "research:0e4ace15236e4b918e168b5e1113582d" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Cannonade' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Канонада G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Пушка' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Канонада G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Пушка", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:278b80ba-6d19-543f-a7db-7a7241247a74"
+subject = { kind = "research", id = "research:1d317606b3a64cb2abe822f07fd0a9c4" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Befuddle' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Одурманивание G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form and the source form within the limit is 'Дурман' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Одурманивание G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Дурман", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5e77011f-cb3c-5185-acd2-a849a4879aad"
+subject = { kind = "research", id = "research:0754aad47eef43cb880a9ff5e43d5fdb" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Volt Crash' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Вольт-Таран G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Вольт-авария' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Вольт-Таран G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Вольт-авария", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5b7c9724-c4b4-5b54-8778-9784c7105a24"
+subject = { kind = "research", id = "research:d6c4a1fdd6dd42b6a21a33986ad3d3ac" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Gold Rush' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Золотая Лихорадка G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form and the source form within the limit is 'Лихорадка' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Золотая Лихорадка G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Лихорадка", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2bcefbea-efb4-53e1-a414-626c1843f58f"
+subject = { kind = "research", id = "research:e6632c3c00b04fc1904e6ecbc385e8ea" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Chi Strike' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Кулак G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Удар ци' (pokerogue, pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Кулак G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Удар ци", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Удар ци", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c8aa31a2-78ce-5df2-af9e-fa91c358b18c"
+subject = { kind = "research", id = "research:d01f6c40cca44b8e94391a8083fb0232" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Terror' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Ужас G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Террор' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Ужас G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Террор", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:07b68678-7b3c-5526-9b5e-67b4f66ba4dd"
+subject = { kind = "research", id = "research:4eb5dd1d26c744918c2840fb251fe731" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Foam Burst' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Пена G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Шквал пены' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Пена G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Шквал пены", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6486b6ed-9d3e-5b55-b7e6-0f3311cfb902"
+subject = { kind = "research", id = "research:70f3c4e913e840159cba948c20d94693" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Resonance' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Мелодия G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Резонанс' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Мелодия G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Резонанс", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2b12ce83-c983-56b2-9d38-6fd20cff587b"
+subject = { kind = "research", id = "research:bd70c807055f4f15af480eef4b7e42f1" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Cuddle' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Обнимашки G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Объятия' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Обнимашки G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Объятия", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9938079d-3030-522b-80b1-3a85015e8553"
+subject = { kind = "research", id = "research:c61a55f912c647a689a07b8a4b8fe163" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Replenish' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Пополнение Запаса G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Пополнение' (pokerogue).", "The source forms within the limit are «Пополнение» (pokerogue) and «Изобилие» (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Пополнение Запаса G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Пополнение", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Изобилие", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9eda9abc-437a-5717-b6d1-c1b223e9341d"
+subject = { kind = "research", id = "research:a49b538db679427bae5e1a823737e8f3" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Meltdown' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Разрушение G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Плавление' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Разрушение G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Плавление", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:002bf4e8-9320-5adc-bb3a-e43f9116c261"
+subject = { kind = "research", id = "research:899aff730794431395bce8aef8d4df5f" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Drum Solo' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Соло на Барабанах G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form and the source form within the limit is 'Перкуссия' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Соло на Барабанах G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Перкуссия", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:0251809c-a431-5739-8380-1f7cbdf31141"
+subject = { kind = "research", id = "research:5ab92fc903854aa78b17901afe0a3a39" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Fireball' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Огненный Шар G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Огнешар' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Огненный Шар G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Огнешар", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a33164f4-793d-5980-b7ac-efda81ee17f9"
+subject = { kind = "research", id = "research:10fe7c60d77f439293a741c0979a59b7" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Hydrosnipe' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Гидроснайпер G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Снайперский выстрел' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Гидроснайпер G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Снайперский выстрел", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:100859b7-90a2-5468-86ef-c07e91f2de44"
+subject = { kind = "research", id = "research:82c95685751e495fb4d45107ece4c5c0" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Wind Rage' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Ярость Ветра G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Ураган' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Ярость Ветра G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Ураган", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:68c6bcca-4057-58aa-b4c0-7b67417092db"
+subject = { kind = "research", id = "research:62c32c7a4aa04f3887dc4c88353669e2" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Gravitas' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Сила Тяжести G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Тяготение' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Сила Тяжести G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Тяготение", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ff26b401-5ffa-51af-9a82-a592acc11e6d"
+subject = { kind = "research", id = "research:4b0eae53a5f04bd3ab70592d4ff5fa02" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Stonesurge' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Каменный Импульс G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Импульс камня' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Каменный Импульс G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Импульс камня", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5f059cb2-dc0e-5e0a-b273-56baa90d5e10"
+subject = { kind = "research", id = "research:f0eedac34e0f4e6196a082d44949986b" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Volcalith' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Вулкалит G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Вулканический выброс' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Вулкалит G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Вулканический выброс", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a56942ce-47db-57a7-8fc9-0bda72ce89f2"
+subject = { kind = "research", id = "research:f5e41e40d6914dc5a8eca897bfc526c5" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Tartness' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Кислотность G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Кислость' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Кислотность G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Кислость", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2b407c2a-329c-57f5-837b-169cedb93185"
+subject = { kind = "research", id = "research:6fe55303a29e4a7e92420f09d31ff9d1" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Sweetness' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Сладость G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Фруктовая сладость' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Сладость G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Фруктовая сладость", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d746c43a-a300-5bd6-ab89-1f3a8fd88476"
+subject = { kind = "research", id = "research:7d02a4e4f0f14dcbbc25d06f5c05005b" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Sandblast' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Песчаная Струя G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Хабуб' (pokerogue).", "The source forms within the limit are «Хабуб» (pokerogue) and «Струя песка» (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Песчаная Струя G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Хабуб", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Струя песка", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2692e8c3-136a-5cd5-a8cc-44176e967cfb"
+subject = { kind = "research", id = "research:d385612663d44cd080062ac748bd8135" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Stun Shock' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Ошеломление G-Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Dizzy Punch, and the prefix keeps them apart as in GO.", "The most common community form is 'Шок' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Ошеломление G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Шок", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4166b1f4-0a33-5678-a308-d8a76533cf0c"
+subject = { kind = "research", id = "research:16efd53de0c44b99ad910ae276c6467b" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Centiferno' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Сентиферно G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Сорок огней' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Сентиферно G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Сорок огней", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:cec0fa23-af6e-5947-88d5-b3af2d4ad974"
+subject = { kind = "research", id = "research:953eaff0dc27424db8885e9cc580d885" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Smite' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Наказание G-Макс', with the affix after the name, and the selected form is the name part.", "The name part equals the regular move Punishment, and the prefix keeps them apart as in GO.", "The most common community form is 'Наказ' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Наказание G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Наказ", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:12869b28-53e2-5f67-ae46-24d935c7b224"
+subject = { kind = "research", id = "research:e8bbda355f80439aa64b30e1315388d8" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Finale' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Финал G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Десерт' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Финал G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Десерт", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:c8686eee-7852-5f76-8174-460e3693cdf1"
+subject = { kind = "research", id = "research:888c410e675643b880e085dba55736e8" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Steelsurge' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Стальные Шипы G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form and the source form within the limit is 'Скрежет' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Стальные Шипы G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Скрежет", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:bd2faad9-4f6d-50ba-871c-3ece6df6b4ff"
+subject = { kind = "research", id = "research:c8df575a7877410aa79938006a07564b" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Depletion' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Опустошение G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Истощение' (pokeliga)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Опустошение G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов", address = "pokeliga", quoted_term = "Истощение", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:59dbe7f9-d883-5c95-af65-6ec341118388"
+subject = { kind = "research", id = "research:b3d1b60d59ca4d199d3fd5963ccef764" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max One Blow' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Единый Удар G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form is 'Одна левая' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Единый Удар G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Одна левая", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:74e58bfe-08fc-5923-89bb-88d7d75fe756"
+subject = { kind = "research", id = "research:aac584b70335445188d931135b7fce85" }
+scope = { kind = "language", language = "ru" }
+facts = ["The G-Max move 'G-Max Rapid Flow' is stored without the prefix.", "The move menu shows 'G-' + name, and battle text adds 'G-Max '.", "The official Pokémon GO full name is 'Серийный Поток G-Макс', with the affix after the name, and the selected form is the name part.", "The most common community form and the source form within the limit is 'Комбо-удар' (pokerogue)."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization", address = "go", quoted_term = "Серийный Поток G-Макс", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale", address = "pokerogue", quoted_term = "Комбо-удар", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:0ad4ffb4-dff4-52a3-9ce6-7aab5f16d1aa"
+subject = { kind = "research", id = "research:75b6727fa53c4998bb0d6a23fae225e8" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Два шлепка' (pokerogue, bwru, hgru).", "The source form Два шлепка (pokerogue, bwru, hgru) fits within the limit.", "The source form Пощёчины (pokeliga) fits within the limit.", "The source form Оплеухи (ptru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Два шлепка" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Два шлепка" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Два шлепка" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Пощёчины" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Оплеухи" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d47ac58b-085b-51e7-879f-9de027bf9c6d"
+subject = { kind = "research", id = "research:7dc9eaee90d14d88b391dc9f5cbbfef9" }
+scope = { kind = "language", language = "ru" }
+facts = ["There is no official name.", "The next form in source support is 'Град ударов' (pokerogue).", "The source form Град ударов (pokerogue) fits within the limit.", "The source form Атака ярости (bwru, hgru) fits within the limit."]
+reason = ["The selected form has the most source support."]
+sources = [{ kind = "web", name = "Bulbapedia move articles, \"In other languages\" table, Russian line (fetched via the MediaWiki API for all 816 canonical move titles)", address = "bulba", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Град ударов" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Атака ярости" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Атака ярости" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9777582e-190a-5736-a7f7-66f7d72e5571"
+subject = { kind = "research", id = "research:0712b1cc19404547a88e2458190ae5a7" }
+scope = { kind = "language", language = "ru" }
+facts = ["There is no official name.", "The selected form ties in source support with 'Парализующая пыльца' (pokeliga).", "The source form Шок-споры (bwru, hgru) fits within the limit."]
+reason = ["The selected form comes from the higher-priority source."]
+sources = [{ kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Парализующая пыльца" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Шок-споры" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Шок-споры" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b6bda2fd-ac5f-5a57-9ed4-469f741ff401"
+subject = { kind = "research", id = "research:db8c0009658243d7974ce5745fde6a23" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Слизебомба' (pokerogue).", "The source form Слизебомба (pokerogue) fits within the limit.", "The source form Бомба слизи (bwru, hgru, ptru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Слизебомба" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Бомба слизи" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Бомба слизи" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Бомба слизи" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a4ea7101-6075-5cb7-acb9-f30df49e1737"
+subject = { kind = "research", id = "research:c9e4cfbf9cba4d1e952d91247eb781b0" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Прицел' (pokerogue).", "The source form Прицел (pokerogue) fits within the limit.", "The source form Захват цели (pokeliga) fits within the limit.", "The source form Наведение (bwru, hgru, ptru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Прицел" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Захват цели" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Наведение" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Наведение" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Наведение" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:69189e45-05d3-5370-8a35-96c2a95bb7c2"
+subject = { kind = "research", id = "research:3d8215084e914670a097164a8430b523" }
+scope = { kind = "language", language = "ru" }
+facts = ["There is no official name.", "The next form in source support is 'Песчанаябуря' (bwru, hgru)."]
+reason = ["The selected form has the most source support."]
+sources = [{ kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Песчанаябуря" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Песчанаябуря" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6b2de232-a337-55a1-8a14-fbca599de21f"
+subject = { kind = "research", id = "research:658f003911cc48fb8562907dab488e86" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Танец перьев' (pokerogue, pokeliga, bwru, hgru, ptru).", "The source form Танец перьев (pokerogue, pokeliga, bwru, hgru, ptru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Танец перьев" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Танец перьев" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Танец перьев" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Танец перьев" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Танец перьев" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:62d7edc4-ff6c-5d41-939e-afbe8432a15e"
+subject = { kind = "research", id = "research:87c9fa3d49d14f0790ad897112e02b1c" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Кулак-метеор' (pokeliga, bwru, hgru, ptru).", "The source form Кулак-метеор (pokeliga, bwru, hgru, ptru) fits within the limit.", "The source form Удар-метеор (pokerogue) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Кулак-метеор" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Кулак-метеор" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Кулак-метеор" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Кулак-метеор" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Удар-метеор" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:abedb741-7f47-5861-ac39-6933500918ad"
+subject = { kind = "research", id = "research:c251700be2954b81ace9f0507c18d2a6" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Завал камней' (pokeliga, bwru, hgru).", "The source form Завал камней (pokeliga, bwru, hgru) fits within the limit.", "The source form Саркофаг (pokerogue) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Завал камней" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Завал камней" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Завал камней" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Саркофаг" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:898cf3b9-39fc-5d65-ae80-6aaef339131e"
+subject = { kind = "research", id = "research:516f6f4b8867424ea54a52a2c467bdbc" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Семена пули' (pokerogue).", "The source form Семена пули (pokerogue) fits within the limit.", "The source form Семена-пули (bwru, hgru, ptru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Семена пули" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Семена-пули" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Семена-пули" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Семена-пули" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:3fa0e4c1-2291-5f3e-b7e6-7186839ca65c"
+subject = { kind = "research", id = "research:efcdccee81664adbbe68e073762216d9" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Когти дракона' (pokeliga).", "The source form Драко-когти (bwru, hgru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Когти дракона" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Драко-когти" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Драко-когти" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:543469e2-8c19-501f-909f-0b0735e8f2af"
+subject = { kind = "research", id = "research:ccf4d6dfffd34f0ba0a66471e1d0153e" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Жужжание' (pokerogue, pokeliga, bwru, hgru, ptru).", "The source form Жужжание (pokerogue, pokeliga, bwru, hgru, ptru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Жужжание" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Жужжание" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Жужжание" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Жужжание" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Жужжание" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8712da96-b972-5260-b907-a34eb371787f"
+subject = { kind = "research", id = "research:81a0d40c98844076afe3fa5142e522be" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Драко-метеор' (pokerogue, ptru).", "The source form Драко-метеор (pokerogue, ptru) fits within the limit.", "The source form Драко метеор (bwru, hgru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Драко-метеор" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Драко-метеор" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Драко метеор" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Драко метеор" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:51f672a7-2fe6-528a-9781-161481e944ec"
+subject = { kind = "research", id = "research:699940d13cd2436a9ad4761b26ef9ccf" }
+scope = { kind = "language", language = "ru" }
+facts = ["The selected form is the official GO name.", "Differing forms occur only in minor sources.", "The source form Дракон.пульс (bwru, hgru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Дракон.пульс" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Дракон.пульс" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d79526e7-6312-5af7-b9d8-508d185e5ad8"
+subject = { kind = "research", id = "research:97c7cd61ac22453ba7ad57645f246431" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Энергошар' (pokerogue, pokeliga).", "The source form Энергошар (pokerogue, pokeliga) fits within the limit.", "The source form Шар энергии (bwru, hgru, ptru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Энергошар" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Энергошар" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Шар энергии" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Шар энергии" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "alternative", verification = "recorded", quoted_term = "Шар энергии" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:23f9749a-c15d-53e0-ac1e-37debadc2424"
+subject = { kind = "research", id = "research:7331729882114e3d99537fa3701640fa" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Prefer the official GO name."]
+facts = ["The most common community form is 'Ладонь силы' (pokerogue, bwru, hgru).", "The source form Ладонь силы (pokerogue, bwru, hgru) fits within the limit."]
+sources = [{ kind = "web", name = "Pokémon GO, Russian localization (game text i18n_russian.json, mirrored by PokeMiners/pogo_assets)", address = "go", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Ладонь силы" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Ладонь силы" }, { kind = "web", name = "Pokémon HeartGold Russian fan translation by Pojirianets, v1.1, \"Text 750 - Названия Атак\" (font-encoded, decoded with the project's converter table)", address = "hgru", relation = "alternative", verification = "recorded", quoted_term = "Ладонь силы" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:3d9a6379-61f7-5e72-9d50-b805c00474ca"
+subject = { kind = "research", id = "research:b859bcf3445642f69d0616f5f678d7ac" }
+scope = { kind = "language", language = "ru" }
+facts = ["There is no official name.", "The selected form ties in source support with 'Исцеляющий импульс' (pokeliga).", "The source form Пульс жизни (bwru) fits within the limit."]
+reason = ["The selected form comes from the higher-priority source."]
+sources = [{ kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Исцеляющий импульс" }, { kind = "web", name = "Pokémon Black Russian fan translation by Pojirianets, \"Text 203 - Названия атак.txt\"", address = "bwru", relation = "alternative", verification = "recorded", quoted_term = "Пульс жизни" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:3cdc7a34-4cbb-5fb7-a6d9-f79a5b293dd7"
+subject = { kind = "research", id = "research:245ac035c6f9496a81923e475c709eb7" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Unbound name is an abbreviation of 'Baby-Doll Eyes'.", "There is no official name.", "The selected form is a project rendering; the sourced form 'Круглые глаза' (pokeliga) remains a variant."]
+sources = [{ kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Круглые глаза" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:5a2b7b0e-7339-560e-8146-9a63dd21660e"
+subject = { kind = "research", id = "research:15f48b4c49414d11bd738ee62caddeea" }
+scope = { kind = "language", language = "ru" }
+facts = ["There is no official name.", "The next form in source support is 'Натиск дракона' (pokeliga)."]
+reason = ["The selected form has the most source support."]
+sources = [{ kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Platinum Russian fan translation by Pojirianets, \"647 - Приёмы.txt\"", address = "ptru", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "alternative", verification = "recorded", quoted_term = "Натиск дракона" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8c0bb016-4ee9-5695-9f88-6f488952d76c"
+subject = { kind = "research", id = "research:0c1caa5249364e1a8d6a21457e8e3dda" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Unbound name is an abbreviation of 'Spectral Thief'.", "There is no official name.", "The selected form is a project rendering; the sourced form 'Спектральный вор' (pokerogue) remains a variant."]
+sources = [{ kind = "web", name = "Bulbapedia move articles, \"In other languages\" table, Russian line (fetched via the MediaWiki API for all 816 canonical move titles)", address = "bulba", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "alternative", verification = "recorded", quoted_term = "Спектральный вор" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:7cd13839-2968-5b11-8f81-69e6332f17b5"
+subject = { kind = "research", id = "research:58981a4dc0ba4c5491faf48778b4f8ff" }
+scope = { kind = "language", language = "ru" }
+facts = ["The Unbound name is an abbreviation of 'False Surrender'.", "There is no official name.", "The selected form is a project rendering; the sources agree on the variant «Ложная капитуляция» (pokerogue, pokeliga)."]
+sources = [{ kind = "web", name = "PokéRogue Russian locale (pagefaultgames/pokerogue-locales, ru/move.json)", address = "pokerogue", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Русская Лига Покемонов (pokeliga.com), move database pages pokemon_move.php?id=1…1026", address = "pokeliga", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"

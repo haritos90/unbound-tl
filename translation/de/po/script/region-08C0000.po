@@ -1,0 +1,953 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-08C0000\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 111
+#: 0x08c579e
+msgctxt "hash:cad8b117"
+msgid "hash:cad8b117"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 41, 160, 30
+#: 0x08c57b4
+msgctxt "hash:48663b66"
+msgid "hash:48663b66"
+msgstr ""
+
+#. reach: never shown (review: vanilla EV-berry scripts 0x8C9800-0x8C9869 (+0x28 of items 153-158): the field-use function 0x8A03D11 sets the CFRU callback 0x8A01DD5; the item-script runner 0x889D000 that would run them has no BL and no aligned pointer (one unaligned word at 0x16C97C5), so the messages at 0x8C99C9 / 0x8C99CF / 0x8C99D5 never print)
+#. category: script; mode: field
+#. original lines: 2, widths px: 124, 134
+#: 0x08c99e3
+msgctxt "hash:af2e3693"
+msgid "hash:af2e3693"
+msgstr ""
+
+#. reach: never shown (review: vanilla EV-berry scripts 0x8C9800-0x8C9869 (+0x28 of items 153-158): the field-use function 0x8A03D11 sets the CFRU callback 0x8A01DD5; the item-script runner 0x889D000 that would run them has no BL and no aligned pointer (one unaligned word at 0x16C97C5), so the messages at 0x8C99C9 / 0x8C99CF / 0x8C99D5 never print)
+#. category: script; mode: field
+#. original lines: 2, widths px: 124, 139
+#: 0x08c9a17
+msgctxt "hash:1c197a4d"
+msgid "hash:1c197a4d"
+msgstr ""
+
+#. reach: never shown (review: vanilla EV-berry scripts 0x8C9800-0x8C9869 (+0x28 of items 153-158): the field-use function 0x8A03D11 sets the CFRU callback 0x8A01DD5; the item-script runner 0x889D000 that would run them has no BL and no aligned pointer (one unaligned word at 0x16C97C5), so the messages at 0x8C99C9 / 0x8C99CF / 0x8C99D5 never print)
+#. category: script; mode: field
+#. original lines: 2, widths px: 70, 84
+#: 0x08c9a4c
+msgctxt "hash:27451bee"
+msgid "hash:27451bee"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 9, widths px: 35, 118, 177, 6, 24, 176, 178, 182, 166
+#: 0x08ca6c5
+msgctxt "hash:d799959c"
+msgid "hash:d799959c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 174, 44, 196, 83
+#: 0x08ca792
+msgctxt "hash:604e2c9b"
+msgid "hash:604e2c9b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 9, widths px: 31, 191, 153, 95, 189, 120, 152, 188, 26
+#: 0x08ca7ef
+msgctxt "hash:71495a2e"
+msgid "hash:71495a2e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 11, widths px: 171, 94, 183, 98, 187, 197, 147, 186, 180, 164, 177
+#: 0x08ca8c3
+msgctxt "hash:8b2578b3"
+msgid "hash:8b2578b3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 139, 148
+#: 0x08caa11
+msgctxt "hash:07f1fe31"
+msgid "hash:07f1fe31"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 13, widths px: 188, 182, 181, 165, 181, 188, 136, 176, 178, 173, 73, 154, 157
+#: 0x08caa4a
+msgctxt "hash:58b3be49"
+msgid "hash:58b3be49"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 197, 118, 143, 58
+#: 0x08caf31
+msgctxt "hash:c5f50350"
+msgid "hash:c5f50350"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 173, 133, 196
+#: 0x08caf99
+msgctxt "hash:2017d082"
+msgid "hash:2017d082"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 29, 166
+#: 0x08caffd
+msgctxt "hash:6ad3276e"
+msgid "hash:6ad3276e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 124
+#: 0x08cb023
+msgctxt "hash:ca7e4757"
+msgid "hash:ca7e4757"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 8, widths px: 18, 168, 139, 83, 177, 153, 193, 103
+#: 0x08cb03c
+msgctxt "hash:399e3f18"
+msgid "hash:399e3f18"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 46, 186, 177
+#: 0x08cb0ff
+msgctxt "hash:a81732ad"
+msgid "hash:a81732ad"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 177, 169, 79
+#: 0x08cb14b
+msgctxt "hash:844b77c3"
+msgid "hash:844b77c3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 8, widths px: 6, 18, 34, 198, 34, 160, 72, 6
+#: 0x08cb199
+msgctxt "hash:d50e86e6"
+msgid "hash:d50e86e6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 35, 179, 49, 24, 168, 75
+#: 0x08cb1fd
+msgctxt "hash:3ec69348"
+msgid "hash:3ec69348"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 14, widths px: 173, 49, 162, 68, 187, 42, 186, 148, 200, 182, 191, 171, 201, 114
+#: 0x08cb260
+msgctxt "hash:f4ff082c"
+msgid "hash:f4ff082c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 18, 50, 200, 175, 160, 55
+#: 0x08cb3f5
+msgctxt "hash:15fbb7dc"
+msgid "hash:15fbb7dc"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 11, widths px: 104, 197, 193, 179, 182, 149, 191, 28, 174, 169, 50
+#: 0x08cb47b
+msgctxt "hash:67a98944"
+msgid "hash:67a98944"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 121, 85
+#: 0x08cb5a8
+msgctxt "hash:cd3e4b0a"
+msgid "hash:cd3e4b0a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 168, 158, 165, 80, 153, 122
+#: 0x08cb5d3
+msgctxt "hash:22f97323"
+msgid "hash:22f97323"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 125, 52
+#: 0x08cb66f
+msgctxt "hash:1f03da28"
+msgid "hash:1f03da28"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 181, 166, 190
+#: 0x08cb695
+msgctxt "hash:7344684f"
+msgid "hash:7344684f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 18, 167, 182, 164, 133
+#: 0x08cb6f7
+msgctxt "hash:2ab1cdba"
+msgid "hash:2ab1cdba"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 181, 185, 176, 110, 155, 185
+#: 0x08cb773
+msgctxt "hash:c233f6c1"
+msgid "hash:c233f6c1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 174, 39, 110
+#: 0x08cb82c
+msgctxt "hash:6daf2970"
+msgid "hash:6daf2970"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 126, 113, 179, 129, 200, 197
+#: 0x08cb872
+msgctxt "hash:0a2048d1"
+msgid "hash:0a2048d1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 12, widths px: 191, 168, 194, 182, 175, 85, 177, 14, 176, 197, 155, 6
+#: 0x08cb932
+msgctxt "hash:197b6608"
+msgid "hash:197b6608"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 160, 144, 177, 131
+#: 0x08cba7a
+msgctxt "hash:7180b277"
+msgid "hash:7180b277"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 6, 102, 98, 58, 196, 109
+#: 0x08cbaec
+msgctxt "hash:c123f402"
+msgid "hash:c123f402"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 146, 157, 186, 88
+#: 0x08cbb58
+msgctxt "hash:3415f0d0"
+msgid "hash:3415f0d0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 180, 55
+#: 0x08cc354
+msgctxt "hash:561b73fb"
+msgid "hash:561b73fb"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 53
+#: 0x08cc387
+msgctxt "hash:be2e4002"
+msgid "hash:be2e4002"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 8, widths px: 192, 191, 0, 178, 62, 0, 169, 120
+#: 0x08cc391
+msgctxt "hash:52d3821a"
+msgid "hash:52d3821a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 193, 192, 138
+#: 0x08cc43b
+msgctxt "hash:71af216c"
+msgid "hash:71af216c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 185, 117, 209, 180, 178, 157
+#: 0x08cc49c
+msgctxt "hash:e4da5873"
+msgid "hash:e4da5873"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 196, 162, 180, 197, 187
+#: 0x08cc55b
+msgctxt "hash:29d79f96"
+msgid "hash:29d79f96"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 7, widths px: 191, 100, 173, 191, 182, 172, 181
+#: 0x08cc605
+msgctxt "hash:67f02d75"
+msgid "hash:67f02d75"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 204, 206, 189
+#: 0x08cc6e1
+msgctxt "hash:340accd3"
+msgid "hash:340accd3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 8, widths px: 181, 165, 180, 186, 169, 158, 158, 173
+#: 0x08cc752
+msgctxt "hash:05fd7b34"
+msgid "hash:05fd7b34"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 166, 156, 79, 175, 166
+#: 0x08cc850
+msgctxt "hash:7266e528"
+msgid "hash:7266e528"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 163
+#: 0x08cc8db
+msgctxt "hash:1cd5566d"
+msgid "hash:1cd5566d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 180, 142, 189, 173, 163, 146
+#: 0x08cc8f9
+msgctxt "hash:6af891e2"
+msgid "hash:6af891e2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 181, 161, 102
+#: 0x08cc9b2
+msgctxt "hash:e7fa2fb2"
+msgid "hash:e7fa2fb2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 49
+#: 0x08cca05
+msgctxt "hash:65eee0d4"
+msgid "hash:65eee0d4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 41
+#: 0x08cca10
+msgctxt "hash:47c08ac8"
+msgid "hash:47c08ac8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 44
+#: 0x08cca18
+msgctxt "hash:aa77e5d5"
+msgid "hash:aa77e5d5"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 190, 193, 180, 193
+#: 0x08cca21
+msgctxt "hash:32f5f6c8"
+msgid "hash:32f5f6c8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 182, 26
+#: 0x08ccaac
+msgctxt "hash:d239651a"
+msgid "hash:d239651a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 192, 183, 199
+#: 0x08ccad3
+msgctxt "hash:f31bf11b"
+msgid "hash:f31bf11b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 192, 183, 181
+#: 0x08ccb3e
+msgctxt "hash:6ad841a6"
+msgid "hash:6ad841a6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 142
+#: 0x08ccba6
+msgctxt "hash:77536fef"
+msgid "hash:77536fef"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 129
+#: 0x08ccbbf
+msgctxt "hash:daeebf84"
+msgid "hash:daeebf84"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 69, 130
+#: 0x08ccce0
+msgctxt "hash:da1301e3"
+msgid "hash:da1301e3"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 73, 185, 155, 57
+#: 0x08ccd09
+msgctxt "hash:0b368252"
+msgid "hash:0b368252"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 176, 186, 176, 71
+#: 0x08ccd61
+msgctxt "hash:f1ae87f4"
+msgid "hash:f1ae87f4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 185
+#: 0x08ccdd2
+msgctxt "hash:7fa7734a"
+msgid "hash:7fa7734a"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 54
+#: 0x08ccdf4
+msgctxt "hash:a3422b53"
+msgid "hash:a3422b53"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 177, 40, 180, 95, 145, 160
+#: 0x08ccdff
+msgctxt "hash:1f2f809f"
+msgid "hash:1f2f809f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 59, 197, 190
+#: 0x08cd03d
+msgctxt "hash:fa9d419b"
+msgid "hash:fa9d419b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 197, 186, 162, 96
+#: 0x08cd093
+msgctxt "hash:342f2ca6"
+msgid "hash:342f2ca6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 85, 194, 138
+#: 0x08cd10e
+msgctxt "hash:199c7f98"
+msgid "hash:199c7f98"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 134, 138
+#: 0x08cd15f
+msgctxt "hash:135173d0"
+msgid "hash:135173d0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 73
+#: 0x08cd194
+msgctxt "hash:d06f2ae2"
+msgid "hash:d06f2ae2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 51
+#: 0x08cd1a5
+msgctxt "hash:b652f6db"
+msgid "hash:b652f6db"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 194, 109, 191, 98
+#: 0x08cd1b2
+msgctxt "hash:a7129f07"
+msgid "hash:a7129f07"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 9, widths px: 114, 128, 6, 6, 114, 197, 120, 167, 43
+#: 0x08cd5fc
+msgctxt "hash:d0e469da"
+msgid "hash:d0e469da"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 24, 62, 176, 175, 93
+#: 0x08cd6a6
+msgctxt "hash:189f8fc6"
+msgid "hash:189f8fc6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 15, widths px: 55, 187, 181, 57, 174, 186, 190, 198, 112, 188, 123, 194, 107, 157, 83
+#: 0x08cd70a
+msgctxt "hash:d89abc12"
+msgid "hash:d89abc12"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 109
+#: 0x08cd8a6
+msgctxt "hash:928c080c"
+msgid "hash:928c080c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 144
+#: 0x08cd8be
+msgctxt "hash:1029d508"
+msgid "hash:1029d508"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 198, 147, 84
+#: 0x08cd8dc
+msgctxt "hash:2e0c252a"
+msgid "hash:2e0c252a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 143, 106, 119, 123, 194, 121
+#: 0x08cd935
+msgctxt "hash:e29c9d44"
+msgid "hash:e29c9d44"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 184
+#: 0x08cd9d8
+msgctxt "hash:64aeb7c4"
+msgid "hash:64aeb7c4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 118, 185, 184
+#: 0x08cd9fc
+msgctxt "hash:3c676694"
+msgid "hash:3c676694"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 138
+#: 0x08cda59
+msgctxt "hash:865343a0"
+msgid "hash:865343a0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 53, 158, 183, 105
+#: 0x08cda75
+msgctxt "hash:baef6f21"
+msgid "hash:baef6f21"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 7, widths px: 184, 114, 161, 31, 176, 187, 176
+#: 0x08cdad4
+msgctxt "hash:a64f0655"
+msgid "hash:a64f0655"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 85, 191, 193, 118
+#: 0x08cdb97
+msgctxt "hash:0daf138e"
+msgid "hash:0daf138e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 136, 88, 178
+#: 0x08cdc07
+msgctxt "hash:2e3ac4c4"
+msgid "hash:2e3ac4c4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 125, 164, 187, 178
+#: 0x08cdc55
+msgctxt "hash:ddc8450b"
+msgid "hash:ddc8450b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 177, 23, 140, 182, 115, 152
+#: 0x08cdcd3
+msgctxt "hash:3f14f908"
+msgid "hash:3f14f908"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 53, 105, 179, 164
+#: 0x08cdd6c
+msgctxt "hash:3c9537c9"
+msgid "hash:3c9537c9"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 120, 102, 182, 32, 170
+#: 0x08cddd0
+msgctxt "hash:bb3869c2"
+msgid "hash:bb3869c2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 183, 96, 167, 113
+#: 0x08cde49
+msgctxt "hash:12092659"
+msgid "hash:12092659"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 140, 5, 179, 142, 185, 42
+#: 0x08cdebb
+msgctxt "hash:a5beefe3"
+msgid "hash:a5beefe3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 8, widths px: 180, 174, 185, 84, 175, 186, 193, 59
+#: 0x08cdf4b
+msgctxt "hash:fdd76463"
+msgid "hash:fdd76463"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 154, 51, 155, 141, 192, 58
+#: 0x08ce03c
+msgctxt "hash:604afe8f"
+msgid "hash:604afe8f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 61, 193, 52, 197, 155
+#: 0x08ce0c8
+msgctxt "hash:1fbec82c"
+msgid "hash:1fbec82c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 175, 181, 111, 175, 188
+#: 0x08ce141
+msgctxt "hash:60ee8b07"
+msgid "hash:60ee8b07"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 126
+#: 0x08ce1df
+msgctxt "hash:a3171758"
+msgid "hash:a3171758"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 17
+#: 0x08ce1f8
+msgctxt "hash:65e68fe5"
+msgid "hash:65e68fe5"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 23
+#: 0x08ce1fc
+msgctxt "hash:6ccc2e39"
+msgid "hash:6ccc2e39"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 8, widths px: 156, 0, 180, 187, 51, 0, 190, 130
+#: 0x08ce9cb
+msgctxt "hash:2d53d34e"
+msgid "hash:2d53d34e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 182, 190, 53
+#: 0x08cea72
+msgctxt "hash:bda96e35"
+msgid "hash:bda96e35"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 126
+#: 0x08ceac2
+msgctxt "hash:e9bed6b8"
+msgid "hash:e9bed6b8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 122
+#: 0x08cead9
+msgctxt "hash:d90f06d6"
+msgid "hash:d90f06d6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 136
+#: 0x08ceaf0
+msgctxt "hash:d274be7f"
+msgid "hash:d274be7f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 146
+#: 0x08ceb09
+msgctxt "hash:2afc0161"
+msgid "hash:2afc0161"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 183, 29
+#: 0x08ceb24
+msgctxt "hash:106fac52"
+msgid "hash:106fac52"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 79
+#: 0x08ceb4c
+msgctxt "hash:5871f63f"
+msgid "hash:5871f63f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 140
+#: 0x08ceb5d
+msgctxt "hash:31fed5ca"
+msgid "hash:31fed5ca"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 5, widths px: 146, 184, 15, 183, 46
+#: 0x08cefb1
+msgctxt "hash:0ce505ea"
+msgid "hash:0ce505ea"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 6, widths px: 99, 66, 23, 178, 169, 104
+#: 0x08cf025
+msgctxt "hash:c812735e"
+msgid "hash:c812735e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 3, widths px: 35, 184, 161
+#: 0x08cf09d
+msgctxt "hash:8f6d5054"
+msgid "hash:8f6d5054"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 25, widths px: 194, 192, 28, 201, 157, 169, 180, 190, 95, 163, 171, 148, 188, 150, 177, 179, 184, 86, 171, 170, 58, 166, 145, 156, 165
+#: 0x08cf0e4
+msgctxt "hash:6d2d181b"
+msgid "hash:6d2d181b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 101
+#: 0x08cf3bd
+msgctxt "hash:93a3cd77"
+msgid "hash:93a3cd77"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 168, 85, 103, 6
+#: 0x08cf3fb
+msgctxt "hash:312cfc5b"
+msgid "hash:312cfc5b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 169, 183, 188, 164
+#: 0x08cf44a
+msgctxt "hash:6f1fad35"
+msgid "hash:6f1fad35"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 93
+#: 0x08cf4cb
+msgctxt "hash:05ff6ff5"
+msgid "hash:05ff6ff5"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 179, 192
+#: 0x08cf4de
+msgctxt "hash:3bd8d0ce"
+msgid "hash:3bd8d0ce"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 47
+#: 0x08cf522
+msgctxt "hash:458c62e5"
+msgid "hash:458c62e5"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 80
+#: 0x08cf52b
+msgctxt "hash:1345256c"
+msgid "hash:1345256c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 135
+#: 0x08cf53a
+msgctxt "hash:19cf7be0"
+msgid "hash:19cf7be0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 86
+#: 0x08cf554
+msgctxt "hash:a017dfa9"
+msgid "hash:a017dfa9"
+msgstr ""

@@ -1,0 +1,27 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:3eaefb56-4b0e-514f-8104-f8e2175d5503"
+subject = { kind = "research", id = "research:06a6aebbcb3e4511ad67bacaa50f36fc" }
+scope = { kind = "language", language = "ru" }
+facts = ["The meaning is stat-neutral.", "The masculine adjective agrees with «характер» (m.): «Характер: застенчивый».", "The short form «Застенчив.» is attested in pojirianets-bw."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Застенчивый", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold (Pojirianets)", address = "pojirianets-hg", quoted_term = "Застенчивый", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon Black (Pojirianets)", address = "pojirianets-bw", quoted_term = "Застенчив.", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:89283c67-9745-5d06-b2c8-e715e5436d66"
+subject = { kind = "research", id = "research:abd5c372ad5d438182c9d997cf60517f" }
+scope = { kind = "language", language = "ru" }
+facts = ["The meaning is +Sp. Atk −Sp. Def.", "The masculine adjective agrees with «характер» (m.): «Характер: безрассудный».", "The sources disagree: «Поспешный» (fandom-ru)."]
+reason = ["The selected form is chosen for the larger number of supporting sources (pokerogue-ru, pojirianets-hg)."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Безрассудный", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold (Pojirianets)", address = "pojirianets-hg", quoted_term = "Безрассудный", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Поспешный", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:963e431d-9d79-5156-bda5-c5888434f051"
+subject = { kind = "research", id = "research:ae1901c4e6c44ad4be8597f8cfd0a618" }
+scope = { kind = "language", language = "ru" }
+facts = ["The meaning is stat-neutral.", "The masculine adjective agrees with «характер» (m.): «Характер: причудливый».", "The sources disagree: «Ушлый» (fandom-ru).", "The short form «Причудлив.» is attested in pojirianets-bw."]
+reason = ["The selected form is chosen for the larger number of supporting sources (pokerogue-ru, pojirianets-hg)."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Причудливый", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon HeartGold (Pojirianets)", address = "pojirianets-hg", quoted_term = "Причудливый", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Ушлый", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon Black (Pojirianets)", address = "pojirianets-bw", quoted_term = "Причудлив.", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"

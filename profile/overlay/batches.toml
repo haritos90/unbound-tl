@@ -1,0 +1,5 @@
+[batches]
+first = ["frozen-heights", "shadow-base"]
+
+# Maps: the bank table sits at the vanilla FireRed address.
+# Map section names: 109 entries indexed from 0x58.

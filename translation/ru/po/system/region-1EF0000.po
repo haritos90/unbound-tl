@@ -1,0 +1,841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-1EF0000\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x1ef0c68
+msgctxt "hash:23be2817"
+msgid "hash:23be2817"
+msgstr "Пик Кристал"
+
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 173, 173, 143, 197, 195
+#: 0x1ef0c93
+msgctxt "hash:37d60711"
+msgid "hash:37d60711"
+msgstr ""
+"Самая высокая гора Борриуса.\\nНазвана в честь большого\\nкристалла на её "
+"вершине. Говорят,\\nздешние кристаллы излучают\\nогромное количество "
+"энергии."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 194, 185
+#: 0x1ef1137
+msgctxt "hash:7a343b18"
+msgid "hash:7a343b18"
+msgstr ""
+"Дрифлун унёс маленькую девочку!\\nНайти её и вернуть встревоженной\\nмаме "
+"целой и невредимой."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 153, 184
+#: 0x1ef155b
+msgctxt "hash:3c7ceaa6"
+msgid "hash:3c7ceaa6"
+msgstr "Искать повсюду горячие изумруды,\\nспрятанные под кристаллами."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1ef1906
+msgctxt "hash:f8a2c4ca"
+msgid "hash:f8a2c4ca"
+msgstr "-1 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x1ef190a
+msgctxt "hash:a0c73c76"
+msgid "hash:a0c73c76"
+msgstr "1 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x1ef190d
+msgctxt "hash:26844dc4"
+msgid "hash:26844dc4"
+msgstr "2 эт."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 165, 130
+#: 0x1ef1910
+msgctxt "hash:c6542f36"
+msgid "hash:c6542f36"
+msgstr "Изумруд найден на 1-м подземном\\nэтаже под синим кристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 162, 150, 66
+#: 0x1ef1946
+msgctxt "hash:b8b59f8f"
+msgid "hash:b8b59f8f"
+msgstr ""
+"Изумруд найден в большой комнате\\nна 1-м этаже под красным\\nкристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 162, 150, 83
+#: 0x1ef198c
+msgctxt "hash:b2cd6f34"
+msgid "hash:b2cd6f34"
+msgstr ""
+"Изумруд найден в большой комнате\\nна 1-м этаже под жёлтым\\nкристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 162, 150, 72
+#: 0x1ef19d5
+msgctxt "hash:cc745535"
+msgid "hash:cc745535"
+msgstr ""
+"Изумруд найден в большой комнате\\nна 1-м этаже под синим\\nкристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 194
+#: 0x1ef1a1c
+msgctxt "hash:6f014e3d"
+msgid "hash:6f014e3d"
+msgstr ""
+"Изумруд найден в левой комнате\\nна 1-м этаже под синим\\nкристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 162, 155, 83
+#: 0x1ef1a62
+msgctxt "hash:8051ecd5"
+msgid "hash:8051ecd5"
+msgstr ""
+"Изумруд найден в маленькой\\nкомнате на 1-м подземном этаже\\nпод жёлтым "
+"кристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 194
+#: 0x1ef1aac
+msgctxt "hash:3fda8655"
+msgid "hash:3fda8655"
+msgstr ""
+"Изумруд найден в правой комнате\\nна 1-м этаже под синим\\nкристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 188
+#: 0x1ef1af3
+msgctxt "hash:ddafd64b"
+msgid "hash:ddafd64b"
+msgstr ""
+"Изумруд найден в правой комнате\\nна 1-м этаже под красным\\nкристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 195, 78
+#: 0x1ef1b39
+msgctxt "hash:fb8b2fd2"
+msgid "hash:fb8b2fd2"
+msgstr ""
+"Изумруд найден в комнате\\nна вершине утёса под красным\\nкристаллом."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1ef4baf
+msgctxt "hash:d13a559d"
+msgid "hash:d13a559d"
+msgstr "Камень рассвета"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1ef4bba
+msgctxt "hash:4e2fc2f7"
+msgid "hash:4e2fc2f7"
+msgstr "Камень сумерек"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1ef4bc5
+msgctxt "hash:03d18e9f"
+msgid "hash:03d18e9f"
+msgstr "Камень льда"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1ef4bcf
+msgctxt "hash:c9df8ca7"
+msgid "hash:c9df8ca7"
+msgstr "Камень луны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 61
+#: 0x1ef4bda
+msgctxt "hash:4a10c354"
+msgid "hash:4a10c354"
+msgstr "Камень сияния"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x1ef4be6
+msgctxt "hash:6a1512e6"
+msgid "hash:6a1512e6"
+msgstr "Камень солнца"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 197, 171
+#: 0x1ef5bea
+msgctxt "hash:281c0b57"
+msgid "hash:281c0b57"
+msgstr "Покорить за день все рейдовые\\nлогова, разбросанные по Борриусу!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 169
+#: 0x1ef6194
+msgctxt "hash:ddcaa880"
+msgid "hash:ddcaa880"
+msgstr "Найти в Борриусе тех, кто изо дня\\nв день делает одно и то же!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x1ef6ca9
+msgctxt "hash:a7c645cc"
+msgid "hash:a7c645cc"
+msgstr "Азы ловли"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x1ef6cb6
+msgctxt "hash:7f236d45"
+msgid "hash:7f236d45"
+msgstr "Цветочные ягоды"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 94
+#: 0x1ef6cc6
+msgctxt "hash:9f0c1e95"
+msgid "hash:9f0c1e95"
+msgstr "Скопление за ягоды"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x1ef6cd8
+msgctxt "hash:f4ebff6a"
+msgid "hash:f4ebff6a"
+msgstr "Дайвбол за УЧ-бол"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x1ef6cf1
+msgctxt "hash:4c61688e"
+msgid "hash:4c61688e"
+msgstr "Тип покемона за ягоды"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 101
+#: 0x1ef6d0a
+msgctxt "hash:18d76ece"
+msgid "hash:18d76ece"
+msgstr "Подземный забег"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 111
+#: 0x1ef6d1d
+msgctxt "hash:aa24a488"
+msgid "hash:aa24a488"
+msgstr "Окаменелость от Моулмена"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1ef6d33
+msgctxt "hash:a23bb972"
+msgid "hash:a23bb972"
+msgstr "Репелленты макс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x1ef6d3e
+msgctxt "hash:752ce6ae"
+msgid "hash:752ce6ae"
+msgstr "Камень эволюции"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 120
+#: 0x1ef6d4e
+msgctxt "hash:f68a317b"
+msgid "hash:f68a317b"
+msgstr "Ягоды из сада особняка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x1ef6d65
+msgctxt "hash:1362341d"
+msgid "hash:1362341d"
+msgstr "Дримболы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x1ef6d71
+msgctxt "hash:2c9b5dca"
+msgid "hash:2c9b5dca"
+msgstr "Игры с покемоном"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 26
+#: 0x1ef6d7b
+msgctxt "hash:d49df9e4"
+msgid "hash:d49df9e4"
+msgstr "Перья"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x1ef6d81
+msgctxt "hash:170e8ee0"
+msgid "hash:170e8ee0"
+msgstr "Лекарство из стоков"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1ef6d90
+msgctxt "hash:ba15f780"
+msgid "hash:ba15f780"
+msgstr "Клуб “Болотные сапоги”"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x1ef6d9b
+msgctxt "hash:d3441c9e"
+msgid "hash:d3441c9e"
+msgstr "Крошечные покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x1ef6da8
+msgctxt "hash:44ea476e"
+msgid "hash:44ea476e"
+msgstr "Высокие покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1ef6db5
+msgctxt "hash:40aba76a"
+msgid "hash:40aba76a"
+msgstr "Лотерея БО"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 103
+#: 0x1ef6dc0
+msgctxt "hash:69e5138d"
+msgid "hash:69e5138d"
+msgstr "ТМ за Сердце-чешуйку"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1ef6dd3
+msgctxt "hash:80124bf0"
+msgid "hash:80124bf0"
+msgstr "Шоу Кроганков"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1ef6de1
+msgctxt "hash:c21adb1f"
+msgid "hash:c21adb1f"
+msgstr "Самоцветы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 46
+#: 0x1ef6de6
+msgctxt "hash:460aef07"
+msgid "hash:460aef07"
+msgstr "“Бодрая викторина”"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 82
+#: 0x1ef6def
+msgctxt "hash:fbf8f015"
+msgid "hash:fbf8f015"
+msgstr "Денежное дерево"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 158
+#: 0x1ef6dfe
+msgctxt "hash:84d589b5"
+msgid "hash:84d589b5"
+msgstr "Этот человек найден прямо у входа\\nв пещеру Айсикл."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 35
+#: 0x1ef6e3e
+msgctxt "hash:864cf869"
+msgid "hash:864cf869"
+msgstr "Этот человек найден наверху,\\nсразу за лестницей."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 148
+#: 0x1ef6e68
+msgctxt "hash:2efc86a7"
+msgid "hash:2efc86a7"
+msgstr "Этот человек найден в доме к югу\\nот стадиона и магазина."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 110
+#: 0x1ef6ea6
+msgctxt "hash:52f3e575"
+msgid "hash:52f3e575"
+msgstr "Этот человек найден за растением\\nв магазине."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 180, 124
+#: 0x1ef6edf
+msgctxt "hash:c81abf17"
+msgid "hash:c81abf17"
+msgstr ""
+"Этот человек найден на 1-м этаже\\nпервого жилого дома у Центра\\n"
+"покемонов."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 75
+#: 0x1ef6f3b
+msgctxt "hash:ce5c2daf"
+msgid "hash:ce5c2daf"
+msgstr "Этот человек найден у подножия\\nлестницы."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 198, 185, 148
+#: 0x1ef6f6c
+msgctxt "hash:17f24fc7"
+msgid "hash:17f24fc7"
+msgstr ""
+"Этот человек найден на 1-м\\nподземном этаже, в тупике\\nв восточной "
+"части туннеля."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 155, 153, 97
+#: 0x1ef6fcd
+msgctxt "hash:e7a9b7a5"
+msgid "hash:e7a9b7a5"
+msgstr "Этот человек найден в доме\\nу входа на гору Тандеркэп."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 175, 175, 128
+#: 0x1ef7018
+msgctxt "hash:0389e4f0"
+msgid "hash:0389e4f0"
+msgstr ""
+"Этот человек найден на 3-м этаже,\\nкуда можно забраться Карабканием\\nс "
+"западной стороны 2-го этажа."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 182, 128
+#: 0x1ef7070
+msgctxt "hash:5f1f2a9b"
+msgid "hash:5f1f2a9b"
+msgstr "Этот человек найден на кухне\\nособняка Тармиган на 2-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 158, 75
+#: 0x1ef70ab
+msgctxt "hash:6aa56bc2"
+msgid "hash:6aa56bc2"
+msgstr ""
+"Этот человек найден у книжных\\nполок в Лаборатории исследования\\nснов."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 189, 162
+#: 0x1ef70f8
+msgctxt "hash:45618b0f"
+msgid "hash:45618b0f"
+msgstr ""
+"Этот человек найден на 1-м этаже\\nверхнего левого из четырёх жилых\\n"
+"домов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 188
+#: 0x1ef715c
+msgctxt "hash:d9946fa8"
+msgid "hash:d9946fa8"
+msgstr "Этот человек найден в магазине."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 188, 156, 42
+#: 0x1ef717f
+msgctxt "hash:ec1cfe39"
+msgid "hash:ec1cfe39"
+msgstr "Этот человек найден в маленькой\\nкомнате в северной части."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 140
+#: 0x1ef71c8
+msgctxt "hash:eaa1c2d1"
+msgid "hash:eaa1c2d1"
+msgstr "Этот человек найден в доме рядом\\nс Полем боя."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 190, 27
+#: 0x1ef7205
+msgctxt "hash:7f80b2a7"
+msgid "hash:7f80b2a7"
+msgstr "Этот человек найден на 1-м этаже\\nжилого дома рядом с магазином."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 197, 190, 27
+#: 0x1ef7251
+msgctxt "hash:2317c699"
+msgid "hash:2317c699"
+msgstr "Этот человек найден на 2-м этаже\\nжилого дома рядом с магазином."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 174, 176
+#: 0x1ef729e
+msgctxt "hash:2ae8b539"
+msgid "hash:2ae8b539"
+msgstr ""
+"Этот человек найден в киоске\\nслева от дорожки, ведущей\\nк Боевой башне."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 150
+#: 0x1ef72ff
+msgctxt "hash:d8f93517"
+msgid "hash:d8f93517"
+msgstr "Этот человек найден в доме,\\nближайшем к Зоне сафари."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 27
+#: 0x1ef733e
+msgctxt "hash:0a89a098"
+msgid "hash:0a89a098"
+msgstr "Этот человек найден рядом\\nс магазином."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 199, 190, 34
+#: 0x1ef7366
+msgctxt "hash:22b1768f"
+msgid "hash:22b1768f"
+msgstr ""
+"Этот человек найден в западной\\nпещере за большой комнатой\\nна 1-м "
+"этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 152
+#: 0x1ef73b4
+msgctxt "hash:cd91b2c3"
+msgid "hash:cd91b2c3"
+msgstr "Этот человек найден в доме рядом\\nс Центром покемонов."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 190, 172
+#: 0x1ef73f3
+msgctxt "hash:8ba00588"
+msgid "hash:8ba00588"
+msgstr ""
+"Этот человек найден к северу от\\nЦентра покемонов, за деревом,\\nкоторое "
+"нужно срезать Порезом."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 93
+#: 0x1ef7438
+msgctxt "hash:531704c0"
+msgid "hash:531704c0"
+msgstr "Дневной уход"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 181, 177, 183, 167
+#: 0x1ef7449
+msgctxt "hash:3399d977"
+msgid "hash:3399d977"
+msgstr ""
+"Дом милой пожилой пары, которая\\nберёт покемонов на воспитание.\\n"
+"Оставив у них двух покемонов,\\nможно получить до 100 яиц!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 153, 149, 76
+#: 0x1ef7e52
+msgctxt "hash:3844049b"
+msgid "hash:3844049b"
+msgstr ""
+"Сладкие ароматы! Показать разных\\nпокемонов, выведенных с помощью\\n"
+"ароматов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x1ef9640
+msgctxt "hash:5f3461ff"
+msgid "hash:5f3461ff"
+msgstr "Дехара"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 125, 131
+#: 0x1efa79d
+msgctxt "hash:51009056"
+msgid "hash:51009056"
+msgstr "Он так и светится от счастья!\\nДолжно быть, очень тебя любит."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 177, 60
+#: 0x1efa7cc
+msgctxt "hash:c18c2f91"
+msgid "hash:c18c2f91"
+msgstr "Мне кажется, он тебе\\nпо-настоящему доверяет."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 136, 129
+#: 0x1efa7f9
+msgctxt "hash:99dc02db"
+msgid "hash:99dc02db"
+msgstr "Он к тебе дружелюбен.\\nКажется, он вполне доволен."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 86
+#: 0x1efa82b
+msgctxt "hash:621fceec"
+msgid "hash:621fceec"
+msgstr "Он довольно милый."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 150, 116
+#: 0x1efa83c
+msgctxt "hash:6f4a3cf6"
+msgid "hash:6f4a3cf6"
+msgstr "Обращайся с ним получше.\\nОн к тебе ещё не привык."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 193, 78
+#: 0x1efa86e
+msgctxt "hash:19ea389c"
+msgid "hash:19ea389c"
+msgstr "Похоже, ты ему совсем не по душе.\\nВид у него злой."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 195, 189, 187
+#: 0x1efa8b3
+msgctxt "hash:3303c969"
+msgid "hash:3303c969"
+msgstr ""
+"Пьюкумуку выносит на берег, и они\\nраспугивают туристов! Побросать\\nих "
+"всех обратно в океан."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 38
+#: 0x1efb946
+msgctxt "hash:f964d59f"
+msgid "hash:f964d59f"
+msgstr "{COLOR 06}Тортвиг"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1efb951
+msgctxt "hash:fb1218e5"
+msgid "hash:fb1218e5"
+msgstr "{COLOR 07}Чимчар"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 148, 38
+#: 0x1efd3a3
+msgctxt "hash:1df9aad3"
+msgid "hash:1df9aad3"
+msgstr "Победа над Скели в зажигательном\\nбою."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 38
+#: 0x1efd3c7
+msgctxt "hash:01ca391c"
+msgid "hash:01ca391c"
+msgstr "Победа над Голче в захватывающем\\nбою."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 163
+#: 0x1efd3f0
+msgctxt "hash:9539b20c"
+msgid "hash:9539b20c"
+msgstr "Победа над Ликсделом и Танасисом\\nв тяжёлом бою два на два."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 166, 38
+#: 0x1efd430
+msgctxt "hash:6024d08c"
+msgid "hash:6024d08c"
+msgstr "Победа над Криминоном в задорном\\nбою."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 156
+#: 0x1efd457
+msgctxt "hash:61b14dfa"
+msgid "hash:61b14dfa"
+msgstr "Победить за день в городе Дехара\\nвсех разработчиков Unbound!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1eff254
+msgctxt "hash:a4d40b93"
+msgid "hash:a4d40b93"
+msgstr "Дреско"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 162
+#: 0x1eff76a
+msgctxt "hash:a0788400"
+msgid "hash:a0788400"
+msgstr "Упражняться в грамоте: прочитать\\nвсе таблички “Советы тренерам”."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 103
+#: 0x1effb46
+msgctxt "hash:ebed37e6"
+msgid "hash:ebed37e6"
+msgstr "Табличка “Советы тренерам”\\nпрочитана у родного дома."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 155, 77
+#: 0x1effb79
+msgctxt "hash:782c65d8"
+msgid "hash:782c65d8"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана у городка Беллин\\nна короткой "
+"горной дороге."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:e8249695-453e-545c-962a-54f4950ce7a4
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 145
+#: 0x1effbc5
+msgctxt "hash:4d6122b0"
+msgid "hash:4d6122b0"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана у тропы, ведущей\\nв городок."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 109
+#: 0x1effc00
+msgctxt "hash:336f6815"
+msgid "hash:336f6815"
+msgstr "Табличка “Советы тренерам”\\nпрочитана на 3-м этаже у воды."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 121
+#: 0x1effc34
+msgctxt "hash:f1259862"
+msgid "hash:f1259862"
+msgstr "Табличка “Советы тренерам”\\nпрочитана на 3-м этаже у Ченси."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 158, 39
+#: 0x1effc6a
+msgctxt "hash:95c66caa"
+msgid "hash:95c66caa"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана на 2-м этаже\\nу последней "
+"лестницы вниз."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 186, 49
+#: 0x1effcaf
+msgctxt "hash:2c21c3ff"
+msgid "hash:2c21c3ff"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана прямо к югу от входа\\nв пещеру "
+"Айсикл."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed; related notes: note:1670a720-07d9-587a-8fc6-722849171a50
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 172, 74
+#: 0x1effcfb
+msgctxt "hash:f3cfecc1"
+msgid "hash:f3cfecc1"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана перед мостом, ведущим\\nв городок "
+"с Маршрута 2."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 177, 49
+#: 0x1effd49
+msgctxt "hash:a7c16381"
+msgid "hash:a7c16381"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана на северном пляже\\nу Цветочного "
+"рая."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 158, 132
+#: 0x1effd93
+msgctxt "hash:046610c1"
+msgid "hash:046610c1"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана на тропе у западного\\nвыхода из "
+"Мрачного леса."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 184, 100
+#: 0x1effde9
+msgctxt "hash:de5c277b"
+msgid "hash:de5c277b"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана за верхним западным\\nвыходом из "
+"вулкана Синдер."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 186, 38
+#: 0x1effe3e
+msgctxt "hash:cfe36b7c"
+msgid "hash:cfe36b7c"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана на 4-м этаже между\\nтравницей и "
+"рабочим."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 184, 150
+#: 0x1effe87
+msgctxt "hash:1adbcfd3"
+msgid "hash:1adbcfd3"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана в высокой траве у лужи\\nпосреди "
+"маршрута."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 178
+#: 0x1effee5
+msgctxt "hash:9c40cb10"
+msgid "hash:9c40cb10"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана в высокой траве\\nу городка Кратер."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 168, 97
+#: 0x1efff29
+msgctxt "hash:4bf5d606"
+msgid "hash:4bf5d606"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана сразу к востоку\\nот моста со "
+"стороны пещеры Вэлли."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 180, 116
+#: 0x1efff7a
+msgctxt "hash:4c6fdd4f"
+msgid "hash:4c6fdd4f"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана сразу к югу от моста,\\nведущего к "
+"горе Фрост."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 169, 159, 48
+#: 0x1efffd1
+msgctxt "hash:6f68421f"
+msgid "hash:6f68421f"
+msgstr ""
+"Табличка “Советы тренерам”\\nпрочитана у выхода из горы\\nна Маршрут 7."

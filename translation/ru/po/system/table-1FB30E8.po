@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1FB30E8\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 125
+#: 0x1f94426
+msgctxt "hash:bd08fab9"
+msgid "hash:bd08fab9"
+msgstr "Бой! Тренер Борриуса"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 116
+#: 0x1f9443e
+msgctxt "hash:0ad90807"
+msgid "hash:0ad90807"
+msgstr "Бой! Тренер Канто"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 117
+#: 0x1f94454
+msgctxt "hash:4af18ce4"
+msgid "hash:4af18ce4"
+msgstr "Бой! Тренер Джото"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 116
+#: 0x1f9446a
+msgctxt "hash:eb08b407"
+msgid "hash:eb08b407"
+msgstr "Бой! Тренер Хоэнна"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 120
+#: 0x1f94480
+msgctxt "hash:8ec822d2"
+msgid "hash:8ec822d2"
+msgstr "Бой! Тренер Синно"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 117
+#: 0x1f94497
+msgctxt "hash:2da731e1"
+msgid "hash:2da731e1"
+msgstr "Бой! Тренер Юновы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 116
+#: 0x1f944ad
+msgctxt "hash:80fd2984"
+msgid "hash:80fd2984"
+msgstr "Бой! Тренер Калоса"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 116
+#: 0x1f944c3
+msgctxt "hash:c1d03699"
+msgid "hash:c1d03699"
+msgstr "Бой! Тренер Алолы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x1f944d9
+msgctxt "hash:c46d867d"
+msgid "hash:c46d867d"
+msgstr "Бой! Соперник"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 104
+#: 0x1f944e7
+msgctxt "hash:a534082a"
+msgid "hash:a534082a"
+msgstr "Бой! Лидер стадиона"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 142
+#: 0x1f944fa
+msgctxt "hash:e3537b92"
+msgid "hash:e3537b92"
+msgstr "Бой! Лидер Синно"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 96
+#: 0x1f94514
+msgctxt "hash:5cd3fc46"
+msgid "hash:5cd3fc46"
+msgstr "Бой! Наследница"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x1f94526
+msgctxt "hash:a6b0f3e4"
+msgid "hash:a6b0f3e4"
+msgstr "Бой! Элитная четвёрка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1f94536
+msgctxt "hash:43714632"
+msgid "hash:43714632"
+msgstr "Бой! Джекс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 114
+#: 0x1f94582
+msgctxt "hash:85221f9b"
+msgid "hash:85221f9b"
+msgstr "Бой! Агент Теней"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x1f94597
+msgctxt "hash:afe0933f"
+msgid "hash:afe0933f"
+msgstr "Бой! Марлон"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x1f945a6
+msgctxt "hash:0aec3fb1"
+msgid "hash:0aec3fb1"
+msgstr "Бой! Зеф"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x1f945b3
+msgctxt "hash:28e7ff74"
+msgid "hash:28e7ff74"
+msgstr "Бой! Адепт Света"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x1f945cf
+msgctxt "hash:bca5069b"
+msgid "hash:bca5069b"
+msgstr "Бой! Айвори"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 79
+#: 0x1f945dd
+msgctxt "hash:e26d03f3"
+msgid "hash:e26d03f3"
+msgstr "Бой! Эклав"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 114
+#: 0x1f945ec
+msgctxt "hash:450a9b5b"
+msgid "hash:450a9b5b"
+msgstr "Бой! Чёрный Эмбор"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x1f94601
+msgctxt "hash:90941b96"
+msgid "hash:90941b96"
+msgstr "Бой! Джеймс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 128
+#: 0x1f9460f
+msgctxt "hash:63d9cb3b"
+msgid "hash:63d9cb3b"
+msgstr "Бой! Террор Грэнбулл"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x1f94627
+msgctxt "hash:aa6d55ba"
+msgid "hash:aa6d55ba"
+msgstr "Бой! Графф"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 134
+#: 0x1f94635
+msgctxt "hash:93303c1a"
+msgid "hash:93303c1a"
+msgstr "Бой! Чёрный Ферроторн"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f9464e
+msgctxt "hash:d2ce6e73"
+msgid "hash:d2ce6e73"
+msgstr "Бой! Барбс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x1f9465c
+msgctxt "hash:7f82eff8"
+msgid "hash:7f82eff8"
+msgstr "Бой! Научное общество"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1f94674
+msgctxt "hash:749bd6e2"
+msgid "hash:749bd6e2"
+msgstr "Бой! Фей"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x1f94680
+msgctxt "hash:c040a4c7"
+msgid "hash:c040a4c7"
+msgstr "Бой! Чёрный горизонт"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 145
+#: 0x1f946b6
+msgctxt "hash:e665c2c4"
+msgid "hash:e665c2c4"
+msgstr "Бой! Босс Чёрного горизонта"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x1f946d1
+msgctxt "hash:2e0c7ce9"
+msgid "hash:2e0c7ce9"
+msgstr "Бой! Птица-легенда"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x1f946e8
+msgctxt "hash:10697ad2"
+msgid "hash:10697ad2"
+msgstr "Бой! Мьюту"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x1f946f7
+msgctxt "hash:7cbac8fa"
+msgid "hash:7cbac8fa"
+msgstr "Бой! Райку"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 71
+#: 0x1f94706
+msgctxt "hash:ef145ea0"
+msgid "hash:ef145ea0"
+msgstr "Бой! Энтей"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x1f94714
+msgctxt "hash:dfcf889e"
+msgid "hash:dfcf889e"
+msgstr "Бой! Суикун"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f94724
+msgctxt "hash:4ee97c12"
+msgid "hash:4ee97c12"
+msgstr "Бой! Хо-Ох"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f94732
+msgctxt "hash:e47ff966"
+msgid "hash:e47ff966"
+msgstr "Бой! Лугиа"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 94
+#: 0x1f94740
+msgctxt "hash:123b3a23"
+msgid "hash:123b3a23"
+msgstr "Бой! Трио Реджи"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 116
+#: 0x1f94752
+msgctxt "hash:19ca2af9"
+msgid "hash:19ca2af9"
+msgstr "Бой! Древние Хоэнна"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x1f94768
+msgctxt "hash:17878f7f"
+msgid "hash:17878f7f"
+msgstr "Бой! Деоксис"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 133
+#: 0x1f94777
+msgctxt "hash:16369d34"
+msgid "hash:16369d34"
+msgstr "Бой! Трио озёр Синно"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 116
+#: 0x1f94790
+msgctxt "hash:15353960"
+msgid "hash:15353960"
+msgstr "Бой! Диалга/Палкия"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 86
+#: 0x1f947a6
+msgctxt "hash:6a3346db"
+msgid "hash:6a3346db"
+msgstr "Бой! Гиратина"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x1f947b7
+msgctxt "hash:77ff6bd7"
+msgid "hash:77ff6bd7"
+msgstr "Бой! Легенда Синно"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 79
+#: 0x1f947d0
+msgctxt "hash:aa69b9ec"
+msgid "hash:aa69b9ec"
+msgstr "Бой! Аркеус"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 132
+#: 0x1f947df
+msgctxt "hash:40bbdcad"
+msgid "hash:40bbdcad"
+msgstr "Бой! Легенда Юновы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x1f947f7
+msgctxt "hash:c39f061a"
+msgid "hash:c39f061a"
+msgstr "Бой! Реширам/Зекром"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x1f9480f
+msgctxt "hash:c09bfe74"
+msgid "hash:c09bfe74"
+msgstr "Бой! Курем"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x1f9481e
+msgctxt "hash:2c97308d"
+msgid "hash:2c97308d"
+msgstr "Бой! Легенда Калоса"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f94836
+msgctxt "hash:aabf2bfb"
+msgid "hash:aabf2bfb"
+msgstr "Бой! Хуппа"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x1f94844
+msgctxt "hash:514441cc"
+msgid "hash:514441cc"
+msgstr "Бой! Солгалео/Лунала"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 122
+#: 0x1f9485c
+msgctxt "hash:21fbc768"
+msgid "hash:21fbc768"
+msgstr "Бой! Бог-хранитель"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 106
+#: 0x1f94873
+msgctxt "hash:af919a89"
+msgid "hash:af919a89"
+msgstr "Бой! Ультрачудовище"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 125
+#: 0x1f94887
+msgctxt "hash:852cb96f"
+msgid "hash:852cb96f"
+msgstr "Бой! Ультра-Некрозма"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x1f9489e
+msgctxt "hash:442440d7"
+msgid "hash:442440d7"
+msgstr "Бой! Дикие из Галара"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x1f948cb
+msgctxt "hash:958fb966"
+msgid "hash:958fb966"
+msgstr "Бой! Рейдовый босс"

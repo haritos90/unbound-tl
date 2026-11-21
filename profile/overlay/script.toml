@@ -1,0 +1,29 @@
+[script.trainerbattle_text_offsets]
+10 = [12, 16]
+11 = [10, 14, 18, 22, 26, 30]
+12 = [10]
+13 = [6, 10]
+14 = [6, 10, 14]
+15 = [6]
+16 = [10, 14, 18, 22, 26, 30]
+
+# Native argument tables and ConfigureTrainerBattle agree.
+[script.trainerbattle_text_roles]
+10 = ["defeat", "defeat"]
+11 = ["intro", "intro", "defeat", "defeat", "cannot-battle", "cannot-battle"]
+12 = ["defeat"]
+13 = ["intro", "defeat"]
+14 = ["intro", "defeat", "cannot-battle"]
+15 = ["defeat"]
+16 = ["intro", "intro", "defeat", "defeat", "cannot-battle", "cannot-battle"]
+
+# Fixed-length name tables found by stride search.
+# refs counts pointers to the base in the base ROM.
+# long_name_pointers: an entry may start with a pointer.
+[script.command_lengths]
+129 = 1   # 0x81
+138 = 1   # 0x8A
+
+# Speaker context: the colour after a label marks the speaker.
+# - 04 red (female), 08 blue (male), 06 green (cries)
+# - textcolor uses 0 blue (male), 1 red (female)

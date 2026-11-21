@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-1F20000\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 184, 156
+#: 0x1f21a41
+msgctxt "hash:8ac126b2"
+msgid "hash:8ac126b2"
+msgstr "Предметы из Куба можно отметить и применять кнопкой {F8 05}."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 149
+#: 0x1f21b19
+msgctxt "hash:a8e57abe"
+msgid "hash:a8e57abe"
+msgstr "Что вы хотите сделать?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 186, 84
+#: 0x1f21b34
+msgctxt "hash:827818e6"
+msgid "hash:827818e6"
+msgstr "Ваши покемоны полностью здоровы."
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 86
+#: 0x1f21b65
+msgctxt "hash:e5222cc3"
+msgid "hash:e5222cc3"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 180, 118, 87
+#: 0x1f255ff
+msgctxt "hash:c0c7e070"
+msgid "hash:c0c7e070"
+msgstr ""
+"Тебе встретились все покемоны Покедекса Западного Борриуса!\\pПоздравляю!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 181, 122, 54, 150, 43
+#: 0x1f25647
+msgctxt "hash:68079f87"
+msgid "hash:68079f87"
+msgstr ""
+"Все покемоны, внесённые в Покедекс, пойманы!\\pХо-хо-хо!\\pТы поистине "
+"великолепный тренер!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 171, 40, 161, 57
+#: 0x1f256ae
+msgctxt "hash:3f0c742b"
+msgid "hash:3f0c742b"
+msgstr ""
+"Загляни ко мне в лабораторию, когда будет минутка.\\pУ меня есть награда "
+"за все твои труды!"
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 143, 102
+#: 0x1f27862
+msgctxt "hash:85148587"
+msgid "hash:85148587"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 146, 174, 163
+#: 0x1f2788f
+msgctxt "hash:e2eee7e0"
+msgid "hash:e2eee7e0"
+msgstr ""
+"Ну как, круто выглядит мой покемон?\\pТеперь можешь любоваться им в "
+"Покедексе сколько душе угодно!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 181, 133, 173, 78, 186, 129
+#: 0x1f278e7
+msgctxt "hash:50320e2c"
+msgid "hash:50320e2c"
+msgstr ""
+"Уи, уи, я та самая знаменитая Фурфрите, стилист для Фурфру.\\pЗа {COLOR "
+"06}¥{STR_VAR_1}{COLOR 04} я создам вашему Фурфру неповторимый образ.\\pНу "
+"что, есть у вас {COLOR 06}Фурфру{COLOR 04}, которого хотите преобразить?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 50
+#: 0x1f27997
+msgctxt "hash:909b99d7"
+msgid "hash:909b99d7"
+msgstr "Какую из этих стрижек желаете?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 172, 176, 153
+#: 0x1f279c5
+msgctxt "hash:198732ec"
+msgid "hash:198732ec"
+msgstr ""
+"Ваш Фурфру теперь просто магнифик!\\pВам очень повезло: не у каждого "
+"тренера есть такой Фурфру."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 161, 40
+#: 0x1f27a21
+msgctxt "hash:31834d18"
+msgid "hash:31834d18"
+msgstr "Нон, нон, значит, мои услуги не нужны."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 184, 74
+#: 0x1f27a47
+msgctxt "hash:b9a022f0"
+msgid "hash:b9a022f0"
+msgstr "Нон, нон, на мои услуги у вас не хватает денег."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 180
+#: 0x1f27a76
+msgctxt "hash:da92cb75"
+msgid "hash:da92cb75"
+msgstr "Нон, нон, яйцо я стричь не могу!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 167, 86
+#: 0x1f27a97
+msgctxt "hash:b63ff579"
+msgid "hash:b63ff579"
+msgstr "Нон, нон, разве это похоже на {COLOR 06}Фурфру{COLOR 04}?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 56
+#: 0x1f27acc
+msgctxt "hash:d7896167"
+msgid "hash:d7896167"
+msgstr "Нон, нон, у вашего Фурфру уже такая стрижка!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 188, 165, 104, 185, 101
+#: 0x1f27b44
+msgctxt "hash:78045d49"
+msgid "hash:78045d49"
+msgstr ""
+"А ты знаешь, что в грязи с болота Кутс есть минералы, которые очень "
+"полезны для кожи?\\pЕсли хочешь, могу сделать твоему покемону массаж с "
+"этой грязью."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 43, 107
+#: 0x1f27bce
+msgctxt "hash:605bf76f"
+msgid "hash:605bf76f"
+msgstr "Отлично!\\nТогда начнём."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 91, 192, 117
+#: 0x1f27beb
+msgctxt "hash:0ebae922"
+msgid "hash:0ebae922"
+msgstr ""
+"Вот и всё. Готово!\\pПосле массажа твой покемон стал к тебе дружелюбнее."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 34, 179, 42, 201
+#: 0x1f27c34
+msgctxt "hash:cce24f17"
+msgid "hash:cce24f17"
+msgstr ""
+"Прости!\\pЯ совсем вымоталась после прошлого массажа.\\pПриходи в другой "
+"день!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 57, 182, 197
+#: 0x1f27c88
+msgctxt "hash:22993a72"
+msgid "hash:22993a72"
+msgstr ""
+"А, понятно.\\pЯ здесь ненадолго, так что, если передумаешь, приходи "
+"поскорее."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 93, 198
+#: 0x1f27cd8
+msgctxt "hash:9e31d6a0"
+msgid "hash:9e31d6a0"
+msgstr "Массаж яйцу?\\nПожалуй, для этого ещё рановато."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 172, 165, 165, 84
+#: 0x1f27d0d
+msgctxt "hash:ee92b854"
+msgid "hash:ee92b854"
+msgstr ""
+"Я сестра хозяина Дневного ухода.\\pМоя работа - раздавать яйца, ненужные "
+"тренерам.\\pВот, возьми одно."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 172, 165, 165, 172, 178
+#: 0x1f27d7a
+msgctxt "hash:586f743a"
+msgid "hash:586f743a"
+msgstr ""
+"Я сестра хозяина Дневного ухода.\\pМоя работа - раздавать яйца, ненужные "
+"тренерам.\\pОсвободишь место в команде - приходи за яйцом."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 183, 153, 183, 155, 199, 159, 153
+#: 0x1f27e16
+msgctxt "hash:38475333"
+msgid "hash:38475333"
+msgstr ""
+"Когда приду в следующий раз, принесу ещё бесплатных яиц.\\pНо если тебе "
+"совсем невтерпёж, я всегда могу продать парочку…\\pУверена, хозяин "
+"Дневного ухода не откажется от лишней копеечки…\\pЗаглядывай ещё, ладно?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 172, 166, 43
+#: 0x1f27eef
+msgctxt "hash:20a1f02e"
+msgid "hash:20a1f02e"
+msgstr ""
+"Я сестра хозяина Дневного ухода.\\pМогу продать тебе редкое яйцо за "
+"¥{COLOR 06}50000{COLOR 04}."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 132, 158, 50, 166, 49
+#: 0x1f27f3b
+msgctxt "hash:ad410329"
+msgid "hash:ad410329"
+msgstr ""
+"Снова за добавкой, а?\\pНу и жадина же ты, хе-хе-хе-хе…\\pМогу продать "
+"тебе редкое яйцо за ¥{COLOR 06}100000{COLOR 04}."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 153
+#: 0x1f27fa7
+msgctxt "hash:a9ceb6fb"
+msgid "hash:a9ceb6fb"
+msgstr "Заглядывай ещё, ладно?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 183, 153, 153
+#: 0x1f27fc3
+msgctxt "hash:20b3e08f"
+msgid "hash:20b3e08f"
+msgstr ""
+"Когда приду в следующий раз, принесу ещё бесплатных яиц.\\pЗаглядывай "
+"ещё, ладно?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 166, 116, 183, 153, 153
+#: 0x1f2801d
+msgctxt "hash:34a6f38b"
+msgid "hash:34a6f38b"
+msgstr ""
+"Хе-хе-хе… На яйцо у тебя денег не хватает.\\pКогда приду в следующий раз, "
+"принесу ещё бесплатных яиц.\\pЗаглядывай ещё, ладно?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 166, 175
+#: 0x1f280aa
+msgctxt "hash:393e4725"
+msgid "hash:393e4725"
+msgstr "Хе-хе-хе… В твоей команде нет места для яйца."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 178, 75, 35, 155, 188, 97
+#: 0x1f280e8
+msgctxt "hash:d3e942a5"
+msgid "hash:d3e942a5"
+msgstr ""
+"Морской бриз так успокаивает, да?\\pОтдохни!\\nРасслабься!\\pПусть ветер "
+"обдувает тебя…\\pИногда нужно просто жить моментом, понимаешь?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 161
+#: 0x1f2835d
+msgctxt "hash:d817e20c"
+msgid "hash:d817e20c"
+msgstr "Здрасьте-здрасьте! Мы с покемонами прямо с ранчо."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 151
+#: 0x1f2839a
+msgctxt "hash:f51751c5"
+msgid "hash:f51751c5"
+msgstr "Молодцы вы у меня, покемоны."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 182, 172, 57
+#: 0x1f283b5
+msgctxt "hash:05998bc9"
+msgid "hash:05998bc9"
+msgstr ""
+"Я частенько вожу сюда покемонов с ранчо, чтобы они немножко развлеклись."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 117, 144, 129
+#: 0x1f28401
+msgctxt "hash:87cf9d0a"
+msgid "hash:87cf9d0a"
+msgstr "Я мастер ранчо!\\pЧто это значит?\\nСразись со мной - узнаешь!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 133
+#: 0x1f28449
+msgctxt "hash:2fd41ab0"
+msgid "hash:2fd41ab0"
+msgstr "Ладно, так уж и быть, скажу!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 163, 34, 85
+#: 0x1f28462
+msgctxt "hash:fb04c5a5"
+msgid "hash:fb04c5a5"
+msgstr "Это значит, что на своём ранчо командую я!\\pМоё слово - закон!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 159, 196, 140
+#: 0x1f28497
+msgctxt "hash:81ed5a2b"
+msgid "hash:81ed5a2b"
+msgstr ""
+"Мои покемоны рвутся в бой!\\pМы заходим в это кафе при любой возможности "
+"- только ради боёв!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 171, 111
+#: 0x1f284f1
+msgctxt "hash:e9b8ab8b"
+msgid "hash:e9b8ab8b"
+msgstr "Проигрывать мы не хотели, но бой того стоил!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 193, 142
+#: 0x1f28526
+msgctxt "hash:82672590"
+msgid "hash:82672590"
+msgstr "Когда приду в следующий раз, давай сразимся ещё разок!"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 176, 58, 181, 125, 201, 63, 189, 187, 151, 135, 51
+#: 0x1f28563
+msgctxt "hash:dbde4c4d"
+msgid "hash:dbde4c4d"
+msgstr ""
+"Ты любишь покемона Иви?\\nЯ - обожаю!\\pУ меня его нет, но я всё равно "
+"его большая фанатка.\\pНо мне всегда было интересно: почему Иви так "
+"популярен?\\pЕму столько особого внимания.\\pНу да, он милый и всё такое, "
+"но взять хотя бы этот кристалл-Z.\\pС чего это у Иви есть свой?\\pНу да "
+"ладно…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 185, 58, 187, 65
+#: 0x1f2867c
+msgctxt "hash:5d931eef"
+msgid "hash:5d931eef"
+msgstr ""
+"Теперь у тебя есть кристалл-Z для Иви!\\pРаз он с глаз долой, можно "
+"больше не ломать над этим голову…"
+
+#. category: script; mode: field
+#. original lines: 17, widths px: 30, 159, 99, 110, 172, 172, 75, 199, 179, 171, 160, 192, 188, 143, 159, 154, 182
+#: 0x1f286d7
+msgctxt "hash:07a47275"
+msgid "hash:07a47275"
+msgstr ""
+"Привет!\\pКажется, я ещё толком не представилась.\\pМеня зовут Кэтрин!\\n"
+"Но почти все зовут меня Кэти.\\pЯ приехала сюда из Канто с подругой "
+"Махиной.\\pПрофессор Оук хотел, чтобы мы заполнили Покедекс, так что мы "
+"каждый день колесим по Борриусу и ищем побольше редких покемонов.\\p"
+"Именно благодаря этим путешествиям я смогла пробудить скрытую силу своего "
+"Бластойза.\\pЕсли у тебя тоже есть Бластойз, это поможет раскрыть и его "
+"скрытый потенциал."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 178, 183, 172, 124, 138, 190, 146
+#: 0x1f288b0
+msgctxt "hash:6765b4f8"
+msgid "hash:6765b4f8"
+msgstr ""
+"Я люблю сражаться в Скрытых гротах с Бластойзом, так что, если окажешься "
+"в гроте, давай объединимся и сразимся вместе!\\pВместе мы - грозная "
+"команда.\\pНо Бластойза я выпускаю, только когда без этого никак."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 51, 84, 105, 52, 168, 116, 177, 153, 82
+#: 0x1f28983
+msgctxt "hash:8948ac8c"
+msgid "hash:8948ac8c"
+msgstr ""
+"Абимбола!\\nВот как меня зовут!\\pЧто такое “Абимбола”?\\nА я почём "
+"знаю!\\pНо друзья для краткости зовут меня Абимбол. Мне нравится!\\p"
+"Думаю, тебе стоит взять вот это - в награду за то, что столько слушаешь "
+"про моё имя!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 169, 127, 183, 188, 94, 179, 195, 114, 30
+#: 0x1f28a3d
+msgctxt "hash:ce465aa1"
+msgid "hash:ce465aa1"
+msgstr ""
+"Похоже, ты крутой тренер - давай как-нибудь объединимся!\\pЯ люблю "
+"сражаться в Скрытых гротах, так что, если увидишь там меня, бери в "
+"напарники!\\pСначала я люблю обездвижить противника, а уж потом - бой без "
+"правил!\\pДа!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 206, 152, 162, 144
+#: 0x1f28b2e
+msgctxt "hash:a3b89678"
+msgid "hash:a3b89678"
+msgstr ""
+"Итак, ты говоришь со мною, великим и царственным Олфордом.\\pЗа такую "
+"храбрость тебе полагается нечто особенное."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 194, 166, 91, 148, 164, 183
+#: 0x1f28ba7
+msgctxt "hash:473910ae"
+msgid "hash:473910ae"
+msgstr ""
+"Я обожаю царственных покемонов.\\pПокемоны, которых я ношу с собой, и "
+"есть моя суть.\\pПонадобится помощь - смело зови меня и моих царственных "
+"покемонов."
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 183, 173, 171, 172, 58, 182, 170, 89, 174, 160, 159
+#: 0x1f28c54
+msgctxt "hash:84b40537"
+msgid "hash:84b40537"
+msgstr ""
+"Мы с моей подругой Кэти вместе приехали сюда из региона Канто.\\p"
+"Профессор Оук дал нам покемонов и поручил заполнить Покедекс.\\pЗа время "
+"путешествий мы\\nс Венузавром очень сблизились\\lи теперь\\lсражаемся как "
+"одно целое.\\pЕсли у тебя тоже есть Венузавр, это, возможно, поможет "
+"укрепить вашу связь."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 176, 148, 184, 68
+#: 0x1f28d8b
+msgctxt "hash:ab46de04"
+msgid "hash:ab46de04"
+msgstr ""
+"Если тебе понадобится сильный напарник в Скрытом гроте, мы с Венузавром - "
+"отличный выбор."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 58, 133, 194, 133, 6, 177, 88, 145, 149
+#: 0x1f28df5
+msgctxt "hash:bcc03173"
+msgid "hash:bcc03173"
+msgstr ""
+"О, привет, {STR_VAR_3}…\\pКлёво, что ты здесь…\\pСижу вот, попиваю "
+"травяной чаёк… а тут и ты.\\p…\\pЭ-э, прозвучит странно, но…{PAUSE 18}\\n"
+"не подкинешь покемона {COLOR 06}{STR_VAR_1}{COLOR 08}?\\pВзамен есть "
+"{COLOR 06}{STR_VAR_2}{COLOR 08} - вдруг зайдёт, если махнёмся…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 85, 162, 41, 107
+#: 0x1f28ed3
+msgctxt "hash:8dbb6e2f"
+msgid "hash:8dbb6e2f"
+msgstr ""
+"Эх, облом, {STR_VAR_3}…\\pНу, тогда вернусь к своему чайку…\\pНервы "
+"успокаивает, {STR_VAR_3}…"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 113, 196, 98, 189, 45
+#: 0x1f28f21
+msgctxt "hash:13b34d96"
+msgid "hash:13b34d96"
+msgstr ""
+"Это же не {STR_VAR_1}… или как?\\pПоди разбери, когда столько "
+"дымишь…{PAUSE 18}\\nэ-э…{PAUSE 18} Ароматом роз…\\p…Не-а, это точно не "
+"тот покемон."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 122
+#: 0x1f28fa0
+msgctxt "hash:2beeb9d3"
+msgid "hash:2beeb9d3"
+msgstr "Ну ты лучше всех, {STR_VAR_3}."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 163, 138, 24, 194, 180, 36
+#: 0x1f28fb9
+msgctxt "hash:7781dd49"
+msgid "hash:7781dd49"
+msgstr ""
+"Говорю тебе, {STR_VAR_3}… нет ничего\\nлучше мягкого травяного чайку…\\p"
+"М-м-м…\\pОсобенно когда от тумана, что валит с моего стадиона, голова так "
+"плывёт…"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 67, 187, 114, 189, 134, 112, 177, 6, 181, 112
+#: 0x1f29043
+msgctxt "hash:70b8fc9c"
+msgid "hash:70b8fc9c"
+msgstr ""
+"А, {PLAYER}. Здравствуй.\\pВ последнее время досуга у меня прибавилось, и "
+"я им наслаждаюсь…\\pА здешний кофе раз за разом манит меня обратно.\\pАх "
+"да, это мне кое о чём напомнило…\\pС недавних пор я ищу\\nпокемона {COLOR "
+"06}{STR_VAR_1}{COLOR 08}…\\pЕсли он есть у тебя, обменяешь ли\\nего на "
+"моего покемона {COLOR 06}{STR_VAR_2}{COLOR 08}?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 178, 171
+#: 0x1f29144
+msgctxt "hash:f17955fd"
+msgid "hash:f17955fd"
+msgstr "Что ж, полагаю, у тебя найдутся дела поважнее на этот вечер."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 177, 165, 147, 163
+#: 0x1f29184
+msgctxt "hash:e7a03d9d"
+msgid "hash:e7a03d9d"
+msgstr ""
+"Прошу прощения… если это шутка, боюсь, мне не смешно.\\pЕсли покемона "
+"{STR_VAR_1} у тебя нет, не стыдно так и сказать."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 77
+#: 0x1f29202
+msgctxt "hash:41db8f92"
+msgid "hash:41db8f92"
+msgstr "Весьма признателен, {PLAYER}."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 156, 124, 199, 186, 196, 110
+#: 0x1f29213
+msgctxt "hash:cf295adc"
+msgid "hash:cf295adc"
+msgstr ""
+"Я агент, специалист по добыче сведений…\\pИ всё же, к стыду своему, "
+"здешний кофе я открыл лишь недавно.\\pЗнай я раньше, насколько он хорош…"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 27, 183, 133, 188, 62, 151, 46, 172, 99
+#: 0x1f292c9
+msgctxt "hash:9c3f09a1"
+msgid "hash:9c3f09a1"
+msgstr ""
+"Привет, {PLAYER}!\\pВот, даю крыльям отдохнуть, пока не пора лететь "
+"дальше.\\pКстати, у меня к тебе просьба.\\pЕсли у тебя вдруг найдётся под "
+"рукой {COLOR 06}{STR_VAR_1}{COLOR 04}…\\pНе отдашь в обмен на моего "
+"покемона {COLOR 06}{STR_VAR_2}{COLOR 04}?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 71
+#: 0x1f293a0
+msgctxt "hash:ad4f07d9"
+msgid "hash:ad4f07d9"
+msgstr "Ну что ж… удача не всегда на нашей стороне."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 127, 165, 185, 99
+#: 0x1f293d1
+msgctxt "hash:5beb366e"
+msgid "hash:5beb366e"
+msgstr ""
+"Хм… насколько я помню, {STR_VAR_1} выглядит совсем не так.\\pА ничего "
+"другого я, увы, не ищу…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 196
+#: 0x1f29440
+msgctxt "hash:1e0ab5fa"
+msgid "hash:1e0ab5fa"
+msgstr "Чудесно! Ты меня очень выручаешь!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 145, 201, 169, 192, 125
+#: 0x1f29464
+msgctxt "hash:8fa9dad8"
+msgid "hash:8fa9dad8"
+msgstr ""
+"Здесь так тепло…\\pПо сравнению с городом Близзард, конечно, - но это "
+"неудивительно.\\pПоэтому при случае я почти всегда беру холодный кофе."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 10, widths px: 80, 194, 189, 79, 177, 96, 115, 72, 130, 124
+#: 0x1f294fe
+msgctxt "hash:c4fc5ace"
+msgid "hash:c4fc5ace"
+msgstr ""
+"Ну, здорово, {PLAYER}!\\pВидать, ты, как и все\\nв городке Магнолия… "
+"надолго\\lбез старины Мела не можешь, а?\\pНу, раз уж ты здесь, есть у "
+"меня к тебе просьбица.\\pНет ли у тебя в команде\\nпокемона {COLOR "
+"06}{STR_VAR_1}{COLOR 08}?\\pА у меня тут есть {COLOR 06}{STR_VAR_2}{COLOR "
+"08} - бери, коли интересно."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 149, 46
+#: 0x1f295fc
+msgctxt "hash:38ea6901"
+msgid "hash:38ea6901"
+msgstr "Не по душе тебе такое?\\nНу и ладно…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 192, 82, 180, 74
+#: 0x1f29621
+msgctxt "hash:4b669d91"
+msgid "hash:4b669d91"
+msgstr ""
+"Дружище, не так уж я стар, чтоб ослепнуть.\\pКак ни погляди, а это уж "
+"точно не {COLOR 06}{STR_VAR_1}{COLOR 08}."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 167
+#: 0x1f2968f
+msgctxt "hash:92850b53"
+msgid "hash:92850b53"
+msgstr "Йи-ха! Вот это по-нашему!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 173, 95, 180, 126
+#: 0x1f296ae
+msgctxt "hash:792de0b9"
+msgid "hash:792de0b9"
+msgstr ""
+"Я не из тех, кому по душе кофе с финтифлюшками.\\pМне подавай чего "
+"покрепче, если понимаешь, о чём я…"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 115, 166, 186, 174, 152, 150, 69, 138, 194
+#: 0x1f2971b
+msgctxt "hash:331f6d00"
+msgid "hash:331f6d00"
+msgstr ""
+"Йоу, как делишки, {PLAYER}?\\pОт возни с железом пересыхает горло - вот и "
+"передыхаю.\\pКстати, не выручишь\\nстарину Гэлавана… ну…\\pУступишь мне "
+"покемона {COLOR 06}{STR_VAR_1}{COLOR 08},\\nесли он у тебя есть?\\pВзамен "
+"дам покемона {COLOR 06}{STR_VAR_2}{COLOR 08} - отличная сделка, а?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 197, 194
+#: 0x1f29828
+msgctxt "hash:dcfe8580"
+msgid "hash:dcfe8580"
+msgstr "Ар-р! Почему тут вечно не достать последнюю деталь?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 140, 186, 202, 139
+#: 0x1f2986f
+msgctxt "hash:05831f86"
+msgid "hash:05831f86"
+msgstr ""
+"Это не {COLOR 06}{STR_VAR_1}{COLOR 08} - и что старине Гэлавану с этим "
+"делать?\\pНичто другое и близко не подходит на роль последней детали."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 155, 54
+#: 0x1f298f4
+msgctxt "hash:5ef27a95"
+msgid "hash:5ef27a95"
+msgstr "Ты меня просто спасаешь, честно!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 197, 115, 172, 194, 175
+#: 0x1f2991c
+msgctxt "hash:5a08a3dd"
+msgid "hash:5a08a3dd"
+msgstr ""
+"Кстати, а ты какой кофе обычно пьёшь?\\pЯ - чёрный, без сахара.\\pХочу "
+"ЧУВСТВОВАТЬ заряд - чтоб тока хватило на всё начатое."
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 145, 193, 191, 58, 205, 51, 141, 147, 165, 122, 132
+#: 0x1f299b9
+msgctxt "hash:fd09156d"
+msgid "hash:fd09156d"
+msgstr ""
+"Ха-ха-ха-ха! Да это же {PLAYER}!\\pМне шепнули, что лучше кофе\\nпо эту "
+"сторону Борриуса\\lне сыскать, вот я и здесь.\\pСлушай, у других "
+"посетителей такого не нашлось, но…\\pЕсли у тебя при себе {COLOR "
+"06}{STR_VAR_1}{COLOR 08}, сменяешь?\\pЯ как раз хотел сбыть\\nпокемона "
+"{COLOR 06}{STR_VAR_2}{COLOR 08}, так что,\\lесли хочешь меняться, я в "
+"деле."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 124
+#: 0x1f29aee
+msgctxt "hash:597d0d60"
+msgid "hash:597d0d60"
+msgstr "Р-р-р… ну и…{PAUSE 18} ладно…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 190, 113, 160, 6
+#: 0x1f29b09
+msgctxt "hash:57b50b24"
+msgid "hash:57b50b24"
+msgstr ""
+"Чего… ты что, смеёшься надо мной, мелочь сопливая?!\\pЭто ж ни капли не "
+"похоже на покемона {COLOR 06}{STR_VAR_1}{COLOR 08}!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 135, 55
+#: 0x1f29b6b
+msgctxt "hash:d8b442a2"
+msgid "hash:d8b442a2"
+msgstr "Хе-хе… пусть {COLOR 06}{STR_VAR_2}{COLOR 08} тебя порадует, ясно?"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 183, 134, 175, 175, 32, 199, 183, 95
+#: 0x1f29b97
+msgctxt "hash:728849f3"
+msgid "hash:728849f3"
+msgstr ""
+"А штука и правда что надо - не наврали…\\pХа! Если какие-нибудь "
+"простофили вроде Террора Грэнбулл попробуют прибрать это заведение к "
+"рукам…\\pЧто ж, лично я… отобью у них охоту соваться сюда снова, если им "
+"своя шкура дорога."
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 70, 196, 180, 168, 170, 186, 34, 128, 89, 145, 158
+#: 0x1f29c75
+msgctxt "hash:0fec73b3"
+msgid "hash:0fec73b3"
+msgstr ""
+"Ой, привет-привет, {PLAYER}!\\pЛучший кофе Борриуса недалеко\\nот болота, "
+"вот я и заглянула\\lпромочить горло.\\pНу и заодно посмотреть, не захочет "
+"ли кто из посетителей поменяться со старушкой Тесси…\\pНет ли у тебя "
+"покемона {COLOR 06}{STR_VAR_1}{COLOR 04}\\nна обмен?\\pДай-ка гляну… "
+"взамен у меня есть {COLOR 06}{STR_VAR_2}{COLOR 04}, коли не против."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 194, 181, 181
+#: 0x1f29da7
+msgctxt "hash:f2f5b722"
+msgid "hash:f2f5b722"
+msgstr ""
+"Нет? Ну, оно и понятно - нужный покемон не всегда оказывается под рукой в "
+"нужный момент."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 201, 86
+#: 0x1f29e0e
+msgctxt "hash:ac679acb"
+msgid "hash:ac679acb"
+msgstr ""
+"Ну…{PAUSE 18} э-э…{PAUSE 18} мило, конечно, но это всё-таки не {COLOR "
+"06}{STR_VAR_1}{COLOR 04}, золотце."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 164, 5
+#: 0x1f29e53
+msgctxt "hash:e320c475"
+msgid "hash:e320c475"
+msgstr "Фух… прямо от сердца отлегло - спасибо, {PLAYER}."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 194, 175, 131, 193, 156
+#: 0x1f29e76
+msgctxt "hash:b16ca997"
+msgid "hash:b16ca997"
+msgstr ""
+"На болоте душновато, так что надо взять чего-нибудь ледяного, понимаешь, "
+"о чём я?\\pАх да, и нашему старине Свамперту надо взять обед…"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 123, 33, 189, 194, 176, 190, 114, 193, 125, 142, 144
+#: 0x1f29f13
+msgctxt "hash:5c38be75"
+msgid "hash:5c38be75"
+msgstr ""
+"А, {PLAYER}… я тебя и не заметил.\\pВот решил навестить\\nв этом "
+"заведении старых друзей,\\lа заодно выпить кофе.\\pАх да… я всё хотел "
+"спросить\\nпри следующей встрече…\\pНет ли у тебя на обмен\\nпокемона "
+"{COLOR 06}{STR_VAR_1}{COLOR 08}?\\pВзамен я дам покемона {COLOR "
+"06}{STR_VAR_2}{COLOR 08},\\nесли ты не против."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 192
+#: 0x1f2a052
+msgctxt "hash:bfbd69e0"
+msgid "hash:bfbd69e0"
+msgstr "Понимаю… может, в другой раз?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 165, 106, 163, 174
+#: 0x1f2a075
+msgctxt "hash:b5d1827a"
+msgid "hash:b5d1827a"
+msgstr ""
+"Боюсь, это не совсем то… Я ищу покемона {COLOR 06}{STR_VAR_1}{COLOR "
+"08}…\\pЯ предпочёл бы прямой ответ: да или нет, если позволишь."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 119
+#: 0x1f2a0f0
+msgctxt "hash:e7824bae"
+msgid "hash:e7824bae"
+msgstr "Вот это другое дело!"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 198, 193, 197, 189, 66, 185, 181, 43, 134
+#: 0x1f2a107
+msgctxt "hash:17245cc4"
+msgid "hash:17245cc4"
+msgstr ""
+"Я захожу в кафе, только когда мне пора на пост лидера стадиона.\\pВ "
+"прошлый раз я, видишь ли, впал в детство, и персонал меня не впустил.\\p"
+"Мне предложили пакетик сока и спросили, не отстал ли я от родителей.\\p"
+"Хмпф! Какая грубость."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 187, 126, 171, 206, 160, 89, 154, 143
+#: 0x1f2a205
+msgctxt "hash:1102539d"
+msgid "hash:1102539d"
+msgstr ""
+"Кто смеет нарушать кофейный перерыв человека-крота?\\pА, это ты, дитя "
+"поверхности!..\\pХмпф. Лига поручила мне вручить этот редкий предмет "
+"новому чемпиону.\\pЗабирай и оставь меня в моём уединении, дитя "
+"поверхности."
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 196, 168, 191, 187, 85, 179, 164, 180, 88, 168, 70
+#: 0x1f2a2e9
+msgctxt "hash:7770552c"
+msgid "hash:7770552c"
+msgstr ""
+"Это {COLOR 06}Землиниум Z{COLOR 08} - бесценное сокровище людей-кротов.\\p"
+"Он был нашим величайшим оружием против угнетателей, пока те не загнали "
+"нас под землю…\\pТьфу… но тебе он не поможет, дитя поверхности, ибо я и "
+"мои собратья, люди-кроты, превзойдём его великую мощь.\\pВ этом я клянусь "
+"от имени всех людей-кротов!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 165, 144, 171, 180, 67, 180, 169, 159
+#: 0x1f2a424
+msgctxt "hash:004ecb2e"
+msgid "hash:004ecb2e"
+msgstr ""
+"Признаю, здешний кофе… мне не противен.\\pОн очень напоминает мне тарелки "
+"земли, которые мать готовила в дни моей юности.\\pПожалуй, когда настанет "
+"час нашей мести, я оставлю миру на поверхности лишь его…"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 143, 76, 154, 168, 51, 197, 193, 202, 24
+#: 0x1f2a508
+msgctxt "hash:1d7d0cf0"
+msgid "hash:1d7d0cf0"
+msgstr ""
+"О, привет, {PLAYER}… забавное место для встречи, а?\\pВ общем… мне велели "
+"- вернее, велели покемону, который живёт в моём теле…\\pпередать тебе вот "
+"это - приз за прошлую победу надо мной.\\p“Лучше поздно, чем никогда”, - "
+"сказали они… ха…"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 156, 159, 185, 90, 188, 180, 77, 39
+#: 0x1f2a5e9
+msgctxt "hash:f43d1c1f"
+msgid "hash:f43d1c1f"
+msgstr ""
+"Этот {COLOR 06}Призрачниум Z{COLOR 08} - та ещё жуть, скажу я тебе.\\p"
+"Любой приём типа {COLOR 06}Привидение{COLOR 08} становится такой страшной "
+"атакой…\\pчто даже покемон, таскающий эту темницу из плоти, чуть не "
+"выскочил бы из моей шкуры…\\pПочти…"
+
+#. category: script; mode: field
+#. original lines: 13, widths px: 199, 135, 196, 196, 192, 90, 193, 160, 103, 166, 131, 202, 140
+#: 0x1f2a6be
+msgctxt "hash:880e0f4d"
+msgid "hash:880e0f4d"
+msgstr ""
+"Знаешь, что Лига мне больше вообще не платит?\\pЯ мёртв, так что мне не "
+"нужна еда,\\nи я не устаю, так что не сплю,\\lа значит, не нужно жильё,\\l"
+"а значит, и деньги на аренду.\\pИ сколько ещё мне делать всё, что хотят "
+"Лига и эта дурацкая штука, - без понятия…\\pВ том числе ходить за кофе…\\p"
+"Который даже не для меня…\\pИ за который мой хозяин заплатил, обчистив "
+"других посетителей."
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 6, 156, 24, 79, 183, 68, 169, 181, 184, 98
+#: 0x1f2a844
+msgctxt "hash:d276cd3d"
+msgid "hash:d276cd3d"
+msgstr ""
+"{PLAYER}!\\pУра, ты к нам на чаепитие!\\pА?\\pГде папочка?\\pНу… он дома, "
+"ищет новую работу.\\pНо если я вернусь до темноты, он не против, "
+"честно-честно!\\pВот, держи подарочек - сюрприз для нежданных гостей!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 176, 140, 188, 37
+#: 0x1f2a91c
+msgctxt "hash:c851464f"
+msgid "hash:c851464f"
+msgstr ""
+"{COLOR 06}Волшебниум Z{COLOR 04} хранит всю силу моих подружек типа "
+"{COLOR 06}Фея{COLOR 04}!\\pСила пикси раскидает твоих врагов во все "
+"стороны!"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 187, 100, 206, 193, 132, 191, 189, 109, 103, 193
+#: 0x1f2a98e
+msgctxt "hash:ca8ae8c9"
+msgid "hash:ca8ae8c9"
+msgstr ""
+"А? Хочешь знать, откуда у меня столько чая?\\pПапочка сказал, что "
+"приносить еду и питьё не из здешнего кафе невежливо.\\pВот я и купила "
+"весь чай, какой тут есть, и устроила большое чаепитие с подружками!\\p"
+"Только без кофе.\\pПапочка говорит, я ещё маленькая."
+
+#. category: script; mode: field
+#. original lines: 13, widths px: 60, 6, 136, 113, 179, 136, 131, 192, 177, 189, 120, 188, 116
+#: 0x1f2aab5
+msgctxt "hash:bc6398a6"
+msgid "hash:bc6398a6"
+msgstr ""
+"ВРО-О-О-О-ОАР!\\p…\\pОй, прости, {PLAYER}, я только что с Драконкона.\\p"
+"Там сказали, что так ревёт какой-то недавно открытый дракон по имени "
+"“Этернатус”.\\pКак по мне, настоящий кошмар. Он даже на дракона не "
+"похож!\\pХорошо, что здесь, в Борриусе, его не найти!\\pЗато я знаю, что "
+"здесь найти МОЖНО, - вот это!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 186, 162, 171, 179, 178, 56, 188, 158
+#: 0x1f2abfd
+msgctxt "hash:668113cf"
+msgid "hash:668113cf"
+msgstr ""
+"Этот {COLOR 06}Дракониум Z{COLOR 04} мощнее любого поддельного {COLOR "
+"06}дракона{COLOR 04}!\\pКому нужны такие уродцы, когда этим кристаллом-Z "
+"можно пробить противника насквозь!\\pСпорим, там, откуда этот поддельный "
+"дракон, таких нет."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 186, 192, 190, 169, 40, 199, 172
+#: 0x1f2acf4
+msgctxt "hash:7ce59ba9"
+msgid "hash:7ce59ba9"
+msgstr ""
+"Знаешь, все, кто видит меня впервые, говорят одно и то же…\\pМол, ждали, "
+"что тренер покемонов типа Дракон будет изящнее и взрослее…\\pПф! Я очень "
+"взрослая - у меня даже кассета “Для взрослых”!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 159, 66, 197, 82
+#: 0x1f2adc8
+msgctxt "hash:55b278b0"
+msgid "hash:55b278b0"
+msgstr ""
+"{COLOR 02}Если присмотреться к обложке кассеты…\\pТакое…{PAUSE 18} Гуми "
+"ТОЧНО НЕ по душе."
+
+#. category: script; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 18
+#: 0x1f2ae33
+msgctxt "hash:97af5655"
+msgid "hash:97af5655"
+msgstr "Ред"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f2ae37
+msgctxt "hash:5772ed94"
+msgid "hash:5772ed94"
+msgstr "Лиф"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 6, 163, 142, 55
+#: 0x1f2ae3c
+msgctxt "hash:66c808bb"
+msgid "hash:66c808bb"
+msgstr ""
+"…\\p{COLOR 02}Мальчик предлагает обмен.\\pОтдать покемона {COLOR "
+"06}{STR_VAR_1}{COLOR 02}\\nв обмен на его покемона {COLOR "
+"06}{STR_VAR_2}{COLOR 02}?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 172, 45, 68
+#: 0x1f2ae94
+msgctxt "hash:a9a69273"
+msgid "hash:a9a69273"
+msgstr ""
+"{COLOR 02}Мальчику нужен не этот покемон.\\pЕму нужен покемон {COLOR "
+"06}{STR_VAR_1}{COLOR 02}."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 24, 152, 73
+#: 0x1f2aed5
+msgctxt "hash:ad264e2a"
+msgid "hash:ad264e2a"
+msgstr "{COLOR 02}А?\\pПикачу, похоже, держит какую-то одежду."
+
+#. category: script; mode: field
+#. original lines: 18, widths px: 63, 180, 95, 6, 139, 107, 64, 191, 185, 110, 174, 184, 59, 205, 184, 129, 179, 193
+#: 0x1f2af3d
+msgctxt "hash:0d66853f"
+msgid "hash:0d66853f"
+msgstr ""
+"Что такое?\\nУ тебя очень сильная аура.\\pКак тебя зовут?\\p…\\pХорошо. Я "
+"запомню!\\nРада знакомству, {PLAYER}.\\pЯ Синтия.\\pСейчас я путешествую "
+"по миру и изучаю мифы о покемонах разных стран.\\pА уж Борриус…{PAUSE 18} "
+"что ж, удивительных находок здесь хватает.\\pДревние гробницы, загадочные "
+"плиты… и богатое прошлое, связанное с далёким регионом…\\pОй, я "
+"заговорилась… Тебе от меня нужно что-то ещё?"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 178, 98, 174, 182, 38, 200, 87
+#: 0x1f2b10f
+msgctxt "hash:cfb9ce13"
+msgid "hash:cfb9ce13"
+msgstr ""
+"Думаю, это и так видно: я тоже тренер.\\pА когда встречаются два тренера, "
+"принято предложить сразиться.\\pЕсли ты не против, не сразишься со мной?"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 182, 195, 114, 171, 62, 158, 163, 186, 139, 187
+#: 0x1f2b1c2
+msgctxt "hash:1ec880db"
+msgid "hash:1ec880db"
+msgstr ""
+"Сколько бы раз я ни бросала первый покебол, волнение всегда такое "
+"сильное…\\pТвои глаза… в них горит такая спокойная сосредоточенность.\\p"
+"Будто ничего не существует, кроме этого мгновения боя…\\pТогда я, Синтия, "
+"отвечу на твою страсть с той же силой!\\pПощады от меня не жди!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 157, 159, 89, 175
+#: 0x1f2b2e4
+msgctxt "hash:a3160557"
+msgid "hash:a3160557"
+msgstr ""
+"Сердце так и колотится - такой жаркий у нас вышел бой.\\pТы и правда "
+"замечательный тренер!"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 169, 128, 46, 144, 192, 172, 135, 179, 164, 82
+#: 0x1f2b34e
+msgctxt "hash:d451135c"
+msgid "hash:d451135c"
+msgstr ""
+"Какая исключительная сила!\\pИ всё же…\\pПобеда, поражение…{PAUSE 18} "
+"кажется, тебя это не слишком заботит.\\pТы ищешь что-то другое, какой-то "
+"иной ответ…\\pЯ буду по-настоящему рада когда-нибудь снова встретить "
+"такого удивительного тренера."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 181, 131, 195, 81, 205
+#: 0x1f2b457
+msgctxt "hash:1230268e"
+msgid "hash:1230268e"
+msgstr ""
+"Ах, понимаю… я и правда поспешила, да? Ха-ха…\\pНе торопиться и всё "
+"обдумать - в этом нет ничего постыдного.\\pПриходи снова, когда решишься."

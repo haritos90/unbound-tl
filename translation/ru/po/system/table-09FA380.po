@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-09FA380\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 46
+#: 0x0a4cba8
+#, empty
+msgctxt "hash:f3dc08dc"
+msgid "hash:f3dc08dc"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 43
+#: 0x0a4cbb1
+#, empty
+msgctxt "hash:5e26fc3f"
+msgid "hash:5e26fc3f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0a4cbba
+msgctxt "hash:9d2c7fa5"
+msgid "hash:9d2c7fa5"
+msgstr "яркое солнце"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 27
+#: 0x0a4cbc0
+msgctxt "hash:bfeb9e8b"
+msgid "hash:bfeb9e8b"
+msgstr "дождь"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 50
+#: 0x0a4cbc6
+msgctxt "hash:95a0597d"
+msgid "hash:95a0597d"
+msgstr "песчаную бурю"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0a4cbd0
+msgctxt "hash:3e41312f"
+msgid "hash:3e41312f"
+msgstr "град"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 43
+#: 0x0a4cbd5
+msgctxt "hash:df762b68"
+msgid "hash:df762b68"
+msgstr "Поле тока"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0a4cbde
+msgctxt "hash:5a581927"
+msgid "hash:5a581927"
+msgstr "Травяное поле"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 26
+#: 0x0a4cbe5
+msgctxt "hash:f665dc08"
+msgid "hash:f665dc08"
+msgstr "Туманное поле"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0a4cbeb
+msgctxt "hash:4994636b"
+msgid "hash:4994636b"
+msgstr "Поле разума"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 131
+#: 0x0a4cbf3
+msgctxt "hash:2edf8c76"
+msgid "hash:2edf8c76"
+msgstr "Наносит затяжной урон"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 108
+#: 0x0a4cc0b
+msgctxt "hash:b35e1300"
+msgid "hash:b35e1300"
+msgstr "Удерживает, нанося урон"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 146
+#: 0x0a4cc1e
+msgctxt "hash:457d819c"
+msgid "hash:457d819c"
+msgstr "ОТР, ПАР или СОН врагам"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 75
+#: 0x0a4cc39
+msgctxt "hash:83dba597"
+msgid "hash:83dba597"
+msgstr "Парализует врагов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 133
+#: 0x0a4cc47
+msgctxt "hash:ce907cb3"
+msgid "hash:ce907cb3"
+msgstr "Замешательство и деньги"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 147
+#: 0x0a4cc5f
+msgctxt "hash:492db4c8"
+msgid "hash:492db4c8"
+msgstr "Команде + шанс крита"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 52
+#: 0x0a4cc7a
+msgctxt "hash:58cf6438"
+msgid "hash:58cf6438"
+msgstr "Не даёт врагам сбежать"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 95
+#: 0x0a4cc84
+msgctxt "hash:fe595f3a"
+msgid "hash:fe595f3a"
+msgstr "- Урон по команде"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 79
+#: 0x0a4cc95
+msgctxt "hash:2cdb4bdc"
+msgid "hash:2cdb4bdc"
+msgstr "Влюбляет врагов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 84
+#: 0x0a4cca4
+msgctxt "hash:ae28773c"
+msgid "hash:ae28773c"
+msgstr "Восстанавливает ягоды"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 61
+#: 0x0a4ccb4
+msgctxt "hash:8b66c849"
+msgid "hash:8b66c849"
+msgstr "Отравляет врагов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 91
+#: 0x0a4ccc0
+msgctxt "hash:6e576b34"
+msgid "hash:6e576b34"
+msgstr "Разбрасывает Стелс-камни"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 141
+#: 0x0a4ccd1
+msgctxt "hash:788613c6"
+msgid "hash:788613c6"
+msgstr "Убирает экраны и ловушки"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 130
+#: 0x0a4ccea
+msgctxt "hash:5d7ba248"
+msgid "hash:5d7ba248"
+msgstr "Отравляет или парализует"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 53
+#: 0x0a4cd02
+msgctxt "hash:dae3d19e"
+msgid "hash:dae3d19e"
+msgstr "Лечит команду"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 112
+#: 0x0a4cd0c
+msgctxt "hash:0931efcc"
+msgid "hash:0931efcc"
+msgstr "- ОС последнего приёма"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 79
+#: 0x0a4cd20
+msgctxt "hash:59c2a71b"
+msgid "hash:59c2a71b"
+msgstr "Меняет гравитацию"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 116
+#: 0x0a4cd2f
+msgctxt "hash:0c30fde2"
+msgid "hash:0c30fde2"
+msgstr "Может вызвать дремоту"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 101
+#: 0x0a4cd44
+msgctxt "hash:f11e6501"
+msgid "hash:f11e6501"
+msgstr "- Уклонение врагов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 103
+#: 0x0a4cd57
+msgctxt "hash:9dc16456"
+msgid "hash:9dc16456"
+msgstr "Лечит недуги команды"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 84
+#: 0x0a4cd6a
+msgctxt "hash:39b0367b"
+msgid "hash:39b0367b"
+msgstr "Разбрасывает Шипы стали"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0a4cd7a
+msgctxt "hash:26636afd"
+msgid "hash:26636afd"
+msgstr "Вызывает замешательство"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0a4cd87
+msgctxt "hash:daaff21d"
+msgid "hash:daaff21d"
+msgstr "Мучает врагов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 77
+#: 0x0a4cd94
+msgctxt "hash:258c5acd"
+msgid "hash:258c5acd"
+msgstr "-- Скорость врагов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 100
+#: 0x0a4cda2
+msgctxt "hash:df6fb89d"
+msgid "hash:df6fb89d"
+msgstr "Игнорирует талант врага"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 94
+#: 0x0a4cdb5
+msgctxt "hash:026a1b09"
+msgid "hash:026a1b09"
+msgstr "Пробивает защиту"

@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1FE6BFC\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x1f81e9e
+msgctxt "hash:49493693"
+msgid "hash:49493693"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81ea4
+msgctxt "hash:f68f32e3"
+msgid "hash:f68f32e3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x1f81eaa
+msgctxt "hash:cb506bff"
+msgid "hash:cb506bff"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x1f81eb0
+msgctxt "hash:5c835bc5"
+msgid "hash:5c835bc5"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x1f81eb6
+msgctxt "hash:a9040dd2"
+msgid "hash:a9040dd2"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81ebb
+msgctxt "hash:47796cc2"
+msgid "hash:47796cc2"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81ec1
+msgctxt "hash:1f859cae"
+msgid "hash:1f859cae"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81ec7
+msgctxt "hash:6ebd4c13"
+msgid "hash:6ebd4c13"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81ecd
+msgctxt "hash:cb068295"
+msgid "hash:cb068295"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x1f81ed3
+msgctxt "hash:fe933176"
+msgid "hash:fe933176"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81ed9
+msgctxt "hash:3108da49"
+msgid "hash:3108da49"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f81edf
+msgctxt "hash:75fa082f"
+msgid "hash:75fa082f"
+msgstr ""

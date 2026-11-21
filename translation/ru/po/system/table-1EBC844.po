@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1EBC844\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 193
+#: 0x1f4dedf
+msgctxt "hash:e555f46a"
+msgid "hash:e555f46a"
+msgstr "Оба динамика звучат одинаково."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 151
+#: 0x1f4dfdb
+msgctxt "hash:5a7c5305"
+msgid "hash:5a7c5305"
+msgstr "Свободная смена после нокаута."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 146
+#: 0x1f4dff7
+msgctxt "hash:74288368"
+msgid "hash:74288368"
+msgstr "Без свободной смены после нокаута."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 201
+#: 0x1f4e012
+msgctxt "hash:1e4736b4"
+msgid "hash:1e4736b4"
+msgstr "Слепая свободная смена после нокаута."
+
+#. reach: never shown (review: Exp. Gain option description (record 0x1FB3968): routine 0x1EBC760 compares with s1F4E086 (pool 0x1EBC844) and replaces it for every value: 0 -> s1F4E0A4, 1 -> s1F4E0C8, else s1F4E0EB (0x1EBC7E4-0x1EBC7FA))
+#. category: code; mode: field
+#. original lines: 1, widths px: 158
+#: 0x1f4e086
+msgctxt "hash:1f02065e"
+msgid "hash:1f02065e"
+msgstr "Распределение опыта после нокаута."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 197
+#: 0x1f4e0a4
+msgctxt "hash:5a2ffcb2"
+msgid "hash:5a2ffcb2"
+msgstr "Опыт получают только участники боя."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 190
+#: 0x1f4e0c8
+msgctxt "hash:8f7da5f8"
+msgid "hash:8f7da5f8"
+msgstr "Опыт получает вся команда."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 182
+#: 0x1f4e0eb
+msgctxt "hash:5e0a8ca1"
+msgid "hash:5e0a8ca1"
+msgstr "Разделитель опыта: жёсткий лимит."

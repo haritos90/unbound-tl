@@ -1,0 +1,79 @@
+[pokedex.locations]
+directions = { 1 = "south", 2 = "north", 3 = "west", 4 = "east" }
+
+[pokedex.locations.encounter_rates]
+land = { multiplier = 16, divisor = 1600, label = "Encounter rate: {n}%", note = "Base value, before rate modifiers; other conditions also affect battles." }
+water = { multiplier = 16, divisor = 1600, label = "Encounter rate: {n}%", note = "Base value, before rate modifiers; other conditions also affect battles." }
+rock_smash = { multiplier = 16, divisor = 1600, label = "Encounter rate: {n}%", note = "Base value, before rate modifiers; ability modifiers are ignored." }
+fishing = { threshold = 50, divisor = 100, label = "Bite check: {n}%", note = "50% normally; 85% with Suction Cups or Sticky Hold on a non-Egg lead. Other fishing conditions apply." }
+
+[pokedex.locations.names]
+type_kinds = { 4 = "underground", 8 = "interior" }
+
+[[pokedex.locations.names.maps]]
+runtime_map = "7.4"
+name = "Dresco Pokémon Gym"
+evidence = "Sign s1F1EBCA of runtime 7.4 begins Dresco Pokémon Gym; its leader line names Mirskle"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "6.2"
+name = "Crater Pokémon Gym"
+evidence = "Sign s1F1EC48 of runtime 6.2 begins Crater Pokémon Gym; its leader line names Véga"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "49.11"
+name = "Blizzard Pokémon Gym"
+evidence = "Sign s1F1ECC0 of runtime 49.11 begins Blizzard Pokémon Gym; its leader line names Alice"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "14.3"
+name = "Fallshore Pokémon Gym"
+evidence = "Sign s1F1ED3E of runtime 14.3 begins Fallshore Pokémon Gym; its leader line names Mel"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "10.23"
+name = "Dehara Pokémon Gym"
+evidence = "Sign s1F1EE71 of runtime 10.23 begins Dehara Pokémon Gym; its leader line names Galavan"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "30.0"
+name = "Antisis Pokémon Gym"
+evidence = "Sign s1F1EEEF of runtime 30.0 begins Antisis Pokémon Gym; its leader line names Big Mo"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "34.4"
+name = "Polder Pokémon Gym"
+evidence = "Sign s1F1EF6D of runtime 34.4 begins Polder Pokémon Gym; its leader line names Tessy"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "36.6"
+name = "Redwood Pokémon Gym"
+evidence = "Sign s1F1EFE7 of runtime 36.6 begins Redwood Pokémon Gym; its leader line names Benjamin"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "4.11"
+name = "Shadow Warrior Training Area"
+evidence = "Sign s1F71945 of runtime 4.11 is the exact standalone label Shadow Warrior Training Area"
+
+[[pokedex.locations.names.maps]]
+runtime_map = "1.94"
+name = "Pokémon Day Care"
+evidence = "Sign s1F70E6C of runtime 1.94 is the exact standalone label Pokémon Day Care"
+
+[[pokedex.locations.names.maps]]
+map = "h0B6A49C"
+parent_section = 0x62
+kind = "area"
+evidence = "Structural header 0xB6A49C has no runtime alias or named section and holds map type 0. Its two warp rows target 3.89 at 0xB633F0 and 10.18 at 0xB633F8, both in section 0x62, Dehara City in the proven section-name table; the neutral area qualifier does not infer an interior"
+
+[[pokedex.locations.maps]]
+runtime_map = "3.79"
+
+[[pokedex.locations.maps]]
+runtime_map = "3.82"
+points = [{ kind = "zygarde_cell", x = 28, y = 12, offset = 0xB5029C, script = 0x791B5E, messages = [0x791B8B, 0x791BBA], description = "Northeast fenced area", description_evidence = "owner-description" }]
+
+[[pokedex.locations.maps]]
+runtime_map = "3.83"
+points = [{ kind = "zygarde_cell", x = 57, y = 19, offset = 0xB50AAC, script = 0x791B5E, messages = [0x791B8B, 0x791BBA], description = "Peninsula east corner", description_evidence = "owner-description" }]
+

@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/music_prefix_team\n"
+"X-Source: key-only\n"
+
+#. category: table:music_prefix_team; mode: field
+#. fixed field: 5 characters max (table music_prefix_team, index 0)
+#. original lines: 1, widths px: 24
+#: 0x1fb3869
+msgctxt "table:music_prefix_team/0"
+msgid "table:music_prefix_team/0"
+msgstr ""

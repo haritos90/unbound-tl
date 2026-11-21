@@ -1,0 +1,143 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:15fb353c-8b3e-5c79-9bb3-89f0e9ec2a6e"
+subject = { kind = "research", id = "research:0819811295ac41f8a9f372ae8441fd50" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Capitalise every word of the settlement name, as in «Минеральные Воды».", "Render \"Frozen\" as «ледяной» in all names, including «Ледяной лес» and «Ледяная гробница»."]
+facts = ["Frozen Heights is the player's home town and has no descriptor in English.", "The name combines an adjective and a generic noun and is translated as a settlement name.", "The name is plural-only, with genitive «Ледяных Высот» and locative «в Ледяных Высотах»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Ледяные Высоты", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:fc486f95-4b2b-57cd-ae1d-c55758a67ac3"
+subject = { kind = "research", id = "research:b82635b6819c478c8bbb56b829c5b2c3" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Беллин»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Беллин declines when used alone, with genitive «Беллина»."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:f5df43fc-7d1b-5e1f-a464-0854f334f8c2"
+subject = { kind = "research", id = "research:7bc8912662ee45ccba3e5809ec7b0652" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Дреско»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Дреско remains indeclinable when used alone."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:0c6cea45-4c71-5411-a004-fd059a0412b3"
+subject = { kind = "research", id = "research:49afaff1052742daa25b322d3b0401da" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Кратер»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Кратер declines when used alone, with genitive «Кратера».", "The game text names the town Valley City in the meteorite story at map:6.7/npc:0/0.", "Valley City is rendered as «город Вэлли»."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", locator = "map:6.7/npc:0/0", quoted_term = "Valley City", relation = "context", verification = "recorded" }]
+related_subjects = [{ kind = "entry", id = "map:6.7/npc:0/0" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:becff992-5388-5250-bb1d-0e0b5db044be"
+subject = { kind = "research", id = "research:5e06ae46ca074087976a094ba431983d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep the name in the nominative after the descriptor, as in «в городе Близзард»."]
+facts = ["Близзард is masculine and follows the second declension when used alone, with genitive «Близзарда».", "City is rendered as «город»."]
+reason = ["Blizzard is transcribed because it is an English common noun used as a name, like «Кратер»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Близзард", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:9de1d2e4-7038-5d9b-a952-ac0fc628ff3d"
+subject = { kind = "research", id = "research:26b7e7c877614deca28de8a26ea4680b" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Тель»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Тель declines when used alone, with forms «Теля» and «в Теле».", "The name is project-selected."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "Тель", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b5e6b82a-2f57-57ad-ba81-55cb7fde625f"
+subject = { kind = "research", id = "research:4c6b8aa874a34beeb5b2604b65cb4f98" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Эпидими»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Эпидими remains indeclinable when used alone."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b91acdd4-45cc-59a7-ab48-ea2423b49cb9"
+subject = { kind = "research", id = "research:19b43e49d7b2411bae8b395f09f7b6ab" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Тармиган»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Тармиган declines when used alone, with genitive «Тармигана».", "The established spelling follows ptarmigan with silent p."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:a6da5ae0-87a4-513b-a77c-9741ab38e3ef"
+subject = { kind = "research", id = "research:66a02e781b314e8da780fb994d546ecc" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Вивилл»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Вивилл declines when used alone, with genitive «Вивилла»."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1b090047-2a08-5905-b969-7364331ba5ac"
+subject = { kind = "research", id = "research:2d7c03000fa4405c981d76b567c13d8c" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Гурун»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Гурун declines when used alone, with genitive «Гуруна»."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d171049a-3fb8-5c6c-a482-1ad1ca22840a"
+subject = { kind = "research", id = "research:eab486f31118464ab458615b98947f65" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Полдер»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Полдер declines when used alone, with genitive «Полдера»."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:39d92f1a-3f9b-5400-a9d6-dd0c5ac4bd4f"
+subject = { kind = "research", id = "research:4fb5f034847f420c912157c5de9f61ee" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Use lowercase in running text and capitalisation in labels and at sentence start.", "Inflect the descriptor while leaving the proper name unchanged after it, as in «в городке Магнолия»."]
+facts = ["Town is rendered as «городок».", "The descriptor provides masculine agreement.", "Магнолия declines when used alone, with genitive «Магнолии»."]
+sources = [{ kind = "web", name = "Cambridge Dictionary: Town", address = "https://dictionary.cambridge.org/dictionary/english-russian/town", quoted_term = "городок", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Gramota.ru: городок", address = "https://gramota.ru/meta/gorodok", quoted_term = "городок", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8ec55fd1-c9f4-5706-b51e-e7ee3ddf7c3e"
+subject = { kind = "research", id = "research:d7366910bbd14332844a3ba35db0eacf" }
+scope = { kind = "language", language = "ru" }
+facts = ["Cube Corp. is a company and its headquarters building.", "«Куб» is the translated name of the storage device, and «Корп.» abbreviates «корпорация».", "The name is indeclinable as a whole, with locative «в Куб Корп.» or «в здании Куб Корп.»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Куб Корп.", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:707eabed-9755-5ec8-a5a4-a5a7bc765d18"
+subject = { kind = "research", id = "research:9855a024c0594c2d94576b57bca9f445" }
+scope = { kind = "language", language = "ru" }
+facts = ["Lost Tunnel is Moleman's home.", "The adjective and generic noun are translated.", "The noun is masculine.", "The name fits without a cut."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Забытый туннель", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:1cbed449-313c-528f-8596-b6a8cc37f560"
+subject = { kind = "research", id = "research:c0e593ef03a646b3b38fdd14e8cf4fba" }
+scope = { kind = "language", language = "ru" }
+facts = ["The name denotes the woods on Route 9, whose sign reads “Autl Woods”.", "Отль stays in the nominative.", "The noun is masculine.", "The name is project-selected."]
+sources = [{ kind = "rom", name = "Game text", address = "game-text", locator = "Route 9 sign", quoted_term = "Autl Woods", relation = "context", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "Отль", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:70efb19b-ad89-5318-8aa7-431c4a21d5fb"
+subject = { kind = "research", id = "research:8e47e4f85b6b46e8882df95372612cf5" }
+scope = { kind = "language", language = "ru" }
+facts = ["Ferrothorn Turf is the turf of the Black Ferrothorn gang in Antisis City.", "\"Turf\" is rendered as «район» in gang slang.", "The species part follows the species glossary, where «Ферроторн» is the pending fandom-ru form.", "The noun is masculine."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "район", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian species names", address = "fandom-ru-species", quoted_term = "Ферроторн", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"

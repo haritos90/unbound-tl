@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-01250D8\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 95, 52
+#: 0x0416f4e
+msgctxt "hash:9f324723"
+msgid "hash:9f324723"
+msgstr "{STR_VAR_1} излечивается\\nот отравления.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 75, 53
+#: 0x0416f6f
+msgctxt "hash:9e7e7334"
+msgid "hash:9e7e7334"
+msgstr "{STR_VAR_1} излечивается\\nот паралича.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 52
+#: 0x0416f8c
+msgctxt "hash:bde5fc5c"
+msgid "hash:bde5fc5c"
+msgstr "{STR_VAR_1} просыпается.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 105
+#: 0x0416f9a
+msgctxt "hash:92f8978e"
+msgid "hash:92f8978e"
+msgstr "{STR_VAR_1} излечивается от ожога.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 92
+#: 0x0416fb2
+msgctxt "hash:17a4c26d"
+msgid "hash:17a4c26d"
+msgstr "{STR_VAR_1} оттаивает.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 93
+#: 0x0416fed
+msgctxt "hash:5dfb242b"
+msgid "hash:5dfb242b"
+msgstr "{STR_VAR_1} выздоравливает.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 106, 53
+#: 0x0417052
+msgctxt "hash:bc5ec209"
+msgid "hash:bc5ec209"
+msgstr "{STR_VAR_1} излечивается\\nот замешательства.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 62
+#: 0x0417075
+msgctxt "hash:8d5c38a4"
+msgid "hash:8d5c38a4"
+msgstr "{STR_VAR_1} избавляется\\nот влюблённости.{PAUSE_UNTIL_PRESS}"

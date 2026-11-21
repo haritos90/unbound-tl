@@ -1,0 +1,38 @@
+[defaults]
+profile = "unbound-2.1.1.1"
+language = "ru"
+
+[[project]]
+profile = "unbound-2.1.1.1"
+language = "ru"
+root = "."
+policy = "translation/ru/policy.toml"
+batches = "translation/batches"
+
+[[project]]
+profile = "unbound-2.1.1.1"
+language = "es"
+root = "."
+policy = "translation/es/policy.toml"
+stage = "translation"
+
+[[project]]
+profile = "unbound-2.1.1.1"
+language = "de"
+root = "."
+policy = "translation/de/policy.toml"
+stage = "translation"
+
+[[project]]
+profile = "unbound-2.1.1.1"
+language = "fr"
+root = "."
+policy = "translation/fr/policy.toml"
+stage = "translation"
+
+[site]
+licenses = [
+    { label_key = "gen3tl licence", url = "../license-gen3tl.txt" },
+    { label_key = "Font licenses", url = "../fonts/OFL.txt" },
+    { label_key = "Content licence", url = "https://creativecommons.org/licenses/by-sa/4.0/" },
+]

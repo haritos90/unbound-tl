@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1FB57EC\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 113, 125
+#: 0x1f2bbbf
+msgctxt "hash:fa2db45e"
+msgid "hash:fa2db45e"
+msgstr "{COLOR 08}Как называется битва\\nпокемонов два на два?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 161, 149
+#: 0x1f2bbee
+msgctxt "hash:fcca32f5"
+msgid "hash:fcca32f5"
+msgstr ""
+"{COLOR 08}Какой покемон с одним типом\\nизвестен как покемон-пещера?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 41
+#: 0x1f2bc2a
+msgctxt "hash:85ef44d9"
+msgid "hash:85ef44d9"
+msgstr "{COLOR 08}Покемоны какого типа\\nвстречаются чаще всего?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 145, 175, 68
+#: 0x1f2bc57
+msgctxt "hash:acea722a"
+msgid "hash:acea722a"
+msgstr ""
+"{COLOR 08}Какой покемон рождается от жара\\nи давления глубоко под землёй?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 118
+#: 0x1f2bca2
+msgctxt "hash:caad92a6"
+msgid "hash:caad92a6"
+msgstr "{COLOR 08}Какой цвет изначально был\\nу крыльев сияющего Чаризарда?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 170, 47
+#: 0x1f2bcdd
+msgctxt "hash:d6a933a5"
+msgid "hash:d6a933a5"
+msgstr "{COLOR 08}Какой цвет у мостов на Маршруте 8?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 144, 124
+#: 0x1f2bd08
+msgctxt "hash:b3909578"
+msgid "hash:b3909578"
+msgstr "{COLOR 08}Что означает буква “Т”\\nв названии автострады КБТ?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 174
+#: 0x1f2bd3c
+msgctxt "hash:1f03a4a7"
+msgid "hash:1f03a4a7"
+msgstr "{COLOR 08}Знаменитые руины в Западном\\nБорриусе - это руины… чего?"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 127
+#: 0x1f2bd80
+msgctxt "hash:34afee13"
+msgid "hash:34afee13"
+msgstr "{COLOR 08}Кто они - загадочные существа,\\nнаселяющие наш мир?"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x1f2bdbc
+msgctxt "hash:b9a1f589"
+msgid "hash:b9a1f589"
+msgstr "{COLOR 08}Как зовут мою дочь?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 26, 176, 38
+#: 0x1f2bdda
+msgctxt "hash:fad72ef3"
+msgid "hash:fad72ef3"
+msgstr "{COLOR 04}Подсказка!\\pЕсли битва один на один,\\nона одиночная!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 180
+#: 0x1f2be0d
+msgctxt "hash:70bcf121"
+msgid "hash:70bcf121"
+msgstr "{COLOR 04}Подсказка!\\nОн не типа Камень и не типа Земля!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 135
+#: 0x1f2be37
+msgctxt "hash:a0386eac"
+msgid "hash:a0386eac"
+msgstr "{COLOR 04}Подсказка!\\nЕё слишком много!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 172
+#: 0x1f2be59
+msgctxt "hash:d6184d90"
+msgid "hash:d6184d90"
+msgstr "{COLOR 04}Подсказка!\\nЕго тело твёрдое, как алмаз!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 71
+#: 0x1f2be82
+msgctxt "hash:8750e057"
+msgid "hash:8750e057"
+msgstr "{COLOR 04}Подсказка!\\nНе красный!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 99
+#: 0x1f2be99
+msgctxt "hash:aef0cc0a"
+msgid "hash:aef0cc0a"
+msgstr "{COLOR 04}Подсказка!\\nОни не белые!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 94
+#: 0x1f2beb5
+msgctxt "hash:5478b3e1"
+msgid "hash:5478b3e1"
+msgstr "{COLOR 04}Подсказка!\\nЭто длинное слово!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 167
+#: 0x1f2bed0
+msgctxt "hash:522b8dcd"
+msgid "hash:522b8dcd"
+msgstr "{COLOR 04}Подсказка!\\nЭто не руины Альфа!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 112
+#: 0x1f2bef8
+msgctxt "hash:99147db4"
+msgid "hash:99147db4"
+msgstr "{COLOR 04}Подсказка!\\nЭто не покемоны!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 26, 99
+#: 0x1f2bf16
+msgctxt "hash:41436e97"
+msgid "hash:41436e97"
+msgstr "{COLOR 04}Подсказка!\\nЭто не Смиргл!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 35
+#: 0x1f2bf32
+msgctxt "hash:7a05e2d8"
+msgid "hash:7a05e2d8"
+msgstr "ДВОЙНАЯ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f2bf39
+msgctxt "hash:77bda73b"
+msgid "hash:77bda73b"
+msgstr "ДРАДДИГОН"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f2bf43
+msgctxt "hash:06c0b1b2"
+msgid "hash:06c0b1b2"
+msgstr "ВОДА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 37
+#: 0x1f2bf49
+msgctxt "hash:84c80de2"
+msgid "hash:84c80de2"
+msgstr "КАРБИНК"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f2bf51
+msgctxt "hash:52465e66"
+msgid "hash:52465e66"
+msgstr "ЗЕЛЕНЫЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1f2bf57
+msgctxt "hash:20991dc7"
+msgid "hash:20991dc7"
+msgstr "КОРИЧНЕВЫЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 26
+#: 0x1f2bf5d
+msgctxt "hash:24758593"
+msgid "hash:24758593"
+msgstr "ТРЕТИЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x1f2bf63
+msgctxt "hash:26ad3afc"
+msgid "hash:26ad3afc"
+msgstr "ПУСТОТЫ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x1f2bf68
+msgctxt "hash:f3f281f3"
+msgid "hash:f3f281f3"
+msgstr "ЖЕНЩИНЫ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 27
+#: 0x1f2bf6e
+msgctxt "hash:00314fc3"
+msgid "hash:00314fc3"
+msgstr "ДИТО"

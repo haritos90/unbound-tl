@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0451F6C\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 89
+#: 0x0415de0
+msgctxt "hash:4584120a"
+msgid "hash:4584120a"
+msgstr "{COLOR 0F}{SHADOW 0E}Места обитания"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x0415df7
+msgctxt "hash:1fbcf4ab"
+msgid "hash:1fbcf4ab"
+msgstr "Луговые покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 79
+#: 0x0415e09
+msgctxt "hash:814e25cd"
+msgid "hash:814e25cd"
+msgstr "Лесные покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 112
+#: 0x0415e18
+msgctxt "hash:9a0a3a7b"
+msgid "hash:9a0a3a7b"
+msgstr "Покемоны у воды"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x0415e2d
+msgctxt "hash:c1006821"
+msgid "hash:c1006821"
+msgstr "Морские покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 70
+#: 0x0415e39
+msgctxt "hash:c8964ae0"
+msgid "hash:c8964ae0"
+msgstr "Пещерные покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 89
+#: 0x0415e46
+msgctxt "hash:163f48c9"
+msgid "hash:163f48c9"
+msgstr "Горные покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x0415e57
+msgctxt "hash:540f574a"
+msgid "hash:540f574a"
+msgstr "Покемоны пустошей"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x0415e6d
+msgctxt "hash:e4e0cffb"
+msgid "hash:e4e0cffb"
+msgstr "Городские покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x0415e7b
+msgctxt "hash:f3038329"
+msgid "hash:f3038329"
+msgstr "Редкие покемоны"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 35
+#: 0x0415e88
+msgctxt "hash:6e74e7cc"
+msgid "hash:6e74e7cc"
+msgstr "{COLOR 0F}{SHADOW 0E}Поиск"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x0415e95
+msgctxt "hash:ee86ed0f"
+msgid "hash:ee86ed0f"
+msgstr "По номерам"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0415ea4
+msgctxt "hash:c8c81cd8"
+msgid "hash:c8c81cd8"
+msgstr "По алфавиту"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0415eb0
+msgctxt "hash:f7ae7d6c"
+msgid "hash:f7ae7d6c"
+msgstr "{COLOR 0F}{SHADOW 0E}Прочее"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 75
+#: 0x0415ec7
+msgctxt "hash:47314878"
+msgid "hash:47314878"
+msgstr "Закрыть Покедекс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0415ed5
+msgctxt "hash:d39be559"
+msgid "hash:d39be559"
+msgstr "По типам"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x0415edf
+msgctxt "hash:86ffa8e4"
+msgid "hash:86ffa8e4"
+msgstr "По весу"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x0415eed
+msgctxt "hash:f1953347"
+msgid "hash:f1953347"
+msgstr "По росту"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0415efb
+msgctxt "hash:da192702"
+msgid "hash:da192702"
+msgstr "{COLOR 0F}{SHADOW 0E}Список покемонов"

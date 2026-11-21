@@ -1,0 +1,39 @@
+name: Editor submission
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: submission-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  submit:
+    # The form's own label also fires labeled.
+    if: >-
+      github.event.issue.state == 'open'
+      && contains(github.event.issue.labels.*.name, 'submission')
+      && (github.event.action != 'labeled' || (github.event.label.name == 'submission'
+          && github.event.sender.login != github.event.issue.user.login))
+      && (github.event.action != 'edited' || github.event.changes.body)
+    runs-on: ubuntu-latest
+    steps:
+      # Credentials stay: the script pushes the branch.
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.SUBMISSION_TOKEN || github.token }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - uses: ./.github/actions/toolkit
+      - name: Apply the submission and open the pull request
+        env:
+          GH_TOKEN: ${{ secrets.SUBMISSION_TOKEN || github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: bash .github/scripts/submission.sh

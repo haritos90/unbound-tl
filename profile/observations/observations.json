@@ -1,0 +1,746 @@
+{
+  "schema": "2.0.0",
+  "rom_sha1": "b4776b82a4c7915d0fadeaa27e013523f99dfd94",
+  "observations": [
+    {
+      "fact": "keyboard.table[name=keys]",
+      "value_sha256": "58b270cec50647bd7cc0c188ad6b969950530b118642d104dfba92e0bcaf0228",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "keyboard.table[name=keys]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "isolated-a",
+        "offset": 0,
+        "length": 1,
+        "ram": 33572192
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "cdce9374e0fecee1655cbc7207b0ed392201941f084c4b5672e917a99c7b2b26"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "cdce9374e0fecee1655cbc7207b0ed392201941f084c4b5672e917a99c7b2b26"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "font[name=font0]",
+      "value_sha256": "d277e723e4a741f0eb3655cd2996d2461c63bc3467a1ee9d3d4c2d2d074c3d2d",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "font[name=font0]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "glyph": 205,
+        "x": 127,
+        "y": 113,
+        "palette": [
+          [
+            120,
+            168,
+            192
+          ],
+          [
+            248,
+            248,
+            248
+          ],
+          [
+            96,
+            96,
+            96
+          ],
+          [
+            120,
+            168,
+            192
+          ]
+        ]
+      },
+      "predicted": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "observed": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "read": "framebuffer"
+    },
+    {
+      "fact": "font[name=font1]",
+      "value_sha256": "1e6f31b6ce75d69099ee50dbe3e03a4258699c50a2f1fb07fa4e40b129d2f8fa",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "font[name=font1]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "glyph": 205,
+        "x": 127,
+        "y": 113,
+        "palette": [
+          [
+            120,
+            168,
+            192
+          ],
+          [
+            248,
+            248,
+            248
+          ],
+          [
+            96,
+            96,
+            96
+          ],
+          [
+            120,
+            168,
+            192
+          ]
+        ]
+      },
+      "predicted": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "observed": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "read": "framebuffer"
+    },
+    {
+      "fact": "font[name=font2]",
+      "value_sha256": "401f5419f8a0793020312bb62dd5ed96a7a57fb68397ffd112f692611267e286",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "font[name=font2]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "glyph": 205,
+        "x": 127,
+        "y": 113,
+        "palette": [
+          [
+            120,
+            168,
+            192
+          ],
+          [
+            248,
+            248,
+            248
+          ],
+          [
+            96,
+            96,
+            96
+          ],
+          [
+            120,
+            168,
+            192
+          ]
+        ]
+      },
+      "predicted": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "observed": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "read": "framebuffer"
+    },
+    {
+      "fact": "font[name=font3]",
+      "value_sha256": "dd5eef731261ebc65031038946cf4725b5d513cbdda4a3c0205c214842a4c435",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "font[name=font3]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "glyph": 205,
+        "x": 127,
+        "y": 113,
+        "palette": [
+          [
+            120,
+            168,
+            192
+          ],
+          [
+            248,
+            248,
+            248
+          ],
+          [
+            96,
+            96,
+            96
+          ],
+          [
+            120,
+            168,
+            192
+          ]
+        ]
+      },
+      "predicted": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "observed": {
+        "size": 768,
+        "sha256": "bdeaacc3b821f3f19895f242a05ab90843c6207004791cef2fcf0820ac3e0cf9"
+      },
+      "read": "framebuffer"
+    },
+    {
+      "fact": "keyboard.table[name=columns]",
+      "value_sha256": "54cf3be08cd6de896aba96f7137b8ea2011b5d2e6d34075dc9b90b1e2f4fcaf7",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "keyboard.table[name=columns]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "offset": 0,
+        "length": 1,
+        "ram": 33554437
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "beead77994cf573341ec17b58bbf7eb34d2711c993c1d976b128b3188dc1829a"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "beead77994cf573341ec17b58bbf7eb34d2711c993c1d976b128b3188dc1829a"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "keyboard.table[name=page_keyboard]",
+      "value_sha256": "7830e4d4bd242b7af3dda05a8adf282ad7834c7372a041b5c640d33e7481e12f",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "keyboard.table[name=page_keyboard]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "offset": 0,
+        "length": 1,
+        "ram": 33554443
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "dbc1b4c900ffe48d575b5da5c638040125f65db0fe3e24494b76ea986457d986"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "dbc1b4c900ffe48d575b5da5c638040125f65db0fe3e24494b76ea986457d986"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "keyboard.table[name=next_keyboard]",
+      "value_sha256": "cfa6825cd7cb6203f0fa289f9862061b71a133199d21b655adc35449894e1ebd",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "keyboard.table[name=next_keyboard]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "offset": 0,
+        "length": 1,
+        "ram": 33554432
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "keyboard.table[name=next_label]",
+      "value_sha256": "8dd29c548bab871791b287684ce164cce9c218b5180d0286d7498522ece713b1",
+      "scenario": {
+        "path": "profile/observations/scenarios/naming-isolated.txt",
+        "sha256": "23ff21bec29c9ee17629ce4fc5b7239e4b4ecc26a2fcf35c42ddd6c2ee86c43b",
+        "inputs": [
+          {
+            "path": "verify/states/e1.state",
+            "size": 528448,
+            "sha256": "361e39a7bd02be4c5d68ea4784672c8a96cb431526effef8f87aaf072cbbdb4b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "keyboard.table[name=next_label]",
+        "scenario": "profile/observations/scenarios/naming-isolated.txt",
+        "shot": "page-others",
+        "offset": 0,
+        "length": 1,
+        "ram": 33554433
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "font[name=small]",
+      "value_sha256": "99ba33d5537ac915f2f6a6f36a2b12b3bebd19541e7fc43b4dc464dfe01bd558",
+      "scenario": {
+        "path": "profile/observations/scenarios/save-ui.txt",
+        "sha256": "8429667dbaf1c2e598c9b10e7cc30ab677c452f039f121834c0e6cedfdb55bad",
+        "inputs": [
+          {
+            "path": "verify/fixtures/observations.sav",
+            "size": 131072,
+            "sha256": "9d8ac8a963ae26bb36f588b141e7ec978f21e0f0764308dd9d37dccede71504f"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "font[name=small]",
+        "scenario": "profile/observations/scenarios/save-ui.txt",
+        "shot": "continue",
+        "glyph": 230,
+        "x": 55,
+        "y": 26,
+        "palette": [
+          [
+            248,
+            248,
+            248
+          ],
+          [
+            32,
+            128,
+            248
+          ],
+          [
+            208,
+            208,
+            200
+          ],
+          [
+            248,
+            248,
+            248
+          ]
+        ]
+      },
+      "predicted": {
+        "size": 768,
+        "sha256": "b1410a1b7f64d250653c975da7300ccc0f173a927a4aa1d37318082d39fed061"
+      },
+      "observed": {
+        "size": 768,
+        "sha256": "b1410a1b7f64d250653c975da7300ccc0f173a927a4aa1d37318082d39fed061"
+      },
+      "read": "framebuffer"
+    },
+    {
+      "fact": "table[name=species]",
+      "value_sha256": "bce1a42308f638048232d95993a05868a0255d25f69214c9d8d61bc8f1dca934",
+      "scenario": {
+        "path": "profile/observations/scenarios/save-ui.txt",
+        "sha256": "8429667dbaf1c2e598c9b10e7cc30ab677c452f039f121834c0e6cedfdb55bad",
+        "inputs": [
+          {
+            "path": "verify/fixtures/observations.sav",
+            "size": 131072,
+            "sha256": "9d8ac8a963ae26bb36f588b141e7ec978f21e0f0764308dd9d37dccede71504f"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=species]",
+        "scenario": "profile/observations/scenarios/save-ui.txt",
+        "shot": "summary-3-detail",
+        "row": 1,
+        "ram": 33692880
+      },
+      "predicted": {
+        "size": 10,
+        "sha256": "be038f309acab4ef917807dab385cdb93aa589b3fcb9f26db33ff8c099b99a45"
+      },
+      "observed": {
+        "size": 10,
+        "sha256": "be038f309acab4ef917807dab385cdb93aa589b3fcb9f26db33ff8c099b99a45"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=moves]",
+      "value_sha256": "12b508edb3169f1c0d0bb82815aeb724652f80d8cd1a9590401b71b427361858",
+      "scenario": {
+        "path": "profile/observations/scenarios/save-ui.txt",
+        "sha256": "8429667dbaf1c2e598c9b10e7cc30ab677c452f039f121834c0e6cedfdb55bad",
+        "inputs": [
+          {
+            "path": "verify/fixtures/observations.sav",
+            "size": 131072,
+            "sha256": "9d8ac8a963ae26bb36f588b141e7ec978f21e0f0764308dd9d37dccede71504f"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=moves]",
+        "scenario": "profile/observations/scenarios/save-ui.txt",
+        "shot": "summary-3-detail",
+        "row": 33,
+        "ram": 33567032
+      },
+      "predicted": {
+        "size": 7,
+        "sha256": "f0615b474167c0ec2df1482eb61ed00f1ac79cc7a7ff62011aafb23485e83dc4"
+      },
+      "observed": {
+        "size": 7,
+        "sha256": "f0615b474167c0ec2df1482eb61ed00f1ac79cc7a7ff62011aafb23485e83dc4"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=abilities]",
+      "value_sha256": "59d2718932d52dc167f6330733a1b6d0a83e6f83195861f6cc45dfc1021e675d",
+      "scenario": {
+        "path": "profile/observations/scenarios/save-ui.txt",
+        "sha256": "8429667dbaf1c2e598c9b10e7cc30ab677c452f039f121834c0e6cedfdb55bad",
+        "inputs": [
+          {
+            "path": "verify/fixtures/observations.sav",
+            "size": 131072,
+            "sha256": "9d8ac8a963ae26bb36f588b141e7ec978f21e0f0764308dd9d37dccede71504f"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=abilities]",
+        "scenario": "profile/observations/scenarios/save-ui.txt",
+        "shot": "summary-3-detail",
+        "row": 65,
+        "ram": 33567180
+      },
+      "predicted": {
+        "size": 9,
+        "sha256": "3306818a9c934dd338ec49c564dc21b17d0fc379df50479c5939957694d20fd0"
+      },
+      "observed": {
+        "size": 9,
+        "sha256": "3306818a9c934dd338ec49c564dc21b17d0fc379df50479c5939957694d20fd0"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=items]",
+      "value_sha256": "99da000b6368baeb1083f387f7a824cb5ca0334fe0731256d7cf3201050b1f89",
+      "scenario": {
+        "path": "profile/observations/scenarios/script-samples-3.txt",
+        "sha256": "6f4aa95965217cff36a92d25cbaf7cef0e8a204f497e4845d2e85cfabe21d0c1",
+        "inputs": [
+          {
+            "path": "verify/states/e6.state",
+            "size": 528448,
+            "sha256": "b691eb737468d5f89727fa50e6b20fdf5d11269cae7cb5c5e33d2039944c779b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=items]",
+        "scenario": "profile/observations/scenarios/script-samples-3.txt",
+        "shot": "item-direct",
+        "row": 529,
+        "ram": 33692912
+      },
+      "predicted": {
+        "size": 14,
+        "sha256": "806c2d20412d04adfa47ffdb2486c33edba8819bb24ee62a59a804c284208ed9"
+      },
+      "observed": {
+        "size": 14,
+        "sha256": "806c2d20412d04adfa47ffdb2486c33edba8819bb24ee62a59a804c284208ed9"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=item_plural_s]",
+      "value_sha256": "e5fcfd8b0cae7d33e0f88469057c86588e626cbb2751e724cb2ba9780dd908ba",
+      "scenario": {
+        "path": "profile/observations/scenarios/plural-samples-2.txt",
+        "sha256": "0660a982f1a75278a4f5f8d2755cee11ee31e6c096708ce2df85714692645ae4",
+        "inputs": [
+          {
+            "path": "verify/states/e6.state",
+            "size": 528448,
+            "sha256": "b691eb737468d5f89727fa50e6b20fdf5d11269cae7cb5c5e33d2039944c779b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=item_plural_s]",
+        "scenario": "profile/observations/scenarios/plural-samples-2.txt",
+        "shot": "normal-ordinary",
+        "row": 0,
+        "ram": 33692924
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "d0752b60adb148ca0b3b4d2591874e2dabd346373e731c27463d65b449cc234c"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "d0752b60adb148ca0b3b4d2591874e2dabd346373e731c27463d65b449cc234c"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=item_plural_lower]",
+      "value_sha256": "7e50f3d78efc20be9a40dec514e6cb790daadf9cd2d937e766d59c71639040fa",
+      "scenario": {
+        "path": "profile/observations/scenarios/plural-samples-2.txt",
+        "sha256": "0660a982f1a75278a4f5f8d2755cee11ee31e6c096708ce2df85714692645ae4",
+        "inputs": [
+          {
+            "path": "verify/states/e6.state",
+            "size": 528448,
+            "sha256": "b691eb737468d5f89727fa50e6b20fdf5d11269cae7cb5c5e33d2039944c779b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=item_plural_lower]",
+        "scenario": "profile/observations/scenarios/plural-samples-2.txt",
+        "shot": "normal-lower",
+        "row": 0,
+        "ram": 33692921
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "2795044ce0f83f718bc79c5f2add1e52521978df91ce9b7f82c9097191d33602"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "2795044ce0f83f718bc79c5f2add1e52521978df91ce9b7f82c9097191d33602"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=item_plural_upper]",
+      "value_sha256": "55c24efb67c583686a7e8c1cf3c9d79de9c8a944f1caa064bf5f57a8847ea9e1",
+      "scenario": {
+        "path": "profile/observations/scenarios/plural-samples-2.txt",
+        "sha256": "0660a982f1a75278a4f5f8d2755cee11ee31e6c096708ce2df85714692645ae4",
+        "inputs": [
+          {
+            "path": "verify/states/e6.state",
+            "size": 528448,
+            "sha256": "b691eb737468d5f89727fa50e6b20fdf5d11269cae7cb5c5e33d2039944c779b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=item_plural_upper]",
+        "scenario": "profile/observations/scenarios/plural-samples-2.txt",
+        "shot": "normal-upper",
+        "row": 0,
+        "ram": 33692923
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=berry_blender_possessive]",
+      "value_sha256": "6d54ee94dbe1a0c320a0254931e3df9e119465ce84cee1b617b453d5fe296ceb",
+      "scenario": {
+        "path": "profile/observations/scenarios/suffix-simple-2.txt",
+        "sha256": "8f1c9d45837a7adfcc350a01b2bdbf1b2efe3015c20eda0ffe23a76602eb5d3c",
+        "inputs": [
+          {
+            "path": "verify/fixtures/observations.sav",
+            "size": 131072,
+            "sha256": "9d8ac8a963ae26bb36f588b141e7ec978f21e0f0764308dd9d37dccede71504f"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=berry_blender_possessive]",
+        "scenario": "profile/observations/scenarios/suffix-simple-2.txt",
+        "shot": "berry-full",
+        "row": 0,
+        "ram": 33692889
+      },
+      "predicted": {
+        "size": 4,
+        "sha256": "62e8e83163c5b2e701c1722ea848b28619a965ac333df678415a72f8a974f9d1"
+      },
+      "observed": {
+        "size": 4,
+        "sha256": "62e8e83163c5b2e701c1722ea848b28619a965ac333df678415a72f8a974f9d1"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=berry_blender_apostrophe]",
+      "value_sha256": "ad35f1f297639c4461b9cd83e57dc9bb3329de824d425ce745dacaf2dc627d6e",
+      "scenario": {
+        "path": "profile/observations/scenarios/suffix-simple.txt",
+        "sha256": "2a43ff75e9e4c35213e630c82bc3d1e17de83cb324eb9e3a5985b83776f4da11",
+        "inputs": [
+          {
+            "path": "verify/states/e6.state",
+            "size": 528448,
+            "sha256": "b691eb737468d5f89727fa50e6b20fdf5d11269cae7cb5c5e33d2039944c779b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=berry_blender_apostrophe]",
+        "scenario": "profile/observations/scenarios/suffix-simple.txt",
+        "shot": "berry-direct",
+        "row": 0,
+        "ram": 33692880
+      },
+      "predicted": {
+        "size": 1,
+        "sha256": "27952171c7fcdf0ddc765ab4f4e1c537cb29e5e533d57b3456257ee785c81711"
+      },
+      "observed": {
+        "size": 1,
+        "sha256": "27952171c7fcdf0ddc765ab4f4e1c537cb29e5e533d57b3456257ee785c81711"
+      },
+      "read": "ewram"
+    },
+    {
+      "fact": "table[name=trainer_names]",
+      "value_sha256": "5eaa8cac132c896d97b5f20b515c9fb8de9d063b227ae1bc81eb79aa9dc69f7e",
+      "scenario": {
+        "path": "profile/observations/scenarios/battle-samples.txt",
+        "sha256": "2f300a69b4539373ec1bb710e52978199bafd559d2d1ce5bf6c74d898c29496a",
+        "inputs": [
+          {
+            "path": "verify/states/e6.state",
+            "size": 528448,
+            "sha256": "b691eb737468d5f89727fa50e6b20fdf5d11269cae7cb5c5e33d2039944c779b"
+          }
+        ]
+      },
+      "sample": {
+        "fact": "table[name=trainer_names]",
+        "scenario": "profile/observations/scenarios/battle-samples.txt",
+        "shot": "battle-action",
+        "row": 1,
+        "ram": 33699332
+      },
+      "predicted": {
+        "size": 5,
+        "sha256": "8cf232957f1bdcd1cf216d2535252f6fbd98f6cff517bf0761f379bc50d719c4"
+      },
+      "observed": {
+        "size": 5,
+        "sha256": "8cf232957f1bdcd1cf216d2535252f6fbd98f6cff517bf0761f379bc50d719c4"
+      },
+      "read": "ewram"
+    }
+  ]
+}

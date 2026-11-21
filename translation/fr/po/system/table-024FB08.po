@@ -1,0 +1,561 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-024FB08\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 103
+#: 0x024f3c4
+msgctxt "table:abilities/0/description"
+msgid "table:abilities/0/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x024f3d8
+msgctxt "table:abilities/1/description"
+msgid "table:abilities/1/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 125
+#: 0x024f3f2
+msgctxt "table:abilities/2/description"
+msgid "table:abilities/2/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x024f40a
+msgctxt "table:abilities/3/description"
+msgid "table:abilities/3/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 111
+#: 0x024f422
+msgctxt "table:abilities/4/description"
+msgid "table:abilities/4/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x024f438
+msgctxt "table:abilities/5/description"
+msgid "table:abilities/5/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 141
+#: 0x024f452
+msgctxt "table:abilities/6/description"
+msgid "table:abilities/6/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 103
+#: 0x024f46d
+msgctxt "table:abilities/7/description"
+msgid "table:abilities/7/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x024f481
+msgctxt "table:abilities/8/description"
+msgid "table:abilities/8/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x024f49d
+msgctxt "table:abilities/9/description"
+msgid "table:abilities/9/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x024f4b3
+msgctxt "table:abilities/10/description"
+msgid "table:abilities/10/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 123
+#: 0x024f4ce
+msgctxt "table:abilities/11/description"
+msgid "table:abilities/11/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x024f4e5
+msgctxt "table:abilities/12/description"
+msgid "table:abilities/12/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x024f4fa
+msgctxt "table:abilities/13/description"
+msgid "table:abilities/13/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 90
+#: 0x024f513
+msgctxt "table:abilities/14/description"
+msgid "table:abilities/14/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x024f524
+msgctxt "table:abilities/15/description"
+msgid "table:abilities/15/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x024f534
+msgctxt "table:abilities/16/description"
+msgid "table:abilities/16/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 102
+#: 0x024f550
+msgctxt "table:abilities/17/description"
+msgid "table:abilities/17/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 137
+#: 0x024f564
+msgctxt "table:abilities/18/description"
+msgid "table:abilities/18/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x024f57e
+msgctxt "table:abilities/19/description"
+msgid "table:abilities/19/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 103
+#: 0x024f596
+msgctxt "table:abilities/20/description"
+msgid "table:abilities/20/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x024f5aa
+msgctxt "table:abilities/21/description"
+msgid "table:abilities/21/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 132
+#: 0x024f5c3
+msgctxt "table:abilities/22/description"
+msgid "table:abilities/22/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x024f5dc
+msgctxt "table:abilities/23/description"
+msgid "table:abilities/23/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x024f5f7
+msgctxt "table:abilities/24/description"
+msgid "table:abilities/24/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 127
+#: 0x024f607
+msgctxt "table:abilities/25/description"
+msgid "table:abilities/25/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 145
+#: 0x024f61f
+msgctxt "table:abilities/26/description"
+msgid "table:abilities/26/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 141
+#: 0x024f63a
+msgctxt "table:abilities/27/description"
+msgid "table:abilities/27/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x024f654
+msgctxt "table:abilities/28/description"
+msgid "table:abilities/28/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x024f66f
+msgctxt "table:abilities/29/description"
+msgid "table:abilities/29/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 138
+#: 0x024f68b
+msgctxt "table:abilities/30/description"
+msgid "table:abilities/30/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 128
+#: 0x024f6a5
+msgctxt "table:abilities/31/description"
+msgid "table:abilities/31/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 130
+#: 0x024f6bd
+msgctxt "table:abilities/32/description"
+msgid "table:abilities/32/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 114
+#: 0x024f6d5
+msgctxt "table:abilities/33/description"
+msgid "table:abilities/33/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 136
+#: 0x024f6eb
+msgctxt "table:abilities/34/description"
+msgid "table:abilities/34/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 137
+#: 0x024f705
+msgctxt "table:abilities/35/description"
+msgid "table:abilities/35/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x024f71f
+msgctxt "table:abilities/36/description"
+msgid "table:abilities/36/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 76
+#: 0x024f737
+msgctxt "table:abilities/37/description"
+msgid "table:abilities/37/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 127
+#: 0x024f746
+msgctxt "table:abilities/38/description"
+msgid "table:abilities/38/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 101
+#: 0x024f75e
+msgctxt "table:abilities/39/description"
+msgid "table:abilities/39/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: ability descriptions pointed only from the vanilla gAbilityDescriptionPointers 0x24FB08: no word in the ROM equals 0x824FB08 +- 8; the live table is 0x96DE04 (pools 0x1367A8, 0x9A945C))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 98
+#: 0x024f772
+msgctxt "hash:f0e3c191"
+msgid "hash:f0e3c191"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 82
+#: 0x024f785
+msgctxt "table:abilities/41/description"
+msgid "table:abilities/41/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 142
+#: 0x024f795
+msgctxt "table:abilities/42/description"
+msgid "table:abilities/42/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 142
+#: 0x024f7af
+msgctxt "table:abilities/43/description"
+msgid "table:abilities/43/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x024f7c9
+msgctxt "table:abilities/44/description"
+msgid "table:abilities/44/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 112
+#: 0x024f7e5
+msgctxt "table:abilities/45/description"
+msgid "table:abilities/45/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 121
+#: 0x024f7fa
+msgctxt "table:abilities/46/description"
+msgid "table:abilities/46/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x024f811
+msgctxt "table:abilities/47/description"
+msgid "table:abilities/47/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 150
+#: 0x024f82b
+msgctxt "table:abilities/48/description"
+msgid "table:abilities/48/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x024f847
+msgctxt "table:abilities/49/description"
+msgid "table:abilities/49/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 121
+#: 0x024f861
+msgctxt "table:abilities/50/description"
+msgid "table:abilities/50/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x024f878
+msgctxt "table:abilities/51/description"
+msgid "table:abilities/51/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 143
+#: 0x024f893
+msgctxt "table:abilities/52/description"
+msgid "table:abilities/52/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 100
+#: 0x024f8ae
+msgctxt "table:abilities/53/description"
+msgid "table:abilities/53/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x024f8c1
+msgctxt "table:abilities/54/description"
+msgid "table:abilities/54/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x024f8dd
+msgctxt "table:abilities/55/description"
+msgid "table:abilities/55/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 122
+#: 0x024f8f8
+msgctxt "table:abilities/56/description"
+msgid "table:abilities/56/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 116
+#: 0x024f90f
+msgctxt "table:abilities/57/description"
+msgid "table:abilities/57/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 112
+#: 0x024f925
+msgctxt "table:abilities/58/description"
+msgid "table:abilities/58/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 141
+#: 0x024f93a
+msgctxt "table:abilities/59/description"
+msgid "table:abilities/59/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 109
+#: 0x024f954
+msgctxt "table:abilities/60/description"
+msgid "table:abilities/60/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x024f969
+msgctxt "table:abilities/61/description"
+msgid "table:abilities/61/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x024f985
+msgctxt "table:abilities/62/description"
+msgid "table:abilities/62/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x024f99e
+msgctxt "table:abilities/63/description"
+msgid "table:abilities/63/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x024f9b8
+msgctxt "table:abilities/64/description"
+msgid "table:abilities/64/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 150
+#: 0x024f9d0
+msgctxt "table:abilities/65/description"
+msgid "table:abilities/65/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x024f9ec
+msgctxt "table:abilities/66/description"
+msgid "table:abilities/66/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 151
+#: 0x024fa07
+msgctxt "table:abilities/67/description"
+msgid "table:abilities/67/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 141
+#: 0x024fa23
+msgctxt "table:abilities/68/description"
+msgid "table:abilities/68/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 129
+#: 0x024fa3d
+msgctxt "table:abilities/69/description"
+msgid "table:abilities/69/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 147
+#: 0x024fa55
+msgctxt "table:abilities/70/description"
+msgid "table:abilities/70/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 92
+#: 0x024fa71
+msgctxt "table:abilities/71/description"
+msgid "table:abilities/71/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: ability descriptions pointed only from the vanilla gAbilityDescriptionPointers 0x24FB08: no word in the ROM equals 0x824FB08 +- 8; the live table is 0x96DE04 (pools 0x1367A8, 0x9A945C))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x024fa83
+msgctxt "hash:bfb69cc3"
+msgid "hash:bfb69cc3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: ability descriptions pointed only from the vanilla gAbilityDescriptionPointers 0x24FB08: no word in the ROM equals 0x824FB08 +- 8; the live table is 0x96DE04 (pools 0x1367A8, 0x9A945C))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 131
+#: 0x024fa93
+msgctxt "hash:ada47b07"
+msgid "hash:ada47b07"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: ability descriptions pointed only from the vanilla gAbilityDescriptionPointers 0x24FB08: no word in the ROM equals 0x824FB08 +- 8; the live table is 0x96DE04 (pools 0x1367A8, 0x9A945C))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 76
+#: 0x024faaf
+msgctxt "hash:017b42a4"
+msgid "hash:017b42a4"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 111
+#: 0x024fabe
+msgctxt "table:abilities/75/description"
+msgid "table:abilities/75/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: ability descriptions pointed only from the vanilla gAbilityDescriptionPointers 0x24FB08: no word in the ROM equals 0x824FB08 +- 8; the live table is 0x96DE04 (pools 0x1367A8, 0x9A945C))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 142
+#: 0x024fad4
+msgctxt "hash:200cec57"
+msgid "hash:200cec57"
+msgstr ""
+
+#. reach: never shown (review: ability descriptions pointed only from the vanilla gAbilityDescriptionPointers 0x24FB08: no word in the ROM equals 0x824FB08 +- 8; the live table is 0x96DE04 (pools 0x1367A8, 0x9A945C))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 135
+#: 0x024faee
+msgctxt "hash:ebcb15a6"
+msgid "hash:ebcb15a6"
+msgstr ""

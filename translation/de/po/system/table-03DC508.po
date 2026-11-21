@@ -1,0 +1,416 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03DC508\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 87, 171
+#: 0x03d6887
+msgctxt "table:items/121/description"
+msgid "table:items/121/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 73, 171
+#: 0x03d68d8
+msgctxt "table:items/122/description"
+msgid "table:items/122/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 75, 171
+#: 0x03d6927
+msgctxt "table:items/123/description"
+msgid "table:items/123/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 86, 171
+#: 0x03d6976
+msgctxt "table:items/124/description"
+msgid "table:items/124/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 75, 171
+#: 0x03d69c7
+msgctxt "table:items/125/description"
+msgid "table:items/125/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 74, 171
+#: 0x03d6a16
+msgctxt "table:items/126/description"
+msgid "table:items/126/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 188, 127
+#: 0x03d6a65
+msgctxt "table:items/127/description"
+msgid "table:items/127/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 74, 171
+#: 0x03d6ac0
+msgctxt "table:items/128/description"
+msgid "table:items/128/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 86, 171
+#: 0x03d6b0f
+msgctxt "table:items/129/description"
+msgid "table:items/129/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 188, 127
+#: 0x03d6b60
+msgctxt "table:items/130/description"
+msgid "table:items/130/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 155, 171
+#: 0x03d6bbb
+msgctxt "table:items/131/description"
+msgid "table:items/131/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 181, 125, 171
+#: 0x03d6c13
+msgctxt "table:items/132/description"
+msgid "table:items/132/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 182
+#: 0x03d6c6b
+msgctxt "table:items/133/description"
+msgid "table:items/133/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 146
+#: 0x03d6cb0
+msgctxt "table:items/134/description"
+msgid "table:items/134/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 166
+#: 0x03d6cee
+msgctxt "table:items/135/description"
+msgid "table:items/135/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 168
+#: 0x03d6d30
+msgctxt "table:items/136/description"
+msgid "table:items/136/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 163
+#: 0x03d6d72
+msgctxt "hash:8f769ec2"
+msgid "hash:8f769ec2"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 179
+#: 0x03d6db4
+msgctxt "table:items/138/description"
+msgid "table:items/138/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 179
+#: 0x03d6df8
+msgctxt "table:items/139/description"
+msgid "table:items/139/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 178
+#: 0x03d6e3c
+msgctxt "table:items/140/description"
+msgid "table:items/140/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 197
+#: 0x03d6e81
+msgctxt "table:items/141/description"
+msgid "table:items/141/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 192, 179
+#: 0x03d6ec8
+msgctxt "hash:80c8c037"
+msgid "hash:80c8c037"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 170
+#: 0x03d6f0c
+msgctxt "table:items/143/description"
+msgid "table:items/143/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 170
+#: 0x03d6f4c
+msgctxt "table:items/144/description"
+msgid "table:items/144/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 170
+#: 0x03d6f8c
+msgctxt "table:items/145/description"
+msgid "table:items/145/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 170
+#: 0x03d6fcc
+msgctxt "table:items/146/description"
+msgid "table:items/146/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 170
+#: 0x03d700c
+msgctxt "table:items/147/description"
+msgid "table:items/147/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d704c
+msgctxt "hash:a2cf1d99"
+msgid "hash:a2cf1d99"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d708a
+msgctxt "hash:982b0c2d"
+msgid "hash:982b0c2d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d70c8
+msgctxt "hash:6f6522c2"
+msgid "hash:6f6522c2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d7106
+msgctxt "hash:4eceaf3d"
+msgid "hash:4eceaf3d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d7144
+msgctxt "hash:8ed055b7"
+msgid "hash:8ed055b7"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d7182
+msgctxt "hash:23059e9e"
+msgid "hash:23059e9e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d71c0
+msgctxt "hash:b54885f4"
+msgid "hash:b54885f4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d71fe
+msgctxt "hash:0e791d55"
+msgid "hash:0e791d55"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d723c
+msgctxt "hash:661acba1"
+msgid "hash:661acba1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d727a
+msgctxt "hash:d97ac691"
+msgid "hash:d97ac691"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d72b8
+msgctxt "hash:6fa9bdcd"
+msgid "hash:6fa9bdcd"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d72f6
+msgctxt "hash:0c66501c"
+msgid "hash:0c66501c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d7334
+msgctxt "hash:a221f07c"
+msgid "hash:a221f07c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d7372
+msgctxt "hash:ed6f323a"
+msgid "hash:ed6f323a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d73b0
+msgctxt "hash:c9b8b27d"
+msgid "hash:c9b8b27d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d73ee
+msgctxt "hash:b198a490"
+msgid "hash:b198a490"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d742c
+msgctxt "hash:b35498f3"
+msgid "hash:b35498f3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d746a
+msgctxt "hash:bfb965f6"
+msgid "hash:bfb965f6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d74a8
+msgctxt "hash:8dbee32a"
+msgid "hash:8dbee32a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d74e6
+msgctxt "hash:88edf862"
+msgid "hash:88edf862"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 148
+#: 0x03d7524
+msgctxt "table:items/168/description"
+msgid "table:items/168/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 154
+#: 0x03d7562
+msgctxt "table:items/169/description"
+msgid "table:items/169/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 145
+#: 0x03d75a1
+msgctxt "table:items/170/description"
+msgid "table:items/170/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 154
+#: 0x03d75de
+msgctxt "table:items/171/description"
+msgid "table:items/171/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 155
+#: 0x03d761d
+msgctxt "table:items/172/description"
+msgid "table:items/172/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 182
+#: 0x03d765c
+msgctxt "table:items/173/description"
+msgid "table:items/173/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 146
+#: 0x03d76a1
+msgctxt "table:items/174/description"
+msgid "table:items/174/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 189, 145
+#: 0x03d76e0
+msgctxt "table:items/175/description"
+msgid "table:items/175/description"
+msgstr ""

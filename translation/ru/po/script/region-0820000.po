@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-0820000\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 93, 136
+#: 0x0821093
+msgctxt "hash:a76a16dd"
+msgid "hash:a76a16dd"
+msgstr "{STR_VAR_1} использует Яркий день!\\nНа улице засияло солнце."
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 144
+#: 0x08210bf
+msgctxt "hash:84f7a9fa"
+msgid "hash:84f7a9fa"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 130, 131
+#: 0x08254bf
+msgctxt "hash:19e50f46"
+msgid "hash:19e50f46"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 41
+#: 0x08254f1
+msgctxt "hash:4b41a754"
+msgid "hash:4b41a754"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 2, widths px: 130, 171
+#: 0x08254fd
+msgctxt "hash:20abb085"
+msgid "hash:20abb085"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 1, widths px: 169
+#: 0x0825535
+msgctxt "hash:66516acd"
+msgid "hash:66516acd"
+msgstr ""

@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0470000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: Dodrio Berry Picking debug names: the table 0x475648 holds the string's only pointer (0x475654) and is read only by 0x8153A04 (pool 0x8153A90), which copies the names into gLinkPlayers 0x2022744; no BL, branch or aligned word reaches 0x8153A04-0x8153A8B)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0475638
+msgctxt "hash:8e5fb3da"
+msgid "hash:8e5fb3da"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x047a8d8
+msgctxt "hash:dbbc27cb"
+msgid "hash:dbbc27cb"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x047a8fa
+msgctxt "hash:2200c61e"
+msgid "hash:2200c61e"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x047a913
+msgctxt "hash:9deb7ed2"
+msgid "hash:9deb7ed2"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x047a934
+msgctxt "hash:237e2d91"
+msgid "hash:237e2d91"
+msgstr ""

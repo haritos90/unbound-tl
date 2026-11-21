@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/island-cave\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 72, 71, 48, 66, 83
+#: 0x1f5ace0
+msgctxt "map:2.53/sign:0/4"
+msgid "map:2.53/sign:0/4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 168
+#: 0x1f5ad1e
+msgctxt "map:2.53/npc:0/0"
+msgid "map:2.53/npc:0/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 90
+#: 0x1f5ad63
+msgctxt "map:2.53/npc:0/1"
+msgid "map:2.53/npc:0/1"
+msgstr ""

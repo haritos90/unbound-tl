@@ -1,0 +1,275 @@
+[strings]
+include = [
+  # Alternate codec recognition is not implemented.
+  0x459434, 0x459440,
+  # Packed records lack an automatic field reader.
+  0x1EF1906, 0x1EF190A, 0x1EF190D,
+  # Literal reader lacks bounded function evidence.
+  0x1F560BE,
+]
+# Raw binary allocations lack independent consumer boundaries.
+exclude = [
+  "s03ABDC8", "s0456638", "s04566A8", "s0464008",
+  "s081EE44", "s081EFC8", "s081F2D0", "s0887280",
+  "s0887700", "s0887B80", "s0888000", "s0887300",
+  "s0FBEBDA", "s1000280", "s1035B08", "s1035DC8",
+  # Object graphics +0x1C holds {image, 0x200} frame lists.
+  # Infos 0xEBC188/0xEBC74C; images reader 0x5E90A.
+  # Automatic frame consumers remain unimplemented.
+  "s0EC1D84", "s0EC287C",
+  # Layout 0x754934 reads four u16 border tiles.
+  # Border pointer 0x75493C; real text starts 0x754900.
+  # Automatic border consumers remain unimplemented.
+  "s07548F8",
+]
+
+# Default player and rival names copied into the save.
+# Translated like all other text.
+save_link_defaults = ["s1F0EF10", "s1F0EF18", "s1F0EF1F", "s08258E0"]
+# Egg nickname copied into the save for every egg.
+# Translated like other text; the save converter maps it.
+save_link_letters = ["s0415A62"]
+# Strings copied into save or link data.
+# Naming-screen presets and the default PC box name.
+save_link = [
+  "s01C575E", "s01C5767", "s071A89A", "s01C577E", "s01C5783", "s071A8A1",
+  "s01C578C", "s071A8A7", "s01C5797", "s071A8B0", "s01C57A2", "s01C57A9",
+  "s01C57AF", "s01C57B4", "s071A8B7", "s01C57BC", "s071A8BF", "s071A8C7",
+  "s071A8CF", "s01C57D0", "s01C57D4", "s01C57D9", "s01C57E0", "s01C57E8",
+  "s01C57EE", "s01C57F4", "s01C57FA", "s01C57FF", "s01C5806", "s01C580A",
+  "s01C580F", "s01C5814", "s01C5819", "s01C581F", "s01C5823", "s01C5828",
+  "s01C5758", "s01C576C", "s01C5771", "s01C5775", "s04186CD",
+  # In-game trade names, table 0x9FB7074.
+  # - 14 records of 0x28 bytes: nickname +0, OT +4
+  # - special 0xFD copies them into gEnemyParty[0]
+  "s1F81D28", "s1F81D30", "s1F81D3A", "s1F81D42", "s1F81D4A", "s1F81D55",
+  "s1F81D5A", "s1F81E1C", "s1F81E23", "s1F81E2A", "s1F81E30", "s1F81E34",
+  "s1F81E3C", "s1F2AE2B", "s1F2AE33",
+  # Union Room chat registered texts, the REGISTER page.
+  # - ten records of 21 bytes in the save block
+  # - copied into the chat work area and the sent message
+  "s041B510", "s041B516", "s041B51E", "s041B524", "s041B52B",
+  "s041B531", "s041B535", "s041B53B", "s041B541", "s041B54B",
+]
+
+# Pointer tables whose text pointers the game prints.
+# Every target is catalogued without the scan's text checks.
+# Credit records are FireRed's 12-byte structs.
+[[strings.text_mode]]
+id = "s1F6DDE6"
+mode = "field"
+refs = [{ at = 0x13084d0, kind = "aligned" }, { at = 0x1e8f4ee, kind = "script:loadpointer" }]
+
+[[strings.text_mode]]
+id = "s1F6F1F9"
+mode = "field"
+refs = [{ at = 0x117b3b6, kind = "unverified" }, { at = 0x1e915cf, kind = "script:loadpointer" }]
+
+[[strings.text_mode]]
+id = "s1F90F9C"
+mode = "field"
+refs = [{ at = 0x1e9ea95, kind = "script:loadpointer" }, { at = 0x1fb2d20, kind = "table" }]
+
+[[strings.text_mode]]
+id = "s1F91096"
+mode = "field"
+refs = [{ at = 0x1e9ea71, kind = "script:loadpointer" }, { at = 0x1fb2d24, kind = "table" }]
+
+[[strings.text_mode]]
+id = "s1F911A0"
+mode = "field"
+refs = [{ at = 0x1ea0acb, kind = "script:loadpointer" }, { at = 0x1fb2d28, kind = "table" }]
+
+[[strings.text_mode]]
+id = "s1F9E5F4"
+mode = "field"
+refs = [{ at = 0x13476e5, kind = "unverified" }, { at = 0x1ea6d1f, kind = "script:loadpointer" }]
+
+[[strings.text_mode]]
+id = "s1F9F3F5"
+mode = "field"
+refs = [{ at = 0x11473e1, kind = "unverified" }, { at = 0x1ea6fb6, kind = "script:loadpointer" }]
+
+[[strings.text_mode]]
+id = "s1F9F700"
+mode = "field"
+refs = [{ at = 0x14972bd, kind = "unverified" }, { at = 0x1ea7138, kind = "script:loadpointer" }]
+
+[[strings.split]]
+id = "s1F2CB27"
+group = "light-of-ruin"
+refs = [
+  0x1e59222,   # 1.51 Cinder Volcano, script 0x1e591ee, line 21
+  0x1e5923c,   # 1.51 Cinder Volcano, script 0x1e591ee, line 23
+  0x1e5930a,   # 1.51 Cinder Volcano, script 0x1e591ee, line 33
+  0x1e5936a,   # 1.51 Cinder Volcano, script 0x1e591ee, line 39
+  0x1e59423,   # 1.51 Cinder Volcano, script 0x1e591ee, line 51
+  0x1e594c1,   # 1.51 Cinder Volcano, script 0x1e591ee, line 61
+  0x1e594e0,   # 1.51 Cinder Volcano, script 0x1e591ee, line 69
+  0x1e9adee,   # 3.36 Vivill Town, script 0x1e9ad81, line 7
+  0x1e9ae58,   # 3.36 Vivill Town, script 0x1e9ad81, line 13
+  0x1e9ae72,   # 3.36 Vivill Town, script 0x1e9ad81, line 15
+  0x1e9aeb2,   # 3.36 Vivill Town, script 0x1e9ad81, line 19
+  0x1e9bfd8,   # 1.100 Vivill Warehouse, script 0x1e9bfc7, line 0
+  0x1e9c3dd,   # 1.101 Vivill Warehouse, script 0x1e9c398, line 7
+  0x1e9c72a,   # 1.103 Vivill Warehouse, script 0x1e9c726, line 0
+  0x1e9c7c6,   # 1.103 Vivill Warehouse, script 0x1e9c787, line 4
+  0x1e9c810,   # 1.103 Vivill Warehouse, script 0x1e9c787, line 6
+  0x1e9c833,   # 1.103 Vivill Warehouse, script 0x1e9c787, line 9
+  0x1e9c92d,   # 1.103 Vivill Warehouse, script 0x1e9c912, line 0
+  0x1e9c9ad,   # 1.103 Vivill Warehouse, script 0x1e9c96e, line 4
+  0x1e9c9f7,   # 1.103 Vivill Warehouse, script 0x1e9c96e, line 6
+  0x1e9ca1a,   # 1.103 Vivill Warehouse, script 0x1e9c96e, line 9
+  0x1e9cb84,   # 1.103 Vivill Warehouse, script 0x1e9cb80, line 0
+  0x1e9cc04,   # 1.103 Vivill Warehouse, script 0x1e9cbc5, line 4
+  0x1e9cc1d,   # 1.103 Vivill Warehouse, script 0x1e9cbc5, line 6
+  0x1e9cc3a,   # 1.103 Vivill Warehouse, script 0x1e9cbc5, line 8
+  0x1e9ccd5,   # 1.104 Vivill Warehouse, script 0x1e9ccc0, line 0
+  0x1e9ccf6,   # 1.104 Vivill Warehouse, script 0x1e9ccc0, line 2
+  0x1e9cd4a,   # 1.104 Vivill Warehouse, script 0x1e9ccc0, line 6
+  0x1e9cd63,   # 1.104 Vivill Warehouse, script 0x1e9ccc0, line 8
+]
+evidence = "speaker label Grunt: Light of Ruin scenes are Cinder Volcano 1.51 after the transfer (Véga's guards, sprite-15 objects 4-8 retreat to the new base), the Vivill Town 3.36 entrance guard and the Vivill Warehouse 1.100-1.104 defenders (class 47, sprite 15; map:1.103/npc:1/0 states they became the Light of Ruin); the other 27 uses (Frozen Heights prison, early Cinder Volcano, Thundercap Mt., Route 1) are Shadows"
+
+[[strings.split]]
+id = "s1F2CB34"
+group = "light-of-ruin"
+refs = [
+  0x1e9bcbe,   # 1.100 Vivill Warehouse, script 0x1e9bc2f, line 16
+  0x1e9bcde,   # 1.100 Vivill Warehouse, script 0x1e9bc2f, line 18
+  0x1e9c0f4,   # 1.101 Vivill Warehouse, script 0x1e9c0e5, line 0
+  0x1e9c19f,   # 1.101 Vivill Warehouse, script 0x1e9c0e5, line 6
+  0x1e9c5bf,   # 1.101 Vivill Warehouse, script 0x1e9c5af, line 0
+  0x1e9c5f9,   # 1.101 Vivill Warehouse, script 0x1e9c5f7, line 0
+]
+evidence = "speaker label Grunt A: Light of Ruin scenes are the Vivill Warehouse 1.100-1.101 defenders fleeing the Shadow Warrior and the woman inviting a Zeph loyalist to join; the other 9 uses (Ronald accusing Billy of betraying the Shadows, the Ruins, Crater Town and Tehl Town) are Shadows"
+
+[[strings.split]]
+id = "s1F2CB3C"
+group = "light-of-ruin"
+refs = [
+  0x1e9c108,   # 1.101 Vivill Warehouse, script 0x1e9c0e5, line 2
+  0x1e9c205,   # 1.101 Vivill Warehouse, script 0x1e9c0e5, line 8
+  0x1e9c545,   # 1.101 Vivill Warehouse, script 0x1e9c520, line 2
+  0x1e9c597,   # 1.101 Vivill Warehouse, script 0x1e9c567, line 2
+]
+evidence = "speaker label Grunt B: Light of Ruin scenes are the Vivill Warehouse 1.101 fleeing defenders and Billy defending Aklove; the other 7 uses (the woman staying with Zeph, the Ruins before the takeover, Crater Town) are Shadows"
+
+[[strings.pointer_table]]
+name = "credits"
+base = 0x1FB0DB0
+stride = 12
+count = 52
+fields = [0, 4]
+note = "credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits"
+
+[[strings.pointer_table]]
+name = "credits-firered"
+base = 0x4145BC
+stride = 12
+count = 42
+fields = [0, 4]
+note = "FireRed credits copy that no code reads; translate headings and roles; names stay as in the English credits"
+
+# Pokedex entry texts: description pointer at +16 of 36-byte records.
+# - record i is the entry of national dex i
+# - species_dex_map names the species ids
+[[strings.pointer_table]]
+name = "pokedex_entries"
+base = 0x1A357DC
+stride = 36
+count = 906
+fields = [0]
+species_dex_map = true
+note = "Pokedex entry text: record i is the entry of national dex i; every species the [pokedex.dex.map] maps onto that dex number shows this text, the forms included"
+evidence = "the description pointer at +16 of the 36-byte dex records from 0x1A357CC ([pokedex.dex.records] holds the row evidence); record i is national dex i, [pokedex.dex.map] at 0x1A41FEA maps every species slot onto its dex number, and every pointer decodes as an entry text"
+
+# Computed text pointers: a constant added to a pool word.
+# - the build moves each group as one block
+# - a member longer than its gap stays English
+[[strings.computed]]
+# Automatic readers lack complete selector domains.
+pointer = 0x9BDE24
+ids = ["s03FD3F7", "s03FD3B1"]
+evidence = "trainer intro send-out, one foe Pokemon: ldr r2 at 0x89BDD54; not a link battle (flag 2 clear) -> -0x46 = s03FD3B1"
+
+[[strings.computed]]
+# Automatic readers lack complete selector domains.
+pointer = 0x9BDE20
+ids = ["s03FD407", "s03FD3C7"]
+evidence = "trainer intro send-out, two foe Pokemon: ldr r2 at 0x89BDD40; not a link battle -> -0x40 = s03FD3C7"
+
+[[strings.computed]]
+# Automatic readers lack complete selector domains.
+pointer = 0x9BDDAC
+ids = ["s03FD4FA", "s03FD50D"]
+evidence = "player recall: ldr r2 at 0x89BDB82; hp scale (gBattleStruct+0xAD) not 2 -> +0x13 = s03FD50D"
+
+[[strings.computed]]
+# Automatic readers lack complete selector domains.
+pointer = 0x9BE098
+ids = ["s03FD545", "s03FD535"]
+evidence = "link foe recall: ldr r2 at 0x89BDE4C; battle type flag 0x40 clear -> -0x10 = s03FD535"
+
+[[strings.computed]]
+# Automatic readers lack complete selector domains.
+pointer = 0x9BE0B8
+ids = ["s03FD488", "s03FD497"]
+evidence = "player send-in: ldr r2 at 0x89BDEB0; hp scale (gBattleStruct+0xAD) not 2 -> +0xF = s03FD497"
+
+[[strings.computed]]
+# Automatic readers lack complete selector domains.
+pointer = 0x9BE0F8
+ids = ["s03FE9D4", "s03FCD92"]
+evidence = "foe fled: ldr r2 at 0x89BDFB0; gTrainerBattleOpponent_A not 0xC00 -> -0x1C42 = s03FCD92"
+
+[[strings.computed]]
+# Automatic readers lack complete selector domains.
+pointer = 0x9BDA24
+ids = ["s03FD81A", "s03FD824"]
+evidence = "PC name placeholder: ldr r3 at 0x89BD75E, adds r4, r4, r3 at 0x89BD762; flag 0x834 set -> +0xA = s03FD824"
+
+# Text read from inside a string.
+# - pointer: pool word, the string plus offset
+# - translations keep the English prefix bytes
+[[strings.interior]]
+# Automatic readers lack complete prefix-consumer evidence.
+pointer = 0x13255C
+id = "s04162FF"
+offset = 2
+
+# Tables the code indexes from a pooled base.
+# - members: base plus offsets, or count records of stride
+# - every member stays in place; a longer one stays English
+[[strings.table_base]]
+# Automatic readers lack complete index domains.
+pointers = [0x9C77C, 0x14E294]
+id = "s03DF7E8"
+stride = 0x1C
+count = 43
+# the name field is 7 bytes
+# - 6 letters and the terminator, then firmness at +7
+# - every reader stops at the terminator or byte 6
+length = 7
+
+[[strings.table_base]]
+# Automatic readers lack complete index domains.
+pointers = [0x50EFC, 0x53AD4, 0x53B30, 0x53CA4]
+id = "s026CF8C"
+stride = 0x3C
+count = 9
+fields = [0, 0x2B]
+
+[[strings.table_base]]
+# Automatic readers lack complete index domains.
+pointers = [0x834580]
+id = "s0834B04"
+offsets = [0x0, 0x8, 0x10, 0x34]
+
+# Save layout: FireRed flash save as extended by CFRU.
+# Verified against saves written by this ROM.
+# Parasite RAM sits in the unchecksummed section tails.
+
+# Default box names.
+# - box N takes the pool text plus N, left-aligned
+# - box 25 takes the text of a second pool

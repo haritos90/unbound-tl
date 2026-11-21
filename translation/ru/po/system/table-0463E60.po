@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0463E60\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 180, 93
+#: 0x0419a3d
+msgctxt "hash:9d6003cb"
+msgid "hash:9d6003cb"
+msgstr "Странное яйцо покемона,\\nнайденное в Дневном уходе."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 140
+#: 0x0419aa2
+msgctxt "hash:35659c11"
+msgid "hash:35659c11"
+msgstr "Удивительно необычное яйцо\\nпокемона из чудесного места."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 138
+#: 0x0419ade
+msgctxt "hash:f118afc3"
+msgid "hash:f118afc3"
+msgstr "Странное яйцо покемона от\\nстарушки с горячих источников."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 176, 60
+#: 0x0419b18
+msgctxt "hash:8cb379f9"
+msgid "hash:8cb379f9"
+msgstr "Необычное яйцо покемона,\\nполученное при обмене."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 96, 84, 106
+#: 0x0419b44
+msgctxt "hash:f723315e"
+msgid "hash:f723315e"
+msgstr "Похоже, этому\\nяйцу ещё долго\\nдо вылупления."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 84, 97, 83
+#: 0x0419b7b
+msgctxt "hash:a8914fc2"
+msgid "hash:a8914fc2"
+msgstr "Кто же из него\\nвылупится? Это\\nбудет нескоро."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 83, 91, 62
+#: 0x0419bae
+msgctxt "hash:8dd5abce"
+msgid "hash:8dd5abce"
+msgstr "Иногда оно\\nшевелится. Скоро\\nкто-то вылупится."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 101, 93, 52
+#: 0x0419bdb
+msgctxt "hash:e9bcabff"
+msgid "hash:e9bcabff"
+msgstr "Изнутри слышны\\nзвуки. Вот-вот\\nкто-то вылупится!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0463dbc
+msgctxt "hash:38c7e4bc"
+msgid "hash:38c7e4bc"
+msgstr "Выносливый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0463dc2
+msgctxt "hash:b5512594"
+msgid "hash:b5512594"
+msgstr "Одинокий"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0463dc9
+msgctxt "hash:a3a2ab36"
+msgid "hash:a3a2ab36"
+msgstr "Храбрый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0463dcf
+msgctxt "hash:00eff4c3"
+msgid "hash:00eff4c3"
+msgstr "Непреклонный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0463dd7
+msgctxt "hash:23c6482d"
+msgid "hash:23c6482d"
+msgstr "Озорной"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0463ddf
+msgctxt "hash:b6233e11"
+msgid "hash:b6233e11"
+msgstr "Смелый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0463de4
+msgctxt "hash:776a34d8"
+msgid "hash:776a34d8"
+msgstr "Послушный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0463deb
+msgctxt "hash:27cea47c"
+msgid "hash:27cea47c"
+msgstr "Расслабленный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0463df3
+msgctxt "hash:af4a5110"
+msgid "hash:af4a5110"
+msgstr "Шаловливый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0463dfa
+msgctxt "hash:3de1a4c1"
+msgid "hash:3de1a4c1"
+msgstr "Вялый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 26
+#: 0x0463dfe
+msgctxt "hash:672370e3"
+msgid "hash:672370e3"
+msgstr "Робкий"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0463e04
+msgctxt "hash:2a47e98a"
+msgid "hash:2a47e98a"
+msgstr "Торопливый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 38
+#: 0x0463e0a
+msgctxt "hash:8cba0f5a"
+msgid "hash:8cba0f5a"
+msgstr "Серьёзный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0463e12
+msgctxt "hash:6829e30c"
+msgid "hash:6829e30c"
+msgstr "Весёлый"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0463e18
+msgctxt "hash:3937791a"
+msgid "hash:3937791a"
+msgstr "Наивный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0463e1e
+msgctxt "hash:d24a93d0"
+msgid "hash:d24a93d0"
+msgstr "Скромный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0463e25
+msgctxt "hash:039f458e"
+msgid "hash:039f458e"
+msgstr "Мягкий"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 27
+#: 0x0463e2a
+msgctxt "hash:d8509865"
+msgid "hash:d8509865"
+msgstr "Тихий"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0463e30
+msgctxt "hash:06c00280"
+msgid "hash:06c00280"
+msgstr "Застенчивый"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0463e38
+msgctxt "hash:29f2984d"
+msgid "hash:29f2984d"
+msgstr "Безрассудный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0463e3d
+msgctxt "hash:60718b1f"
+msgid "hash:60718b1f"
+msgstr "Спокойный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0463e42
+msgctxt "hash:245ae6f4"
+msgid "hash:245ae6f4"
+msgstr "Нежный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0463e49
+msgctxt "hash:0c89f126"
+msgid "hash:0c89f126"
+msgstr "Нахальный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0463e4f
+msgctxt "hash:dcff5342"
+msgid "hash:dcff5342"
+msgstr "Осторожный"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x0463e57
+msgctxt "hash:1bbbffcd"
+msgid "hash:1bbbffcd"
+msgstr "Причудливый"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 155, 54
+#: 0x1f054ee
+msgctxt "hash:8722d9d5"
+msgid "hash:8722d9d5"
+msgstr "Странное яйцо покемона,\\nполученное в подарок."

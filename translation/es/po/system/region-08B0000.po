@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-08B0000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 92
+#: 0x08b1044
+msgctxt "hash:e5642bd8"
+msgid "hash:e5642bd8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 96
+#: 0x08b105c
+msgctxt "hash:12c5d453"
+msgid "hash:12c5d453"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x08b1074
+msgctxt "hash:a11b7ad8"
+msgid "hash:a11b7ad8"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 133, 6
+#: 0x08bc450
+msgctxt "hash:507c34a4"
+msgid "hash:507c34a4"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 132, 6
+#: 0x08bc470
+msgctxt "hash:535cd1e6"
+msgid "hash:535cd1e6"
+msgstr ""
+
+#. reach: never shown (review: The code loading the strings of older move-effect scripts is at 0x8BC490, 0x906560, 0x271A80 / 0x271B10 / 0x271BB0 and 0x90FD90. No BL or branch reaches that code, whose only pointers are callasm arguments in scripts 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BBA70. Only scripts 0x8BB8D0-0x8BBA6F jump to 0x8BBA70. The only pointers to 0x8BC5F0, 0x9066F0, 0x271A20 and 0x8BB8D0 are entries 233, 240, 113 and 228 of the older move-effect table 0x903B6C. No word points into the older table. The live table is at 0x9A05EC, with pool 0x16364 and 25 more.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 66, 112
+#: 0x08bc630
+msgctxt "hash:8ccdb3e2"
+msgid "hash:8ccdb3e2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed BufferStringBattle 0x80D7274 jumps to CFRU 0x89BDA88 at its entry (ldr r1 / bx r1); the strings' only pointers are the pools 0x80D73C0 / 0x80D7420 of the dead body 0x80D727C-0x80D77F3, which no BL or branch enters; CFRU loads its own s0A4C4BD (pool 0x9BDDC4) and s0A4C5C8 (pool 0x9BDE00))
+#. category: code; mode: battle
+#. original lines: 2, widths px: 98, 0
+#: 0x08bd140
+msgctxt "hash:e7780d07"
+msgid "hash:e7780d07"
+msgstr ""

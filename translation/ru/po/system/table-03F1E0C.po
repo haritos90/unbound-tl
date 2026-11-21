@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03F1E0C\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x03ef133
+msgctxt "hash:163dc038"
+msgid "hash:163dc038"
+msgstr "Боевая шахта"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x03ef144
+msgctxt "hash:47d5166e"
+msgid "hash:47d5166e"
+msgstr "Боевая башня"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 55
+#: 0x03ef193
+msgctxt "hash:389a5757"
+msgid "hash:389a5757"
+msgstr "Пещера Клифф"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x03ef1ae
+msgctxt "hash:3105fc62"
+msgid "hash:3105fc62"
+msgstr "Поле боя"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x03ef1d9
+msgctxt "hash:cb85d339"
+msgid "hash:cb85d339"
+msgstr "Лайнер “Марин”"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x03ef1e8
+msgctxt "hash:4439a60d"
+msgid "hash:4439a60d"
+msgstr "Район Ферроторн"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x03ef207
+msgctxt "hash:1cb36d2c"
+msgid "hash:1cb36d2c"
+msgstr "Пустынные руины"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x03ef214
+msgctxt "hash:89c779ae"
+msgid "hash:89c779ae"
+msgstr "Ледяная гробница"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x0721428
+msgctxt "hash:110efef2"
+msgid "hash:110efef2"
+msgstr "Палата Монеан"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x0b50020
+msgctxt "hash:a5b0b06b"
+msgid "hash:a5b0b06b"
+msgstr "Болото Кутс"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x0b50094
+msgctxt "hash:bd1ed1a4"
+msgid "hash:bd1ed1a4"
+msgstr "Под водой"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 71
+#: 0x0b50244
+msgctxt "hash:18dbb3c2"
+msgid "hash:18dbb3c2"
+msgstr "Боевой цирк"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x0b51bf0
+msgctxt "hash:b0a6dd8d"
+msgid "hash:b0a6dd8d"
+msgstr "Склеп Борриуса"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x0b51eac
+msgctxt "hash:d940adf0"
+msgid "hash:d940adf0"
+msgstr "Порт Антисис"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0b52510
+msgctxt "hash:dcea2476"
+msgid "hash:dcea2476"
+msgstr "Пещера ледопада"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x0b53448
+msgctxt "hash:010f93f2"
+msgid "hash:010f93f2"
+msgstr "Пещера острова"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 81
+#: 0x0b53528
+msgctxt "hash:550293c3"
+msgid "hash:550293c3"
+msgstr "Лес Редвуд"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 82
+#: 0x0b53814
+msgctxt "hash:94eda1b9"
+msgid "hash:94eda1b9"
+msgstr "Поля Магнолия"

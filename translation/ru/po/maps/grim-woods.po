@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/grim-woods\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 70
+#: 0x1f13064
+msgctxt "map:45.1/npc:6/3"
+msgid "map:45.1/npc:6/3"
+msgstr "Гроза сорняков"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 82, 165, 133, 188, 185, 104, 139, 186, 61, 191, 172
+#: 0x1f130dc
+msgctxt "map:45.1/npc:6/6"
+msgid "map:45.1/npc:6/6"
+msgstr ""
+"Здравствуйте, тренер!\\pВы именно тот человек, который мне нужен.\\pЯ "
+"бизнесмен и хочу построить блинный ресторан своей мечты прямо здесь, в "
+"лесу.\\pЕсть лишь одна проблема.\\pМешает вся эта надоедливая высокая "
+"трава.\\pНе возьмётесь ли срезать Порезом всю высокую траву в округе?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 56, 188, 134
+#: 0x1f13208
+msgctxt "map:45.1/npc:6/8"
+msgid "map:45.1/npc:6/8"
+msgstr ""
+"Превосходно!\\pТогда за дело: срежьте {COLOR 06}Порезом{COLOR 08} всю "
+"высокую траву!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 176, 189, 177
+#: 0x1f13254
+msgctxt "map:45.1/npc:6/7"
+msgid "map:45.1/npc:6/7"
+msgstr ""
+"Не беспокойтесь, тренер: я найду другого желающего обустроить мою землю "
+"за щедрое вознаграждение."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 183, 156, 67
+#: 0x1f132b8
+msgctxt "map:45.1/npc:6/0"
+msgid "map:45.1/npc:6/0"
+msgstr ""
+"Здесь ещё осталась высокая трава, которую надо срезать {COLOR "
+"06}Порезом{COLOR 08}.\\pПринимайтесь за дело!"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 186, 110, 195, 106, 179, 190, 72, 184, 166, 43
+#: 0x1f1330a
+msgctxt "map:45.1/npc:6/1"
+msgid "map:45.1/npc:6/1"
+msgstr ""
+"Работа превосходная, но, боюсь, у меня плохие новости.\\pРейнджеры "
+"покемонов только что закрыли наше предприятие.\\pОказывается, здешняя "
+"высокая трава - вымирающий вид, хотя всегда отрастает заново.\\pТем не "
+"менее по договору я всё же обязан заплатить вам за услуги."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 143, 156, 135
+#: 0x1f13412
+msgctxt "map:45.1/npc:6/5"
+msgid "map:45.1/npc:6/5"
+msgstr ""
+"Сначала я разделаюсь с Рейнджерами покемонов, а потом построю свою "
+"блинную империю."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 30, 126, 182, 30
+#: 0x1f13463
+msgctxt "map:45.1/npc:0/0"
+msgid "map:45.1/npc:0/0"
+msgstr ""
+"Хей!\\nДобро пожаловать в Мрачный лес!\\pДавай-ка зажжём тут по полной, а?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 30, 90
+#: 0x1f134a9
+msgctxt "map:45.1/npc:0/1"
+msgid "map:45.1/npc:0/1"
+msgstr "Да!\\nВот это было зажигательно!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 178, 180, 112
+#: 0x1f134c0
+msgctxt "map:45.1/npc:0/2"
+msgid "map:45.1/npc:0/2"
+msgstr "Ещё пара таких боёв - и жизнь здесь мигом забьёт ключом!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 165, 189
+#: 0x1f13518
+msgctxt "map:45.1/npc:3/0"
+msgid "map:45.1/npc:3/0"
+msgstr "Мне кажется, или по ночам тут другие покемоны типа Насекомое?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 149
+#: 0x1f13559
+msgctxt "map:45.1/npc:3/1"
+msgid "map:45.1/npc:3/1"
+msgstr "Не мне же одному это кажется, да?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 175, 174, 156, 129
+#: 0x1f13575
+msgctxt "map:45.1/npc:3/2"
+msgid "map:45.1/npc:3/2"
+msgstr ""
+"Я почти уверен, что днём в этом лесу любят бывать Катерпи, а ночью - "
+"Видлы."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 62, 174
+#: 0x1f135eb
+msgctxt "map:45.1/npc:4/0"
+msgid "map:45.1/npc:4/0"
+msgstr "Смотри, смотри!\\nМой покемон взял и эволюционировал!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 111
+#: 0x1f13616
+msgctxt "map:45.1/npc:4/1"
+msgid "map:45.1/npc:4/1"
+msgstr "А ведь мой покемон эволюционировал!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 170, 40, 199, 197, 117
+#: 0x1f1362a
+msgctxt "map:45.1/npc:4/2"
+msgid "map:45.1/npc:4/2"
+msgstr ""
+"Эволюционируя, покемоны становятся сильнее.\\pНо насколько мой покемон "
+"сильнее других покемонов после эволюции?\\pНаверняка намного-намного!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 141
+#: 0x1f136ad
+msgctxt "map:45.1/npc:15/0"
+msgid "map:45.1/npc:15/0"
+msgstr "В этом лесу водятся призраки."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 180
+#: 0x1f136c7
+msgctxt "map:45.1/npc:15/1"
+msgid "map:45.1/npc:15/1"
+msgstr "Эти призраки - неприкаянные души."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 175, 171, 75
+#: 0x1f136e9
+msgctxt "map:45.1/npc:15/2"
+msgid "map:45.1/npc:15/2"
+msgstr ""
+"Этот лес такой мрачный, что покемоны типа Привидение чувствуют себя здесь "
+"как дома."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 82, 195
+#: 0x1f13736
+msgctxt "map:45.1/npc:2/0"
+msgid "map:45.1/npc:2/0"
+msgstr "Прислушайся…\\nСлышишь, как кричат Фантампы?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 138, 188
+#: 0x1f13769
+msgctxt "map:45.1/npc:2/1"
+msgid "map:45.1/npc:2/1"
+msgstr "Их крики такие жуткие…\\nЧто же они хотят сказать?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 180, 181, 185, 110
+#: 0x1f137a5
+msgctxt "map:45.1/npc:2/2"
+msgid "map:45.1/npc:2/2"
+msgstr ""
+"Старинные предания гласят, что Фантампы - это пни, в которые вселились "
+"души детей, сгинувших в этом лесу."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 180, 31
+#: 0x1f1381f
+msgctxt "map:45.1/npc:5/0"
+msgid "map:45.1/npc:5/0"
+msgstr "Пампкабу бывают самых разных размеров."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 171, 47
+#: 0x1f13847
+msgctxt "map:45.1/npc:5/1"
+msgid "map:45.1/npc:5/1"
+msgstr "Всего у Пампкабу четыре размера."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 197, 195, 148
+#: 0x1f13870
+msgctxt "map:45.1/npc:5/2"
+msgid "map:45.1/npc:5/2"
+msgstr ""
+"Моя давняя коллега из города Сипорт ведёт учёт размеров всех встреченных "
+"Пампкабу."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 3, widths px: 56, 96, 81
+#: 0x1f70d64
+msgctxt "map:45.1/sign:0/0"
+msgid "map:45.1/sign:0/0"
+msgstr ""
+"Мрачный лес\\p{LEFT_ARROW} Вулкан Синдер\\n{RIGHT_ARROW} Городок Дреско"

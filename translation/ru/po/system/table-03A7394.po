@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03A7394\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 209, 168
+#: 0x0419f76
+msgctxt "hash:50fe8cde"
+msgid "hash:50fe8cde"
+msgstr ""
+"Устройство, которое записывает сведения\\nо встреченных и пойманных "
+"покемонах."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 199, 182
+#: 0x0419fbb
+msgctxt "hash:877f5f5e"
+msgid "hash:877f5f5e"
+msgstr "Осмотреть покемонов команды\\nи изменить их порядок."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 213, 176
+#: 0x041a001
+msgctxt "hash:bc3806ec"
+msgid "hash:bc3806ec"
+msgstr "Разделы для хранения купленных,\\nполученных и найденных предметов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 214
+#: 0x041a049
+msgctxt "hash:9545c837"
+msgid "hash:9545c837"
+msgstr "Проверить деньги и другие данные игры."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 214, 186
+#: 0x041a06f
+msgctxt "hash:6ffd18b0"
+msgid "hash:6ffd18b0"
+msgstr "Сохранить весь прогресс в игре,\\nчтобы сделать перерыв."
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 229, 130
+#: 0x041a0b7
+msgctxt "hash:9e01d3f6"
+msgid "hash:9e01d3f6"
+msgstr "Изменить настройки игры: скорость\\nтекста, правила и т. д."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 127
+#: 0x041a0f9
+msgctxt "hash:e5edb7d5"
+msgid "hash:e5edb7d5"
+msgstr "Закрыть это меню."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 233, 135
+#: 0x041a111
+msgctxt "hash:23c58e8d"
+msgid "hash:23c58e8d"
+msgstr "Завершить Игру в сафари и вернуться\\nк стойке регистрации."

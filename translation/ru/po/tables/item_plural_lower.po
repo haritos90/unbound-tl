@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/item_plural_lower\n"
+"X-Source: key-only\n"
+
+# replaces a final Latin y
+# y: the letter stays as it is
+#. category: table:item_plural_lower; mode: field
+#. fixed field: 1 characters max (table item_plural_lower, index 0)
+#. original lines: 1, widths px: 4
+#: 0x0a072f2
+msgctxt "table:item_plural_lower/0"
+msgid "table:item_plural_lower/0"
+msgstr "y"
+
+# es after a final x or y
+# empty: no English plural ending
+#. category: table:item_plural_lower; mode: field
+#. fixed field: 1 characters max (table item_plural_lower, index 1)
+#. original lines: 1, widths px: 6
+#: 0x0a072f6
+#, empty
+msgctxt "table:item_plural_lower/1"
+msgid "table:item_plural_lower/1"
+msgstr ""

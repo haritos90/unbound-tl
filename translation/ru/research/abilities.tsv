@@ -1,0 +1,293 @@
+source_text	chosen	variants	sources	limit	fits	short_form	confidence	notes	declension	note_ids	record_id
+-------	-------		own	16	yes		low	Placeholder entry 0 (no ability); not a term. Keep the dashes.	fixed		research:52a7fc0accb94f9bb6db7d70e6892550
+Stench	Зловоние	Пахучесть @ pojirianets-bw | Пахучесть @ pojirianets-hg	pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:c654d5a78e1c49e3922284e6cb301354
+Drizzle	Изморось	Морось @ pojirianets-bw | Морось @ pojirianets-hg | Морось @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:63dbd91b65314aaa95ed40119900bede
+Speed Boost	Ускорение		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:4921575d078649948a0b22a3ec24bae1
+Battle Armor	Боевая броня		sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:855c8709e0c84f34961d3db5de101fb7
+Sturdy	Выносливость	Стойкость @ pokerogue-ru | Крепкость @ pojirianets-bw | Крепкость @ pojirianets-hg | Крепость @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form. PokéRogue uses «Стойкость».	auto		research:d20924cbe06e4739b3de926045540c2d
+Damp	Влажность	Сырость @ pojirianets-bw | Сырость @ pojirianets-hg	pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:fe994959ec53455a8f199013e6988755
+Limber	Гибкость		sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:62644580d09141698447e6c9a2bcc739
+Sand Veil	Песчаная вуаль	Завеса Песка @ pokerogue-ru | Завеса Песка @ pojirianets-bw | Завеса Песка @ pojirianets-hg | Песчаная завеса @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:8aaa811d8702410799731aed700922b8
+Static	Статика	Статическое Электричество @ bulbapedia | Статическое электричество @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Sources of the same rank disagree; chosen by number of supporting sources, then fit. Bulbapedia «Статическое Электричество» does not fit 16 characters; equal support, the fitting form is chosen.	auto		research:2a85fe8f83ba4a7c99fa19e71a46f267
+Volt Absorb	Подзарядка	Подзарядка @ pojirianets-bw | Подзарядка @ pojirianets-hg | Поглощение тока @ mapemons	sm-site-ru, pokerogue-ru	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:f0694a2857af414296dea5af0d91ade7
+Water Absorb	Впитывание	Впитывание @ pojirianets-bw | Впитывание @ pojirianets-hg | Поглощение воды @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:b874e81cf00a4270ba4d7c45f0ae6c7b
+Oblivious	Забывчивость	Забвение @ pokerogue-ru | Безразличность @ mapemons	sm-site-ru, bulbapedia, pojirianets-bw, pojirianets-hg	16	yes		high	Official form.	auto		research:72fb26e24554484d8c6754d5e5eae22a
+Cloud Nine	Седьмое небо	Ясное Небо @ pojirianets-bw | Ясное Небо @ pojirianets-hg | Девятое небо @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:7b606888f69e42e8a09d79ccbd714d75
+Compound Eyes	Фасеточность	Фасеточность @ pojirianets-bw | Сложноглаз @ pojirianets-hg | Составные глаза @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:daa5075901ed4b6392d954866e75e808
+Insomnia	Бессонница		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:7ca6319315bc4d0ab75bb25cc31a65db
+Color Change	Смена окраса	Смена Цвета @ pojirianets-bw | Смена Цвета @ pojirianets-hg | Смена цвета @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:54ecf51764674951af617a23156a6fc7
+Immunity	Иммунитет		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:c90b493d18504182b9729f0b392afd95
+Flash Fire	Возгорание	СияющийОгонь @ pojirianets-bw | СияющийОгонь @ pojirianets-hg | Огненный всплеск @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:75794cf7017443bd81794df184e9e25a
+Shield Dust	Пылевой щит	Щит Пыли @ pojirianets-bw | Щит Пыли @ pojirianets-hg | Пыльный щит @ mapemons	sm-site-ru, bulbapedia, pokerogue-ru	16	yes		high	Official form.	auto		research:9cbb1cb3e5c14ec3b182a10b9a2e8c87
+Own Tempo	Свой ритм	В своём темпе @ pokerogue-ru | Свой Темп @ pojirianets-bw | Свой Темп @ pojirianets-hg | Собственный ритм @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:c5cf1c256624426a8cbb8a9aa7b684e3
+Suction Cups	Присоски		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:b5fcfe6225c74da7b419c9ceed28e682
+Intimidate	Устрашение	Запугивание @ pojirianets-bw | Запугивание @ pojirianets-hg | Запугивание @ mapemons	pokerogue-ru	16	yes		medium	Major community form. The minor «Запугивание» has two sources.	auto		research:43635df979d3426899f021526440dfa4
+Shadow Tag	Метка тени	Метка Теней @ pojirianets-bw | Метка Теней @ pojirianets-hg | Теневая метка @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:0543d701fa72447e9a385ba594e7ca43
+Rough Skin	Грубая кожа		tcg-ru, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:5440b3706b8b44f3b7bee5a9ae2a6a46
+Wonder Guard	Чудо-защита	Чудо-страж @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Major community form.	auto		research:fdefa1b8c8ea448f95fca582c7e81fbd
+Levitate	Левитация		sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:42b9ab0877404f18b3e33c2df7580548
+Effect Spore	Эффект споры	Споры @ pokerogue-ru | Эффект Спор @ pojirianets-bw | Эффект Спор @ pojirianets-hg | Споры @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:402e59fa8b9840fc955b745e64bfa4f5
+Synchronize	Синхронность	Синхронность @ pojirianets-bw | Синхронность @ pojirianets-hg	pokerogue-ru, mapemons	16	yes		high	Major community form. Shortened for the DexNav bar.	auto		research:2ab7c23352f54f2e97d9ba8578d75697
+Clear Body	Чистое тело		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:9c60a4cad7004862887ae0ac19ecbb80
+Natural Cure	Самолечение	Естественное исцеление @ pokerogue-ru | Чудо Природы @ pojirianets-bw | Чудо Природы @ pojirianets-hg | Естественное лечение @ mapemons	bulbapedia	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:8b13374cf026498fa8b18d2a41d6759f
+Lightning Rod	Громоотвод		sm-site-ru, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:288ac30b7e234697b2b5a9fcc498bfc8
+Serene Grace	Тихая грация	Грациозность @ pojirianets-bw | Грациозность @ pojirianets-hg | Безмятежная грация @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:bd21ba3a8a8141ffba693fe5efa85748
+Swift Swim	Водный рывок	СкорыйПловец @ pojirianets-bw | СкорыйПловец @ pojirianets-hg | Быстрое плавание @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:fad5432c854643be9c9314a5989e46c0
+Chlorophyll	Хлорофилл		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:88c6e82512234e8a829a4728076bc0bb
+Illuminate	Освещение	Свечение @ pojirianets-bw | Свечение @ pojirianets-hg	tcg-ru, sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high	Official form.	auto		research:af3239270e194f1899b0db5db328ad0f
+Trace	Калька	Отслеживание @ pojirianets-bw | Отслеживание @ pojirianets-hg | След @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:24ef6a79b8904dc582d1c84f13a5d286
+Huge Power	Большая сила	Мега Мощь @ pojirianets-bw | Мега Мощь @ pojirianets-hg | Огромная сила @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:b06775cea3c24b0dbfb2fc4ae09d663b
+Poison Point	Ядовитый шип	Ядовитые Железы @ pokerogue-ru | Точки Яда @ pojirianets-bw | Касание Яда @ pojirianets-hg	tcg-ru, mapemons	16	yes		high	Official form.	auto		research:53180883996e49308e174db2eedbf501
+Inner Focus	Концентрация	Сосредоточенность @ pokerogue-ru | Фокусировка @ pojirianets-bw | Фокусировка @ pojirianets-hg | Внутренний фокус @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:18556dc50e1f4d65badfd3c2f4a66ebf
+Magma Armor	Броня магмы	Магмовая броня @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Major community form.	auto		research:8a89d59d13574ac0995b7f537c3ff96f
+Water Veil	Водяная вуаль	Завеса Воды @ pojirianets-bw | Завеса Воды @ pojirianets-hg | Водяная завеса @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:8089a844cf1a498fa42ccb59f665f572
+Magnet Pull	Магнетизм	Магнитная тяга @ mapemons	sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Official form.	auto		research:95982e4d3cbf464fb5c114b845df49dd
+Soundproof	Звукоизоляция	Звукозащита @ pokerogue-ru | Беззвучность @ pojirianets-bw | Беззвучность @ pojirianets-hg	sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form.	auto		research:9b1ee5a707da4218b26f3c909040c7a6
+Rain Dish	Жёлоб	Дождесборник @ pojirianets-bw | Дождесборник @ pojirianets-hg | Водосборник @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:c60db9a63e0a492d9f42056540b54323
+Sand Stream	Поток песка	Песчаный поток @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Major community form.	auto		research:fad584a198874a1b9418696fac8e32bd
+Pressure	Давление	Гнёт @ pokerogue-ru	bdsp-site-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high	Official form.	auto		research:019e2dbab55c45babacd4e45f468c081
+Thick Fat	Толстый жир	Толстая прослойка @ pokerogue-ru | Толстая Кожа @ pojirianets-bw	tcg-ru, sm-site-ru, bulbapedia, pojirianets-hg, mapemons	16	yes		high	Official form.	auto		research:a7567ca358ae4c8a892f5db723573be4
+Early Bird	Жаворонок	РанняяПташка @ pojirianets-bw | РанняяПташка @ pojirianets-hg | Ранняя пташка @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:8256dcba6ac442b3a1fc571197bd12c9
+Flame Body	Огненное тело	Тело Пламени @ pojirianets-bw | Тело Пламени @ pojirianets-hg	bulbapedia, pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:f9e93532c26e465695ea5b182384fe99
+Run Away	Бегство	Избегание @ pojirianets-bw | Избегание @ pojirianets-hg	bulbapedia, pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:8d54cefcac424d7d893d96483f8191f2
+Keen Eye	Острое зрение	Глаз-алмаз @ pokerogue-ru | Острый глаз @ pojirianets-bw | Острый глаз @ pojirianets-hg | Острый глаз @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:0968b312f3ad4c67914fb339c27c1d71
+Hyper Cutter	Гиперрезак	Гипер Резак @ pojirianets-bw | Гипер Резак @ pojirianets-hg | Гипер-резак @ mapemons	sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:ad1d9cfe75db40659f396ad234afe7ef
+Pickup	Пополнение	Поборка @ pokerogue-ru | Подбор @ pojirianets-bw | Подбор @ pojirianets-hg | Сбор @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:5575ebda58ee4e9c8b8441807f5dad53
+Truant	Лентяй	Ленность @ pojirianets-bw | Ленность @ pojirianets-hg	pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:0b8d2d058db14b1c9fd80138eab0752a
+Hustle	Кутерьма	Пробивной @ pokerogue-ru | Спешка @ pojirianets-bw | Спешка @ pojirianets-hg | Суета @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:2ed3ebb4e8034e8d97546b2791faecbd
+Cute Charm	Очаровашка	Очарование @ pojirianets-bw | Очарование @ pojirianets-hg | Милое обаяние @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:b27a77c9dd914f668684a98163d46d38
+Plus	Плюс		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:f19ddffc3f534b718067c83462ccb622
+Minus	Минус		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:568c265fe5fa4ad4a6b0392d4370a989
+Forecast	Прогноз		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:ead355ed34c74ee48dcd70023f59c90a
+Sticky Hold	Цепкий хват	ЛипкаяХватка @ pojirianets-bw | ЛипкаяХватка @ pojirianets-hg | Липкая хватка @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:c0dbedb2b0894c8d87d69cab98682a96
+Shed Skin	Сбрасываемая кожа	Сброс Кожи @ pokerogue-ru | Линька @ pojirianets-bw | Линька @ pojirianets-hg | Сброс кожи @ mapemons	swsh-site-ru	16	no	Сбрасыв. кожа	high	Official form. Fitting minor alternative «Линька».	auto		research:9dbe3861ff0b4303ba8a9b1e1ae37c60
+Guts	Смелость	Сила Воли @ pokerogue-ru | Сила Воли @ pojirianets-bw | Сила Воли @ pojirianets-hg | Мужество @ mapemons	tcg-ru, bulbapedia	16	yes		high	Official form.	auto		research:5c9ccd67da154602ac7521baabde0a8f
+Marvel Scale	Дивная чешуя	Чудо-Чешуйки @ pojirianets-bw | Чудо-Чешуйка @ pojirianets-hg | Чудесная чешуя @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:767fbce49e224dfe89ee9eeb67c6211c
+Liquid Ooze	Жидкая тина	Жидкая Слизь @ pojirianets-bw | Жидкая Слизь @ pojirianets-hg | Жидкая слизь @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:ce7473fdd43b4adeb9ee6f70a1ca3963
+Overgrow	Зарастание	Бурный Рост @ pojirianets-bw | Бурный Рост @ pojirianets-hg	bdsp-site-ru, swsh-site-ru, sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high	Official form.	auto		research:59fbe77bde234a11af6b2a8381671303
+Blaze	Яркий огонь	Яростное Пламя @ bulbapedia | Полыхание @ pokerogue-ru | Зажигание @ pojirianets-bw | Зажигание @ pojirianets-hg | Пламя @ mapemons | Яростное Пламя @ swsh-site-ru | Яростное Пламя @ sm-site-ru	bdsp-site-ru, sm-site-ru, bulbapedia	16	yes		high	Official sources disagree: «Яростное Пламя» on the SM site (Litten page) and the SwSh site; «Яркий Огонь» on the SM site (Torracat, Incineroar) and the BDSP site (2021, latest). The latest official form is used.	auto		research:99d998ea90b34fea90629312719f5b71
+Torrent	Стремительный поток	Поток @ pokerogue-ru | Поток @ pojirianets-bw | Поток @ pojirianets-hg | Поток @ mapemons	bdsp-site-ru, swsh-site-ru, sm-site-ru, bulbapedia	16	no	Стремит. поток	high	Official form. The fitting community form is «Поток».	auto		research:22a147da4d594c5d82dfe038e30b9109
+Swarm	Рой		sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:2aa770ff21db4d1d92a283d416bb9ed0
+Rock Head	Твердолобый	Голова Камня @ pojirianets-bw | Голова Камня @ pojirianets-hg | Каменная голова @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:b2552434c318489788a4432eedfda933
+Drought	Засуха		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:a052063e074b4fb89c557e7ae7e36c0f
+Arena Trap	Западня	ЛовушкаАрены @ pojirianets-bw | ЛовушкаАрены @ pojirianets-hg | Ловушка арены @ mapemons	pokerogue-ru	16	yes		medium		auto	note:64d04a62-2972-5fda-b4f2-f4ba2c2f11c2	research:6b36e8a1c9a14ff49c60d843b8c465d5
+Transistor	Транзистор		bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:14651a8f79944ccd8e18f44440a5e507
+Dragon’s Maw	Драконья челюсть	Пасть Дракона @ pokerogue-ru | Драконья пасть @ mapemons	bulbapedia	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit. Bulbapedia only; PokéRogue «Пасть Дракона».	auto		research:0632958385c94f149fee16ea8f380a4c
+Neutralize Gas	Нейтрализующий газ		bulbapedia, pokerogue-ru, mapemons	16	no	Нейтрализ. газ	high	Unbound shortens the English Neutralizing Gas.	auto		research:b8616f044a0d4c39a070ecdede1367a9
+Shell Armor	Панцирь	Панцирь-Щит @ pokerogue-ru | Бронепанцирь @ pojirianets-bw | Бронепанцирь @ pojirianets-hg	tcg-ru, sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form.	auto		research:65b18374a974415a8da0abae05bbc194
+Hunger Switch	Есть охота	Голодное Переключение @ bulbapedia | Переключатель голода @ mapemons	pokerogue-ru	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit. PokéRogue pun «Есть охота»; Bulbapedia «Голодное переключение» does not fit.	auto		research:22cbd1275c76418e87d76444df331e4c
+Unused	Не используется		own	16	yes		low	Dummy slot 77 (Cacophony in Gen III); normally not player-visible.	auto		research:84f94277bcc34342ae341d9a4a23e6aa
+Sweet Veil	Сладкая вуаль	Сладкая завеса @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:33f574dd62e241708a83b0e1f8cae3ef
+Skill Link	Навык связки	Мастер Комбо @ pokerogue-ru | Связь-Навык @ pojirianets-bw | Связь-Навык @ pojirianets-hg | Мастерская связь @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:f43769b3513740cbb38dda12be44619f
+Motor Drive	Электропривод	Мотор-Привод @ pojirianets-bw | Мотор-Привод @ pojirianets-hg | Электродвигатель @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:99e381dce04d470c9199a3003c328995
+Multiscale	Мультичешуя	Многочешуйчатость @ mapemons	pokerogue-ru, pojirianets-bw	16	yes		high	Major community form.	auto		research:2003acb0b0b240f285be2a39614f5196
+Technician	Техничность	Техник @ pojirianets-bw | Техник @ pojirianets-hg | Техник @ mapemons	sm-site-ru, bulbapedia, pokerogue-ru	16	yes		high	Official form.	auto		research:7f8a9f079b074367b193e2a343a19629
+Scrappy	Драчун	Дерзость @ pokerogue-ru | Обрывочность @ pojirianets-bw | Обрывочность @ pojirianets-hg	mapemons	16	yes		medium	PokéRogue uses «Дерзость» for both Scrappy and Moxie; «Дерзость» is kept for Moxie (two sources) and the next attested form is used here to keep names unique. Meaning: a scrapper, a person eager to fight.	auto		research:07ee2f3af837433f81bafea32324d506
+Super Luck	Суперудача	Супер Удача @ pojirianets-bw | Супер Удача @ pojirianets-hg | Супер-удача @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:a1291896f21e46e591e1513397b4d29c
+Sniper	Снайпер		swsh-site-ru, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:a8dc5dda030149e89d89b82c4a010610
+Regenerator	Регенерация	Регенератор @ pojirianets-bw | Регенератор @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Same word as the PokéRogue name of the move Recover; check against the moves glossary.	auto		research:1be75748a21e4ef397934123d135693f
+Prankster	Шутник	Проказник @ pojirianets-bw | Проказник @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:e324bb6e15e34602a8fdad00528b82a9
+Adaptability	Приспособляемость	Адаптивность @ pojirianets-bw | Адаптивность @ pojirianets-hg | Адаптация @ mapemons	pokerogue-ru	16	no	Приспособл.	medium	Major community form. Fitting alternative «Адаптивность» @ pojirianets.	auto		research:54aed2c86eac4b01b159d62a18c7c05d
+Big Pecks	Большой клюв	Птичий Дух @ pojirianets-bw | Большой клюв @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:ddc2bc472d1c44d9a8ae30521374de02
+Magic Bounce	Волшебный рикошет	Чудо-Зеркало @ pojirianets-bw | Магическое отражение @ mapemons	pokerogue-ru	16	no	Волшебн. рикошет	medium	Major community form.	auto		research:acb6322300e3464daeaa6f4fce2b9014
+Reckless	Безрассудство	Безрассудный @ pokerogue-ru | Отчаянность @ pojirianets-bw | Отчаянность @ pojirianets-hg	bulbapedia, mapemons	16	yes		high	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:c71f52582aa2414ebadeb17b9f898da0
+Sheer Force	Грубая сила		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:aa357bc8834f41ac9eac153ea1dfeb03
+Iron Fist	Кулачище	Кулачище @ pokerogue-ru | Кулак-Железо @ pojirianets-bw | Кулак-Железо @ pojirianets-hg	swsh-site-ru, sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:455b1e19f1414a9785b8b92f8f0073fe
+Rivalry	Конкуренция	Соперничество @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Major community form.	auto		research:acaaa407589647e8bfe91236d48b9f6e
+Sand Force	Сила песка	Песчаная сила @ mapemons	pokerogue-ru, pojirianets-bw	16	yes		high	Major community form.	auto		research:21db54591a374c5f915762f5ad82eacc
+Solar Power	Сила солнца	Мощь Солнца @ pojirianets-bw | Мощь Солнца @ pojirianets-hg | Солнечная энергия @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:2d71f403c15b4b6693f9fedd50b54bce
+Heatproof	Огнеупорный	Огнезащита @ pojirianets-bw | Огнезащита @ pojirianets-hg | Жароустойчивость @ mapemons	tcg-ru, pokerogue-ru	16	yes		high	Official form.	auto		research:c30cc6d1f6044bc385677dea15e80195
+Dry Skin	Сухая кожа		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:89e8abc37e65417f84d9f536e51b4333
+Tinted Lens	Светофильтр	Тёмные Линзы @ pojirianets-bw | Тёмные Линзы @ pojirianets-hg | Тонированные линзы @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:229d32e79f2247e3a4f245ce668572ce
+Unseen Fist	Невиданный кулак	Удар Исподтишка @ pokerogue-ru | Невидимый кулак @ mapemons	swsh-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:f9303f074fff453cae0435bc0e69cb43
+Filter	Фильтр		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:3f2a9b88c92048b396e9ac73a87a8cb0
+Infiltrator	Внедренец	Пробитие @ pojirianets-bw | Проникновение @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:64a0ebfdb462441c841fae821a86f172
+Download	Загрузка	Закачка @ pojirianets-bw | Закачка @ pojirianets-hg	pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:cfb33e72a17e4995bb3209ed05468c6a
+Poison Heal	Лечащий яд	Противоядие @ pojirianets-bw | Противоядие @ pojirianets-hg | Ядовитое исцеление @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:d67601e3d2f14998b4ebb08ace57fb3d
+Ice Body	Ледяное тело		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:1a9654d5625546dda9e3d948d5975856
+Moody	Капризный	Холерик @ pojirianets-bw | Каприз @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:2999bfc8ddb343188756121ca6a9694b
+Hydration	Гидрация	Водный баланс @ pokerogue-ru | Увлажнение @ pojirianets-bw | Увлажнение @ pojirianets-hg | Гидратация @ mapemons	tcg-ru	16	yes		high	Official form.	auto		research:2745036eaf0b492bb1b6f0e79a5261cb
+Healer	Целитель		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:d103dfe65fdd41c5a9350a8f89d5e774
+Snow Cloak	Снежный плащ	Покров Снега @ pojirianets-bw | Покров Снега @ pojirianets-hg	sm-site-ru, pokerogue-ru, mapemons	16	yes		high	Official form.	auto		research:2f46629a7f97448c888578fedbaaa492
+Tangled Feet	Косолапость	Шаткость @ pojirianets-bw | Путаные Ноги @ pojirianets-hg | Запутанные ноги @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:79c77bd1c4fd4cb39b2b11e8e9883c1c
+Snow Warning	Снежная буря	Снегопад @ pojirianets-bw | Снегопад @ pojirianets-hg | Снежное предупреждение @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:907e03eb84bc4581beeb8ba9af22e8cc
+Quick Feet	Быстрый шаг	Быстрые ноги @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Major community form.	auto		research:e4a6eeb79e444beda2fd05793e82d915
+Sap Sipper	Вегетарианец	Травоядный @ pokerogue-ru | Травоядный @ pojirianets-bw | Соковыжималка @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:117b616d876a435fac7384d70c0b458c
+Overcoat	Покров	Дождевик @ pojirianets-bw | Плащ @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:9cd5961b0c2141a692e4981908cafd76
+Magic Guard	Магическая стража	Магзащита @ pojirianets-bw | Магзащита @ pojirianets-hg | Магический страж @ mapemons	pokerogue-ru	16	no	Магич. стража	medium	Major community form.	auto		research:5b024ebab32742328fb5612216a32637
+Bulletproof	Бронежилет	Пуленепробиваемость @ mapemons	tcg-ru, sm-site-ru, bulbapedia, pokerogue-ru	16	yes		high	Official form.	auto		research:84958256ea1545148c1164cbc14a24cb
+Gale Wings	Буревестник	Штормовые крылья @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:128316010fef4fe59d9df120424f2abc
+Moxie	Дерзость	Нахальство @ pojirianets-bw	pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:3acdba60957a41bb9d5c2e0f2bc6c672
+Aftermath	Резонанс	Последствия @ pojirianets-bw | Последствия @ pojirianets-hg | Последствия @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:44fd3c8331494a7ab2d9631756415288
+Cursed Body	Проклятое тело	ПорочноеТело @ pojirianets-bw	sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high	Official form.	auto		research:e4bf2092cad7456db6b6b61bcb05a29d
+Gooey	Мускус	Липкость @ mapemons	pokerogue-ru	16	yes		medium	"Major community form. PokéRogue «Мускус» (musk) is loose for ""gooey"" (slimy); «Липкость» @ mapemons is closer in meaning."	auto		research:d7ee61bc67bd42c5ac2065eb83087236
+Mummy	Мумия		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:73eb7d21e54a4e18afd022a52a4fb497
+Grim Neigh	Грозное ржание	Мрачное ржание @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:af51a23b4dc041fd9f030e6951b18185
+Sand Rush	Песчаная гонка	Песчаная Прыть @ pokerogue-ru | Песчаный Жар @ pojirianets-bw | Песчаный рывок @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:ea6af0cb11664d7e95a6b2e309d04790
+Analytic	Аналитик	Анализ @ pojirianets-bw | Аналитика @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:b65cc00cc886483c99f32dbcd4db57c9
+No Guard	Неизбежность	Без Защиты @ pojirianets-bw | Без Защиты @ pojirianets-hg | Без защиты @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:6982d0612d974557aa42e0bba0442285
+Mega Launcher	Мега-пушка	Мега-загрузка @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:b53a7c321ead4a11b48db0f3010d2089
+Tough Claws	Крепкие когти	Жёсткий Коготь @ pokerogue-ru	sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form.	auto		research:15f79f4598264d85a587b51380e62e66
+Strong Jaw	Крепкий укус	Мощная челюсть @ pokerogue-ru	sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:d745849cf34d4131914e9583abb33f18
+Victory Star	Звезда победы	Победная Звезда @ pokerogue-ru | ЗвездаПобеды @ pojirianets-bw	tcg-ru, pojirianets-bw, mapemons	16	yes		high	Official form.	auto		research:deb55e974d524526aae5e691db97d1ce
+Storm Drain	Водоотвод	Воронка @ pojirianets-bw | Воронка @ pojirianets-hg | Водосток @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:41c6a84d32b0408bb68b9e2fc57d6c59
+Dark Aura	Аура тьмы	Тёмная аура @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:17898024261041d9a809948c1d749fb9
+Fairy Aura	Волшебная аура	Феерическая аура @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:e5f83aab766b49619693d914bb3e9e8e
+Aura Break	Инверсия ауры	Слом Ауры @ pokerogue-ru | Разрушение ауры @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:8b6b1677cfb94f2db38f3fd2c8db4d30
+Refrigerate	Ледирование	Охлаждение @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:c1a9272b0d694fca9b50c1a50a2b241d
+Pixilate	Пиксилизация	Фееризация @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:7f1d164fb645445cbc3fb1221583741f
+Aerilate	Воздуханство	Аэризация @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:35f7c75e66cb47409d70e187582cdfb5
+Normalize	Нормализация		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:904980ac4a7940d091d97362ac6e42b6
+Unburden	Освобождение	СбросБремени @ pojirianets-bw | СбросБремени @ pojirianets-hg | Облегчение @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:844621a7fee94ce98989ac4a6ceebd7d
+Simple	Простак	Простота @ pojirianets-bw | Простота @ pojirianets-hg | Простота @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:1705a499ff2749ae92f98ae60c51e599
+Unaware	Безразличие	Не в курсе @ pokerogue-ru | Незнание @ pojirianets-bw | Незнание @ pojirianets-hg | Неведение @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:8e0834f512b743a19bdfe9005d30142a
+Defiant	Непокорность	Непокорность @ pokerogue-ru | Непокорность @ pojirianets-bw | Вызов @ mapemons	swsh-site-ru	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:8a32a7079548437da5290da1b1430bf0
+Competitive	Состязание	Соревновательность @ mapemons	swsh-site-ru, pokerogue-ru	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:0fcb55c391a643239434f6a969fdd43d
+Defeatist	Капитулянт	Пораженец @ pojirianets-bw | Пораженец @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:6f405617a4564001a7cd55e218286ed3
+Slow Start	Долгий разгон	Низкий Старт @ pojirianets-bw | Низкий Старт @ pojirianets-hg | Медленный старт @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:e043874018b84683a275c2011518ffaa
+Toxic Boost	Ярость яда	Ядовитый импульс @ mapemons	pokerogue-ru, pojirianets-bw	16	yes		high	Major community form.	auto		research:8758d0a31215435ba51b877c36c173fd
+Flare Boost	Ярость огня	Огненный импульс @ mapemons	pokerogue-ru, pojirianets-bw	16	yes		high	Major community form.	auto		research:2a5e6149b8614f61a5d10a61d2ae9df5
+Fur Coat	Меховое пальто	Густой Мех @ pokerogue-ru | Меховой покров @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:69fdbe318ea841e5b9926396d2bd57a6
+Wonder Skin	Чудо-кожа	Чудесная кожа @ mapemons	pokerogue-ru, pojirianets-bw	16	yes		high	Major community form.	auto		research:736ffca34df748508e9c750e3998372b
+Protean	Разносторонний	Протей @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:81fb9044dac348498c4b80ea4f50ee83
+Parental Bond	Семейные узы	Родительская связь @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:1e62b09d560b48648823c9473edccc07
+Mold Breaker	Бунтарь	Слом Шаблона @ pojirianets-bw | Слом Шаблона @ pojirianets-hg | Разрыв шаблонов @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:1df6771b2e32443ea6aa502b4e7231a5
+As One	Как один	Единство (Мрачное ржание) @ mapemons	pokerogue-ru	16	yes		medium	Major community form. The game has two As One abilities (Glastrier and Spectrier versions); the input lists one name.	auto		research:6de33d4ffbd441cea0285e6aadd2c920
+Zen Mode	Режим дзена	Режим Дарума @ pojirianets-bw | Дзен-режим @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:efbd192be63240d6a0628ce82dd06858
+Battle Bond	Узы сражения	Боевые Узы @ pokerogue-ru | Боевая связь @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:dc078fda255e482993bfb5f101531a03
+Beast Boost	Ультраимпульс	Озверение @ pokerogue-ru | Звериный импульс @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:5f2bd77bb9a443a9aac23079dbc10d8b
+Corrosion	Коррозия		sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:aaa4836605794d27a11c9247169d6f6f
+Disguise	Маскировка	Прикрытие @ pokerogue-ru	sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form.	auto		research:d3bdcdcf231045c1b93b964b2bde8ee8
+Emergency Exit	Запасный путь	Аварийный Выход @ pokerogue-ru | Аварийный выход @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:73723704201641dea2ac5cf00b1d7b9f
+Fluffy	Пушок	Пушистый @ pokerogue-ru | Пушистость @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:d8d4b4694d1640ab82e511788d9d1951
+Steely Spirit	Стальной дух		pokerogue-ru, mapemons	16	yes		high		auto		research:36b01c7d2b364202818fdad515e0a079
+Perish Body	Тело погибели	Гибельное тело @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:6e5448fc9d234042bff088fdb47d4663
+Wandering Soul	Блуждающий дух		pokerogue-ru, mapemons	16	yes		high	The official English name is Wandering Spirit.	auto		research:cad552766f17431aad8b2374050b5c4e
+Power Construct	Концепт силы	Сбор Силы @ pokerogue-ru | Сила конструкции @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:0b97a19f68bb4e56a86be0b0d7eccb54
+Prism Armor	Призматическая броня	Броня-призма @ pokerogue-ru	sm-site-ru, bulbapedia, mapemons	16	no	Призмат. броня	high	Official form.	auto		research:669e1f31152b430c8fc31f0d1da4036b
+RKS System	Система RKS	Система АРКС @ pokerogue-ru	bulbapedia, mapemons	16	yes		high	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:2efee297a12940bf96ada4ddfa3881de
+Schooling	Косяк	Стая @ mapemons	tcg-ru, sm-site-ru, bulbapedia, pokerogue-ru	16	yes		high	Official form.	auto		research:8e3472d0ede24b9eb225ec23f851a257
+Shadow Shield	Теневой щит		tcg-ru, sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:c782e4acec06451292acf6cd353410a2
+Shields Down	Снятие щита	Снять Щиты @ pokerogue-ru | Убрать щит @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:6d8ae94de30e43b8b8363ce010871b71
+Slush Rush	Спешка в слякоти	Снежная Прыть @ pokerogue-ru | Снежный рывок @ mapemons	tcg-ru	16	yes		high	Official form.	auto		research:67399422c9c744cf9dd61939f6b5353e
+Soul-Heart	Душевное сердце	Сердце и Душа @ pokerogue-ru | Сердце души @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:72adfeb45bec41ed973a8601ed0c0fdc
+Stamina	Выдержка	Стамина @ pokerogue-ru | Выносливость @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form. Same word as the PokéRogue name of the move Endure; check against the moves glossary.	auto		research:34ec057526744ec09933b971fa9c6393
+Steelworker	Сталевар		tcg-ru, sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:5e27d9216ed7459baa381debefa65224
+Full Metal Body	Металлическое тело	Цельнометаллическое Тело @ pokerogue-ru | Полностью металлическое тело @ mapemons	tcg-ru, bulbapedia	16	no	Металлич. тело	high	Official form.	auto		research:89e82783d0d048e48885273849731e77
+Triage	Триаж		sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:db0ff3dcb43647bbb828be8f33bf15c8
+Water Bubble	Пузырь воды	Пузырь @ pokerogue-ru | Водный пузырь @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:0ee22b753a0b49b2af924dd69b3ab6a1
+Water Compact	Сжимание воды	Гидроуплотнение @ pokerogue-ru | Водное уплотнение @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form. Unbound shortens the English Water Compaction.	auto		research:cf9d81dd5f304576b494a7add12d4b88
+Stall	Волокита	Неспешность @ pojirianets-bw | Неспешность @ pojirianets-hg | Задержка @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:ee4d195f28c940aa8993106498dc4052
+Multitype	Мультитип		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:406a1bc6a9834171bf4d6239fac5807e
+Electric Surge	Электровсплеск	Электроимпульс @ pokerogue-ru | Электрический всплеск @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:a6a0b5690ac744d5b752b251b4c62073
+Grassy Surge	Травяная волна	Травяной всплеск @ pokerogue-ru | Травяной всплеск @ mapemons	swsh-site-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:71a699fcc55640809fd6f9e214a27a78
+Misty Surge	Волна тумана	Туманный всплеск @ pokerogue-ru | Туманный всплеск @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:7d362918de7141f2a39b378d8c0aaef3
+Psychic Surge	Психоволна	Психоактивность @ pokerogue-ru | Психический всплеск @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:b12a2a45b2ce43a3865b5f27b3316682
+Surge Surfer	Выброс тока	Замыкание @ pokerogue-ru | Волновой сёрфер @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:2891fcda85ab4cb6960fad2e7b9cd1f6
+Grass Pelt	Травяная кожа	Травяной покров @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:7f6b096c30da43cc8d3893dc3690de72
+Anger Point	Точка кипения	ТочкаКипения @ pojirianets-bw | ТочкаКипения @ pojirianets-hg | Точка гнева @ mapemons	pokerogue-ru, pojirianets-bw, pojirianets-hg	16	yes		high	Major community form.	auto		research:a1a3b0bcedcb4e17bcbce889a1cf9775
+Anticipation	Предвидение	Предвкушение @ pojirianets-bw | Предвкушение @ pojirianets-hg | Предчувствие @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Same word as the PokéRogue name of the move Foresight; check against the moves glossary.	auto		research:700b4802608146d286cf65cb1d97d737
+Forewarn	Оповещение	Угадывание @ pojirianets-bw | Угадывание @ pojirianets-hg | Предупреждение @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:49a3d14b4ab14f788f26691028d26692
+Frisk	Обыск	Досмотр @ pokerogue-ru	sm-site-ru, bulbapedia, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high	Official form.	auto		research:20d0a0d76ef440dfaef5332b8329c1a3
+Contrary	Вопреки	Перевёртыш @ pojirianets-bw | Противоречие @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:f624702d756e4b3cbcf40cab4a06a274
+Unnerve	Напряжение	Нервозность @ mapemons	tcg-ru, swsh-site-ru, pokerogue-ru, pojirianets-bw	16	yes		high	Official form.	auto		research:879aca79c1df4d4e976ad702d2a5f1ff
+Weak Armor	Слабая броня		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:e9cf0d75e64847b3a0d216d78f2e13ae
+Heavy Metal	Тяжёлый вес	Тяжёл.Металл @ pojirianets-bw	pokerogue-ru, mapemons	16	yes		high	Major community form. Shortened for the DexNav bar.	auto		research:349cb180035341079f940baf5d85aa4e
+Light Metal	Лёгкий металл	ЛёгкийМеталл @ pojirianets-bw	pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:b1e2ab44453f4fac8267ed1773a99e16
+Steadfast	Неукротимый	Стойкость @ pojirianets-bw | Стойкость @ pojirianets-hg | Стойкость @ mapemons	pokerogue-ru	16	yes		medium	Major community form. «Стойкость» (two minor sources) is avoided: PokéRogue uses it for Sturdy.	auto		research:cda465f2b719487e953f6ce17ead1673
+Imposter	Самозванец		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:ee37a268b4ef48fd97323588509e9a4f
+Justified	Праведность	Благородство @ pojirianets-bw	pokerogue-ru, mapemons	16	yes		high	Major community form. Shortened for the DexNav bar.	auto		research:ed15e04f7b2f4297aee075440802320a
+Rattled	Дрожь	Нервозность @ pojirianets-bw | Трепет @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:c2d66708224848d09fb9ae7144e9288b
+Merciless	Беспощадный	Беспощадный @ pokerogue-ru | Безжалостность @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:7f331e76b702482293b8ddbd3478b83d
+Aroma Veil	Аромавуаль	Ароматическая завеса @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:dcaa330d8ef743a48a5e3f5bc148ee8d
+Flower Veil	Вуаль цветов	Цветочная завеса @ mapemons	sm-site-ru, bulbapedia, pokerogue-ru	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:565aca029dc442b4aedc3ebc96e11c7a
+Leaf Guard	Листовой щит	Листостраж @ pokerogue-ru | Защита Листа @ pojirianets-bw | Защита Листа @ pojirianets-hg | Страж листа @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:cc23b333dc954a22ac1c173d7f1b440c
+Klutz	Неуклюжесть	Растяпа @ pokerogue-ru | Неуклюжий @ pojirianets-bw | Неуклюжий @ pojirianets-hg	sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form.	auto		research:bb8bfb0559074a4390625dd1d9d60d91
+Flower Gift	Дар цветов	ЦветочныйДар @ pojirianets-bw | ЦветочныйДар @ pojirianets-hg | Цветочный дар @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:0a5717d72f5242b3852752f17f808e28
+Bad Dreams	Плохие сны	Кошмары @ pojirianets-bw | Кошмары @ mapemons	pokerogue-ru, pojirianets-hg	16	yes		high	Major community form.	auto		research:f94049c7646c4b1f88b9416fb3b0dbd6
+Pickpocket	Карманник		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:8efef7bfcd9943a7a4b03ceee0d1ff9e
+Portal Power	Сила порталов		own	16	yes		low	Unbound-only. Hoopa-themed name; the game shows it in place of a standard ability.	auto		research:eb9d2cb572ce4f56bce23239abafb9e2
+Poison Touch	Касание яда	Ядовитое Касание @ pokerogue-ru | Ядовитое касание @ mapemons	sm-site-ru, pojirianets-bw	16	yes		high	Official form.	auto		research:b8e238fa3cd84c848eb984df04dd8982
+Magician	Фокусник		pokerogue-ru, mapemons	16	yes		high		auto		research:a6c07e6573c149e09510cbc6a5f0bd8b
+Stance Change	Смена стойки		pokerogue-ru, mapemons	16	yes		high		auto		research:639816c7b1b04978b87971fb26a635f7
+Primordial Sea	Первобытное море		pokerogue-ru, mapemons	16	yes		high		auto		research:61a7493f11614b4bbc997a197c381211
+Desolate Land	Выжженная земля	Пустынная земля @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:630fd917dccd46a7aa13079f57d42acd
+Delta Stream	Дельта-поток		pokerogue-ru, mapemons	16	yes		high		auto		research:5dc9265cfb2a435794f3b009b987aaf6
+Gorilla Tactics	Тактика гориллы		pokerogue-ru, mapemons	16	yes		high		auto		research:82229536ca2740eaa9d59bead9ba619d
+Berserk	Безумие	Берсерк @ pokerogue-ru | Берсерк @ mapemons	swsh-site-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:0643c14e99db45a7a8c5feae4afd6888
+Long Reach	Вне зоны доступа	Длинный захват @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:eb6b6cd1dc9a47bb88c84d0a3d6923a8
+Liquid Voice	Плавный голос	Жидкий голос @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:7cc70ae16238412987b1c8741d6bbd03
+Quick Draw	Быстрая реакция	Скорый Вброс @ pokerogue-ru | Быстрая рука @ mapemons	bulbapedia, swsh-site-ru	16	yes		high	Sources of the same rank disagree; chosen by number of supporting sources, then fit. The SwSh site lists «Быстрая Реакция» as the Talent of Galarian Slowbro without the English name.	auto		research:db44f1f5c1ef4029bd896125923db9cb
+Innards Out	Внутренности наружу	Наизнанку @ pokerogue-ru	tcg-ru, sm-site-ru, bulbapedia, mapemons	16	no	Внутренн. наружу	high	Official form.	auto		research:7ec31d1ed5684af2b2412e393addaf2e
+Dazzling	Ослепление	Блестящий @ pokerogue-ru	sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form.	auto		research:e8e105f0a4194d06803e8b1fc6b65d6c
+Gluttony	Обжорство		sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:8fa658312a79481b8a9ac013376c650a
+Honey Gather	Сбор мёда	Сборщик Мёда @ pojirianets-bw | Сборщик Мёда @ pojirianets-hg	tcg-ru, sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high	Official form.	auto		research:6b948f291a9a45bbba041120b010ac50
+Friend Guard	Защита друга	Дружеский щит @ mapemons	pokerogue-ru, pojirianets-bw	16	yes		high	Major community form.	auto		research:7f451340151f46de9a78e1ea8372459e
+Harvest	Урожай		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:45e1c5f14ded409aad92f5ae9ed6bad6
+Telepathy	Телепатия		sm-site-ru, bulbapedia, pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:b016a9047ede42908b0862d7a6b09a07
+Illusion	Иллюзия		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:a551e3d17a4345bfb51120ef6104aff2
+Cheek Pouch	Щёчные мешки	Щёчные мешки @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:e56aecbc7462401ba1bbda2f87471e8b
+Symbiosis	Симбиоз		pokerogue-ru, mapemons	16	yes		high		auto		research:6f282283282044b899523ff2845c6274
+Stakeout	Засада	Надзор @ sm-site-ru	sm-site-ru, pokerogue-ru, mapemons	16	yes		high	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:07964c87d9b74c478f2ce768ba47c2d5
+Comatose	Дремота	Кома @ pokerogue-ru | Кома @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:2114a0a69d704cb3825e1f4398642a3b
+Dancer	Танцор		sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:c33e89695bdd4b3db6408dba62b7ae8a
+Battery	Батарея	Батарейка @ pokerogue-ru | Батарейка @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:4f7a91c7347942709d372063d60311da
+Receiver	Приёмник	Ресивер @ pokerogue-ru	sm-site-ru, bulbapedia, mapemons	16	yes		high	Official form.	auto		research:5b9cd47d5f6c41ab928facb1196b82ca
+Odd Medicine	Любопытное зелье	Чудная Микстура @ pokerogue-ru | Любопытное лекарство @ mapemons	swsh-site-ru, bulbapedia	16	yes		high	Official form. The official English name is Curious Medicine.	auto		research:fa58a3b492ba4612911dc2b1fd709dc4
+Neuroforce	Нейросила		sm-site-ru, bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:43a6b91f63e54759807e89c1d85445d5
+Galvanize	Гальванизация		pokerogue-ru, mapemons	16	yes		high		auto		research:96c9506788484b0cba785c931b4f18c2
+Intrepid Sword	Доблестный меч	Неустрашимый меч @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:4bcb37a26c7f44008fc5537adf54ef41
+Valiant Shield	Непоколебимый щит	Неустрашимый щит @ mapemons	pokerogue-ru	16	no	Непоколеб. щит	medium	Major community form. The official English name is Dauntless Shield.	auto		research:1b14270d27f84d0993a9f46941265582
+Ball Fetch	Игра в мяч	Игра в мячик @ pokerogue-ru | Сбор мячей @ mapemons	bulbapedia	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:5af7c9451d424a1197a4e1a782378662
+Cotton Down	Комок хлопка	Пух Хлопка @ pokerogue-ru | Пуховый хлопок @ mapemons	bulbapedia	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:5a13a9a4b7f34965bcd2aca55f486ffa
+Mirror Armor	Зеркальная броня		bulbapedia, pokerogue-ru, mapemons	16	yes		high		auto		research:78d2cf95774c46e6a3a46568ef754f17
+Gulp Missile	Снаряд из глотки	Прожорливая Ракета @ bulbapedia | Проглатывающая ракета @ mapemons	pokerogue-ru	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:c443bd53f0f442c0857708d930c0327b
+Stalwart	Непреклонность	Непреклонный @ pokerogue-ru	mapemons	16	yes		medium	PokéRogue «Непреклонный» collides with the nature Adamant («Непреклонный»); the attested noun form is used instead.	auto		research:088c6707ecce464faa184ca1b66278bb
+Steam Engine	Паровая машина	Паровоз @ pokerogue-ru | Паровой двигатель @ mapemons	bulbapedia	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:e02f4637729f4dc699e1f356f28eb384
+Punk Rock	Панк-рок		pokerogue-ru, mapemons	16	yes		high		auto		research:7ae8eef604224ffd88c9c058eb561c83
+Sand Spit	Плевок песком	Выдох Песка @ pokerogue-ru | Песчаный плевок @ mapemons	swsh-site-ru	16	yes		high	Official form. Shortened for the DexNav bar.	auto		research:89ec5ec5d5314d04b28769129b72c97d
+Ice Scales	Ледяная чешуя	Ледяная чешуя @ mapemons	pokerogue-ru	16	yes		medium	Major community form. Shortened for the DexNav bar.	auto		research:ede0f3f950384056bde11ed144963736
+Ripen	Налив	Созревание @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:0b4bd77fb7534be6ac513df3cd49075f
+Ice Face	Ледлик	Ледяное лицо @ mapemons	pokerogue-ru	16	yes		medium	Major community form. PokéRogue pun «Ледлик» (лёд + лик).	auto		research:1050aeee14b749bf813e8610f19ef009
+Power Spot	Место силы	Энергетическая точка @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:de3239ab180e43388be7f4970b513cf8
+Mimicry	Мимикрия		pokerogue-ru, mapemons	16	yes		high	Same word as the PokéRogue name of the move Mimic; check against the moves glossary.	auto		research:1feb1b8e951e41a3a097f31af0cdd189
+Screen Cleaner	Без преград	Очиститель экрана @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:8510259771cf46398892dc04f71c348c
+Pastel Veil	Пастельная вуаль	Пастель-вуаль @ pokerogue-ru | Пастельная завеса @ mapemons	bulbapedia	16	yes		medium	Sources of the same rank disagree; chosen by number of supporting sources, then fit.	auto		research:0291b5d2d19049ebab125a609df9b092
+-	-		own	16	yes		low	Placeholder entry 255; not a term. Keep the dash.	fixed		research:10a1ea4154f741189fcba687ab8eae57
+Air Lock	Шлюз	КонтрольНеба @ pojirianets-bw | КонтрольНеба @ pojirianets-hg | Воздушный замок @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:c34be49e9e88401e9b1ade6b66a54ecc
+Vital Spirit	Душевный подъём	Бодрость @ pokerogue-ru | ЖизненныйДух @ pojirianets-bw | ЖизненныйДух @ pojirianets-hg | Живой дух @ mapemons	sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:921d7245ea9b4cfa898ec9ce3395d3a1
+White Smoke	Белый дым		pokerogue-ru, pojirianets-bw, pojirianets-hg, mapemons	16	yes		high		auto		research:59dfa193af9e41ea8f2c9a26ab8c881d
+Pure Power	Чистая сила	Чистая Мощь @ pojirianets-bw | Чистая Мощь @ pojirianets-hg	pokerogue-ru, mapemons	16	yes		high	Major community form.	auto		research:4fdab8b967f34b3caf2bce548e3ce388
+Iron Barbs	Железные шипы	Желзные Шипы @ bulbapedia | Стальные колючки @ pokerogue-ru | ЖелезныеШипы @ pojirianets-bw	sm-site-ru, pojirianets-bw, mapemons	16	yes		high	Official form.	auto		research:dc8ff4e5d26d4b23b05acc6529090329
+Solid Rock	Монолит	Твердокамень @ pojirianets-bw | Твердокамень @ pojirianets-hg | Твёрдый камень @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:61bada52a34e42fe94e76738e30f3828
+Turboblaze	Турбопламя		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:8e9353847ded4cadaba4351f857d17fb
+Teravolt	Теравольт		pokerogue-ru, pojirianets-bw, mapemons	16	yes		high		auto		research:c7266abaa986427cb23cb3e5001654d1
+Chilling Neigh	Ледяное ржание	Лядяное Ржание @ pokerogue-ru | Леденящее ржание @ mapemons	pokerogue-ru	16	yes		medium	PokéRogue spells «Лядяное Ржание» (typo); the chosen form keeps the standard spelling. Pattern «… ржание» shared with Grim Neigh.	auto		research:0fedf2b57b434accaf14c44492390316
+Libero	Либеро		swsh-site-ru, pokerogue-ru, mapemons	16	yes		high		auto		research:92cd180d895945789fbe82fb407d8b30
+Tangling Hair	Спутавшиеся волосы	Колтуны @ pokerogue-ru | Спутанные волосы @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	no	Спутавш. волосы	high	Official form.	auto		research:8468e8d82ee24aa1b09d447ab3d471c6
+Wimp Out	Трусишка	Трусость @ pokerogue-ru | Трусость @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:3d9037710c584cffa3ac1c687b0f0f58
+Queenly Majesty	Её величество	Её Высочество @ pokerogue-ru | Королевское величие @ mapemons	tcg-ru, sm-site-ru, bulbapedia	16	yes		high	Official form.	auto		research:8276ad08aad44c94bd955d080a422522
+Alchemic Power	Сила алхимии		tcg-ru, pokerogue-ru, mapemons	16	yes		high	The official English name is Power of Alchemy.	auto		research:995363a201d648e49b7b9576c068414b
+Propeller Tail	Хвост-пропеллер	Винтовой хвост @ mapemons	pokerogue-ru	16	yes		medium	Major community form.	auto		research:a8cc73afd2f0489eae74b753e4e21eee
+Nine Lives	Девять жизней		own	16	yes		low	"Unbound-only; idiom ""a cat has nine lives"" (у кошки девять жизней)."	auto		research:c9b6872e3a8e475eaf9ec04d2fcdef7f
+Focus Belt	Пояс концентрации		own	16	no	Пояс концентр.	low		auto	note:12ba4e57-9390-5500-a7d0-72d2cd9c52f1	research:4fae5037144049b594392dec55fa9e5b
+Evaporate	Испарение		own	16	yes		low	"Unbound-only; ROM description ""Nullifies all water to up Sp. Atk."""	auto		research:21e5fedf9d944560b26b15a990b5d941
+Fiery Neigh	Огненное ржание		own	16	yes		low	Unbound-only; pattern of Grim Neigh / Chilling Neigh («… ржание»).	auto		research:03b10b20a9944dbb91592ae86fbc98a3
+Shocking Neigh	Шоковое ржание		own	16	yes		low	Unbound-only; pattern «… ржание».	auto		research:ebfdc7af9b794838a07c85339f1267c1
+Pride	Гордость		own	16	yes		low	"Unbound-only; ""pride"" also means a lion pride (Pyroar line); the pun is lost."	auto		research:1e06298dfa1e464cb8dc6947216cf4d9
+Multieye	Многоглазие		own	16	yes		low	Unbound-only; many-eyed (compare Compound Eyes).	auto		research:d5a4df13bd024916a1a6d5a254a07579
+Subterfuge	Уловка		own	16	yes		low	Unbound-only; trickery, deception.	auto		research:ea11cb34f994403d8a840680ef96e881
+Honey Armor	Медовая броня		own	16	yes		low	Unbound-only.	auto		research:c80e51b3af5741298df0fde14486eaec
+Tangling Wool	Спутанная шерсть		own	16	yes		low	Unbound-only; counterpart of Tangling Hair («Спутавшиеся волосы», official).	auto		research:517a58f29e9341bfbdb0a5f40826d48c
+Brain Bond	Узы разума		own	16	yes		low	Unbound-only; «узы» as in Battle Bond («Узы сражения», official).	auto		research:bfc94bc7fbbd471eb3b6239d3c0ce637
+Grass Dash	Травяной рывок		own	16	yes		low	"Unbound-only; ROM description ""Grass-type moves hit first."""	auto		research:bc82931a79cc41248a6193edeb502d46
+Slippery Tail	Скользкий хвост		own	16	yes		low	"Unbound-only; ROM description ""Tail moves hit first."""	auto		research:23ef93381fab487aa0b306f74ef426f0
+Drill Beak	Клюв-бур		own	16	yes		low	"Unbound-only; ROM description ""Drill moves land critical hits."""	auto		research:9599ba6e2586483fb6c18664f6effad2
+Cotton Cloud	Хлопковое облако		own	16	yes		low	Unbound-only; compare Cotton Down («Комок хлопка»).	auto		research:950264d92a994fada2a6dd46c842af5c
+Bellow	Зычный рёв		own	16	yes		low	Unbound-only; plain «Рёв» is avoided: it is the PokéRogue name of the move Roar.	auto		research:91b3b1f49ce94f01a7efdb06e8e923da
+Sound Waves	Звуковые волны		own	16	yes		low	Unbound-only; plural.	auto		research:f94a66d89b8a450f8b27652d9ee86d25
+Icy Skin	Ледяная кожа		own	16	yes		low	Unbound-only; pattern of Dry Skin («Сухая кожа»).	auto		research:47e6dbc4ffc04481b45f294f0801911a
+Dusty Scales	Пыльная чешуя		own	16	yes		low	Unbound-only.	auto		research:41122b3da4484afbbaedb7cc749476c3
+Crabby Tactics	Тактика краба		own	16	yes		low	"Unbound-only; pattern of Gorilla Tactics («Тактика гориллы»); the pun on ""crabby"" (grumpy) is lost."	auto		research:3e362e80a859462883aad9c82b4dd55e
+Face Shield	Лицевой щит		own	16	yes		low	Unbound-only.	auto		research:e57d0e34c43a437fae9e08b007a25a7a
+Royal Roar	Королевский рёв		own	16	yes		low	Unbound-only.	auto		research:f29f2cc51d0941bcb43cbf06aa4b4f54

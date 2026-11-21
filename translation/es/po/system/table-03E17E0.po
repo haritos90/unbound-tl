@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03E17E0\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: Seagallop destinations Four to Seven Island have only pointers 0x3E17F0-0x3E17FC in table 0x3E17E0. Only DrawSeagallopDestinationMenu at 0x809D764 reads the table, through literal 0x9D824. Only its gSpecials entry 0x1603FC (special 0x1A7) reaches DrawSeagallopDestinationMenu. ScrCmd_special at 0x8069EFC and ScrCmd_specialvar at 0x8069F3C index gSpecials at 0x815FD60 directly. The only byte match of special 0x1A7 (25 A7 01 at 0x9597FC) lies in a run of 3-byte {move, level} records that no word points into. Vermilion and One to Three Island are also items of the multichoice lists and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0417e16
+msgctxt "hash:3c5041f5"
+msgid "hash:3c5041f5"
+msgstr ""
+
+#. reach: never shown (review: Seagallop destinations Four to Seven Island have only pointers 0x3E17F0-0x3E17FC in table 0x3E17E0. Only DrawSeagallopDestinationMenu at 0x809D764 reads the table, through literal 0x9D824. Only its gSpecials entry 0x1603FC (special 0x1A7) reaches DrawSeagallopDestinationMenu. ScrCmd_special at 0x8069EFC and ScrCmd_specialvar at 0x8069F3C index gSpecials at 0x815FD60 directly. The only byte match of special 0x1A7 (25 A7 01 at 0x9597FC) lies in a run of 3-byte {move, level} records that no word points into. Vermilion and One to Three Island are also items of the multichoice lists and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0417e22
+msgctxt "hash:7c5f8792"
+msgid "hash:7c5f8792"
+msgstr ""
+
+#. reach: never shown (review: Seagallop destinations Four to Seven Island have only pointers 0x3E17F0-0x3E17FC in table 0x3E17E0. Only DrawSeagallopDestinationMenu at 0x809D764 reads the table, through literal 0x9D824. Only its gSpecials entry 0x1603FC (special 0x1A7) reaches DrawSeagallopDestinationMenu. ScrCmd_special at 0x8069EFC and ScrCmd_specialvar at 0x8069F3C index gSpecials at 0x815FD60 directly. The only byte match of special 0x1A7 (25 A7 01 at 0x9597FC) lies in a run of 3-byte {move, level} records that no word points into. Vermilion and One to Three Island are also items of the multichoice lists and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0417e2e
+msgctxt "hash:a0f73d64"
+msgid "hash:a0f73d64"
+msgstr ""
+
+#. reach: never shown (review: Seagallop destinations Four to Seven Island have only pointers 0x3E17F0-0x3E17FC in table 0x3E17E0. Only DrawSeagallopDestinationMenu at 0x809D764 reads the table, through literal 0x9D824. Only its gSpecials entry 0x1603FC (special 0x1A7) reaches DrawSeagallopDestinationMenu. ScrCmd_special at 0x8069EFC and ScrCmd_specialvar at 0x8069F3C index gSpecials at 0x815FD60 directly. The only byte match of special 0x1A7 (25 A7 01 at 0x9597FC) lies in a run of 3-byte {move, level} records that no word points into. Vermilion and One to Three Island are also items of the multichoice lists and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0417e39
+msgctxt "hash:4cd2b13d"
+msgid "hash:4cd2b13d"
+msgstr ""

@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03FE394\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 133, 136, 0
+#: 0x03fd24d
+msgctxt "battle:290"
+msgid "battle:290"
+msgstr "{PLAY_SE 42 00}Диктор: Сафариболы\\nзакончились! Игра окончена!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 89
+#: 0x03fd8b9
+msgctxt "battle:291"
+msgid "battle:291"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} излечивает "
+"паралич!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 73
+#: 0x03fd8d2
+msgctxt "battle:292"
+msgid "battle:292"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} излечивает "
+"отравление!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 89
+#: 0x03fd8e8
+msgctxt "battle:293"
+msgid "battle:293"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} излечивает ожог!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 126
+#: 0x03fd917
+msgctxt "battle:295"
+msgid "battle:295"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} прогоняет сон!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 155
+#: 0x03fd937
+msgctxt "battle:296"
+msgid "battle:296"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} лечит "
+"замешательство!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 107
+#: 0x03fd95c
+msgctxt "battle:297"
+msgid "battle:297"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: {B_BUFF1}\\nизлечивается\\lблагодаря "
+"предмету {B_LAST_ITEM}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 90
+#: 0x03fd999
+msgctxt "battle:298"
+msgid "battle:298"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} восполняет ОЖ!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 82
+#: 0x03fd9b2
+msgctxt "battle:299"
+msgid "battle:299"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} восполняет\\lОС "
+"приёма {B_BUFF1}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 108
+#: 0x03fd9cc
+msgctxt "battle:300"
+msgid "battle:300"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} излечивает недуг!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 88
+#: 0x03fd9e9
+msgctxt "battle:301"
+msgid "battle:301"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} восполняет ОЖ!"
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 114, 70, 0
+#: 0x03fda0b
+msgctxt "battle:302"
+msgid "battle:302"
+msgstr ""
+"Из-за предмета {B_LAST_ITEM}\\nдоступен только приём {B_CURRENT_MOVE}!\\p"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 58
+#: 0x03fda33
+msgctxt "battle:303"
+msgid "battle:303"
+msgstr ""
+"{B_DEF_NAME_WITH_PREFIX} держится\\nс помощью предмета {B_LAST_ITEM}!"
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 108
+#: 0x0a4b2bf
+msgctxt "battle:294"
+msgid "battle:294"
+msgstr ""
+"{B_SCR_ACTIVE_NAME_WITH_PREFIX}: предмет\\n{B_LAST_ITEM} излечивает "
+"обморожение!"

@@ -1,0 +1,33 @@
+[text_controls.droppable.mining-article]
+"ids" = ["s1F8220B", "s1F8221D"]
+"tokens" = ["{B_COPY_VAR_2}"]
+
+[text_controls.addable.start-menu-centering]
+"ids" = ["s041627D", "s04162A2", "s041629D", "s0A4E4B8", "s0A4E4BF", "s0A4E4D7", "s0A4E4E4", "s0A4E4EC", "s0A4E4F6", "s0A4E4CB"]
+"tokens" = ["{CLEAR_TO}"]
+"window" = 80
+"x" = 4
+
+# Text the game never shows: hand-proven reach overrides.
+# Each rule names its entry ids and the code evidence.
+# Entries are listed only when no live table reaches them.
+
+# quest log (122)
+[text_controls.droppable.japanese-s0459434]
+ids = ["s0459434"]
+tokens = ["{39}", "{0A}"]
+
+[text_controls.droppable.japanese-s0459440]
+ids = ["s0459440"]
+tokens = ["{63}", "{71}", "{64}", "{DOWN_ARROW}", "{95}"]
+
+[text_controls.droppable.chat-keyboard-keys]
+ids = ["s047AB41", "s047AB4C", "s047AB57", "s047AB62", "s047AB6B", "s047AB76"]
+tokens = ["{F9 F5}", "{F9 F6}", "{F9 F7}", "{F9 F8}", "{F9 FE}", "{F9 F9}", "{F9 FA}", "{F9 FC}", "{F9 FB}", "{F9 FD}", "{F9 EC}", "{F9 ED}", "{F9 EE}", "{F9 EB}", "{F9 EA}", "{F9 D4}", "{F9 D5}", "{F9 D3}", "{F9 D8}", "{F9 D9}", "{F9 F2}", "{F9 F3}", "{F9 F4}", "{F9 DA}"]
+
+[text_controls.droppable.repeated-player-name]
+ids = ["s1F3A6F8", "s1F4D09B"]
+tokens = ["{PLAYER}"]
+evidence = "map:1.110/trigger:0/92 repeats the inserted player name three times; map:1.108/npc:0/35 repeats it twice. The translation names the player once and refers back without repeating the name."
+
+# kept references the game never reads

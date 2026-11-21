@@ -1,0 +1,5 @@
+[pokedex]
+schema = 1
+name_table = "species"   # [[table]] name = "species": the catalog ids of the slot names
+
+# Experience curves, breeding groups and gender thresholds.

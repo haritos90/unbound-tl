@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/valley-cave\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 158, 163
+#: 0x1f82d7b
+msgctxt "map:47.1/sign:0/1"
+msgid "map:47.1/sign:0/1"
+msgstr "Надпись на плите, похоже, стёрлась."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 170, 159, 48
+#: 0x1f82db6
+msgctxt "map:47.1/sign:3/0"
+msgid "map:47.1/sign:3/0"
+msgstr "Похоже, в скалу вделана древняя кнопка!\\pНажать?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 97
+#: 0x1f82dfc
+msgctxt "map:47.1/sign:3/1"
+msgid "map:47.1/sign:3/1"
+msgstr "Ничего не произошло…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 106
+#: 0x1f82e0e
+msgctxt "map:47.1/npc:14/0"
+msgid "map:47.1/npc:14/0"
+msgstr "Юный тренер, ты не знаешь, во что ввязываешься."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 84, 28
+#: 0x1f82e43
+msgctxt "map:47.1/npc:14/1"
+msgid "map:47.1/npc:14/1"
+msgstr "Ну что ж, эм… Ладно."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 169, 60
+#: 0x1f82e59
+msgctxt "map:47.1/npc:14/2"
+msgid "map:47.1/npc:14/2"
+msgstr "Жизнь азартного игрока - жизнь без сожалений."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f82e85
+msgctxt "map:47.1/npc:16/0"
+msgid "map:47.1/npc:16/0"
+msgstr "Хия-а!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 94
+#: 0x1f82e8e
+msgctxt "map:47.1/npc:16/1"
+msgid "map:47.1/npc:16/1"
+msgstr "Без боли нет побед!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 161
+#: 0x1f82ea0
+msgctxt "map:47.1/npc:16/2"
+msgid "map:47.1/npc:16/2"
+msgstr "Каждый день тренируюсь: бегаю босиком по этим камням."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 162, 164
+#: 0x1f82ee2
+msgctxt "map:47.1/npc:17/0"
+msgid "map:47.1/npc:17/0"
+msgstr "В этой пещере растут редкие травы. Моя работа - их охранять."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 110
+#: 0x1f82f1e
+msgctxt "map:47.1/npc:17/1"
+msgid "map:47.1/npc:17/1"
+msgstr "У меня важная работа."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 160, 167, 177
+#: 0x1f82f33
+msgctxt "map:47.1/npc:17/2"
+msgid "map:47.1/npc:17/2"
+msgstr ""
+"Если покемон съест одну из здешних редких трав, он станет меньше к тебе "
+"привязан."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 136
+#: 0x1f82f90
+msgctxt "map:47.1/npc:18/0"
+msgid "map:47.1/npc:18/0"
+msgstr "Я гуляю по этой пещере с юных лет."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 189, 90
+#: 0x1f82fca
+msgctxt "map:47.1/npc:18/1"
+msgid "map:47.1/npc:18/1"
+msgstr "Об этой пещере я знаю абсолютно всё."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 173, 174, 173, 102, 193, 186, 186, 65, 150
+#: 0x1f82ffe
+msgctxt "map:47.1/npc:18/3"
+msgid "map:47.1/npc:18/3"
+msgstr ""
+"Когда-то надпись на плите внизу ещё можно было прочесть.\\pНо, похоже, "
+"она давно стёрлась.\\pЕсли память мне не изменяет, там было написано "
+"что-то вроде:\\pНАЖАТЬ КНОПКУ НАСЕКОМЫМ -\\nВОТ КЛЮЧ.\\pЧто бы это могло "
+"значить?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 172, 189, 184, 122
+#: 0x1f830fe
+msgctxt "map:47.1/npc:18/2"
+msgid "map:47.1/npc:18/2"
+msgstr ""
+"Похоже, древняя плита всё-таки разрушена.\\pЭто из-за тебя мы лишились "
+"этой частички истории?"

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "profile": "unbound-2.1.1.1",
+      "profile_name": "Pokemon Unbound 2.1.1.1",
+      "language": "ru",
+      "version": "1.0.7",
+      "source_sha1": "b4776b82a4c7915d0fadeaa27e013523f99dfd94",
+      "source_size": 33554432,
+      "result_sha1": "ae349d7dfad2f83747fa3cad204b1740d0f0f946",
+      "result_size": 33554432,
+      "patch": "unbound-2.1.1.1/ru/1.0.7.ups",
+      "patch_sha256": "fbef7eab5757214714b9653f1633ad06ef8ffe9c333b53e213eb14aa8e311863",
+      "patch_size": 1346986,
+      "output": "Pokemon Unbound 2.1.1.1 [RU by gen3tl].gba",
+      "release_tag": "ru-v1.0.7",
+      "release_asset": "unbound-2.1.1.1-ru-1.0.7.ups",
+      "names": "unbound-2.1.1.1/ru/1.0.7.names.json",
+      "names_sha256": "710a101cbe265d53d1cafa44d18782a974ca37db4de9aabedc31cc76a572d410",
+      "notes": "unbound-2.1.1.1/ru/1.0.7.notes.json",
+      "notes_sha256": "8d850a01dc918ba1c00484303b7e333b0b33de9f8e7833da13ae753ce0669222"
+    }
+  ]
+}

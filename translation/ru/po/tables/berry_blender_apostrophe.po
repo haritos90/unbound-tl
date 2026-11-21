@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/berry_blender_apostrophe\n"
+"X-Source: key-only\n"
+
+# after a Latin name ending in s
+# only ’ or empty: the code adds 0x4B
+# empty would join name and stat
+#. category: table:berry_blender_apostrophe; mode: field
+#. fixed field: 1 characters max (table berry_blender_apostrophe, index 0)
+#. original lines: 1, widths px: 3
+#: 0x1ebb938
+msgctxt "table:berry_blender_apostrophe/0"
+msgid "table:berry_blender_apostrophe/0"
+msgstr "’"

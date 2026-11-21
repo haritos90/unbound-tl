@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-04560F0\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x0454f86
+msgctxt "hash:ce7a12fe"
+msgid "hash:ce7a12fe"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 99, 96, 56
+#: 0x0454fb2
+msgctxt "hash:cc668f65"
+msgid "hash:cc668f65"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 99, 96, 56
+#: 0x0454fe1
+msgctxt "hash:4af7744e"
+msgid "hash:4af7744e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 93, 96, 56
+#: 0x0455010
+msgctxt "hash:70079716"
+msgid "hash:70079716"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 105, 96, 56
+#: 0x045503e
+msgctxt "hash:ce6c028e"
+msgid "hash:ce6c028e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x045506e
+msgctxt "hash:17d13fa0"
+msgid "hash:17d13fa0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 93, 96, 56
+#: 0x045509a
+msgctxt "hash:f89a699f"
+msgid "hash:f89a699f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 71, 96, 56
+#: 0x04550c8
+msgctxt "hash:86d9ba7a"
+msgid "hash:86d9ba7a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 93, 96, 56
+#: 0x04550f3
+msgctxt "hash:bfd0db4e"
+msgid "hash:bfd0db4e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 87, 96, 56
+#: 0x0455121
+msgctxt "hash:41dad6ab"
+msgid "hash:41dad6ab"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 87, 96, 56
+#: 0x045514e
+msgctxt "hash:e2d1ce46"
+msgid "hash:e2d1ce46"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x045517b
+msgctxt "hash:2d5cb961"
+msgid "hash:2d5cb961"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 87, 96, 56
+#: 0x04551a7
+msgctxt "hash:a09f90e0"
+msgid "hash:a09f90e0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x04551d4
+msgctxt "hash:56820d4e"
+msgid "hash:56820d4e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x0455200
+msgctxt "hash:3bd13298"
+msgid "hash:3bd13298"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 87, 96, 56
+#: 0x045522c
+msgctxt "hash:92a1831c"
+msgid "hash:92a1831c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 92, 96, 56
+#: 0x0455259
+msgctxt "hash:79591124"
+msgid "hash:79591124"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x0455287
+msgctxt "hash:97fc2253"
+msgid "hash:97fc2253"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x04552b3
+msgctxt "hash:add36394"
+msgid "hash:add36394"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x04552df
+msgctxt "hash:33959e9a"
+msgid "hash:33959e9a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 75, 96, 56
+#: 0x045530b
+msgctxt "hash:422fba82"
+msgid "hash:422fba82"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 81, 96, 56
+#: 0x0455336
+msgctxt "hash:aa10da3e"
+msgid "hash:aa10da3e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 103, 96, 56
+#: 0x0455362
+msgctxt "hash:d8e62a97"
+msgid "hash:d8e62a97"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 97, 96, 56
+#: 0x0455392
+msgctxt "hash:e22a5a4f"
+msgid "hash:e22a5a4f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 60, 110, 91
+#: 0x04553c1
+msgctxt "hash:31ea8d61"
+msgid "hash:31ea8d61"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 66, 110, 91
+#: 0x04553f2
+msgctxt "hash:91aba554"
+msgid "hash:91aba554"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 97, 96, 56
+#: 0x0455424
+msgctxt "hash:d6ef842a"
+msgid "hash:d6ef842a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 103, 96, 56
+#: 0x0455453
+msgctxt "hash:8cc39874"
+msgid "hash:8cc39874"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 83, 96, 56
+#: 0x0455483
+msgctxt "hash:d92f157f"
+msgid "hash:d92f157f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 67, 110, 91
+#: 0x04554b0
+msgctxt "hash:9cff681f"
+msgid "hash:9cff681f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 60, 110, 91
+#: 0x04554e3
+msgctxt "hash:2d490b07"
+msgid "hash:2d490b07"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 68, 110, 91
+#: 0x0455515
+msgctxt "hash:6ffb5596"
+msgid "hash:6ffb5596"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x0455548
+msgctxt "hash:f3f33949"
+msgid "hash:f3f33949"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x0455573
+msgctxt "hash:ebdf7054"
+msgid "hash:ebdf7054"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x045559e
+msgctxt "hash:18cce27f"
+msgid "hash:18cce27f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x04555c9
+msgctxt "hash:dfb0f11f"
+msgid "hash:dfb0f11f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x04555f4
+msgctxt "hash:1242e95e"
+msgid "hash:1242e95e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x045561f
+msgctxt "hash:15415bd1"
+msgid "hash:15415bd1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x045564a
+msgctxt "hash:d64bedaf"
+msgid "hash:d64bedaf"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x0455675
+msgctxt "hash:0f1017ec"
+msgid "hash:0f1017ec"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x04556a0
+msgctxt "hash:a815733d"
+msgid "hash:a815733d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 73, 96, 56
+#: 0x04556cb
+msgctxt "hash:1fa0e066"
+msgid "hash:1fa0e066"
+msgstr ""

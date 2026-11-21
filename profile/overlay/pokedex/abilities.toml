@@ -1,0 +1,272 @@
+[pokedex.abilities]
+base = 0xA36398
+stride = 17
+count = 293
+name_table = "abilities"
+evidence = "Stench/Drizzle/Speed Boost at stride 17; 6 references to the name-table base; entry 292 is Royal Roar"
+
+[pokedex.abilities.descriptions]
+base = 0x96DE04
+stride = 4
+count = 255
+evidence = "pointer table indexed by ability id (literal pools 0x1367A8 and 0x9A945C); entries 0-254 point at ability descriptions, while entries 255 on lead to binary data rather than catalog strings"
+
+[pokedex.abilities.presentation]
+inherit_forms = { method = 253, parameter_min = 1 }
+rom = [
+  { offset = 0x9D9BE4, size = 44, sha256 = "b9e3d6b31f962f6583ef48f53ba6d71fd412f5669a5ee5d11ca9143377b54514" },
+  { offset = 0x9A93FC, size = 128, sha256 = "3049c3dd5ed76ffe40e63872ef9009f76839fc6a65af3c20f25198a5e0ca9ff5" },
+  { offset = 0x9A956C, size = 56, sha256 = "b07cf9f4de3e036fa3c40bf566054eef1060fb1bc25c0659ec2a38dd96d73997" },
+  { offset = 0x9A95D0, size = 16, sha256 = "31c4fd43d874f084646201c43cb9090b7850be5b385e352ca237b686e6cc3217" },
+  { offset = 0x9A9894, size = 1128, sha256 = "51f3ea9e079ac831f4492b35721c0000f54c2742c84a94dc13ce8266b33c4f47" },
+  { offset = 0x43298, size = 34, sha256 = "62ccc44588ee25d10c50b2b1358a9da6b3e163d96cd066ae75671f735b17a8e4" },
+  { offset = 0xA14086, size = 34, sha256 = "1f49432d2389c583bb013b5caeb445ea446657335e08a746d91a62ba82db8ed4" },
+]
+
+[[pokedex.abilities.presentation.names]]
+ability = 13
+value = 256
+dex = [384]
+evidence = "ROM 0x9A9A68-0x9A9A72."
+
+[[pokedex.abilities.presentation.names]]
+ability = 15
+value = 257
+dex = [56, 57, 122, 125, 126, 225, 236, 239, 240, 288, 466, 467, 506, 744, 745]
+evidence = "ROM 0x9A9A74-0x9A9A82; helper 0x9A98D4-0x9A993A."
+
+[[pokedex.abilities.presentation.names]]
+ability = 29
+value = 258
+dex = [324, 631, 850, 851]
+evidence = "ROM 0x9A9982-0x9A998C; helper 0x9A9894-0x9A98C6, ability predicate 0x9A95D0."
+
+[[pokedex.abilities.presentation.names]]
+ability = 37
+value = 259
+dex = [307, 308]
+evidence = "ROM 0x9A9A84-0x9A9A92."
+
+[[pokedex.abilities.presentation.names]]
+ability = 24
+value = 260
+types = [8]
+evidence = "ROM 0x9A9A94-0x9A9A9E; original-type helper 0xA14086-0xA140A2."
+
+[[pokedex.abilities.presentation.names]]
+ability = 101
+value = 261
+dex = [323, 464, 564, 565, 874]
+evidence = "ROM 0x9A99A0-0x9A99BE and 0x9A9AB6-0x9A9AB8."
+
+[[pokedex.abilities.presentation.names]]
+ability = 152
+value = 262
+species = [696, 753]
+evidence = "ROM 0x9A9ABA-0x9A9AC4; helper 0x9A956C-0x9A9580."
+
+[[pokedex.abilities.presentation.names]]
+ability = 152
+value = 263
+species = [697, 752]
+evidence = "ROM 0x9A9AC6-0x9A9ACE; helper 0x9A9588-0x9A959A."
+
+[[pokedex.abilities.presentation.names]]
+ability = 118
+value = 264
+dex = [896]
+evidence = "ROM 0x9A9AE0-0x9A9AE6."
+
+[[pokedex.abilities.presentation.names]]
+ability = 150
+value = 265
+dex = [813, 814, 815]
+evidence = "ROM 0x9A9B04-0x9A9B0E."
+
+[[pokedex.abilities.presentation.names]]
+ability = 121
+value = 266
+dex = [50, 51]
+evidence = "ROM 0x9A9B10-0x9A9B1A."
+
+[[pokedex.abilities.presentation.names]]
+ability = 160
+value = 267
+dex = [767]
+evidence = "ROM 0x9A9A16-0x9A9A1E."
+
+[[pokedex.abilities.presentation.names]]
+ability = 221
+value = 268
+dex = [31, 416, 763]
+evidence = "ROM 0x9A9B38-0x9A9B4E."
+
+[[pokedex.abilities.presentation.names]]
+ability = 234
+value = 269
+dex = [88, 89]
+evidence = "ROM 0x9A9B50-0x9A9B5A."
+
+[[pokedex.abilities.presentation.names]]
+ability = 244
+value = 270
+dex = [846, 847]
+evidence = "ROM 0x9A9A56-0x9A9A66."
+
+[[pokedex.abilities.presentation.names]]
+ability = 5
+value = 271
+dex = [52, 53]
+evidence = "ROM 0x9A9AA0-0x9A9AAA."
+
+[[pokedex.abilities.presentation.names]]
+ability = 5
+value = 272
+dex = [67, 68]
+evidence = "ROM 0x9A9AAC-0x9A9AB4."
+
+[[pokedex.abilities.presentation.names]]
+ability = 131
+value = 273
+species = [219]
+evidence = "ROM 0x9A9AD0-0x9A9AD6."
+
+[[pokedex.abilities.presentation.names]]
+ability = 118
+value = 274
+dex = [77, 78]
+evidence = "ROM 0x9A99E0-0x9A99E8."
+
+[[pokedex.abilities.presentation.names]]
+ability = 118
+value = 275
+dex = [522, 523]
+evidence = "ROM 0x9A9AD8-0x9A9ADE."
+
+[[pokedex.abilities.presentation.names]]
+ability = 118
+value = 276
+dex = [519, 520, 521]
+evidence = "ROM 0x9A99D0-0x9A99DE."
+
+[[pokedex.abilities.presentation.names]]
+ability = 81
+value = 277
+dex = [343, 344]
+evidence = "ROM 0x9A9AE8-0x9A9AF4."
+
+[[pokedex.abilities.presentation.names]]
+ability = 150
+value = 278
+dex = [414]
+evidence = "ROM 0x9A9AF6-0x9A9B02."
+
+[[pokedex.abilities.presentation.names]]
+ability = 239
+value = 279
+dex = [416]
+evidence = "ROM 0x9A9A44-0x9A9A48."
+
+[[pokedex.abilities.presentation.names]]
+ability = 121
+value = 280
+dex = [179, 180, 181]
+evidence = "ROM 0x9A9B1C-0x9A9B24."
+
+[[pokedex.abilities.presentation.names]]
+ability = 151
+value = 281
+dex = [203]
+evidence = "ROM 0x9A99FE-0x9A9A08."
+
+[[pokedex.abilities.presentation.names]]
+ability = 117
+value = 282
+species = [192]
+evidence = "ROM 0x9A9B26-0x9A9B2A."
+
+[[pokedex.abilities.presentation.names]]
+ability = 117
+value = 283
+species = [379]
+evidence = "ROM 0x9A9B2C-0x9A9B36."
+
+[[pokedex.abilities.presentation.names]]
+ability = 200
+value = 284
+species = [21, 22]
+evidence = "ROM 0x9A9B5C-0x9A9B66."
+
+[[pokedex.abilities.presentation.names]]
+ability = 241
+value = 285
+dex = [333, 334]
+evidence = "ROM 0x9A9B68-0x9A9B76."
+
+[[pokedex.abilities.presentation.names]]
+ability = 246
+value = 286
+dex = [293, 294, 295]
+evidence = "ROM 0x9A9B88-0x9A9B94."
+
+[[pokedex.abilities.presentation.names]]
+ability = 246
+value = 287
+dex = [329, 330, 714, 715]
+evidence = "ROM 0x9A9B78-0x9A9B86 and 0x9A9B96-0x9A9BA2."
+
+[[pokedex.abilities.presentation.names]]
+ability = 248
+value = 288
+dex = [124, 238, 471]
+evidence = "ROM 0x9A9BA4-0x9A9BB2 and 0x9A9BC0-0x9A9BCA."
+
+[[pokedex.abilities.presentation.names]]
+ability = 248
+value = 289
+dex = [269]
+evidence = "ROM 0x9A9BB4-0x9A9BBE."
+
+[[pokedex.abilities.presentation.names]]
+ability = 215
+value = 290
+dex = [740]
+evidence = "ROM 0x9A9C84-0x9A9C8A."
+
+[[pokedex.abilities.presentation.names]]
+ability = 239
+value = 291
+dex = [410, 411]
+evidence = "ROM 0x9A9A32-0x9A9A42."
+
+[[pokedex.abilities.presentation.names]]
+ability = 123
+value = 292
+dex = [667, 668]
+evidence = "ROM 0x9A9C8C-0x9A9C9A."
+
+[[pokedex.abilities.presentation.descriptions]]
+ability = 117
+value = 0xa36343
+species = [192]
+evidence = "ROM 0x9A9404-0x9A940C."
+
+[[pokedex.abilities.presentation.descriptions]]
+ability = 117
+value = 0xa3635f
+species = [379]
+evidence = "ROM 0x9A940E-0x9A941A."
+
+[[pokedex.abilities.presentation.descriptions]]
+ability = 131
+value = 0xa36320
+species = [219]
+evidence = "ROM 0x9A941C-0x9A9424."
+
+[[pokedex.abilities.presentation.descriptions]]
+ability = 200
+value = 0xa36375
+species = [21, 22]
+evidence = "ROM 0x9A9426-0x9A9430."
+
+# Numeric item fields and the expanded TM/HM move table.

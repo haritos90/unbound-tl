@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0A60000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: hash:97af5655: its only pointer, pool 0xA10238 (ldr at 0xA101D2), feeds a 4-byte copy and StringCompare 0x8008E29 against the battler's trainer name in the Dynamax trainer-slide code; never printed)
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0a6d2c4
+msgctxt "hash:feeac203"
+msgid "hash:feeac203"
+msgstr ""

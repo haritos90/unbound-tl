@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0260000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade record 0 nickname hash:42e64c42 is the base of the records at 0x26CF8C. Its only pointers are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. The pools are in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. Their entries jump to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD and read trade table 0x9FB7074 instead. No BL or branch enters the bodies. The other words into the bodies point at their literal pools or are unaligned and follow no callasm or gotoasm.)
+#. category: code; mode: field
+#. in place only: 7 bytes max
+#. original lines: 1, widths px: 38
+#: 0x026cf8c
+msgctxt "hash:42e64c42"
+msgid "hash:42e64c42"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 3 bytes max
+#. original lines: 1, widths px: 16
+#: 0x026cfb7
+msgctxt "hash:619f7810"
+msgid "hash:619f7810"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 7 bytes max
+#. original lines: 1, widths px: 40
+#: 0x026cfc8
+msgctxt "hash:2e9ef2ea"
+msgid "hash:2e9ef2ea"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 35
+#: 0x026cff3
+msgctxt "hash:c6ca3988"
+msgid "hash:c6ca3988"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 7 bytes max
+#. original lines: 1, widths px: 42
+#: 0x026d004
+msgctxt "hash:01c4c56d"
+msgid "hash:01c4c56d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 5 bytes max
+#. original lines: 1, widths px: 28
+#: 0x026d02f
+msgctxt "hash:fa21119f"
+msgid "hash:fa21119f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 9 bytes max
+#. original lines: 1, widths px: 52
+#: 0x026d040
+msgctxt "hash:6eba7e14"
+msgid "hash:6eba7e14"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 31
+#: 0x026d06b
+msgctxt "hash:a7755d26"
+msgid "hash:a7755d26"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 4 bytes max
+#. original lines: 1, widths px: 21
+#: 0x026d07c
+msgctxt "hash:081a9209"
+msgid "hash:081a9209"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 7 bytes max
+#. original lines: 1, widths px: 41
+#: 0x026d0a7
+msgctxt "hash:8222ba24"
+msgid "hash:8222ba24"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 8 bytes max
+#. original lines: 1, widths px: 46
+#: 0x026d0b8
+msgctxt "hash:d22d9cd1"
+msgid "hash:d22d9cd1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 7 bytes max
+#. original lines: 1, widths px: 41
+#: 0x026d0e3
+msgctxt "hash:c8212e06"
+msgid "hash:c8212e06"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 5 bytes max
+#. original lines: 1, widths px: 29
+#: 0x026d0f4
+msgctxt "hash:808e3594"
+msgid "hash:808e3594"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 7 bytes max
+#. original lines: 1, widths px: 40
+#: 0x026d11f
+msgctxt "hash:2561341e"
+msgid "hash:2561341e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x026d130
+msgctxt "hash:a980cf15"
+msgid "hash:a980cf15"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 5 bytes max
+#. original lines: 1, widths px: 30
+#: 0x026d15b
+msgctxt "hash:56c87c65"
+msgid "hash:56c87c65"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x026d16c
+msgctxt "hash:5d6299ab"
+msgid "hash:5d6299ab"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed in-game trade records at 0x26CF8C have stride 0x3C, nickname +0 and OT name +0x2B. The only words pointing into them are pools 0x50EFC, 0x53AD4, 0x53B30 and 0x53CA4. These pools are loaded in the bodies of BufferTradeSceneStrings at 0x8050E24, GetInGameTradeSpeciesInfo at 0x8053A9C, BufferInGameTradeMonName at 0x8053AE4 and CreateInGameTradePokemon at 0x8053B48. CreateInGameTradePokemon has mail helper 0x8053CD4, called only at 0x8053C76. Each entry jumps to Unbound with ldr / bx to 0x9ED80DD, 0x9ED81DD, 0x9ED8235 and 0x9ED82AD. Unbound's copies read trade table 0x9FB7074, with name pointers s1F81D28-s1F81E3C, s1F2AE2B and s1F2AE33, and return to the caller. No BL, branch or word enters the FireRed bodies.)
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x026d197
+msgctxt "hash:a18166b8"
+msgid "hash:a18166b8"
+msgstr ""

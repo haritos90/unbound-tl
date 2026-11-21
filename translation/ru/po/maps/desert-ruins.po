@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/desert-ruins\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 60, 65, 66, 53
+#: 0x1f5ab53
+msgctxt "map:2.51/sign:0/4"
+msgid "map:2.51/sign:0/4"
+msgstr "НАЧНИ\\nС ЦЕНТРА.\\nСОЗДАЙ\\nИСКОМОЕ."
+
+#. category: script; mode: field
+#. used in 9 places
+#. original lines: 1, widths px: 178
+#: 0x1f5ab80
+msgctxt "map:2.51/sign:0/0"
+msgid "map:2.51/sign:0/0"
+msgstr "В стене большая дыра."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 163
+#: 0x1f5aba1
+msgctxt "map:2.51/npc:0/0"
+msgid "map:2.51/npc:0/0"
+msgstr ""
+"{COLOR 02}Статуя покемона, источающая силу камня, приходит в движение!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f5abe5
+msgctxt "map:2.51/npc:0/1"
+msgid "map:2.51/npc:0/1"
+msgstr "{COLOR 06}Заза зари за…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f5ad77
+msgctxt "map:2.51/npc:0/2"
+msgid "map:2.51/npc:0/2"
+msgstr "{COLOR 02}{STR_VAR_1} исчезает."

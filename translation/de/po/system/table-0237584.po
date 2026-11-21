@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0237584\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x02375b0
+msgctxt "hash:076ef255"
+msgid "hash:076ef255"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 61
+#: 0x02375bd
+msgctxt "hash:414df301"
+msgid "hash:414df301"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 52
+#: 0x02375c9
+msgctxt "hash:a02abfc9"
+msgid "hash:a02abfc9"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x02375d3
+msgctxt "hash:1dbb0e14"
+msgid "hash:1dbb0e14"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x02375df
+msgctxt "hash:e8fc9757"
+msgid "hash:e8fc9757"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x02375eb
+msgctxt "hash:a3b4dc0c"
+msgid "hash:a3b4dc0c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x02375f8
+msgctxt "hash:0df9d727"
+msgid "hash:0df9d727"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0237605
+msgctxt "hash:3e3134ac"
+msgid "hash:3e3134ac"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0237612
+msgctxt "hash:20e4abd3"
+msgid "hash:20e4abd3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 55
+#: 0x023761f
+msgctxt "hash:347e4993"
+msgid "hash:347e4993"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: List-menu lists 0x2372C0 / 0x237400 / 0x237584 contain 8, 16 and 11 items and are the strings' only pointers. Words 0-2 of table 0x8A3F50 ({0x2372C0, 0x237400, 0x237584, 0x238D00}) are the lists' only pointers. Only hook 0x8A4060 reads 0x8A3F50 through pool 0x8A40A8, and no BL, branch or word reaches the hook. The live list menu at 0x80CB94C, hooked to 0x1E76978, reads list [var 0x8000, up to 31] of 0x1FB196C through 0x9EB48B8 / 0x9EB48D4. The live table's records point at none of the three lists. The appliance list at 0x238D00 is list 29 in the live table and is not listed here.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x023762a
+msgctxt "hash:066a0b8d"
+msgid "hash:066a0b8d"
+msgstr ""

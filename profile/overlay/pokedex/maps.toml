@@ -1,0 +1,7 @@
+[pokedex.maps]
+primary_tiles = 640
+primary_metatiles = 640
+primary_palettes = 7
+palettes = 13
+
+# Wild encounter headers and slot rates.

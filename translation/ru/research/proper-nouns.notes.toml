@@ -1,0 +1,103 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:6c9a100a-3384-5a29-a7c5-57a66ed8a3e5"
+subject = { kind = "research", id = "research:4b1b89d9a38244f68c02ff57d5536171" }
+scope = { kind = "language", language = "ru" }
+facts = ["Sinnoh is a canon region.", "The name is indeclinable.", "The trainer class Sinnoh Leader is rendered as «Лидер Синно»."]
+sources = [{ kind = "web", name = "Pokémon Wiki на русском", address = "fandom-ru", quoted_term = "Синно", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Лидер Синно", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2485061e-17bb-50d3-a88a-46a7b6fccc17"
+subject = { kind = "research", id = "research:c29f93949a274c1395f8f36e98e147ea" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Capitalise the name."]
+facts = ["Shadow Warriors are artificial Pokémon-human creatures made by the Shadows, according to the wiki.", "The noun is masculine, with plural «Воины Теней»."]
+reason = ["The name denotes a named kind of creature."]
+sources = [{ kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "Воин Теней", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:55b56ab6-de87-5d92-92be-c373ebf5d2fe"
+subject = { kind = "research", id = "research:ca928ccef9b240a39579e63761a9d46d" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Render the speaker label \"LOR Grunt\" with LOR → «СГ» if an abbreviation is needed."]
+facts = ["Light of Ruin is Aklove's team of former Shadows grunts.", "\"Ruin\" means destruction.", "The noun is masculine, with the form «из Света гибели».", "The phrase is not listed in proper-nouns.tsv as a phrase and was added from dialogue or related entries."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "СГ", relation = "context", verification = "recorded" }, { kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }, { kind = "rom", name = "Game text", address = "game-text", quoted_term = "LOR Grunt", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:2d8c5aba-11ce-59dd-b611-af15ca847dad"
+subject = { kind = "research", id = "research:9c925b5a3b1648caacff3148802e8670" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Capitalise the translated product name «Куб»."]
+facts = ["Cube is Cube Corp.'s portable storage device, called \"the Cube\", and Aros is trapped \"inside a Cube\".", "The name declines as «Куб» and «в Кубе», with plural «Кубы».", "Cube Space is rendered as «пространство Куба»."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Куб", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:4fbc94bb-f7a6-5310-befd-5c7332476b1f"
+subject = { kind = "research", id = "research:1224dfbff44f4cf1bc4b326237cdbf7e" }
+scope = { kind = "language", language = "ru" }
+facts = ["Science Society is Fey's research group inside Cube Corp., and Agent Véga belongs to it.", "The noun is neuter.", "The phrase is not listed in proper-nouns.tsv as a phrase and was added from dialogue or related entries."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Научное общество", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Unbound Wiki (Miraheze)", address = "unbound-wiki-mh", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d94fc038-4fba-5874-8f44-d775bdc2c892"
+subject = { kind = "research", id = "research:32c6e2af7bef42eba2bc1c27f8fa1451" }
+scope = { kind = "language", language = "ru" }
+facts = ["Black Emboar is James's gang.", "The gang name is singular, as in the trainer class, and declines as a name in «из «Чёрного Эмбора»».", "The species part follows the species glossary, where «Эмбор» is the pending fandom-ru form.", "The phrase is not listed in proper-nouns.tsv as a phrase and was added from dialogue or related entries."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Чёрный Эмбор", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian species names", address = "fandom-ru-species", quoted_term = "Эмбор", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:7dea6461-e256-50b2-9146-0ba1d661e258"
+subject = { kind = "research", id = "research:6e372b7d27e645bd9d589766ad2c1cc8" }
+scope = { kind = "language", language = "ru" }
+facts = ["Black Ferrothorn is Barbs's gang and the top gang of Antisis City.", "The species part follows the pending species glossary.", "The phrase is not listed in proper-nouns.tsv as a phrase and was added from dialogue or related entries."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Чёрный Ферроторн", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian species names", address = "fandom-ru-species", relation = "context", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:70992ac4-0521-59ca-a42b-e4795f98046c"
+subject = { kind = "research", id = "research:fadfec1d7e4842e0b75f7be80a150fbb" }
+scope = { kind = "language", language = "ru" }
+facts = ["Terror Granbull is Gruff's gang.", "The name follows the trainer-class pattern «Террор Granbull».", "The species part follows the pending species glossary.", "The phrase is not listed in proper-nouns.tsv as a phrase and was added from dialogue or related entries."]
+sources = [{ kind = "project", name = "Trainer class research", address = "glossary-trainer_classes", quoted_term = "Террор Granbull", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian species names", address = "fandom-ru-species", relation = "context", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "Террор Грэнбулл", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:fd6db2b8-9fd0-5d6d-abea-bb526ed225f4"
+subject = { kind = "research", id = "research:bf64c44594a8427fb913d06b55772b5a" }
+scope = { kind = "language", language = "ru" }
+facts = ["Team Rocket is mentioned by Looker.", "The name follows the Russian anime dub and fandom-ru.", "The phrase is not listed in proper-nouns.tsv as a phrase and was added from dialogue or related entries."]
+sources = [{ kind = "web", name = "Pokémon Wiki на русском", address = "fandom-ru", quoted_term = "Команда R", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:bc3032ef-059a-5cea-97c9-a64539042517"
+subject = { kind = "research", id = "research:c9bfe1c05e3e491984c149c5c441663c" }
+scope = { kind = "language", language = "ru" }
+facts = ["Day-Care Man is an NPC title whose input fragment is \"Care Man\".", "Day Care is rendered as «Дневной уход» in general.tsv.", "The phrase is not listed in proper-nouns.tsv as a phrase and was added from dialogue or related entries."]
+sources = [{ kind = "project", name = "General term research", address = "glossary-general", locator = "general.tsv", quoted_term = "Дневной уход", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "Project rendering", address = "own", quoted_term = "хозяин Дневного ухода", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:626dde9a-65c5-5146-a4da-e9d2525111c9"
+subject = { kind = "research", id = "research:c82e515d52f04d53b2b9614b1a03a55b" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep Gym as «стадион» and leave the bare label unchanged.", "Use the genitive Town descriptor «городка» and leave the proper name unchanged after it."]
+facts = ["The historical «гим» wording remains in the variants."]
+sources = [{ kind = "project", name = "General term research", address = "glossary-general", quoted_term = "стадион", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "General term research", address = "glossary-general", quoted_term = "гим", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:d9e5f683-c8df-5fb0-9ad5-0d5569abd27a"
+subject = { kind = "research", id = "research:29af625336a7408a8b62a8d637895ceb" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Keep Gym as «стадион» and leave the bare label unchanged.", "Use the genitive Town descriptor «городка» and leave the proper name unchanged after it."]
+facts = ["The historical «гим» wording remains in the variants."]
+sources = [{ kind = "project", name = "General term research", address = "glossary-general", quoted_term = "стадион", relation = "selected_form", verification = "recorded" }, { kind = "project", name = "General term research", address = "glossary-general", quoted_term = "гим", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"

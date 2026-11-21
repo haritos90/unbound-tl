@@ -1,0 +1,407 @@
+[[table]]
+name = "species"
+glossary = ["species"]  # termbase categories that fill this table (fill-tables)
+base = 0x166A98C
+stride = 11
+count = 1294
+field_offset = 0
+field_length = 11
+save_link = true         # copied as default nicknames
+evidence = "Bulbasaur/Ivysaur/Venusaur at stride 11 from 0x166A997; 42 refs to base; last entry Urshifu"
+# Windows measured in game: width is the widest shown text.
+# Health box text spans x=142 to 197.
+# The gender symbol takes 5 px after the name.
+windows = [
+  { style = "unbound", width = 60, where = "summary screen, PC storage panel and Pokedex", evidence = "Талонфлейм (60 px) whole in the summary NAME field and name box, and as /Талонфлейм in the PC panel with 5 px to spare; Хелиоптайл (60 px) whole on the Pokedex entry and in the habitat page label with 1 px before the border (widest English: 2 px)" },
+  { style = "unbound-small", width = 51, where = "battle health box", evidence = "name origin x=142, clip at x=198, symbol 5 px after the name", entries = { "species:539" = 56, "species:1187" = 56 } },
+]
+
+[[table]]
+name = "moves"
+glossary = ["move"]  # termbase categories that fill this table (fill-tables)
+base = 0xA40A10
+stride = 13
+count = 923
+field_offset = 0
+field_length = 13
+evidence = "Pound/Karate Chop/Double Slap at stride 13; 41 refs to base; entries 0-922 FF-padded, 923 on is other data"
+windows = [
+  { style = "unbound", width = 72, where = "summary moves page", evidence = "Красная аура (72 px) whole, 2 px before the tab edge; when selected its shadow meets the selection frame (0 px; the widest English name keeps 1 px)" },
+  { style = "unbound-small", width = 63, where = "battle move menu", evidence = "Самоцв. силы, Ложный взмах (63 px) whole in both columns: 2 px before the right-column cursor and 3 px before the window border (widest English: 5 and 6)" },
+  # field moves in the party action window
+  { style = "unbound", width = 72, where = "party menu field-move actions" },
+]
+
+[[table]]
+name = "abilities"
+glossary = ["ability"]  # termbase categories that fill this table (fill-tables)
+base = 0xA36398
+stride = 17
+count = 293
+field_offset = 0
+field_length = 17
+evidence = "Stench/Drizzle/Speed Boost at stride 17; 6 refs to base; last entry Royal Roar"
+windows = [
+  { style = "unbound", width = 93, where = "summary skills page", evidence = "text from x=27, drawn up to x=119: Первобытное море (96 px) loses its last letter" },
+  { style = "unbound-small", width = 76, where = "battle ability pop-up", evidence = "text from x=159, drawn up to x=234: Первобытное море (81 px) loses its last letter" },
+]
+
+[[table]]
+name = "items"
+glossary = ["item"]  # termbase categories that fill this table (fill-tables)
+base = 0x876200
+stride = 44
+count = 729
+field_offset = 0
+field_length = 14
+long_name_pointers = true
+long_name_fields = [
+    {index = 79, length = 15},
+    {index = 82, length = 16},
+    {index = 23, length = 15},
+    {index = 99, length = 15},
+    {index = 100, length = 16},
+    {index = 195, length = 16},
+    {index = 221, length = 16},
+    {index = 227, length = 15},
+    {index = 253, length = 15},
+    {index = 255, length = 15},
+    {index = 286, length = 15},
+    {index = 287, length = 15},
+    {index = 357, length = 16},
+    {index = 358, length = 16},
+    {index = 523, length = 15},
+    {index = 525, length = 16},
+    {index = 569, length = 16},
+    {index = 578, length = 16},
+    {index = 621, length = 15},
+    {index = 644, length = 16},
+    {index = 652, length = 15},
+    {index = 715, length = 16},
+    {index = 718, length = 15},
+    {index = 719, length = 15},
+    {index = 720, length = 15},
+    {index = 721, length = 15},
+    {index = 722, length = 15},
+    {index = 182, length = 18},
+    {index = 85, length = 15},
+    {index = 199, length = 15},
+    {index = 223, length = 16},
+    {index = 93, length = 16},
+    {index = 649, length = 15},
+    {index = 25, length = 15},
+    {index = 41, length = 15},
+    {index = 45, length = 16},
+    {index = 47, length = 16},
+    {index = 50, length = 15},
+    {index = 51, length = 16},
+    {index = 68, length = 15},
+    {index = 81, length = 15},
+    {index = 83, length = 15},
+    {index = 84, length = 16},
+    {index = 95, length = 16},
+    {index = 96, length = 16},
+    {index = 101, length = 15},
+    {index = 105, length = 15},
+    {index = 107, length = 15},
+    {index = 109, length = 15},
+    {index = 111, length = 15},
+    {index = 115, length = 15},
+    {index = 183, length = 15},
+    {index = 204, length = 16},
+    {index = 226, length = 15},
+    {index = 240, length = 15},
+    {index = 241, length = 15},
+    {index = 242, length = 15},
+    {index = 250, length = 15},
+    {index = 254, length = 16},
+    {index = 256, length = 16},
+    {index = 263, length = 15},
+    {index = 266, length = 15},
+    {index = 268, length = 17},
+    {index = 278, length = 18},
+    {index = 285, length = 15},
+    {index = 348, length = 17},
+    {index = 356, length = 16},
+    {index = 368, length = 15},
+    {index = 374, length = 15},
+    {index = 494, length = 16},
+    {index = 517, length = 15},
+    {index = 518, length = 16},
+    {index = 524, length = 16},
+    {index = 584, length = 16},
+    {index = 618, length = 15},
+    {index = 620, length = 15},
+    {index = 633, length = 15},
+    {index = 636, length = 15},
+    {index = 639, length = 16},
+    {index = 640, length = 16},
+    {index = 641, length = 16},
+    {index = 642, length = 16},
+    {index = 646, length = 16},
+    {index = 648, length = 16},
+    {index = 651, length = 15},
+    {index = 656, length = 16},
+    {index = 665, length = 15},
+    {index = 668, length = 15},
+    {index = 669, length = 15},
+    {index = 707, length = 16},
+    {index = 709, length = 16},
+    {index = 712, length = 15},
+    {index = 717, length = 16},
+    {index = 725, length = 17},
+]
+evidence = "Master Ball/Ultra Ball/Great Ball at stride 44; 18 refs to base (the vanilla table at 0x3DB028 has none); last named entry 728; 33 entries use a name pointer"
+windows = [
+    {style = "unbound", strict = true, width = 102, exclude_indices = [87, 92, 119, 120, 182, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 278, 279, 280, 281, 282, 283, 284, 285, 288, 347, 348, 349, 350, 351, 352, 353, 355, 356, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 527, 528, 529, 530, 531, 535, 536, 537, 538, 632, 633, 655, 656, 657, 658, 659, 660, 661, 662, 725], where = "bag item list before quantity", evidence = "Bag callback 0x108654: item name x8 within the x88 window; quantity font 0 at x110 (0x10870E). Names have 102px before the quantity column."},
+    {style = "unbound", strict = true, width = 104, indices = [87, 92, 119, 120, 182, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 278, 279, 280, 281, 282, 283, 284, 285, 288, 347, 348, 349, 350, 351, 352, 353, 355, 356, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 527, 528, 529, 530, 531, 535, 536, 537, 538, 632, 633, 655, 656, 657, 658, 659, 660, 661, 662, 725], chars = 17, where = "registered Key Items and script name buffers"},
+    {style = "unbound", strict = true, width = 92, exclude_indices = [87, 92, 119, 120, 182, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 278, 279, 280, 281, 282, 283, 284, 285, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 355, 356, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 527, 528, 529, 530, 531, 535, 536, 537, 538, 632, 633, 655, 656, 657, 658, 659, 660, 661, 662, 725], chars = 15, where = "held-item Summary"},
+    {style = "unbound", strict = true, width = 101, exclude_indices = [87, 92, 119, 120, 182, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 278, 279, 280, 281, 282, 283, 284, 285, 288, 347, 348, 349, 350, 351, 352, 353, 355, 356, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 527, 528, 529, 530, 531, 535, 536, 537, 538, 632, 633, 655, 656, 657, 658, 659, 660, 661, 662, 725], where = "PC item storage list before quantity"},
+    {style = "unbound", strict = true, width = 94, exclude_indices = [87, 92, 119, 120, 182, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 278, 279, 280, 281, 282, 283, 284, 285, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 355, 356, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 527, 528, 529, 530, 531, 535, 536, 537, 538, 632, 633, 655, 656, 657, 658, 659, 660, 661, 662, 725], where = "shop list before five-digit prices"},
+    {style = "unbound", strict = true, width = 71, indices = [118, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562], chars = 12, where = "Berry Pouch formatted item rows", evidence = "Berry row constructor 0x13D21C-0x13D224 uses 27-byte rows with a 14-byte prefix, leaving 12 name bytes plus EOS. Name prefix and three-digit quantity leave 71px with the original gap. Native 13-character berry names lose EOS to the following row; all 67 current labels fit 12."},
+]
+
+[[table]]
+name = "types"
+glossary = ["type"]  # termbase categories that fill this table (fill-tables)
+base = 0xA4EAD4
+stride = 7
+count = 24
+field_offset = 0
+field_length = 7
+evidence = "Normal/Fight/Flying at stride 7; 4 refs to base; last entry Fairy"
+# Name copied into a sentence by four refs.
+# Hosts: battle text buffer, Union Room message, Natural Gift.
+# Width is the room in the narrowest host line.
+windows = [
+  { style = "unbound", where = "type name in battle, trading-room and move-effect messages", evidence = "narrowest host line: s09099AD «{B_ATK_ABILITY} даёт тип {B_BUFF1}!» in the 222 px battle window, ability at its 96 px estimate, 162 px besides the name; next s0458ED0 sha256:9d832d36582036eda3e03dc82775c9249b74fc6272bbca10797697b26e675a03 in 208 px (82 px room), s0A4BB65 «типы {B_BUFF1} и {B_BUFF2}!» (84 px per name), s0A4BF24 (84)" },
+]
+
+[[table]]
+name = "types_short"
+glossary = ["type"]  # termbase categories that fill this table (fill-tables)
+base = 0x961B50
+stride = 7
+count = 24
+field_offset = 0
+field_length = 7
+evidence = "second copy, Normal/Fight/Flying at stride 7; 2 refs to base"
+# Two refs: dead battle literal, Union Room list.
+# Only types_short:0 is printed; others appear nowhere.
+windows = [
+  { style = "unbound", width = 64, where = "Union Room trading board, wanted-type list (entry 0 only)", evidence = "list template 0x456F04 (item_X 8, font 2) in window template 0x456E6C (9 tiles), drawn in game through ListMenuHandler_AllItemsAvailable 0x811A218: text from x=168, a 40-digit ruler in item 1 cut at x=232; 123456 (36 px) whole in item 0" },
+]
+
+[[table]]
+name = "trainer_classes"
+glossary = ["trainer-class"]  # termbase categories that fill this table (fill-tables)
+base = 0x23E558
+stride = 13
+count = 107
+field_offset = 0
+field_length = 13
+long_name_pointers = true
+long_name_fields = [
+    {index = 13, length = 14},
+    {index = 35, length = 15},
+    {index = 37, length = 16},
+    {index = 38, length = 16},
+    {index = 54, length = 15},
+    {index = 56, length = 14},
+    {index = 72, length = 15},
+    {index = 87, length = 17},
+    {index = 96, length = 15},
+    {index = 104, length = 18},
+]
+evidence = "Youngster at stride 13 from the vanilla FireRed base; 2 refs to base; entries 2, 46, 47 and 6 others hold name pointers; last entry Painter (106)"
+
+[[table]]
+name = "pokedex_categories"
+glossary = ["dex-category"]  # termbase categories that fill this table (fill-tables)
+base = 0x1A357CC
+stride = 36
+count = 906
+field_offset = 0
+field_length = 12
+evidence = "Seed/Seed/Seed/Lizard at stride 36 from 0x1A357F0; 10 refs to base; description pointer at +16 valid for 906 entries"
+windows = [
+  { style = "unbound", where = "Pokedex entry screen", evidence = "the entry screen prints the category and then s0415F8F ' Pokemon' (46 px) on one line; the original shows its widest categories SeaCucumber / Human Shape (65 px) with it, 111 px in all; the category without the word Pokemon leaves the suffix empty, so the 11-character field binds" },
+]
+
+[[table]]
+name = "trainer_names"
+glossary = ["character"]  # Generic roles require reviewed catalog bindings.
+base = 0x23EAC8
+stride = 40
+count = 743
+field_offset = 4
+field_length = 12
+gender_offset = 2        # bit 7 set: female trainer
+class_offset = 1
+evidence = "vanilla FireRed gTrainers layout (name at +4, party pointer at +36); 23 refs to base; 743 entries with a valid party pointer"
+
+# Binary data that decodes as letters, found by discovery.
+# Reviewed by hand; excluded from the inventory.
+[[table]]
+name = "naming_keyboard"
+base = 0x3E22D0
+stride = 8
+count = 12
+field_offset = 0
+field_length = 8
+terminated = false        # each row holds exactly 8 character codes, no terminator
+evidence = "naming screen key table: pages lower, upper, others x 4 rows x 8 keys (table:naming_keyboard/0, table:naming_keyboard/4, table:naming_keyboard/8); the key under the cursor is entered"
+
+# Music-name prefixes of the audio options page.
+# - read at fixed addresses, copied by the code, never printed
+# - stripped from names by the layout strip rule
+[[table]]
+name = "music_prefix_battle"
+base = 0x1FB3860
+stride = 9
+count = 1
+field_offset = 0
+field_length = 9
+
+[[table]]
+name = "music_prefix_team"
+base = 0x1FB3869
+stride = 6
+count = 1
+field_offset = 0
+field_length = 6
+
+# The possessive of the ability pop-up.
+# - character codes the code stores, as text
+# - immediates of two movs; an empty translation ends it
+[[table]]
+name = "ability_popup_possessive"
+base = 0x9A8F44
+stride = 14
+count = 2
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+# The possessive of the berry blender.
+# - "’s ": a literal-pool word; "’ ": built by code
+# - Cyrillic names take the literal ": "
+[[table]]
+name = "berry_blender_possessive"
+base = 0x1EBBB88
+stride = 4
+count = 1
+field_offset = 0
+field_length = 4
+
+[[table]]
+name = "berry_blender_apostrophe"
+base = 0x1EBB938
+stride = 2
+count = 1
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+# The plural ending of item names.
+# - character codes stored by two copies of one routine
+# - s, e, E empty; i, I store y, Y back
+[[table]]
+name = "item_plural_s"
+base = 0xA072D8
+stride = 2
+count = 1
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+[[table]]
+name = "item_plural_lower"
+base = 0xA072F2
+stride = 4
+count = 2
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+[[table]]
+name = "item_plural_upper"
+base = 0xA07306
+stride = 4
+count = 2
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+[[table]]
+name = "item_plural_s_trade"
+base = 0x1ECB57C
+stride = 2
+count = 1
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+[[table]]
+name = "item_plural_lower_trade"
+base = 0x1ECB596
+stride = 4
+count = 2
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+evidence = "item_plural_lower in the copy of the routine (see item_plural_s_trade): movs r3, #0xDD (i) at 0x1ECB596, movs r3, #0xD9 (e) at 0x1ECB59A, with the same stores"
+
+[[table]]
+name = "item_plural_upper_trade"
+base = 0x1ECB5AA
+stride = 4
+count = 2
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+evidence = "item_plural_upper in the copy of the routine (see item_plural_s_trade): movs r3, #0xC3 (I) at 0x1ECB5AA, movs r3, #0xBF (E) at 0x1ECB5AE, with the same stores"
+
+# the plural ending of counts
+# - special 0xEA and 0x9EC6378: immediates, as for item names
+# - shard list: a 2-byte text 's' the code copies
+[[table]]
+name = "count_plural_s"
+base = 0x9E9284
+stride = 2
+count = 1
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+[[table]]
+name = "egg_count_plural_s"
+base = 0x1EC63BE
+stride = 2
+count = 1
+field_offset = 0
+field_length = 1
+terminated = false
+pad = 0xFF
+
+[[table]]
+name = "shard_plural_s"
+base = 0x1FB542C
+stride = 2
+count = 1
+field_offset = 0
+field_length = 2
+pad = 0xFF
+
+# Naming screen keyboard pages, indexed arithmetically.
+# Larger table copies go into reserved; words are repointed.
+# Page 0 holds others; pages 1-2 the letters.

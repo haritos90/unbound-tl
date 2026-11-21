@@ -1,0 +1,4244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0410000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: placeholder getters 0x80091A8-0x80091D8 ({VERSION}, {AQUA}, {MAGMA}, {ARCHIE}, {MAXIE}, {KYOGRE}, {GROUDON}): the placeholder table 0x231E70 points FD 07-FD 0D at Unbound's 0x8A0948D-0x8A094D5; no BL and no pointer reaches the getters, whose literal pools are the strings' only pointers)
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0415a2c
+msgctxt "hash:82281c26"
+msgid "hash:82281c26"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: placeholder getters 0x80091A8-0x80091D8 ({VERSION}, {AQUA}, {MAGMA}, {ARCHIE}, {MAXIE}, {KYOGRE}, {GROUDON}): the placeholder table 0x231E70 points FD 07-FD 0D at Unbound's 0x8A0948D-0x8A094D5; no BL and no pointer reaches the getters, whose literal pools are the strings' only pointers)
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0415a31
+msgctxt "hash:63853619"
+msgid "hash:63853619"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: placeholder getters 0x80091A8-0x80091D8 ({VERSION}, {AQUA}, {MAGMA}, {ARCHIE}, {MAXIE}, {KYOGRE}, {GROUDON}): the placeholder table 0x231E70 points FD 07-FD 0D at Unbound's 0x8A0948D-0x8A094D5; no BL and no pointer reaches the getters, whose literal pools are the strings' only pointers)
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0415a36
+msgctxt "hash:5f13eae1"
+msgid "hash:5f13eae1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: placeholder getters 0x80091A8-0x80091D8 ({VERSION}, {AQUA}, {MAGMA}, {ARCHIE}, {MAXIE}, {KYOGRE}, {GROUDON}): the placeholder table 0x231E70 points FD 07-FD 0D at Unbound's 0x8A0948D-0x8A094D5; no BL and no pointer reaches the getters, whose literal pools are the strings' only pointers)
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0415a3c
+msgctxt "hash:052eed47"
+msgid "hash:052eed47"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: placeholder getters 0x80091A8-0x80091D8 ({VERSION}, {AQUA}, {MAGMA}, {ARCHIE}, {MAXIE}, {KYOGRE}, {GROUDON}): the placeholder table 0x231E70 points FD 07-FD 0D at Unbound's 0x8A0948D-0x8A094D5; no BL and no pointer reaches the getters, whose literal pools are the strings' only pointers)
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0415a43
+msgctxt "hash:29925d3a"
+msgid "hash:29925d3a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: placeholder getters 0x80091A8-0x80091D8 ({VERSION}, {AQUA}, {MAGMA}, {ARCHIE}, {MAXIE}, {KYOGRE}, {GROUDON}): the placeholder table 0x231E70 points FD 07-FD 0D at Unbound's 0x8A0948D-0x8A094D5; no BL and no pointer reaches the getters, whose literal pools are the strings' only pointers)
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0415a49
+msgctxt "hash:7f68e769"
+msgid "hash:7f68e769"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: placeholder getters 0x80091A8-0x80091D8 ({VERSION}, {AQUA}, {MAGMA}, {ARCHIE}, {MAXIE}, {KYOGRE}, {GROUDON}): the placeholder table 0x231E70 points FD 07-FD 0D at Unbound's 0x8A0948D-0x8A094D5; no BL and no pointer reaches the getters, whose literal pools are the strings' only pointers)
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0415a50
+msgctxt "hash:7e773092"
+msgid "hash:7e773092"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0415a58
+msgctxt "hash:1d38386d"
+msgid "hash:1d38386d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x0415a5c
+msgctxt "hash:341336a8"
+msgid "hash:341336a8"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 18
+#: 0x0415a62
+msgctxt "hash:84342238"
+msgid "hash:84342238"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0415a66
+msgctxt "hash:010cf345"
+msgid "hash:010cf345"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 48
+#: 0x0415a6e
+msgctxt "hash:2b5c357c"
+msgid "hash:2b5c357c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 43
+#: 0x0415a77
+msgctxt "hash:289e4a97"
+msgid "hash:289e4a97"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0415a97
+msgctxt "hash:28a2b8f0"
+msgid "hash:28a2b8f0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 149, 56
+#: 0x0415aa4
+msgctxt "hash:c3debb5d"
+msgid "hash:c3debb5d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 183, 183
+#: 0x0415acb
+msgctxt "hash:799878eb"
+msgid "hash:799878eb"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 150, 167, 40
+#: 0x0415bff
+msgctxt "hash:de8fd1e9"
+msgid "hash:de8fd1e9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 125, 55
+#: 0x0415c42
+msgctxt "hash:e1afe614"
+msgid "hash:e1afe614"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0415ce8
+msgctxt "hash:840e9d0e"
+msgid "hash:840e9d0e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 43
+#: 0x0415d2c
+msgctxt "hash:2f4061c3"
+msgid "hash:2f4061c3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0415d48
+msgctxt "hash:f21bebff"
+msgid "hash:f21bebff"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 52
+#: 0x0415d50
+msgctxt "hash:dab35b36"
+msgid "hash:dab35b36"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 90
+#: 0x0415d60
+msgctxt "hash:f6ec1b2d"
+msgid "hash:f6ec1b2d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 61
+#: 0x0415d78
+msgctxt "hash:7b8484f1"
+msgid "hash:7b8484f1"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0415d8c
+msgctxt "hash:dda96b84"
+msgid "hash:dda96b84"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0415d93
+msgctxt "hash:dce64c99"
+msgid "hash:dce64c99"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 20
+#: 0x0415d97
+msgctxt "hash:b9502535"
+msgid "hash:b9502535"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 154
+#: 0x0415d9c
+msgctxt "hash:e0c7e2e4"
+msgid "hash:e0c7e2e4"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x0415db8
+msgctxt "hash:da80561d"
+msgid "hash:da80561d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0415dc4
+msgctxt "hash:361a4399"
+msgid "hash:361a4399"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0415dca
+msgctxt "hash:95267843"
+msgid "hash:95267843"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 43
+#: 0x0415dd7
+msgctxt "hash:963639e9"
+msgid "hash:963639e9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0415f3d
+msgctxt "hash:5097e51c"
+msgid "hash:5097e51c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 35
+#: 0x0415f4a
+msgctxt "hash:ee652f53"
+msgid "hash:ee652f53"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 79
+#: 0x0415f51
+msgctxt "hash:14205b65"
+msgid "hash:14205b65"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 155
+#: 0x0415f6c
+msgctxt "hash:4589944e"
+msgid "hash:4589944e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 46
+#: 0x0415f8f
+msgctxt "hash:fec8a182"
+msgid "hash:fec8a182"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 11
+#: 0x0415f98
+msgctxt "hash:60522d3e"
+msgid "hash:60522d3e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 11
+#: 0x0415f9b
+msgctxt "hash:8559ee6d"
+msgid "hash:8559ee6d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0415fa0
+msgctxt "hash:c3c3f11e"
+msgid "hash:c3c3f11e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 17
+#: 0x0415fad
+msgctxt "hash:85501057"
+msgid "hash:85501057"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 92
+#: 0x0415fb3
+msgctxt "hash:f0a6f544"
+msgid "hash:f0a6f544"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0415fc8
+msgctxt "hash:2bf01741"
+msgid "hash:2bf01741"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 113
+#: 0x0415fcf
+msgctxt "hash:cd90d697"
+msgid "hash:cd90d697"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0415fe8
+msgctxt "hash:4247c0c9"
+msgid "hash:4247c0c9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0415fed
+msgctxt "hash:9da7f36d"
+msgid "hash:9da7f36d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0415ff2
+msgctxt "hash:1cb0cbd1"
+msgid "hash:1cb0cbd1"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0416002
+msgctxt "hash:5e3f89e3"
+msgid "hash:5e3f89e3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 162
+#: 0x0416008
+msgctxt "hash:e2285573"
+msgid "hash:e2285573"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 137, 56
+#: 0x0416090
+msgctxt "hash:2c851aed"
+msgid "hash:2c851aed"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 98
+#: 0x04160b4
+msgctxt "hash:f69078c1"
+msgid "hash:f69078c1"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 93, 96
+#: 0x04160c8
+msgctxt "hash:90fb5f87"
+msgid "hash:90fb5f87"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 17
+#: 0x04160ec
+msgctxt "hash:f528cffc"
+msgid "hash:f528cffc"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 17
+#: 0x04160f4
+msgctxt "hash:b5ce07c0"
+msgid "hash:b5ce07c0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x04160fc
+msgctxt "hash:0a4ed797"
+msgid "hash:0a4ed797"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0416104
+msgctxt "hash:1de83f54"
+msgid "hash:1de83f54"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 62, 110, 81
+#: 0x041614b
+msgctxt "hash:38406085"
+msgid "hash:38406085"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x041617a
+msgctxt "hash:903f003c"
+msgid "hash:903f003c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 35
+#: 0x0416181
+msgctxt "hash:eb660499"
+msgid "hash:eb660499"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0416188
+msgctxt "hash:4b501b65"
+msgid "hash:4b501b65"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0416190
+msgctxt "hash:16d7d024"
+msgid "hash:16d7d024"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x04161c1
+msgctxt "hash:7d16b896"
+msgid "hash:7d16b896"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x04161c8
+msgctxt "hash:75f6390e"
+msgid "hash:75f6390e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x04161ef
+msgctxt "hash:cfe8e9c0"
+msgid "hash:cfe8e9c0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 17, 12
+#: 0x041623d
+msgctxt "hash:1b476e1e"
+msgid "hash:1b476e1e"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 81, 78
+#: 0x0416244
+msgctxt "hash:6b4e46f2"
+msgid "hash:6b4e46f2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 149
+#: 0x0416262
+msgctxt "hash:75002a70"
+msgid "hash:75002a70"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x041627d
+msgctxt "hash:66bedfe6"
+msgid "hash:66bedfe6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0416285
+msgctxt "hash:2cb71687"
+msgid "hash:2cb71687"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0416291
+msgctxt "hash:9db39cb8"
+msgid "hash:9db39cb8"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x0416296
+msgctxt "hash:da2de6d0"
+msgid "hash:da2de6d0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x041629d
+msgctxt "hash:6339a440"
+msgid "hash:6339a440"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x04162a2
+msgctxt "hash:47007de3"
+msgid "hash:47007de3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 6, 39
+#: 0x04162a9
+msgctxt "hash:c20bd102"
+msgid "hash:c20bd102"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x04162bd
+msgctxt "hash:98454ad3"
+msgid "hash:98454ad3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x04162cd
+msgctxt "hash:4c5a2251"
+msgid "hash:4c5a2251"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x04162d3
+msgctxt "hash:4821726e"
+msgid "hash:4821726e"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 52
+#: 0x04162de
+msgctxt "hash:2cdaef25"
+msgid "hash:2cdaef25"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x04162e8
+msgctxt "hash:1dbe7efd"
+msgid "hash:1dbe7efd"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 53
+#: 0x04162f5
+msgctxt "hash:2c113ff8"
+msgid "hash:2c113ff8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 15, 50
+#: 0x04162ff
+msgctxt "hash:c72b7b09"
+msgid "hash:c72b7b09"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 81, 55
+#: 0x041630f
+msgctxt "hash:16c42d3d"
+msgid "hash:16c42d3d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 61, 45
+#: 0x041632a
+msgctxt "hash:f046e252"
+msgid "hash:f046e252"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 98, 59
+#: 0x041633f
+msgctxt "hash:c2940ea6"
+msgid "hash:c2940ea6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 107
+#: 0x041635e
+msgctxt "hash:68128ed2"
+msgid "hash:68128ed2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 102, 28
+#: 0x0416374
+msgctxt "hash:1b3cc645"
+msgid "hash:1b3cc645"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 91, 21
+#: 0x041638f
+msgctxt "hash:c1bc0382"
+msgid "hash:c1bc0382"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 56, 20
+#: 0x04163a7
+msgctxt "hash:7020aeb2"
+msgid "hash:7020aeb2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 100, 64
+#: 0x04163bb
+msgctxt "hash:a4f8f48a"
+msgid "hash:a4f8f48a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 98, 21
+#: 0x04163db
+msgctxt "hash:3497cdcb"
+msgid "hash:3497cdcb"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 65, 20
+#: 0x04163f4
+msgctxt "hash:af8456b6"
+msgid "hash:af8456b6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 82, 53
+#: 0x0416409
+msgctxt "hash:2caa30e5"
+msgid "hash:2caa30e5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 35, 173
+#: 0x0416425
+msgctxt "hash:8792d3ba"
+msgid "hash:8792d3ba"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 188
+#: 0x0416451
+msgctxt "hash:5ea41531"
+msgid "hash:5ea41531"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 24, 132, 195
+#: 0x041647e
+msgctxt "hash:986088cd"
+msgid "hash:986088cd"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 18, 153, 182, 66
+#: 0x04164c2
+msgctxt "hash:29a559e2"
+msgid "hash:29a559e2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 109
+#: 0x0416513
+msgctxt "hash:03deaaef"
+msgid "hash:03deaaef"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 60, 0
+#: 0x0416537
+msgctxt "hash:dd718055"
+msgid "hash:dd718055"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 52, 5
+#: 0x041658c
+msgctxt "hash:daa0abac"
+msgid "hash:daa0abac"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 148, 119
+#: 0x041659e
+msgctxt "hash:d2774b4d"
+msgid "hash:d2774b4d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 89
+#: 0x0416631
+msgctxt "hash:3e8c076d"
+msgid "hash:3e8c076d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 71
+#: 0x0416644
+msgctxt "hash:2bd4f942"
+msgid "hash:2bd4f942"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x0416655
+msgctxt "hash:40639865"
+msgid "hash:40639865"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 129, 146
+#: 0x041665c
+msgctxt "hash:4eebb085"
+msgid "hash:4eebb085"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 129
+#: 0x0416690
+msgctxt "hash:27ab999d"
+msgid "hash:27ab999d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 185, 45
+#: 0x04166a7
+msgctxt "hash:4c1828ac"
+msgid "hash:4c1828ac"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x04166d3
+msgctxt "hash:74b7a8e3"
+msgid "hash:74b7a8e3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x04166db
+msgctxt "hash:06b2e21e"
+msgid "hash:06b2e21e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 109, 52
+#: 0x04166e1
+msgctxt "hash:02a15f55"
+msgid "hash:02a15f55"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 64
+#: 0x041670a
+msgctxt "hash:79d15aa6"
+msgid "hash:79d15aa6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 132, 52
+#: 0x0416716
+msgctxt "hash:de21afa5"
+msgid "hash:de21afa5"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0416738
+msgctxt "hash:d9a56428"
+msgid "hash:d9a56428"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x041673c
+msgctxt "hash:cc1d7a5b"
+msgid "hash:cc1d7a5b"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0416741
+msgctxt "hash:2c9738a6"
+msgid "hash:2c9738a6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 76
+#: 0x0416757
+msgctxt "hash:7db3b176"
+msgid "hash:7db3b176"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 65, 138
+#: 0x0416766
+msgctxt "hash:0f64945f"
+msgid "hash:0f64945f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 91, 121
+#: 0x041678e
+msgctxt "hash:b856793d"
+msgid "hash:b856793d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 76, 58
+#: 0x04167e7
+msgctxt "hash:8654fd40"
+msgid "hash:8654fd40"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 160
+#: 0x0416842
+msgctxt "hash:4348c971"
+msgid "hash:4348c971"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 171, 26
+#: 0x0416861
+msgctxt "hash:d969cdd5"
+msgid "hash:d969cdd5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 181
+#: 0x041689e
+msgctxt "hash:cfdfaf29"
+msgid "hash:cfdfaf29"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 51, 94
+#: 0x04168f1
+msgctxt "hash:6630693a"
+msgid "hash:6630693a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 6, 182
+#: 0x0416911
+msgctxt "hash:6a14c2b3"
+msgid "hash:6a14c2b3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 110
+#: 0x0416936
+msgctxt "hash:7bae17fa"
+msgid "hash:7bae17fa"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 107, 47
+#: 0x0416959
+msgctxt "hash:89977445"
+msgid "hash:89977445"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x04169c5
+msgctxt "hash:43893c65"
+msgid "hash:43893c65"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x04169cd
+msgctxt "hash:73164ecc"
+msgid "hash:73164ecc"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 12
+#: 0x04169d5
+msgctxt "hash:adba47e6"
+msgid "hash:adba47e6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 116, 73
+#: 0x04169f8
+msgctxt "hash:3fef0da9"
+msgid "hash:3fef0da9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 99, 23
+#: 0x0416a1e
+msgctxt "hash:b5c525cb"
+msgid "hash:b5c525cb"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 61, 54
+#: 0x0416a3a
+msgctxt "hash:e5f8847f"
+msgid "hash:e5f8847f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 98, 50
+#: 0x0416a55
+msgctxt "hash:d576b061"
+msgid "hash:d576b061"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 80, 83
+#: 0x0416a75
+msgctxt "hash:3207b584"
+msgid "hash:3207b584"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 101, 147
+#: 0x0416a98
+msgctxt "hash:111f3b08"
+msgid "hash:111f3b08"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 111
+#: 0x0416acb
+msgctxt "hash:1e58d5fa"
+msgid "hash:1e58d5fa"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 149, 56
+#: 0x0416b16
+msgctxt "hash:ddef99be"
+msgid "hash:ddef99be"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 138, 56
+#: 0x0416b3e
+msgctxt "hash:f8ede892"
+msgid "hash:f8ede892"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 137, 47
+#: 0x0416b64
+msgctxt "hash:588573a3"
+msgid "hash:588573a3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 164
+#: 0x0416b86
+msgctxt "hash:4d007a90"
+msgid "hash:4d007a90"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 141
+#: 0x0416ba6
+msgctxt "hash:cf06d403"
+msgid "hash:cf06d403"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 151, 151
+#: 0x0416bc3
+msgctxt "hash:d51add19"
+msgid "hash:d51add19"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 154, 87
+#: 0x0416bfb
+msgctxt "hash:fbafa4a4"
+msgid "hash:fbafa4a4"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 79, 51
+#: 0x0416c2a
+msgctxt "hash:14fc4217"
+msgid "hash:14fc4217"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 105, 28, 157, 55
+#: 0x0416c49
+msgctxt "hash:aa0f8ece"
+msgid "hash:aa0f8ece"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 48
+#: 0x0416c8f
+msgctxt "hash:e8bad2d3"
+msgid "hash:e8bad2d3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 75, 33
+#: 0x0416cac
+msgctxt "hash:8a733e82"
+msgid "hash:8a733e82"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 128, 45
+#: 0x0416cc7
+msgctxt "hash:aa095018"
+msgid "hash:aa095018"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 103, 107
+#: 0x0416cea
+msgctxt "hash:31b5b0ab"
+msgid "hash:31b5b0ab"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 143, 143
+#: 0x0416d17
+msgctxt "hash:eb291346"
+msgid "hash:eb291346"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 137, 67
+#: 0x0416d4f
+msgctxt "hash:8f065ca7"
+msgid "hash:8f065ca7"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 149, 148
+#: 0x0416d78
+msgctxt "hash:f3d15506"
+msgid "hash:f3d15506"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 29, 106, 49, 44
+#: 0x0416dc2
+msgctxt "hash:b3f8fae6"
+msgid "hash:b3f8fae6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 112, 6
+#: 0x0416e6b
+msgctxt "hash:33162118"
+msgid "hash:33162118"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 100, 35
+#: 0x0416e84
+msgctxt "hash:91e35766"
+msgid "hash:91e35766"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 177
+#: 0x0416ea4
+msgctxt "hash:5e087589"
+msgid "hash:5e087589"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 116, 80, 28, 32
+#: 0x0416ec6
+msgctxt "hash:87ab01a3"
+msgid "hash:87ab01a3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 79, 5
+#: 0x0416f10
+msgctxt "hash:981b1f49"
+msgid "hash:981b1f49"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 99, 70
+#: 0x0416f27
+msgctxt "hash:49cf9a32"
+msgid "hash:49cf9a32"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 90
+#: 0x0416fc7
+msgctxt "hash:b5dfdff0"
+msgid "hash:b5dfdff0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 86
+#: 0x0417002
+msgctxt "hash:91a078cf"
+msgid "hash:91a078cf"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 92, 28
+#: 0x0417017
+msgctxt "hash:b31f2c30"
+msgid "hash:b31f2c30"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 158, 22
+#: 0x04170bc
+msgctxt "hash:2e6357a5"
+msgid "hash:2e6357a5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 152
+#: 0x04170e0
+msgctxt "hash:4b031d14"
+msgid "hash:4b031d14"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 187, 137, 0
+#: 0x0417457
+msgctxt "hash:73eb826c"
+msgid "hash:73eb826c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 170, 5, 159, 149, 177, 175
+#: 0x0417494
+msgctxt "hash:6cfc53e1"
+msgid "hash:6cfc53e1"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 198, 23
+#: 0x0417615
+msgctxt "hash:fe7eaee0"
+msgid "hash:fe7eaee0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 189, 77
+#: 0x0417640
+msgctxt "hash:6742ebec"
+msgid "hash:6742ebec"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0417674
+msgctxt "hash:b47edb3a"
+msgid "hash:b47edb3a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x041767b
+msgctxt "hash:fa3b12b9"
+msgid "hash:fa3b12b9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x041768d
+msgctxt "hash:058963ec"
+msgid "hash:058963ec"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 170
+#: 0x0417696
+msgctxt "hash:c1d8537f"
+msgid "hash:c1d8537f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 114
+#: 0x04176b8
+msgctxt "hash:c6cfd9a6"
+msgid "hash:c6cfd9a6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 102
+#: 0x04176cf
+msgctxt "hash:99a30dab"
+msgid "hash:99a30dab"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 44
+#: 0x04176e2
+msgctxt "hash:169c0557"
+msgid "hash:169c0557"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x04176f1
+msgctxt "hash:bf304bc7"
+msgid "hash:bf304bc7"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 39
+#: 0x04176fe
+msgctxt "hash:64e679c3"
+msgid "hash:64e679c3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0417706
+msgctxt "hash:3c7335d2"
+msgid "hash:3c7335d2"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x0417713
+msgctxt "hash:7a7e32d7"
+msgid "hash:7a7e32d7"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 121
+#: 0x041772a
+msgctxt "hash:74493572"
+msgid "hash:74493572"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 152
+#: 0x0417741
+msgctxt "hash:00bc7bfe"
+msgid "hash:00bc7bfe"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 106
+#: 0x0417774
+msgctxt "hash:bb390653"
+msgid "hash:bb390653"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 90, 90
+#: 0x041778a
+msgctxt "hash:1890c42e"
+msgid "hash:1890c42e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 97, 21
+#: 0x04177ac
+msgctxt "hash:4ec476a2"
+msgid "hash:4ec476a2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 50, 20
+#: 0x04177c5
+msgctxt "hash:a7fb364a"
+msgid "hash:a7fb364a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x04177d8
+msgctxt "hash:8847a32d"
+msgid "hash:8847a32d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x04177e9
+msgctxt "hash:8e68babb"
+msgid "hash:8e68babb"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 115
+#: 0x04177ee
+msgctxt "hash:658ad363"
+msgid "hash:658ad363"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 41
+#: 0x0417806
+msgctxt "hash:1776c782"
+msgid "hash:1776c782"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 140, 74
+#: 0x0417830
+msgctxt "hash:5fef2bcc"
+msgid "hash:5fef2bcc"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 44, 23
+#: 0x04178a7
+msgctxt "hash:ebde485f"
+msgid "hash:ebde485f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 44
+#: 0x04178b5
+msgctxt "hash:e0949f97"
+msgid "hash:e0949f97"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 96
+#: 0x04178be
+msgctxt "hash:21969dd2"
+msgid "hash:21969dd2"
+msgstr ""
+
+#. reach: never shown (review: quest log fills: hash:4f1b52ad / hash:d7ee30d8 are copied only by the quest-log code (pools 0x8113444, 0x8113458) and hash:5358a9a3 only at 0x81154D0 beside hash:46ee94e1; dead with the quest log (Unbound branch at 0x8110F24))
+#. category: code; mode: field
+#. original lines: 1, widths px: 53
+#: 0x04178d0
+msgctxt "hash:4f1b52ad"
+msgid "hash:4f1b52ad"
+msgstr ""
+
+#. reach: never shown (review: quest log fills: hash:4f1b52ad / hash:d7ee30d8 are copied only by the quest-log code (pools 0x8113444, 0x8113458) and hash:5358a9a3 only at 0x81154D0 beside hash:46ee94e1; dead with the quest log (Unbound branch at 0x8110F24))
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x04178da
+msgctxt "hash:d7ee30d8"
+msgid "hash:d7ee30d8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0417938
+msgctxt "hash:adec8b29"
+msgid "hash:adec8b29"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 12
+#: 0x041793c
+msgctxt "hash:09411f46"
+msgid "hash:09411f46"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0417b9f
+msgctxt "hash:200c8cae"
+msgid "hash:200c8cae"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 49
+#: 0x0417bac
+msgctxt "hash:b78d9d73"
+msgid "hash:b78d9d73"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 26
+#: 0x0417bb6
+msgctxt "hash:4556c85d"
+msgid "hash:4556c85d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 69
+#: 0x0417bbe
+msgctxt "hash:0750bbc2"
+msgid "hash:0750bbc2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0417bcb
+msgctxt "hash:4b546602"
+msgid "hash:4b546602"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 77
+#: 0x0417bd3
+msgctxt "hash:8a9b69b4"
+msgid "hash:8a9b69b4"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 26
+#: 0x0417c2d
+msgctxt "hash:edbff950"
+msgid "hash:edbff950"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0417ded
+msgctxt "hash:ed313745"
+msgid "hash:ed313745"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0417fbb
+msgctxt "hash:8b91a3fd"
+msgid "hash:8b91a3fd"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0417fc3
+msgctxt "hash:269acf45"
+msgid "hash:269acf45"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 1, widths px: 16
+#: 0x0417fcc
+msgctxt "hash:9c072736"
+msgid "hash:9c072736"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 1, widths px: 46
+#: 0x0417fd0
+msgctxt "hash:53cbc51e"
+msgid "hash:53cbc51e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0418075
+msgctxt "hash:ce96bdda"
+msgid "hash:ce96bdda"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 98
+#: 0x0418174
+msgctxt "hash:a4689310"
+msgid "hash:a4689310"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 123
+#: 0x0418188
+msgctxt "hash:efc6e85a"
+msgid "hash:efc6e85a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 66
+#: 0x04181a4
+msgctxt "hash:2d63bb07"
+msgid "hash:2d63bb07"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 185
+#: 0x04181c3
+msgctxt "hash:f00aad17"
+msgid "hash:f00aad17"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 171
+#: 0x0418690
+msgctxt "hash:b527b770"
+msgid "hash:b527b770"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 156
+#: 0x04186b0
+msgctxt "hash:a5b7b113"
+msgid "hash:a5b7b113"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 18
+#: 0x04186cd
+msgctxt "hash:9e92caa1"
+msgid "hash:9e92caa1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 163
+#: 0x04186d1
+msgctxt "hash:f3063f42"
+msgid "hash:f3063f42"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 123
+#: 0x04186ef
+msgctxt "hash:32d6b538"
+msgid "hash:32d6b538"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 169
+#: 0x0418706
+msgctxt "hash:aafa5467"
+msgid "hash:aafa5467"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 173
+#: 0x0418725
+msgctxt "hash:03d2d089"
+msgid "hash:03d2d089"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 162
+#: 0x0418745
+msgctxt "hash:6ba09ba3"
+msgid "hash:6ba09ba3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 102
+#: 0x0418763
+msgctxt "hash:afc05fd6"
+msgid "hash:afc05fd6"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 161
+#: 0x0418780
+msgctxt "hash:dc1bb12e"
+msgid "hash:dc1bb12e"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 109
+#: 0x041879e
+msgctxt "hash:a80ebd69"
+msgid "hash:a80ebd69"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 172
+#: 0x04187b2
+msgctxt "hash:a4e6e4ff"
+msgid "hash:a4e6e4ff"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 156
+#: 0x04187d1
+msgctxt "hash:6b993bd4"
+msgid "hash:6b993bd4"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 168
+#: 0x04187ee
+msgctxt "hash:f96699ae"
+msgid "hash:f96699ae"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x041880e
+msgctxt "hash:8d8e497c"
+msgid "hash:8d8e497c"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 185
+#: 0x041881b
+msgctxt "hash:702ff6ac"
+msgid "hash:702ff6ac"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 181
+#: 0x041883e
+msgctxt "hash:65b74678"
+msgid "hash:65b74678"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 188
+#: 0x041885f
+msgctxt "hash:6a161bcd"
+msgid "hash:6a161bcd"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 57
+#: 0x0418881
+msgctxt "hash:872b25f3"
+msgid "hash:872b25f3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 91
+#: 0x041888c
+msgctxt "hash:9a0ddcc8"
+msgid "hash:9a0ddcc8"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x04188ac
+msgctxt "hash:fd7be8a9"
+msgid "hash:fd7be8a9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 158
+#: 0x04188b9
+msgctxt "hash:9a1647d0"
+msgid "hash:9a1647d0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 140
+#: 0x04188d6
+msgctxt "hash:b124d905"
+msgid "hash:b124d905"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x04188f0
+msgctxt "hash:bba86f47"
+msgid "hash:bba86f47"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 100
+#: 0x0418902
+msgctxt "hash:4ea2c126"
+msgid "hash:4ea2c126"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 165
+#: 0x0418937
+msgctxt "hash:bbd432a7"
+msgid "hash:bbd432a7"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 143
+#: 0x0418956
+msgctxt "hash:a1619c32"
+msgid "hash:a1619c32"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 69
+#: 0x04189e0
+msgctxt "hash:ce8b4912"
+msgid "hash:ce8b4912"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 162
+#: 0x04189ee
+msgctxt "hash:931f94b5"
+msgid "hash:931f94b5"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x0418a2b
+msgctxt "hash:de8f482b"
+msgid "hash:de8f482b"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x0418a33
+msgctxt "hash:83881f9a"
+msgid "hash:83881f9a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 120
+#: 0x0418a4a
+msgctxt "hash:cb01e97f"
+msgid "hash:cb01e97f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 116
+#: 0x0418a61
+msgctxt "hash:4724e9be"
+msgid "hash:4724e9be"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 85
+#: 0x0418a77
+msgctxt "hash:e83d633c"
+msgid "hash:e83d633c"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 138
+#: 0x0418a87
+msgctxt "hash:eecddb1a"
+msgid "hash:eecddb1a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 49
+#: 0x0418aa1
+msgctxt "hash:0890388d"
+msgid "hash:0890388d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x0418ab2
+msgctxt "hash:c4fa1846"
+msgid "hash:c4fa1846"
+msgstr ""
+
+#. reach: never shown (review: quest log fills: hash:4f1b52ad / hash:d7ee30d8 are copied only by the quest-log code (pools 0x8113444, 0x8113458) and hash:5358a9a3 only at 0x81154D0 beside hash:46ee94e1; dead with the quest log (Unbound branch at 0x8110F24))
+#. category: code; mode: field
+#. original lines: 1, widths px: 82
+#: 0x0418c1b
+msgctxt "hash:5358a9a3"
+msgid "hash:5358a9a3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 67, 155, 66, 83, 85
+#: 0x0418c83
+msgctxt "hash:17eb5d58"
+msgid "hash:17eb5d58"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 180, 173, 178, 141, 158
+#: 0x0418cd9
+msgctxt "hash:3bcf147b"
+msgid "hash:3bcf147b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 87, 158
+#: 0x0418e09
+msgctxt "hash:92d12308"
+msgid "hash:92d12308"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0418e47
+msgctxt "hash:e8c923c3"
+msgid "hash:e8c923c3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0418e52
+msgctxt "hash:dee9d7aa"
+msgid "hash:dee9d7aa"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x0418e5c
+msgctxt "hash:b252c68d"
+msgid "hash:b252c68d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 71
+#: 0x0418e69
+msgctxt "hash:3eb72280"
+msgid "hash:3eb72280"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 71
+#: 0x0418e77
+msgctxt "hash:5f1b69c2"
+msgid "hash:5f1b69c2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x0418e8d
+msgctxt "hash:4e88ccbb"
+msgid "hash:4e88ccbb"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0418e95
+msgctxt "hash:4ed604da"
+msgid "hash:4ed604da"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0418e9e
+msgctxt "hash:a9c7a087"
+msgid "hash:a9c7a087"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 33
+#: 0x0418ea7
+msgctxt "hash:c00df77e"
+msgid "hash:c00df77e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0418eb0
+msgctxt "hash:cfc0dff8"
+msgid "hash:cfc0dff8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0418eb5
+msgctxt "hash:3efcad36"
+msgid "hash:3efcad36"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0418ebc
+msgctxt "hash:8c635cef"
+msgid "hash:8c635cef"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0418ec3
+msgctxt "hash:82260ec1"
+msgid "hash:82260ec1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 179, 168, 155, 104
+#: 0x0418ecb
+msgctxt "hash:594d7053"
+msgid "hash:594d7053"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 180, 163, 161, 173
+#: 0x0418f3a
+msgctxt "hash:a55eec52"
+msgid "hash:a55eec52"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 182, 116, 148, 94
+#: 0x0418fb8
+msgctxt "hash:5477c3b2"
+msgid "hash:5477c3b2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 169, 162, 179, 104
+#: 0x041901c
+msgctxt "hash:bc316286"
+msgid "hash:bc316286"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 173, 112, 182, 174
+#: 0x041908e
+msgctxt "hash:b7893ade"
+msgid "hash:b7893ade"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 188, 185, 134, 167
+#: 0x0419103
+msgctxt "hash:608a25b3"
+msgid "hash:608a25b3"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 169, 173, 183, 185
+#: 0x041917d
+msgctxt "hash:3bd70e2e"
+msgid "hash:3bd70e2e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 184, 70, 170, 154
+#: 0x0419201
+msgctxt "hash:cae8e79f"
+msgid "hash:cae8e79f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 188, 100, 183, 159
+#: 0x041926d
+msgctxt "hash:b27cf8ea"
+msgid "hash:b27cf8ea"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 176, 155, 174, 144
+#: 0x04192e2
+msgctxt "hash:940085d9"
+msgid "hash:940085d9"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 183, 167, 187, 121
+#: 0x041935b
+msgctxt "hash:cf721d9d"
+msgid "hash:cf721d9d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 174, 161, 158, 101
+#: 0x04193d5
+msgctxt "hash:1f8ba703"
+msgid "hash:1f8ba703"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 182, 176, 179, 179
+#: 0x0419444
+msgctxt "hash:924bd8ed"
+msgid "hash:924bd8ed"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 184, 133, 187, 146
+#: 0x04194c9
+msgctxt "hash:3b8169a6"
+msgid "hash:3b8169a6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 180, 112, 178, 123
+#: 0x041953f
+msgctxt "hash:f0262deb"
+msgid "hash:f0262deb"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 186, 172, 159, 159
+#: 0x04195ac
+msgctxt "hash:7b0b0e80"
+msgid "hash:7b0b0e80"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 187, 153, 176, 106
+#: 0x0419629
+msgctxt "hash:a9052970"
+msgid "hash:a9052970"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 146, 183, 188, 151
+#: 0x041969d
+msgctxt "hash:ed378aba"
+msgid "hash:ed378aba"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed dungeon description table at 0x3F1B3C has stride 12 and the description at +8. Only getters 0x80C18E0 / 0x80C1920 read the table, through pools 0x80C1904 / 0x80C1940. The getters jump at their entry (ldr r1 / bx r1) to Unbound's hooks 0x9EC1DA8 / 0x9EC1DD4 over table 0x1FB4670. Pool 0x80C185C (0x83F1B38) is the anims field of a sprite template, not the description table.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 161, 140, 183, 65
+#: 0x041971a
+msgctxt "hash:76f8816a"
+msgid "hash:76f8816a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 44, 83
+#: 0x0419782
+msgctxt "hash:2517aa49"
+msgid "hash:2517aa49"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 44, 83
+#: 0x041979d
+msgctxt "hash:d987a983"
+msgid "hash:d987a983"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 44, 173, 38
+#: 0x04197b8
+msgctxt "hash:8d5a9839"
+msgid "hash:8d5a9839"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 44, 173, 38
+#: 0x04197ed
+msgctxt "hash:c3d62f59"
+msgid "hash:c3d62f59"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 44, 82
+#: 0x0419822
+msgctxt "hash:8b5e42c5"
+msgid "hash:8b5e42c5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 44, 82
+#: 0x0419841
+msgctxt "hash:0fafd0ff"
+msgid "hash:0fafd0ff"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 44, 100, 38
+#: 0x0419860
+msgctxt "hash:cf7bf0cb"
+msgid "hash:cf7bf0cb"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 44, 100, 38
+#: 0x041988a
+msgctxt "hash:fa19d562"
+msgid "hash:fa19d562"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 44, 52, 38
+#: 0x04198b4
+msgctxt "hash:c2e23c84"
+msgid "hash:c2e23c84"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 44, 52, 38
+#: 0x04198d5
+msgctxt "hash:a2b8f560"
+msgid "hash:a2b8f560"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 138, 113, 43
+#: 0x041992f
+msgctxt "hash:87278022"
+msgid "hash:87278022"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 138, 113, 43
+#: 0x041996d
+msgctxt "hash:6b5fb962"
+msgid "hash:6b5fb962"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 144, 163, 49
+#: 0x04199ab
+msgctxt "hash:a5622957"
+msgid "hash:a5622957"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 144, 163, 49
+#: 0x04199f4
+msgctxt "hash:b68dcf49"
+msgid "hash:b68dcf49"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 40
+#: 0x0419c0b
+msgctxt "hash:e1f3e28c"
+msgid "hash:e1f3e28c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0419c1d
+msgctxt "hash:ec1337e9"
+msgid "hash:ec1337e9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 76
+#: 0x0419c2a
+msgctxt "hash:efb88fb9"
+msgid "hash:efb88fb9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 63
+#: 0x0419c39
+msgctxt "hash:8f30488d"
+msgid "hash:8f30488d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0419c45
+msgctxt "hash:2484de3b"
+msgid "hash:2484de3b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 64
+#: 0x0419c62
+msgctxt "hash:245b1753"
+msgid "hash:245b1753"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0419c72
+msgctxt "hash:176ab512"
+msgid "hash:176ab512"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0419c7b
+msgctxt "hash:62152e72"
+msgid "hash:62152e72"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 62
+#: 0x0419c82
+msgctxt "hash:ec7d74b3"
+msgid "hash:ec7d74b3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0419c92
+msgctxt "hash:b569e719"
+msgid "hash:b569e719"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 21
+#: 0x0419ca2
+msgctxt "hash:146fa7e2"
+msgid "hash:146fa7e2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 63
+#: 0x0419ca9
+msgctxt "hash:22269d27"
+msgid "hash:22269d27"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 96, 77
+#: 0x0419cb9
+msgctxt "hash:bd84b12a"
+msgid "hash:bd84b12a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0419cda
+msgctxt "hash:34ba4e8a"
+msgid "hash:34ba4e8a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0419ce1
+msgctxt "hash:ca006efa"
+msgid "hash:ca006efa"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x0419cef
+msgctxt "hash:475a2c57"
+msgid "hash:475a2c57"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0419cfd
+msgctxt "hash:2d82c7f3"
+msgid "hash:2d82c7f3"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 80
+#: 0x0419d0a
+msgctxt "hash:996156ad"
+msgid "hash:996156ad"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 108
+#: 0x0419d1a
+msgctxt "hash:e8cfd06a"
+msgid "hash:e8cfd06a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x0419d2f
+msgctxt "hash:71cc83d8"
+msgid "hash:71cc83d8"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 108
+#: 0x0419d3c
+msgctxt "hash:b04cf249"
+msgid "hash:b04cf249"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0419d4f
+msgctxt "hash:52da6fd7"
+msgid "hash:52da6fd7"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 82
+#: 0x0419d57
+msgctxt "hash:1bee76d1"
+msgid "hash:1bee76d1"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 134
+#: 0x0419d66
+msgctxt "hash:0537a046"
+msgid "hash:0537a046"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 66
+#: 0x0419d7d
+msgctxt "hash:f4f13c3a"
+msgid "hash:f4f13c3a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 175, 179
+#: 0x0419d89
+msgctxt "hash:8a521645"
+msgid "hash:8a521645"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 32
+#: 0x0419dcc
+msgctxt "hash:3fc2d6c2"
+msgid "hash:3fc2d6c2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x0419e52
+msgctxt "hash:2d9781ac"
+msgid "hash:2d9781ac"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 106
+#: 0x0419e57
+msgctxt "hash:99e50899"
+msgid "hash:99e50899"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 42, 146
+#: 0x0419f54
+msgctxt "hash:f9ccbffb"
+msgid "hash:f9ccbffb"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 141
+#: 0x041a155
+msgctxt "hash:72f0851b"
+msgid "hash:72f0851b"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 119, 38
+#: 0x041a16f
+msgctxt "hash:e826db22"
+msgid "hash:e826db22"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 107, 118, 51
+#: 0x041a193
+msgctxt "hash:4affccf6"
+msgid "hash:4affccf6"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 107, 5
+#: 0x041a1cd
+msgctxt "hash:ade2042c"
+msgid "hash:ade2042c"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 102, 91
+#: 0x041a1e7
+msgctxt "hash:f4cb0c24"
+msgid "hash:f4cb0c24"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 52, 5
+#: 0x041a210
+msgctxt "hash:906400c5"
+msgid "hash:906400c5"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 141, 135
+#: 0x041a220
+msgctxt "hash:c39fc024"
+msgid "hash:c39fc024"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 98, 63
+#: 0x041a255
+msgctxt "hash:3448cbb4"
+msgid "hash:3448cbb4"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 98, 120, 58
+#: 0x041a277
+msgctxt "hash:81d13839"
+msgid "hash:81d13839"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 152, 116
+#: 0x041a2b0
+msgctxt "hash:d2953600"
+msgid "hash:d2953600"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 132, 111
+#: 0x041a2e1
+msgctxt "hash:37bf6882"
+msgid "hash:37bf6882"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 124, 117, 5
+#: 0x041a312
+msgctxt "hash:75d99ea7"
+msgid "hash:75d99ea7"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 216, 101, 57
+#: 0x041a349
+msgctxt "hash:e45f73f5"
+msgid "hash:e45f73f5"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 126, 200, 57
+#: 0x041a391
+msgctxt "hash:79c5e454"
+msgid "hash:79c5e454"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 106, 68
+#: 0x041a3da
+msgctxt "hash:b0b29efa"
+msgid "hash:b0b29efa"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 131, 19
+#: 0x041a3ff
+msgctxt "hash:2a2a7fdb"
+msgid "hash:2a2a7fdb"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 162, 199, 82
+#: 0x041a422
+msgctxt "hash:b075c823"
+msgid "hash:b075c823"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 162, 216, 32
+#: 0x041a477
+msgctxt "hash:c02d55db"
+msgid "hash:c02d55db"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 74, 56, 141
+#: 0x041a4c6
+msgctxt "hash:35804a94"
+msgid "hash:35804a94"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 162, 88
+#: 0x041a50b
+msgctxt "hash:56d65c12"
+msgid "hash:56d65c12"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 157, 48, 26
+#: 0x041a566
+msgctxt "hash:c5574054"
+msgid "hash:c5574054"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 158, 74, 64
+#: 0x041a59c
+msgctxt "hash:031eea8b"
+msgid "hash:031eea8b"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 114, 26
+#: 0x041a5d9
+msgctxt "hash:d8ec3674"
+msgid "hash:d8ec3674"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 62
+#: 0x041a5fa
+msgctxt "hash:1c492ad0"
+msgid "hash:1c492ad0"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 104
+#: 0x041a60a
+msgctxt "hash:5ad199c9"
+msgid "hash:5ad199c9"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 57, 73
+#: 0x041a632
+msgctxt "hash:0e363e73"
+msgid "hash:0e363e73"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 121, 22
+#: 0x041a64f
+msgctxt "hash:8e4e3b3f"
+msgid "hash:8e4e3b3f"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 155, 28
+#: 0x041a66e
+msgctxt "hash:4873ba6a"
+msgid "hash:4873ba6a"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 87
+#: 0x041a694
+msgctxt "hash:e2a4cb03"
+msgid "hash:e2a4cb03"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 126, 117, 45
+#: 0x041a6a5
+msgctxt "hash:2c78abe3"
+msgid "hash:2c78abe3"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 126, 148, 134
+#: 0x041a6e1
+msgctxt "hash:55aafa4e"
+msgid "hash:55aafa4e"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 149
+#: 0x041a732
+msgctxt "hash:4c143ccd"
+msgid "hash:4c143ccd"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 118, 139, 80
+#: 0x041a76a
+msgctxt "hash:26dde4c0"
+msgid "hash:26dde4c0"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 96, 126
+#: 0x041a7b0
+msgctxt "hash:b02eb46e"
+msgid "hash:b02eb46e"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 153, 87, 5
+#: 0x041a7dd
+msgctxt "hash:f900c035"
+msgid "hash:f900c035"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 153, 92, 105
+#: 0x041a810
+msgctxt "hash:6b3857e9"
+msgid "hash:6b3857e9"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 159, 74, 55
+#: 0x041a858
+msgctxt "hash:08b9b1f1"
+msgid "hash:08b9b1f1"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 131, 119, 47
+#: 0x041a896
+msgctxt "hash:6c19e251"
+msgid "hash:6c19e251"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 45
+#: 0x041a8d4
+msgctxt "hash:4de8b965"
+msgid "hash:4de8b965"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 149, 72
+#: 0x041a938
+msgctxt "hash:8b646689"
+msgid "hash:8b646689"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 149, 129, 58
+#: 0x041a965
+msgctxt "hash:6fb041df"
+msgid "hash:6fb041df"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 173, 26
+#: 0x041a9a9
+msgctxt "hash:95cf2e51"
+msgid "hash:95cf2e51"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 178, 26
+#: 0x041a9d4
+msgctxt "hash:23864ac7"
+msgid "hash:23864ac7"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 168, 26
+#: 0x041aa01
+msgctxt "hash:bba089fb"
+msgid "hash:bba089fb"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 212, 134, 20
+#: 0x041aa2b
+msgctxt "hash:e864d370"
+msgid "hash:e864d370"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 121, 93, 20
+#: 0x041aa76
+msgctxt "hash:11f92ec1"
+msgid "hash:11f92ec1"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 121, 163, 26
+#: 0x041aaaa
+msgctxt "hash:7ede395f"
+msgid "hash:7ede395f"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 157, 93, 20
+#: 0x041aaec
+msgctxt "hash:42f0f7d2"
+msgid "hash:42f0f7d2"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 151, 116, 79
+#: 0x041ab29
+msgctxt "hash:0a044b45"
+msgid "hash:0a044b45"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 109, 5
+#: 0x041ab74
+msgctxt "hash:7fe2d807"
+msgid "hash:7fe2d807"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 115, 5
+#: 0x041ab8e
+msgctxt "hash:c64cb812"
+msgid "hash:c64cb812"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 130, 83, 159
+#: 0x041ae48
+msgctxt "hash:beeae8da"
+msgid "hash:beeae8da"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 119
+#: 0x041ae8f
+msgctxt "hash:70d542de"
+msgid "hash:70d542de"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 112, 47, 52
+#: 0x041af0c
+msgctxt "hash:409c5be8"
+msgid "hash:409c5be8"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 120, 56, 29
+#: 0x041af3e
+msgctxt "hash:a46a2378"
+msgid "hash:a46a2378"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 3, widths px: 67, 47, 52
+#: 0x041af6d
+msgctxt "hash:0bb38bf8"
+msgid "hash:0bb38bf8"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 158, 56
+#: 0x041afa6
+msgctxt "hash:31dba09c"
+msgid "hash:31dba09c"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 64
+#: 0x041b064
+msgctxt "hash:37b94f7a"
+msgid "hash:37b94f7a"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 2, widths px: 154, 59
+#: 0x041b073
+msgctxt "hash:c09fad53"
+msgid "hash:c09fad53"
+msgstr ""
+
+#. reach: never shown (review: The Unbound quest-log patch at 0x8110F24 is 28 E0 (b 0x8110F78: SetMainCallback2(CB2_ContinueSavedGame)). TrySetUpQuestLogScenes_ElseContinueFromSave at 0x8110F14 therefore never sets up scenes. Task_BeginQuestLogPlayback at 0x8110F90 has one caller, 0x8110F60, in the skipped code, and no pointer. Only the quest-log text code loads the strings, through pools 0x8111128-0x8115830 and tables 0x456ACC (fills, departure lines) and 0x456C20 (field moves).)
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x041b09f
+msgctxt "hash:46ee94e1"
+msgid "hash:46ee94e1"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 69, 0
+#: 0x041b285
+msgctxt "hash:ce98b3a5"
+msgid "hash:ce98b3a5"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 87, 0
+#: 0x041b295
+msgctxt "hash:5e3c322b"
+msgid "hash:5e3c322b"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x041b2a9
+msgctxt "hash:b4395ed4"
+msgid "hash:b4395ed4"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 70
+#: 0x041b2f1
+msgctxt "hash:9f63c8f7"
+msgid "hash:9f63c8f7"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 29, 0
+#: 0x041b2ff
+msgctxt "hash:1ff0e044"
+msgid "hash:1ff0e044"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 3, widths px: 39, 5, 0
+#: 0x041b306
+msgctxt "hash:c125b30e"
+msgid "hash:c125b30e"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 23, 0
+#: 0x041b315
+msgctxt "hash:454270d2"
+msgid "hash:454270d2"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 67, 0
+#: 0x041b31b
+msgctxt "hash:94b159a1"
+msgid "hash:94b159a1"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x041b329
+msgctxt "hash:a2d61688"
+msgid "hash:a2d61688"
+msgstr ""
+
+#. reach: never shown (review: The quest-log item animation functions StartUseItemAnim at 0x811C540 / 0x811C5AC are called only from the party-menu exit callback 0x8124DE0. Only 0x8124DC0 sets that callback. The only caller of 0x8124DC0 is ItemUseCB_EvolutionStone at 0x8126B60, with BL at 0x8126BCA. No BL or word reaches 0x8126B60 / 0x8126B61. The third entry 0x811C568 runs only after 0x811D178 finds a finished animation at 0x0203B090, written only at 0x811CFF0.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 45, 6
+#: 0x041b32e
+msgctxt "hash:ca070093"
+msgid "hash:ca070093"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x041b33d
+msgctxt "hash:12dd74bb"
+msgid "hash:12dd74bb"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x041b343
+msgctxt "hash:f95773e9"
+msgid "hash:f95773e9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x041b350
+msgctxt "hash:4a0eb120"
+msgid "hash:4a0eb120"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 48
+#: 0x041b358
+msgctxt "hash:5f122701"
+msgid "hash:5f122701"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x041b361
+msgctxt "hash:d095916f"
+msgid "hash:d095916f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 97
+#: 0x041b3aa
+msgctxt "hash:aa93409c"
+msgid "hash:aa93409c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 84
+#: 0x041b3be
+msgctxt "hash:2a91848b"
+msgid "hash:2a91848b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 168, 201, 147, 0
+#: 0x041b554
+msgctxt "hash:80fdd91d"
+msgid "hash:80fdd91d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 173, 215, 73, 0
+#: 0x041b5b6
+msgctxt "hash:05af866e"
+msgid "hash:05af866e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 45
+#: 0x041b60e
+msgctxt "hash:79b40498"
+msgid "hash:79b40498"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 141, 168, 175, 75
+#: 0x041b619
+msgctxt "hash:e6ae371f"
+msgid "hash:e6ae371f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 58
+#: 0x041b684
+msgctxt "hash:35b32b0b"
+msgid "hash:35b32b0b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 43
+#: 0x041b68f
+msgctxt "hash:e4914a2f"
+msgid "hash:e4914a2f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 148
+#: 0x041b69e
+msgctxt "hash:684f7625"
+msgid "hash:684f7625"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 78, 66
+#: 0x041b6b9
+msgctxt "hash:f74de946"
+msgid "hash:f74de946"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x041b6d5
+msgctxt "hash:75473b98"
+msgid "hash:75473b98"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x041b6dc
+msgctxt "hash:a2c507c2"
+msgid "hash:a2c507c2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 41
+#: 0x041b6e3
+msgctxt "hash:a41d0381"
+msgid "hash:a41d0381"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 35
+#: 0x041b6ec
+msgctxt "hash:6ca514c1"
+msgid "hash:6ca514c1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 43
+#: 0x041b6f4
+msgctxt "hash:9359d869"
+msgid "hash:9359d869"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 128
+#: 0x041b6fd
+msgctxt "hash:101e1318"
+msgid "hash:101e1318"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 202, 53
+#: 0x041b716
+msgctxt "hash:ea19ac8f"
+msgid "hash:ea19ac8f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 132, 59
+#: 0x041b747
+msgctxt "hash:b6937aba"
+msgid "hash:b6937aba"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 71
+#: 0x041b76b
+msgctxt "hash:f5d7ff70"
+msgid "hash:f5d7ff70"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 129
+#: 0x041b779
+msgctxt "hash:f2eda65a"
+msgid "hash:f2eda65a"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: code; mode: field
+#. original lines: 7, widths px: 180, 89, 66, 145, 89, 131, 0
+#: 0x041b83d
+msgctxt "hash:e72b4dc5"
+msgid "hash:e72b4dc5"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: code; mode: field
+#. original lines: 9, widths px: 189, 129, 171, 177, 156, 181, 179, 166, 132
+#: 0x041c587
+msgctxt "hash:c3d2207d"
+msgid "hash:c3d2207d"
+msgstr ""
+
+#. reach: never shown (review: Teachy TV's FieldUseFunc_TeachyTv at 0x80A18EC is referenced only from 0x3DEF2C, the field-use function of item 366 in the vanilla gItems at 0x3DB028. No code reads vanilla gItems, and Unbound's item 366 is ADM. InitTeachyTvController at 0x815ABC4 is called only from 0x80A1952 / 0x80A197E in that path and from the Teachy TV code. The Teachy TV menu at 0x479340 is read at 0x815AF4C. Pages 0x479560 / 0x479578 are read at 0x815B598 / 0x815B5D0, and the intro is at 0x815B49E. The TM Case Poke Dude tutorial at 0x81330B6 and 0x8133132 opens only from Teachy TV.)
+#. category: code; mode: field
+#. original lines: 10, widths px: 184, 114, 175, 164, 165, 71, 174, 171, 176, 159
+#: 0x041c693
+msgctxt "hash:53ccfa3d"
+msgid "hash:53ccfa3d"
+msgstr ""
+
+#. reach: never shown (review: help system: CallCallbacks 0x8000510 has five NOPs (C0 46) at 0x800051A-0x8000522 where FireRed calls RunHelpSystemCallback; RunHelpSystemCallback 0x813B870 has no BL and no pointer; HelpSystemRenderText 0x813C078 also draws the save-failed screen, whose texts (s0418C83, s0418CD9, s0418E09) hold no PC-name fill, so hash:423672b4 / hash:bac72592 are not reached that way)
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x041cb3c
+msgctxt "hash:423672b4"
+msgid "hash:423672b4"
+msgstr ""
+
+#. reach: never shown (review: help system: CallCallbacks 0x8000510 has five NOPs (C0 46) at 0x800051A-0x8000522 where FireRed calls RunHelpSystemCallback; RunHelpSystemCallback 0x813B870 has no BL and no pointer; HelpSystemRenderText 0x813C078 also draws the save-failed screen, whose texts (s0418C83, s0418CD9, s0418E09) hold no PC-name fill, so hash:423672b4 / hash:bac72592 are not reached that way)
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x041cb41
+msgctxt "hash:bac72592"
+msgid "hash:bac72592"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: help system: CallCallbacks 0x8000510 has five NOPs (C0 46) at 0x800051A-0x8000522 where FireRed calls RunHelpSystemCallback; RunHelpSystemCallback 0x813B870 has no BL and no pointer; HelpSystemRenderText 0x813C078 also draws the save-failed screen, whose texts (s0418C83, s0418CD9, s0418E09) hold no PC-name fill, so hash:423672b4 / hash:bac72592 are not reached that way)
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x041cb49
+msgctxt "hash:c442d15c"
+msgid "hash:c442d15c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 37
+#: 0x041cb52
+msgctxt "hash:f4a4cb0a"
+msgid "hash:f4a4cb0a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x041cb5a
+msgctxt "hash:389cc219"
+msgid "hash:389cc219"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 118
+#: 0x041cb63
+msgctxt "hash:ed0c3d78"
+msgid "hash:ed0c3d78"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x041cb78
+msgctxt "hash:6e20997a"
+msgid "hash:6e20997a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 61
+#: 0x041cb88
+msgctxt "hash:3f95bec2"
+msgid "hash:3f95bec2"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 115
+#: 0x041cb94
+msgctxt "hash:c0d93f42"
+msgid "hash:c0d93f42"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 120, 35
+#: 0x041cba9
+msgctxt "hash:3253af18"
+msgid "hash:3253af18"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 138
+#: 0x041cbca
+msgctxt "hash:bdea1091"
+msgid "hash:bdea1091"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 136
+#: 0x041cbe4
+msgctxt "hash:e787b1e2"
+msgid "hash:e787b1e2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 107
+#: 0x041cbfd
+msgctxt "hash:a9c8e1b1"
+msgid "hash:a9c8e1b1"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 123, 144
+#: 0x041cc11
+msgctxt "hash:2b4ef84d"
+msgid "hash:2b4ef84d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 42, 146
+#: 0x041cc42
+msgctxt "hash:2165612b"
+msgid "hash:2165612b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 122
+#: 0x041cc64
+msgctxt "hash:b0842d19"
+msgid "hash:b0842d19"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 168
+#: 0x041cc9f
+msgctxt "hash:02945f41"
+msgid "hash:02945f41"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 86
+#: 0x041ccbc
+msgctxt "hash:45430d62"
+msgid "hash:45430d62"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 61
+#: 0x041cccc
+msgctxt "hash:703a00c1"
+msgid "hash:703a00c1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 71
+#: 0x041ccd8
+msgctxt "hash:2d0480dd"
+msgid "hash:2d0480dd"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 187
+#: 0x041cd03
+msgctxt "hash:fb6ddfc2"
+msgid "hash:fb6ddfc2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 107
+#: 0x041cd43
+msgctxt "hash:6531157d"
+msgid "hash:6531157d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 98
+#: 0x041cd58
+msgctxt "hash:67f8e158"
+msgid "hash:67f8e158"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 148, 32
+#: 0x041cd7a
+msgctxt "hash:81c9a615"
+msgid "hash:81c9a615"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 145
+#: 0x041cd9f
+msgctxt "hash:a5707623"
+msgid "hash:a5707623"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 153
+#: 0x041cdba
+msgctxt "hash:17811f4c"
+msgid "hash:17811f4c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 107
+#: 0x041cdd7
+msgctxt "hash:c35fcc46"
+msgid "hash:c35fcc46"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 123, 144
+#: 0x041cdeb
+msgctxt "hash:d5976e31"
+msgid "hash:d5976e31"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 37
+#: 0x041ce1c
+msgctxt "hash:52b9a23e"
+msgid "hash:52b9a23e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 122
+#: 0x041ce24
+msgctxt "hash:6217d8de"
+msgid "hash:6217d8de"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x041d034
+msgctxt "hash:52ce0d9a"
+msgid "hash:52ce0d9a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x041d044
+msgctxt "hash:3405d739"
+msgid "hash:3405d739"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 27
+#: 0x041d050
+msgctxt "hash:90fca4fd"
+msgid "hash:90fca4fd"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 83
+#: 0x041d058
+msgctxt "hash:b07f3205"
+msgid "hash:b07f3205"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 50
+#: 0x041d068
+msgctxt "hash:32b497cc"
+msgid "hash:32b497cc"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 20
+#: 0x041d078
+msgctxt "hash:600dcae8"
+msgid "hash:600dcae8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x041d088
+msgctxt "hash:1c3412a9"
+msgid "hash:1c3412a9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 55
+#: 0x041d098
+msgctxt "hash:3c00c6e0"
+msgid "hash:3c00c6e0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 126
+#: 0x041d0a8
+msgctxt "hash:70e70cba"
+msgid "hash:70e70cba"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 87
+#: 0x041d0c0
+msgctxt "hash:f6b89194"
+msgid "hash:f6b89194"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 92
+#: 0x041d0d4
+msgctxt "hash:e90e329d"
+msgid "hash:e90e329d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 110
+#: 0x041d0e8
+msgctxt "hash:b1d8db7a"
+msgid "hash:b1d8db7a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 125
+#: 0x041d100
+msgctxt "hash:a9b462c8"
+msgid "hash:a9b462c8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 66
+#: 0x041d118
+msgctxt "hash:dd64435c"
+msgid "hash:dd64435c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 126
+#: 0x041d124
+msgctxt "hash:bf3622e8"
+msgid "hash:bf3622e8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 48
+#: 0x041d13c
+msgctxt "hash:12b5814c"
+msgid "hash:12b5814c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x041d148
+msgctxt "hash:fbb2fba2"
+msgid "hash:fbb2fba2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 135
+#: 0x041d14e
+msgctxt "hash:b11c714c"
+msgid "hash:b11c714c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 102
+#: 0x041d169
+msgctxt "hash:7bbe8c0a"
+msgid "hash:7bbe8c0a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 70
+#: 0x041d17e
+msgctxt "hash:0ec5dc8d"
+msgid "hash:0ec5dc8d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x041d18d
+msgctxt "hash:e552a6d4"
+msgid "hash:e552a6d4"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 110, 161, 177
+#: 0x041de9d
+msgctxt "hash:a9a88bdd"
+msgid "hash:a9a88bdd"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 110
+#: 0x041def0
+msgctxt "hash:8abe4d9b"
+msgid "hash:8abe4d9b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 198, 184
+#: 0x041df05
+msgctxt "hash:e3eaeb69"
+msgid "hash:e3eaeb69"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 164
+#: 0x041df4c
+msgctxt "hash:8fb84034"
+msgid "hash:8fb84034"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 122
+#: 0x041df6b
+msgctxt "hash:6af201e6"
+msgid "hash:6af201e6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 36
+#: 0x041df82
+msgctxt "hash:cb6f14e4"
+msgid "hash:cb6f14e4"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x041df8b
+msgctxt "hash:d9569b55"
+msgid "hash:d9569b55"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x041df92
+msgctxt "hash:e17a51cb"
+msgid "hash:e17a51cb"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x041df99
+msgctxt "hash:c8da277d"
+msgid "hash:c8da277d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x041dfa0
+msgctxt "hash:b82c3fb4"
+msgid "hash:b82c3fb4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: help system: CallCallbacks 0x8000510 has five NOPs (C0 46) at 0x800051A-0x8000522 where FireRed calls RunHelpSystemCallback; RunHelpSystemCallback 0x813B870 has no BL and no pointer; HelpSystemRenderText 0x813C078 also draws the save-failed screen, whose texts (s0418C83, s0418CD9, s0418E09) hold no PC-name fill, so hash:423672b4 / hash:bac72592 are not reached that way)
+#. category: code; mode: field
+#. original lines: 1, widths px: 24
+#: 0x041dfa5
+msgctxt "hash:57564203"
+msgid "hash:57564203"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: help system: CallCallbacks 0x8000510 has five NOPs (C0 46) at 0x800051A-0x8000522 where FireRed calls RunHelpSystemCallback; RunHelpSystemCallback 0x813B870 has no BL and no pointer; HelpSystemRenderText 0x813C078 also draws the save-failed screen, whose texts (s0418C83, s0418CD9, s0418E09) hold no PC-name fill, so hash:423672b4 / hash:bac72592 are not reached that way)
+#. category: code; mode: field
+#. original lines: 1, widths px: 66
+#: 0x041dfac
+msgctxt "hash:da5390dc"
+msgid "hash:da5390dc"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: help system: CallCallbacks 0x8000510 has five NOPs (C0 46) at 0x800051A-0x8000522 where FireRed calls RunHelpSystemCallback; RunHelpSystemCallback 0x813B870 has no BL and no pointer; HelpSystemRenderText 0x813C078 also draws the save-failed screen, whose texts (s0418C83, s0418CD9, s0418E09) hold no PC-name fill, so hash:423672b4 / hash:bac72592 are not reached that way)
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x041dfbe
+msgctxt "hash:c40ab4b9"
+msgid "hash:c40ab4b9"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: help system: CallCallbacks 0x8000510 has five NOPs (C0 46) at 0x800051A-0x8000522 where FireRed calls RunHelpSystemCallback; RunHelpSystemCallback 0x813B870 has no BL and no pointer; HelpSystemRenderText 0x813C078 also draws the save-failed screen, whose texts (s0418C83, s0418CD9, s0418E09) hold no PC-name fill, so hash:423672b4 / hash:bac72592 are not reached that way)
+#. category: code; mode: field
+#. original lines: 1, widths px: 82
+#: 0x041dfc9
+msgctxt "hash:bbe09274"
+msgid "hash:bbe09274"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 106
+#: 0x041e0a5
+msgctxt "hash:c1bfe85d"
+msgid "hash:c1bfe85d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 98
+#: 0x041e0c0
+msgctxt "hash:3f63a278"
+msgid "hash:3f63a278"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x041e0d2
+msgctxt "hash:513956b7"
+msgid "hash:513956b7"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x041e0da
+msgctxt "hash:10bb9bb9"
+msgid "hash:10bb9bb9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x041e0e0
+msgctxt "hash:a5275b0d"
+msgid "hash:a5275b0d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 150
+#: 0x041e0ee
+msgctxt "hash:6516cd1f"
+msgid "hash:6516cd1f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x041e10a
+msgctxt "hash:502b68ce"
+msgid "hash:502b68ce"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x041e112
+msgctxt "hash:03655fb9"
+msgid "hash:03655fb9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 122, 66
+#: 0x041e118
+msgctxt "hash:8c0df481"
+msgid "hash:8c0df481"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 44, 49
+#: 0x041e1e9
+msgctxt "hash:18696397"
+msgid "hash:18696397"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 59
+#: 0x041e200
+msgctxt "hash:83bad9f8"
+msgid "hash:83bad9f8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x041e20d
+msgctxt "hash:5b634803"
+msgid "hash:5b634803"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 111
+#: 0x041e21e
+msgctxt "hash:688f5526"
+msgid "hash:688f5526"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x041e234
+msgctxt "hash:59c500a5"
+msgid "hash:59c500a5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 122
+#: 0x041e325
+msgctxt "hash:f7f7bd45"
+msgid "hash:f7f7bd45"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 144, 56
+#: 0x041e33c
+msgctxt "hash:575b5285"
+msgid "hash:575b5285"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x041e361
+msgctxt "hash:37b5137f"
+msgid "hash:37b5137f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 144, 93
+#: 0x041e37c
+msgctxt "hash:7318359d"
+msgid "hash:7318359d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 187, 137
+#: 0x041e3a8
+msgctxt "hash:b5d51c94"
+msgid "hash:b5d51c94"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 123
+#: 0x041e3e3
+msgctxt "hash:137d9b5c"
+msgid "hash:137d9b5c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x041e3fb
+msgctxt "hash:f4887a1b"
+msgid "hash:f4887a1b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 45, 5
+#: 0x041e405
+msgctxt "hash:807caebe"
+msgid "hash:807caebe"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 102, 5, 116, 90, 161, 57
+#: 0x041e414
+msgctxt "hash:2c131e89"
+msgid "hash:2c131e89"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 83
+#: 0x041e481
+msgctxt "hash:f672f1ee"
+msgid "hash:f672f1ee"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 122, 0
+#: 0x041e493
+msgctxt "hash:994c237d"
+msgid "hash:994c237d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 50, 23, 0, 50
+#: 0x041e4c0
+msgctxt "hash:a0bd5975"
+msgid "hash:a0bd5975"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 164, 53
+#: 0x041e4e2
+msgctxt "hash:1bcf1945"
+msgid "hash:1bcf1945"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 177, 0
+#: 0x041e50c
+msgctxt "hash:1a5b6f77"
+msgid "hash:1a5b6f77"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 122, 190
+#: 0x041e538
+msgctxt "hash:fc44606d"
+msgid "hash:fc44606d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 130
+#: 0x041e572
+msgctxt "hash:1ac5c897"
+msgid "hash:1ac5c897"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 107
+#: 0x041e58d
+msgctxt "hash:c97436f6"
+msgid "hash:c97436f6"
+msgstr ""
+
+#. reach: never shown (review: Fame Checker: FieldUseFunc_FameChecker 0x80A1CF8 is referenced only from 0x3DEEA8 (item 363 of the vanilla gItems 0x3DB028, which no code reads); UseFameChecker 0x812C3AC is called only from 0x80A1D5C / 0x80A1D84 in that path; bars at 0x812D0FC, names table 0x45F60C (pool 0x812DF48))
+#. category: code; mode: field
+#. original lines: 1, widths px: 82
+#: 0x041e5a4
+msgctxt "hash:d29e6026"
+msgid "hash:d29e6026"
+msgstr ""
+
+#. reach: never shown (review: Fame Checker: FieldUseFunc_FameChecker 0x80A1CF8 is referenced only from 0x3DEEA8 (item 363 of the vanilla gItems 0x3DB028, which no code reads); UseFameChecker 0x812C3AC is called only from 0x80A1D5C / 0x80A1D84 in that path; bars at 0x812D0FC, names table 0x45F60C (pool 0x812DF48))
+#. category: code; mode: field
+#. original lines: 1, widths px: 104
+#: 0x041e5b9
+msgctxt "hash:58c93722"
+msgid "hash:58c93722"
+msgstr ""
+
+#. reach: never shown (review: Fame Checker: FieldUseFunc_FameChecker 0x80A1CF8 is referenced only from 0x3DEEA8 (item 363 of the vanilla gItems 0x3DB028, which no code reads); UseFameChecker 0x812C3AC is called only from 0x80A1D5C / 0x80A1D84 in that path; bars at 0x812D0FC, names table 0x45F60C (pool 0x812DF48))
+#. category: code; mode: field
+#. original lines: 1, widths px: 94
+#: 0x041e5d2
+msgctxt "hash:36f03f32"
+msgid "hash:36f03f32"
+msgstr ""
+
+#. reach: never shown (review: Fame Checker: FieldUseFunc_FameChecker 0x80A1CF8 is referenced only from 0x3DEEA8 (item 363 of the vanilla gItems 0x3DB028, which no code reads); UseFameChecker 0x812C3AC is called only from 0x80A1D5C / 0x80A1D84 in that path; bars at 0x812D0FC, names table 0x45F60C (pool 0x812DF48))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x041e5e9
+msgctxt "hash:ce0b3c43"
+msgid "hash:ce0b3c43"
+msgstr ""
+
+#. reach: never shown (review: Fame Checker: FieldUseFunc_FameChecker 0x80A1CF8 is referenced only from 0x3DEEA8 (item 363 of the vanilla gItems 0x3DB028, which no code reads); UseFameChecker 0x812C3AC is called only from 0x80A1D5C / 0x80A1D84 in that path; bars at 0x812D0FC, names table 0x45F60C (pool 0x812DF48))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x041e5ed
+msgctxt "hash:abe07669"
+msgid "hash:abe07669"
+msgstr ""
+
+#. reach: never shown (review: Fame Checker: FieldUseFunc_FameChecker 0x80A1CF8 is referenced only from 0x3DEEA8 (item 363 of the vanilla gItems 0x3DB028, which no code reads); UseFameChecker 0x812C3AC is called only from 0x80A1D5C / 0x80A1D84 in that path; bars at 0x812D0FC, names table 0x45F60C (pool 0x812DF48))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x041e5f3
+msgctxt "hash:8fd75351"
+msgid "hash:8fd75351"
+msgstr ""
+
+#. reach: never shown (review: Fame Checker: FieldUseFunc_FameChecker 0x80A1CF8 is referenced only from 0x3DEEA8 (item 363 of the vanilla gItems 0x3DB028, which no code reads); UseFameChecker 0x812C3AC is called only from 0x80A1D5C / 0x80A1D84 in that path; bars at 0x812D0FC, names table 0x45F60C (pool 0x812DF48))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x041e5f8
+msgctxt "hash:d641f1de"
+msgid "hash:d641f1de"
+msgstr ""
+
+#. reach: never shown (review: Mystery Gift menu descriptions: no word in the ROM points at their table 0x466ED8 (the nearest code pointers are 0x8466EC0 and 0x8466EE8); FireRed's unused menu texts)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 200, 153
+#: 0x041e5fd
+msgctxt "hash:e9997c20"
+msgid "hash:e9997c20"
+msgstr ""
+
+#. reach: never shown (review: Mystery Gift menu descriptions: no word in the ROM points at their table 0x466ED8 (the nearest code pointers are 0x8466EC0 and 0x8466EE8); FireRed's unused menu texts)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 58
+#: 0x041e63f
+msgctxt "hash:f98a4ed8"
+msgid "hash:f98a4ed8"
+msgstr ""
+
+#. reach: never shown (review: Mystery Gift menu descriptions: no word in the ROM points at their table 0x466ED8 (the nearest code pointers are 0x8466EC0 and 0x8466EE8); FireRed's unused menu texts)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 154
+#: 0x041e669
+msgctxt "hash:f1ff8ad5"
+msgid "hash:f1ff8ad5"
+msgstr ""
+
+#. reach: never shown (review: Mystery Gift menu descriptions: no word in the ROM points at their table 0x466ED8 (the nearest code pointers are 0x8466EC0 and 0x8466EE8); FireRed's unused menu texts)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 148
+#: 0x041e685
+msgctxt "hash:bc78c494"
+msgid "hash:bc78c494"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 168, 157
+#: 0x041e6a1
+msgctxt "hash:c5c88754"
+msgid "hash:c5c88754"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 179, 145
+#: 0x041e6dc
+msgctxt "hash:e523710e"
+msgid "hash:e523710e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 164, 70
+#: 0x041e717
+msgctxt "hash:f066aea9"
+msgid "hash:f066aea9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 164, 70
+#: 0x041e741
+msgctxt "hash:2ec5bbe0"
+msgid "hash:2ec5bbe0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 77
+#: 0x041e794
+msgctxt "hash:0bdf0e67"
+msgid "hash:0bdf0e67"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 134
+#: 0x041e7a3
+msgctxt "hash:d2786ac2"
+msgid "hash:d2786ac2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 109
+#: 0x041e7bc
+msgctxt "hash:e0d2f8f5"
+msgid "hash:e0d2f8f5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 180
+#: 0x041e7d1
+msgctxt "hash:712c521d"
+msgid "hash:712c521d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 154, 120
+#: 0x041e7f2
+msgctxt "hash:51685510"
+msgid "hash:51685510"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 199, 168
+#: 0x041e823
+msgctxt "hash:02421120"
+msgid "hash:02421120"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 181, 33
+#: 0x041e866
+msgctxt "hash:c9632e23"
+msgid "hash:c9632e23"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 157, 84
+#: 0x041e88f
+msgctxt "hash:c8ea72a2"
+msgid "hash:c8ea72a2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 153, 50
+#: 0x041e8bd
+msgctxt "hash:87c2d5c2"
+msgid "hash:87c2d5c2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 180, 50
+#: 0x041e8e2
+msgctxt "hash:15806b1a"
+msgid "hash:15806b1a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 173
+#: 0x041e90c
+msgctxt "hash:b2bc35d1"
+msgid "hash:b2bc35d1"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 144
+#: 0x041e92b
+msgctxt "hash:32ce044a"
+msgid "hash:32ce044a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 116, 71
+#: 0x041e946
+msgctxt "hash:75fce114"
+msgid "hash:75fce114"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 116, 98
+#: 0x041e968
+msgctxt "hash:07c6398e"
+msgid "hash:07c6398e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 116, 35
+#: 0x041e98f
+msgctxt "hash:d3974463"
+msgid "hash:d3974463"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 173, 41
+#: 0x041e9ab
+msgctxt "hash:7ebfe7ac"
+msgid "hash:7ebfe7ac"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 190, 137
+#: 0x041e9d3
+msgctxt "hash:d7297234"
+msgid "hash:d7297234"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 174, 96
+#: 0x041ea0d
+msgctxt "hash:9ddf3e46"
+msgid "hash:9ddf3e46"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 162, 96
+#: 0x041ea3f
+msgctxt "hash:afdf8b9c"
+msgid "hash:afdf8b9c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 123
+#: 0x041ea6f
+msgctxt "hash:a98fcd9d"
+msgid "hash:a98fcd9d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 143, 128
+#: 0x041ea86
+msgctxt "hash:a18f3821"
+msgid "hash:a18f3821"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 143, 122
+#: 0x041eab7
+msgctxt "hash:4ed87665"
+msgid "hash:4ed87665"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 145
+#: 0x041eae7
+msgctxt "hash:1b8d9150"
+msgid "hash:1b8d9150"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 172
+#: 0x041eb01
+msgctxt "hash:2c662180"
+msgid "hash:2c662180"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 174, 22
+#: 0x041eb20
+msgctxt "hash:f732b626"
+msgid "hash:f732b626"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 174, 49
+#: 0x041eb46
+msgctxt "hash:bc0156b7"
+msgid "hash:bc0156b7"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 149
+#: 0x041eb71
+msgctxt "hash:5c7a5aed"
+msgid "hash:5c7a5aed"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 143
+#: 0x041eb8e
+msgctxt "hash:845028cd"
+msgid "hash:845028cd"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 117
+#: 0x041ebaa
+msgctxt "hash:4225401c"
+msgid "hash:4225401c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 117
+#: 0x041ebde
+msgctxt "hash:6d56bdb9"
+msgid "hash:6d56bdb9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 81
+#: 0x041ec12
+msgctxt "hash:b7fe9b80"
+msgid "hash:b7fe9b80"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 147, 76
+#: 0x041ec40
+msgctxt "hash:2c46cf76"
+msgid "hash:2c46cf76"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 184, 68
+#: 0x041ec6a
+msgctxt "hash:5f3e17ee"
+msgid "hash:5f3e17ee"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 157, 160
+#: 0x041ec99
+msgctxt "hash:f8b22834"
+msgid "hash:f8b22834"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 142, 57
+#: 0x041ecd3
+msgctxt "hash:549231a8"
+msgid "hash:549231a8"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 135, 157
+#: 0x041ecf9
+msgctxt "hash:9ff5fa53"
+msgid "hash:9ff5fa53"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 107, 66
+#: 0x041ed2f
+msgctxt "hash:72ddd318"
+msgid "hash:72ddd318"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 87, 146
+#: 0x041ed50
+msgctxt "hash:e316fcb0"
+msgid "hash:e316fcb0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 187
+#: 0x041ed7b
+msgctxt "hash:2a46484f"
+msgid "hash:2a46484f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 187
+#: 0x041ed9c
+msgctxt "hash:7f0e724e"
+msgid "hash:7f0e724e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 72
+#: 0x041edbd
+msgctxt "hash:0c9e226e"
+msgid "hash:0c9e226e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 69
+#: 0x041edca
+msgctxt "hash:3bf4dc27"
+msgid "hash:3bf4dc27"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x041eddd
+msgctxt "hash:59cafcbc"
+msgid "hash:59cafcbc"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x041edea
+msgctxt "hash:0b06373f"
+msgid "hash:0b06373f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 132
+#: 0x041edf6
+msgctxt "hash:1971e5f8"
+msgid "hash:1971e5f8"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x041ee0d
+msgctxt "hash:17020846"
+msgid "hash:17020846"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x041ee14
+msgctxt "hash:c1a65faf"
+msgid "hash:c1a65faf"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 95
+#: 0x041ee2b
+msgctxt "hash:2533d74f"
+msgid "hash:2533d74f"
+msgstr ""

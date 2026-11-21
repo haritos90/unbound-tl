@@ -1,0 +1,79 @@
+name: Pull request check comment
+
+on:
+  workflow_run:
+    workflows: ['Pull request checks']
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Find the check artifact
+        id: artifact
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const artifacts = await github.paginate(github.rest.actions.listWorkflowRunArtifacts, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.payload.workflow_run.id,
+              per_page: 100,
+            });
+            return artifacts.some(artifact => artifact.name === 'pr-check');
+      - name: Download report and approximate previews
+        if: steps.artifact.outputs.result == 'true'
+        uses: actions/download-artifact@v7
+        with:
+          name: pr-check
+          path: pr-check
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - name: Create or update the check comment
+        if: steps.artifact.outputs.result == 'true'
+        env:
+          PR_NUMBER_FILE: pr-check/pr-number.txt
+          REPORT_FILE: pr-check/report.md
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const prNumber = Number(fs.readFileSync(process.env.PR_NUMBER_FILE, 'utf8').trim());
+            if (!Number.isSafeInteger(prNumber) || prNumber < 1) {
+              throw new Error('Invalid pull request number in pr-check artifact');
+            }
+            const report = fs.readFileSync(process.env.REPORT_FILE, 'utf8');
+            const marker = '<!-- gen3tl-pr-check -->';
+            const artifact = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${process.env.RUN_ID}#artifacts`;
+            const body = `${marker}\n${report}\n[Download the pr-check artifact with before/after PNGs](${artifact})\n`;
+            if (body.length > 65000) {
+              throw new Error('pr-check report exceeds the comment size limit; use the artifact');
+            }
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              per_page: 100,
+            });
+            const previous = comments.find(comment => comment.body?.includes(marker));
+            if (previous) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: previous.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body,
+              });
+            }

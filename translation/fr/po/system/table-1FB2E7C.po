@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1FB2E7C\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: battle
+#. original lines: 10, widths px: 174, 161, 167, 66, 185, 57, 177, 115, 70, 184
+#: 0x1f9598e
+msgctxt "hash:3947dc2c"
+msgid "hash:3947dc2c"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x1f9b2a7
+msgctxt "hash:7be1154b"
+msgid "hash:7be1154b"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x1f9b2b3
+msgctxt "hash:5327ef4d"
+msgid "hash:5327ef4d"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: code; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1f9b2bf
+msgctxt "hash:06c4df88"
+msgid "hash:06c4df88"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x1f9b2cb
+msgctxt "hash:d471e487"
+msgid "hash:d471e487"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f9b2d7
+msgctxt "hash:a742433a"
+msgid "hash:a742433a"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x1f9b2e3
+msgctxt "hash:fffe113f"
+msgid "hash:fffe113f"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f9b2ef
+msgctxt "hash:532865c8"
+msgid "hash:532865c8"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x1f9b2fb
+msgctxt "hash:1fbef85b"
+msgid "hash:1fbef85b"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f9b308
+msgctxt "hash:ae8d0ca2"
+msgid "hash:ae8d0ca2"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 61
+#: 0x1f9b314
+msgctxt "hash:4420c1cb"
+msgid "hash:4420c1cb"
+msgstr ""
+
+#. reach: never shown (review: Battle Tower purchase keys: records {name, species} at 0x1FB2E7C; 0x1EB7D98 lowercases the typed name and compares it with these keys (0x1EB7EEA-0x1EB7F0A); never printed)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 70
+#: 0x1f9b320
+msgctxt "hash:33148293"
+msgid "hash:33148293"
+msgstr ""

@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03DDBE4\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 171, 151
+#: 0x03d8802
+msgctxt "hash:8db17579"
+msgid "hash:8db17579"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 171, 163
+#: 0x03d885f
+msgctxt "hash:68788e66"
+msgid "hash:68788e66"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 171, 151
+#: 0x03d88be
+msgctxt "hash:a74f0c7d"
+msgid "hash:a74f0c7d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 171, 157
+#: 0x03d891b
+msgctxt "hash:c6213c40"
+msgid "hash:c6213c40"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 171, 157
+#: 0x03d8979
+msgctxt "hash:05d243cf"
+msgid "hash:05d243cf"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 187, 136
+#: 0x03d89d7
+msgctxt "table:items/259/description"
+msgid "table:items/259/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 108, 152
+#: 0x03d8a14
+msgctxt "hash:42313710"
+msgid "hash:42313710"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 175, 178, 188
+#: 0x03d8a66
+msgctxt "hash:6f69b74d"
+msgid "hash:6f69b74d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 173, 171, 120
+#: 0x03d8acc
+msgctxt "table:items/262/description"
+msgid "table:items/262/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 177, 171, 120
+#: 0x03d8b23
+msgctxt "table:items/263/description"
+msgid "table:items/263/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 197, 94
+#: 0x03d8b7b
+msgctxt "table:items/264/description"
+msgid "table:items/264/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 156, 167, 151
+#: 0x03d8bd4
+msgctxt "table:items/265/description"
+msgid "table:items/265/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: item descriptions pointed only from +0x14 of the vanilla FireRed gItems 0x3DB028, which no code reads; Unbound's items table is 0x876200)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 166, 151, 182
+#: 0x03d8c2e
+msgctxt "hash:e03a8ca0"
+msgid "hash:e03a8ca0"
+msgstr ""

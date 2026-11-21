@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/berry_blender_possessive\n"
+"X-Source: key-only\n"
+
+# appended to the nickname
+# the stat fragments follow ": "
+#. category: table:berry_blender_possessive; mode: field
+#. fixed field: 3 characters max (table berry_blender_possessive, index 0)
+#. original lines: 1, widths px: 8
+#: 0x1ebbb88
+msgctxt "table:berry_blender_possessive/0"
+msgid "table:berry_blender_possessive/0"
+msgstr ": "

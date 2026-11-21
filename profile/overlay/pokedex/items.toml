@@ -1,0 +1,961 @@
+[pokedex.items]
+base = 0x876200
+stride = 44
+count = 729
+name_table = "items"
+long_name_pointers = true
+
+[pokedex.items.fields]
+price = { offset = 16, width = 2 }
+held_effect = 18
+hold_effect_param = 19
+description = { offset = 20, width = 4 }
+pocket = 26
+battle_usage = 32
+
+[pokedex.items.sell_price]
+divisor = 2
+rounding = "floor"
+minimum_price = 1
+pockets = [1, 2, 3, 5]
+
+[pokedex.items.held_effects]
+type_parameters = [72, 86, 87, 94, 95, 129, 130]
+
+[pokedex.items.held_effects.names]
+1 = "Restore {n} HP"
+2 = "Cure paralysis"
+3 = "Cure sleep"
+4 = "Cure poison"
+5 = "Cure burn"
+6 = "Cure freezing"
+7 = "Restore {n} PP"
+8 = "Cure confusion"
+9 = "Cure status conditions"
+10 = "Restore HP; may confuse if spicy is disliked"
+11 = "Restore HP; may confuse if dry is disliked"
+12 = "Restore HP; may confuse if sweet is disliked"
+13 = "Restore HP; may confuse if bitter is disliked"
+14 = "Restore HP; may confuse if sour is disliked"
+15 = "Raise Attack in a pinch"
+16 = "Raise Defense in a pinch"
+17 = "Raise Speed in a pinch"
+18 = "Raise Sp. Atk in a pinch"
+19 = "Raise Sp. Def in a pinch"
+20 = "Raise critical-hit ratio in a pinch"
+21 = "Raise a random stat in a pinch"
+22 = "Lower incoming accuracy by {n}%"
+23 = "Restore lowered stats"
+25 = "Share experience"
+26 = "Move first: {n}% chance"
+27 = "Boost friendship gain"
+28 = "Cure mental restrictions"
+30 = "Cause flinching: {n}% chance"
+32 = "Double prize money"
+33 = "Reduce wild encounters"
+34 = "Boost Latias and Latios"
+35 = "Boost Clamperl’s Sp. Atk"
+36 = "Boost Clamperl’s Sp. Def"
+37 = "Escape from wild battles"
+38 = "Prevent evolution"
+39 = "Survive a hit: {n}% chance"
+40 = "Boost experience gain"
+41 = "Raise critical-hit ratio"
+43 = "Restore HP each turn"
+45 = "Boost Pikachu’s offenses"
+62 = "Recover 1/{n} of damage dealt as HP"
+63 = "Raise Chansey’s critical-hit ratio"
+64 = "Boost Ditto’s Defense"
+65 = "Boost Cubone and Marowak’s Attack"
+66 = "Raise Farfetch’d’s critical-hit ratio"
+68 = "Damage contact attackers"
+69 = "Boost Ditto’s Speed"
+70 = "Boost Sp. Def; prevent status moves"
+71 = "Boost defenses of unevolved Pokémon"
+72 = "Type plate: {type}"
+73 = "Enable Mega Evolution"
+74 = "Boost damage at an HP cost"
+75 = "Badly poison the holder"
+76 = "Burn the holder"
+77 = "Heal Poison types; harm others"
+78 = "Extend sandstorm"
+79 = "Extend rain"
+80 = "Extend sun"
+81 = "Extend hail"
+82 = "Extend protective screens"
+83 = "Boost accuracy by {n}%"
+84 = "Block powder and weather damage"
+85 = "Raise offenses after a supereffective hit"
+86 = "Drive type: {type}"
+87 = "Memory type: {type}"
+88 = "Boost Dialga’s Dragon and Steel moves"
+89 = "Boost Palkia’s Dragon and Water moves"
+90 = "Boost Giratina’s Dragon and Ghost moves"
+91 = "Share infatuation"
+92 = "Boost supereffective damage"
+94 = "Single-use type boost: {type}"
+95 = "Resist damage of type: {type}"
+96 = "Move first in a pinch"
+97 = "Move last"
+98 = "Lower Speed and ground the holder"
+99 = "Boost trapping damage"
+101 = "Block contact effects"
+102 = "Raise Sp. Atk after a Water hit"
+103 = "Float until hit"
+104 = "Boost HP draining"
+105 = "Raise Attack after an Electric hit"
+106 = "Switch out after a hit"
+107 = "Halve weight"
+108 = "Extend trapping moves"
+109 = "Raise Sp. Def after a Water hit"
+111 = "Boost repeated use of a move"
+112 = "Boost physical moves"
+113 = "Force the attacker to switch out"
+114 = "Remove type immunities"
+115 = "Allow switching out"
+116 = "Raise Attack after an Ice hit"
+117 = "Damage holder; transfer on contact"
+118 = "Extend terrain"
+119 = "Boost special moves"
+122 = "Raise Defense after a physical hit"
+123 = "Raise Sp. Def after a special hit"
+124 = "Boost accuracy by {n}% when moving later"
+125 = "Raise Speed after Intimidate"
+126 = "Skip a move’s charging turn"
+127 = "Raise accuracy in a pinch"
+128 = "Restore HP after a supereffective hit"
+129 = "Boost moves of type: {type}"
+130 = "Enable Z-Moves of type: {type}"
+132 = "Switch out after a stat drop"
+133 = "Lower Speed in Trick Room"
+134 = "Raise Speed after missing"
+135 = "Ignore entry hazards"
+136 = "Ignore sun and rain effects"
+137 = "Raise Sp. Atk after a sound move"
+138 = "Change Zacian’s form"
+139 = "Change Zamazenta’s form"
+
+[pokedex.items.held_effects.variants."24"]
+0 = "Double EV gain"
+1 = "Boost HP EV gain"
+2 = "Boost Attack EV gain"
+3 = "Boost Defense EV gain"
+4 = "Boost Speed EV gain"
+5 = "Boost Sp. Atk EV gain"
+6 = "Boost Sp. Def EV gain"
+
+[pokedex.items.held_effects.variants."29"]
+0 = "Boost Attack; lock one move"
+1 = "Boost Sp. Atk; lock one move"
+2 = "Boost Speed; lock one move"
+
+[pokedex.items.held_effects.variants."93"]
+0 = "Enable Groudon’s Primal Reversion"
+1 = "Enable Kyogre’s Primal Reversion"
+
+[pokedex.items.held_effects.variants."120"]
+1 = "Raise Defense on Electric Terrain"
+2 = "Raise Defense on Grassy Terrain"
+3 = "Raise Sp. Def on Misty Terrain"
+4 = "Raise Sp. Def on Psychic Terrain"
+
+[pokedex.items.held_effects.variants."121"]
+0 = "Damage an attacker after a physical hit"
+1 = "Damage an attacker after a special hit"
+
+[pokedex.items.held_effects.overrides]
+142 = { effect = 1, key = "Restore a quarter of maximum HP" }
+445 = { effect = 73, key = "Enable Ultra Burst" }
+570 = { effect = 39, key = "Survive a hit at full HP" }
+688 = { effect = 130, key = "Enable a species-specific Z-Move" }
+689 = { effect = 130, key = "Enable a species-specific Z-Move" }
+690 = { effect = 130, key = "Enable a species-specific Z-Move" }
+691 = { effect = 130, key = "Enable a species-specific Z-Move" }
+692 = { effect = 130, key = "Enable a species-specific Z-Move" }
+693 = { effect = 130, key = "Enable a species-specific Z-Move" }
+694 = { effect = 130, key = "Enable a species-specific Z-Move" }
+695 = { effect = 130, key = "Enable a species-specific Z-Move" }
+696 = { effect = 130, key = "Enable a species-specific Z-Move" }
+697 = { effect = 130, key = "Enable a species-specific Z-Move" }
+698 = { effect = 130, key = "Enable a species-specific Z-Move" }
+699 = { effect = 130, key = "Enable a species-specific Z-Move" }
+700 = { effect = 130, key = "Enable a species-specific Z-Move" }
+701 = { effect = 130, key = "Enable a species-specific Z-Move" }
+702 = { effect = 130, key = "Enable a species-specific Z-Move" }
+703 = { effect = 130, key = "Enable a species-specific Z-Move" }
+
+[pokedex.items.held_effects.amounts."1"]
+key = "Restore {n} HP at 1/{d} HP or less"
+values = { d = 2 }
+rom = [{ offset = 0x9f54c6, size = 12, sha256 = "403bf7d6955b7f9d0af3e647f56423f9a126ac92ca424d191a6dae33c40e2efb" }, { offset = 0x9f56c4, size = 60, sha256 = "cc37739acea007d94c05c9697b402c97503f7a9f65ed78ce7aa4cc3be3ae1d35" }, { offset = 0x9f5700, size = 36, sha256 = "00d2ea165420788778a7c35f3cca8d42ef6c6d2491111d204573d2120966de19" }, { offset = 0x9f576c, size = 8, sha256 = "317080ab1f1f50db19c9b6da21f932127a1a840b99023777ee67d52dd3d943f9" }]
+
+[pokedex.items.held_effects.amounts."10"]
+key = "Restore 1/{d} of maximum HP at 1/4 HP or less; may confuse if spicy is disliked"
+values = { d = 2 }
+rom = [{ offset = 0x9f5540, size = 8, sha256 = "42664a56a12663f4355d3a5ab25af3224f949fa642022d478064b2f9cfe2673b" }, { offset = 0x9f5584, size = 18, sha256 = "38996f8c91d19d5edba341c1e7d77f8fbafabfcdfaa3f3d983ad5ec5727999a5" }, { offset = 0x9f59cc, size = 44, sha256 = "9d926447a48222baab54362db2f1edad20a213db5c7db6c750b6e906ed7bb2ca" }, { offset = 0x9f5076, size = 54, sha256 = "5ae9ab680f9b179fe65ff6b22b3c9136bf1c6315d1f776e5a244b1779cca7a72" }, { offset = 0x9f50c2, size = 44, sha256 = "8ada071212b023de52a0fc8cbc130452f67a666a6bfe63bf9e0ab378f1f839bc" }]
+
+[pokedex.items.held_effects.amounts."11"]
+key = "Restore 1/{d} of maximum HP at 1/4 HP or less; may confuse if dry is disliked"
+values = { d = 2 }
+rom = [{ offset = 0x9f5540, size = 8, sha256 = "42664a56a12663f4355d3a5ab25af3224f949fa642022d478064b2f9cfe2673b" }, { offset = 0x9f5584, size = 18, sha256 = "38996f8c91d19d5edba341c1e7d77f8fbafabfcdfaa3f3d983ad5ec5727999a5" }, { offset = 0x9f59cc, size = 44, sha256 = "9d926447a48222baab54362db2f1edad20a213db5c7db6c750b6e906ed7bb2ca" }, { offset = 0x9f5076, size = 54, sha256 = "5ae9ab680f9b179fe65ff6b22b3c9136bf1c6315d1f776e5a244b1779cca7a72" }, { offset = 0x9f50c2, size = 44, sha256 = "8ada071212b023de52a0fc8cbc130452f67a666a6bfe63bf9e0ab378f1f839bc" }]
+
+[pokedex.items.held_effects.amounts."12"]
+key = "Restore 1/{d} of maximum HP at 1/4 HP or less; may confuse if sweet is disliked"
+values = { d = 2 }
+rom = [{ offset = 0x9f5540, size = 8, sha256 = "42664a56a12663f4355d3a5ab25af3224f949fa642022d478064b2f9cfe2673b" }, { offset = 0x9f5584, size = 18, sha256 = "38996f8c91d19d5edba341c1e7d77f8fbafabfcdfaa3f3d983ad5ec5727999a5" }, { offset = 0x9f59cc, size = 44, sha256 = "9d926447a48222baab54362db2f1edad20a213db5c7db6c750b6e906ed7bb2ca" }, { offset = 0x9f5076, size = 54, sha256 = "5ae9ab680f9b179fe65ff6b22b3c9136bf1c6315d1f776e5a244b1779cca7a72" }, { offset = 0x9f50c2, size = 44, sha256 = "8ada071212b023de52a0fc8cbc130452f67a666a6bfe63bf9e0ab378f1f839bc" }]
+
+[pokedex.items.held_effects.amounts."13"]
+key = "Restore 1/{d} of maximum HP at 1/4 HP or less; may confuse if bitter is disliked"
+values = { d = 2 }
+rom = [{ offset = 0x9f5540, size = 8, sha256 = "42664a56a12663f4355d3a5ab25af3224f949fa642022d478064b2f9cfe2673b" }, { offset = 0x9f5584, size = 18, sha256 = "38996f8c91d19d5edba341c1e7d77f8fbafabfcdfaa3f3d983ad5ec5727999a5" }, { offset = 0x9f59cc, size = 44, sha256 = "9d926447a48222baab54362db2f1edad20a213db5c7db6c750b6e906ed7bb2ca" }, { offset = 0x9f5076, size = 54, sha256 = "5ae9ab680f9b179fe65ff6b22b3c9136bf1c6315d1f776e5a244b1779cca7a72" }, { offset = 0x9f50c2, size = 44, sha256 = "8ada071212b023de52a0fc8cbc130452f67a666a6bfe63bf9e0ab378f1f839bc" }]
+
+[pokedex.items.held_effects.amounts."14"]
+key = "Restore 1/{d} of maximum HP at 1/4 HP or less; may confuse if sour is disliked"
+values = { d = 2 }
+rom = [{ offset = 0x9f5540, size = 8, sha256 = "42664a56a12663f4355d3a5ab25af3224f949fa642022d478064b2f9cfe2673b" }, { offset = 0x9f5584, size = 18, sha256 = "38996f8c91d19d5edba341c1e7d77f8fbafabfcdfaa3f3d983ad5ec5727999a5" }, { offset = 0x9f59cc, size = 44, sha256 = "9d926447a48222baab54362db2f1edad20a213db5c7db6c750b6e906ed7bb2ca" }, { offset = 0x9f5076, size = 54, sha256 = "5ae9ab680f9b179fe65ff6b22b3c9136bf1c6315d1f776e5a244b1779cca7a72" }, { offset = 0x9f50c2, size = 44, sha256 = "8ada071212b023de52a0fc8cbc130452f67a666a6bfe63bf9e0ab378f1f839bc" }]
+
+[pokedex.items.held_effects.amounts."15"]
+key = "Raise Attack +{s} at 1/{d} HP or less"
+values = { s = 1, d = 4 }
+rom = [{ offset = 0x9f559e, size = 52, sha256 = "4283a750be09a39734022d85a1e435c8f46495114c82fc4460066cc76e67d906" }, { offset = 0x9f59fa, size = 24, sha256 = "d3b35a3edadfa0f475804f3acbca933ae30918ab7c996409d29ed40410125cb1" }, { offset = 0x9f4d86, size = 44, sha256 = "72aeb01457a2341650705e7886c22330fc9d538e8de07a52b9685c03c3ce4857" }, { offset = 0x9f4dc0, size = 8, sha256 = "76ecaf25f6fe8f67c6e921a6963b70ebe329a619618b917c3be65ced1b03b00c" }, { offset = 0x9f4dee, size = 16, sha256 = "ede001e2a2b287f52aaf65e7981c889981806e794d5de463deff2b55599edf78" }]
+
+[pokedex.items.held_effects.amounts."16"]
+key = "Raise Defense +{s} at 1/{d} HP or less"
+values = { s = 1, d = 4 }
+rom = [{ offset = 0x9f559e, size = 52, sha256 = "4283a750be09a39734022d85a1e435c8f46495114c82fc4460066cc76e67d906" }, { offset = 0x9f59fa, size = 24, sha256 = "d3b35a3edadfa0f475804f3acbca933ae30918ab7c996409d29ed40410125cb1" }, { offset = 0x9f4d86, size = 44, sha256 = "72aeb01457a2341650705e7886c22330fc9d538e8de07a52b9685c03c3ce4857" }, { offset = 0x9f4dc0, size = 8, sha256 = "76ecaf25f6fe8f67c6e921a6963b70ebe329a619618b917c3be65ced1b03b00c" }, { offset = 0x9f4dee, size = 16, sha256 = "ede001e2a2b287f52aaf65e7981c889981806e794d5de463deff2b55599edf78" }]
+
+[pokedex.items.held_effects.amounts."17"]
+key = "Raise Speed +{s} at 1/{d} HP or less"
+values = { s = 1, d = 4 }
+rom = [{ offset = 0x9f559e, size = 52, sha256 = "4283a750be09a39734022d85a1e435c8f46495114c82fc4460066cc76e67d906" }, { offset = 0x9f59fa, size = 24, sha256 = "d3b35a3edadfa0f475804f3acbca933ae30918ab7c996409d29ed40410125cb1" }, { offset = 0x9f4d86, size = 44, sha256 = "72aeb01457a2341650705e7886c22330fc9d538e8de07a52b9685c03c3ce4857" }, { offset = 0x9f4dc0, size = 8, sha256 = "76ecaf25f6fe8f67c6e921a6963b70ebe329a619618b917c3be65ced1b03b00c" }, { offset = 0x9f4dee, size = 16, sha256 = "ede001e2a2b287f52aaf65e7981c889981806e794d5de463deff2b55599edf78" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."18"]
+key = "Raise Sp. Atk +{s} at 1/{d} HP or less"
+values = { s = 1, d = 4 }
+rom = [{ offset = 0x9f559e, size = 52, sha256 = "4283a750be09a39734022d85a1e435c8f46495114c82fc4460066cc76e67d906" }, { offset = 0x9f59fa, size = 24, sha256 = "d3b35a3edadfa0f475804f3acbca933ae30918ab7c996409d29ed40410125cb1" }, { offset = 0x9f4d86, size = 44, sha256 = "72aeb01457a2341650705e7886c22330fc9d538e8de07a52b9685c03c3ce4857" }, { offset = 0x9f4dc0, size = 8, sha256 = "76ecaf25f6fe8f67c6e921a6963b70ebe329a619618b917c3be65ced1b03b00c" }, { offset = 0x9f4dee, size = 16, sha256 = "ede001e2a2b287f52aaf65e7981c889981806e794d5de463deff2b55599edf78" }]
+
+[pokedex.items.held_effects.amounts."19"]
+key = "Raise Sp. Def +{s} at 1/{d} HP or less"
+values = { s = 1, d = 4 }
+rom = [{ offset = 0x9f559e, size = 52, sha256 = "4283a750be09a39734022d85a1e435c8f46495114c82fc4460066cc76e67d906" }, { offset = 0x9f59fa, size = 24, sha256 = "d3b35a3edadfa0f475804f3acbca933ae30918ab7c996409d29ed40410125cb1" }, { offset = 0x9f4d86, size = 44, sha256 = "72aeb01457a2341650705e7886c22330fc9d538e8de07a52b9685c03c3ce4857" }, { offset = 0x9f4dc0, size = 8, sha256 = "76ecaf25f6fe8f67c6e921a6963b70ebe329a619618b917c3be65ced1b03b00c" }, { offset = 0x9f4dee, size = 16, sha256 = "ede001e2a2b287f52aaf65e7981c889981806e794d5de463deff2b55599edf78" }]
+
+[pokedex.items.held_effects.amounts."20"]
+key = "Raise critical-hit ratio +{s} at 1/{d} HP or less"
+values = { s = 2, d = 4 }
+rom = [{ offset = 0x9f5596, size = 8, sha256 = "511a5245a33da31f56e206efaa9f692ea11585a445fd37657326ece6b88c7e84" }, { offset = 0x9f5a12, size = 36, sha256 = "eb5cf05aeb6c9f4ab2b6084a831e3c3b4ae942a3a6469c7f6da022bfbf816445" }, { offset = 0x9f5a36, size = 30, sha256 = "92f0a2c88933dccbce5f44df57ef456fee9ccac7293efd0b18f6984d36702924" }, { offset = 0x9ce4e0, size = 30, sha256 = "009b55f95d02a21c17cdce55dd20b2fb792b5ee65844ad25b90f14a907d6db06" }]
+
+[pokedex.items.held_effects.amounts."21"]
+key = "Raise a random stat +{s} at 1/{d} HP or less"
+values = { s = 2, d = 4 }
+rom = [{ offset = 0x9f55da, size = 8, sha256 = "8eeb9a692872aeb9063dfbe8d47edf054f661da5b97a4579d99cf6755e6bea59" }, { offset = 0x9f5adc, size = 36, sha256 = "f2dd2ce05683c66bdb1fb4d412cd943e2194e0a4953bfe7c65c97ff410fb67a4" }, { offset = 0x9f5b40, size = 64, sha256 = "adddc01c6474cff5ef9dc593b67d760dace89d168e73d77be53347f7dc8b2c12" }, { offset = 0x9f5b78, size = 18, sha256 = "d2f6790dd83813474285661bc2ddc02ea197ff4b8749c2b5d14a1fc67f2a9d6e" }]
+
+[pokedex.items.held_effects.amounts."24.0"]
+key = "Multiply EV gain: ×{x}; lower Speed: ×{y}"
+values = { x = 2, y = 0.5 }
+rom = [{ offset = 0x9e1ba6, size = 50, sha256 = "037401c4e7b02bfdbd5687721419b9487d9543cc7c4053aa56f8f29b7d08378e" }, { offset = 0x9e1c44, size = 8, sha256 = "283ab807f8c2443a7046c01f57acc085b73a33ae546cb7c1988bfa3bb7aa2b1f" }, { offset = 0x9f4a0a, size = 52, sha256 = "e229cf40d2dba565c41575594082427bcf3a4d51b9231f8a31751e06659336fa" }, { offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }, { offset = 0x1e832ac, size = 266, sha256 = "6107c6c35fdd3b7630127b9c56e9d8869fe443119c555088c865067aa04137c3" }, { offset = 0x1e5aa7c, size = 5, sha256 = "0bed70c685e69660bb078b0a2d053a0bf508adcb8d0c080c3ec9f2b331fe4865" }, { offset = 0x1e5aadb, size = 19, sha256 = "0e19247d64b1eef1d226be7c2c64318b69c0658f2fdc527b58be24080c6317a7" }, { offset = 0x1e5617b, size = 5, sha256 = "2d0670d99081baced198eb8c603b3ac272573b024186b45460d09376dc06bae0" }, { offset = 0x1e56199, size = 8, sha256 = "4f1b72b28c2f37c47a8815071d2b1a9193cac851e2a0e361194f4ae8853b065a" }, { offset = 0x1ec62c4, size = 88, sha256 = "3315f491e8f55cc224b8fc83d6fe8bc7e703b5f61f4c1a28b5f199ef308ecfb3" }, { offset = 0x1fb54cc, size = 16, sha256 = "28cb229418f3ed35fcc79763cc3619e7eae1da14e4a953c35152c94fc53b9d65" }, { offset = 0x1f10621, size = 42, sha256 = "83eda40e84f4d2b6d4296687d5404e6da755bc06d45ca41518fa257a8b9b6f68" }, { offset = 0x7b6638, size = 28, sha256 = "611301b0b12f4e0ad453f6d8a11cea1f2ec82f06c7d275ebb1d7c9377d5a8a3c" }, { offset = 0xb9a6ac, size = 8, sha256 = "d2d400cf5e357cb8569517cbea0977d3cb379cbd59f8a38d7a5e5706471063cd" }, { offset = 0xb9a4e4, size = 24, sha256 = "290b4dd803ebdb659b11ffbd599d78c9c5dc6314de225854259c83c9a6c1128a" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d694, size = 4, sha256 = "0d5fbc40ac58cfd5a8612b827ef0dafc14a19a13fd7ffe9625b698a17e051493" }, { offset = 0x77da98, size = 28, sha256 = "b447b028b8720edca221077b75b8f6cb49407aab24a419a60289b2e74a717639" }, { offset = 0xb8d0cc, size = 8, sha256 = "f2c2c7b0663c192449ba20287e9c9d59fdd48423d255f1adadd65d1daf84460b" }, { offset = 0xb8cf94, size = 24, sha256 = "3749e468bf3be897ea618099ac9e075cba1a0b4c2d4e59e0d7a80a16833286f3" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d678, size = 4, sha256 = "fc23091ed4eae373f984ab408996362b0627d09df72373334a19dddf2a691d45" }, { offset = 0x7853bc, size = 28, sha256 = "9a1d3260bc3a3c7ab8908d0b0d84162e92f05a8d51ddd280dc69f16fac3a6f33" }, { offset = 0xb95d1c, size = 8, sha256 = "bc6386d87436d4716e49ad017117565df155ed02856f630f3c7e00d39fafc65a" }, { offset = 0xb95be0, size = 24, sha256 = "e1642b2e7440c9755314c086b99bdb5a45f38d865bce29866fec71952748c2ea" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d688, size = 4, sha256 = "7f3b640a363c29dd731fc31e231e95deb340255a619966c2ecf994e403a140a0" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+levels = [
+  { level = 2, values = { x = 2, y = 0.5 } },
+  { level = 3, values = { x = 3, y = 0.5 } },
+  { level = 4, values = { x = 4, y = 0.5 } },
+  { level = 5, values = { x = 5, y = 0.5 } },
+  { level = 6, values = { x = 6, y = 0.5 } },
+  { level = 7, values = { x = 7, y = 0.5 } },
+  { level = 8, values = { x = 8, y = 0.5 } },
+  { level = 9, values = { x = 9, y = 0.5 } },
+  { level = 10, values = { x = 10, y = 0.5 } }
+]
+upgrade_sources = [
+  { key = "Black Belt (Vanilla or Difficult); trade Everstones equal to the target level.", map_sections = [100] },
+  { key = "Black Belt (Expert or Insane); trade Everstones equal to the target level.", map_sections = [91] }
+]
+
+[pokedex.items.held_effects.amounts."24.1"]
+key = "Boost HP EV gain: +{c}; lower Speed: ×{x}"
+values = { c = 8, x = 0.5 }
+rom = [{ offset = 0x9e1b48, size = 18, sha256 = "7b16f6dd1b2f0eaa00d87e8dcf7c2f4fb811af792d7077bff8cab31752d30dc0" }, { offset = 0x9e1be4, size = 58, sha256 = "54683a3e1b8d2580f48de45a0daaeb528fbb5ca14ea9fdf0c69f59792b1c4b8c" }, { offset = 0x9e1c44, size = 8, sha256 = "283ab807f8c2443a7046c01f57acc085b73a33ae546cb7c1988bfa3bb7aa2b1f" }, { offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }, { offset = 0x1e97dda, size = 323, sha256 = "fe2b734a95809eb57c70ccd65316a8fb743cd2307e7289552ca8a135134fd511" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x350998, size = 28, sha256 = "16f9e065e302c91bd559a2693ad11b4929ed3ce91ebe3441c9620e88280662c0" }, { offset = 0xb84aac, size = 8, sha256 = "2c19ec2d52f30e7440b7e3a808258398d23f3ee2ee343342fc3f80c7df476ac1" }, { offset = 0xb84a44, size = 24, sha256 = "ad27350a7101a067aa3ff3fb12b1ace5ec04413d2f9903f2bb052d4a60c561eb" }, { offset = 0xb704a0, size = 4, sha256 = "2b2ca18a7f28fc1f3640e73f5d01ccdf930873338caa97c00f9f5a82a8a6a920" }, { offset = 0x352374, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d5d0, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d6ec, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+levels = [
+  { level = 1, values = { c = 8, x = 0.5 } },
+  { level = 2, values = { c = 16, x = 0.5 } },
+  { level = 3, values = { c = 24, x = 0.5 } },
+  { level = 4, values = { c = 32, x = 0.5 } },
+  { level = 5, values = { c = 40, x = 0.5 } },
+  { level = 6, values = { c = 48, x = 0.5 } },
+  { level = 7, values = { c = 56, x = 0.5 } },
+  { level = 8, values = { c = 64, x = 0.5 } },
+  { level = 9, values = { c = 72, x = 0.5 } },
+  { level = 10, values = { c = 80, x = 0.5 } }
+]
+upgrade_sources = [
+  { key = "Defeat the Black Belt; levels 2–7 cost 2–7 Star Pieces, levels 8–10 cost 2–4 Comet Shards. All six Power items share the level.", map_sections = [138] }
+]
+
+[pokedex.items.held_effects.amounts."24.2"]
+key = "Boost Attack EV gain: +{c}; lower Speed: ×{x}"
+values = { c = 8, x = 0.5 }
+rom = [{ offset = 0x9e1b48, size = 18, sha256 = "7b16f6dd1b2f0eaa00d87e8dcf7c2f4fb811af792d7077bff8cab31752d30dc0" }, { offset = 0x9e1be4, size = 58, sha256 = "54683a3e1b8d2580f48de45a0daaeb528fbb5ca14ea9fdf0c69f59792b1c4b8c" }, { offset = 0x9e1c44, size = 8, sha256 = "283ab807f8c2443a7046c01f57acc085b73a33ae546cb7c1988bfa3bb7aa2b1f" }, { offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }, { offset = 0x1e97dda, size = 323, sha256 = "fe2b734a95809eb57c70ccd65316a8fb743cd2307e7289552ca8a135134fd511" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x350998, size = 28, sha256 = "16f9e065e302c91bd559a2693ad11b4929ed3ce91ebe3441c9620e88280662c0" }, { offset = 0xb84aac, size = 8, sha256 = "2c19ec2d52f30e7440b7e3a808258398d23f3ee2ee343342fc3f80c7df476ac1" }, { offset = 0xb84a44, size = 24, sha256 = "ad27350a7101a067aa3ff3fb12b1ace5ec04413d2f9903f2bb052d4a60c561eb" }, { offset = 0xb704a0, size = 4, sha256 = "2b2ca18a7f28fc1f3640e73f5d01ccdf930873338caa97c00f9f5a82a8a6a920" }, { offset = 0x352374, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d5d0, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d6ec, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+levels = [
+  { level = 1, values = { c = 8, x = 0.5 } },
+  { level = 2, values = { c = 16, x = 0.5 } },
+  { level = 3, values = { c = 24, x = 0.5 } },
+  { level = 4, values = { c = 32, x = 0.5 } },
+  { level = 5, values = { c = 40, x = 0.5 } },
+  { level = 6, values = { c = 48, x = 0.5 } },
+  { level = 7, values = { c = 56, x = 0.5 } },
+  { level = 8, values = { c = 64, x = 0.5 } },
+  { level = 9, values = { c = 72, x = 0.5 } },
+  { level = 10, values = { c = 80, x = 0.5 } }
+]
+upgrade_sources = [
+  { key = "Defeat the Black Belt; levels 2–7 cost 2–7 Star Pieces, levels 8–10 cost 2–4 Comet Shards. All six Power items share the level.", map_sections = [138] }
+]
+
+[pokedex.items.held_effects.amounts."24.3"]
+key = "Boost Defense EV gain: +{c}; lower Speed: ×{x}"
+values = { c = 8, x = 0.5 }
+rom = [{ offset = 0x9e1b48, size = 18, sha256 = "7b16f6dd1b2f0eaa00d87e8dcf7c2f4fb811af792d7077bff8cab31752d30dc0" }, { offset = 0x9e1be4, size = 58, sha256 = "54683a3e1b8d2580f48de45a0daaeb528fbb5ca14ea9fdf0c69f59792b1c4b8c" }, { offset = 0x9e1c44, size = 8, sha256 = "283ab807f8c2443a7046c01f57acc085b73a33ae546cb7c1988bfa3bb7aa2b1f" }, { offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }, { offset = 0x1e97dda, size = 323, sha256 = "fe2b734a95809eb57c70ccd65316a8fb743cd2307e7289552ca8a135134fd511" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x350998, size = 28, sha256 = "16f9e065e302c91bd559a2693ad11b4929ed3ce91ebe3441c9620e88280662c0" }, { offset = 0xb84aac, size = 8, sha256 = "2c19ec2d52f30e7440b7e3a808258398d23f3ee2ee343342fc3f80c7df476ac1" }, { offset = 0xb84a44, size = 24, sha256 = "ad27350a7101a067aa3ff3fb12b1ace5ec04413d2f9903f2bb052d4a60c561eb" }, { offset = 0xb704a0, size = 4, sha256 = "2b2ca18a7f28fc1f3640e73f5d01ccdf930873338caa97c00f9f5a82a8a6a920" }, { offset = 0x352374, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d5d0, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d6ec, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+levels = [
+  { level = 1, values = { c = 8, x = 0.5 } },
+  { level = 2, values = { c = 16, x = 0.5 } },
+  { level = 3, values = { c = 24, x = 0.5 } },
+  { level = 4, values = { c = 32, x = 0.5 } },
+  { level = 5, values = { c = 40, x = 0.5 } },
+  { level = 6, values = { c = 48, x = 0.5 } },
+  { level = 7, values = { c = 56, x = 0.5 } },
+  { level = 8, values = { c = 64, x = 0.5 } },
+  { level = 9, values = { c = 72, x = 0.5 } },
+  { level = 10, values = { c = 80, x = 0.5 } }
+]
+upgrade_sources = [
+  { key = "Defeat the Black Belt; levels 2–7 cost 2–7 Star Pieces, levels 8–10 cost 2–4 Comet Shards. All six Power items share the level.", map_sections = [138] }
+]
+
+[pokedex.items.held_effects.amounts."24.4"]
+key = "Boost Speed EV gain: +{c}; lower Speed: ×{x}"
+values = { c = 8, x = 0.5 }
+rom = [{ offset = 0x9e1b48, size = 18, sha256 = "7b16f6dd1b2f0eaa00d87e8dcf7c2f4fb811af792d7077bff8cab31752d30dc0" }, { offset = 0x9e1be4, size = 58, sha256 = "54683a3e1b8d2580f48de45a0daaeb528fbb5ca14ea9fdf0c69f59792b1c4b8c" }, { offset = 0x9e1c44, size = 8, sha256 = "283ab807f8c2443a7046c01f57acc085b73a33ae546cb7c1988bfa3bb7aa2b1f" }, { offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }, { offset = 0x1e97dda, size = 323, sha256 = "fe2b734a95809eb57c70ccd65316a8fb743cd2307e7289552ca8a135134fd511" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x350998, size = 28, sha256 = "16f9e065e302c91bd559a2693ad11b4929ed3ce91ebe3441c9620e88280662c0" }, { offset = 0xb84aac, size = 8, sha256 = "2c19ec2d52f30e7440b7e3a808258398d23f3ee2ee343342fc3f80c7df476ac1" }, { offset = 0xb84a44, size = 24, sha256 = "ad27350a7101a067aa3ff3fb12b1ace5ec04413d2f9903f2bb052d4a60c561eb" }, { offset = 0xb704a0, size = 4, sha256 = "2b2ca18a7f28fc1f3640e73f5d01ccdf930873338caa97c00f9f5a82a8a6a920" }, { offset = 0x352374, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d5d0, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d6ec, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+levels = [
+  { level = 1, values = { c = 8, x = 0.5 } },
+  { level = 2, values = { c = 16, x = 0.5 } },
+  { level = 3, values = { c = 24, x = 0.5 } },
+  { level = 4, values = { c = 32, x = 0.5 } },
+  { level = 5, values = { c = 40, x = 0.5 } },
+  { level = 6, values = { c = 48, x = 0.5 } },
+  { level = 7, values = { c = 56, x = 0.5 } },
+  { level = 8, values = { c = 64, x = 0.5 } },
+  { level = 9, values = { c = 72, x = 0.5 } },
+  { level = 10, values = { c = 80, x = 0.5 } }
+]
+upgrade_sources = [
+  { key = "Defeat the Black Belt; levels 2–7 cost 2–7 Star Pieces, levels 8–10 cost 2–4 Comet Shards. All six Power items share the level.", map_sections = [138] }
+]
+
+[pokedex.items.held_effects.amounts."24.5"]
+key = "Boost Sp. Atk EV gain: +{c}; lower Speed: ×{x}"
+values = { c = 8, x = 0.5 }
+rom = [{ offset = 0x9e1b48, size = 18, sha256 = "7b16f6dd1b2f0eaa00d87e8dcf7c2f4fb811af792d7077bff8cab31752d30dc0" }, { offset = 0x9e1be4, size = 58, sha256 = "54683a3e1b8d2580f48de45a0daaeb528fbb5ca14ea9fdf0c69f59792b1c4b8c" }, { offset = 0x9e1c44, size = 8, sha256 = "283ab807f8c2443a7046c01f57acc085b73a33ae546cb7c1988bfa3bb7aa2b1f" }, { offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }, { offset = 0x1e97dda, size = 323, sha256 = "fe2b734a95809eb57c70ccd65316a8fb743cd2307e7289552ca8a135134fd511" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x350998, size = 28, sha256 = "16f9e065e302c91bd559a2693ad11b4929ed3ce91ebe3441c9620e88280662c0" }, { offset = 0xb84aac, size = 8, sha256 = "2c19ec2d52f30e7440b7e3a808258398d23f3ee2ee343342fc3f80c7df476ac1" }, { offset = 0xb84a44, size = 24, sha256 = "ad27350a7101a067aa3ff3fb12b1ace5ec04413d2f9903f2bb052d4a60c561eb" }, { offset = 0xb704a0, size = 4, sha256 = "2b2ca18a7f28fc1f3640e73f5d01ccdf930873338caa97c00f9f5a82a8a6a920" }, { offset = 0x352374, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d5d0, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d6ec, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+levels = [
+  { level = 1, values = { c = 8, x = 0.5 } },
+  { level = 2, values = { c = 16, x = 0.5 } },
+  { level = 3, values = { c = 24, x = 0.5 } },
+  { level = 4, values = { c = 32, x = 0.5 } },
+  { level = 5, values = { c = 40, x = 0.5 } },
+  { level = 6, values = { c = 48, x = 0.5 } },
+  { level = 7, values = { c = 56, x = 0.5 } },
+  { level = 8, values = { c = 64, x = 0.5 } },
+  { level = 9, values = { c = 72, x = 0.5 } },
+  { level = 10, values = { c = 80, x = 0.5 } }
+]
+upgrade_sources = [
+  { key = "Defeat the Black Belt; levels 2–7 cost 2–7 Star Pieces, levels 8–10 cost 2–4 Comet Shards. All six Power items share the level.", map_sections = [138] }
+]
+
+[pokedex.items.held_effects.amounts."24.6"]
+key = "Boost Sp. Def EV gain: +{c}; lower Speed: ×{x}"
+values = { c = 8, x = 0.5 }
+rom = [{ offset = 0x9e1b48, size = 18, sha256 = "7b16f6dd1b2f0eaa00d87e8dcf7c2f4fb811af792d7077bff8cab31752d30dc0" }, { offset = 0x9e1be4, size = 58, sha256 = "54683a3e1b8d2580f48de45a0daaeb528fbb5ca14ea9fdf0c69f59792b1c4b8c" }, { offset = 0x9e1c44, size = 8, sha256 = "283ab807f8c2443a7046c01f57acc085b73a33ae546cb7c1988bfa3bb7aa2b1f" }, { offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }, { offset = 0x1e97dda, size = 323, sha256 = "fe2b734a95809eb57c70ccd65316a8fb743cd2307e7289552ca8a135134fd511" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x350998, size = 28, sha256 = "16f9e065e302c91bd559a2693ad11b4929ed3ce91ebe3441c9620e88280662c0" }, { offset = 0xb84aac, size = 8, sha256 = "2c19ec2d52f30e7440b7e3a808258398d23f3ee2ee343342fc3f80c7df476ac1" }, { offset = 0xb84a44, size = 24, sha256 = "ad27350a7101a067aa3ff3fb12b1ace5ec04413d2f9903f2bb052d4a60c561eb" }, { offset = 0xb704a0, size = 4, sha256 = "2b2ca18a7f28fc1f3640e73f5d01ccdf930873338caa97c00f9f5a82a8a6a920" }, { offset = 0x352374, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d5d0, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d6ec, size = 4, sha256 = "1d01262c4ede3189440079ccec23013d2fc8b466107bf3bb140dc0045b9b3935" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+levels = [
+  { level = 1, values = { c = 8, x = 0.5 } },
+  { level = 2, values = { c = 16, x = 0.5 } },
+  { level = 3, values = { c = 24, x = 0.5 } },
+  { level = 4, values = { c = 32, x = 0.5 } },
+  { level = 5, values = { c = 40, x = 0.5 } },
+  { level = 6, values = { c = 48, x = 0.5 } },
+  { level = 7, values = { c = 56, x = 0.5 } },
+  { level = 8, values = { c = 64, x = 0.5 } },
+  { level = 9, values = { c = 72, x = 0.5 } },
+  { level = 10, values = { c = 80, x = 0.5 } }
+]
+upgrade_sources = [
+  { key = "Defeat the Black Belt; levels 2–7 cost 2–7 Star Pieces, levels 8–10 cost 2–4 Comet Shards. All six Power items share the level.", map_sections = [138] }
+]
+
+[pokedex.items.held_effects.amounts."27"]
+key = "Boost friendship gain: ×{x}"
+values = { x = 1.5 }
+rom = [{ offset = 0x437e4, size = 22, sha256 = "89268b9599bda170dd777ad540c27def4de9e18ccd3956d16878bb9168c86884" }]
+
+[pokedex.items.held_effects.amounts."29.0"]
+key = "Boost Attack: ×{x}; lock one move"
+values = { x = 1.5 }
+rom = [{ offset = 0x9d1e0a, size = 20, sha256 = "40e3457dab6cefa5e26359917b0de78cfa4bb63fb36fe7fbb3ade90525cdddd2" }, { offset = 0x9d20b8, size = 60, sha256 = "fd422e2c5d0756c786ccabf9c24ba8b7866f20d892ae77dce0793f9998875f6a" }]
+
+[pokedex.items.held_effects.amounts."29.1"]
+key = "Boost Sp. Atk: ×{x}; lock one move"
+values = { x = 1.5 }
+rom = [{ offset = 0x9d1e0a, size = 20, sha256 = "40e3457dab6cefa5e26359917b0de78cfa4bb63fb36fe7fbb3ade90525cdddd2" }, { offset = 0x9d20b8, size = 60, sha256 = "fd422e2c5d0756c786ccabf9c24ba8b7866f20d892ae77dce0793f9998875f6a" }]
+
+[pokedex.items.held_effects.amounts."29.2"]
+key = "Boost Speed: ×{x}; lock one move"
+values = { x = 1.5 }
+rom = [{ offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."32"]
+key = "Multiply prize money: ×{x}"
+values = { x = 2 }
+rom = [{ offset = 0x9f5238, size = 8, sha256 = "7f4741d29f2af8ec0700af1cd8d50da8834b4a2a6901accab74406e9b5721477" }, { offset = 0x9f5298, size = 48, sha256 = "8d05cf40ab47a7ba80f2469848ea1bc5d0a96a1a26af43324b932521ce544e02" }, { offset = 0x9f5448, size = 8, sha256 = "32e5507b862afded4dfb71563a1572f01aff8f7c22bb9a7075954ff33b237b3b" }, { offset = 0x1e95558, size = 48, sha256 = "7cd8ffeb7ecddc20ce7c5014bd19a2fd8e7298977a79b3a17ab4a102d204cbd9" }, { offset = 0x1e95658, size = 83, sha256 = "f35de1e6cabcfcb9f5267842bcad20a73c701d8610dd82ad93de055e15188ece" }, { offset = 0x1e95737, size = 176, sha256 = "9b0c2294eb6fc7c353fcbe16345c375feb02b747d3cd38f0909db3e31411e572" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x1f7be61, size = 15, sha256 = "705e2bcb1df129ebf879fce5342ada481981800c39d58c2398fd2ae9c3d3c847" }, { offset = 0x7b1df0, size = 28, sha256 = "da3c0462bdd6cbd18fa4d47d7cf4219ea22be506e44815aa69440db1299777bd" }, { offset = 0xb6de70, size = 8, sha256 = "4f7e74142248f28fa050402f9bb609a7923047ef0e9729138d69c2e26da2dc78" }, { offset = 0xb6dde8, size = 24, sha256 = "90d12810c808c472cfa8a2dd9d977ab5639f5ee91196398189db905381c99f01" }, { offset = 0xb704a4, size = 4, sha256 = "53731986fde0c9743fcf8d327b5790038ad5e90fc983458079e8f6271b4617e7" }, { offset = 0xb6d690, size = 4, sha256 = "4b5393d8c3c41d202fe291a00e2e064d1fccd0562b1ff7d7dc629b9421a6d25b" }]
+
+levels = [
+  { level = 2, values = { x = 2 } },
+  { level = 3, values = { x = 3 } },
+  { level = 4, values = { x = 4 } },
+  { level = 5, values = { x = 5 } },
+  { level = 6, values = { x = 6 } },
+  { level = 7, values = { x = 7 } },
+  { level = 8, values = { x = 8 } },
+  { level = 9, values = { x = 9 } },
+  { level = 10, values = { x = 10 } }
+]
+upgrade_sources = [
+  { key = "Statue of Regi rewards one level below level 10; further upgrades cost Big Nuggets equal to the target level. Luck Incense shares the level.", map_sections = [93] }
+]
+
+[pokedex.items.held_effects.amounts."33.0"]
+key = "Reduce wild encounters by 1/{d}"
+values = { d = 3 }
+rom = [{ offset = 0x831f8, size = 22, sha256 = "926bce84c97e8baed97484f215a73e0f87bfae96487fb27fc585fd2f2b611fe0" }, { offset = 0x831d8, size = 26, sha256 = "c27cb57603ad300283b92e43f7d9099197b7bcd05a1c4b1f5318ad16ea0826ad" }, { offset = 0x8332a, size = 44, sha256 = "17305e6917cf1245f78165ebd6016c66ef763ab982a1b07fd9e2f9b19bc445d2" }, { offset = 0xa14474, size = 8, sha256 = "4f32799513635dc699a7ded30db0815312b8dc46f19561e0f4185ff846e0a0a6" }]
+
+[pokedex.items.held_effects.amounts."34"]
+key = "Boost Latias’s and Latios’s Psychic and Dragon moves: ×{x}"
+values = { x = 1.2 }
+rom = [{ offset = 0x9cd57a, size = 8, sha256 = "1a5a67a5e8ef26d4f2918e75d96dada1397f74458a98c0bd3f56f799d84d0cb8" }, { offset = 0x9cd976, size = 46, sha256 = "0f774bfc7743146071369b047786f5491b703cbd930c5a93e6f1974d0f08cf59" }, { offset = 0x9cd94e, size = 14, sha256 = "710bc532b3ab63e374d5e368e7bdb99e6d66e24f29cdca177942e37e88f6ab6f" }, { offset = 0x9cd912, size = 26, sha256 = "09027af4befd5b6be1196b22190ebcbeccaaa804c19d6e3d4b06ae1e95a112ff" }]
+
+[pokedex.items.held_effects.amounts."35"]
+key = "Boost Clamperl’s Sp. Atk: ×{x}"
+values = { x = 2 }
+rom = [{ offset = 0x9d1e0a, size = 8, sha256 = "916534ab6754a056e1a523e229a2b86ed7156e17fb377e4d1074a16fb7a9b252" }, { offset = 0x9d2114, size = 18, sha256 = "b05935d94f1c3a9ff45ca4e57cbb64ae7a465d2ac3dcea017260660f4a640f29" }]
+
+[pokedex.items.held_effects.amounts."36"]
+key = "Boost Clamperl’s Sp. Def: ×{x}"
+values = { x = 2 }
+rom = [{ offset = 0x9d1e1c, size = 18, sha256 = "f5a120f3dbf060b8879dde35cf32ba4d76b9c846dc91f8d2cfcf10f26d667278" }, { offset = 0x9d2180, size = 18, sha256 = "7798a7be4efaaf5fb317950f4ab17ebdacba6cdbe0b5ee127bb3ca0282156e06" }]
+
+[pokedex.items.held_effects.amounts."40"]
+key = "Boost experience gain: ×{x}"
+values = { x = 1.5 }
+rom = [{ offset = 0x9e1f02, size = 34, sha256 = "325fb29879c9f36ddae4c4f85d7263c6e7e2e9df43b3d53bd2da165e4716a52c" }, { offset = 0x9e2178, size = 8, sha256 = "37666b3e8d17416534b44e938deb6b72cbcdcd1a0dcb690d59b7624166087546" }, { offset = 0x1e6ba64, size = 28, sha256 = "5b2f71d54bad8f96de5a2bd874e3f5789e18573c84c888e4474021372f856e3a" }, { offset = 0x1e6bb0a, size = 366, sha256 = "6664a5f52fef2cab541a31fc0762b2419f539398508852743feb56a7eddd1182" }, { offset = 0x9f4a0a, size = 150, sha256 = "c0379ee1b2265591b9f76c57035bc41db934d8504f17c7842597cb3338b25501" }, { offset = 0x1f0920d, size = 17, sha256 = "e03cf1b572b97c2ae33c113e63f30936b294c457d0ea52a2f8e9df382b111d49" }, { offset = 0x351744, size = 28, sha256 = "84f808dedf78138cd4d98b7ce128696e5014ff1d6905ab2e6d1de60636b3549d" }, { offset = 0xb71648, size = 8, sha256 = "1ca0c42acd64fa5f3327f504f7e3a595271280cb5441668d9a809469b287045d" }, { offset = 0xb715b4, size = 24, sha256 = "6184efd740629077d6b7dcaa05f083b408dee45a0f61c69228ca15b19f2dade3" }, { offset = 0xb704d0, size = 4, sha256 = "b31514fee51b5bdd19c9880fede56f5888c39a43584aa1b00315562956060693" }, { offset = 0xb55f28, size = 4, sha256 = "ef1d9b0f20f7b68394b5d90d537c319de3cca4d9ea436a7ac728ca3802c11209" }]
+
+levels = [
+  { level = 1, values = { x = 1.5 } },
+  { level = 2, values = { x = 2.0 } },
+  { level = 3, values = { x = 2.5 } },
+  { level = 4, values = { x = 3.0 } },
+  { level = 5, values = { x = 3.5 } },
+  { level = 6, values = { x = 4.0 } },
+  { level = 7, values = { x = 4.5 } },
+  { level = 8, values = { x = 5.0 } },
+  { level = 9, values = { x = 5.5 } },
+  { level = 10, values = { x = 6.0 } }
+]
+upgrade_sources = [
+  { key = "Exp. Millionaire rewards level 2; levels 3–7 cost 3–7 Big Pearls, levels 8–10 cost 2–4 Pearl Strings.", map_sections = [94] }
+]
+
+[pokedex.items.held_effects.amounts."41"]
+key = "Raise critical-hit ratio +{s}"
+values = { s = 1 }
+rom = [{ offset = 0x9ce4c0, size = 62, sha256 = "63e2a10296a11ad0a24024e211ec74ff12d7c4f946f9b9d16b2f2c760b6447f0" }, { offset = 0x9ce58e, size = 38, sha256 = "1cc96d484ded2ff15b5d807b2ffeef86bae03b7e21c1f39ed39953fece96ed3f" }, { offset = 0x9ce634, size = 24, sha256 = "438a6e0c30e1476283067b044d56ca67805c0f70411964d8d470e6b46b17cd46" }, { offset = 0xa69594, size = 10, sha256 = "2d84666c0f513b513b85c23db1a89bb5fbc9aad7f175ca59528373b7fcb86c86" }]
+
+[pokedex.items.held_effects.amounts."43"]
+key = "Restore 1/{d} of maximum HP each turn"
+values = { d = 16 }
+rom = [{ offset = 0x9f5640, size = 16, sha256 = "059d9e0ea8507f4e02a9655c2495ae3e2469273fba9aae9880239ae6e2c85f98" }, { offset = 0x9f5674, size = 52, sha256 = "2fb2dae4087d85445dbc481cf532273757c9f9cacbc9e0f8596bf8ed7639a2b9" }]
+
+[pokedex.items.held_effects.amounts."45"]
+key = "Boost Pikachu’s offenses: ×{x}"
+values = { x = 2 }
+rom = [{ offset = 0x9d2072, size = 8, sha256 = "e057b6fc5782851230a57d9faeed0758387e42c2e264781dc87e525aa267d626" }, { offset = 0x9d2100, size = 24, sha256 = "3dc6996bfdaaf9357eb0650bc44433548297085d40bd9fe82588eaa07f642c0f" }]
+
+[pokedex.items.held_effects.amounts."63"]
+key = "Raise Chansey’s critical-hit ratio +{s}"
+values = { s = 2 }
+rom = [{ offset = 0x9ce556, size = 56, sha256 = "aa71250fedab1449b1344dae5920ce802c0fb53913e91487937f557f4106c817" }, { offset = 0x9ce58e, size = 38, sha256 = "1cc96d484ded2ff15b5d807b2ffeef86bae03b7e21c1f39ed39953fece96ed3f" }, { offset = 0x9ce634, size = 24, sha256 = "438a6e0c30e1476283067b044d56ca67805c0f70411964d8d470e6b46b17cd46" }, { offset = 0xa69594, size = 10, sha256 = "2d84666c0f513b513b85c23db1a89bb5fbc9aad7f175ca59528373b7fcb86c86" }, { offset = 0x9cdbd8, size = 40, sha256 = "7633f2d56d7fc2e6e15e26fceb3b0753bdb3599959827269b6d077bbe2a5ceb5" }]
+
+[pokedex.items.held_effects.amounts."64"]
+key = "Boost Ditto’s Defense: ×{x}"
+values = { x = 2 }
+rom = [{ offset = 0x9d1e1c, size = 18, sha256 = "f5a120f3dbf060b8879dde35cf32ba4d76b9c846dc91f8d2cfcf10f26d667278" }, { offset = 0x9d2158, size = 40, sha256 = "df36e6d73a0ce9f469c27ea4887a30ea1efb2664bd4f870319ede2c34ba5c10b" }]
+
+[pokedex.items.held_effects.amounts."65"]
+key = "Doubles Attack when held by Cubone, Marowak or Alolan Marowak. No bonus if the holder's base stats are scaled by the rebalanced variant or Smogon Scalemons."
+values = {}
+rom = [{ offset = 0x9d2076, size = 42, sha256 = "e4dec815120bd78e62aae8b4079e20884484d5f111b5885852cd43ac43a2b3fa" }, { offset = 0x9d20f4, size = 12, sha256 = "59f6f4faece7ababe977f624c18e689e2c2cb40146c471291ed8953ab428c8d7" }, { offset = 0x9e6eec, size = 44, sha256 = "6e5d4c25bf5ae7e83616e193963ce2933d2388864eb8a1787e8d6ff8faa3cd27" }, { offset = 0xa140a8, size = 38, sha256 = "b5420fc2720cdf4a2af11b04d528b3e36fa2525b9e20015c6de9d8885a0fef94" }, { offset = 0x9e6f18, size = 16, sha256 = "0a0952d4c2d40b90486fce66eade55e71cda08ee0edbc36b47e6903cfc9a386c" }, { offset = 0x9e6f54, size = 64, sha256 = "979ece729f3b3fc536cce7c68f4027cfbc512d494de3f05256d0648860cbfd4a" }, { offset = 0x1e7013a, size = 9, sha256 = "e1c35543009b8c4b8caf826fe6b0543b2fca0cbf197a983a22c1cf18445d9ea6" }, { offset = 0x1f10885, size = 47, sha256 = "4e1ae75b93ef70c2b8d32852812bd52ed8d6a464d08257952a88f1a34e1c84b7" }, { offset = 0xa6b72c, size = 4, sha256 = "9559cf4bb3052180b44574f2114cd82074f683d7012bff52074088135a77e17b" }, { offset = 0xa441f7, size = 17, sha256 = "c56e8a2f8b2165b28019f8e4c022eb5844c48dc5c9f2cd7f83ab24caf6b8a702" }, { offset = 0x1f9148e, size = 586, sha256 = "ee7b36e51412da1525a39bde71a5635e2708e12fcd8523132d9ac28bdba4768a" }, { offset = 0x19f6e7a, size = 128, sha256 = "c616fbbe2d7b7aa504a0043f5a87e32ddeb9ebc5dd93913cb3b74149a865ebb8" }, { offset = 0x19f6efa, size = 128, sha256 = "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca" }, { offset = 0x1a141fa, size = 128, sha256 = "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca" }]
+conditions = ["In the rebalanced variant, Cubone retains the bonus; Marowak and Alolan Marowak do not. Smogon Scalemons rules prohibit holding Thick Club."]
+
+[pokedex.items.held_effects.amounts."66"]
+key = "Raise Farfetch’d’s and Sirfetch’d’s critical-hit ratio +{s}"
+values = { s = 2 }
+rom = [{ offset = 0x9ce516, size = 64, sha256 = "e2757a594c03b87941bc26387317ba68e6115bc7cf6dfcfde7df5737a2cd0562" }, { offset = 0x9ce634, size = 24, sha256 = "438a6e0c30e1476283067b044d56ca67805c0f70411964d8d470e6b46b17cd46" }, { offset = 0x9ce58e, size = 38, sha256 = "1cc96d484ded2ff15b5d807b2ffeef86bae03b7e21c1f39ed39953fece96ed3f" }, { offset = 0xa69594, size = 10, sha256 = "2d84666c0f513b513b85c23db1a89bb5fbc9aad7f175ca59528373b7fcb86c86" }, { offset = 0x9cdbd8, size = 40, sha256 = "7633f2d56d7fc2e6e15e26fceb3b0753bdb3599959827269b6d077bbe2a5ceb5" }]
+
+[pokedex.items.held_effects.amounts."68"]
+key = "Damage contact attackers by 1/{d} of their maximum HP"
+values = { d = 6 }
+rom = [{ offset = 0x9f6036, size = 8, sha256 = "c48c7ada839ef980be1f57028d295b56a24372674d3d96aa07a8ba138fd78d2d" }, { offset = 0x9f6384, size = 20, sha256 = "3aaed3fa1070d0bbec346fcbf96ebf0bf244c7fe2237a8b57f061990c5b236be" }, { offset = 0x9f63d2, size = 22, sha256 = "3fc38fdca40fd2e177ec85dec7204a136bf7924b6b9650cf54632155d49d37d1" }]
+
+[pokedex.items.held_effects.amounts."69"]
+key = "Boost Ditto’s Speed: ×{x}"
+values = { x = 2 }
+rom = [{ offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."70"]
+key = "Boost Sp. Def: ×{x}; prevent status moves"
+values = { x = 1.5 }
+evidence = "CalculateBaseDamage: cmp #0x46 at 0x89D2126 -> 0x89D2192: Sp. Def (r5) *15, /10 at 0x89D214E. Source matches. Conditions: Sp. Def of the holder as defender."
+rom = [{ offset = 0x9d2126, size = 8, sha256 = "34c01dc3f9ccb09e20cd6bff65138a2bd5762b1688136674dcdcdab219fa66e9" }, { offset = 0x9d2192, size = 10, sha256 = "ff7f799efa69f53a6e1a5a425c2290d13ab12afa136fe3b5a58c4d2b41ec8a88" }, { offset = 0x9d214a, size = 12, sha256 = "818fed654474e8b25c3070c9f98bf7301618fe6c4e086555b9e0c08221af5752" }]
+
+[pokedex.items.held_effects.amounts."71"]
+key = "Boost defenses of unevolved Pokémon: ×{x}"
+values = { x = 1.5 }
+rom = [{ offset = 0x9d2126, size = 48, sha256 = "ae5f90f902d4e7f99f139f9800a0c1e3acaac68ea322ed9f8c10749a29288c4d" }, { offset = 0xa13dec, size = 38, sha256 = "a2cc732efd88311a170bdc7df43f24b1545c67ddafdd533351df884c7d49be20" }]
+
+[pokedex.items.held_effects.amounts."72"]
+key = "Type plate: {type}; boost: ×{x}"
+values = { x = 1.2 }
+rom = [{ offset = 0x9cd580, size = 8, sha256 = "a6b93e634db38f09eb6beb2645dcd9b120b7598a6de5b5f233104d096935887d" }, { offset = 0x9cd8fe, size = 28, sha256 = "d140457907db08df22506e3a8895f5a9d2a86d5cf1f2465ad7659b05a042d5ee" }, { offset = 0x9cd924, size = 8, sha256 = "ced8de3708944246e3cddf13faafdc427e3f4b7ac1a985820e0d0b58ce78db7b" }]
+
+[pokedex.items.held_effects.amounts."74"]
+key = "Boost damage: ×{x}; lose 1/{d} of maximum HP once per move"
+values = { x = 1.3, d = 10 }
+rom = [{ offset = 0x9cd570, size = 8, sha256 = "ec9181696970568a4c87b9cdacd99b885896b2eeeb7a177d52351a38b31be5c4" }, { offset = 0x9cd9c8, size = 8, sha256 = "eeb00398e394a015520df030af8e6e9335b7ec04c9aa63afd92011b922668f8a" }, { offset = 0x9cd924, size = 8, sha256 = "ced8de3708944246e3cddf13faafdc427e3f4b7ac1a985820e0d0b58ce78db7b" }, { offset = 0x9f65ea, size = 8, sha256 = "7bd761b70236dbeeeb64fc62e0cef77e1b2c02d25d88dfe8d25afbd4f4c3c8ea" }, { offset = 0x9f690e, size = 24, sha256 = "135bb24d34763b865fa1374d288386bd080376908e7e0d69e6e168db0e0e4014" }, { offset = 0x9f693a, size = 22, sha256 = "611826b4c546670375918d7c3736ca3ba0ab4768e5067c8e37e498ed715e0ecf" }]
+
+[pokedex.items.held_effects.amounts."77"]
+key = "Restore 1/{d} of maximum HP each turn for Poison types; harm others by 1/{e}"
+values = { d = 16, e = 8 }
+rom = [{ offset = 0x9f5630, size = 16, sha256 = "2cf508f675feb4cadfd454e168c2166271c06e0fca7032d0f2514f30a51fce0f" }, { offset = 0x9f5f5e, size = 16, sha256 = "7d4bfc69f355eac4105816ff2dd7686b9f3da0a6197138a49cdd785275e6390f" }, { offset = 0x9f5f7a, size = 48, sha256 = "dde801ea842b56305f71e1d417e1382c6f1273a03bdf915fb306dcc634540d62" }]
+
+[pokedex.items.held_effects.amounts."78"]
+key = "Extend sandstorm to {t} turns"
+values = { t = 8 }
+rom = [{ offset = 0x9ee67a, size = 40, sha256 = "acb97e112479bcb0a28c8ec255ad22bf756759963d47517b6aecf57e2e51ad5e" }, { offset = 0x9a6178, size = 18, sha256 = "a3b8a6dbd6f81e10c6253b7312f3fc81bb6602c980329c847149d51b156113f7" }, { offset = 0xb2a47e, size = 22, sha256 = "4c353ede2a750b2f71cb782c01262fbc664d5ef9917ffa316f3006cbe9265ec8" }]
+
+[pokedex.items.held_effects.amounts."79"]
+key = "Extend rain to {t} turns"
+values = { t = 8 }
+rom = [{ offset = 0x9ed814, size = 26, sha256 = "2db6060fcdbcc21e4ff537f26554195c6e9a07689df3fe1f37bb1556bc5e86b4" }, { offset = 0x9a60e8, size = 12, sha256 = "118fc61cd7319be29d85acd8a8f305c3e3d4d72c6a6dbe609912ceb77d3f1355" }, { offset = 0xb2a47e, size = 22, sha256 = "4c353ede2a750b2f71cb782c01262fbc664d5ef9917ffa316f3006cbe9265ec8" }]
+
+[pokedex.items.held_effects.amounts."80"]
+key = "Extend sun to {t} turns"
+values = { t = 8 }
+evidence = "SetSunnyWeather: GetBankItemEffect then cmp #80 at 0x9f0680; weatherDuration = 8 else 5 (source matches). Conditions: 5 turns without the rock; applies when the holder uses Sunny Day or a sun ability (helper 0x8b2a462)."
+rom = [{ offset = 0x9f0676, size = 20, sha256 = "404dd832496c50263f5e863e1f29d34af7a8bdb75c3f10d711618e30114a9c1d" }, { offset = 0xb2a47e, size = 22, sha256 = "4c353ede2a750b2f71cb782c01262fbc664d5ef9917ffa316f3006cbe9265ec8" }]
+
+[pokedex.items.held_effects.amounts."81"]
+key = "Extend hail to {t} turns"
+values = { t = 8 }
+evidence = "SetHailWeather 0x9f0f88: r4 = 5; GetBankItemEffect then cmp #81 at 0x9f0fb2; weatherDuration = 8 else r4 (5) at 0x9f0fc4 (source matches). Conditions: 5 turns without the rock; applies when the holder uses Hail or a hail ability (helper 0x8b2a462)."
+rom = [{ offset = 0x9f0f9e, size = 42, sha256 = "97e2726c9f1747428ab533ad6ed2dc2e4eecdd8bce412df6b77a61b2a50142bf" }, { offset = 0xb2a47e, size = 22, sha256 = "4c353ede2a750b2f71cb782c01262fbc664d5ef9917ffa316f3006cbe9265ec8" }]
+
+[pokedex.items.held_effects.amounts."82"]
+key = "Extend protective screens to {t} turns"
+values = { t = 8 }
+rom = [{ offset = 0x9ed8ec, size = 32, sha256 = "244b7a92441dc52db4c33ba01053b16513e1d0a67905a496bb3b4840bb3cd9bc" }, { offset = 0x9ed926, size = 16, sha256 = "ee2f2f084799af9140edbec3ebd0c0e73ad673d9b07aea86146bed30a3195386" }, { offset = 0x9ee24a, size = 34, sha256 = "e84035816684ec1b0ddf9413978a03437436e88c75c5e643b0aa2517f783eedc" }, { offset = 0x9b6734, size = 46, sha256 = "ae7a36979417e7713020f50a2aef7b5e73b7a4a84f6a7f70f6ba3eecad446df0" }]
+
+[pokedex.items.held_effects.amounts."85"]
+key = "Raise offenses +{s} after a supereffective hit"
+values = { s = 2 }
+rom = [{ offset = 0x9f603c, size = 8, sha256 = "8ea2d38989a37939fff1cf67a34a246ed55847ad0ee522fbd8c1fa82f9b03630" }, { offset = 0x9f6072, size = 12, sha256 = "011839bdba378f03ca586ff3101a98896a2a155ce9b61e7a618801a358fdac10" }, { offset = 0x96c6a4, size = 37, sha256 = "62349a2f08d3623ed0d93a6af0149ac247af76df16a9233f4adfe6303a10f18a" }]
+
+[pokedex.items.held_effects.amounts."88"]
+key = "Boost Dialga’s Dragon and Steel moves: ×{x}"
+values = { x = 1.2 }
+rom = [{ offset = 0x9cd87c, size = 8, sha256 = "02457e39a460fca96ac919c39f733425b08a8ac000eae8ba031f671e1ca032b1" }, { offset = 0x9cd93c, size = 32, sha256 = "de19c2a82de28d0f4725c077fda822da1cf87c30cbc22fe27e4c6ab5406d5dd8" }, { offset = 0x9cd912, size = 26, sha256 = "09027af4befd5b6be1196b22190ebcbeccaaa804c19d6e3d4b06ae1e95a112ff" }]
+
+[pokedex.items.held_effects.amounts."89"]
+key = "Boost Palkia’s Dragon and Water moves: ×{x}"
+values = { x = 1.2 }
+rom = [{ offset = 0x9cd880, size = 8, sha256 = "1318fe162d6e24d36a0aec7abb54e97668894b5cde21e5ea7ab253897377b378" }, { offset = 0x9cd886, size = 32, sha256 = "c8b5460310351bc6a18ce735c3f448ecea3a410c9cbe639053bc52e3736915b4" }, { offset = 0x9cd912, size = 26, sha256 = "09027af4befd5b6be1196b22190ebcbeccaaa804c19d6e3d4b06ae1e95a112ff" }]
+
+[pokedex.items.held_effects.amounts."90"]
+key = "Boost Giratina’s Dragon and Ghost moves: ×{x}"
+values = { x = 1.2 }
+rom = [{ offset = 0x9cd564, size = 8, sha256 = "cfe953e195084320905c3499f305c29c6df14589d41cd6b1f1d370352b05e053" }, { offset = 0x9cd95c, size = 26, sha256 = "cbd8018b2724f592443d0bb0f59e2cabd8be03f8dc64aff0040fd5ce64c97530" }, { offset = 0x9cd89e, size = 8, sha256 = "4f22d42f8b3c25489f979d3f4044be7398bbd611b14b750020098298ecb1c880" }, { offset = 0x9cd912, size = 26, sha256 = "09027af4befd5b6be1196b22190ebcbeccaaa804c19d6e3d4b06ae1e95a112ff" }]
+
+[pokedex.items.held_effects.amounts."91"]
+key = "Share infatuation; pass {c} IVs when breeding"
+values = { c = 5 }
+evidence = "Daycare IV inheritance 0x9d3ea0: ItemId_GetHoldEffect 0x89f3360 of each parent's item cmp #91 at 0x9d3ea4 and 0x9d3eb2; numIVs = 3 at 0x9d3eae, 5 at 0x9d3ee8 (source src/daycare.c matches). Conditions: breeding: 5 inherited IVs when either parent holds the knot, 3 otherwise; battle infatuation sharing has no amount."
+rom = [{ offset = 0x9d3ea0, size = 22, sha256 = "6f60b42c9f20dcafb8f9e204fec67b68f3edfb639b90daa114c9133c63031c97" }, { offset = 0x9d3ee8, size = 8, sha256 = "95cf627a7180a4af90cb373985ae7440f2090b4ced738232907d3d6b1838edbb" }]
+
+[pokedex.items.held_effects.amounts."92"]
+key = "Boost supereffective damage: ×{x}"
+values = { x = 1.2 }
+evidence = "CalculateBaseDamage: atkItemEffect cmp #0x5C at 0x89D2480; resultFlags [r4+0x50] bit 1; damage *12 /10 at 0x89D248E. Source ITEM_EFFECT_EXPERT_BELT matches. Conditions: only when the move is supereffective (resultFlags bit 1)."
+rom = [{ offset = 0x9d247e, size = 32, sha256 = "0af566e26edd54cee0e7beab021ddde9673113985a5793bafb4406f85f495a3a" }]
+
+[pokedex.items.held_effects.amounts."94"]
+key = "Single-use type boost: {type}, ×{x}"
+values = { x = 1.5 }
+rom = [{ offset = 0x9cd8ae, size = 8, sha256 = "daa8e0fb9ce619c91013c959b19750f20502f967cce136c2dbf9fd779f7899e1" }, { offset = 0x9cd9a4, size = 26, sha256 = "eacd881ff0dc151cb335b27075230803410c856dcfdb9795094ce0bbf6bf0727" }, { offset = 0x9cd586, size = 28, sha256 = "42f731c9a9c32b853d15fa9233b143553858aeb23cb4b9ad10c7839f52fbae12" }]
+
+[pokedex.items.held_effects.amounts."95"]
+key = "Resist damage of type {type}: ×{x}"
+values = { x = 0.5 }
+rom = [{ offset = 0x9d24d4, size = 48, sha256 = "97d569b1bb7c50b822e01d1325f5a23c097858e7f4754ee56e528197fc2bb91b" }, { offset = 0x9d2504, size = 34, sha256 = "8743759a53588ebe7a906588c211726fefa32af69cb89be61941fc0dc7123efe" }, { offset = 0x9d27a8, size = 8, sha256 = "9cae855ab116785acf124be7843eb37a6e50e7a02f56719561e37d1af622053f" }, { offset = 0x9a9664, size = 24, sha256 = "4192d2424855a9706336ab8394305de37d660b3f9503bd308b92a5fd8d51fe8c" }]
+
+[pokedex.items.held_effects.amounts."96"]
+key = "Move first at 1/{d} HP or less"
+values = { d = 4 }
+rom = [{ offset = 0x9baae8, size = 40, sha256 = "fa2b490aef7d581e412521a3b859d5759de107de62cd40e6731a6ab26b17daff" }, { offset = 0x9bab10, size = 62, sha256 = "3a30f52e031c9a1102dca5ebaf444f99b084311b70f989d9af0f91aaaeed2aae" }, { offset = 0x9a9680, size = 54, sha256 = "641dfa8eb32ebfba60060946f57b1178297d3fe54d45a3bc4c18756be395c192" }]
+
+[pokedex.items.held_effects.amounts."98"]
+key = "Lower the holder’s Speed: ×{x}; ground the holder"
+values = { x = 0.5 }
+rom = [{ offset = 0x9b9fd0, size = 58, sha256 = "f843b5b6a191987acec6010af893db8959f3617ac590c8d1359a3b53353c2c13" }, { offset = 0x9c156c, size = 36, sha256 = "a0bb6f0de6ecd1249361b71052dc9ba289ac2e3a6e57c97d8921ab2e7cd2bb1a" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."99"]
+key = "Boost trapping damage to 1/{d} of maximum HP"
+values = { d = 6 }
+rom = [{ offset = 0x9dde7a, size = 22, sha256 = "c73e7c75176f4106d0bba107fc59bee0ccb9550718a06ff1e9975bc850c66bae" }, { offset = 0x9dde92, size = 22, sha256 = "25d703c812cb4cd5d01fec2aa239e6d399ab0cb3613b48bbe1e8ca91860cf926" }, { offset = 0x9ddc7c, size = 20, sha256 = "a81351e6a4c1a58a1cafeadcdc843449a30e77a8f40286a5046a794fa5cf62f7" }]
+
+[pokedex.items.held_effects.amounts."102"]
+key = "Raise Sp. Atk +{s} after a Water hit"
+values = { s = 1 }
+rom = [{ offset = 0x9f602e, size = 8, sha256 = "f5456693bab8b16e5287404edba66ecf1587203fc955181578ed8a51ee767f48" }, { offset = 0x9f649c, size = 10, sha256 = "d38b70c993bded66e9c26b00e43dff7a5296dc09a55d25507dcfbab823860307" }, { offset = 0x9f4ec6, size = 10, sha256 = "b57d36c9e1a5d315619acb5de62da3361b19db3a8b15ab90fcd8718ecbeda089" }, { offset = 0x9f4ef0, size = 10, sha256 = "feda1c91ce51e29dbed1cd79ce03bedeaebcf60bdba4dc0271f592e863903440" }]
+
+[pokedex.items.held_effects.amounts."104"]
+key = "Boost HP draining: ×{x}"
+values = { x = 1.3 }
+rom = [{ offset = 0x9ede80, size = 56, sha256 = "9fa766c2ff5565b48cc645f254dd7155a82da7b73625500416fba9508b03cb75" }, { offset = 0x9b6d3e, size = 36, sha256 = "99ae97da1d0bd5988a359a5554398efe8c212beebd2e80cd0f8d3fe6c7cb6a83" }, { offset = 0x9b8a5c, size = 34, sha256 = "638c476fc0217aa9dc24aac49faf056759622a2007fe116c83a09a8c3bfbca41" }, { offset = 0x9deb98, size = 28, sha256 = "3a7ec889e3708e4d57621680d69999add2f6e86523597e35a313451a9ea23fbf" }, { offset = 0x9dec54, size = 28, sha256 = "e16b6cc76c7140c87bd1223380142f9b2dc2b59f041fd68ed227021abdb9cf42" }]
+
+[pokedex.items.held_effects.amounts."105"]
+key = "Raise Attack +{s} after an Electric hit"
+values = { s = 1 }
+rom = [{ offset = 0x9f60dc, size = 14, sha256 = "63bf347a869246cb3d96747300ecb085f71249f3ba5a7913f65eb32bedae9875" }, { offset = 0x9f4ec6, size = 10, sha256 = "b57d36c9e1a5d315619acb5de62da3361b19db3a8b15ab90fcd8718ecbeda089" }, { offset = 0x9f4ef0, size = 10, sha256 = "feda1c91ce51e29dbed1cd79ce03bedeaebcf60bdba4dc0271f592e863903440" }]
+
+[pokedex.items.held_effects.amounts."107"]
+key = "Lower weight: ×{x}"
+values = { x = 0.5 }
+rom = [{ offset = 0x9d0660, size = 16, sha256 = "bc272781d2adac3742222c6c063cf18cb2b589214b289ce21a9d85fd7c7c0d65" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."108"]
+key = "Extend trapping moves to {t} turns"
+values = { t = 7 }
+rom = [{ offset = 0xa09d82, size = 30, sha256 = "6042c096ba527190fe9afa99f0ee28d6e66a8a8422c069370ff5df08c5da23a3" }, { offset = 0xa09db2, size = 30, sha256 = "a930c2469458459f3f0c217971a7a54f75bbaa7f9087993e9d7fb8452b299680" }]
+
+[pokedex.items.held_effects.amounts."109"]
+key = "Raise Sp. Def +{s} after a Water hit"
+values = { s = 1 }
+rom = [{ offset = 0x9f6026, size = 8, sha256 = "7fc410eaab582ad487a6cf4f39084398bffe6a2e05916eab5445a3bba7999b14" }, { offset = 0x9f6502, size = 10, sha256 = "ff41116b03801125d6fa81389f1e89359e182a8ab06adb441e1c54dc6b4f0659" }, { offset = 0x9f4ec6, size = 10, sha256 = "b57d36c9e1a5d315619acb5de62da3361b19db3a8b15ab90fcd8718ecbeda089" }, { offset = 0x9f4ef0, size = 10, sha256 = "feda1c91ce51e29dbed1cd79ce03bedeaebcf60bdba4dc0271f592e863903440" }]
+
+[pokedex.items.held_effects.amounts."111"]
+key = "Boost repeated use of a move: +{p}% per use, up to ×{x}"
+values = { p = 20, x = 2 }
+rom = [{ offset = 0x9cd8b2, size = 8, sha256 = "a04b2e17264208029840d551e6ab5134c944a17350cb49c71bced6c8f2eaf169" }, { offset = 0x9cd8b8, size = 64, sha256 = "4a0e9f0cfd5a621c1895145fdb8fb984fa82b68722258d235b5889f7b1f4f9fa" }, { offset = 0x9cd9be, size = 12, sha256 = "3aa79bcc4b159ce13d573f923f18f81270bfb014fb95a8909495f1cb547d3c32" }, { offset = 0x9ea55e, size = 52, sha256 = "b21abe7dda7c2dfd1cc1f3d3fc09e657e1198f139b55b436bb9fa03668d86be8" }]
+
+[pokedex.items.held_effects.amounts."112"]
+key = "Boost physical moves: ×{x}"
+values = { x = 1.1 }
+rom = [{ offset = 0x9cd8a6, size = 8, sha256 = "1f9212dafa84a152638cff3cc3543a809aee4436fa4ac9aa677ced5d60e043bd" }, { offset = 0x9cd916, size = 22, sha256 = "2300a6c93454f453c5f576041d01b837f7476833a478db0eb4619c88d34092cf" }]
+
+[pokedex.items.held_effects.amounts."116"]
+key = "Raise Attack +{s} after an Ice hit"
+values = { s = 1 }
+rom = [{ offset = 0x9f60f4, size = 8, sha256 = "5ea561d4ba9036024f9669db171f4c27fe2af018cbed22be7526c1048769f956" }, { offset = 0x9f6502, size = 10, sha256 = "ff41116b03801125d6fa81389f1e89359e182a8ab06adb441e1c54dc6b4f0659" }, { offset = 0x9f60dc, size = 14, sha256 = "63bf347a869246cb3d96747300ecb085f71249f3ba5a7913f65eb32bedae9875" }, { offset = 0x9f4ec6, size = 10, sha256 = "b57d36c9e1a5d315619acb5de62da3361b19db3a8b15ab90fcd8718ecbeda089" }, { offset = 0x9f4ef0, size = 10, sha256 = "feda1c91ce51e29dbed1cd79ce03bedeaebcf60bdba4dc0271f592e863903440" }]
+
+[pokedex.items.held_effects.amounts."117"]
+key = "Damage holder by 1/{d} of maximum HP each turn; transfer on contact"
+values = { d = 8 }
+rom = [{ offset = 0x9dfc82, size = 32, sha256 = "60c5be72a49dfcb66e44d436e422b22506dc35a57ad14dbc7ef333f1c7aae611" }, { offset = 0x9dfd66, size = 56, sha256 = "57b5eec078ed6102b6f4c4012bb67d106838f3695a2901d87d8fdb9051f9cf8e" }]
+
+[pokedex.items.held_effects.amounts."118"]
+key = "Extend terrain to {t} turns"
+values = { t = 8 }
+rom = [{ offset = 0x9fc526, size = 12, sha256 = "d6cc309acea387dc9078c3717dd2d72dedbbd2e71aa41e44f11f9df4a877a04e" }, { offset = 0xb2a3e0, size = 20, sha256 = "902fa5be2220af1c7b0eeaf3d61d4ac1a1495aadae58af83f6050ede1c25ccdc" }]
+
+[pokedex.items.held_effects.amounts."119"]
+key = "Boost special moves: ×{x}"
+values = { x = 1.1 }
+rom = [{ offset = 0x9cd8fe, size = 8, sha256 = "3316128e815852ec06fc13d33736f4bc725049fca93d1e0455aedf2fee9b8fb8" }, { offset = 0x9cd92c, size = 16, sha256 = "598aff238b50f76771848fd89fa733b9dc0c566b8adb58edc01587d30630301c" }, { offset = 0x9cd924, size = 8, sha256 = "ced8de3708944246e3cddf13faafdc427e3f4b7ac1a985820e0d0b58ce78db7b" }]
+
+[pokedex.items.held_effects.amounts."120.1"]
+key = "Raise Defense +{s} on Electric Terrain"
+values = { s = 1 }
+rom = [{ offset = 0x9f5230, size = 8, sha256 = "c92a5f68ffa473eea05454d38cdd2f9587a4210589afe5cabb6a59443e685129" }, { offset = 0x9f5322, size = 40, sha256 = "1ac0858a2fe93aba214394ecbae55cdfc9bfce276254bda4445cd1f8a239591b" }, { offset = 0x9f537a, size = 34, sha256 = "6a9320f8562257fdc5a259df6df63d96e246280c422643b89df66213cd48640e" }]
+
+[pokedex.items.held_effects.amounts."120.2"]
+key = "Raise Defense +{s} on Grassy Terrain"
+values = { s = 1 }
+rom = [{ offset = 0x9f5230, size = 8, sha256 = "c92a5f68ffa473eea05454d38cdd2f9587a4210589afe5cabb6a59443e685129" }, { offset = 0x9f5322, size = 40, sha256 = "1ac0858a2fe93aba214394ecbae55cdfc9bfce276254bda4445cd1f8a239591b" }, { offset = 0x9f537a, size = 34, sha256 = "6a9320f8562257fdc5a259df6df63d96e246280c422643b89df66213cd48640e" }]
+
+[pokedex.items.held_effects.amounts."120.3"]
+key = "Raise Sp. Def +{s} on Misty Terrain"
+values = { s = 1 }
+rom = [{ offset = 0x9f5230, size = 8, sha256 = "c92a5f68ffa473eea05454d38cdd2f9587a4210589afe5cabb6a59443e685129" }, { offset = 0x9f5322, size = 40, sha256 = "1ac0858a2fe93aba214394ecbae55cdfc9bfce276254bda4445cd1f8a239591b" }, { offset = 0x9f537a, size = 34, sha256 = "6a9320f8562257fdc5a259df6df63d96e246280c422643b89df66213cd48640e" }]
+
+[pokedex.items.held_effects.amounts."120.4"]
+key = "Raise Sp. Def +{s} on Psychic Terrain"
+values = { s = 1 }
+rom = [{ offset = 0x9f5230, size = 8, sha256 = "c92a5f68ffa473eea05454d38cdd2f9587a4210589afe5cabb6a59443e685129" }, { offset = 0x9f5322, size = 40, sha256 = "1ac0858a2fe93aba214394ecbae55cdfc9bfce276254bda4445cd1f8a239591b" }, { offset = 0x9f537a, size = 34, sha256 = "6a9320f8562257fdc5a259df6df63d96e246280c422643b89df66213cd48640e" }]
+
+[pokedex.items.held_effects.amounts."121.0"]
+key = "Damage a physical attacker by 1/{d} of its maximum HP"
+values = { d = 8 }
+rom = [{ offset = 0x9f60ea, size = 10, sha256 = "659eb90c37d7f8c8edb3f4676b573bcda637f12485c4ddfdd2f2e02ece63b575" }, { offset = 0x9f6578, size = 40, sha256 = "f1e09fdf7ef0bcf943666830224e0064e1fb3fc8929123a69395f055744d9525" }, { offset = 0x9f65a0, size = 32, sha256 = "3d5d025d00ac8e33129e931b3643883ff0453f54417802b9f918ea7fdc038ac5" }]
+
+[pokedex.items.held_effects.amounts."121.1"]
+key = "Damage a special attacker by 1/{d} of its maximum HP"
+values = { d = 8 }
+rom = [{ offset = 0x9f60ea, size = 10, sha256 = "659eb90c37d7f8c8edb3f4676b573bcda637f12485c4ddfdd2f2e02ece63b575" }, { offset = 0x9f6578, size = 40, sha256 = "f1e09fdf7ef0bcf943666830224e0064e1fb3fc8929123a69395f055744d9525" }, { offset = 0x9f65a0, size = 32, sha256 = "3d5d025d00ac8e33129e931b3643883ff0453f54417802b9f918ea7fdc038ac5" }]
+
+[pokedex.items.held_effects.amounts."122"]
+key = "Raise Defense +{s} after a physical hit"
+values = { s = 1 }
+rom = [{ offset = 0x9f6212, size = 10, sha256 = "d9a50bab29ecfe5a2ce24c47bc351dae1c9a78d2593b0d78f73dd911e6ae7c2a" }, { offset = 0x9f65d4, size = 22, sha256 = "ba2ddd0a6e1c3f4b7f00d2d6ef819b319a8f2a7caa228d9ab0a15b1c40e95f6a" }, { offset = 0x9f4f86, size = 12, sha256 = "44a6ee535f511785ce85bffda1a1f165e18ef38a924853441098fe5e300ad953" }, { offset = 0x9f4fd0, size = 22, sha256 = "b7196e9ce60bdf61dbfa534bf12e43e4e871f23f4321d317b923d9b655be4fbd" }, { offset = 0x9f500e, size = 12, sha256 = "560793dc40cf5676dc57b20d90c6f7dd170e8169a7cb8b628cd4d92456f669c7" }]
+
+[pokedex.items.held_effects.amounts."123"]
+key = "Raise Sp. Def +{s} after a special hit"
+values = { s = 1 }
+rom = [{ offset = 0x9f6212, size = 10, sha256 = "d9a50bab29ecfe5a2ce24c47bc351dae1c9a78d2593b0d78f73dd911e6ae7c2a" }, { offset = 0x9f65d4, size = 22, sha256 = "ba2ddd0a6e1c3f4b7f00d2d6ef819b319a8f2a7caa228d9ab0a15b1c40e95f6a" }, { offset = 0x9f4f86, size = 12, sha256 = "44a6ee535f511785ce85bffda1a1f165e18ef38a924853441098fe5e300ad953" }, { offset = 0x9f4fd0, size = 22, sha256 = "b7196e9ce60bdf61dbfa534bf12e43e4e871f23f4321d317b923d9b655be4fbd" }, { offset = 0x9f500e, size = 12, sha256 = "560793dc40cf5676dc57b20d90c6f7dd170e8169a7cb8b628cd4d92456f669c7" }]
+
+[pokedex.items.held_effects.amounts."125"]
+key = "Raise Speed +{s} after Intimidate"
+values = { s = 1 }
+rom = [{ offset = 0x964d9a, size = 36, sha256 = "a7af0b2a9463f01f0fabff9a4c05b0f892c4f4e432749c9587199a608df5ad52" }, { offset = 0x8bef84, size = 51, sha256 = "8bdc681b97bde502a2349326c4a5113f71eda940551817d19462bef10d13f4ba" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."127"]
+key = "Raise accuracy: ×{x} at 1/{d} HP or less"
+values = { x = 1.2, d = 4 }
+rom = [{ offset = 0x9f5638, size = 8, sha256 = "9012090d7a2568ae56ba43356e3ae2a4cd3f76c6db25443c3f5d904582b432dd" }, { offset = 0x9f5e54, size = 60, sha256 = "3c7d0626d0df086884578421d54c64147b157e7de0c27f331a54d03d5531e0be" }, { offset = 0x9a9f40, size = 58, sha256 = "9a78fe8bd5be4df2372503ae56670bafcb14c101525607f9d7ad68568a50a777" }]
+
+[pokedex.items.held_effects.amounts."128"]
+key = "Restore 1/{d} of maximum HP after a supereffective hit"
+values = { d = 4 }
+rom = [{ offset = 0x9f621c, size = 8, sha256 = "2e5b9f5510172e2db3d46134ff9788c984bc611b417fc9f78173e4287ecf8c08" }, { offset = 0x9f6270, size = 12, sha256 = "aa8b330dac79710850e16ff56252746bc544cd342725dddedc32748ab8579519" }, { offset = 0x9f62a4, size = 34, sha256 = "5d07d508c918f6f88e710cb133669290f2d1b9a2941d8938fa82706291112b3b" }]
+
+[pokedex.items.held_effects.amounts."129"]
+key = "Boost moves of type {type}: ×{x}"
+values = { x = 1.2 }
+rom = [{ offset = 0x9cd8fe, size = 28, sha256 = "d140457907db08df22506e3a8895f5a9d2a86d5cf1f2465ad7659b05a042d5ee" }, { offset = 0x9cd924, size = 8, sha256 = "ced8de3708944246e3cddf13faafdc427e3f4b7ac1a985820e0d0b58ce78db7b" }]
+
+[pokedex.items.held_effects.amounts."133"]
+key = "Lower Speed −{s} in Trick Room"
+values = { s = 1 }
+rom = [{ offset = 0x9f5248, size = 56, sha256 = "36ee72fd337a706e868d0e122990caaa125c5a01666093712d2183131a692719" }, { offset = 0x9f5410, size = 28, sha256 = "9b70f779ea9a226f173d035349a4d653c30c14bc22105582ed69d71452ede6fe" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."134"]
+key = "Raise Speed +{s} after missing"
+values = { s = 2 }
+rom = [{ offset = 0x9aad66, size = 30, sha256 = "2b2a6cbb654094c4b0d9bcf960feafec41951cc655b378f5db9a4c57e27c9c59" }, { offset = 0x9f6710, size = 8, sha256 = "de2c69689ab3e5201593e01f15ce23a428569a523a71de0a669650b943f671ef" }, { offset = 0x9f6a2a, size = 46, sha256 = "b5c249c6cd7c48d483b3210e302c24561a87c408e50fb41d9984e0c8bacda6f4" }, { offset = 0x9baba2, size = 66, sha256 = "8bd4aaf48414fa4548e7c16eed85595b1da9a8d798a8d41c95bb9374b97b61e6" }, { offset = 0x9bac1e, size = 4, sha256 = "34cbce5b25f0faa856db81a2b96171ef93694996da8d8ce93ec092460b2e70af" }, { offset = 0x9bac3e, size = 18, sha256 = "4e5152a2ad8e50c6459761efaf70e4619fa291f3ca65940045a1954255cb2098" }, { offset = 0x9bacac, size = 12, sha256 = "34fa6951922b39c9d2644275dea9138003643e45ea9e25fc687089da1225d86d" }, { offset = 0x9bcde0, size = 30, sha256 = "226db9bb082336d48d537f599a8c5788332154f44ea08e186cb2d0043322e156" }, { offset = 0x9bce22, size = 54, sha256 = "75995189888616cc88e8df7535fff0c7733d8656e82bc07c080b9da002b1f14c" }, { offset = 0x9bced8, size = 8, sha256 = "6e8672dc9adab5cc055da35ed8ac55644cab938cfdbccac976054b394b08fe1d" }, { offset = 0x9d0638, size = 124, sha256 = "92e41f43ebd44047fbe8ef733983d9019370eb2ba3316a08d54248538e9c4340" }, { offset = 0x1e73362, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e54726, size = 5, sha256 = "ad33f9c644cd9ce9da3a176ebe0df6d5916f61744b6a44f103c0cdd49b883af3" }, { offset = 0x1e73450, size = 60, sha256 = "1c97767c1917818c084abe945d2a4a09dddbc69b966443da41c53ac5f4048c24" }, { offset = 0x1ec78b8, size = 48, sha256 = "2360b59f7c87e220c7db10defa7326a7ef47a85706800cdaf8e8cc75e48258a5" }, { offset = 0x1fb54cc, size = 12, sha256 = "4162ecfbac9c36cba48b2099b5be57b66e5130f32ae0e26d5c9d8b7422b54380" }, { offset = 0x9bbde0, size = 16, sha256 = "f5a940a9e58d3e25d00f7efc122a6d517a37a43a6d40490bf6e285c0427b4a36" }, { offset = 0x9bbf64, size = 4, sha256 = "5ce7f16fdc603e651f319d781ed65c1f027158161514fef1e54a8bf3123f3a25" }, { offset = 0x1f1063d, size = 7, sha256 = "03a94fdbfbe00212200d4fb6f991e6b1f6ca2622479fd8d7681295b032fcd94d" }, { offset = 0x1f10644, size = 7, sha256 = "e3c0dadee6a9ffe2c3cc6cf09cfcbff58fd732a4722058e9f0d2ee09574673a6" }, { offset = 0x1ee5281, size = 98, sha256 = "9168f0909d5722c045fe40f64496d143c8b23e397f4d5c988f0de36235221597" }, { offset = 0xa4bc7a, size = 86, sha256 = "f8b7fbdccb7858aa857f10f42edf7e682464f287204e44b320851a1b9a4fc8fb" }]
+conditions = ["In Big Mo's battles where Speed is determined by weight (Expert or Insane).", "Heavier Pokemon are faster in these battles. Changes to weight also affect the weight used to calculate Speed."]
+
+[pokedex.items.held_effects.amounts."137"]
+key = "Raise Sp. Atk +{s} after a sound move"
+values = { s = 1 }
+rom = [{ offset = 0x9f6710, size = 16, sha256 = "a787a61b7c82b6e527d3aacc139b06b834427373e9c387a905e2c27ad0474440" }, { offset = 0x9f699e, size = 26, sha256 = "6252c5c5288e6e9021f934858b08923732d30285278465126bda251541ca7ff5" }]
+
+[pokedex.items.held_effects.amounts."item.142"]
+key = "Restore a quarter of maximum HP at 1/{d} HP or less"
+values = { d = 2 }
+rom = [{ offset = 0x9f54c6, size = 12, sha256 = "403bf7d6955b7f9d0af3e647f56423f9a126ac92ca424d191a6dae33c40e2efb" }, { offset = 0x9f56c4, size = 60, sha256 = "cc37739acea007d94c05c9697b402c97503f7a9f65ed78ce7aa4cc3be3ae1d35" }, { offset = 0x9f5700, size = 36, sha256 = "00d2ea165420788778a7c35f3cca8d42ef6c6d2491111d204573d2120966de19" }, { offset = 0x9f576c, size = 8, sha256 = "317080ab1f1f50db19c9b6da21f932127a1a840b99023777ee67d52dd3d943f9" }]
+
+[pokedex.items.battle_usages]
+field = { offset = 36, width = 4 }
+
+[pokedex.items.battle_usages.names]
+"0x080a1fbd" = "Healing or status cure"
+"0x080a1ff5" = "Restore PP"
+"0x080a2195" = "Berry-dependent use"
+"0x080a1e1d" = "Throw a ball"
+"0x080a1e7d" = "Battle stat support"
+"0x080a2011" = "Escape from battle"
+"0x080a18b9" = "Open the Berry Pouch"
+
+[pokedex.items.tm_moves]
+base = 0x1A42B2A
+stride = 2
+count = 128
+ranges = [[0, 58, 289], [58, 62, 375], [120, 8, 437]]
+
+[pokedex.items.mining]
+base = 0x1FB7FF0
+stride = 24
+count = 78
+item = { offset = 0, width = 2 }
+draws = [0x1FB7B44, 0x1FB7BA8, 0x1FB7C0C, 0x1FB7C70]
+draw_count = 100
+tiers = [[1, 12], [12, 16], [17, 21], [21, 32], [42, 59], [59, 77]]
+
+# Item uses: what characters take an item for, where and from whom.
+# Rows name the checkitem 0x47 or removeitem 0x45 commands that test or
+# take the item; places and speakers come from the map walk.
+[pokedex.items.uses]
+name_box = 0x1EB59D1
+buyer_record = { stride = 8, item = 0, price = 4 }
+buyers = [
+  { base = 0x1FB58E0, count = 7, at = 0x1E7222A, rom = [{ offset = 0x1ECC690, size = 28, sha256 = "a6566f6e7d2e0853b0626927904eecb562b2f8687f1a42747435fda872019d1c" }, { offset = 0x1EC6990, size = 96, sha256 = "ffa6ac40adec1f5c7f1174355568d7eea4665c6ff6433890c431738e76ceb9ab" }, { offset = 0x1E7222A, size = 48, sha256 = "ca8ba0176f88125eafd56e91ed7f740292e8e238ef5af3ea28efa8e5a63ab954" }, { offset = 0x1ECC6AC, size = 160, sha256 = "9adfbd8d7ef7396d9c41ab3f5a437dbcb208e3f29e676f98bb0842e23f33fe17" }] },
+  { base = 0x1FB5C24, count = 52, at = 0x1E633F7 },
+  { base = 0x1FB5DC4, count = 21, at = 0x1E63036 },
+]
+rows = [
+  { kind = "exchange", takes = [0x1E56710], gives = [{ item = 248, at = 0x1E56822 }] },
+  { kind = "exchange", takes = [0x1E56E4F], gives = [{ tutor = 1, at = 0x1E56E3B }] },
+  { kind = "exchange", takes = [0x1E63830], gives = [{ tutor = 2, at = 0x1E63806 }] },
+  { kind = "exchange", takes = [0x1E7A595], gives = [{ tutor = 109, at = 0x1E7A56A }] },
+  { kind = "exchange", takes = [0x1E89344, 0x1E89349], gives = [{ tutor = 100, at = 0x1E89327 }] },
+  { kind = "exchange", takes = [0x1E94644], gives = [{ tutor = 0, at = 0x1E9461A }] },
+  { kind = "exchange", takes = [0x1E9B8EB], gives = [{ tutor = 32, at = 0x1E9B8C1 }] },
+  { kind = "exchange", takes = [0x1E62EA6], gives = [{ item = 235, at = 0x1E62E8F }] },
+  { kind = "exchange", takes = [0x1E8F453, 0x1E8F458], gives = [{ item = 219, at = 0x1E8F43C }] },
+  { kind = "exchange", takes = [0x1E6BD73], gives = [{ item = 378, at = 0x1E6BD95 }] },
+  { kind = "exchange", takes = [0x1E72172], gives = [{ item = 427, at = 0x1E72194 }] },
+  { kind = "exchange", takes = [0x1E7208F], gives = [{ table = 0x1FB5550, count = 18 }], evidence = "After the mission, list 0x1E (setvar 0x8000 at 0x1E7203A, special 0x158) selects an entry; callasm 0x1EC8E61 stores u16 [0x1FB54F4 + 0x5C + 2 * choice] (choice <= 17) in 0x4001 through VarSet 0x806E585, and 0x1E72078 gives 0x4001" },
+  { kind = "exchange", takes = [0x1EA6EAD], gives = [{ item = 58, at = 0x1EA6ECB }] },
+  { kind = "exchange", takes = [0x1EA74AC], gives = [{ item = 89, at = 0x1EA74D7 }] },
+  { kind = "exchange", takes = [0x1E573FC, 0x1E57401, 0x1E57406], gives = [{ item = 21, quantity = 5, at = 0x1E5742E }] },
+  { kind = "exchange", takes = [0x1E574EB, 0x1E574F0, 0x1E574F5, 0x1E574FA], gives = [{ item = 24, quantity = 20, at = 0x1E57522 }] },
+  { kind = "exchange", takes = [0x1E575E0, 0x1E575E5, 0x1E575EA, 0x1E575EF, 0x1E575F4], gives = [{ item = 617, quantity = 3, at = 0x1E57616 }] },
+  { kind = "exchange", takes = [0x1E60A2F], held_effect = 94, gives = [{ item = 1, quantity = 1, at = 0x1E60A08 }], evidence = "The bag selection of 0x1E609AA (special 0xB1) is accepted by callasm 0x1ECEA65 only when GetItemHoldEffect 0x809A925 of the selected item (0x203AD30, var 0x800E) is 94" },
+  { kind = "exchange", takes = [0x1E60AFF], gives = [{ item = 630, at = 0x1E60AE8 }] },
+  { kind = "exchange", takes = [0x1E60D3D], items = [109, 357, 358, 354, 286, 287, 521, 522, 523, 524, 525, 526], gives = [{ item = 69, at = 0x1E60D4F }], evidence = "callasm 0x1ECEA89 accepts the selected item when it is 109 or one of the 11 u16 entries of 0x1FB55F4 + 0x22; 0x1E60D54 gives 0x8004 PP Ups for the 0x4001 items removed" },
+  { kind = "exchange", takes = [0x1E60E31], items = [513], gives = [{ item = 71, at = 0x1E60E3E }], evidence = "0x1E60DBF sets 0x800E to 513 before the quantity prompt; 0x1E60E43 gives 0x4001 PP Maxes for 0x4001 removed" },
+  { kind = "exchange", takes = [0x1E60F5B], held_effect = 72, gives = [{ held_effect = 87 }], evidence = "callasm 0x1ECEB51 accepts a selected item whose held effect is 72; callasm 0x1ECEB75 scans items 0-0x2D8 for held effect 87 (cmp r0, #87 at 0x1ECEBA6) with the selected item's held effect parameter and stores it as the reward" },
+  { kind = "exchange", takes = [0x1E61119], items = [601], gives = [{ item = 467, at = 0x1E61005 }], evidence = "0x1E61000 sets 0x4001 = 601, 0x1E61005 sets 0x4002 = 467; 0x1E61119 removes five 0x4001, 0x1E61134 gives 0x4002" },
+  { kind = "exchange", takes = [0x1E61119], items = [599], gives = [{ item = 468, at = 0x1E6102E }], evidence = "0x1E61029 sets 0x4001 = 599, 0x1E6102E sets 0x4002 = 468; 0x1E61119 removes five 0x4001, 0x1E61134 gives 0x4002" },
+  { kind = "exchange", takes = [0x1E61119], items = [600], gives = [{ item = 469, at = 0x1E61057 }], evidence = "0x1E61052 sets 0x4001 = 600, 0x1E61057 sets 0x4002 = 469; 0x1E61119 removes five 0x4001, 0x1E61134 gives 0x4002" },
+  { kind = "exchange", takes = [0x1E6E8E4], choice = true, gives = [{ item = 605, at = 0x1E6E9F6 }, { item = 594, at = 0x1E6E9FC }, { item = 603, at = 0x1E6EA02 }], evidence = "Var 0x5012 values 1, 2 and 3 select the setvar 0x4001 at 0x1E6E9F6, 0x1E6E9FC and 0x1E6EA02 (0x1E6E9D4); 0x1E6E904 gives 0x4001" },
+  { kind = "exchange", takes = [0x1E60BE8], gives = [{ table = 0x1FB1D3A, count = 6 }], evidence = "List 0x1A (0x1E60B89, special 0x158) selects a stone; callasm 0x1ECEAC9 replaces a choice below the count byte 0x1FB1D38 (6) with u16 [0x1FB1D3A + 2 * choice], given by 0x1E60C02" },
+  { kind = "exchange", takes = [0x1E690A6], items = [103, 104, 514], gives = [{ item = 111, at = 0x1E6908F }], evidence = "0x1E68F74, 0x1E68FB8 and 0x1E68FFC set 0x800E to TinyMushroom, Big Mushroom or Balm Mushroom before the trade; 0x1E69094 gives 0x4002 Heart Scales" },
+  { kind = "exchange", takes = [0x1E5B3AE], gives = [{ effect = "Relearn a move" }], evidence = "After the Heart Scale check, special 0xDB and special 0x148 select a Pokemon and special 0xE0 opens the move relearner; 0x1E5B3AE removes the Heart Scale when a move is learned" },
+  { kind = "exchange", takes = [0x1EA1DD6], gives = [{ effect = "Relearn a move" }], evidence = "The same sequence at 0x1EA1D97-0x1EA1DC7; 0x1EA1DD6 removes the Heart Scale" },
+  { kind = "exchange", takes = [0x1E61228], gives = [{ effect = "Change a Pokémon's Poké Ball" }], evidence = "List 0x16 (0x1E611CB, special 0x158) selects the ball; callasm 0x1EB8F31 calls SetMonData 0x804037D with field 38 (ball) and the choice 0x8007 (at most 26) for party slot 0x8004, chosen with special 0x148, before 0x1E61228 removes the Ring Target" },
+  { kind = "exchange", takes = [0x1E648A6], gives = [{ effect = "Change a Pokémon's Poké Ball" }], evidence = "callasm 0x1ECC82D reads field 38 (ball) of party slot 0x8004, chosen with special 0x148, and unless it is ball 10 stores 10 with SetMonData 0x804037D before 0x1E648A6 removes one Luxury Ball" },
+  { kind = "exchange", takes = [0x1EA19D0], items = [616], gives = [{ effect = "Raise one IV to 31" }], evidence = "0x1EA192A sets 0x8009 = 616; list 0x13 (0x1EA1990) selects the stat and callasm 0x1EB88E5 raises it before 0x1EA19D0 removes 0x8009" },
+  { kind = "exchange", takes = [0x1EA1A60], items = [617], gives = [{ effect = "Raise all IVs to 31" }], evidence = "0x1EA19FB sets 0x8009 = 617; callasm 0x1EB8229 runs 0x1EB81F0 and 0x1EB6C44 on party slot 0x8004 and recalculates its stats with 0x8054E91 before 0x1EA1A60 removes 0x8009" },
+  { kind = "requirement", takes = [0x1E6087A], gives = [{ item = 94, at = 0x1E6089F }] },
+  { kind = "upgrade", takes = [0x1E7A1E6], gives = [{ upgrade = 278, at = 0x1E7A19B }] },
+  { kind = "exchange", takes = [0x1E7A236], gives = [{ item = 229, at = 0x1E7A216 }] },
+  { kind = "upgrade", takes = [0x1E8334A], quantity = [3, 10], gives = [{ upgrade = 181, at = 0x1E832DC }], evidence = "0x1E833A5 raises level 0x50F3 to at least 2; 0x1E83389-0x1E83393 set 0x4001 = level + 1; level 10 ends the offer (0x1E832FB); 0x1E8334F adds 1 to 0x50F3" },
+  { kind = "upgrade", takes = [0x1E95787], quantity = [3, 10], gives = [{ upgrade = 189, at = 0x1E95658 }], evidence = "0x1E957D6 raises level 0x50F5 to at least 2; 0x1E957BA-0x1E957C4 set 0x4001 = level + 1; level 10 ends the offer (0x1E95737); 0x1E9578C adds 1" },
+  { kind = "upgrade", takes = [0x1E6BBF1], items = [107], quantity = [3, 7], gives = [{ upgrade = 197, at = 0x1E6BB0A }], evidence = "Level 0x50F6 is at least 2 (0x1E6BB3C); below 7 (0x1E6BC52) the cost is level + 1 Big Pearls (0x1E6BC5D, 0x1E6BC62); 0x1E6BBDF adds 1" },
+  { kind = "upgrade", takes = [0x1E6BBF1], items = [228], quantity = [2, 4], gives = [{ upgrade = 197, at = 0x1E6BB0A }], evidence = "From level 7 to 9 (0x1E6BC57, condition 4 is >=) the cost is level - 5 Pearl Strings (0x1E6BC68-0x1E6BC72); level 10 ends the offer (0x1E6BB8E)" },
+  { kind = "upgrade", takes = [0x1E97E75], items = [109], quantity = [2, 7], gives = [{ upgrade = 244 }, { upgrade = 245 }, { upgrade = 246 }, { upgrade = 247 }, { upgrade = 248 }, { upgrade = 249 }], evidence = "Level 0x50F4 is at least 1 (0x1E97ECF); below 7 the cost is level + 1 Star Pieces (0x1E97EEB, 0x1E97EF0); 0x1E97E63 adds 1 to the level of all six Power items" },
+  { kind = "upgrade", takes = [0x1E97E75], items = [513], quantity = [2, 4], gives = [{ upgrade = 244 }, { upgrade = 245 }, { upgrade = 246 }, { upgrade = 247 }, { upgrade = 248 }, { upgrade = 249 }], evidence = "From level 7 to 9 (0x1E97EE5) the cost is level - 5 Comet Shards (0x1E97EF6-0x1E97F00); level 10 ends the offer (0x1E97E12)" },
+  { kind = "exchange", takes = [0x1E5B5DD], items = [4], gives = [{ item = 3, quantity = 1 }], conditions = ["Once per day; offer depends on story progress"], rom = [{ offset = 0x1EC8C88, size = 100, sha256 = "b05a2c8334b4d5bf390931e810a62fadbf4f56c2c2f4f415ffdd346c0dfe764d" }, { offset = 0x1E5B565, size = 128, sha256 = "76d13ce2f3c0afc79aba7fe3790fc0e84867e6392ab79b210b5a467b5b193351" }, { offset = 0x1EC7B68, size = 16, sha256 = "184eb183e2fb183ed44a30697dcb5fc795267f638965a988a2ae041ca436b108" }, { offset = 0x1EC631C, size = 92, sha256 = "9bff8bc05f26aac5f504bddae1d352368ab9cf9a4a3f6b78bcc3d76e52a37757" }] },
+  { kind = "exchange", takes = [0x1E5B5DD], items = [3], gives = [{ item = 2, quantity = 1 }], conditions = ["Once per day; offer depends on story progress"], rom = [{ offset = 0x1EC8C88, size = 100, sha256 = "b05a2c8334b4d5bf390931e810a62fadbf4f56c2c2f4f415ffdd346c0dfe764d" }, { offset = 0x1E5B565, size = 128, sha256 = "76d13ce2f3c0afc79aba7fe3790fc0e84867e6392ab79b210b5a467b5b193351" }, { offset = 0x1EC7B68, size = 16, sha256 = "184eb183e2fb183ed44a30697dcb5fc795267f638965a988a2ae041ca436b108" }, { offset = 0x1EC631C, size = 92, sha256 = "9bff8bc05f26aac5f504bddae1d352368ab9cf9a4a3f6b78bcc3d76e52a37757" }] },
+  { kind = "exchange", takes = [0x1E5B5DD], items = [2], gives = [{ item = 62, quantity = 1 }], conditions = ["Once per day; offer depends on story progress"], rom = [{ offset = 0x1EC8C88, size = 100, sha256 = "b05a2c8334b4d5bf390931e810a62fadbf4f56c2c2f4f415ffdd346c0dfe764d" }, { offset = 0x1E5B565, size = 128, sha256 = "76d13ce2f3c0afc79aba7fe3790fc0e84867e6392ab79b210b5a467b5b193351" }, { offset = 0x1EC7B68, size = 16, sha256 = "184eb183e2fb183ed44a30697dcb5fc795267f638965a988a2ae041ca436b108" }, { offset = 0x1EC631C, size = 92, sha256 = "9bff8bc05f26aac5f504bddae1d352368ab9cf9a4a3f6b78bcc3d76e52a37757" }] },
+  { kind = "exchange", takes = [0x1E5B5DD], items = [7], gives = [{ item = 630, quantity = 1 }], conditions = ["Once per day; offer depends on story progress"], rom = [{ offset = 0x1EC8C88, size = 100, sha256 = "b05a2c8334b4d5bf390931e810a62fadbf4f56c2c2f4f415ffdd346c0dfe764d" }, { offset = 0x1E5B565, size = 128, sha256 = "76d13ce2f3c0afc79aba7fe3790fc0e84867e6392ab79b210b5a467b5b193351" }, { offset = 0x1EC7B68, size = 16, sha256 = "184eb183e2fb183ed44a30697dcb5fc795267f638965a988a2ae041ca436b108" }, { offset = 0x1EC631C, size = 92, sha256 = "9bff8bc05f26aac5f504bddae1d352368ab9cf9a4a3f6b78bcc3d76e52a37757" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [357], gives = [{ species = 138, at = 0x1E71E49 }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71DBB, size = 11, sha256 = "40d4b3f56ea052daa51e086b9366ccc9a47cc2605ed8dbadabba4f8dcc377934" }, { offset = 0x1E71E41, size = 18, sha256 = "05012b7f8dd961330b9202025f2f5931e52002269897a03a15c360d27cc83813" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [358], gives = [{ species = 140, at = 0x1E71E5B }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71DC6, size = 11, sha256 = "fb39c3b4aa521abfd205ff7da19324b90a1b87eed02ab666eb30f2c2a72ed8b0" }, { offset = 0x1E71E53, size = 18, sha256 = "bd3b506052fcb9a91fa655f6b0a1fae8f3ad801e1f81fd4f4db9fc34ba4a3fcb" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [354], gives = [{ species = 142, at = 0x1E71E6D }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71DD1, size = 11, sha256 = "f5e636aa3cc9d3991b7f5dd549c7af10467d7f591c53808bd702fd9ab0193166" }, { offset = 0x1E71E65, size = 18, sha256 = "0c9202aab4fddd59a593cba20b41e2d6ed7a33542c3b6a63675f47441505b825" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [286], gives = [{ species = 388, at = 0x1E71E7F }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71DDC, size = 11, sha256 = "761e3a5d7da769c02c4abe39d2401b613daf328aba85234fce2b5230ef84d402" }, { offset = 0x1E71E77, size = 18, sha256 = "877bdf63426f4a4a3d9b8b98bff646cfb31342372505a123f2b1dfad286892d8" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [287], gives = [{ species = 390, at = 0x1E71E91 }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71DE7, size = 11, sha256 = "54ba8076ec2f27356dcf0bccbd346f3d62dea6c3d2484684fb7a239cb44c9559" }, { offset = 0x1E71E89, size = 18, sha256 = "329c20d15e63a9ea2ab7a43b59874411833e6675809d03b25d5005b46704f995" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [521], gives = [{ species = 461, at = 0x1E71EA3 }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71DF2, size = 11, sha256 = "a339a6932c57a6eaced6778e83f15c592c9bf6fba06daea5ffaa5c9303c37239" }, { offset = 0x1E71E9B, size = 18, sha256 = "b63b12bb5c44f6348f181f8fda49fa56aec6b250744bac406c6c40b125150cc6" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [522], gives = [{ species = 463, at = 0x1E71EB5 }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71DFD, size = 11, sha256 = "c0fcc95011e2dfccb2087e293a515853fda1dd7fec0371a3711f32e56520a079" }, { offset = 0x1E71EAD, size = 18, sha256 = "16521d8db05554e50b6771e0afdff59f9c85c30bb2099541a537826b63343b7b" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [523], gives = [{ species = 617, at = 0x1E71EC7 }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71E08, size = 11, sha256 = "3d2daf7722e79ebedbf23b21c8175de581fcb9d6084368ac38dec8e947b01faf" }, { offset = 0x1E71EBF, size = 18, sha256 = "b287dd58a7fb02221c898351ad175f2a7fa4e88bb46b01c583c6eedff530372e" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [524], gives = [{ species = 619, at = 0x1E71ED9 }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71E13, size = 11, sha256 = "21b07e430888b0657e42142f6c327d1de1542a63302e8a5c1fddb56f433f1e04" }, { offset = 0x1E71ED1, size = 18, sha256 = "75e7f2b74f7a7ca89e039fc0283fd9bad651c93ea3209d0cc87f8a2957d8c6f4" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [525], gives = [{ species = 804, at = 0x1E71EEB }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71E1E, size = 11, sha256 = "a43e18c16f9cf69ec6ec68ad707288b444e1d9f3adff6413289f79b3f2d8ecbc" }, { offset = 0x1E71EE3, size = 18, sha256 = "132087216e50235055d4c04cade532ae1f408f7ba94add50a314807946e91e0c" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+  { kind = "exchange", takes = [0x1E71F0F], items = [526], gives = [{ species = 806, at = 0x1E71EFD }], rom = [{ offset = 0x1E71DB6, size = 5, sha256 = "8eadc5554a19aaa2e7d3dfa372fd81bca013b998d41a7a262dda23f6bb4bfddf" }, { offset = 0x1E71E29, size = 11, sha256 = "21ae4fba592eaa9b412c290501055df04051f9d66047e7c0929b79cbc3f4c731" }, { offset = 0x1E71EF5, size = 18, sha256 = "a26c9df38757111e8527e1b303508bbb7de0f0f125341171f78128c80eb61b45" }, { offset = 0x1E71F0F, size = 10, sha256 = "9c8e85ec50f4e03d3ebec35f503dd41b53ab6cf123c733abddf7ef06b6702c35" }, { offset = 0x1E71F26, size = 44, sha256 = "7ec850cb3eabd09a589616e5bcf29d947562c30a32baa090bfc845a18521c78b" }] },
+]
+
+[[pokedex.items.uses.recipes]]
+at = 0x1E8F4E7
+outputs = { base = 0x1FB5738, count = 17 }
+base = 0x1FB575A
+count = 24
+stride = 4
+items = [48, 49, 50, 51]
+index_field = "hold_effect_param"
+rom = [{ offset = 0x1EC9640, size = 272, sha256 = "df5b4bbdc9d37f7a831de9b6a773573406c3a217565d8593c9759b035628b774" }, { offset = 0x1EC69F0, size = 192, sha256 = "a6bd770a1651f7dca60f3de7e09378862af70b552679ab9a31376bdbf3df0240" }, { offset = 0x1EC7818, size = 36, sha256 = "e8294aeb17a081ac6e6085c833fff657921c2cd9525c2b260d918296c135cbaf" }, { offset = 0x9A948, size = 36, sha256 = "e3dc1b901086de995a00b4da89550f46541862ba58691b78d5b995482d1ef0ce" }, { offset = 0x1E8F48A, size = 98, sha256 = "a4085b8fd672d682dd2f692eb2ed4cb147a9fccb82edaeee6c6f73cd977846b0" }]
+
+[[pokedex.items.uses.tutors]]
+tables = [0x1FE6804, 0x1FE6894]
+count = 24
+stride = 6
+tutor = 0
+move = 2
+quantity = 4
+conditions = ["Offer varies with the date"]
+entries = [
+  { at = 0x1E78788, index = 0, item = 590 },
+  { at = 0x1E7881B, index = 1, item = 591 },
+  { at = 0x1E788AE, index = 2, item = 592 },
+  { at = 0x1E78941, index = 3, item = 593 },
+  { at = 0x1E789D4, index = 4, item = 594 },
+  { at = 0x1E78A67, index = 5, item = 595 },
+  { at = 0x1E78AFA, index = 6, item = 596 },
+  { at = 0x1E78B8D, index = 7, item = 597 },
+  { at = 0x1E78C20, index = 8, item = 598 },
+  { at = 0x1E78CB3, index = 10, item = 599 },
+  { at = 0x1E78D46, index = 11, item = 600 },
+  { at = 0x1E78DD9, index = 12, item = 601 },
+  { at = 0x1E78E6C, index = 13, item = 602 },
+  { at = 0x1E78EFF, index = 14, item = 603 },
+  { at = 0x1E78F92, index = 15, item = 604 },
+  { at = 0x1E79025, index = 16, item = 605 },
+  { at = 0x1E790B8, index = 17, item = 606 },
+  { at = 0x1E7914B, index = 23, item = 607 },
+]
+rom = [{ offset = 0x1EC610C, size = 132, sha256 = "c6f7c854197e63d87554d356506589c5b0c916f27311656fde1493afff040d28" }, { offset = 0x1ECBBBC, size = 232, sha256 = "3902a4b5241fc63e1d228bafc0415ee6559879cab8f07305abbe851fa0b46c0a" }, { offset = 0x1E95E18, size = 18, sha256 = "30dd7acf87ed2f928bb31b22ea29427c655562563f6c59e889373bfff108593d" }, { offset = 0x1E78783, size = 10, sha256 = "c6531366af1f98ee1b061a92a903c3711c9f331be7e3d9e6011876426d9f87d3" }, { offset = 0x1E78769, size = 17, sha256 = "1f33801272f4dac9134d65ffa998b15c290d30de0574b7e7f664ce35ba4a5d57" }, { offset = 0x1E78816, size = 10, sha256 = "e8cd1c9ccf7fa4e270f9f59eb8e1205b93de73063036c9ab62feb0877fac28a5" }, { offset = 0x1E787FC, size = 17, sha256 = "e3f0bd9eeb0095cccb9787b00558ea2b5ef65c72f45fce4709ad91ff88a7d3e5" }, { offset = 0x1E788A9, size = 10, sha256 = "ae1bbf777c5cb8527c0b662e861f332d94358e1de020082a5459d2042765432e" }, { offset = 0x1E7888F, size = 17, sha256 = "940d897ccc75cb24caccea79e78e5dad2b334672f0727ea85e3c74bf7f9ddc43" }, { offset = 0x1E7893C, size = 10, sha256 = "197898b1596262be2b2884bca150a5e2210325caf95d3788f93c142be308e2cd" }, { offset = 0x1E78922, size = 17, sha256 = "f331aace85b38982a84644186ce863b2696de64d97bc8c0e7854c6f6899876fc" }, { offset = 0x1E789CF, size = 10, sha256 = "8a00f8a7b0314e9663e8ff5fe293c7d4402fada6cdfa34c44516a39ce0fbbaed" }, { offset = 0x1E789B5, size = 17, sha256 = "dfc5d57124344760881252ea0991acc8b039dc095a79288d1a9cd131d124c366" }, { offset = 0x1E78A62, size = 10, sha256 = "021630262b77d34a96781636b58f9d3a55efb12bf085e752d7b0170a7abf72e7" }, { offset = 0x1E78A48, size = 17, sha256 = "077576be5ba3a5df75850e1e8cb8e55b25fe416d2ac93dcff91dfb60ac2763e8" }, { offset = 0x1E78AF5, size = 10, sha256 = "7696a9e6b8fa531ac53f8a8ed644e27442df0806909b49f9638aaed1200d43ab" }, { offset = 0x1E78ADB, size = 17, sha256 = "e58f0feeb7b6d39862904fbc4507af5b95e05fe07e33f905aa2ace06bae67132" }, { offset = 0x1E78B88, size = 10, sha256 = "afb88990a64cee3eae822b4a632feb35879cbadbce66a0e4ff032788ee0d2c67" }, { offset = 0x1E78B6E, size = 17, sha256 = "73476862160c786b78c119dab88b2ad0a663b6584fa5f30a1cdd1009485ac7a6" }, { offset = 0x1E78C1B, size = 10, sha256 = "2369523d087d6eafee48d8fff74cb37337849b0d5f128feb86a98f50260c8deb" }, { offset = 0x1E78C01, size = 17, sha256 = "9b08de84328520381f64247d51a2ea7deff5dcfeda3490339a451dca7ba6235b" }, { offset = 0x1E78CAE, size = 10, sha256 = "1ae2b94951b07d2b4796e913e2d95a081e22823cf843e432b9c547ba0f84f5d8" }, { offset = 0x1E78C94, size = 17, sha256 = "1ba7b3dacaa0d79d4925b5bf55f39c5b773b820a751f2c24d82a0a290bf6226a" }, { offset = 0x1E78D41, size = 10, sha256 = "001944ae8e589fc0f61eb742962f89f6bbd1dc4653ea4b318845c3bc3741b0ca" }, { offset = 0x1E78D27, size = 17, sha256 = "cca8962fac803572e4b7f588d748c776e0eb864155631cc1305ad87976a00477" }, { offset = 0x1E78DD4, size = 10, sha256 = "6b949217d9d6ba2e1931826fbbea3dd3eb0f70fc0b2ba0ef77aaa1c2fe181208" }, { offset = 0x1E78DBA, size = 17, sha256 = "7df03657d57c2b6be27867cde19cc7a09abcdd84678109522b7e6c86fd720d10" }, { offset = 0x1E78E67, size = 10, sha256 = "cce0ef18fa22e2d15d942bd1e2e608b5add3fbd6819c41af7a96d3366f095df5" }, { offset = 0x1E78E4D, size = 17, sha256 = "3b60d0cccb5d34892572cbdbc65a9b3c0cf3ddac8087d5668423a6bfd84ed7d3" }, { offset = 0x1E78EFA, size = 10, sha256 = "f3b5c8939e4d41def408d5bcfa99fd293b496cae16ba7ea565edee14473b6f18" }, { offset = 0x1E78EE0, size = 17, sha256 = "07a5598cae15c6147ef99358843df5b795fa3e2a4d37f7e45ba32b8b6c61a4d5" }, { offset = 0x1E78F8D, size = 10, sha256 = "6da7c555667cf14de278b31ab2b8871b8b11456b70812d337236963a56db578a" }, { offset = 0x1E78F73, size = 17, sha256 = "80b9d7a784cc5c8d05b4029f5a75d05a65ad05aceaf0104a47930e374c38a39b" }, { offset = 0x1E79020, size = 10, sha256 = "abdd3623a57993255c798ffdb6431fd5fca7766e86502469b267bb63f9b83e1c" }, { offset = 0x1E79006, size = 17, sha256 = "ff2655b5a0227b48a7190fcb44417c5986143392a61d3408ab710085a324b667" }, { offset = 0x1E790B3, size = 10, sha256 = "0ae803e6177bafa9a65b71a4524899655b7431e4b9ceb73fbc318df2440d1dc9" }, { offset = 0x1E79099, size = 17, sha256 = "25c9562f3ba669e9c09cc81011cf35d407e54de956fefa1f1d635f096f31337f" }, { offset = 0x1E79146, size = 10, sha256 = "dae21c4baf1bff6ff78f364b423d512e740db8e3086889e55b903227302ad341" }, { offset = 0x1E7912C, size = 17, sha256 = "884a6b2fd305406793bbdd9f7e161f7e98839816d0c5d9e81a7a5d6d5e6c4abe" }]
+
+[[pokedex.items.uses.prices]]
+at = 0x1E63061
+pocket = 5
+range = [148, 728]
+price = 500
+rom = [{ offset = 0x1ECC608, size = 136, sha256 = "4bad3e88eeda8da76bb7c84d155ac5ec60e40f8ca775e298c241c2e213f10fdf" }, { offset = 0x9A900, size = 36, sha256 = "3bb6f0022bcb2467e0cce078997bcbf0696a2f9c0baecba0e4e3f33ac9b9424b" }, { offset = 0x9A9D8, size = 36, sha256 = "a3b58bd8c522dbbe4e0518e62e22314329e6839642a09f8a89526af435281e64" }, { offset = 0x1E76AC4, size = 8, sha256 = "40d130c2fb66bf4fb12cb718e4ebe33db454215a4c011922a955e332252f1b8e" }, { offset = 0x1EC7B30, size = 44, sha256 = "acc37139ed07a4cdee4aecd449b2536e77417c5f57586b0bebb7f57009d4e11e" }, { offset = 0x1EC7A6C, size = 176, sha256 = "1261ad71b86ba97c7435c024eb372f460379fb717de1b951971a786a77707f04" }, { offset = 0x1EC631C, size = 92, sha256 = "9bff8bc05f26aac5f504bddae1d352368ab9cf9a4a3f6b78bcc3d76e52a37757" }, { offset = 0x1E63036, size = 48, sha256 = "b01fa08cbd62e8103d2d312eb66d144c303b6f6d987ab95f6a8ce4ce8a98df29" }, { offset = 0x1ECC6AC, size = 160, sha256 = "9adfbd8d7ef7396d9c41ab3f5a437dbcb208e3f29e676f98bb0842e23f33fe17" }]
+
+[[pokedex.items.uses.prices]]
+at = 0x1E63061
+pocket = 5
+range = [1, 147]
+price = { field = "price", multiplier = 1, divisor = 1 }
+conditions = ["Without the birthday discount"]
+rom = [{ offset = 0x1ECC608, size = 136, sha256 = "4bad3e88eeda8da76bb7c84d155ac5ec60e40f8ca775e298c241c2e213f10fdf" }, { offset = 0x9A900, size = 36, sha256 = "3bb6f0022bcb2467e0cce078997bcbf0696a2f9c0baecba0e4e3f33ac9b9424b" }, { offset = 0x9A9D8, size = 36, sha256 = "a3b58bd8c522dbbe4e0518e62e22314329e6839642a09f8a89526af435281e64" }, { offset = 0x1E76AC4, size = 8, sha256 = "40d130c2fb66bf4fb12cb718e4ebe33db454215a4c011922a955e332252f1b8e" }, { offset = 0x1EC7B30, size = 44, sha256 = "acc37139ed07a4cdee4aecd449b2536e77417c5f57586b0bebb7f57009d4e11e" }, { offset = 0x1EC7A6C, size = 176, sha256 = "1261ad71b86ba97c7435c024eb372f460379fb717de1b951971a786a77707f04" }, { offset = 0x1EC631C, size = 92, sha256 = "9bff8bc05f26aac5f504bddae1d352368ab9cf9a4a3f6b78bcc3d76e52a37757" }, { offset = 0x1E63036, size = 48, sha256 = "b01fa08cbd62e8103d2d312eb66d144c303b6f6d987ab95f6a8ce4ce8a98df29" }, { offset = 0x1ECC6AC, size = 160, sha256 = "9adfbd8d7ef7396d9c41ab3f5a437dbcb208e3f29e676f98bb0842e23f33fe17" }]
+
+[[pokedex.items.uses.prices]]
+at = 0x1E63061
+pocket = 5
+range = [1, 147]
+price = { field = "price", multiplier = 9, divisor = 10 }
+conditions = ["Birthday discount active"]
+rom = [{ offset = 0x1ECC608, size = 136, sha256 = "4bad3e88eeda8da76bb7c84d155ac5ec60e40f8ca775e298c241c2e213f10fdf" }, { offset = 0x9A900, size = 36, sha256 = "3bb6f0022bcb2467e0cce078997bcbf0696a2f9c0baecba0e4e3f33ac9b9424b" }, { offset = 0x9A9D8, size = 36, sha256 = "a3b58bd8c522dbbe4e0518e62e22314329e6839642a09f8a89526af435281e64" }, { offset = 0x1E76AC4, size = 8, sha256 = "40d130c2fb66bf4fb12cb718e4ebe33db454215a4c011922a955e332252f1b8e" }, { offset = 0x1EC7B30, size = 44, sha256 = "acc37139ed07a4cdee4aecd449b2536e77417c5f57586b0bebb7f57009d4e11e" }, { offset = 0x1EC7A6C, size = 176, sha256 = "1261ad71b86ba97c7435c024eb372f460379fb717de1b951971a786a77707f04" }, { offset = 0x1EC631C, size = 92, sha256 = "9bff8bc05f26aac5f504bddae1d352368ab9cf9a4a3f6b78bcc3d76e52a37757" }, { offset = 0x1E63036, size = 48, sha256 = "b01fa08cbd62e8103d2d312eb66d144c303b6f6d987ab95f6a8ce4ce8a98df29" }, { offset = 0x1ECC6AC, size = 160, sha256 = "9adfbd8d7ef7396d9c41ab3f5a437dbcb208e3f29e676f98bb0842e23f33fe17" }]
+
+[[pokedex.items.uses.prices]]
+at = 0x1E634C2
+items = [114]
+price = 10000
+rom = [{ offset = 0x1E63485, size = 66, sha256 = "7109f9f93b026c1fa0db3d9412c7575910dac12f1c32dd14f3276c3a68a4d17e" }, { offset = 0x1EB5EC0, size = 12, sha256 = "184d9850cb3a74062edba514147e5c8e21e2389f296e24e60e68234ee2daa635" }, { offset = 0x1EB5D4C, size = 20, sha256 = "5b4f084ea999c2bbfc3c2229af041a1d33d260d7d85a65a2d7e020fb7a503de2" }, { offset = 0x1EB5E78, size = 8, sha256 = "3d9f7ff2e611d8fe3405585850914db2e2712bd7818d52fea903d348b184dff7" }, { offset = 0x1ECC6AC, size = 160, sha256 = "9adfbd8d7ef7396d9c41ab3f5a437dbcb208e3f29e676f98bb0842e23f33fe17" }]
+
+[pokedex.items.sources]
+
+# Item balls, hidden items and gifts of every map, read from the map walk.

@@ -1,0 +1,31 @@
+name: Pinned toolkit
+description: Install the gen3tl version project.toml pins, from its release tag, with pip.
+
+inputs:
+  install:
+    description: Install the toolkit; 'false' only reads the pin.
+    default: 'true'
+
+outputs:
+  repository:
+    description: The toolkit repository, account/name.
+    value: ${{ steps.pin.outputs.repository }}
+  version:
+    description: The pinned version, MAJOR.MINOR.PATCH; its release tag is v<version>.
+    value: ${{ steps.pin.outputs.version }}
+
+runs:
+  using: composite
+  steps:
+    - name: Read the pinned version
+      id: pin
+      shell: bash
+      run: |
+        printf 'repository=%s\n' haritos90/gen3tl >>"$GITHUB_OUTPUT"
+        python3 -c 'import tomllib; print("version=" + tomllib.load(open("project.toml", "rb"))["toolkit"])' >>"$GITHUB_OUTPUT"
+    - name: Install the toolkit with the morphology extra
+      if: inputs.install == 'true'
+      shell: bash
+      env:
+        TOOLKIT: git+https://github.com/${{ steps.pin.outputs.repository }}@v${{ steps.pin.outputs.version }}
+      run: python -m pip install "gen3tl[morphology] @ $TOOLKIT"

@@ -1,0 +1,13 @@
+[pokedex.abilities_browsing.0]
+status = "unreleased"
+rom = [
+  { offset = 0xA36398, size = 17, sha256 = "aa49a04f9ce2fe60a1894f6aa134c492551b0e172edaf155534e8ad32e7cc5ec" },
+]
+evidence = "Ability zero has a dash-only name and the description No special ability.; no species ability list references this empty slot."
+
+[pokedex.abilities_browsing.77]
+status = "unreleased"
+rom = [
+  { offset = 0xA368B5, size = 17, sha256 = "e6e41cc7908c5b9fafd9f545b3d85670fd6d2d0edbf2bf6f81d86723fa5b9ed4" },
+]
+

@@ -1,0 +1,14 @@
+[maps]
+groups = 0x3526A8
+mapsec_names = 0x3F1CAC
+mapsec_first = 0x58
+mapsec_count = 109
+
+[maps.engine]
+groups = 0xB70498
+count = 57
+bank_xor = 0x00B749DE
+
+# Script command length overrides for engine extensions.
+# - 0x81 is one byte here, not a 4-byte decoration command
+# - 0x8A is one byte here, not the 4-byte berry-tree command

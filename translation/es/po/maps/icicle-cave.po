@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/icicle-cave\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 162, 189, 190, 191, 187, 199, 187
+#: 0x1ef3b45
+msgctxt "map:43.6/npc:5/0"
+msgid "map:43.6/npc:5/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 62
+#: 0x1f1f8ab
+msgctxt "map:43.5/npc:0/9"
+msgid "map:43.5/npc:0/9"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 122, 187, 194, 128, 192, 159, 183, 118
+#: 0x1f1f8f0
+msgctxt "map:43.0/npc:0/0"
+msgid "map:43.0/npc:0/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 22, widths px: 173, 158, 69, 151, 172, 194, 60, 176, 181, 120, 183, 168, 159, 163, 47, 179, 191, 177, 164, 191, 172, 157
+#: 0x1f1f9dc
+msgctxt "map:43.5/npc:0/13"
+msgid "map:43.5/npc:0/13"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 183, 182, 190, 162, 178, 185, 58
+#: 0x1f1fc58
+msgctxt "map:43.5/npc:0/14"
+msgid "map:43.5/npc:0/14"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 56, 195, 174
+#: 0x1f1fd2b
+msgctxt "map:43.5/npc:0/15"
+msgid "map:43.5/npc:0/15"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 99, 185, 185, 198, 168, 77, 195, 171, 195, 93
+#: 0x1f1fd7a
+msgctxt "map:43.5/npc:0/16"
+msgid "map:43.5/npc:0/16"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 168, 184, 179, 177, 73
+#: 0x1f1fea4
+msgctxt "map:43.5/npc:0/5"
+msgid "map:43.5/npc:0/5"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 98, 173, 179, 102, 178, 200, 110, 163, 127, 196, 194, 182, 179, 89
+#: 0x1f1ff3c
+msgctxt "map:43.5/npc:0/6"
+msgid "map:43.5/npc:0/6"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 186, 180, 23, 200, 188, 38, 182, 85, 197, 120, 111
+#: 0x1f200cb
+msgctxt "map:43.5/npc:0/8"
+msgid "map:43.5/npc:0/8"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 9
+#: 0x1f204fa
+msgctxt "map:43.5/npc:0/11"
+msgid "map:43.5/npc:0/11"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 17
+#: 0x1f204fd
+msgctxt "map:43.5/npc:0/12"
+msgid "map:43.5/npc:0/12"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 6, 132, 195, 164, 6, 119, 129, 158
+#: 0x1f206c0
+msgctxt "map:43.2/trigger:0/18"
+msgid "map:43.2/trigger:0/18"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 65, 173
+#: 0x1f2076d
+msgctxt "map:43.2/trigger:0/20"
+msgid "map:43.2/trigger:0/20"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 111, 51
+#: 0x1f20799
+msgctxt "map:43.2/trigger:0/21"
+msgid "map:43.2/trigger:0/21"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 192, 153, 140, 166, 53
+#: 0x1f207be
+msgctxt "map:43.2/trigger:0/23"
+msgid "map:43.2/trigger:0/23"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 192, 164, 134, 70, 179, 125
+#: 0x1f20844
+msgctxt "map:43.2/trigger:0/25"
+msgid "map:43.2/trigger:0/25"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 192, 181, 117, 70, 180, 100
+#: 0x1f208e6
+msgctxt "map:43.2/trigger:0/27"
+msgid "map:43.2/trigger:0/27"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 205, 213
+#: 0x1f20983
+msgctxt "map:43.2/trigger:0/3"
+msgid "map:43.2/trigger:0/3"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 59, 129, 80, 171, 121, 180, 172, 53, 54, 186, 150
+#: 0x1f209d0
+msgctxt "map:43.2/trigger:0/7"
+msgid "map:43.2/trigger:0/7"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 19, widths px: 186, 92, 205, 155, 197, 179, 199, 193, 177, 103, 178, 62, 186, 160, 102, 68, 189, 119, 108
+#: 0x1f20ad0
+msgctxt "map:43.2/trigger:0/16"
+msgid "map:43.2/trigger:0/16"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 19, widths px: 186, 92, 205, 155, 197, 179, 199, 193, 177, 103, 178, 62, 186, 157, 102, 68, 189, 119, 108
+#: 0x1f20cf2
+msgctxt "map:43.2/trigger:0/10"
+msgid "map:43.2/trigger:0/10"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 87
+#: 0x1f20f14
+msgctxt "map:43.2/trigger:0/14"
+msgid "map:43.2/trigger:0/14"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 76
+#: 0x1f20f25
+msgctxt "map:43.2/trigger:0/8"
+msgid "map:43.2/trigger:0/8"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 172, 108
+#: 0x1f20f34
+msgctxt "map:43.1/npc:2/0"
+msgid "map:43.1/npc:2/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 56, 86
+#: 0x1f20f67
+msgctxt "map:43.1/npc:2/1"
+msgid "map:43.1/npc:2/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 103
+#: 0x1f20f82
+msgctxt "map:43.1/npc:2/2"
+msgid "map:43.1/npc:2/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 139
+#: 0x1f20fb9
+msgctxt "map:43.1/npc:1/0"
+msgid "map:43.1/npc:1/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 197
+#: 0x1f20fd5
+msgctxt "map:43.1/npc:1/1"
+msgid "map:43.1/npc:1/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 202
+#: 0x1f20ff9
+msgctxt "map:43.1/npc:1/2"
+msgid "map:43.1/npc:1/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 142, 158
+#: 0x1f21021
+msgctxt "map:43.1/npc:6/0"
+msgid "map:43.1/npc:6/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 178, 100
+#: 0x1f21059
+msgctxt "map:43.1/npc:6/1"
+msgid "map:43.1/npc:6/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 171, 186, 183, 44
+#: 0x1f2108b
+msgctxt "map:43.1/npc:6/2"
+msgid "map:43.1/npc:6/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 161
+#: 0x1f210f9
+msgctxt "map:43.2/npc:3/0"
+msgid "map:43.2/npc:3/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 77
+#: 0x1f21116
+msgctxt "map:43.2/npc:3/1"
+msgid "map:43.2/npc:3/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 173, 174, 143
+#: 0x1f21124
+msgctxt "map:43.2/npc:3/2"
+msgid "map:43.2/npc:3/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 64, 180, 130
+#: 0x1f21190
+msgctxt "map:43.2/npc:5/0"
+msgid "map:43.2/npc:5/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 187, 97
+#: 0x1f211d6
+msgctxt "map:43.2/npc:5/1"
+msgid "map:43.2/npc:5/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 112
+#: 0x1f2120a
+msgctxt "map:43.2/npc:5/2"
+msgid "map:43.2/npc:5/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 178, 194
+#: 0x1f21242
+msgctxt "map:43.4/npc:13/0"
+msgid "map:43.4/npc:13/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 197, 121
+#: 0x1f21285
+msgctxt "map:43.4/npc:13/1"
+msgid "map:43.4/npc:13/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 154, 100, 189, 120
+#: 0x1f212be
+msgctxt "map:43.4/npc:13/2"
+msgid "map:43.4/npc:13/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 100, 173
+#: 0x1f21328
+msgctxt "map:43.4/npc:10/0"
+msgid "map:43.4/npc:10/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 103
+#: 0x1f2135b
+msgctxt "map:43.4/npc:10/1"
+msgid "map:43.4/npc:10/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 193, 143
+#: 0x1f2136e
+msgctxt "map:43.4/npc:10/2"
+msgid "map:43.4/npc:10/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 165, 102, 128
+#: 0x1f213ad
+msgctxt "map:43.4/npc:11/0"
+msgid "map:43.4/npc:11/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 47
+#: 0x1f213f7
+msgctxt "map:43.4/npc:11/1"
+msgid "map:43.4/npc:11/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 125, 89
+#: 0x1f21400
+msgctxt "map:43.4/npc:11/2"
+msgid "map:43.4/npc:11/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 178, 28, 176, 29
+#: 0x1f21429
+msgctxt "map:43.4/npc:12/3"
+msgid "map:43.4/npc:12/3"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 193, 53
+#: 0x1f21478
+msgctxt "map:43.4/npc:12/4"
+msgid "map:43.4/npc:12/4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 148, 55, 203, 78, 6, 116, 133
+#: 0x1f214a7
+msgctxt "map:43.4/npc:12/1"
+msgid "map:43.4/npc:12/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 184, 105, 197, 48
+#: 0x1f21532
+msgctxt "map:43.4/npc:12/0"
+msgid "map:43.4/npc:12/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 139, 74
+#: 0x1f21596
+msgctxt "map:43.0/npc:3/0"
+msgid "map:43.0/npc:3/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 121, 106
+#: 0x1f215bf
+msgctxt "map:43.0/npc:3/1"
+msgid "map:43.0/npc:3/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 183, 119, 126
+#: 0x1f215eb
+msgctxt "map:43.0/npc:3/2"
+msgid "map:43.0/npc:3/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 146, 154
+#: 0x1f2163b
+msgctxt "map:43.0/npc:2/0"
+msgid "map:43.0/npc:2/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 94
+#: 0x1f21675
+msgctxt "map:43.0/npc:2/1"
+msgid "map:43.0/npc:2/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 29, 162, 40
+#: 0x1f216a7
+msgctxt "map:43.0/npc:2/2"
+msgid "map:43.0/npc:2/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 54, 65
+#: 0x1f216f0
+msgctxt "map:43.5/sign:0/4"
+msgid "map:43.5/sign:0/4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 17, widths px: 70, 174, 127, 147, 48, 171, 175, 184, 183, 186, 142, 172, 177, 170, 191, 182, 122
+#: 0x1f72bd8
+msgctxt "map:43.1/sign:1/0"
+msgid "map:43.1/sign:1/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 70, 185, 164, 191, 188
+#: 0x1f72dd1
+msgctxt "map:43.1/sign:2/0"
+msgid "map:43.1/sign:2/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 70, 176, 181, 174, 163, 178, 163, 130
+#: 0x1f72e65
+msgctxt "map:43.2/sign:1/0"
+msgid "map:43.2/sign:1/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 132
+#: 0x1fa54e9
+msgctxt "map:43.5/trigger:0/0"
+msgid "map:43.5/trigger:0/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 24, 102, 189, 58, 176
+#: 0x1fa550b
+msgctxt "map:43.6/mapscript:0/1"
+msgid "map:43.6/mapscript:0/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 92, 194, 132
+#: 0x1fa5571
+msgctxt "map:43.6/mapscript:0/2"
+msgid "map:43.6/mapscript:0/2"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 52, 175, 18, 196, 187, 184, 109, 176, 157
+#: 0x1fa55bf
+msgctxt "map:43.6/mapscript:0/3"
+msgid "map:43.6/mapscript:0/3"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 95, 178, 153, 162, 55, 193, 196, 182, 188, 46, 131
+#: 0x1fa56a5
+msgctxt "map:43.6/mapscript:0/4"
+msgid "map:43.6/mapscript:0/4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 148
+#: 0x1fa57c6
+msgctxt "map:43.6/mapscript:0/5"
+msgid "map:43.6/mapscript:0/5"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 184, 61, 168, 54
+#: 0x1fa57e3
+msgctxt "map:43.6/mapscript:0/6"
+msgid "map:43.6/mapscript:0/6"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 157, 169, 183, 190, 34
+#: 0x1fa583c
+msgctxt "map:43.6/mapscript:0/7"
+msgid "map:43.6/mapscript:0/7"
+msgstr ""

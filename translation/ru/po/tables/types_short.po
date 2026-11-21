@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/types_short\n"
+"X-Source: key-only\n"
+
+# filled from glossary type:normal
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 0)
+#. original lines: 1, widths px: 34
+#: 0x0961b50
+msgctxt "table:types_short/0"
+msgid "table:types_short/0"
+msgstr "Норм"
+
+# filled from glossary type:fight
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 1)
+#. original lines: 1, widths px: 27
+#: 0x0961b57
+msgctxt "table:types_short/1"
+msgid "table:types_short/1"
+msgstr "Боевой"
+
+# filled from glossary type:flying
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 2)
+#. original lines: 1, widths px: 32
+#: 0x0961b5e
+msgctxt "table:types_short/2"
+msgid "table:types_short/2"
+msgstr "Полёт"
+
+# filled from glossary type:poison
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 3)
+#. original lines: 1, widths px: 32
+#: 0x0961b65
+msgctxt "table:types_short/3"
+msgid "table:types_short/3"
+msgstr "Яд"
+
+# filled from glossary type:ground
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 4)
+#. original lines: 1, widths px: 34
+#: 0x0961b6c
+msgctxt "table:types_short/4"
+msgid "table:types_short/4"
+msgstr "Земля"
+
+# filled from glossary type:rock
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 5)
+#. original lines: 1, widths px: 23
+#: 0x0961b73
+msgctxt "table:types_short/5"
+msgid "table:types_short/5"
+msgstr "Камень"
+
+# filled from glossary type:bug
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 6)
+#. original lines: 1, widths px: 18
+#: 0x0961b7a
+msgctxt "table:types_short/6"
+msgid "table:types_short/6"
+msgstr "Жук"
+
+# filled from glossary type:ghost
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 7)
+#. original lines: 1, widths px: 28
+#: 0x0961b81
+msgctxt "table:types_short/7"
+msgid "table:types_short/7"
+msgstr "Дух"
+
+# filled from glossary type:steel
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 8)
+#. original lines: 1, widths px: 28
+#: 0x0961b88
+msgctxt "table:types_short/8"
+msgid "table:types_short/8"
+msgstr "Сталь"
+
+# filled from glossary type:x
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 9)
+#. original lines: 1, widths px: 18
+#: 0x0961b8f
+msgctxt "table:types_short/9"
+msgid "table:types_short/9"
+msgstr "???"
+
+# filled from glossary type:fire
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 10)
+#. original lines: 1, widths px: 21
+#: 0x0961b96
+msgctxt "table:types_short/10"
+msgid "table:types_short/10"
+msgstr "Огонь"
+
+# filled from glossary type:water
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 11)
+#. original lines: 1, widths px: 28
+#: 0x0961b9d
+msgctxt "table:types_short/11"
+msgid "table:types_short/11"
+msgstr "Вода"
+
+# filled from glossary type:grass
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 12)
+#. original lines: 1, widths px: 27
+#: 0x0961ba4
+msgctxt "table:types_short/12"
+msgid "table:types_short/12"
+msgstr "Трава"
+
+# filled from glossary type:electr
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 13)
+#. original lines: 1, widths px: 33
+#: 0x0961bab
+msgctxt "table:types_short/13"
+msgid "table:types_short/13"
+msgstr "Электр"
+
+# filled from glossary type:psychc
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 14)
+#. original lines: 1, widths px: 35
+#: 0x0961bb2
+msgctxt "table:types_short/14"
+msgid "table:types_short/14"
+msgstr "Психо"
+
+# filled from glossary type:ice
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 15)
+#. original lines: 1, widths px: 18
+#: 0x0961bb9
+msgctxt "table:types_short/15"
+msgid "table:types_short/15"
+msgstr "Лёд"
+
+# filled from glossary type:dragon
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 16)
+#. original lines: 1, widths px: 34
+#: 0x0961bc0
+msgctxt "table:types_short/16"
+msgid "table:types_short/16"
+msgstr "Дракон"
+
+# filled from glossary type:dark
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 17)
+#. original lines: 1, widths px: 22
+#: 0x0961bc7
+msgctxt "table:types_short/17"
+msgid "table:types_short/17"
+msgstr "Тёмный"
+
+# filled from glossary type:fight
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 18)
+#. original lines: 1, widths px: 27
+#: 0x0961bce
+msgctxt "table:types_short/18"
+msgid "table:types_short/18"
+msgstr "Боевой"
+
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 19)
+#. original lines: 1, widths px: 0
+#: 0x0961bd5
+msgctxt "table:types_short/19"
+msgid "table:types_short/19"
+msgstr "     "
+
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 20)
+#. original lines: 1, widths px: 0
+#: 0x0961bdc
+msgctxt "table:types_short/20"
+msgid "table:types_short/20"
+msgstr "      "
+
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 21)
+#. original lines: 1, widths px: 0
+#: 0x0961be3
+msgctxt "table:types_short/21"
+msgid "table:types_short/21"
+msgstr "     "
+
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 22)
+#. original lines: 1, widths px: 0
+#: 0x0961bea
+msgctxt "table:types_short/22"
+msgid "table:types_short/22"
+msgstr "     "
+
+# filled from glossary type:fairy
+#. category: table:types_short; mode: field
+#. fixed field: 6 characters max (table types_short, index 23)
+#. original lines: 1, widths px: 27
+#: 0x0961bf1
+msgctxt "table:types_short/23"
+msgid "table:types_short/23"
+msgstr "Фея"

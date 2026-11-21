@@ -1,0 +1,7 @@
+[pokedex.moves_browsing.0]
+status = "unreleased"
+rom = [
+  { offset = 0xA769AF, size = 12, sha256 = "323c19abab475a8eee9331e6df26dfafc114c79d1bc4c420d6db5ea85c42bbbb" },
+]
+evidence = "Move zero has the dash-only name and the description No move information.; its numeric record contains fallback values. This empty move is excluded from public browsing."
+

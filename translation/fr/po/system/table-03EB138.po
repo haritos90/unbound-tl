@@ -1,0 +1,555 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03EB138\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eaf3c
+msgctxt "hash:bb7219f5"
+msgid "hash:bb7219f5"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eaf42
+msgctxt "hash:b0bf7cab"
+msgid "hash:b0bf7cab"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eaf4a
+msgctxt "hash:e0177609"
+msgid "hash:e0177609"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eaf4f
+msgctxt "hash:17639922"
+msgid "hash:17639922"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eaf55
+msgctxt "hash:a98130fd"
+msgid "hash:a98130fd"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eaf5c
+msgctxt "hash:440c991c"
+msgid "hash:440c991c"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eaf62
+msgctxt "hash:f55a92ed"
+msgid "hash:f55a92ed"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eaf6a
+msgctxt "hash:e76c4f1d"
+msgid "hash:e76c4f1d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eaf72
+msgctxt "hash:436b77d1"
+msgid "hash:436b77d1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eaf78
+msgctxt "hash:0f6087f3"
+msgid "hash:0f6087f3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eaf7d
+msgctxt "hash:af8106cf"
+msgid "hash:af8106cf"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eaf82
+msgctxt "hash:dd479b45"
+msgid "hash:dd479b45"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eaf87
+msgctxt "hash:19009425"
+msgid "hash:19009425"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 48
+#: 0x03eaf8f
+msgctxt "hash:4fb3e7c1"
+msgid "hash:4fb3e7c1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eaf98
+msgctxt "hash:f6e4ecaa"
+msgid "hash:f6e4ecaa"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eaf9f
+msgctxt "hash:174476e9"
+msgid "hash:174476e9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eafa5
+msgctxt "hash:9e15947e"
+msgid "hash:9e15947e"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eafad
+msgctxt "hash:d3ed2776"
+msgid "hash:d3ed2776"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eafb4
+msgctxt "hash:aa013336"
+msgid "hash:aa013336"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eafba
+msgctxt "hash:86e548c9"
+msgid "hash:86e548c9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eafc1
+msgctxt "hash:26346bbd"
+msgid "hash:26346bbd"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eafc7
+msgctxt "hash:4dc9862c"
+msgid "hash:4dc9862c"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eafcd
+msgctxt "hash:11502c92"
+msgid "hash:11502c92"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eafd4
+msgctxt "hash:9794dddb"
+msgid "hash:9794dddb"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eafdc
+msgctxt "hash:d3825a7d"
+msgid "hash:d3825a7d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eafe4
+msgctxt "hash:79380c13"
+msgid "hash:79380c13"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eafeb
+msgctxt "hash:4807aa51"
+msgid "hash:4807aa51"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eaff2
+msgctxt "hash:223eba7d"
+msgid "hash:223eba7d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eaff7
+msgctxt "hash:67b724d2"
+msgid "hash:67b724d2"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 35
+#: 0x03eaffc
+msgctxt "hash:7f7ad758"
+msgid "hash:7f7ad758"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb003
+msgctxt "hash:0dbf0534"
+msgid "hash:0dbf0534"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb008
+msgctxt "hash:f18531ae"
+msgid "hash:f18531ae"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb00e
+msgctxt "hash:892e560d"
+msgid "hash:892e560d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb013
+msgctxt "hash:154bb1da"
+msgid "hash:154bb1da"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb019
+msgctxt "hash:5c6d47f9"
+msgid "hash:5c6d47f9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb020
+msgctxt "hash:a224b3ef"
+msgid "hash:a224b3ef"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb027
+msgctxt "hash:3876bf1d"
+msgid "hash:3876bf1d"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 48
+#: 0x03eb02c
+msgctxt "hash:471449d6"
+msgid "hash:471449d6"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb035
+msgctxt "hash:ad4ac0c7"
+msgid "hash:ad4ac0c7"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb03c
+msgctxt "hash:c6446774"
+msgid "hash:c6446774"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb044
+msgctxt "hash:0bc4c4a6"
+msgid "hash:0bc4c4a6"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb04a
+msgctxt "hash:0a429b2e"
+msgid "hash:0a429b2e"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x03eb04f
+msgctxt "hash:ed361416"
+msgid "hash:ed361416"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb053
+msgctxt "hash:f3c056ee"
+msgid "hash:f3c056ee"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb058
+msgctxt "hash:873c12d1"
+msgid "hash:873c12d1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x03eb05e
+msgctxt "hash:ab00e3be"
+msgid "hash:ab00e3be"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb067
+msgctxt "hash:16896bbb"
+msgid "hash:16896bbb"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x03eb06f
+msgctxt "hash:5ef77d98"
+msgid "hash:5ef77d98"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb079
+msgctxt "hash:b87bb834"
+msgid "hash:b87bb834"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb080
+msgctxt "hash:9eaf443a"
+msgid "hash:9eaf443a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb086
+msgctxt "hash:41417f73"
+msgid "hash:41417f73"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb08c
+msgctxt "hash:0782a2f1"
+msgid "hash:0782a2f1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb092
+msgctxt "hash:6e04c757"
+msgid "hash:6e04c757"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb098
+msgctxt "hash:372bcdc4"
+msgid "hash:372bcdc4"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb0a0
+msgctxt "hash:c657907b"
+msgid "hash:c657907b"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb0a7
+msgctxt "hash:14b187ac"
+msgid "hash:14b187ac"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x03eb0ac
+msgctxt "hash:571b9372"
+msgid "hash:571b9372"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb0b0
+msgctxt "hash:8a496c09"
+msgid "hash:8a496c09"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb0b6
+msgctxt "hash:ae8689b3"
+msgid "hash:ae8689b3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb0be
+msgctxt "hash:a29f8eda"
+msgid "hash:a29f8eda"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb0c6
+msgctxt "hash:4d118e47"
+msgid "hash:4d118e47"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb0cb
+msgctxt "hash:69fedb36"
+msgid "hash:69fedb36"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb0d0
+msgctxt "hash:11230f79"
+msgid "hash:11230f79"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb0d6
+msgctxt "hash:18790766"
+msgid "hash:18790766"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb0de
+msgctxt "hash:d47f5e1b"
+msgid "hash:d47f5e1b"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb0e5
+msgctxt "hash:c0176759"
+msgid "hash:c0176759"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb0ec
+msgctxt "hash:7e1358bc"
+msgid "hash:7e1358bc"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb0f1
+msgctxt "hash:3ceabef7"
+msgid "hash:3ceabef7"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb0f7
+msgctxt "hash:6f7c7a78"
+msgid "hash:6f7c7a78"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb0fc
+msgctxt "hash:dbf76173"
+msgid "hash:dbf76173"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x03eb101
+msgctxt "hash:cfe1c349"
+msgid "hash:cfe1c349"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb105
+msgctxt "hash:b7b227f5"
+msgid "hash:b7b227f5"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb10a
+msgctxt "hash:ab35d5b3"
+msgid "hash:ab35d5b3"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb110
+msgctxt "hash:e8341973"
+msgid "hash:e8341973"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb117
+msgctxt "hash:d724811b"
+msgid "hash:d724811b"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb11f
+msgctxt "hash:fce3a3f0"
+msgid "hash:fce3a3f0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03eb127
+msgctxt "hash:553ae064"
+msgid "hash:553ae064"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03eb12d
+msgctxt "hash:c435c3b3"
+msgid "hash:c435c3b3"
+msgstr ""

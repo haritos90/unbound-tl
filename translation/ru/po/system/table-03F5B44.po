@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03F5B44\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x041803a
+msgctxt "hash:09305f83"
+msgid "hash:09305f83"
+msgstr "1 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x041803d
+msgctxt "hash:a6a478fc"
+msgid "hash:a6a478fc"
+msgstr "2 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0418040
+msgctxt "hash:3d162f7e"
+msgid "hash:3d162f7e"
+msgstr "3 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0418043
+msgctxt "hash:ee150858"
+msgid "hash:ee150858"
+msgstr "4 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0418046
+msgctxt "hash:d02d1240"
+msgid "hash:d02d1240"
+msgstr "5 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0418049
+msgctxt "hash:680a1033"
+msgid "hash:680a1033"
+msgstr "6 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x041804c
+msgctxt "hash:00c565af"
+msgid "hash:00c565af"
+msgstr "7 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x041804f
+msgctxt "hash:a4b9a22f"
+msgid "hash:a4b9a22f"
+msgstr "8 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0418052
+msgctxt "hash:63e25010"
+msgid "hash:63e25010"
+msgstr "9 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0418055
+msgctxt "hash:e478cbaa"
+msgid "hash:e478cbaa"
+msgstr "10 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0418059
+msgctxt "hash:d5222e0d"
+msgid "hash:d5222e0d"
+msgstr "11 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x041805d
+msgctxt "hash:c0a74d67"
+msgid "hash:c0a74d67"
+msgstr "-1 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0418061
+msgctxt "hash:c2c71abe"
+msgid "hash:c2c71abe"
+msgstr "-2 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0418065
+msgctxt "hash:4dc8a635"
+msgid "hash:4dc8a635"
+msgstr "-3 эт."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 18
+#: 0x0418069
+msgctxt "hash:c009cafb"
+msgid "hash:c009cafb"
+msgstr "-4 эт."

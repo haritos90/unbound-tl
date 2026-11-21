@@ -1,0 +1,636 @@
+# Language policy; ROM facts remain in profile/.
+
+text_prefixes = ["berry-number-prefix"]
+
+[policy]
+"version" = "3.0.0"
+"profile" = "unbound-2.1.1.1"
+"language" = "ru"
+"rom_sha1" = "b4776b82a4c7915d0fadeaa27e013523f99dfd94"
+
+[keyboard]
+layout = "keyboard.toml"
+
+# Pokédex height and weight in metres and kilograms
+[code_replacements.pokedex-metric]
+height_unit = "м"
+
+[qa]
+"optional_tokens" = ["{PK}", "{MN}"]
+# Omit only explicitly permitted tokens.
+"droppable" = ["mining-article", "japanese-s0459434", "japanese-s0459440", "chat-keyboard-keys", "repeated-player-name"]
+"addable" = [{ capability = "start-menu-centering", ids = ["hash:66bedfe6", "hash:47007de3", "hash:6339a440", "hash:8c035d47", "hash:f6079fc9", "hash:70eb06ab", "hash:2c502e29", "hash:67ac47c7", "hash:edf91726"] }]
+
+[qa.forbidden]
+"\\.\\.\\." = { reason = "three dots: use the ellipsis character …", ru = "три точки: используйте символ многоточия …", needs_source = false }
+"  " = { reason = "double space", ru = "двойной пробел", needs_source = false }
+"(?:^|[^A-Za-z]|\\\\[nlp])BP(?![A-Za-z])" = { reason = "Battle Points: use the approved Russian label БО", ru = "Battle Points: используйте утверждённую русскую метку БО", needs_source = false }
+
+[layout]
+"label_min_width" = 60
+"target_width" = 196
+"sentence_break" = 0.5
+
+[layout.window_width]
+"hash:6ec865d4" = 83
+"hash:9fa74b33" = 83
+"hash:53ee6a74" = 83
+"hash:b72c6aea" = 83
+"hash:9dbeb57f" = 60
+"hash:5c8a7d5e" = 60
+"hash:011ffd5a" = 60
+"hash:89b9ac29" = 60
+"hash:e7895446" = 60
+"hash:d13a559d" = 100
+"hash:4e2fc2f7" = 100
+"hash:03d18e9f" = 100
+"hash:c9df8ca7" = 100
+"hash:4a10c354" = 100
+"hash:6a1512e6" = 100
+"hash:18e23a91" = 42
+"hash:d94a94a8" = 42
+"hash:51c850d7" = 75
+"hash:743fd9d6" = 87
+"hash:b46d8a3e" = 134
+"hash:f964d59f" = 90
+"hash:fb1218e5" = 90
+"hash:d22685e9" = 90
+"hash:5619b631" = 90
+"hash:8b9ef6eb" = 90
+"hash:2491188e" = 90
+"hash:98c26664" = 90
+"hash:5928e491" = 90
+"hash:720dc531" = 90
+"hash:3a64f4c4" = 134
+"hash:1b4eb395" = 134
+"hash:50876b4d" = 89
+"hash:4c2b302e" = 89
+"hash:95b2a1f2" = 112
+"hash:bed0d350" = 112
+"hash:00c6180b" = 150
+"hash:3bf53bc1" = 65
+"hash:63e9826c" = 65
+"hash:98a22898" = 203
+"hash:3b02559d" = 203
+"hash:c071d33e" = 202
+"hash:9c3cd432" = 44
+"hash:23cf103b" = 28
+"hash:3b37404d" = 123
+"hash:60428838" = 53
+"hash:b51ae02e" = 61
+"hash:173b4979" = 66
+"hash:624042b9" = 66
+"hash:0c364d18" = 107
+"hash:781d8f9d" = 96
+"hash:b4cab9e5" = 96
+"hash:3e6795b4" = 96
+"hash:43c51e80" = 96
+"hash:00c80594" = 96
+"hash:65dcc764" = 57
+"hash:470e027a" = 68
+"hash:8d82c50d" = 70
+"hash:51635168" = 111
+"hash:3b6c31ac" = 58
+"hash:5e92e51b" = 58
+"hash:bb07aea4" = 65
+"hash:a65e6334" = 65
+"hash:e97821e9" = 65
+"hash:5d613c8f" = 65
+"hash:0c9e226e" = 120
+"hash:3bf4dc27" = 101
+"hash:14205b65" = 101
+"hash:0a4ed797" = 78
+"hash:996156ad" = 174
+"hash:b47edb3a" = 60
+"hash:fa3b12b9" = 60
+"hash:058963ec" = 60
+"hash:43893c65" = 60
+"hash:73164ecc" = 60
+"hash:4f1b52ad" = 60
+"hash:d7ee30d8" = 60
+"hash:5358a9a3" = 60
+"hash:b252c68d" = 67
+"hash:e4914a2f" = 149
+"hash:46ee94e1" = 60
+"hash:ce98b3a5" = 129
+"hash:5e3c322b" = 164
+"hash:9f63c8f7" = 183
+"hash:1ff0e044" = 147
+# pointer trainer classes: narrowest allowance over class hosts.
+# uses the widest real trainer name.
+"hash:0fe4c7b0" = 121
+"hash:09359924" = 108
+"hash:2f7bfe8a" = 114
+"hash:c73bd3ef" = 106
+# the other five pointer classes follow the same rule
+"hash:94d71412" = 114
+"hash:837231e7" = 110
+"hash:0d457bc3" = 114
+"hash:75beb4bd" = 114
+"hash:622f8820" = 120
+# start-menu clock AM / PM after «{day}. HH:MM ».
+# window 80 px from x 3; font 1: 15.
+"hash:57a55b55" = 15
+"hash:d9b9e05e" = 15
+
+[layout.placeholders]
+"PLAYER" = 42
+"RIVAL" = 42
+"STR_VAR_1" = 60
+"STR_VAR_2" = 60
+"STR_VAR_3" = 60
+"B_ATK_NAME_WITH_PREFIX" = 143
+"B_DEF_NAME_WITH_PREFIX" = 143
+"B_EFF_NAME_WITH_PREFIX" = 143
+"B_ACTIVE_NAME_WITH_PREFIX" = 143
+"B_SCR_ACTIVE_NAME_WITH_PREFIX" = 143
+"B_ATK_NAME_WITH_PREFIX_MON1" = 143
+"FD 3D" = 83
+"B_CURRENT_MOVE" = 72
+"B_LAST_MOVE" = 72
+"B_LAST_ITEM" = 78
+"B_LAST_ABILITY" = 96
+"B_ATK_ABILITY" = 96
+"B_DEF_ABILITY" = 96
+"B_SCR_ACTIVE_ABILITY" = 96
+"B_EFF_ABILITY" = 96
+# class bound: widest real class + name pair, 160 px.
+# 160 - 6 (space) - 66 (name) = 88.
+"B_TRAINER1_CLASS" = 88
+"B_PLAYER_NAME" = 42
+"B_TRAINER1_NAME" = 66
+"FD 2F" = 66
+"FD 33" = 66
+"FD 2E" = 88
+"FD 32" = 72
+"B_ATK_PREFIX1" = 82
+"B_DEF_PREFIX1" = 82
+"B_ATK_PREFIX2" = 82
+"B_DEF_PREFIX2" = 82
+"B_ATK_PREFIX3" = 82
+"B_DEF_PREFIX3" = 82
+
+[layout.code_fill]
+"fill-05" = { "B_ACTIVE_NAME_WITH_PREFIX" = 60 }
+"fill-06" = { "STR_VAR_1" = 15 }
+"fill-07" = { "B_COPY_VAR_2" = 10 }
+"fill-08" = { "B_COPY_VAR_1" = 60 }
+"fill-13" = { "F7 00" = 60 }
+"fill-14" = { "F7 00" = 89 }
+"fill-15" = { "STR_VAR_1" = 48 }
+"fill-16" = { "STR_VAR_1" = 48 }
+"fill-17" = { "B_COPY_VAR_3" = 48 }
+"fill-18" = { "STR_VAR_1" = 155, "STR_VAR_2" = 150 }
+"fill-19" = { "FD 07" = 155, "FD 08" = 150 }
+"fill-20" = { "B_TRAINER1_NAME" = 66 }
+"fill-21" = { "FD 2F" = 66 }
+"fill-22" = { "FD 33" = 66 }
+"fill-23" = { "FD 07" = 60 }
+"fill-24" = { "FD 2E" = 88 }
+"fill-25" = { "FD 32" = 72 }
+"fill-26" = { "B_TRAINER1_CLASS" = 113 }
+"fill-27" = { "B_TRAINER1_CLASS" = 82 }
+"fill-28" = { "F7 01" = 60, "F7 03" = 60 }
+# widest Russian names, field font: player, rival, partner 42.
+# species 60; box 48; map 94; item 102.
+# trainer 66; move 72; Pokemon Jump prizes 77; Dodrio 76.
+"fill-29" = { "F7 00" = 42, "F7 01" = 42 }
+"fill-30" = { "F7 00" = 42, "F7 01" = 60, "F7 02" = 42, "F7 03" = 60 }
+"fill-32" = { "F7 00" = 42 }
+"fill-33" = { "F7 00" = 42, "F7 01" = 42, "F7 02" = 42, "F7 03" = 42 }
+"fill-34" = { "F7 00" = 48, "F7 01" = 60, "F7 02" = 48, "F7 03" = 60 }
+"fill-35" = { "F7 00" = 48, "F7 01" = 60, "F7 02" = 60 }
+"fill-36" = { "F7 00" = 60, "F7 01" = 48 }
+"fill-37" = { "F7 00" = 48 }
+"fill-38" = { "F7 00" = 94, "F7 01" = 102 }
+"fill-39" = { "F7 00" = 42, "F7 01" = 94, "F7 02" = 102 }
+"fill-40" = { "F7 00" = 94, "F7 01" = 60, "F7 03" = 60, "F7 05" = 42 }
+"fill-41" = { "F7 00" = 94, "F7 01" = 66, "F7 02" = 60, "F7 03" = 60 }
+"fill-42" = { "F7 00" = 66, "F7 01" = 60, "F7 02" = 60 }
+"fill-43" = { "F7 00" = 60, "F7 01" = 72 }
+"fill-44" = { "F7 00" = 42 }
+"fill-46" = { "F7 00" = 77 }
+"fill-47" = { "F7 00" = 76 }
+# widest Russian Frontier names: opponents 54, partners 48
+"fill-48" = { "STR_VAR_1" = 54, "STR_VAR_2" = 48 }
+"fill-49" = { "F7 02" = 102 }
+"fill-50" = { "F7 00" = 71, "F7 01" = 42, "F7 02" = 118 }
+"fill-51" = { "F7 04" = 72, "F7 05" = 72, "F7 06" = 72, "F7 07" = 72 }
+"trace-source" = { "B_BUFF1" = 143, "B_BUFF2" = 96 }
+
+[layout.table_windows]
+"types" = 60
+"pokedex_categories" = 111
+
+[layout.table_window]
+"pokedex-form-categories" = 111
+"lottery-attendant-names" = 78
+"stat-judge-words" = 77
+"frontier-weather-words" = 118
+"frontier-partner-names" = 60
+"status-words" = 115
+"easy-chat-words-1" = 72
+"easy-chat-words-2" = 72
+"easy-chat-words-3" = 72
+"easy-chat-words-4" = 72
+"easy-chat-words-5" = 72
+"easy-chat-words-6" = 72
+"easy-chat-words-7" = 72
+"easy-chat-words-8" = 72
+"easy-chat-words-9" = 72
+"easy-chat-words-10" = 72
+"easy-chat-words-11" = 72
+"easy-chat-words-12" = 72
+"easy-chat-words-13" = 72
+"easy-chat-words-14" = 72
+"easy-chat-words-15" = 72
+"easy-chat-words-16" = 72
+"easy-chat-words-17" = 72
+"easy-chat-words-20" = 72
+"berry-crush-results-berries" = 90
+"stat-names" = 78
+"frontier-mine-formats" = 82
+"frontier-battle-formats" = 203
+"default-box-name" = 36
+"firered-preset-names" = 42
+"trade-nicknames" = 60
+
+# G03 «ПРЕДСТАВЛЯЕТ»
+[[graphics.edit]]
+id = "G03"
+png = "translation/ru/graphics/areas/G03.png"
+form = "areas"
+areas = [[0, 0, 64, 8]]
+
+[[graphics.edit]]
+id = "G10"
+png = "translation/ru/graphics/areas/G10.png"
+form = "areas"
+areas = [[8, 16, 15, 6]]
+
+[[graphics.edit]]
+id = "G16"
+png = "translation/ru/graphics/areas/G16.png"
+form = "areas"
+areas = [[29, 7, 72, 1], [37, 8, 80, 8]]
+tiles = 210
+
+[[graphics.edit]]
+id = "G25"
+png = "translation/ru/graphics/areas/G25.png"
+form = "areas"
+areas = [[26, 19, 12, 4]]
+
+[[graphics.edit]]
+id = "G26"
+png = "translation/ru/graphics/areas/G26.png"
+form = "areas"
+areas = [[34, 19, 12, 4]]
+
+[[graphics.edit]]
+id = "G27"
+png = "translation/ru/graphics/areas/G27.png"
+form = "areas"
+areas = [[10, 3, 12, 4], [2, 3, 6, 4], [8, 35, 7, 4], [41, 9, 16, 6], [65, 9, 16, 6], [89, 9, 16, 6], [113, 9, 15, 6], [0, 17, 1, 6], [9, 17, 16, 6], [57, 33, 16, 6], [81, 33, 16, 6], [105, 33, 16, 6], [1, 41, 16, 6], [25, 41, 16, 6], [49, 41, 16, 6], [73, 41, 16, 6], [97, 41, 16, 6], [121, 41, 7, 6], [0, 49, 9, 6], [17, 49, 16, 6], [41, 49, 16, 6], [65, 49, 16, 6], [89, 49, 16, 6], [113, 49, 15, 6], [0, 57, 1, 6], [9, 57, 16, 6]]
+
+[[graphics.edit]]
+id = "G08"
+png = "translation/ru/graphics/areas/G08.png"
+form = "areas"
+areas = [[24, 29, 15, 3], [88, 24, 15, 3]]
+
+[[graphics.edit]]
+id = "G12"
+png = "translation/ru/graphics/areas/G12.png"
+form = "areas"
+areas = [[0, 16, 32, 12], [32, 16, 32, 12], [64, 16, 32, 12], [96, 16, 32, 12], [0, 32, 32, 12], [32, 32, 32, 12], [64, 32, 32, 12], [96, 32, 32, 12], [0, 48, 32, 12], [32, 48, 32, 12], [64, 48, 32, 12], [96, 48, 32, 12], [0, 64, 32, 12], [32, 64, 32, 12], [64, 64, 32, 12], [96, 64, 32, 12], [0, 80, 32, 12], [64, 82, 38, 9], [0, 98, 38, 9], [64, 98, 38, 9], [0, 114, 38, 9], [64, 114, 38, 9], [0, 128, 32, 12]]
+
+[[graphics.edit]]
+id = "G09"
+png = "translation/ru/graphics/areas/G09.png"
+form = "areas"
+areas = [[32, 48, 56, 8], [16, 56, 8, 8], [32, 56, 56, 8], [104, 56, 24, 8], [0, 64, 32, 8], [48, 64, 48, 8], [104, 64, 24, 8], [0, 72, 32, 8], [48, 72, 48, 8], [112, 72, 16, 8], [0, 80, 32, 8], [56, 80, 32, 8], [96, 80, 8, 8], [112, 80, 16, 8], [0, 88, 32, 8], [48, 88, 40, 8], [96, 88, 8, 8], [112, 88, 8, 8], [0, 96, 32, 8], [48, 96, 40, 8], [96, 96, 24, 8], [8, 104, 24, 8], [56, 104, 32, 8], [96, 104, 16, 8], [0, 112, 32, 8], [56, 112, 32, 8], [0, 120, 32, 8], [56, 120, 32, 8], [120, 248, 8, 8], [104, 56, 8, 8], [112, 56, 8, 8], [120, 56, 8, 8], [96, 80, 8, 8], [96, 64, 8, 8], [104, 64, 8, 8], [112, 64, 8, 8], [120, 64, 8, 8], [96, 88, 8, 8], [104, 88, 8, 8], [88, 90, 3, 9]]
+
+[[graphics.edit]]
+id = "G11"
+png = "translation/ru/graphics/areas/G11.png"
+form = "areas"
+areas = [[8, 16, 15, 8]]
+
+[[graphics.edit]]
+id = "G28"
+png = "translation/ru/graphics/areas/G28.png"
+form = "areas"
+areas = [[8, 1, 16, 6], [8, 9, 16, 6], [8, 17, 16, 6], [8, 25, 16, 6], [8, 33, 16, 6], [8, 41, 16, 7], [8, 49, 16, 6]]
+
+[[graphics.edit]]
+id = "G07"
+png = "translation/ru/graphics/areas/G07.png"
+form = "areas"
+areas = [[72, 0, 48, 8]]
+tiles = 20
+
+[[graphics.edit]]
+id = "G14"
+png = "translation/ru/graphics/areas/G14.png"
+form = "areas"
+areas = [[104, 0, 24, 8], [0, 8, 8, 8], [80, 8, 32, 8]]
+
+[[graphics.edit]]
+id = "G15"
+png = "translation/ru/graphics/areas/G15.png"
+form = "areas"
+areas = [[88, 0, 40, 8], [0, 8, 56, 8], [96, 8, 32, 8], [0, 16, 48, 8]]
+tiles = 140
+
+[[graphics.edit]]
+id = "G04"
+png = "translation/ru/graphics/areas/G04.png"
+form = "areas"
+areas = [[96, 200, 32, 8], [0, 208, 64, 8], [64, 216, 64, 8], [0, 224, 24, 8]]
+
+[[graphics.edit]]
+id = "G17"
+png = "translation/ru/graphics/areas/G17.png"
+form = "areas"
+areas = [[8, 0, 64, 8], [8, 8, 64, 8], [64, 16, 64, 8], [64, 24, 64, 8], [72, 32, 24, 8], [104, 32, 24, 8], [72, 40, 24, 8], [104, 40, 24, 8], [48, 48, 16, 8], [72, 48, 16, 8], [0, 56, 32, 8], [0, 64, 32, 8], [55, 61, 42, 7]]
+
+[[graphics.edit]]
+id = "G41"
+png = "translation/ru/graphics/areas/G41.png"
+form = "areas"
+areas = [[42, 14, 6, 8], [31, 22, 26, 7], [28, 46, 29, 8], [31, 54, 26, 7]]
+
+[[graphics.edit]]
+id = "G42"
+png = "translation/ru/graphics/areas/G42.png"
+form = "areas"
+areas = [[16, 16, 8, 8], [8, 24, 32, 8], [16, 32, 32, 8], [0, 40, 8, 8], [32, 40, 16, 8], [0, 48, 24, 8], [8, 56, 16, 8], [32, 56, 8, 8], [16, 64, 32, 8], [0, 72, 8, 8]]
+
+[[graphics.edit]]
+id = "G40"
+png = "translation/ru/graphics/areas/G40.png"
+form = "areas"
+areas = [[112, 0, 16, 8], [0, 8, 8, 8], [56, 8, 24, 8], [120, 8, 8, 8], [0, 16, 32, 8], [56, 16, 72, 8], [0, 24, 8, 8], [24, 24, 40, 8], [80, 24, 40, 8], [8, 32, 40, 8], [64, 32, 40, 8], [112, 32, 16, 8], [0, 40, 24, 8], [40, 40, 24, 8], [96, 40, 24, 8], [40, 48, 16, 8], [64, 48, 8, 8], [112, 48, 16, 8], [0, 56, 16, 8], [64, 56, 32, 8], [24, 64, 32, 8], [96, 64, 32, 8], [0, 72, 8, 8], [32, 72, 32, 8], [120, 72, 8, 8], [0, 80, 8, 8], [56, 56, 8, 8], [64, 56, 8, 8], [72, 56, 8, 8], [80, 56, 8, 8], [88, 56, 8, 8], [96, 56, 8, 8], [16, 64, 8, 8], [24, 64, 8, 8], [32, 64, 8, 8], [40, 64, 8, 8], [48, 64, 8, 8], [56, 64, 8, 8]]
+tiles = 186
+
+# «УРОВЕНЬ ПОИСКА» in full; «СКРЫТ. ТАЛАНТ» waits for the term
+[[graphics.edit]]
+id = "G24"
+png = "translation/ru/graphics/areas/G24.png"
+form = "areas"
+areas = [[0, 16, 64, 8], [80, 16, 48, 8], [56, 24, 24, 8], [24, 32, 24, 8], [96, 40, 32, 8], [0, 48, 40, 8], [64, 48, 64, 8], [0, 56, 56, 8], [64, 56, 40, 8], [8, 16, 8, 8], [16, 16, 8, 8], [24, 16, 8, 8], [32, 16, 8, 8], [40, 16, 8, 8], [48, 16, 8, 8], [56, 16, 8, 8], [64, 16, 8, 8], [88, 16, 8, 8], [96, 16, 8, 8], [104, 16, 8, 8], [112, 16, 8, 8], [120, 16, 8, 8]]
+tiles = 141
+
+[[graphics.edit]]
+id = "G19"
+png = "translation/ru/graphics/areas/G19.png"
+form = "areas"
+areas = [[8, 0, 24, 8], [0, 8, 8, 8], [16, 8, 16, 8], [0, 16, 16, 8]]
+
+[[graphics.edit]]
+id = "G21"
+png = "translation/ru/graphics/areas/G21.png"
+form = "areas"
+areas = [[0, 0, 24, 8]]
+
+[[graphics.edit]]
+id = "G22"
+png = "translation/ru/graphics/areas/G22.png"
+form = "areas"
+areas = [[0, 0, 24, 8]]
+
+[[graphics.edit]]
+id = "G23"
+png = "translation/ru/graphics/areas/G23.png"
+form = "areas"
+areas = [[0, 0, 24, 8]]
+
+[[graphics.edit]]
+id = "G30"
+png = "translation/ru/graphics/areas/G30.png"
+form = "areas"
+areas = [[16, 0, 96, 8]]
+
+[[graphics.edit]]
+id = "G32"
+png = "translation/ru/graphics/areas/G32.png"
+form = "areas"
+areas = [[56, 144, 32, 8], [16, 152, 40, 8]]
+tiles = 361
+
+[[graphics.edit]]
+id = "G36"
+png = "translation/ru/graphics/areas/G36.png"
+form = "areas"
+areas = [[0, 0, 64, 128]]
+
+[[graphics.edit]]
+id = "G37"
+png = "translation/ru/graphics/areas/G37.png"
+form = "areas"
+areas = [[0, 0, 64, 128]]
+
+[[graphics.edit]]
+id = "G38"
+png = "translation/ru/graphics/areas/G38.png"
+form = "areas"
+areas = [[0, 0, 64, 32]]
+
+[[graphics.edit]]
+id = "G39"
+png = "translation/ru/graphics/areas/G39.png"
+form = "areas"
+areas = [[0, 0, 64, 32]]
+
+[[graphics.edit]]
+id = "G34"
+png = "translation/ru/graphics/areas/G34.png"
+form = "areas"
+areas = [[0, 0, 64, 32]]
+
+[[graphics.edit]]
+id = "G35"
+png = "translation/ru/graphics/areas/G35.png"
+form = "areas"
+areas = [[0, 0, 64, 32]]
+
+[[graphics.edit]]
+id = "G43"
+png = "translation/ru/graphics/areas/G43.png"
+form = "areas"
+areas = [[5, 14, 23, 14]]
+
+[[graphics.edit]]
+id = "G44"
+png = "translation/ru/graphics/areas/G44.png"
+form = "areas"
+areas = [[9, 0, 23, 8]]
+
+[[graphics.edit]]
+id = "G33"
+png = "translation/ru/graphics/areas/G33.png"
+form = "areas"
+areas = [[15, 4, 27, 5], [15, 44, 27, 5]]
+
+[[graphics.tilemap]]
+name = "card back"
+cells = [{ "row" = 0, "column" = 8, "tile" = 209 }]
+
+[[graphics.tilemap]]
+name = "card front"
+cells = [{ "row" = 2, "column" = 5, "tile" = 138 }, { "row" = 2, "column" = 6, "tile" = 139 }]
+
+[[graphics.tilemap]]
+name = "stat scanner"
+cells = [
+  { "row" = 7, "column" = 14, "tile" = 180 },
+  { "row" = 8, "column" = 14, "tile" = 181 },
+  { "row" = 11, "column" = 15, "tile" = 182 },
+  { "row" = 36, "column" = 21, "tile" = 183 },
+  { "row" = 36, "column" = 22, "tile" = 184 },
+  { "row" = 42, "column" = 20, "tile" = 185 },
+]
+
+[[graphics.tilemap]]
+name = "dexnav"
+cells = [
+  { "row" = 7, "column" = 23, "tile" = 134 },
+  { "row" = 7, "column" = 27, "tile" = 135 },
+  { "row" = 13, "column" = 24, "tile" = 136 },
+  { "row" = 16, "column" = 24, "tile" = 137 },
+  { "row" = 7, "column" = 28, "tile" = 138 },
+  { "row" = 12, "column" = 29, "tile" = 139 },
+  { "row" = 13, "column" = 29, "tile" = 140 },
+]
+
+[[graphics.tilemap]]
+name = "summary move detail"
+cells = [{ "row" = 7, "column" = 16, "tile" = 511 }]
+
+[[graphics.tilemap]]
+name = "the end"
+cells = [
+  { "row" = 8, "column" = 5, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 6, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 7, "tile" = 2, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 8, "tile" = 3, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 9, "tile" = 4, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 10, "tile" = 5, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 11, "tile" = 6, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 12, "tile" = 7, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 13, "tile" = 2, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 15, "tile" = 2, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 16, "tile" = 2, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 18, "tile" = 8, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 19, "tile" = 2, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 20, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 21, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 22, "tile" = 2, "hflip" = true, "vflip" = false },
+  { "row" = 8, "column" = 23, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 8, "column" = 24, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 6, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 7, "tile" = 9, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 8, "tile" = 10, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 9, "tile" = 11, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 10, "tile" = 9, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 11, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 12, "tile" = 9, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 13, "tile" = 9, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 14, "tile" = 8, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 15, "tile" = 12, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 16, "tile" = 9, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 18, "tile" = 8, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 19, "tile" = 9, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 20, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 21, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 9, "column" = 22, "tile" = 9, "hflip" = true, "vflip" = false },
+  { "row" = 9, "column" = 24, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 10, "column" = 6, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 10, "column" = 7, "tile" = 2, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 8, "tile" = 3, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 9, "tile" = 4, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 10, "tile" = 5, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 11, "tile" = 6, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 12, "tile" = 7, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 13, "tile" = 2, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 15, "tile" = 2, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 16, "tile" = 2, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 18, "tile" = 8, "hflip" = false, "vflip" = false },
+  { "row" = 10, "column" = 19, "tile" = 2, "hflip" = false, "vflip" = true },
+  { "row" = 10, "column" = 20, "tile" = 8, "hflip" = false, "vflip" = false },
+  { "row" = 10, "column" = 21, "tile" = 8, "hflip" = false, "vflip" = false },
+  { "row" = 10, "column" = 22, "tile" = 9, "hflip" = true, "vflip" = false },
+  { "row" = 10, "column" = 23, "tile" = 1, "hflip" = false, "vflip" = false },
+  { "row" = 10, "column" = 24, "tile" = 1, "hflip" = false, "vflip" = false },
+]
+
+[[graphics.tilemap]]
+name = "cloud burst"
+cells = [{ "row" = 14, "column" = 20, "tile" = 360 }]
+
+# centered SELECT hint
+[[graphics.tilemap]]
+name = "start-menu-hint"
+cells = [
+  { row = 19, column = 9, tile = 9 },
+  { row = 19, column = 10, tile = 10 },
+  { row = 19, column = 11, tile = 11 },
+  { row = 19, column = 12, tile = 12 },
+  { row = 19, column = 13, tile = 13 },
+  { row = 19, column = 14, tile = 14 },
+  { row = 19, column = 15, tile = 15 },
+  { row = 19, column = 16, tile = 16 },
+  { row = 19, column = 17, tile = 17 },
+  { row = 19, column = 18, tile = 18 },
+  { row = 19, column = 19, tile = 19 },
+]
+
+# summary status icons
+[[graphics.edit]]
+id = "G55"
+png = "translation/ru/graphics/areas/G55.png"
+form = "areas"
+areas = [[8, 1, 16, 6], [8, 9, 16, 6], [8, 17, 16, 6], [8, 25, 16, 6], [8, 33, 16, 6], [8, 41, 16, 7], [8, 49, 16, 6]]
+
+# generated boot version
+[[graphics.edit]]
+id = "G01"
+label = "translation/ru/graphics/version-glyphs.json"
+form = "areas"
+areas = []
+tiles = 259
+
+[[graphics.tilemap]]
+name = "boot version"
+cells = [
+  { row = 18, column = 1, tile = 237 },
+  { row = 18, column = 2, tile = 238 },
+  { row = 18, column = 3, tile = 239 },
+  { row = 18, column = 4, tile = 240 },
+  { row = 18, column = 5, tile = 241 },
+  { row = 18, column = 6, tile = 242 },
+  { row = 18, column = 7, tile = 243 },
+  { row = 18, column = 8, tile = 244 },
+  { row = 18, column = 9, tile = 245 },
+  { row = 18, column = 10, tile = 246 },
+  { row = 18, column = 11, tile = 247 },
+  { row = 19, column = 1, tile = 248 },
+  { row = 19, column = 2, tile = 249 },
+  { row = 19, column = 3, tile = 250 },
+  { row = 19, column = 4, tile = 251 },
+  { row = 19, column = 5, tile = 252 },
+  { row = 19, column = 6, tile = 253 },
+  { row = 19, column = 7, tile = 254 },
+  { row = 19, column = 8, tile = 255 },
+  { row = 19, column = 9, tile = 256 },
+  { row = 19, column = 10, tile = 257 },
+  { row = 19, column = 11, tile = 258 },
+]
+
+# both slot machine labels share one graphic
+[[graphics.edit]]
+id = "G59"
+png = "translation/ru/graphics/areas/G59.png"
+form = "areas"
+areas = [[113, 9, 15, 5], [0, 17, 15, 5], [17, 17, 30, 5]]

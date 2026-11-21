@@ -1,0 +1,2353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/abilities\n"
+"X-Source: key-only\n"
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 0)
+#. original lines: 1, widths px: 42
+#: 0x0a36398
+msgctxt "table:abilities/0"
+msgid "table:abilities/0"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 1)
+#. original lines: 1, widths px: 34
+#: 0x0a363a9
+msgctxt "table:abilities/1"
+msgid "table:abilities/1"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 2)
+#. original lines: 1, widths px: 38
+#: 0x0a363ba
+msgctxt "table:abilities/2"
+msgid "table:abilities/2"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 3)
+#. original lines: 1, widths px: 64
+#: 0x0a363cb
+msgctxt "table:abilities/3"
+msgid "table:abilities/3"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 4)
+#. original lines: 1, widths px: 67
+#: 0x0a363dc
+msgctxt "table:abilities/4"
+msgid "table:abilities/4"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 5)
+#. original lines: 1, widths px: 34
+#: 0x0a363ed
+msgctxt "table:abilities/5"
+msgid "table:abilities/5"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 6)
+#. original lines: 1, widths px: 24
+#: 0x0a363fe
+msgctxt "table:abilities/6"
+msgid "table:abilities/6"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 7)
+#. original lines: 1, widths px: 33
+#: 0x0a3640f
+msgctxt "table:abilities/7"
+msgid "table:abilities/7"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 8)
+#. original lines: 1, widths px: 50
+#: 0x0a36420
+msgctxt "table:abilities/8"
+msgid "table:abilities/8"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 9)
+#. original lines: 1, widths px: 32
+#: 0x0a36431
+msgctxt "table:abilities/9"
+msgid "table:abilities/9"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 10)
+#. original lines: 1, widths px: 62
+#: 0x0a36442
+msgctxt "table:abilities/10"
+msgid "table:abilities/10"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 11)
+#. original lines: 1, widths px: 68
+#: 0x0a36453
+msgctxt "table:abilities/11"
+msgid "table:abilities/11"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 12)
+#. original lines: 1, widths px: 48
+#: 0x0a36464
+msgctxt "table:abilities/12"
+msgid "table:abilities/12"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 13)
+#. original lines: 1, widths px: 56
+#: 0x0a36475
+msgctxt "table:abilities/13"
+msgid "table:abilities/13"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 14)
+#. original lines: 1, widths px: 76
+#: 0x0a36486
+msgctxt "table:abilities/14"
+msgid "table:abilities/14"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 15)
+#. original lines: 1, widths px: 43
+#: 0x0a36497
+msgctxt "table:abilities/15"
+msgid "table:abilities/15"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 16)
+#. original lines: 1, widths px: 69
+#: 0x0a364a8
+msgctxt "table:abilities/16"
+msgid "table:abilities/16"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 17)
+#. original lines: 1, widths px: 44
+#: 0x0a364b9
+msgctxt "table:abilities/17"
+msgid "table:abilities/17"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 18)
+#. original lines: 1, widths px: 55
+#: 0x0a364ca
+msgctxt "table:abilities/18"
+msgid "table:abilities/18"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 19)
+#. original lines: 1, widths px: 61
+#: 0x0a364db
+msgctxt "table:abilities/19"
+msgid "table:abilities/19"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 20)
+#. original lines: 1, widths px: 53
+#: 0x0a364ec
+msgctxt "table:abilities/20"
+msgid "table:abilities/20"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 21)
+#. original lines: 1, widths px: 67
+#: 0x0a364fd
+msgctxt "table:abilities/21"
+msgid "table:abilities/21"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 22)
+#. original lines: 1, widths px: 53
+#: 0x0a3650e
+msgctxt "table:abilities/22"
+msgid "table:abilities/22"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 23)
+#. original lines: 1, widths px: 60
+#: 0x0a3651f
+msgctxt "table:abilities/23"
+msgid "table:abilities/23"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 24)
+#. original lines: 1, widths px: 56
+#: 0x0a36530
+msgctxt "table:abilities/24"
+msgid "table:abilities/24"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 25)
+#. original lines: 1, widths px: 69
+#: 0x0a36541
+msgctxt "table:abilities/25"
+msgid "table:abilities/25"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 26)
+#. original lines: 1, widths px: 44
+#: 0x0a36552
+msgctxt "table:abilities/26"
+msgid "table:abilities/26"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 27)
+#. original lines: 1, widths px: 68
+#: 0x0a36563
+msgctxt "table:abilities/27"
+msgid "table:abilities/27"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 28)
+#. original lines: 1, widths px: 61
+#: 0x0a36574
+msgctxt "table:abilities/28"
+msgid "table:abilities/28"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 29)
+#. original lines: 1, widths px: 58
+#: 0x0a36585
+msgctxt "table:abilities/29"
+msgid "table:abilities/29"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 30)
+#. original lines: 1, widths px: 68
+#: 0x0a36596
+msgctxt "table:abilities/30"
+msgid "table:abilities/30"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 31)
+#. original lines: 1, widths px: 71
+#: 0x0a365a7
+msgctxt "table:abilities/31"
+msgid "table:abilities/31"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 32)
+#. original lines: 1, widths px: 69
+#: 0x0a365b8
+msgctxt "table:abilities/32"
+msgid "table:abilities/32"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 33)
+#. original lines: 1, widths px: 54
+#: 0x0a365c9
+msgctxt "table:abilities/33"
+msgid "table:abilities/33"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 34)
+#. original lines: 1, widths px: 62
+#: 0x0a365da
+msgctxt "table:abilities/34"
+msgid "table:abilities/34"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 35)
+#. original lines: 1, widths px: 54
+#: 0x0a365eb
+msgctxt "table:abilities/35"
+msgid "table:abilities/35"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 36)
+#. original lines: 1, widths px: 29
+#: 0x0a365fc
+msgctxt "table:abilities/36"
+msgid "table:abilities/36"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 37)
+#. original lines: 1, widths px: 59
+#: 0x0a3660d
+msgctxt "table:abilities/37"
+msgid "table:abilities/37"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 38)
+#. original lines: 1, widths px: 64
+#: 0x0a3661e
+msgctxt "table:abilities/38"
+msgid "table:abilities/38"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 39)
+#. original lines: 1, widths px: 62
+#: 0x0a3662f
+msgctxt "table:abilities/39"
+msgid "table:abilities/39"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 40)
+#. original lines: 1, widths px: 64
+#: 0x0a36640
+msgctxt "table:abilities/40"
+msgid "table:abilities/40"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 41)
+#. original lines: 1, widths px: 55
+#: 0x0a36651
+msgctxt "table:abilities/41"
+msgid "table:abilities/41"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 42)
+#. original lines: 1, widths px: 62
+#: 0x0a36662
+msgctxt "table:abilities/42"
+msgid "table:abilities/42"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 43)
+#. original lines: 1, widths px: 57
+#: 0x0a36673
+msgctxt "table:abilities/43"
+msgid "table:abilities/43"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 44)
+#. original lines: 1, widths px: 48
+#: 0x0a36684
+msgctxt "table:abilities/44"
+msgid "table:abilities/44"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 45)
+#. original lines: 1, widths px: 63
+#: 0x0a36695
+msgctxt "table:abilities/45"
+msgid "table:abilities/45"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 46)
+#. original lines: 1, widths px: 44
+#: 0x0a366a6
+msgctxt "table:abilities/46"
+msgid "table:abilities/46"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 47)
+#. original lines: 1, widths px: 50
+#: 0x0a366b7
+msgctxt "table:abilities/47"
+msgid "table:abilities/47"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 48)
+#. original lines: 1, widths px: 55
+#: 0x0a366c8
+msgctxt "table:abilities/48"
+msgid "table:abilities/48"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 49)
+#. original lines: 1, widths px: 59
+#: 0x0a366d9
+msgctxt "table:abilities/49"
+msgid "table:abilities/49"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 50)
+#. original lines: 1, widths px: 47
+#: 0x0a366ea
+msgctxt "table:abilities/50"
+msgid "table:abilities/50"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 51)
+#. original lines: 1, widths px: 47
+#: 0x0a366fb
+msgctxt "table:abilities/51"
+msgid "table:abilities/51"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 52)
+#. original lines: 1, widths px: 68
+#: 0x0a3670c
+msgctxt "table:abilities/52"
+msgid "table:abilities/52"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 53)
+#. original lines: 1, widths px: 33
+#: 0x0a3671d
+msgctxt "table:abilities/53"
+msgid "table:abilities/53"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 54)
+#. original lines: 1, widths px: 33
+#: 0x0a3672e
+msgctxt "table:abilities/54"
+msgid "table:abilities/54"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 55)
+#. original lines: 1, widths px: 33
+#: 0x0a3673f
+msgctxt "table:abilities/55"
+msgid "table:abilities/55"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 56)
+#. original lines: 1, widths px: 58
+#: 0x0a36750
+msgctxt "table:abilities/56"
+msgid "table:abilities/56"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 57)
+#. original lines: 1, widths px: 22
+#: 0x0a36761
+msgctxt "table:abilities/57"
+msgid "table:abilities/57"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 58)
+#. original lines: 1, widths px: 26
+#: 0x0a36772
+msgctxt "table:abilities/58"
+msgid "table:abilities/58"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 59)
+#. original lines: 1, widths px: 45
+#: 0x0a36783
+msgctxt "table:abilities/59"
+msgid "table:abilities/59"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 60)
+#. original lines: 1, widths px: 61
+#: 0x0a36794
+msgctxt "table:abilities/60"
+msgid "table:abilities/60"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 61)
+#. original lines: 1, widths px: 50
+#: 0x0a367a5
+msgctxt "table:abilities/61"
+msgid "table:abilities/61"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 62)
+#. original lines: 1, widths px: 22
+#: 0x0a367b6
+msgctxt "table:abilities/62"
+msgid "table:abilities/62"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 63)
+#. original lines: 1, widths px: 69
+#: 0x0a367c7
+msgctxt "table:abilities/63"
+msgid "table:abilities/63"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 64)
+#. original lines: 1, widths px: 62
+#: 0x0a367d8
+msgctxt "table:abilities/64"
+msgid "table:abilities/64"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 65)
+#. original lines: 1, widths px: 46
+#: 0x0a367e9
+msgctxt "table:abilities/65"
+msgid "table:abilities/65"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 66)
+#. original lines: 1, widths px: 29
+#: 0x0a367fa
+msgctxt "table:abilities/66"
+msgid "table:abilities/66"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 67)
+#. original lines: 1, widths px: 38
+#: 0x0a3680b
+msgctxt "table:abilities/67"
+msgid "table:abilities/67"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 68)
+#. original lines: 1, widths px: 29
+#: 0x0a3681c
+msgctxt "table:abilities/68"
+msgid "table:abilities/68"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 69)
+#. original lines: 1, widths px: 53
+#: 0x0a3682d
+msgctxt "table:abilities/69"
+msgid "table:abilities/69"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 70)
+#. original lines: 1, widths px: 40
+#: 0x0a3683e
+msgctxt "table:abilities/70"
+msgid "table:abilities/70"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 71)
+#. original lines: 1, widths px: 57
+#: 0x0a3684f
+msgctxt "table:abilities/71"
+msgid "table:abilities/71"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 72)
+#. original lines: 1, widths px: 52
+#: 0x0a36860
+msgctxt "table:abilities/72"
+msgid "table:abilities/72"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 73)
+#. original lines: 1, widths px: 66
+#: 0x0a36871
+msgctxt "table:abilities/73"
+msgid "table:abilities/73"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 74)
+#. original lines: 1, widths px: 78
+#: 0x0a36882
+msgctxt "table:abilities/74"
+msgid "table:abilities/74"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 75)
+#. original lines: 1, widths px: 62
+#: 0x0a36893
+msgctxt "table:abilities/75"
+msgid "table:abilities/75"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 76)
+#. original lines: 1, widths px: 73
+#: 0x0a368a4
+msgctxt "table:abilities/76"
+msgid "table:abilities/76"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 77)
+#. original lines: 1, widths px: 34
+#: 0x0a368b5
+msgctxt "table:abilities/77"
+msgid "table:abilities/77"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 78)
+#. original lines: 1, widths px: 56
+#: 0x0a368c6
+msgctxt "table:abilities/78"
+msgid "table:abilities/78"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 79)
+#. original lines: 1, widths px: 51
+#: 0x0a368d7
+msgctxt "table:abilities/79"
+msgid "table:abilities/79"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 80)
+#. original lines: 1, widths px: 61
+#: 0x0a368e8
+msgctxt "table:abilities/80"
+msgid "table:abilities/80"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 81)
+#. original lines: 1, widths px: 54
+#: 0x0a368f9
+msgctxt "table:abilities/81"
+msgid "table:abilities/81"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 82)
+#. original lines: 1, widths px: 54
+#: 0x0a3690a
+msgctxt "table:abilities/82"
+msgid "table:abilities/82"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 83)
+#. original lines: 1, widths px: 41
+#: 0x0a3691b
+msgctxt "table:abilities/83"
+msgid "table:abilities/83"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 84)
+#. original lines: 1, widths px: 58
+#: 0x0a3692c
+msgctxt "table:abilities/84"
+msgid "table:abilities/84"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 85)
+#. original lines: 1, widths px: 32
+#: 0x0a3693d
+msgctxt "table:abilities/85"
+msgid "table:abilities/85"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 86)
+#. original lines: 1, widths px: 62
+#: 0x0a3694e
+msgctxt "table:abilities/86"
+msgid "table:abilities/86"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 87)
+#. original lines: 1, widths px: 48
+#: 0x0a3695f
+msgctxt "table:abilities/87"
+msgid "table:abilities/87"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 88)
+#. original lines: 1, widths px: 65
+#: 0x0a36970
+msgctxt "table:abilities/88"
+msgid "table:abilities/88"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 89)
+#. original lines: 1, widths px: 50
+#: 0x0a36981
+msgctxt "table:abilities/89"
+msgid "table:abilities/89"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 90)
+#. original lines: 1, widths px: 69
+#: 0x0a36992
+msgctxt "table:abilities/90"
+msgid "table:abilities/90"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 91)
+#. original lines: 1, widths px: 44
+#: 0x0a369a3
+msgctxt "table:abilities/91"
+msgid "table:abilities/91"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 92)
+#. original lines: 1, widths px: 64
+#: 0x0a369b4
+msgctxt "table:abilities/92"
+msgid "table:abilities/92"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 93)
+#. original lines: 1, widths px: 48
+#: 0x0a369c5
+msgctxt "table:abilities/93"
+msgid "table:abilities/93"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 94)
+#. original lines: 1, widths px: 38
+#: 0x0a369d6
+msgctxt "table:abilities/94"
+msgid "table:abilities/94"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 95)
+#. original lines: 1, widths px: 58
+#: 0x0a369e7
+msgctxt "table:abilities/95"
+msgid "table:abilities/95"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 96)
+#. original lines: 1, widths px: 63
+#: 0x0a369f8
+msgctxt "table:abilities/96"
+msgid "table:abilities/96"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 97)
+#. original lines: 1, widths px: 51
+#: 0x0a36a09
+msgctxt "table:abilities/97"
+msgid "table:abilities/97"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 98)
+#. original lines: 1, widths px: 43
+#: 0x0a36a1a
+msgctxt "table:abilities/98"
+msgid "table:abilities/98"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 99)
+#. original lines: 1, widths px: 60
+#: 0x0a36a2b
+msgctxt "table:abilities/99"
+msgid "table:abilities/99"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 100)
+#. original lines: 1, widths px: 59
+#: 0x0a36a3c
+msgctxt "table:abilities/100"
+msgid "table:abilities/100"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 101)
+#. original lines: 1, widths px: 31
+#: 0x0a36a4d
+msgctxt "table:abilities/101"
+msgid "table:abilities/101"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 102)
+#. original lines: 1, widths px: 57
+#: 0x0a36a5e
+msgctxt "table:abilities/102"
+msgid "table:abilities/102"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 103)
+#. original lines: 1, widths px: 46
+#: 0x0a36a6f
+msgctxt "table:abilities/103"
+msgid "table:abilities/103"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 104)
+#. original lines: 1, widths px: 61
+#: 0x0a36a80
+msgctxt "table:abilities/104"
+msgid "table:abilities/104"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 105)
+#. original lines: 1, widths px: 48
+#: 0x0a36a91
+msgctxt "table:abilities/105"
+msgid "table:abilities/105"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 106)
+#. original lines: 1, widths px: 30
+#: 0x0a36aa2
+msgctxt "table:abilities/106"
+msgid "table:abilities/106"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 107)
+#. original lines: 1, widths px: 49
+#: 0x0a36ab3
+msgctxt "table:abilities/107"
+msgid "table:abilities/107"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 108)
+#. original lines: 1, widths px: 34
+#: 0x0a36ac4
+msgctxt "table:abilities/108"
+msgid "table:abilities/108"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 109)
+#. original lines: 1, widths px: 57
+#: 0x0a36ad5
+msgctxt "table:abilities/109"
+msgid "table:abilities/109"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 110)
+#. original lines: 1, widths px: 69
+#: 0x0a36ae6
+msgctxt "table:abilities/110"
+msgid "table:abilities/110"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 111)
+#. original lines: 1, widths px: 66
+#: 0x0a36af7
+msgctxt "table:abilities/111"
+msgid "table:abilities/111"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 112)
+#. original lines: 1, widths px: 56
+#: 0x0a36b08
+msgctxt "table:abilities/112"
+msgid "table:abilities/112"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 113)
+#. original lines: 1, widths px: 57
+#: 0x0a36b19
+msgctxt "table:abilities/113"
+msgid "table:abilities/113"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 114)
+#. original lines: 1, widths px: 46
+#: 0x0a36b2a
+msgctxt "table:abilities/114"
+msgid "table:abilities/114"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 115)
+#. original lines: 1, widths px: 63
+#: 0x0a36b3b
+msgctxt "table:abilities/115"
+msgid "table:abilities/115"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 116)
+#. original lines: 1, widths px: 61
+#: 0x0a36b4c
+msgctxt "table:abilities/116"
+msgid "table:abilities/116"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 117)
+#. original lines: 1, widths px: 55
+#: 0x0a36b5d
+msgctxt "table:abilities/117"
+msgid "table:abilities/117"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 118)
+#. original lines: 1, widths px: 28
+#: 0x0a36b6e
+msgctxt "table:abilities/118"
+msgid "table:abilities/118"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 119)
+#. original lines: 1, widths px: 50
+#: 0x0a36b7f
+msgctxt "table:abilities/119"
+msgid "table:abilities/119"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 120)
+#. original lines: 1, widths px: 64
+#: 0x0a36b90
+msgctxt "table:abilities/120"
+msgid "table:abilities/120"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 121)
+#. original lines: 1, widths px: 30
+#: 0x0a36ba1
+msgctxt "table:abilities/121"
+msgid "table:abilities/121"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 122)
+#. original lines: 1, widths px: 30
+#: 0x0a36bb2
+msgctxt "table:abilities/122"
+msgid "table:abilities/122"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 123)
+#. original lines: 1, widths px: 55
+#: 0x0a36bc3
+msgctxt "table:abilities/123"
+msgid "table:abilities/123"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 124)
+#. original lines: 1, widths px: 52
+#: 0x0a36bd4
+msgctxt "table:abilities/124"
+msgid "table:abilities/124"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 125)
+#. original lines: 1, widths px: 43
+#: 0x0a36be5
+msgctxt "table:abilities/125"
+msgid "table:abilities/125"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 126)
+#. original lines: 1, widths px: 47
+#: 0x0a36bf6
+msgctxt "table:abilities/126"
+msgid "table:abilities/126"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 127)
+#. original lines: 1, widths px: 76
+#: 0x0a36c07
+msgctxt "table:abilities/127"
+msgid "table:abilities/127"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 128)
+#. original lines: 1, widths px: 64
+#: 0x0a36c18
+msgctxt "table:abilities/128"
+msgid "table:abilities/128"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 129)
+#. original lines: 1, widths px: 57
+#: 0x0a36c29
+msgctxt "table:abilities/129"
+msgid "table:abilities/129"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 130)
+#. original lines: 1, widths px: 66
+#: 0x0a36c3a
+msgctxt "table:abilities/130"
+msgid "table:abilities/130"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 131)
+#. original lines: 1, widths px: 60
+#: 0x0a36c4b
+msgctxt "table:abilities/131"
+msgid "table:abilities/131"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 132)
+#. original lines: 1, widths px: 51
+#: 0x0a36c5c
+msgctxt "table:abilities/132"
+msgid "table:abilities/132"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 133)
+#. original lines: 1, widths px: 56
+#: 0x0a36c6d
+msgctxt "table:abilities/133"
+msgid "table:abilities/133"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 134)
+#. original lines: 1, widths px: 57
+#: 0x0a36c7e
+msgctxt "table:abilities/134"
+msgid "table:abilities/134"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 135)
+#. original lines: 1, widths px: 60
+#: 0x0a36c8f
+msgctxt "table:abilities/135"
+msgid "table:abilities/135"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 136)
+#. original lines: 1, widths px: 42
+#: 0x0a36ca0
+msgctxt "table:abilities/136"
+msgid "table:abilities/136"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 137)
+#. original lines: 1, widths px: 43
+#: 0x0a36cb1
+msgctxt "table:abilities/137"
+msgid "table:abilities/137"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 138)
+#. original lines: 1, widths px: 50
+#: 0x0a36cc2
+msgctxt "table:abilities/138"
+msgid "table:abilities/138"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 139)
+#. original lines: 1, widths px: 45
+#: 0x0a36cd3
+msgctxt "table:abilities/139"
+msgid "table:abilities/139"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 140)
+#. original lines: 1, widths px: 33
+#: 0x0a36ce4
+msgctxt "table:abilities/140"
+msgid "table:abilities/140"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 141)
+#. original lines: 1, widths px: 40
+#: 0x0a36cf5
+msgctxt "table:abilities/141"
+msgid "table:abilities/141"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 142)
+#. original lines: 1, widths px: 37
+#: 0x0a36d06
+msgctxt "table:abilities/142"
+msgid "table:abilities/142"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 143)
+#. original lines: 1, widths px: 60
+#: 0x0a36d17
+msgctxt "table:abilities/143"
+msgid "table:abilities/143"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 144)
+#. original lines: 1, widths px: 48
+#: 0x0a36d28
+msgctxt "table:abilities/144"
+msgid "table:abilities/144"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 145)
+#. original lines: 1, widths px: 56
+#: 0x0a36d39
+msgctxt "table:abilities/145"
+msgid "table:abilities/145"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 146)
+#. original lines: 1, widths px: 62
+#: 0x0a36d4a
+msgctxt "table:abilities/146"
+msgid "table:abilities/146"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 147)
+#. original lines: 1, widths px: 62
+#: 0x0a36d5b
+msgctxt "table:abilities/147"
+msgid "table:abilities/147"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 148)
+#. original lines: 1, widths px: 46
+#: 0x0a36d6c
+msgctxt "table:abilities/148"
+msgid "table:abilities/148"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 149)
+#. original lines: 1, widths px: 60
+#: 0x0a36d7d
+msgctxt "table:abilities/149"
+msgid "table:abilities/149"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 150)
+#. original lines: 1, widths px: 39
+#: 0x0a36d8e
+msgctxt "table:abilities/150"
+msgid "table:abilities/150"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 151)
+#. original lines: 1, widths px: 73
+#: 0x0a36d9f
+msgctxt "table:abilities/151"
+msgid "table:abilities/151"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 152)
+#. original lines: 1, widths px: 68
+#: 0x0a36db0
+msgctxt "table:abilities/152"
+msgid "table:abilities/152"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 153)
+#. original lines: 1, widths px: 34
+#: 0x0a36dc1
+msgctxt "table:abilities/153"
+msgid "table:abilities/153"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 154)
+#. original lines: 1, widths px: 34
+#: 0x0a36dd2
+msgctxt "table:abilities/154"
+msgid "table:abilities/154"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 155)
+#. original lines: 1, widths px: 47
+#: 0x0a36de3
+msgctxt "table:abilities/155"
+msgid "table:abilities/155"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 156)
+#. original lines: 1, widths px: 62
+#: 0x0a36df4
+msgctxt "table:abilities/156"
+msgid "table:abilities/156"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 157)
+#. original lines: 1, widths px: 62
+#: 0x0a36e05
+msgctxt "table:abilities/157"
+msgid "table:abilities/157"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 158)
+#. original lines: 1, widths px: 48
+#: 0x0a36e16
+msgctxt "table:abilities/158"
+msgid "table:abilities/158"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 159)
+#. original lines: 1, widths px: 42
+#: 0x0a36e27
+msgctxt "table:abilities/159"
+msgid "table:abilities/159"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 160)
+#. original lines: 1, widths px: 79
+#: 0x0a36e38
+msgctxt "table:abilities/160"
+msgid "table:abilities/160"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 161)
+#. original lines: 1, widths px: 33
+#: 0x0a36e49
+msgctxt "table:abilities/161"
+msgid "table:abilities/161"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 162)
+#. original lines: 1, widths px: 70
+#: 0x0a36e5a
+msgctxt "table:abilities/162"
+msgid "table:abilities/162"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 163)
+#. original lines: 1, widths px: 62
+#: 0x0a36e6b
+msgctxt "table:abilities/163"
+msgid "table:abilities/163"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 164)
+#. original lines: 1, widths px: 78
+#: 0x0a36e7c
+msgctxt "table:abilities/164"
+msgid "table:abilities/164"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 165)
+#. original lines: 1, widths px: 84
+#: 0x0a36e8d
+msgctxt "table:abilities/165"
+msgid "table:abilities/165"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 166)
+#. original lines: 1, widths px: 60
+#: 0x0a36e9e
+msgctxt "table:abilities/166"
+msgid "table:abilities/166"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 167)
+#. original lines: 1, widths px: 58
+#: 0x0a36eaf
+msgctxt "table:abilities/167"
+msgid "table:abilities/167"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 168)
+#. original lines: 1, widths px: 50
+#: 0x0a36ec0
+msgctxt "table:abilities/168"
+msgid "table:abilities/168"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 169)
+#. original lines: 1, widths px: 75
+#: 0x0a36ed1
+msgctxt "table:abilities/169"
+msgid "table:abilities/169"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 170)
+#. original lines: 1, widths px: 67
+#: 0x0a36ee2
+msgctxt "table:abilities/170"
+msgid "table:abilities/170"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 171)
+#. original lines: 1, widths px: 57
+#: 0x0a36ef3
+msgctxt "table:abilities/171"
+msgid "table:abilities/171"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 172)
+#. original lines: 1, widths px: 57
+#: 0x0a36f04
+msgctxt "table:abilities/172"
+msgid "table:abilities/172"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 173)
+#. original lines: 1, widths px: 38
+#: 0x0a36f15
+msgctxt "table:abilities/173"
+msgid "table:abilities/173"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 174)
+#. original lines: 1, widths px: 61
+#: 0x0a36f26
+msgctxt "table:abilities/174"
+msgid "table:abilities/174"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 175)
+#. original lines: 1, widths px: 86
+#: 0x0a36f37
+msgctxt "table:abilities/175"
+msgid "table:abilities/175"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 176)
+#. original lines: 1, widths px: 33
+#: 0x0a36f48
+msgctxt "table:abilities/176"
+msgid "table:abilities/176"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 177)
+#. original lines: 1, widths px: 69
+#: 0x0a36f59
+msgctxt "table:abilities/177"
+msgid "table:abilities/177"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 178)
+#. original lines: 1, widths px: 75
+#: 0x0a36f6a
+msgctxt "table:abilities/178"
+msgid "table:abilities/178"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 179)
+#. original lines: 1, widths px: 27
+#: 0x0a36f7b
+msgctxt "table:abilities/179"
+msgid "table:abilities/179"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 180)
+#. original lines: 1, widths px: 49
+#: 0x0a36f8c
+msgctxt "table:abilities/180"
+msgid "table:abilities/180"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 181)
+#. original lines: 1, widths px: 78
+#: 0x0a36f9d
+msgctxt "table:abilities/181"
+msgid "table:abilities/181"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 182)
+#. original lines: 1, widths px: 68
+#: 0x0a36fae
+msgctxt "table:abilities/182"
+msgid "table:abilities/182"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 183)
+#. original lines: 1, widths px: 61
+#: 0x0a36fbf
+msgctxt "table:abilities/183"
+msgid "table:abilities/183"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 184)
+#. original lines: 1, widths px: 74
+#: 0x0a36fd0
+msgctxt "table:abilities/184"
+msgid "table:abilities/184"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 185)
+#. original lines: 1, widths px: 68
+#: 0x0a36fe1
+msgctxt "table:abilities/185"
+msgid "table:abilities/185"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 186)
+#. original lines: 1, widths px: 55
+#: 0x0a36ff2
+msgctxt "table:abilities/186"
+msgid "table:abilities/186"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 187)
+#. original lines: 1, widths px: 60
+#: 0x0a37003
+msgctxt "table:abilities/187"
+msgid "table:abilities/187"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 188)
+#. original lines: 1, widths px: 62
+#: 0x0a37014
+msgctxt "table:abilities/188"
+msgid "table:abilities/188"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 189)
+#. original lines: 1, widths px: 45
+#: 0x0a37025
+msgctxt "table:abilities/189"
+msgid "table:abilities/189"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 190)
+#. original lines: 1, widths px: 25
+#: 0x0a37036
+msgctxt "table:abilities/190"
+msgid "table:abilities/190"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 191)
+#. original lines: 1, widths px: 44
+#: 0x0a37047
+msgctxt "table:abilities/191"
+msgid "table:abilities/191"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 192)
+#. original lines: 1, widths px: 39
+#: 0x0a37058
+msgctxt "table:abilities/192"
+msgid "table:abilities/192"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 193)
+#. original lines: 1, widths px: 57
+#: 0x0a37069
+msgctxt "table:abilities/193"
+msgid "table:abilities/193"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 194)
+#. original lines: 1, widths px: 64
+#: 0x0a3707a
+msgctxt "table:abilities/194"
+msgid "table:abilities/194"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 195)
+#. original lines: 1, widths px: 61
+#: 0x0a3708b
+msgctxt "table:abilities/195"
+msgid "table:abilities/195"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 196)
+#. original lines: 1, widths px: 50
+#: 0x0a3709c
+msgctxt "table:abilities/196"
+msgid "table:abilities/196"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 197)
+#. original lines: 1, widths px: 45
+#: 0x0a370ad
+msgctxt "table:abilities/197"
+msgid "table:abilities/197"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 198)
+#. original lines: 1, widths px: 47
+#: 0x0a370be
+msgctxt "table:abilities/198"
+msgid "table:abilities/198"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 199)
+#. original lines: 1, widths px: 39
+#: 0x0a370cf
+msgctxt "table:abilities/199"
+msgid "table:abilities/199"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 200)
+#. original lines: 1, widths px: 48
+#: 0x0a370e0
+msgctxt "table:abilities/200"
+msgid "table:abilities/200"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 201)
+#. original lines: 1, widths px: 56
+#: 0x0a370f1
+msgctxt "table:abilities/201"
+msgid "table:abilities/201"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 202)
+#. original lines: 1, widths px: 61
+#: 0x0a37102
+msgctxt "table:abilities/202"
+msgid "table:abilities/202"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 203)
+#. original lines: 1, widths px: 58
+#: 0x0a37113
+msgctxt "table:abilities/203"
+msgid "table:abilities/203"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 204)
+#. original lines: 1, widths px: 28
+#: 0x0a37124
+msgctxt "table:abilities/204"
+msgid "table:abilities/204"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 205)
+#. original lines: 1, widths px: 60
+#: 0x0a37135
+msgctxt "table:abilities/205"
+msgid "table:abilities/205"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 206)
+#. original lines: 1, widths px: 58
+#: 0x0a37146
+msgctxt "table:abilities/206"
+msgid "table:abilities/206"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 207)
+#. original lines: 1, widths px: 55
+#: 0x0a37157
+msgctxt "table:abilities/207"
+msgid "table:abilities/207"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 208)
+#. original lines: 1, widths px: 68
+#: 0x0a37168
+msgctxt "table:abilities/208"
+msgid "table:abilities/208"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 209)
+#. original lines: 1, widths px: 68
+#: 0x0a37179
+msgctxt "table:abilities/209"
+msgid "table:abilities/209"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 210)
+#. original lines: 1, widths px: 43
+#: 0x0a3718a
+msgctxt "table:abilities/210"
+msgid "table:abilities/210"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 211)
+#. original lines: 1, widths px: 75
+#: 0x0a3719b
+msgctxt "table:abilities/211"
+msgid "table:abilities/211"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 212)
+#. original lines: 1, widths px: 77
+#: 0x0a371ac
+msgctxt "table:abilities/212"
+msgid "table:abilities/212"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 213)
+#. original lines: 1, widths px: 74
+#: 0x0a371bd
+msgctxt "table:abilities/213"
+msgid "table:abilities/213"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 214)
+#. original lines: 1, widths px: 68
+#: 0x0a371ce
+msgctxt "table:abilities/214"
+msgid "table:abilities/214"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 215)
+#. original lines: 1, widths px: 81
+#: 0x0a371df
+msgctxt "table:abilities/215"
+msgid "table:abilities/215"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 216)
+#. original lines: 1, widths px: 38
+#: 0x0a371f0
+msgctxt "table:abilities/216"
+msgid "table:abilities/216"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 217)
+#. original lines: 1, widths px: 59
+#: 0x0a37201
+msgctxt "table:abilities/217"
+msgid "table:abilities/217"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 218)
+#. original lines: 1, widths px: 66
+#: 0x0a37212
+msgctxt "table:abilities/218"
+msgid "table:abilities/218"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 219)
+#. original lines: 1, widths px: 56
+#: 0x0a37223
+msgctxt "table:abilities/219"
+msgid "table:abilities/219"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 220)
+#. original lines: 1, widths px: 61
+#: 0x0a37234
+msgctxt "table:abilities/220"
+msgid "table:abilities/220"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 221)
+#. original lines: 1, widths px: 44
+#: 0x0a37245
+msgctxt "table:abilities/221"
+msgid "table:abilities/221"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 222)
+#. original lines: 1, widths px: 44
+#: 0x0a37256
+msgctxt "table:abilities/222"
+msgid "table:abilities/222"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 223)
+#. original lines: 1, widths px: 69
+#: 0x0a37267
+msgctxt "table:abilities/223"
+msgid "table:abilities/223"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 224)
+#. original lines: 1, widths px: 67
+#: 0x0a37278
+msgctxt "table:abilities/224"
+msgid "table:abilities/224"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 225)
+#. original lines: 1, widths px: 39
+#: 0x0a37289
+msgctxt "table:abilities/225"
+msgid "table:abilities/225"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 226)
+#. original lines: 1, widths px: 52
+#: 0x0a3729a
+msgctxt "table:abilities/226"
+msgid "table:abilities/226"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 227)
+#. original lines: 1, widths px: 42
+#: 0x0a372ab
+msgctxt "table:abilities/227"
+msgid "table:abilities/227"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 228)
+#. original lines: 1, widths px: 65
+#: 0x0a372bc
+msgctxt "table:abilities/228"
+msgid "table:abilities/228"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 229)
+#. original lines: 1, widths px: 48
+#: 0x0a372cd
+msgctxt "table:abilities/229"
+msgid "table:abilities/229"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 230)
+#. original lines: 1, widths px: 45
+#: 0x0a372de
+msgctxt "table:abilities/230"
+msgid "table:abilities/230"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 231)
+#. original lines: 1, widths px: 46
+#: 0x0a372ef
+msgctxt "table:abilities/231"
+msgid "table:abilities/231"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 232)
+#. original lines: 1, widths px: 34
+#: 0x0a37300
+msgctxt "table:abilities/232"
+msgid "table:abilities/232"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 233)
+#. original lines: 1, widths px: 39
+#: 0x0a37311
+msgctxt "table:abilities/233"
+msgid "table:abilities/233"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 234)
+#. original lines: 1, widths px: 45
+#: 0x0a37322
+msgctxt "table:abilities/234"
+msgid "table:abilities/234"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 235)
+#. original lines: 1, widths px: 67
+#: 0x0a37333
+msgctxt "table:abilities/235"
+msgid "table:abilities/235"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 236)
+#. original lines: 1, widths px: 57
+#: 0x0a37344
+msgctxt "table:abilities/236"
+msgid "table:abilities/236"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 237)
+#. original lines: 1, widths px: 50
+#: 0x0a37355
+msgctxt "table:abilities/237"
+msgid "table:abilities/237"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 238)
+#. original lines: 1, widths px: 78
+#: 0x0a37366
+msgctxt "table:abilities/238"
+msgid "table:abilities/238"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 239)
+#. original lines: 1, widths px: 76
+#: 0x0a37377
+msgctxt "table:abilities/239"
+msgid "table:abilities/239"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 240)
+#. original lines: 1, widths px: 57
+#: 0x0a37388
+msgctxt "table:abilities/240"
+msgid "table:abilities/240"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 241)
+#. original lines: 1, widths px: 62
+#: 0x0a37399
+msgctxt "table:abilities/241"
+msgid "table:abilities/241"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 242)
+#. original lines: 1, widths px: 65
+#: 0x0a373aa
+msgctxt "table:abilities/242"
+msgid "table:abilities/242"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 243)
+#. original lines: 1, widths px: 64
+#: 0x0a373bb
+msgctxt "table:abilities/243"
+msgid "table:abilities/243"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 244)
+#. original lines: 1, widths px: 44
+#: 0x0a373cc
+msgctxt "table:abilities/244"
+msgid "table:abilities/244"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 245)
+#. original lines: 1, widths px: 67
+#: 0x0a373dd
+msgctxt "table:abilities/245"
+msgid "table:abilities/245"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 246)
+#. original lines: 1, widths px: 51
+#: 0x0a373ee
+msgctxt "table:abilities/246"
+msgid "table:abilities/246"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 247)
+#. original lines: 1, widths px: 50
+#: 0x0a373ff
+msgctxt "table:abilities/247"
+msgid "table:abilities/247"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 248)
+#. original lines: 1, widths px: 58
+#: 0x0a37410
+msgctxt "table:abilities/248"
+msgid "table:abilities/248"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 249)
+#. original lines: 1, widths px: 27
+#: 0x0a37421
+msgctxt "table:abilities/249"
+msgid "table:abilities/249"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 250)
+#. original lines: 1, widths px: 48
+#: 0x0a37432
+msgctxt "table:abilities/250"
+msgid "table:abilities/250"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 251)
+#. original lines: 1, widths px: 58
+#: 0x0a37443
+msgctxt "table:abilities/251"
+msgid "table:abilities/251"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 252)
+#. original lines: 1, widths px: 37
+#: 0x0a37454
+msgctxt "table:abilities/252"
+msgid "table:abilities/252"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 253)
+#. original lines: 1, widths px: 79
+#: 0x0a37465
+msgctxt "table:abilities/253"
+msgid "table:abilities/253"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 254)
+#. original lines: 1, widths px: 60
+#: 0x0a37476
+msgctxt "table:abilities/254"
+msgid "table:abilities/254"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 255)
+#. original lines: 1, widths px: 6
+#: 0x0a37487
+msgctxt "table:abilities/255"
+msgid "table:abilities/255"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 256)
+#. original lines: 1, widths px: 44
+#: 0x0a37498
+msgctxt "table:abilities/256"
+msgid "table:abilities/256"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 257)
+#. original lines: 1, widths px: 62
+#: 0x0a374a9
+msgctxt "table:abilities/257"
+msgid "table:abilities/257"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 258)
+#. original lines: 1, widths px: 62
+#: 0x0a374ba
+msgctxt "table:abilities/258"
+msgid "table:abilities/258"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 259)
+#. original lines: 1, widths px: 58
+#: 0x0a374cb
+msgctxt "table:abilities/259"
+msgid "table:abilities/259"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 260)
+#. original lines: 1, widths px: 56
+#: 0x0a374dc
+msgctxt "table:abilities/260"
+msgid "table:abilities/260"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 261)
+#. original lines: 1, widths px: 56
+#: 0x0a374ed
+msgctxt "table:abilities/261"
+msgid "table:abilities/261"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 262)
+#. original lines: 1, widths px: 58
+#: 0x0a374fe
+msgctxt "table:abilities/262"
+msgid "table:abilities/262"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 263)
+#. original lines: 1, widths px: 45
+#: 0x0a3750f
+msgctxt "table:abilities/263"
+msgid "table:abilities/263"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 264)
+#. original lines: 1, widths px: 75
+#: 0x0a37520
+msgctxt "table:abilities/264"
+msgid "table:abilities/264"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 265)
+#. original lines: 1, widths px: 33
+#: 0x0a37531
+msgctxt "table:abilities/265"
+msgid "table:abilities/265"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 266)
+#. original lines: 1, widths px: 70
+#: 0x0a37542
+msgctxt "table:abilities/266"
+msgid "table:abilities/266"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 267)
+#. original lines: 1, widths px: 45
+#: 0x0a37553
+msgctxt "table:abilities/267"
+msgid "table:abilities/267"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 268)
+#. original lines: 1, widths px: 86
+#: 0x0a37564
+msgctxt "table:abilities/268"
+msgid "table:abilities/268"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 269)
+#. original lines: 1, widths px: 80
+#: 0x0a37575
+msgctxt "table:abilities/269"
+msgid "table:abilities/269"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 270)
+#. original lines: 1, widths px: 77
+#: 0x0a37586
+msgctxt "table:abilities/270"
+msgid "table:abilities/270"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 271)
+#. original lines: 1, widths px: 54
+#: 0x0a37597
+msgctxt "table:abilities/271"
+msgid "table:abilities/271"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 272)
+#. original lines: 1, widths px: 57
+#: 0x0a375a8
+msgctxt "table:abilities/272"
+msgid "table:abilities/272"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 273)
+#. original lines: 1, widths px: 52
+#: 0x0a375b9
+msgctxt "table:abilities/273"
+msgid "table:abilities/273"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 274)
+#. original lines: 1, widths px: 61
+#: 0x0a375ca
+msgctxt "table:abilities/274"
+msgid "table:abilities/274"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 275)
+#. original lines: 1, widths px: 78
+#: 0x0a375db
+msgctxt "table:abilities/275"
+msgid "table:abilities/275"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 276)
+#. original lines: 1, widths px: 27
+#: 0x0a375ec
+msgctxt "table:abilities/276"
+msgid "table:abilities/276"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 277)
+#. original lines: 1, widths px: 44
+#: 0x0a375fd
+msgctxt "table:abilities/277"
+msgid "table:abilities/277"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 278)
+#. original lines: 1, widths px: 57
+#: 0x0a3760e
+msgctxt "table:abilities/278"
+msgid "table:abilities/278"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 279)
+#. original lines: 1, widths px: 63
+#: 0x0a3761f
+msgctxt "table:abilities/279"
+msgid "table:abilities/279"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 280)
+#. original lines: 1, widths px: 72
+#: 0x0a37630
+msgctxt "table:abilities/280"
+msgid "table:abilities/280"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 281)
+#. original lines: 1, widths px: 55
+#: 0x0a37641
+msgctxt "table:abilities/281"
+msgid "table:abilities/281"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 282)
+#. original lines: 1, widths px: 56
+#: 0x0a37652
+msgctxt "table:abilities/282"
+msgid "table:abilities/282"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 283)
+#. original lines: 1, widths px: 71
+#: 0x0a37663
+msgctxt "table:abilities/283"
+msgid "table:abilities/283"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 284)
+#. original lines: 1, widths px: 54
+#: 0x0a37674
+msgctxt "table:abilities/284"
+msgid "table:abilities/284"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 285)
+#. original lines: 1, widths px: 68
+#: 0x0a37685
+msgctxt "table:abilities/285"
+msgid "table:abilities/285"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 286)
+#. original lines: 1, widths px: 34
+#: 0x0a37696
+msgctxt "table:abilities/286"
+msgid "table:abilities/286"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 287)
+#. original lines: 1, widths px: 64
+#: 0x0a376a7
+msgctxt "table:abilities/287"
+msgid "table:abilities/287"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 288)
+#. original lines: 1, widths px: 44
+#: 0x0a376b8
+msgctxt "table:abilities/288"
+msgid "table:abilities/288"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 289)
+#. original lines: 1, widths px: 68
+#: 0x0a376c9
+msgctxt "table:abilities/289"
+msgid "table:abilities/289"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 290)
+#. original lines: 1, widths px: 79
+#: 0x0a376da
+msgctxt "table:abilities/290"
+msgid "table:abilities/290"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 291)
+#. original lines: 1, widths px: 63
+#: 0x0a376eb
+msgctxt "table:abilities/291"
+msgid "table:abilities/291"
+msgstr ""
+
+#. category: table:abilities; mode: field
+#. fixed field: 16 characters max (table abilities, index 292)
+#. original lines: 1, widths px: 58
+#: 0x0a376fc
+msgctxt "table:abilities/292"
+msgid "table:abilities/292"
+msgstr ""

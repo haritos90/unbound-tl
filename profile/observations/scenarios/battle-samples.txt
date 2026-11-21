@@ -1,0 +1,18 @@
+statefile load e6
+partymon 1 130 0x01234567 0x02468ACE
+goto 0x771E86
+wait 600
+shot trainer-intro
+press A 4 150
+shot trainer-send-out
+wait 300
+shot battle-action
+press A 4 90
+shot battle-moves
+press B 4 90
+shot battle-after-b
+repeat 3 press A 4 180
+wait 300
+shot battle-action-ready
+press A 4 90
+shot battle-move-menu

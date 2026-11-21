@@ -1,0 +1,58 @@
+name: Release
+
+on:
+  push:
+    tags: ['*-v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read the release of the tag
+        id: found
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          # a written body stays as it is
+          state=missing
+          if body=$(gh release view "$TAG" --repo "$REPOSITORY" --json body --jq .body 2>/dev/null); then
+            if [ -n "$body" ]; then state=written; else state=empty; fi
+          fi
+          printf 'release      %s %s\n' "$TAG" "$state"
+          printf 'state=%s\n' "$state" >>"$GITHUB_OUTPUT"
+      - uses: actions/checkout@v7
+        if: steps.found.outputs.state != 'written'
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        if: steps.found.outputs.state != 'written'
+        with:
+          python-version: '3.13'
+      - uses: ./.github/actions/toolkit
+        if: steps.found.outputs.state != 'written'
+      - name: Write the title and the body from the commits since the previous tag
+        if: steps.found.outputs.state != 'written'
+        env:
+          TAG: ${{ github.ref_name }}
+          REPOSITORY: ${{ github.repository }}
+        run: gen3tl --lang "${TAG%-v*}" build release-notes --tag "$TAG" --repository "$REPOSITORY" --out "$RUNNER_TEMP/release"
+      - name: Create the release or fill its body
+        if: steps.found.outputs.state != 'written'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          REPOSITORY: ${{ github.repository }}
+          STATE: ${{ steps.found.outputs.state }}
+        run: |
+          if [ "$STATE" = empty ]; then
+            gh release edit "$TAG" --repo "$REPOSITORY" --notes-file "$RUNNER_TEMP/release/body.md"
+          else
+            gh release create "$TAG" --repo "$REPOSITORY" --verify-tag \
+              --title "$(cat "$RUNNER_TEMP/release/title.txt")" --notes-file "$RUNNER_TEMP/release/body.md"
+          fi

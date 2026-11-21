@@ -1,0 +1,7 @@
+schema = "2.0.0"
+profile = "unbound-2.1.1.1"
+language = "ru"
+
+[species."species:175"]
+source_sha256 = "974aee97906323d76ea752788940232b52043dd84e1ff57c1447cd9acb64cee2"
+aliases = ["Тогепи"]

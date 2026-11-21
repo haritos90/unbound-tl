@@ -1,0 +1,38 @@
+# Records whose texts one measured window shows.
+# - table holds count pointers; type_at is the record type offset
+# - text items: path to the text pointer or list
+
+# Width and lines work as in table_window.
+# An item's lines replace the rule's.
+# Number: a printed record value; slots name its placeholders.
+[[layout.record_window]]
+name = "mission-log"
+table = 0x1FB41B4
+count = 84
+type_at = 0xB
+width = 200
+lines = 3
+texts = [
+  { types = [0], path = [0xC] },
+  { types = [1], path = [0xC, 0], stride = 4 },
+  { types = [2], path = [0xC, 8], lines = 2, number = { slots = ["STR_VAR_1", "B_COPY_VAR_1"], path = [0xC, 4], bytes = 4 } },
+  { types = [3], path = [0xC, 8], number = { slots = ["STR_VAR_1", "B_COPY_VAR_1"], path = [0xC, 4], bytes = 2 } },
+  { types = [4], path = [0xC, 0], lines = 2 },
+  { types = [4], path = [0xC, 4], stride = 16, field = 4, end = 8 },
+]
+where = "Mission Log, text window"
+
+# mission titles in the list window
+[[layout.record_window]]
+name = "mission-log-list"
+table = 0x1FB41B4
+count = 84
+type_at = 0xB
+width = 171
+lines = 1
+texts = [
+  { path = [0] },
+  { types = [4], path = [0], width = 157 },
+]
+where = "Mission Log, mission list"
+

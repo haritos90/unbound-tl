@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-08C0000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: trainer out-of-balls lines: their only pointers are the pools 0x8C0DC8 / 0x8C0DE0 of the hook 0x8C0D94, which only 0x80D77D0 (ldr r1 / bx r1, pool 0x80D77F0) enters, in the dead body of FireRed BufferStringBattle, whose entry 0x80D7274 jumps to CFRU 0x89BDA88)
+#. category: code; mode: battle
+#. original lines: 3, widths px: 101, 151, 84
+#: 0x08c0de8
+msgctxt "hash:c9d128f4"
+msgid "hash:c9d128f4"
+msgstr ""
+
+#. reach: never shown (review: trainer out-of-balls lines: their only pointers are the pools 0x8C0DC8 / 0x8C0DE0 of the hook 0x8C0D94, which only 0x80D77D0 (ldr r1 / bx r1, pool 0x80D77F0) enters, in the dead body of FireRed BufferStringBattle, whose entry 0x80D7274 jumps to CFRU 0x89BDA88)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 146, 81
+#: 0x08c0e2d
+msgctxt "hash:db1c238f"
+msgid "hash:db1c238f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x08c9744
+msgctxt "hash:4479a17a"
+msgid "hash:4479a17a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 22
+#: 0x08c974b
+msgctxt "hash:44c5f6da"
+msgid "hash:44c5f6da"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 23
+#: 0x08c9752
+msgctxt "hash:27f60756"
+msgid "hash:27f60756"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x08c9759
+msgctxt "hash:e056ce15"
+msgid "hash:e056ce15"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x08c9760
+msgctxt "hash:0458d71c"
+msgid "hash:0458d71c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x08c9767
+msgctxt "hash:7f7b7b84"
+msgid "hash:7f7b7b84"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: code; mode: field
+#. original lines: 2, widths px: 62, 92
+#: 0x08c976e
+msgctxt "hash:19e90291"
+msgid "hash:19e90291"
+msgstr ""

@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0879100\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 95, 93, 102
+#: 0x0a37cb9
+msgctxt "table:moves/58/description"
+msgid "table:moves/58/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 97, 101, 98, 108
+#: 0x0a37d02
+msgctxt "table:moves/59/description"
+msgid "table:moves/59/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 78, 90, 103, 78
+#: 0x0a37ec4
+msgctxt "table:moves/355/description"
+msgid "table:moves/355/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 104, 101, 80
+#: 0x0a38139
+msgctxt "table:moves/364/description"
+msgid "table:moves/364/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 101, 110, 97, 99
+#: 0x0a383d5
+msgctxt "table:moves/373/description"
+msgid "table:moves/373/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 95, 79, 76
+#: 0x0a38422
+msgctxt "table:moves/374/description"
+msgid "table:moves/374/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 107, 97, 99
+#: 0x0a389c2
+msgctxt "table:moves/395/description"
+msgid "table:moves/395/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 97, 76, 52
+#: 0x0a38dac
+msgctxt "table:moves/409/description"
+msgid "table:moves/409/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 98, 99, 103, 41
+#: 0x0a39b78
+msgctxt "table:moves/460/description"
+msgid "table:moves/460/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 168, 188
+#: 0x0eb1f69
+msgctxt "table:items/278/description"
+msgid "table:items/278/description"
+msgstr ""

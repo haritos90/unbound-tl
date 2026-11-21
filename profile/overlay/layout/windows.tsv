@@ -1,0 +1,247 @@
+name	where	width	box	lines	style	evidence	prompt_arrow_width	newline_scroll_after	instant_print	slot_context
+script-message-command	script message window						10			
+field-yes-no-fills	field yes/no message window						10			
+puzzle-sign-routine	puzzle sign message window	208	dialogue	2			10	1		
+help-type-matchup						The question table at 0x08964000 and answer table at 0x08964098 feed reader 0x0812BEB8 and printer 0x0813C50C. HelpSystemRenderText 0x0813C078 dispatches newline, scroll and page through 0x0813C0CC to 0x0813C1E4, advancing a line without waiting or calling TextPrinterDrawDownArrow 0x080054F8.	0			
+trainer-transformation										trainer-transformation
+player-disobedience										player-disobedience
+start-menu-feature-labels		76				Start menu label window: 80 px interior, 2 px margins.\nDexNav, Mission Log: same table 0xA6D174				
+battle-intro-message		208				Battle intro: either wild variant prints in the battle window.\nUnbound wild battles show CFRU strings instead.				
+mission-log-status		32			unbound-small	Mission Log status column: window 3, x 200-232.\nStatus labels share one column.				
+mission-log-hint-back		171				Mission Log hint list item 'Back'.\nlist template window 2: x 8-192, item x 13\nmeasured with a probe ruler: x 21-192				
+trainer-card-birthday-label		69				Trainer card labels: value right-aligned, label at x 1.\nwidths: name 42 px, birthday 60 px, wallet 62 px				
+trainer-card-wallet-label		67				Wallet: ₽ and 9 digits, 62 px (AddMoney cap 999999999)				
+trainer-card-pokedex-label		111				Pokédex: 3 digits (count loop to 809 at 0x88E8C)				
+trainer-card-debut-label		165				First championship time occupies 52 pixels.				
+trainer-card-missions-label		199				Completed mission count occupies 18 pixels.				
+frontier-card-title		78				Frontier Card title\nwindow 0 of 0x1FB2B88: 80 px, font 1\nprinted from x 2 (0x1EB661A)				
+stat-scanner-button-bar						Stat Scanner key bars: window 1, x 0-216, small font.\nprobe ruler: from x 4, cut from 216				
+stat-scanner-messages						Stat Scanner messages: window 0, x 8-232, 2 lines.\nprobe ruler: from x 12, cut from 232\nStat Scanner messages, 2 lines per box.\nwindow 0, 4 tiles high, font 1, x 4\n\\p waits and clears, \\l scrolls; 220 px width				
+stat-scanner-scroll-tutorial						Stat Scanner messages: window 0, x 8-232, 2 lines.\nprobe ruler: from x 12, cut from 232\nStat Scanner messages, 2 lines per box.\nwindow 0, 4 tiles high, font 1, x 4\n\\p waits and clears, \\l scrolls; 220 px width\nStat Scanner messages: 2 lines per box.\nEnglish boxes have 3 lines with \\l.				
+dexnav-section-headers		147				DexNav section headers\nwindows 9 / 10 of 0xA6983C: 152 px\nfont 1 from x 5 (0x9D70A8-0x9D70D0)				
+dexnav-chain-counter		42				DexNav 'Chain: ' plus up to 3 digits.\nwindow 12: 64 px, printed at x = 60 - width\n60 px less 3 digits of 6 px				
+dexnav-encounter-info		76			unbound-small	DexNav encounter method and info lines\nwindows 4 / 5 / 6 of 0xA6983C: 80 px\nsmall font from x 4 (0x9D61FC-0x9D6210)				
+dexnav-menu-items						DexNav menu items\nlist template 0xA697EC: window 1 (56 px)\nitem x 8, font 2, items 0xA69AC8				
+frontier-record-level-labels		48			unbound-small	Frontier record screen labels\nwindow templates 0xA6B8EC, small font from x 0\nlevels: windows 2 / 7, 48 px (0x9E96B4-0x9E973E)				
+frontier-record-streak-labels		80			unbound-small	Frontier record screen labels.\nstreaks: windows 10 / 11, 80 px\nregion 0A40000, small font of the call				
+frontier-record-team-size-labels		32			unbound-small	Frontier record screen labels.\n'3 v 3': windows 3 / 4 / 8 / 9, 32 px				
+raid-battle-catch-prompt		110		2		Region 0A40000 windows, checked in a probe build.\nraid catch prompt: window 1, font 2, 2 lines\nfixed windows of region 0A40000				
+move-info-power-value		72			unbound-small	Move info, normal move, small font.\nPower window 72 px.\nregion 0A40000, small font of the call				
+move-info-contact-labels		64			unbound-small	Move info, normal move, small font.\nContact window 64 px.\nregion 0A40000, small font of the call				
+max-move-info-power-label		38				'Power: ' alone in window 9 of the Max move page\nfont 1 from x 2, 38 px				
+special-move-info-effect-labels		128			unbound-small	Z and Max effect labels: window 5, 128 px small\nregion 0A40000, small font of the call				
+whiteout-message		238		5		Whiteout text: window 0x3C68E4, 240 px.\nfont 2, 14 px lines, 5 lines\nletter spacing 1 widens only Japanese text and key icons\nfixed windows of region 0A40000				
+bag-sort-menu-labels		48				Bag sort\nlabels: context menu windows 10-13, 56 px, from x 8				
+naming-screen-title		127				Naming screen titles: window 3, 128 px.				
+tm-shop-purchased-label						'Purchased' in the TM shop list: small font.\nregion 0A40000, small font of the call				
+party-held-item-swap-message		224				Held items swapped: line 1 of the party box (0xA01928)				
+raid-partner-level-label		82			unbound-small	Raid partner screen windows.\nlevel label: small font, up to 3 digits\nregion 0A40000, small font of the call				
+raid-partner-button-bar		174			unbound-small	Raid partner screen windows.\nbutton bar: window 5, small from x 2\nregion 0A40000, small font of the call				
+raid-partner-end-conditions		80		3	unbound-small	Raid partner screen windows.\nend conditions: window 2, small from x 0, 3 lines\nregion 0A40000, small font of the call				
+raid-partner-title		111				Raid partner screen windows.\ntitle: window 1, font 3 from x 1				
+hall-of-fame-mode-line		208			unbound-small	Hall of Fame mode line, centred in 208 px.\nmain font, small font when wider\npieces are checked alone, not assembled\nregion 0A40000, small font of the call				
+ban-list-title		160				Ban list viewer title: font 1, centred, 160 px.\nEnglish exceeds 160 with long tiers: whole line				
+ban-list-button-bar		212			unbound-small	button bar: window 3, small font from x 4\nregion 0A40000, small font of the call				
+main-menu-items		190				FireRed interface texts, region 0410000.\nMain menu items: windows 0-3, 192 px, font 2.				
+main-menu-message-box						Main menu message box: window 4, 224 px, font 2.\nmessage boxes of region 0410000, 208 px\nmain menu window 4 (224 px in window_width)				
+hall-of-fame-player-id-label						Hall of Fame player info, window 0x40C234 (136 px).\nlabels font 2 at x 4, values end at 130\nName from x 88; IDNo. 5 digits at x 100				
+hall-of-fame-player-time-label						Hall of Fame player info, window 0x40C234 (136 px).\nTIME: 999:59, 36 px, from x 94				
+legacy-trainer-card-time-label						FireRed trainer card: labels from x 20.\nTIME: hours from x 85 or 101 (table 0x3CD930)				
+controls-top-title		232				Top bars: left font 1 at x 4.\nEach bar is 232 px and the pair shares it.				
+controls-top-button-bar						Top bars: right small.\nEach bar is 232 px and the pair shares it.\nsmall font (font 0 of the print call)				
+hall-of-fame-top-title		232				Top bars: left font 1 at x 4.\nEach bar is 232 px and the pair shares it.				
+pokedex-bottom-button-bar						Pokédex bottom bar: small font at x = 236 - width.\ns0415F51 is another bar.\nsmall font (font 0 of the print call)				
+pokedex-cry-button						Pokédex bottom bar: small font.\nCry starts at x 8; s0415F51 is another bar.\nsmall font (font 0 of the print call)				
+pokedex-measurement-labels		25			unbound-small	Pokédex labels, small font.\nHt, Wt: value 30 px further, less a space\nsmall font (font 0 of the print call)				
+pokedex-weight-unit		20			unbound-small	Pokédex labels, small font.\nlbs.: after the weight, letter spacing 5\nsmall font (font 0 of the print call)				
+pokedex-area-size-labels		80			unbound-small	Pokédex labels, small font.\nSize, Area: centred in 80 px windows\nsmall font (font 0 of the print call)				
+hall-of-fame-welcome-message						Hall of Fame mode screen (Unbound 0xA132AE):\n  centred in 208 px, x = (208 - width) / 2				
+safari-zone-counter		76		2		Safari Zone counts: 10 tile window, font 2.\nCounts take 3, 3 and 2 digits.\nSafari Zone window 0x3A738C (80 px, 2 lines); its counts are code-filled STR_VARs.				
+bag-close-description		200				Bag description window: 200 px, 3 lines, x 0.				
+bag-placement-prompt						Bag description window: 200 px, 3 lines, x 0.\nfixed windows of region 0410000				
+bag-item-selection						Bag item windows: font 2 from x 0, 2 lines.\nfixed windows of region 0410000				
+bag-item-quantity-prompt						Bag item windows: font 2 from x 0, 2 lines.\nfixed windows of region 0410000				
+bag-item-result						Bag item windows: font 2 from x 0, 2 lines.\nfixed windows of region 0410000				
+bag-item-toss-confirmation						Bag item windows: font 2 from x 0, 2 lines.\nfixed windows of region 0410000				
+tm-case-close-list-item		144				List window 152 px, items from x 8.				
+berry-pouch-title		72				Berry Pouch: 72 px title.				
+berry-pouch-item-names		71				Berry names in the Pouch list, from x 33.\nquantity cell at x 110, font 0\n77 px to the '×', keeping one space (6 px)				
+pc-selection-common-options						PC selection: 0x9D098-0x9D0AE fixes 13/14 tiles.\nLabels start at x 8, font 2.\nCommon labels must fit the 13-tile variant.				
+item-pc-withdraw-quantity						Item PC: withdraw window 1 of 0x453FD0 (0x810EAB4): 128 px, font 2, 2 lines.				
+item-pc-withdraw-result						Item PC: withdraw window 2 of 0x453FD0 (0x810EAB4): 184 px, font 2, 2 lines.				
+link-battle-record-title		208				Link battle records: window 216 px, title centred in 208.				
+link-battle-record-column-labels						Link battle records: window 216 px; header from x 84 (0xCDA4E-0xCDC62).				
+easy-chat-quit-message		176				Easy chat message window 1 of 0x43F8B0 (176 px):\n  lines of the quit prompts (pools 0xFFDE0-0xFFE04)				
+town-map-buttons						Town Map buttons: 40 px windows, small font.\nsmall font (font 0 of the print call)				
+summary-trainer-memo		220		3		Summary trainer memo, window 0x463F44 (224 px), font 2: 220 px, 3 lines (0x137600-0x1378EC).\ntrainer memo, 3 lines				
+mystery-gift-discard-prompt		160		2		Mystery Gift prompts: 160 px window, 2 lines, font 2.\nMystery Gift messages and prompts, 2 lines				
+trainer-card-trade-count-label		170				Trainer card back: labels from x 10 or 16.\ntrades: both card types, 186 - 16\ncount of 5 digits from x 186				
+trainer-card-activity-count-labels		176				Trainer card back: labels from x 10.\nUnion Room, Berry Crush: card type 0 only, 186 - 10.\nCount of 5 digits from x 186.				
+options-frame-type-label		58				Options frame value: 'Type' plus 2 digits, 58 px.				
+quest-log-description		238		3		Quest log: 240 px windows, font 2 from x 2.\nDescriptions: window 2, 6 tiles, 3 lines.\nFixed windows of region 0410000: quest log description window, 3 lines.				
+quest-log-short-description		238				Quest log: 240 px windows, font 2 from x 2.\nDescriptions: window 2, 6 tiles, 3 lines.				
+quest-log-item-animation-wait		224	dialogue			Quest-log item animation: 224 px window, 2 lines, font 2.\nQuest-log item animation texts waiting with \\p.				
+quest-log-item-animation-reaction		224				Quest-log item animation: 224 px window, 2 lines, font 2.				
+quest-log-item-animation-result		224		2		Quest-log item animation: 224 px window, 2 lines, font 2.\nQuest-log item animation, 2 lines.				
+level-up-hp-label		56				Level-up page: labels at x 0, gains from x 56.				
+level-up-stat-labels		56				The other labels of the same level-up table.\nthe sign cell paints over the label from x 56\nbattle: labels from x 152, sign cell at x 208				
+union-room-chat-keyboard-pages		48				Chat keyboard pages: 56 px window, items from x 8.				
+union-room-chat-log		168				Union Room chat log lines: window 0, 168 px, font 2.				
+diploma-player-line		224				Diploma: window 0 (232 px), font 2.\nPlayer line centred at x 120.				
+diploma-body		224		5		Diploma: window 0 (232 px), font 2.\nBody centred at x 120.\nDiploma body: 14 px lines from y 30, 5 lines.				
+diploma-signature		112				Diploma: window 0 (232 px), font 2.\n'Game Freak' from x 120.				
+union-room-trading-board-register		72				Union Room trading board 'Register' list, items from x 8.\nparty menu actions: 10 tiles, font 2 from x 8				
+slot-machine-game-over		159		2		Slot machine messages: 160 px window, font 2.\nSlot machine message window: 2 lines.				
+slot-machine-quit-prompt		159				Slot machine messages: 160 px window, font 2.				
+slot-machine-button-bar						Slot machine bar: window 1, small font at x = 236 - width (0x8141330).\nsmall font (font 0 of the print call)				
+help-system-header		50				Help system (HelpSystemRenderText 0x813C078)\nheader: font 5 from x 6 in 7 tiles (0x813C454)				
+help-system-button-bar		124			unbound-small	Help system bars: small font at x = 124 - width.\nsmall font (font 0 of the print call)				
+pokemon-jump-record-title		224				Pokemon Jump records: 224 px window; title from x 0.				
+pokemon-jump-record-labels		192				Pokemon Jump records: 224 px window; labels from x 0, 5-digit values right-aligned at 222.				
+pokemon-jump-prize-message		176		2		Pokemon Jump prizes: 176 px window, 2 lines, font 2.				
+pokemon-jump-prize-capacity-message		176				Pokemon Jump prizes: 176 px window, 2 lines, font 2.				
+dodrio-record-title		223				Dodrio Berry Picking records: 224 px window.\nTitle font 2 from x 1.				
+dodrio-record-berry-count		199				Dodrio Berry Picking records: 224 px window.\nLabel font 2 from x 1; value right-aligned at 224.				
+dodrio-record-best-score		181				Dodrio Berry Picking records: 224 px window.\nLabel font 2 from x 1; value right-aligned at 224.				
+dodrio-record-streak		199		2		Dodrio Berry Picking records: 224 px window.\nLabel font 2 from x 1; value right-aligned at 224; s041CCD8 uses line 2.\nMinigame window: 2 lines.				
+dodrio-results-title						Dodrio Berry Picking results titles: window 0x475674 (224 px), small font centred (0x8155080-0x81554B6).\nsmall font (font 0 of the print call)				
+dodrio-prize-message		216		2	unbound-small	Dodrio Berry Picking prize lines: 224 px windows, small font from x 8.\nMinigame prize window: 2 lines.\nsmall font (font 0 of the print call)				
+dodrio-prize-capacity-message		216			unbound-small	Dodrio Berry Picking prize lines: 224 px windows, small font from x 8.\nsmall font (font 0 of the print call)				
+berry-crush-ranking-title						Berry Crush ranking page titles centred at 88.				
+ghost-battle-name		60				Ghost battle name: enemy nickname, measured at 60 px.				
+link-card-colour-fill		60				Link card colours copied to gStringVar2, checked at 60 px.				
+trade-menu-prompt-sprites		192				Trade menu text draws into six 32 px sprites.\n24 tile window, font 1 from x 0				
+trade-menu-communication-message		176		2		Trade menu window 0: 176 px, 2 lines, font 3.\ntrade menu window 0				
+mystery-gift-arrow-message						Mystery Gift window 1 is 224 px.\nthe down arrow at x 208 limits two-line texts\nMystery Gift messages and prompts, 2 lines.				
+mystery-gift-short-message						Mystery Gift window 1: one-line texts keep the full 224 px.				
+mystery-gift-action-prompt		152		2		Mystery Gift prompts: 152 px window, 2 lines, font 2.\nMystery Gift messages and prompts.				
+trainer-catalogue-area-names		88				Trainer Catalogue areas: 33 records of 12 bytes.\nlist: window 6, item x 10, names from x 18\ntitle: window 0 (96 px), font 1 from x 8				
+frontier-record-map-title		80				Frontier record screen title: current map name.\nspecial 0x57 runs on three maps only\nwindow 0 (80 px), font 1 from x 0				
+item-action-menu-options		48				Item actions: font 2 from x 8 (cursor width).\nbag, TM Case, Berry Pouch, item PC: 56 px windows\n'Give' also in the party item submenu				
+party-action-menu-options		72				Party menu actions: font 2 from x 8, 72 px.\ntext is read only by one routine				
+party-item-submenu-options						Party item submenu: 7 tiles, 48 px of text.\nList 0xA6C962 = actions 4, 5, 18, 9: Give, Take, Move, Cancel.\nCancel, action 9, is shared by many lists; this submenu is the narrowest window.				
+party-mail-submenu-options		72				Party mail submenu 0x45A150: 10 tiles, 72 px of text.				
+party-action-question		128				Party menu action questions have their own windows: ids 22-26, font 2 from x 0.\nPokemon and Mail action questions use 128 px.\nThe remaining messages use table party-messages.				
+party-pp-question		120				Party menu PP questions have their own windows: ids 22-26, font 2 from x 0.\nRestore and Boost PP questions use 120 px.\nThe remaining messages use table party-messages.				
+party-item-question		152				Party menu item question has its own window: ids 22-26, font 2 from x 0.\nThe item action question uses 152 px.\nThe remaining messages use table party-messages.				
+party-default-question		168				Party menu CFRU ids 37, 38 (0x8A0165E, 0x8A0428C): default window 0x45A120, 168 px.				
+union-room-activity-name-fill		123				Union Room activity names, copied before '!' at a line start.\nhosts s0457234, s0457264, s0457700: 208 px field box\nThe remaining message occupies 85 pixels.				
+union-room-chat-inner-message		152				Union Room chat messages: font 2, 21 tile window.\nbox type 1: inner frame, text from x 8				
+union-room-chat-outer-message		168				Union Room chat messages: font 2, 21 tile window.\nBox type 2: outer frame, text from x 0.				
+union-room-chat-save-message		224				Union Room chat messages: font 2.\nWide box flag: 28 tiles from tile 1.				
+mystery-gift-card-action-options		48				Mystery Gift card menus: item x 8, font 2.\nwindows are 7 tiles wide				
+wireless-status-title		192				Wireless status screen, InitWindows 0x46FA7C\ntitle: font 3 centred in window 0, 192 px\n  (0x814F3CE)				
+wireless-status-count-labels		176				Wireless status screen, InitWindows 0x46FA7C.\nLabels: font 3 from x 0, 22 tile window.\nCounts sit in window 2 from tile 25.				
+options-confirm-list-item		94				Options screen Confirm: last list item (0x1EBCBC6), 94 px.				
+options-none-value		98				Options screen None: R-Button value 112 px; Stat Scanner item 110 px.\nSelected values between the arrows.\nNone: 99 px, given as 98.				
+options-frame-value		86				Options screen Frame plus a 2-digit number: 87 px, given as 86.				
+costume-box-default-outfit-name		80				Default: music value 112 px, outfit name 80 px.\nOutfit name: font 1 centred, window 3 (10 tiles).				
+options-description-override						Options screen descriptions replace the record descriptions: window 4 from x 1.				
+options-save-action-menu		56		3		Options screen Save / Discard / Cancel: 8 tile window, font 1.\nWindow 2, 3 rows.				
+options-warning-message		220	dialogue	2		Options screen messages (0x1EBCE7C): window 0, 28 tiles, font 1 from x 4, at the player text speed.\nWindow 0 is 4 tiles high: 2 lines per box; 220 px text width.				
+options-save-question						Options screen messages (0x1EBCE7C): window 0, 28 tiles, font 1 from x 4, at the player text speed.\n220 px text width.				
+battle-side-prefix-fill		103				Battle string fills: room in the narrowest host line.\n'Ally' / 'Foe' side prefixes: hosts in the battle box\n'Foe' occurs only in dead pools				
+battle-flavour-result-fill		126				Battle flavour fills, table 0x3FD63C (0x80D8418): host s03FC5E8, {B_LAST_ITEM} - {fill}, 222 - 96.				
+bag-stat-rise-adverb-fill		52				Stat line {stat} {adverb}{verb}: stat 78 px, verb 66 px.\nX items show it in the 208 px bag box.\nThe sharply adverb retains 52 px.				
+bag-stat-change-verb-fill		66				Stat line {stat} {adverb}{verb}: stat 78 px, verb 66 px.\nX items show it in the 208 px bag box.\nThe rose/fell verbs and harshly fragment retain 66 px.				
+battle-experience-boost-fill		108				Battle experience boosted fragment: host s03FB265, 222 - 60 - 54.				
+battle-storage-owner-fill		103				Battle PC owner fill: host s03FD804, 222 - 119.				
+battle-enigma-berry-name-fill		78				Enigma Berry item fills: 78 px in battle hosts.\nThe full Enigma Berry name occupies the item slot.				
+battle-enigma-berry-suffix-fill		42				Enigma Berry item fills: 78 px in battle hosts.\nThe Berry suffix follows a 6-letter berry name and retains 42 px.				
+battle-ice-fragment		115				Battle ice fragment: dead table; its CFRU copy shows frostbite.				
+battle-action-question		110		2		Battle action prompt: window 1, 14 tiles, x 2, 110 px.\ns03FE6D5 names the player battler: token shows 60 px.\nWindow 1 is 4 tiles high, 2 lines.				
+battle-move-swap-question		64		2		Battle move swap prompt: window 11, 8 tiles, x 0.\nWindow 11 is 4 tiles high, 2 lines.				
+link-battle-outcome						VS outcome: windows 21-23, 8 tiles, x 0 (0x800F5D8-0x800F6EA).				
+battle-tutorial-message		208	dialogue			Log tutorial: window 24, 26 tiles, x 0 (0x80E8678); also table ids 0x16B / 0x16C.\nWindow 24 is 4 tiles high.				
+bag-stat-item-message		208	dialogue			Bag message box: Dire Hit and X item texts.\nBag and party message boxes, as s0416A1E.				
+safari-health-ball-count-label		32			unbound-small	Safari health box: 8 x 2 tile window, small font (font 0).\nLeft: plus its space and 2 digits are right-aligned in 47 px.				
+trainer-tower-time-board-title						Trainer Tower board: window 0x47A218, 27 tiles, font 2 (0x815E746-0x815E820).\nTitle from x 74.				
+trainer-tower-time-board-time						Trainer Tower board: window 0x47A218, 27 tiles, font 2 (0x815E746-0x815E820).\nTime from x 96: three 2-digit numbers.\nNumbers are measured by a code fill.				
+trainer-catalogue-back-option		86				Trainer Catalogue Back: last list item, 86 px.\nWindow 2, 96 px, font 2 from x 10.				
+save-info-old-label						Save info of an earlier save: label column of s041617A.\nFont 0 of the print call; save info at 0x1EB60CA, 0x1EB61BC.				
+save-info-never-value						Save info Never: small font at x 52 in 144 px.\nFont 0 of the print call; save info at 0x1EB60CA, 0x1EB61BC.				
+save-info-date-period		10			unbound-small	Save info AM / PM, the end of the date line.\nPM is printed for an hour above 11\nthe date before it takes 82 px from x 52\nfont 0 of the print call\nsave info (0x1EB60CA, 0x1EB61BC)				
+item-pc-withdraw-error						Item PC subwindow 2, 184 px, as s04177C5: 0x1EBA6C8, 0x810E4B8.\nSubwindow 2 has 2 lines.				
+mailbox-cube-action		112				Mailbox menu Move to Cube: 120 px window, items x 8.				
+mission-notification-banner						mission banners: small font, window sized to text\n28 tiles keep the frame on screen\nmission banners (0x1EB5164, 0x1EB5180)				
+party-item-cure-message		224	dialogue			Item cures: party window 6, 28 tiles, x 0, 224 px; AddTextPrinterParameterized2.				
+safari-button-bar		237			unbound-small	Safari bars: 240 px window, small font from x 3\nSafari bars (0x1EC3FCC)				
+union-room-group-button-bar		232			unbound-small	Union Room and wireless windows\ngroup screen bars: 240 px, small font at x 8\ngroup screen bars (0x811A444)				
+wireless-mystery-gift-error-message						Mystery Gift window 1: 224 px, 2 lines, font 2.\nDown arrow at x 208 on line 2.\nWindow 1 of 0x466D70, printed at once.				
+wireless-group-response-message						Mystery Gift window 1 of 0x466D70: 2 lines, printed at once.\nAlso in the 208 px group screen message box.				
+wireless-mystery-gift-wait-message						Mystery Gift window 1 of 0x466D70: 224 px, 2 lines, printed at once.\nNo arrow, no other window.				
+wireless-mystery-gift-share-prompt		160		2		Mystery Gift prompt: 160 px window, 2 lines\njoin request of activities 21 and 22\nprompt window 0x466D98				
+union-room-trading-board-egg-row		156				Trading Board Egg row: font 2 at x 68.\nNothing follows it in the 224 px window.				
+whiteout-unused-picker-message		238		5		Orphaned whiteout picker text, never shown: window of the live twin s1F11D25, 5 lines.				
+battle-unused-stat-adverb-fill		66				Orphaned stat adverbs, never shown: windows of live twins, as s0A4C603.				
+max-move-effect-label		128			unbound-small	Max move page G-Max labels, StringCopy (0x9FA15E-0x9FA1C2): window 5 of 0x248330, 128 px small font (font 0, 0x9F9FF6).				
+max-move-weather-terrain-fill		82			unbound-small	Max move page weather and terrain words follow Set (StringAppend, 0x9FA0DA-0x9FA15C), in window 5 of 0x248330.\n128 px less «Вызывает » 46 px small; suffixes empty.\nFont 0 of the print call, 0x9F9FF6.				
+frontier-record-tier-label		144			unbound-small	tier 1, not in the ban list viewer: window 12\n144 px small font; host lines allow 203 px\nfrontier record screen, window 12 (0x9E955E)				
+battle-intro-opponent-send-out		222		2		intro send-out lines, battle window 0\n222 px as [layout.box_width] battle\n2 lines in [layout.window_lines]\nIntro send-out lines: 2 lines, no scroll.\nbattle window 0: 28 x 4 tiles, font 2\na scroll would stop the intro for a key				
+battle-intro-partner-send-out		222		2		partner's double send-out, window 0\n222 px as [layout.box_width] battle\n2 lines in [layout.window_lines]\nPartner's double send-out: 2 lines.\nCFRU intro, player side, in double battles\ntag form s0A4C371 and single form keep window_box				
+party-action-message						Party window 6: 28 tiles, font 2 starts at x 0.\nParty window 6, 0x45A170 (0x81202F8, 0x8121FC0, 0x8125AF0, 0x81247C4; help 0x8122084).				
+party-entry-limit-message		224				Party window 6: 28 tiles, font 2 starts at x 0.				
+stat-scanner-known-move-message		220	dialogue			Party window 6: 28 tiles, font 2 starts at x 0.\nParty window 6, 0x45A170 (0x81202F8, 0x8121FC0, 0x8125AF0, 0x81247C4; help 0x8122084).\nScanner also uses s0416F10: 224 px minus x 4.				
+costume-box-title		76				Costume Box title: window 2, 80 px, text from x 4.\nThe title pointer at 0x1EB25B4 is loaded at 0x1EB23E2 and printed at 0x1EB23FE through 0x812E51C, with window 2, font 1 and x 4.\nInitWindows at 0x1EB22CE loads templates at 0x1FB0CA0; window 2 at 0x1FB0CB0 is 10 tiles wide.				
+bag-registered-exp-share-name		104				Exp. Share is item 182 in the items table, Key Items pocket 2.\nThe 104 px width was introduced with the item-name field evidence: registered bag name starts at screen x 96; registration icon begins at x 200.\nBag list callback 0x108654 reaches the registration hook at 0x10872C; 0x9A2570 returns to 0x10873E for registered items. The icon call at 0x10874E uses local x 112, leaving 104 px after the name x 8.				
+battle-move-menu-z-move-names					unbound-small	Z-move names: the battle move menu prints them small. Font 0 of the print call is the small font; window_width counts pixels of that font. Measured window widths denote pixels of text space.				
+mission-log-sort-suffix					unbound-small	Mission Log header suffix ' A-Z' beside the filter word. Window 0 is covered by the counter from x 152. Room after «Выполненные» (57 px) is 75 px. The suffix uses the small font.				
+move-info-accuracy-labels					unbound-small	Move information accuracy labels in region 0A40000 use the small font of the call. The label and value share the line; each has the room left by the other piece.				
+max-move-effect-prefixes					unbound-small	Max move stat and weather fills in region 0A40000 use the small font of the call. Each piece has the room beside the widest word of its host line.				
+hall-of-fame-randomizer-line					unbound-small	Hall of Fame randomizer line in region 0A40000: small font, pieces joined by '/'. Each piece has the room beside the other three pieces.				
+mystery-gift-selection-button-bar						Selection button bars use the small font, font 0 of the print call. Mystery Gift window 0: title and bar share 220 px. Title room is 220 less the widest bar; bar room is 220 less the title. The Pick/OK/Cancel string also serves Pokedex selection bars; the PICK/OK/Exit string has the Mystery Gift reference at 0x1423A4. The shared Cancel string has references at 0x103234, 0x103514 and 0x1423A8.				
+teachy-tv-lesson-message				2		Teachy TV lessons show two visible lines.				
+intro-welcome-page				10		Welcome page at game start: 10 lines fit. The block starts at y = 20, 14 px per line. The line count describes a fixed full-page window measured in game.				
+battle-action-menu-columns						battle action menu, window 2 of 0x248330 (2 lines);\nits CLEAR_TO columns (48 / 40 px) are not measured				
+quest-log-item-animation-fragments				2		Quest-log item animation: two lines. Fragments follow an item or nickname; the item takes 95 px and the nickname 60 px.				
+battle-message						Texts of a message box: two lines per box.\nCFRU battle strings and entry hazards use the battle window\nCFRU battle strings of region 0A40000.\nevery ref pools the battle string loader\nintros and send-outs come from BufferStringBattle\nbattle message window, regions 0460000, 08B0000\nlive: stored to the loader, printed as string 0x184\ncallasm 0x9B7240 (script 0x96B754)\ncallasm 0x9B8D80 (script 0x964F3D) and\npools 0xA0D4B8-0xA0D4D4: weather end\nCFRU BufferStringBattle expands them into gDisplayedStringBattle.\nintros come from pools 0x9BDE04-0x9BDE1C\nlost to two trainers, pool 0x9BE110\nFireRed battle strings use battle window 0, including CFRU lines and link standby.\nCFRU battle strings and entry hazards use the battle message window; two lines per message box.				
+evolution-message			battle			FireRed evolution messages use battle window 0.				
+bag-message						Bag message boxes: 208 px windows, four tiles high.\nUnbound message boxes, 2 lines each\nbag window 5				
+bag-field-item-use-message						Item-use messages can use the bag or field message box. The source group describes bag, shop and party message boxes as 208 px windows, four tiles high.\nShared item-use messages can appear in a bag or field box, including item-used, lingering Repel and Poke Flute text.\nbag or field box: Day Care check, Time Turner				
+shop-message						Shop message boxes: 208 px windows, four tiles high.\nshop window 2 of 0x464804 (0x813F75C, CFRU\nshop 0x9F3FF0)				
+hall-of-fame-message						Hall of Fame window 0 after DrawDialogFrame\n0x80F6EE4 (0xF27CE, 0xF30C0)				
+field-message						field message box: save error, PC, dowsing, fishing\nField item messages include unavailable-use, bicycle, Coin Case, powder and Poke Flute responses. The item-use group spans bag, TM Case, Berry Pouch and item PC windows; item use can show a bag or field box.\nfield box via 0x80F7808: dowsing\n(0x1EB9FB8), Mailbox (0x80EC3BC)\nprofessor log ratings: special 0xD5, field message\nUnused FireRed Oak ratings: never shown; they would use the same field message box as the professor ratings.\nfield message box, window 0\ntemplate 0x41F42C: 26 tiles, 208 px\nsave prompts print through 0x80F6E08\nVS Seeker: DisplayItemMessageOnField 0x80F7808\n(calls at 0x10C6E2, 0x10C922)\nRe-wrapping uses greedy fill to 196 px and breaks after sentence ends. It reproduces 68.9% of original dialogue line breaks.				
+bag-inventory-message						Inventory messages use bag, TM Case, Berry Pouch and item PC windows. The shared strings cover Mail, held-item restrictions and container capacity.				
+tm-case-lesson-message			dialogue			The Teachy TV TM lesson uses the TM Case message window.				
+party-message						party window 6, 0x45A170 (0x81202F8, 0x8121FC0,\n0x8125AF0, 0x81247C4; help 0x8122084)\nThe ability-based switching restriction uses the party message box, as s0416A1E.				
+fame-checker-message						Fame Checker window 2 of 0x45FC04 (0x812DDC4)				
+shared-saving-message						Saving messages use 26-tile, 208 px, two-line message windows; the inherited group includes link, minigame and trade screens with fonts 2-4. The shared saving string is referenced at 0x54100, 0x6FC74, 0xF2214, 0x14D148, 0x155ACC and 0x9F2508. The trade caller at 0x540E8 copies it to gStringVar4 and prints through 0x8054508. Calls at 0x14D130 and 0x155AC4 use window 0 and font 2.				
+minigame-saving-message						Minigame saving message: 26 tiles, 208 px, two lines. The printer at 0x14A1BA uses font 2. Its caller creates a 26-by-4-tile window through 0x14A754 at 0x14A19E.				
+egg-hatching-message			dialogue			egg hatching window 0x2601A4, font 3 (0x8047A9C)				
+teachy-tv-greeting-message						Teachy TV window 0 of 0x4792F0, font 4\n(0x815B1DC)				
+trade-scene-message			dialogue			trade scene window 0x26D1BC (0x8054508)				
+move-relearner-message						move relearner window 7 of 0x3FFA44\n(0x80E48C0 -> 0x80E559C)				
+union-room-battle-message						Union Room battle window 0x457198 (0x811C150)				
+battle-log-tutorial-message			dialogue			Log tutorial: window 24, 26 tiles, 4 tiles high				
+mist-status-message			dialogue			The inherited box classification places the Mist status string in bag and party message boxes, as s0416A1E. ROM pointer 0x42E94 is loaded at 0x42E74 and calls the string expander 0x80D77F4, which forwards to 0x80D7868. This establishes expansion, not the final printing window. The final consumer remains unlocated; box=dialogue is retained without a new measure.				
+item-pc-message						item PC window 5 (0x810EB30 at 0x1EBA81C)				
+antisis-city-big-mo-message			dialogue			Big Mo: bufferstring fills {FD 0C} in a box\ns1F18318 is the other branch				
+union-room-field-message			dialogue			Union Room field message box: PrintOnTextbox with DrawDialogueFrame.\ngroup screens print directly or through gStringVar4\nUnion Room task states 0x8, 0x1A, 0x21, 0x28 print here\nTrainer Card summary (0x811B31C), state 0x28				
+union-room-unused-activity-question			dialogue			s0457B4C: table 0x457B80, read by no code;\nthe box of its sibling 0x457B04 if reached\nThe table has no code reader. The sibling supplies the conditional box classification, but a live printing window for this string is unlocated.				
+legacy-battle-message			battle			never shown; the same box if reached\nolder engine: loader 0x203C020, string 0x184\nNever shown; the same battle box if reached.\nFireRed BufferStringBattle body and its\ndefault-case hook 0x8C0D94				
+legacy-mega-battle-message			battle			Never shown; the same battle box if reached.\nolder Mega module: window 0 (0x82E85C)				
+legacy-tm-shop-message			dialogue			older TM shop code, never shown, shop box				
+battle-name-prefix-fills						Name prefixes are spliced into longer battle lines. The widest prefix is «Покемон Теней » at 83 px.				
+crater-town-adjective-fills						Crater Town adjective fills are spliced into longer lines. Their hosts sit in the 208 px dialogue box.				
+field-time-period-fill						AM / PM suffix appended in a 208 px dialogue line.				
+trainer-card-start-date-label						Trainer Card start date occupies 76 pixels; the month takes 29.				
+starter-choice-menu						Starter choices size themselves to the free starters. The chosen name goes to gStringVar1; the host is one line. Hosts have fixed room around the inserted word.				
+marine-door-colour-fill						Door colour words are copied into host lines with fixed room around the inserted word.				
+frontier-grade-fill						Frontier grade words are copied into host lines with fixed room around the inserted word.				
+frontier-inverse-battle-state-fill						Inverse Battles on / off words are copied into host lines with fixed room around the inserted word.				
+frontier-saved-team-label-fill						Saved team labels are fills copied into host lines. The associated Frontier Card title has its own window.				
+frontier-rule-word-fills						Frontier rules words in FD buffers: on / off, be able / not be able, and 'None' for records. Hosts have fixed room: 65 to 203 px.				
+battle-stat-adverb-fills						Stat adverbs fill host s0966078, a battle line of 222 px. Their room is beside the widest words of the host line.				
+summary-memo-location-fill						The summary memo location slot is in a 220 px memo window.				
+bag-sort-word-fill						Bag sort words follow «по » in a 120 px prompt.				
+ban-list-subtitle-pieces						Ban list subtitle, window 1 (112 px), font 1. Prefix plus category; each has room beside the widest other piece.				
+mystery-gift-title						Mystery Gift window 0: title and bar share 220 px. Title room is 220 less the widest bar; bar room is 220 less the title.				
+hoenn-trainer-card-title-suffix						The translated suffix ': карточка тренера' follows the name on the Hoenn card only.				
+bag-key-item-descriptions						Key-item descriptions share window 1, x 0, using table bag-descriptions. Pointer tables group strings displayed by one measured window. A string in several tables takes the narrowest width; a window_width for the string id takes precedence. Optional lines is the window line count; chars is the copied character limit. Optional strip lists { reference = id, chars = n } prefixes stripped by the printing code, in the order compared.				
+party-stat-item-name-fills						Stat words are copied for vitamin and EV messages. Hosts are checked with 60 px.				
+quest-log-name-fills						Quest log fills of {STR_VAR_1} and {STR_VAR_3}. Hosts are checked with the 60 px STR_VAR width.				
+naming-screen-species-suffix						Naming screen title: ': кличка?' follows the species name. Room is 127 less 60 px.				
+town-map-preview-description						Town Map preview hooks: description 198 px. The FireRed dungeon description at s0418ECB belongs to the records starting at 0x3F1B3C; the getters route to the preview hooks for the same description window.				
+diploma-pokedex-name-fill						Diploma: {F7 01} in a line centred in 240 px. Room is 240 less the English rest, 75 px. The body is centred at x 120 in a 232 px window.				
+quest-log-home-name-fill						'HOME' is copied to gStringVar3; hosts are checked at 60 px.				
+options-overworld-theme-name						Track name 'Antisis Sewers': Overworld Theme value. Window 6 reaches the screen edge, font 1. It is also a Mission Log hint label and Town Map title.				

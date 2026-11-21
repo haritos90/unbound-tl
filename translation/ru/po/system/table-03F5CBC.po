@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03F5CBC\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x04180a7
+msgctxt "hash:f16562a2"
+msgid "hash:f16562a2"
+msgstr "Энергопорошок{CLEAR_TO 74}{FONT 00}50"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x04180bc
+msgctxt "hash:f7f3513b"
+msgid "hash:f7f3513b"
+msgstr "Энергокорень{CLEAR_TO 74}{FONT 00}80"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x04180d0
+msgctxt "hash:46eda165"
+msgid "hash:46eda165"
+msgstr "Целебная пыль{CLEAR_TO 74}{FONT 00}50"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 90
+#: 0x04180e4
+msgctxt "hash:32628b87"
+msgid "hash:32628b87"
+msgstr "Живая трава{CLEAR_TO 6F}{FONT 00}300"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 71
+#: 0x04180fa
+msgctxt "hash:baf23317"
+msgid "hash:baf23317"
+msgstr "Протеин{CLEAR_TO 65}{FONT 00}1000"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 53
+#: 0x041810d
+msgctxt "hash:c9a08845"
+msgid "hash:c9a08845"
+msgstr "Железо{CLEAR_TO 65}{FONT 00}1000"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x041811d
+msgctxt "hash:a2acbc4c"
+msgid "hash:a2acbc4c"
+msgstr "Углеводы{CLEAR_TO 65}{FONT 00}1000"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 71
+#: 0x041812f
+msgctxt "hash:a1a48e8c"
+msgid "hash:a1a48e8c"
+msgstr "Кальций{CLEAR_TO 65}{FONT 00}1000"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 53
+#: 0x0418142
+msgctxt "hash:d1974be5"
+msgid "hash:d1974be5"
+msgstr "Цинк{CLEAR_TO 65}{FONT 00}1000"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0418152
+msgctxt "hash:1eca1701"
+msgid "hash:1eca1701"
+msgstr "Усилитель ОЖ{CLEAR_TO 65}{FONT 00}1000"
+
+#. reach: never shown (review: FireRed scrollable lists use array 0x3F5BCC in rows of 12 pointers. Rows 0 (badges) and 5 (price list 0x3F5CBC) hold the strings' only pointers. The array's only pointer is pool word 0x80CBA68, loaded only by ldr r2 at 0x80CB970 in special 0x158 (0x80CB7C4). The CFRU hook at 0x80CB94C (ldr r0 / bx r0 to 0x9E76979) returns to 0x80CB975 with r8 set from Unbound's lists 0x1FB196C (0x9EB48D4), returns to 0x80CB9AF, or calls 0x80CBA7D. All of these destinations lie past that load, and no BL, branch or word enters 0x80CB94E-0x80CB973. The item loop branches back to 0x80CB974. The reach study's link through pool 0x80CB738 (ldr at 0x80CB6E2) is to metatile halfwords 0x3F5B94, read at most 16 bytes in. The other rows' strings (floors, Exit, Cable Club items, ROOFTOP) have other pointers and stay checked.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0418163
+msgctxt "hash:5cbc1855"
+msgid "hash:5cbc1855"
+msgstr "Усилитель ОС{CLEAR_TO 65}{FONT 00}3000"

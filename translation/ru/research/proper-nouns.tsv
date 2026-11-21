@@ -1,0 +1,125 @@
+source_text	chosen	variants	sources	confidence	notes	declension	note_ids	record_id
+Borrius	Борриус		own	low	Region of the game. m., declines: Борриуса, в Борриусе. Also King Borrius III → «король Борриус Третий».	auto		research:bd3a3d0478de4ccaaa527a4110dabf8b
+Borrius Region	регион Борриус		own	low	Apposition, as for map names: в регионе Борриус.	auto		research:86a32cdca8d44bac9b7098e8e8538bc4
+East Borrius	Восточный Борриус		own	low	Region part. m.: в Восточном Борриусе.	auto		research:1fe20411fa9445289c7a09a186ba81aa
+West Borrius	Западный Борриус		own	low	"Region part. m. Also in ""West Borrius Pokédex"" → «Покедекс Западного Борриуса»."	auto		research:6feb4badbc794e9da0183f951b5e2879
+West Borrius Pokédex	Покедекс Западного Борриуса		own, glossary-general	low	Regional Pokédex; Покедекс from general.tsv.	auto		research:6deb546b0a9a4d5ca269ad470bb0719b
+Borrian	борриусский		own	low	Adjective (Borrian legends → «борриусские легенды»); noun for the people: «борриусцы» (sg. борриусец). Lowercase as a Russian adjective.	auto		research:7675308ab68d4338b6457e56cb4cad36
+Hoenn	Хоэнн		fandom-ru	medium	Canon region. m., indeclinable in practice (в Хоэнне is also used).	fixed		research:d1931c146c6b4e1682b4f23a93720d51
+Kanto	Канто		fandom-ru	medium	Canon region. n./m., indeclinable.	fixed		research:328833217438461795841bacedb5b0fb
+Johto	Джото		fandom-ru	medium	Canon region. Indeclinable.	fixed		research:2ab6d7faa96a45d5883f6de374bff2e2
+Sinnoh	Синно		fandom-ru, glossary-trainer_classes	high		fixed	note:6c9a100a-3384-5a29-a7c5-57a66ed8a3e5	research:4b1b89d9a38244f68c02ff57d5536171
+Unova	Юнова		fandom-ru	medium	Canon region. f., declines: Юновы.	auto		research:21b9f87343594692ae39c578567aacf9
+Kalos	Калос		fandom-ru	medium	Canon region. m., declines: Калоса.	auto		research:8e8c94974db34b3db35a608e03a60e12
+Alola	Алола		fandom-ru	medium	Canon region. f., declines: Алолы. Regional forms: «алольский».	auto		research:8b35bbd6f9d84ae6b129ea79ee4c9eeb
+Lumiose City	город Люмиос	Люмиос-Сити @ fandom-ru	own, fandom-ru	low	Kalos city mentioned in dialogue; map-name convention of this project (город + name).	auto		research:b00c1d0b7d7f4c3da67b961f25a976dc
+Valley City	город Вэлли		own	low	Old name of Crater Town before the meteorite; matches Valley Cave → «пещера Вэлли».	auto		research:db8271658e2548979ba448e827476d5b
+Thundercap Mountain	гора Тандеркэп		own	low	Long form of Thundercap Mt. (locations.tsv).	auto		research:6e23d593ba0643dfbc5fca324f6a5f30
+Thundercap Highland	нагорье Тандеркэп		own	low	Highland where Tarmigan Town lies. n.: на нагорье Тандеркэп.	auto		research:d5550206f58a4dbdb37ab6d8d9239580
+The Borrius Channel	пролив Борриус	Борриусский пролив @ own	own	low	Name of Route 13 on its sign (“The Borrius Channel”). Apposition like other names; the adjective form is the alternative.	auto		research:a28b86b1ce184efeaa96492ceeca8f08
+Earth	Земля		own	low	"The planet (""landed on Earth""). f., capitalised as an astronomical name."	auto		research:2861ad9ae8d94e0680825f811e710e50
+The Shadows	Тени		glossary-trainer_classes	medium	Villain team; the English article is dropped. pl.: Теней, с Тенями. Matches trainer classes «Агент Теней», «Админ Теней».	auto		research:e89de4b96f3e483f921e26d4a94b46e5
+Shadows	Тени		glossary-trainer_classes	medium	Same as The Shadows.	auto		research:ddc21a6d936a4288af5af820a4c50dd7
+Shadow Grunts	агенты Теней		glossary-trainer_classes	medium	Grunts of the Shadows; class Shadow → «Агент Теней».	auto		research:ed25a7bf849f41c3b63ac20c6d58310b
+Shadow Warrior	Воин Теней	Теневой воин @ own	own, unbound-wiki-mh	low		auto	note:2485061e-17bb-50d3-a88a-46a7b6fccc17	research:c29f93949a274c1395f8f36e98e147ea
+Shadow Warriors	Воины Теней		own, unbound-wiki-mh	low	Plural of Shadow Warrior.	auto		research:34f149ae86a24088b1fe5ffd2a903f2c
+The Shadow Warrior	Воин Теней		own, unbound-wiki-mh	low	Same as Shadow Warrior (with article).	auto		research:eedd87ec23c74112a18da3cdeffe7907
+Light of Ruin	Свет гибели		glossary-trainer_classes, unbound-wiki-mh	medium		auto	note:55b56ab6-de87-5d92-92be-c373ebf5d2fe	research:ca928ccef9b240a39579e63761a9d46d
+Cube Corp	Куб Корп.	Кьюб Корп. @ transcription | корпорация «Куб» @ own	own, unbound-wiki-mh	low	Company founded by Zeph, now led by Fey (wiki). «Корп.» with the period also where English drops it.	auto		research:bf0a084749754d5099e290319bcc548b
+Corp	Корп.		own	low	Fragment of Cube Corp.	auto		research:6e5bbdffe71d4579aded5802791fc5ac
+Cube	Куб	Кьюб @ transcription	own, unbound-wiki-mh	low		auto	note:2d8c5aba-11ce-59dd-b611-af15ca847dad	research:9c925b5a3b1648caacff3148802e8670
+Cubes	Кубы		own	low	Plural of Cube.	auto		research:171ccec7a8c345a28155cc158b1361f8
+Super Cube	Суперкуб		own	low	"Model of the Cube (""Home of the Super Cube V3!"" → «Родина Суперкуба V3!»). m."	auto		research:2c667d87f16c414f853ca9bf1c40227f
+Science Society	Научное общество		glossary-trainer_classes, unbound-wiki-mh	medium		auto	note:4fbc94bb-f7a6-5310-befd-5c7332476b1f	research:1224dfbff44f4cf1bc4b326237cdbf7e
+Black Emboar	Чёрный Эмбор	Чёрные Эмборы @ own | Чёрный Emboar @ glossary-trainer_classes	own, fandom-ru-species	low		auto	note:d94fc038-4fba-5874-8f44-d775bdc2c892	research:32c6e2af7bef42eba2bc1c27f8fa1451
+Black Ferrothorns	Чёрные Ферроторны	Чёрный Ferrothorn @ glossary-trainer_classes	own, fandom-ru-species	low	Members of Barbs's gang Black Ferrothorn («Чёрный Ферроторн»). Species part from the species glossary (pending).	auto		research:4275480cc1344fec85c883b6691a0fc1
+Black Ferrothorn	Чёрный Ферроторн	Чёрный Ferrothorn @ glossary-trainer_classes	own, fandom-ru-species	low		auto	note:7dea6461-e256-50b2-9146-0ba1d661e258	research:6e372b7d27e645bd9d589766ad2c1cc8
+Terror Granbull	Террор Грэнбулл	Террор Granbull @ glossary-trainer_classes	own, fandom-ru-species	low		auto	note:70992ac4-0521-59ca-a42b-e4795f98046c	research:fadfec1d7e4842e0b75f7be80a150fbb
+Black Horizon	Чёрный горизонт		glossary-trainer_classes	medium	"Post-game gang (""The Shadows reborn… We're the Black Horizon!""). m."	auto		research:fab8775cf237430297816b80944ab427
+Seaport Burglar Society	Общество воришек Сипорта		own, glossary-trainer_classes	low	Burglar gang of Seaport City led by El-Scamo; Burglar → «Воришка» (trainer class).	auto		research:56b2fc5a713643aa97a06170c0fc30c5
+Archeology Society	Археологическое общество		own	low	Society of the scholar in Icicle Cave. n.	auto		research:1ea1d1ec065c4048a0f58d831d272be7
+Skiers Club	Клуб лыжников		own, glossary-trainer_classes	low	Club in Icicle Cave; Skier → «Лыжник» (trainer class).	auto		research:adbafe2bb9854382934f7bd049b6a0ab
+Hip Waders	Болотные сапоги	Забродники @ own	own	low	"Fishing club (""I'm a member of the Hip Waders""; ""Official Hip Waders Catch""); hip waders = болотные сапоги. Name in quotes in running text: клуб «Болотные сапоги»."	auto		research:e933344e699d4c06b61db86d886c8d2f
+Gem Family	Семья самоцветов		own, glossary-items	low	Move tutors on the KBT Expressway who take Gems as payment. Gem items use «-цвет» in items.tsv (Огнецвет); the common word «самоцвет» keeps the link.	auto		research:dc17809111e24695b49645303ca5128e
+Undying Lucario	Бессмертные Лукарио		own, fandom-ru-species	low	Warrior cult in the Great Desert. Species part from the species glossary (Лукарио = fandom-ru form, pending). pl.	auto		research:a5cc789ab296463bbced47c52fdd77ae
+Devil Duo	Дьявольский дуэт		own	low	Nickname of a trainer pair on Frost Mountain. m.	auto		research:a8e5403b16f644f2ab0729c3198ef5ec
+Sun Trio	Солнечное трио		own	low	Trainer trio on Route 6. n.	auto		research:0bc5a7ebd3bc44f9ad1aebb35ff3b293
+Rangers	Рейнджеры		glossary-trainer_classes, fandom-ru	high	Pokémon Rangers as an organisation; trainer class {PK}{MN} Ranger → «Рейнджер покемонов».	auto		research:11e6d34c1acf40a0b58000206e47424f
+Pokémon Rangers	рейнджеры покемонов		glossary-trainer_classes, fandom-ru	high	See Rangers.	auto		research:b6dc06389d074193a8ffe7faf41aba35
+International Police	Международная полиция		fandom-ru	medium	"Looker's organisation (""Agent Looker, of the International Police""). f. (Not in proper-nouns.tsv as a phrase; added from dialogue or related entries.)"	auto		research:87110d89f56a42d1906b5f708ea60948
+Team Rocket	Команда R	Команда Ракет @ pokerogue-ru | Команда Ракета @ pojirianets-hg	fandom-ru	medium		auto	note:fd6db2b8-9fd0-5d6d-abea-bb526ed225f4	research:bf64c44594a8427fb913d06b55772b5a
+Frontier Brain	Мозг Рубежа		glossary-trainer_classes	medium	Battle Frontier facility leader (trainer class). (Not in proper-nouns.tsv as a phrase; added from dialogue or related entries.)	auto		research:782fb094ee4e4e289e4b5fadd8770413
+Tower Tycoon	Башенный магнат	Башенный Магнат @ fandom-ru	fandom-ru	medium	Title of Palmer, Frontier Brain of the Battle Tower.	auto		research:210f4b0dc8434cac9d947eaa4ef253b3
+Sands King	Король песков		own	low	Title of Patroz, Frontier Brain of the Battle Sands.	auto		research:f83ca30532644f06be9f72669596f188
+Circus Ringmaster	Инспектор манежа	Ведущая цирка @ own	own	low	Title of Paula, Frontier Brain of the Battle Circus; «инспектор манежа» is the Russian circus term.	auto		research:78a6d453b1a44785bc81839a41169cfa
+Ringmaster	Инспектор манежа		own	low	Short form of Circus Ringmaster.	auto		research:026bd56282a34c4da3744180dce580df
+Ocean Master	Повелитель океана		own	low	Self-title of the Mega Trainer Osean on Route 13.	auto		research:b38e53d2dc3b4992970bb8efcdeb63eb
+Forest Guardian	Страж леса	Лесной страж @ own	own	low	Legendary protector of Redwood Village (Celebi).	auto		research:36f33053275f404c88a2077889d74825
+Fishing Guru	Гуру рыбалки		own	low	NPC title (Seaport City, gives the Super Rod).	auto		research:9bee7f5fcb1c4e5c90a75e000f5c018f
+Fishing Dude	Чувак-рыбак		own	low	NPC title (Route 7); colloquial register.	auto		research:8f43de369feb4482ae28b9989e2f1ba0
+Day-Care Man	хозяин Дневного ухода		own, glossary-general	low		auto	note:bc3032ef-059a-5cea-97c9-a64539042517	research:c9bfe1c05e3e491984c149c5c441663c
+Day-Care Lady	хозяйка Дневного ухода		own, glossary-general	low	"NPC title (input fragment ""Care Lady""). (Not in proper-nouns.tsv as a phrase; added from dialogue or related entries.)"	auto		research:9eaa9aef7695493eabfb5230a40b41b2
+Cut Master	Мастер Пореза		own, glossary-moves	low	"NPC title (""the Cut Master's friend""); move Cut → «Порез» (moves.tsv)."	auto		research:b79268f0d4734e50af6a1647d3a26619
+Move Deleter	Стиратель приёмов		own, glossary-general	low	NPC who makes Pokémon forget moves; move → «приём» (general.tsv).	auto		research:5f561a53da704c729b85b308f6ad669a
+Pokémon Move Maniac	Знаток приёмов		own, glossary-general	low	NPC who reminds moves (Gen 3 Move Maniac).	auto		research:e161d084bc094b869644752b9c976df8
+Ace Hiker	Топ-турист		own, glossary-trainer_classes	low	Self-title of Hiker Brice; pattern of Ace Trainer → «Топ-тренер», Hiker → «Турист».	auto		research:c9775d4a23f345989cb1f93b913027af
+Mansion Successor	наследница особняка		own, glossary-trainer_classes	low	"Title of Maxima (""the Mansion's Successor""); class Successor → «Наследница»."	auto		research:2dc2e2a1eddd4f65aedaa2b5e0f62047
+Successor Maxima	наследница Максима		own, glossary-trainer_classes	low	Title + name.	auto		research:b24e32b87b0244ceb077b6bc37961e9f
+Lady Ivory	леди Айвори		own	low	How Shadow grunts call Ivory.	auto		research:5e45d7d86a6c449bb35b61a269044070
+Grampa Arthur	дедушка Артур		own	low	How Jax calls Arthur.	auto		research:d0b92dfc23f0456c8af832d949d4ed56
+Professor Log	профессор Лог		own, glossary-general	low	Title lowercase in running text (general.tsv: professor → профессор).	auto		research:4e7ec2bfa85f457cbdfb9d705541435e
+Benjamin Butterfree	Бенджамин Баттерфри		own, fandom-ru-species	low	Full name of the Redwood Village Gym Leader; surname = species name (fandom-ru form, pending species glossary).	auto		research:9623ea2194b54fffa625fd3ce19119ec
+Sparky	Искорка	Спарки @ transcription | Живчик @ own	own	low	"Not a character: how the Battle Frontier BP vendor addresses the player (""Listen up, Sparky""). A nickname like this is translated; «искорка» is gender-neutral as an address."	auto		research:622b6c3f22b94d6fb992244026a322d5
+Battle Sands	Боевые пески		own	low	Battle Frontier facility of Patroz. pl.	auto		research:9f3f4770342d40bfbb21db89dd5a8a8a
+Battle Salon	Боевой салон		own	low	"Room in the Battle Tower (""show you to the Battle Salon"")."	auto		research:38c53729f81b442ca5d1034a63fcb997
+Battle Show	Боевое шоу		own	low	"Battle Circus challenge (""Single and Double Battle Shows"")."	auto		research:4ab1758e0ab645eba7180a7f75cd6c12
+Battle Room	Боевой зал	Боевая комната @ own	own	low	Room of the Battle Tower; pl. Battle Rooms → «боевые залы».	auto		research:0334dfa2c9c440eab2de159128a51b86
+Battle House	Боевой дом		own	low	Trainer House variants in Dehara City.	auto		research:e513a548c30a49e39509c311fdd836fe
+Inverse Battle House	Дом инверсных битв		own, glossary-general	low	Facility for Inverse Battles in Dehara City; battle → «битва» (general.tsv).	auto		research:ccbbfade2e2042288557500401b1d9ad
+Double Battle House	Дом двойных битв		own, glossary-general	low	Facility for Double Battles; general.tsv: Double battle → «двойная битва».	auto		research:dbf08e57ab064cbeb4da4e787b56ecd0
+Ring Challenge	Испытание ринга	Вызов ринга @ own	own	low	"Battle facility in Antisis City (""Antisis Ring"")."	auto		research:23e55e6d63cd47f3b5256075f881cd40
+Leaders Gauntlet	Марафон лидеров		own, glossary-trainer_classes	low	Post-game challenge: all eight Gym Leaders in a row. Leader → «Лидер» (trainer class).	auto		research:5f0c5bca50f641e49420db49c8147b89
+Classic Leaders Gauntlet	Классический марафон лидеров		own, glossary-trainer_classes	low	Variant of the Leaders Gauntlet with canon Gym Leaders.	auto		research:1b5752677b304bd892380456f94e0163
+Gym Challenge	испытание гимов	Испытание Гима @ swsh-site-ru	glossary-general	medium	The league challenge; Gym → «гим» (general.tsv); official SwSh site «Испытание Гима».	auto		research:07bc34a97ace4f7e9e62af7d11d1c772
+Magnolia Café	кафе “Магнолия”	кафе Магнолия @ own	own	low	Café in Magnolia Town; the name in the font's quotes. n., indeclinable.	fixed		research:af77f8d0284b48e39d432638c8036971
+Dehara Department Store	универмаг Дехара		own	low	Same as the map section Dehara Dept.	auto		research:35a9cee1accf48339c84abf2ce871cb5
+Dehara Dept	универмаг Дехара		own	low	Fragment of Dehara Dept. (map section).	auto		research:bb3d1ecd520647c1b52dfa446ae875da
+Dehara Game Corner	Игровой уголок Дехары		fandom-ru, pojirianets-hg	medium	Game Corner of Dehara City; Game Corner → «Игровой уголок» (fandom-ru, HG).	auto		research:1a1ca1056ebf48b09f6d09d918df76a6
+Antisis Gym	гим Антисиса		glossary-general	medium	Gym of Antisis City; Gym → «гим» (general.tsv) with the city in the genitive.	auto		research:189f987aa62a45cf8a3cdaeeb9a1d8b1
+Crater Town Gym	стадион городка Кратер	гим деревни Кратер @ glossary-general	glossary-general	medium		auto	note:626dde9a-65c5-5146-a4da-e9d2525111c9	research:c82e515d52f04d53b2b9614b1a03a55b
+Blizzard City Gym	гим города Близзард		glossary-general	medium	See Crater Town Gym.	auto		research:af7b95e1c8a042bb9a4aa1188e8c6609
+Dresco Town Gym	стадион городка Дреско	гим деревни Дреско @ glossary-general	glossary-general	medium		auto	note:d9e5f683-c8df-5fb0-9ad5-0d5569abd27a	research:29af625336a7408a8b62a8d637895ceb
+Fallshore City Gym	гим города Фоллшор		glossary-general	medium	See Crater Town Gym.	auto		research:f75984a8c04942fba8e133bfc191b8a4
+Fallshore Gym	гим Фоллшора		glossary-general	medium	Short form; the name alone declines (Фоллшор, m.).	auto		research:1fd271b174f448ae82d2ef1183286dd4
+Command Centre	Командный центр		own	low	Room of the Light of Ruin base in Vivill Warehouse (password-locked). m.	auto		research:b0bd663ad78140bfbce500720b09f5c2
+Shipyard	верфь		own	low	Captain Davy's Shipyard in Seaport City → «верфь капитана Дейви». f.	auto		research:a9eeeb3ee9084d3fb0e1799deea8b8c6
+Dream Research Lab	Лаборатория исследования снов		own	low	Lab that receives the children's Cube scans (Mission). f.	auto		research:9f303f32f1ca48cda518f44c95d44594
+Research Lab	исследовательская лаборатория		own	low	Generic lab name in dialogue.	auto		research:5489851d8aa64907be3bc3cf58d086d7
+Research Room	исследовательская комната		own	low	Generic room name in dialogue.	auto		research:0d848d122a2b45a8999b63c9a513d76a
+Medicine Box	Аптечка		own	low	Floor name of the Dehara department store directory (5F: Medicine Box).	auto		research:89db48dc6a614818ace2f5760d70c83d
+Wiseman Gifts	Подарки мудреца		own	low	Floor name of the Dehara department store directory (6F).	auto		research:5ffe6f00f7784afeb9a8ec605e809260
+Service Counter	Стойка обслуживания		own	low	Floor name of the Dehara department store directory (1F).	auto		research:87db0948d1c043798e7d5df5b56e0e5c
+Pokémon Wireless Club	Беспроводной клуб покемонов		own	low	Pokémon Centre 2F link service (FRLG). m.	auto		research:5a2d43a8e845448b9697d743efbc5fde
+Wireless Communication System	Система беспроводной связи		own	low	FRLG link service name. f.	auto		research:af6ffa0829c24abeaea01204f4e84f3c
+Union Room	Комната союза		own	low	Wireless Club room (FRLG). f.	auto		research:7905672b38084ec7b4017bc78b4e4633
+Direct Corner	Уголок прямой связи		own	low	Wireless Club room (FRLG). m.	auto		research:c81073a6eebd4a228cfd1ea3d18da74a
+Pep Quiz	Бодрая викторина	Пеп-квиз @ transcription	own	low	"TV quiz in Magnolia Town (""It's “Pep Quiz”!""); keep the quotes of the original: «“Бодрая викторина”»."	auto		research:97618b33029c4a7d97dddc3b55d4b75e
+Cloud Burst	Облачный взрыв	Ливень @ own	own	low	Game Corner game (flying an Altaria); pun on cloudburst «ливень».	auto		research:1ad26abf57e34b3696c8056a4134f1c0
+Safari Game	Игра в сафари		own	low	Safari Zone session; Safari Zone → «Зона сафари» (locations.tsv).	auto		research:1de18cf6c3894763a531af974847fd22
+Room of Glory	Зал славы		glossary-general	high	Map label of the Hall of Fame room; Hall of Fame → «Зал славы» (general.tsv). (Not in proper-nouns.tsv as a phrase; added from dialogue or related entries.)	auto		research:fff187df7b364111aca31910a7a28066
+Inn	гостиница		own	low	Building name in towns.	auto		research:82c366fa53a2484880c11beab441636c
+Ultimate Weapon	Абсолютное оружие	ультимативное оружие @ fandom-ru	fandom-ru	medium	Kalos superweapon of AZ, now at Crystal Peak (wiki). n. fandom-ru uses both «Абсолютное оружие» and «ультимативное оружие».	auto		research:75b01c50a99f4abcb95aa6953b1719cf
+Prison Bottle	Тюремная бутылка	Тюремная Бутылка @ fandom-ru	glossary-items, fandom-ru	high	Hoopa's item; matches items.tsv. (Not in proper-nouns.tsv as a phrase; added from dialogue or related entries.)	auto		research:4af261a5c5584cf796a2ab0718e8046a
+Prison Stone	Тюремный камень	Камень Пустоты @ own	own	low	Stone that seals and unseals the dark force (Route 9). In other lines it is the Void Stone → «Камень Пустоты» (matches «руины Пустоты»).	auto		research:b08703fbdc044b68acb1f48100dd48be
+Creation Plates	Плиты творения		own, glossary-items	low	Plates of Arceus; Plate → «Плита» (items.tsv: Flame Plate → Плита огня).	auto		research:43130f2595854747963be1ac6d7838a8
+Swords of Justice	Мечи справедливости	Мечи Справедливости @ fandom-ru | Мечи правосудия @ fandom-ru	fandom-ru	medium	Cobalion, Terrakion, Virizion (Mission). fandom-ru has «Мечи Справедливости» and «Мечи правосудия». (Not in proper-nouns.tsv as a phrase; added from dialogue or related entries.)	auto		research:a1bbdeedea024987805acd8b30b740b6
+The Being	Существо		own	low	"From the lake trio Pokédex entries (""The Being of Knowledge""); see Cave of Being in locations.tsv."	auto		research:8b211e1cb33848f09b7be45136e021ea
+Smogon	Smogon		own	low	Brand of the competitive community; kept in Latin letters.	fixed		research:d84cb67e7a564f0f912d7222bb58fd93
+Camomons	Camomons		own	low	Smogon metagame name (battle format); kept in Latin letters like Smogon.	fixed		research:38ba1faab89944fdba1f891c3de46fb2
+Scalemons	Scalemons		own	low	Smogon metagame name; kept in Latin letters.	fixed		research:b352e13bbd1547299e584733535113c9
+Averagemons	Averagemons		own	low	Smogon metagame name; kept in Latin letters.	fixed		research:d6e67dfa762b4d9493bcca13274cffed
+Little Cup	Малый кубок		own	low	Battle format for unevolved Pokémon. m.	auto		research:5951c345ac2947d4a939e77a3cacd4ce
+Middle Cup	Средний кубок		own	low	Battle format. m.	auto		research:3c5bc9ef80e3498e825f0b0c44ba48ad
+Monotype	Монотип		own	low	Battle format (one type per team). m.	auto		research:5e67ce935e3d4e5f8a154a7c856dec67
+Pokémon Unbound	Pokémon Unbound		own	low	Title of the game; kept in Latin letters.	fixed		research:ec9e9017e23e469186ea15de93396dee
+Battle! Light of Ruin Grunt	Бой! Адепт Света		game-text, own	high	Battle music and record title hash:28e7ff74. The title shortens the faction name to «Света»; the full faction name remains «Свет гибели». The grunt label follows speaker:grunt-lor.	fixed		research:bdca7be30f56570b9a90f3c6abd6453c

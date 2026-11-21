@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1E7232C\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 34
+#: 0x1f153c2
+msgctxt "hash:e694ab5f"
+msgid "hash:e694ab5f"
+msgstr "Предмет найден за колонной\\nна 1-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 197, 111
+#: 0x1f153ed
+msgctxt "hash:99428085"
+msgid "hash:99428085"
+msgstr ""
+"Предмет найден между двумя\\nверхними Даскнуарами на 4-м\\nподземном "
+"этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 146, 137
+#: 0x1f15426
+msgctxt "hash:a2a02bb6"
+msgid "hash:a2a02bb6"
+msgstr "Предмет найден у лестницы вниз\\nна 3-м подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 143
+#: 0x1f1545a
+msgctxt "hash:fc813c29"
+msgid "hash:fc813c29"
+msgstr ""
+"Предмет найден у лестницы\\nв верхней части 2-го подземного\\nэтажа."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 173, 157
+#: 0x1f15495
+msgctxt "hash:b8b506b5"
+msgid "hash:b8b506b5"
+msgstr "Предмет найден у колонны в нижней\\nчасти 2-го подземного этажа."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 189
+#: 0x1f154d2
+msgctxt "hash:51c51560"
+msgid "hash:51c51560"
+msgstr ""
+"Предмет найден справа от крайней\\nлевой верхней колонны на 1-м\\n"
+"подземном этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 164, 161
+#: 0x1f15516
+msgctxt "hash:51473fc6"
+msgid "hash:51473fc6"
+msgstr ""
+"Предмет найден над крайней левой\\nверхней колонной на 1-м подземном\\n"
+"этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 154
+#: 0x1f15552
+msgctxt "hash:54fae4de"
+msgid "hash:54fae4de"
+msgstr ""
+"Предмет найден под крайней правой\\nверхней колонной на 1-м подземном\\n"
+"этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 160
+#: 0x1f1558f
+msgctxt "hash:7156cb4e"
+msgid "hash:7156cb4e"
+msgstr ""
+"Предмет найден под крайней левой\\nнижней колонной на 1-м подземном\\n"
+"этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 193, 122
+#: 0x1f155cd
+msgctxt "hash:d22eb0b1"
+msgid "hash:d22eb0b1"
+msgstr "Предмет найден за колонной\\nв погребальной камере."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 194
+#: 0x1f15608
+msgctxt "hash:f861c552"
+msgid "hash:f861c552"
+msgstr ""
+"Предмет найден справа от крайней\\nправой нижней колонны на 1-м\\n"
+"подземном этаже."

@@ -1,0 +1,28 @@
+[pokedex.learnsets.form_reversions]
+methods = [253, 254]
+
+[pokedex.learnsets.level_up]
+base = 0x1A2457C
+count = 1294
+evidence = "gLevelUpLearnsets macro at 0x8043E20 points to 0x1A2457C; the target routine at 0x9F6BF2-0x9F6C10 computes x3 per entry, reads a little-endian u16 move and u8 level, and stops at move 0 / level 255. Every one of 1294 pointers is a valid ROM pointer with a terminator"
+
+[pokedex.learnsets.tmhm]
+base = 0x1650484
+stride = 16
+count = 1294
+move_base = 0x1A42B2A
+move_count = 128
+evidence = "gTMHMLearnsets macro at 0x8043C68 points to 0x9650484; four u32 words per species, one bit per TM/HM index 0-127. The move-id table at 0x1A42B2A is the same 128-entry table proven for items"
+
+[pokedex.learnsets.egg]
+base = 0x19F1374
+evidence = "GetEggMoves 0x165BA8E-0x165BAB0 compares species + 20000 and copies u16 moves until the next species marker or 0xFFFF; at 0x19F1374 Bulbasaur is 20001 followed by Skull Bash 130, Charm 204, Petal Dance 80, Magical Leaf 345 and the rest, then Charmander at 20004"
+
+[pokedex.learnsets.tutor]
+base = 0x1655564
+stride = 20
+count = 1294
+move_base = 0x1A42A06
+move_count = 146
+
+# Trainer identities and their stored parties.

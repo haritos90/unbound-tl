@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/egg_count_plural_s\n"
+"X-Source: key-only\n"
+
+#. category: table:egg_count_plural_s; mode: field
+#. fixed field: 1 characters max (table egg_count_plural_s, index 0)
+#. original lines: 1, widths px: 5
+#: 0x1ec63be
+msgctxt "table:egg_count_plural_s/0"
+msgid "table:egg_count_plural_s/0"
+msgstr ""

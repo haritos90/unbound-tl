@@ -1,0 +1,517 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-03D0000\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 134
+#: 0x03d62df
+msgctxt "table:items/83/description"
+msgid "table:items/83/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 134
+#: 0x03d6318
+msgctxt "table:items/84/description"
+msgid "table:items/84/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 119, 182, 104
+#: 0x03d6351
+msgctxt "table:items/85/description"
+msgid "table:items/85/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 174, 134
+#: 0x03d639c
+msgctxt "table:items/86/description"
+msgid "table:items/86/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 147, 133
+#: 0x03d63d5
+msgctxt "table:items/93/description"
+msgid "table:items/93/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 147, 176
+#: 0x03d642d
+msgctxt "table:items/94/description"
+msgid "table:items/94/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 147, 117
+#: 0x03d648d
+msgctxt "table:items/95/description"
+msgid "table:items/95/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 147, 162
+#: 0x03d64e2
+msgctxt "table:items/96/description"
+msgid "table:items/96/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 147, 138
+#: 0x03d653f
+msgctxt "table:items/97/description"
+msgid "table:items/97/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 147, 123
+#: 0x03d6598
+msgctxt "table:items/98/description"
+msgid "table:items/98/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 147, 183, 40
+#: 0x03d65ee
+msgctxt "table:items/103/description"
+msgid "table:items/103/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 148, 179, 40
+#: 0x03d6633
+msgctxt "table:items/104/description"
+msgid "table:items/104/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 161, 185, 132
+#: 0x03d6677
+msgctxt "table:items/106/description"
+msgid "table:items/106/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 184, 136, 175
+#: 0x03d66d0
+msgctxt "table:items/107/description"
+msgid "table:items/107/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 174, 58, 175
+#: 0x03d672c
+msgctxt "table:items/108/description"
+msgid "table:items/108/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 160, 132, 175
+#: 0x03d6778
+msgctxt "table:items/109/description"
+msgid "table:items/109/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 117, 175
+#: 0x03d67ce
+msgctxt "table:items/110/description"
+msgid "table:items/110/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 187, 192, 149
+#: 0x03d6825
+msgctxt "table:items/111/description"
+msgid "table:items/111/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 118, 188, 160
+#: 0x03d8c8a
+msgctxt "table:items/268/description"
+msgid "table:items/268/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 171, 107
+#: 0x03d8ce2
+msgctxt "hash:c57f70f4"
+msgid "hash:c57f70f4"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 175, 166, 81
+#: 0x03d8d37
+msgctxt "table:items/270/description"
+msgid "table:items/270/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 175, 184, 29
+#: 0x03d8d85
+msgctxt "table:items/271/description"
+msgid "table:items/271/description"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 187
+#: 0x03d8dcb
+msgctxt "hash:90a93af1"
+msgid "hash:90a93af1"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03df7e8
+msgctxt "hash:2643361a"
+msgid "hash:2643361a"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03df804
+msgctxt "hash:8bc2227e"
+msgid "hash:8bc2227e"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03df820
+msgctxt "hash:9d7bac1a"
+msgid "hash:9d7bac1a"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03df83c
+msgctxt "hash:2ea52c2f"
+msgid "hash:2ea52c2f"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03df858
+msgctxt "hash:d1413e42"
+msgid "hash:d1413e42"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03df874
+msgctxt "hash:a73588db"
+msgid "hash:a73588db"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 24
+#: 0x03df890
+msgctxt "hash:96479231"
+msgid "hash:96479231"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03df8ac
+msgctxt "hash:1f5b9a9f"
+msgid "hash:1f5b9a9f"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 18
+#: 0x03df8c8
+msgctxt "hash:4d68f0f2"
+msgid "hash:4d68f0f2"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03df8e4
+msgctxt "hash:30d45b7f"
+msgid "hash:30d45b7f"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 24
+#: 0x03df900
+msgctxt "hash:19b2fd63"
+msgid "hash:19b2fd63"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 24
+#: 0x03df91c
+msgctxt "hash:030971cc"
+msgid "hash:030971cc"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 24
+#: 0x03df938
+msgctxt "hash:82f57f1b"
+msgid "hash:82f57f1b"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03df954
+msgctxt "hash:2866255c"
+msgid "hash:2866255c"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03df970
+msgctxt "hash:53974d8e"
+msgid "hash:53974d8e"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 24
+#: 0x03df98c
+msgctxt "hash:b9ade560"
+msgid "hash:b9ade560"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 24
+#: 0x03df9a8
+msgctxt "hash:bfb63ce3"
+msgid "hash:bfb63ce3"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03df9c4
+msgctxt "hash:2a7cd934"
+msgid "hash:2a7cd934"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03df9e0
+msgctxt "hash:1bcf1296"
+msgid "hash:1bcf1296"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03df9fc
+msgctxt "hash:534352b2"
+msgid "hash:534352b2"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfa18
+msgctxt "hash:aa5d86c4"
+msgid "hash:aa5d86c4"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfa34
+msgctxt "hash:d0b140bf"
+msgid "hash:d0b140bf"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfa50
+msgctxt "hash:6ff3672f"
+msgid "hash:6ff3672f"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfa6c
+msgctxt "hash:3d244102"
+msgid "hash:3d244102"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfa88
+msgctxt "hash:a964e27b"
+msgid "hash:a964e27b"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfaa4
+msgctxt "hash:cefda80e"
+msgid "hash:cefda80e"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfac0
+msgctxt "hash:e5496930"
+msgid "hash:e5496930"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfadc
+msgctxt "hash:793613d1"
+msgid "hash:793613d1"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfaf8
+msgctxt "hash:370d07d9"
+msgid "hash:370d07d9"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfb14
+msgctxt "hash:43ba358d"
+msgid "hash:43ba358d"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfb30
+msgctxt "hash:a2ce9d52"
+msgid "hash:a2ce9d52"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfb4c
+msgctxt "hash:64016884"
+msgid "hash:64016884"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfb68
+msgctxt "hash:5d561370"
+msgid "hash:5d561370"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfb84
+msgctxt "hash:b7deb9bc"
+msgid "hash:b7deb9bc"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfba0
+msgctxt "hash:44946ebc"
+msgid "hash:44946ebc"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfbbc
+msgctxt "hash:52306dd4"
+msgid "hash:52306dd4"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfbd8
+msgctxt "hash:5e445e0c"
+msgid "hash:5e445e0c"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfbf4
+msgctxt "hash:e7f95f4c"
+msgid "hash:e7f95f4c"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfc10
+msgctxt "hash:5afdb1e0"
+msgid "hash:5afdb1e0"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfc2c
+msgctxt "hash:cb1f27a7"
+msgid "hash:cb1f27a7"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfc48
+msgctxt "hash:cb75fbb1"
+msgid "hash:cb75fbb1"
+msgstr ""
+
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 30
+#: 0x03dfc64
+msgctxt "hash:2022c72e"
+msgid "hash:2022c72e"
+msgstr ""
+
+#. reach: never shown (review: Berry record 42 (ENIGMA) belongs to gBerries at 0x3DF7E8. Berry Crush names record item - 0x85 of the berry a player gives at 0x814B892, with results at 0x814E214-0x814E222. CopyItemName at 0x8099E98 reads it through GetBerryInfo at 0x809C8A0 (berry 0x2B). Link battle text at 0x80D7EF4 reads its save copy, gEnigmaBerries at 0x2023F54, filled from 0x80101AE. All three readers use it only for item 0xAF, which Unbound's items table 0x876200 leaves without a name (first byte 0xFF) or pocket. Unbound's Enigma Berry is item 0x76. Hooked ItemIdToBerryType (0x809C8E4 to 0x9F3564) maps 0xAF to 0xFF, which GetBerryInfo reads as record 0 in party check 0x80A026C and battle setup 0x8010134. InitEnigmaBerry at 0x809C718 (ClearEnigmaBerries, BL at 0x8054B0E) copies the record into the save, where only these readers use it.)
+#. category: code; mode: field
+#. in place only: 6 bytes max
+#. original lines: 1, widths px: 36
+#: 0x03dfc80
+msgctxt "hash:b614a27f"
+msgid "hash:b614a27f"
+msgstr ""

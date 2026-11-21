@@ -1,0 +1,82 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:9bb92cee-1ec5-5e32-ad61-166887e2d0a2"
+subject = { kind = "graphic", id = "G07" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G07" }
+facts = ["The approved Russian Move label and unchanged SELECT keycap are centered together at x119.5.", "The translated sheet adds five tiles before dynamic window tile 20."]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "center x", value = 119.5, unit = "px" }, { name = "added tiles", value = 5, unit = "count" }, { name = "dynamic window tile", value = 20, unit = "index" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:b396ab64-e749-54da-a569-3e722585f540"
+subject = { kind = "graphic", id = "G09" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G09" }
+facts = ["Glossary terms cover HP, Attack, Defense, Speed, experience and Accuracy.", "The Speed term uses 8 letters against SPEED 5, and the Accuracy term uses 8 against ACCURACY 8.", "The special-stat abbreviations, POWER label and short forms of No/NAME/TYPE/OT/IDNo/ITEM are suggestions."]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "Speed term length", value = 8, unit = "letters" }, { name = "SPEED length", value = 5, unit = "letters" }, { name = "Accuracy term length", value = 8, unit = "letters" }, { name = "ACCURACY length", value = 8, unit = "letters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6be2c0d5-111f-5c9a-a719-37dce9c92f93"
+subject = { kind = "graphic", id = "G12" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G12" }
+facts = ["Glossary Russian type labels use abbreviations where needed.", "Russian labels cover TYPE, POWER, ACCURACY, PP and EFFECT."]
+status = "unreviewed"
+
+[[note]]
+id = "note:8770b882-0ee6-5698-ba75-4355b08bf2e3"
+subject = { kind = "graphic", id = "G27" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G27" }
+facts = ["Approved Russian labels cover HP and all five status icons."]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "translated status icons", value = 5, unit = "count" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:526efa24-a0d6-55e8-8a30-10b78230f9c3"
+subject = { kind = "graphic", id = "G33" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G33" }
+facts = ["Russian labels are provided for TIME and SCORE."]
+status = "unreviewed"
+
+[[note]]
+id = "note:9435edb4-7326-5458-bd95-68d9940c8816"
+subject = { kind = "graphic", id = "G55" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G55" }
+facts = ["Approved Russian labels cover all seven status icons."]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "translated status icons", value = 7, unit = "count" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:56215a1a-bbce-5557-b29e-20780a7f287e"
+subject = { kind = "graphic", id = "G57" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G57" }
+facts = ["The text-engine place label hash:f3ca2f39 is translated separately."]
+related_subjects = [{ kind = "entry", id = "hash:f3ca2f39" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:6d16e5ae-bf7e-5707-a0c4-25dca4808947"
+subject = { kind = "graphic", id = "G59" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G59" }
+facts = ["The Russian label is the glossary Coins term, with 6 letters against 6 in the source label.", "The edit also draws G60."]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "Russian label length", value = 6, unit = "letters" }, { name = "source label length", value = 6, unit = "letters" }] }]
+related_subjects = [{ kind = "graphic", id = "G60" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:df3a1d2f-8f56-5fb0-9480-ff50f3fcd835"
+subject = { kind = "graphic", id = "G60" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "graphic", id = "G60" }
+facts = ["The Russian payout word uses 7 letters against 6 and spans 28 of the 30 px inside the label.", "The winnings word of the Russian game texts needs 34 px.", "The G59 edit draws this label."]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "Russian payout word length", value = 7, unit = "letters" }, { name = "source label length", value = 6, unit = "letters" }, { name = "Russian payout word width", value = 28, unit = "px" }, { name = "label interior width", value = 30, unit = "px" }, { name = "Russian game-text winnings word width", value = 34, unit = "px" }] }]
+related_subjects = [{ kind = "graphic", id = "G59" }]
+status = "unreviewed"

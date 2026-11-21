@@ -1,0 +1,282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03FE434\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x03fb283
+msgctxt "battle:330"
+msgid "battle:330"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 97
+#: 0x03fb359
+msgctxt "battle:337"
+msgid "battle:337"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 79, 68
+#: 0x03fb3af
+msgctxt "battle:332"
+msgid "battle:332"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 46, 62
+#: 0x03fb3d3
+msgctxt "battle:345"
+msgid "battle:345"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 78
+#: 0x03fb534
+msgctxt "battle:357"
+msgid "battle:357"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 46, 62
+#: 0x03fb67b
+msgctxt "battle:348"
+msgid "battle:348"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 132
+#: 0x03fb95e
+msgctxt "battle:353"
+msgid "battle:353"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 131
+#: 0x03fb997
+msgctxt "battle:352"
+msgid "battle:352"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 51
+#: 0x03fbc62
+msgctxt "battle:351"
+msgid "battle:351"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 35, 86
+#: 0x03fc208
+msgctxt "battle:335"
+msgid "battle:335"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 50, 5
+#: 0x03fc337
+msgctxt "battle:358"
+msgid "battle:358"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 50, 5
+#: 0x03fc347
+msgctxt "battle:359"
+msgid "battle:359"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 4, widths px: 50, 5, 50, 5
+#: 0x03fc357
+msgctxt "battle:360"
+msgid "battle:360"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 47, 135
+#: 0x03fc60c
+msgctxt "battle:336"
+msgid "battle:336"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 23, 70, 0
+#: 0x03fc631
+msgctxt "battle:340"
+msgid "battle:340"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 108
+#: 0x03fc646
+msgctxt "battle:354"
+msgid "battle:354"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 118
+#: 0x03fc65a
+msgctxt "battle:361"
+msgid "battle:361"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 142
+#: 0x03fc955
+msgctxt "battle:331"
+msgid "battle:331"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 51, 39
+#: 0x03fca13
+msgctxt "battle:334"
+msgid "battle:334"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 14, 65, 77
+#: 0x03fca49
+msgctxt "battle:341"
+msgid "battle:341"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 109
+#: 0x03fca71
+msgctxt "battle:346"
+msgid "battle:346"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 102
+#: 0x03fca8e
+msgctxt "battle:347"
+msgid "battle:347"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 14, 58, 77
+#: 0x03fcaaa
+msgctxt "battle:355"
+msgid "battle:355"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 103
+#: 0x03fcaef
+msgctxt "battle:362"
+msgid "battle:362"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 71, 75
+#: 0x03fcbc5
+msgctxt "battle:349"
+msgid "battle:349"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 28, 58, 0
+#: 0x03fcca0
+msgctxt "battle:338"
+msgid "battle:338"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 28, 38, 0
+#: 0x03fccbb
+msgctxt "battle:339"
+msgid "battle:339"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 106, 6
+#: 0x03fd671
+msgctxt "battle:371"
+msgid "battle:371"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 6, 35
+#: 0x03fd688
+msgctxt "battle:343"
+msgid "battle:343"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 90, 142, 0
+#: 0x03fd876
+msgctxt "battle:344"
+msgid "battle:344"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 14, 119
+#: 0x03fd97a
+msgctxt "battle:342"
+msgid "battle:342"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 75, 146
+#: 0x03fda4d
+msgctxt "battle:372"
+msgid "battle:372"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 64, 5
+#: 0x03fda7a
+msgctxt "battle:373"
+msgid "battle:373"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 165, 35
+#: 0x03fda8c
+msgctxt "battle:374"
+msgid "battle:374"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 107
+#: 0x03fdab1
+msgctxt "battle:333"
+msgid "battle:333"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 75, 72
+#: 0x0a37a75
+msgctxt "battle:356"
+msgid "battle:356"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 39, 6
+#: 0x0a4b32e
+msgctxt "battle:350"
+msgid "battle:350"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 4, widths px: 140, 83, 88, 12
+#: 0x0a4c6fd
+msgctxt "battle:365"
+msgid "battle:365"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 5, widths px: 133, 35, 42, 164, 40
+#: 0x0a4c740
+msgctxt "battle:366"
+msgid "battle:366"
+msgstr ""

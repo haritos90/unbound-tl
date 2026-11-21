@@ -1,0 +1,834 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-03F0000\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 81
+#: 0x03fb21f
+msgctxt "battle:382"
+msgid "battle:382"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 81
+#: 0x03fb235
+msgctxt "battle:384"
+msgid "battle:384"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 2, widths px: 34, 70
+#: 0x03fb248
+msgctxt "battle:385"
+msgid "battle:385"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 42, 93
+#: 0x03fbbb4
+msgctxt "hash:0173cee3"
+msgid "hash:0173cee3"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 58, 42
+#: 0x03fbbe9
+msgctxt "battle:99"
+msgid "battle:99"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 179, 102
+#: 0x03fc090
+msgctxt "battle:148"
+msgid "battle:148"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 14, 103, 0
+#: 0x03fca2c
+msgctxt "hash:c67afc42"
+msgid "hash:c67afc42"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 131
+#: 0x03fcb0c
+msgctxt "battle:378"
+msgid "battle:378"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 149
+#: 0x03fcb26
+msgctxt "battle:379"
+msgid "battle:379"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03fcb4a
+msgctxt "battle:210"
+msgid "battle:210"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 14, 0
+#: 0x03fcb6a
+msgctxt "battle:214"
+msgid "battle:214"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 92, 0
+#: 0x03fcc8a
+msgctxt "battle:223"
+msgid "battle:223"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 86, 6
+#: 0x03fcce4
+msgctxt "hash:24b59b88"
+msgid "hash:24b59b88"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 69, 29
+#: 0x03fccf8
+msgctxt "hash:ba80a622"
+msgid "hash:ba80a622"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 104, 6
+#: 0x03fcd0f
+msgctxt "hash:bda572f1"
+msgid "hash:bda572f1"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 84, 29
+#: 0x03fcd27
+msgctxt "hash:594fc332"
+msgid "hash:594fc332"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 180, 6
+#: 0x03fcd41
+msgctxt "hash:2d7176a3"
+msgid "hash:2d7176a3"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 180, 35
+#: 0x03fcd66
+msgctxt "hash:b51b14a6"
+msgid "hash:b51b14a6"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 34
+#: 0x03fcd92
+msgctxt "hash:170bb5fc"
+msgid "hash:170bb5fc"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 23, 34
+#: 0x03fcd9f
+msgctxt "hash:cdcfde1a"
+msgid "hash:cdcfde1a"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 70, 12, 0
+#: 0x03fd1c7
+msgctxt "battle:321"
+msgid "battle:321"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed BufferStringBattle wild intros have only pointers in pools 0x80D73F8, 0x80D7408 and 0x80D7424, with loads at 0x80D73F2, 0x80D7404 and 0x80D741A. These pools belong to the dead body 0x80D727C-0x80D77F3, which no BL or branch enters. Only the returns of its own older hooks name the body (0x8C0DE4, 0x908084, 0x908088). The entry at 0x80D7274 jumps to CFRU 0x89BDA88. CFRU loads its own s0A4C52A, s0A4C5B1 and s0A4C5C8 through pools 0x9BDDE8, 0x9BDDF0 and 0x9BDE00.)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 86, 0
+#: 0x03fd297
+msgctxt "hash:554dc3be"
+msgid "hash:554dc3be"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed BufferStringBattle wild intros have only pointers in pools 0x80D73F8, 0x80D7408 and 0x80D7424, with loads at 0x80D73F2, 0x80D7404 and 0x80D741A. These pools belong to the dead body 0x80D727C-0x80D77F3, which no BL or branch enters. Only the returns of its own older hooks name the body (0x8C0DE4, 0x908084, 0x908088). The entry at 0x80D7274 jumps to CFRU 0x89BDA88. CFRU loads its own s0A4C52A, s0A4C5B1 and s0A4C5C8 through pools 0x9BDDE8, 0x9BDDF0 and 0x9BDE00.)
+#. category: code; mode: battle
+#. original lines: 1, widths px: 86
+#: 0x03fd2aa
+msgctxt "hash:926b3470"
+msgid "hash:926b3470"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: The FireRed BufferStringBattle wild intros have only pointers in pools 0x80D73F8, 0x80D7408 and 0x80D7424, with loads at 0x80D73F2, 0x80D7404 and 0x80D741A. These pools belong to the dead body 0x80D727C-0x80D77F3, which no BL or branch enters. Only the returns of its own older hooks name the body (0x8C0DE4, 0x908084, 0x908088). The entry at 0x80D7274 jumps to CFRU 0x89BDA88. CFRU loads its own s0A4C52A, s0A4C5B1 and s0A4C5C8 through pools 0x9BDDE8, 0x9BDDF0 and 0x9BDE00.)
+#. category: code; mode: battle
+#. original lines: 3, widths px: 50, 59, 0
+#: 0x03fd2bf
+msgctxt "hash:174821c7"
+msgid "hash:174821c7"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed BufferStringBattle 0x80D7274 jumps to CFRU 0x89BDA88 at its entry (ldr r1 / bx r1); these strings' only pointers are pools of the dead body (0x80D73A0-0x80D76CC), and CFRU's own pools (0x9BDA24-0x9BE150) do not load them)
+#. category: code; mode: field
+#. original lines: 4, widths px: 111, 28, 134, 0
+#: 0x03fd2d9
+msgctxt "hash:1bf4ced2"
+msgid "hash:1bf4ced2"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed BufferStringBattle 0x80D7274 jumps to CFRU 0x89BDA88 at its entry (ldr r1 / bx r1); these strings' only pointers are pools of the dead body (0x80D73A0-0x80D76CC), and CFRU's own pools (0x9BDA24-0x9BE150) do not load them)
+#. category: code; mode: field
+#. original lines: 2, widths px: 111, 0
+#: 0x03fd30d
+msgctxt "hash:e78cc3b8"
+msgid "hash:e78cc3b8"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 178, 47
+#: 0x03fd322
+msgctxt "battle:380"
+msgid "battle:380"
+msgstr ""
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 87, 0, 0
+#: 0x03fd34d
+msgctxt "battle:381"
+msgid "battle:381"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed BufferStringBattle 0x80D7274 jumps to CFRU 0x89BDA88 at its entry (ldr r1 / bx r1); these strings' only pointers are pools of the dead body (0x80D73A0-0x80D76CC), and CFRU's own pools (0x9BDA24-0x9BE150) do not load them)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 0, 89
+#: 0x03fd383
+msgctxt "hash:3a3ef5ee"
+msgid "hash:3a3ef5ee"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed BufferStringBattle 0x80D7274 jumps to CFRU 0x89BDA88 at its entry (ldr r1 / bx r1); these strings' only pointers are pools of the dead body (0x80D73A0-0x80D76CC), and CFRU's own pools (0x9BDA24-0x9BE150) do not load them)
+#. category: code; mode: battle
+#. original lines: 2, widths px: 29, 84
+#: 0x03fd397
+msgctxt "hash:0235120b"
+msgid "hash:0235120b"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 33, 29
+#: 0x03fd3b1
+msgctxt "hash:723e805b"
+msgid "hash:723e805b"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 33, 58
+#: 0x03fd3c7
+msgctxt "hash:331cf697"
+msgid "hash:331cf697"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 33, 29
+#: 0x03fd3e4
+msgctxt "hash:0c9160c6"
+msgid "hash:0c9160c6"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 6
+#: 0x03fd3f7
+msgctxt "hash:c03d849a"
+msgid "hash:c03d849a"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 35
+#: 0x03fd407
+msgctxt "hash:daff3d19"
+msgid "hash:daff3d19"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 62, 62
+#: 0x03fd41e
+msgctxt "hash:37efd1ef"
+msgid "hash:37efd1ef"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 6
+#: 0x03fd43e
+msgctxt "hash:ebce371b"
+msgid "hash:ebce371b"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 6
+#: 0x03fd44e
+msgctxt "hash:3e82a146"
+msgid "hash:3e82a146"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 30
+#: 0x03fd45e
+msgctxt "hash:08851ead"
+msgid "hash:08851ead"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 47, 6
+#: 0x03fd466
+msgctxt "hash:8406db44"
+msgid "hash:8406db44"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 30
+#: 0x03fd475
+msgctxt "hash:dc6b238f"
+msgid "hash:dc6b238f"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 45
+#: 0x03fd47d
+msgctxt "hash:50ac23a1"
+msgid "hash:50ac23a1"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 66
+#: 0x03fd488
+msgctxt "hash:9551ce53"
+msgid "hash:9551ce53"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 89, 55
+#: 0x03fd497
+msgctxt "hash:621cf054"
+msgid "hash:621cf054"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 62, 30
+#: 0x03fd4b5
+msgctxt "hash:5b3b3959"
+msgid "hash:5b3b3959"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 88, 59
+#: 0x03fd4cd
+msgctxt "hash:d5220abf"
+msgid "hash:d5220abf"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 70
+#: 0x03fd4eb
+msgctxt "hash:e5849669"
+msgid "hash:e5849669"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 29, 59
+#: 0x03fd4fa
+msgctxt "hash:857b5c3a"
+msgid "hash:857b5c3a"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 41, 59
+#: 0x03fd50d
+msgctxt "hash:89ca1e87"
+msgid "hash:89ca1e87"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 6, 56
+#: 0x03fd522
+msgctxt "hash:59780c28"
+msgid "hash:59780c28"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 6
+#: 0x03fd535
+msgctxt "hash:e5c2c1fe"
+msgid "hash:e5c2c1fe"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 6
+#: 0x03fd545
+msgctxt "hash:3a4d5135"
+msgid "hash:3a4d5135"
+msgstr ""
+
+#. reach: never shown (review: hash:b471f6fe prefixes: the only pointers are pools of the FireRed BattleStringExpandPlaceholders body (0x80D8338, 0x80D8360, 0x80D83D8), whose entry 0x80D7868 jumps to CFRU 0x89BD050; CFRU loads its own opposing prefix s0A4C61A (0x89BD770-0x89BD7B4))
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x03fd560
+msgctxt "hash:b471f6fe"
+msgid "hash:b471f6fe"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x03fd564
+msgctxt "hash:bae99684"
+msgid "hash:bae99684"
+msgstr ""
+
+#. reach: never shown (review: hash:b471f6fe prefixes: the only pointers are pools of the FireRed BattleStringExpandPlaceholders body (0x80D8338, 0x80D8360, 0x80D83D8), whose entry 0x80D7868 jumps to CFRU 0x89BD050; CFRU loads its own opposing prefix s0A4C61A (0x89BD770-0x89BD7B4))
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x03fd569
+msgctxt "hash:7538fdb5"
+msgid "hash:7538fdb5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x03fd56d
+msgctxt "hash:03c0f7c5"
+msgid "hash:03c0f7c5"
+msgstr ""
+
+#. reach: never shown (review: hash:b471f6fe prefixes: the only pointers are pools of the FireRed BattleStringExpandPlaceholders body (0x80D8338, 0x80D8360, 0x80D83D8), whose entry 0x80D7868 jumps to CFRU 0x89BD050; CFRU loads its own opposing prefix s0A4C61A (0x89BD770-0x89BD7B4))
+#. category: code; mode: field
+#. original lines: 1, widths px: 18
+#: 0x03fd572
+msgctxt "hash:18fb0293"
+msgid "hash:18fb0293"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x03fd576
+msgctxt "hash:8d7aa6e0"
+msgid "hash:8d7aa6e0"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 29, 0
+#: 0x03fd57b
+msgctxt "hash:25ebddf9"
+msgid "hash:25ebddf9"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 79
+#: 0x03fd5f0
+msgctxt "hash:92cb4b72"
+msgid "hash:92cb4b72"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x03fd5ff
+msgctxt "hash:6d0d4d00"
+msgid "hash:6d0d4d00"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x03fd60c
+msgctxt "hash:3e33bc92"
+msgid "hash:3e33bc92"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x03fd61b
+msgctxt "hash:ed8a8d19"
+msgid "hash:ed8a8d19"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x03fd62b
+msgctxt "hash:e762578f"
+msgid "hash:e762578f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 48
+#: 0x03fd81a
+msgctxt "hash:20f85f3d"
+msgid "hash:20f85f3d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03fd824
+msgctxt "hash:7ecb1657"
+msgid "hash:7ecb1657"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 67
+#: 0x03fd8a2
+msgctxt "hash:da5ee0ab"
+msgid "hash:da5ee0ab"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 34
+#: 0x03fd8af
+msgctxt "hash:826b62f4"
+msgid "hash:826b62f4"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 9, widths px: 139, 114, 5, 188, 99, 183, 166, 33, 0
+#: 0x03fdae2
+msgctxt "hash:de958759"
+msgid "hash:de958759"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 180, 189, 121, 0
+#: 0x03fdb92
+msgctxt "hash:817ad21d"
+msgid "hash:817ad21d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 4, widths px: 181, 188, 188, 0
+#: 0x03fdbef
+msgctxt "hash:17b897d2"
+msgid "hash:17b897d2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 185, 139, 0
+#: 0x03fdc58
+msgctxt "hash:c405097f"
+msgid "hash:c405097f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 159, 164, 0
+#: 0x03fdc95
+msgctxt "hash:fd06ad27"
+msgid "hash:fd06ad27"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 157, 71, 175, 23, 0
+#: 0x03fdcd2
+msgctxt "hash:ee45878f"
+msgid "hash:ee45878f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 179, 168, 0
+#: 0x03fdd23
+msgctxt "hash:59024c89"
+msgid "hash:59024c89"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 109, 186, 153, 167, 113, 0
+#: 0x03fdd64
+msgctxt "battle:363"
+msgid "battle:363"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 13, widths px: 47, 98, 186, 126, 147, 125, 186, 152, 182, 163, 196, 184, 0
+#: 0x03fddeb
+msgctxt "battle:364"
+msgid "battle:364"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 29, 71
+#: 0x03fe672
+msgctxt "hash:8f17e2d3"
+msgid "hash:8f17e2d3"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 122, 79, 0
+#: 0x03fe688
+msgctxt "hash:5fafdea5"
+msgid "hash:5fafdea5"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 30, 96, 0
+#: 0x03fe6b5
+msgctxt "hash:6d6310bb"
+msgid "hash:6d6310bb"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 49, 24
+#: 0x03fe6d5
+msgctxt "hash:267dc5e1"
+msgid "hash:267dc5e1"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 55, 34
+#: 0x03fe6e6
+msgctxt "hash:5f3cf7fa"
+msgid "hash:5f3cf7fa"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 72, 64
+#: 0x03fe6fa
+msgctxt "hash:90ff838f"
+msgid "hash:90ff838f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 71
+#: 0x03fe714
+msgctxt "hash:8024058e"
+msgid "hash:8024058e"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 45, 57
+#: 0x03fe725
+msgctxt "hash:b3f8c728"
+msgid "hash:b3f8c728"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 43, 40
+#: 0x03fe747
+msgctxt "hash:a35d758d"
+msgid "hash:a35d758d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: hash:6d3ce75a: FireRed 0x8030940 jumps to CFRU 0x89F8004 at its entry (ldr r0 / bx r0); its pool 0x80309B8 lies in the dead body)
+#. category: code; mode: field
+#. original lines: 1, widths px: 30
+#: 0x03fe76a
+msgctxt "hash:6d3ce75a"
+msgid "hash:6d3ce75a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 17, 12
+#: 0x03fe791
+msgctxt "hash:28ea155d"
+msgid "hash:28ea155d"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 33, 34
+#: 0x03fe7a0
+msgctxt "hash:f3327d50"
+msgid "hash:f3327d50"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03fe7c7
+msgctxt "hash:41a62632"
+msgid "hash:41a62632"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x03fe7d4
+msgctxt "hash:d4bc24ac"
+msgid "hash:d4bc24ac"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x03fe7dc
+msgctxt "hash:c423e3f5"
+msgid "hash:c423e3f5"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x03fe7e4
+msgctxt "hash:b61a73d8"
+msgid "hash:b61a73d8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x03fe7ec
+msgctxt "hash:5cc57c15"
+msgid "hash:5cc57c15"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 65
+#: 0x03fe80c
+msgctxt "hash:f9c8bb4b"
+msgid "hash:f9c8bb4b"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 27
+#: 0x03fe81c
+msgctxt "hash:ea38af11"
+msgid "hash:ea38af11"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03fe82a
+msgctxt "hash:0b72bd08"
+msgid "hash:0b72bd08"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 32
+#: 0x03fe830
+msgctxt "hash:98f492c5"
+msgid "hash:98f492c5"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x03fe837
+msgctxt "hash:b0f17ab7"
+msgid "hash:b0f17ab7"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 48
+#: 0x03fe83c
+msgctxt "hash:deddc96c"
+msgid "hash:deddc96c"
+msgstr ""
+
+#. reach: never shown (review: hash:180cad1f: FireRed status name table 0x2500CC (stride 8, name at +4) has no pointer; CFRU's copy 0xA50260 holds hash:0b5a4e97 in that slot)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 16
+#: 0x03fe846
+msgctxt "hash:180cad1f"
+msgid "hash:180cad1f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 48
+#: 0x03fe84a
+msgctxt "hash:af53b6e2"
+msgid "hash:af53b6e2"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x03fe854
+msgctxt "hash:1a476b31"
+msgid "hash:1a476b31"
+msgstr ""
+
+#. reach: never shown (review: hash:5ed3968b: loaded only by 0x80E6648 (the FireRed Battle Tower ban list), which no BL and no aligned pointer reaches)
+#. category: code; mode: field
+#. original lines: 1, widths px: 15
+#: 0x03fe860
+msgctxt "hash:5ed3968b"
+msgid "hash:5ed3968b"
+msgstr ""
+
+#. reach: never shown (review: hash:5ed3968b: loaded only by 0x80E6648 (the FireRed Battle Tower ban list), which no BL and no aligned pointer reaches)
+#. category: code; mode: field
+#. original lines: 1, widths px: 15
+#: 0x03fe864
+msgctxt "hash:c6fcaad5"
+msgid "hash:c6fcaad5"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 42
+#: 0x03fe868
+msgctxt "hash:49b8f238"
+msgid "hash:49b8f238"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 15
+#: 0x03fe874
+msgctxt "hash:73c49c6c"
+msgid "hash:73c49c6c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 22
+#: 0x03fe87b
+msgctxt "hash:1d43cb0a"
+msgid "hash:1d43cb0a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x03fe883
+msgctxt "hash:0e8e7e0e"
+msgid "hash:0e8e7e0e"
+msgstr ""
+
+#. reach: never shown (review: hash:5ed3968b: ChooseMoveUsedParticle 0x80D86C8 (called by CFRU through pool 0x9BE0D0) copies it into gBattleTextBuff1, which the host STRINGID_USEDMOVE s03FD57B does not print)
+#. category: code; mode: field
+#. original lines: 1, widths px: 15
+#: 0x03fe88b
+msgctxt "hash:5ca37f40"
+msgid "hash:5ca37f40"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 60
+#: 0x03fe982
+msgctxt "hash:61ad335a"
+msgid "hash:61ad335a"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 57
+#: 0x03fe998
+msgctxt "hash:a6f52d33"
+msgid "hash:a6f52d33"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 1, widths px: 40
+#: 0x03fe9d4
+msgctxt "hash:aa583d51"
+msgid "hash:aa583d51"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 104, 12
+#: 0x03fe9e4
+msgctxt "hash:787de29f"
+msgid "hash:787de29f"
+msgstr ""
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 180, 12
+#: 0x03fe9ff
+msgctxt "hash:681b0e6e"
+msgid "hash:681b0e6e"
+msgstr ""

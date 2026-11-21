@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0760000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: older whiteout picker 0x883420 (returns to 0x807F543): its pool 0x883454 is the string's only pointer, and no BL, branch or word reaches 0x883420-0x88346B; the FireRed whiteout code jumps at 0x807F542 (ldr r0 / bx r0) to 0x89A3345, which picks s0A4D8A4 through 0x89FFF74)
+#. category: code; mode: field
+#. original lines: 4, widths px: 178, 201, 147, 0
+#: 0x07649d7
+msgctxt "hash:b098c91f"
+msgid "hash:b098c91f"
+msgstr ""

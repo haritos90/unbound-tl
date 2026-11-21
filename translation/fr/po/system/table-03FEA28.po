@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03FEA28\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x03fe892
+msgctxt "hash:0eecc27d"
+msgid "hash:0eecc27d"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 90
+#: 0x03fe8a0
+msgctxt "hash:089c92a2"
+msgid "hash:089c92a2"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x03fe8b0
+msgctxt "hash:48a15a57"
+msgid "hash:48a15a57"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x03fe8be
+msgctxt "hash:c10a6a39"
+msgid "hash:c10a6a39"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x03fe8cc
+msgctxt "hash:24443725"
+msgid "hash:24443725"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x03fe8da
+msgctxt "hash:318cc39d"
+msgid "hash:318cc39d"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x03fe8e6
+msgctxt "hash:e2deed59"
+msgid "hash:e2deed59"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x03fe8f1
+msgctxt "hash:34958661"
+msgid "hash:34958661"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x03fe8fe
+msgctxt "hash:da6133aa"
+msgid "hash:da6133aa"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x03fe90b
+msgctxt "hash:583e8e55"
+msgid "hash:583e8e55"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x03fe916
+msgctxt "hash:0182846b"
+msgid "hash:0182846b"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x03fe922
+msgctxt "hash:f9cef9f8"
+msgid "hash:f9cef9f8"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x03fe92f
+msgctxt "hash:9597c54b"
+msgid "hash:9597c54b"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 95
+#: 0x03fe93c
+msgctxt "hash:2239494d"
+msgid "hash:2239494d"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x03fe94d
+msgctxt "hash:5348c260"
+msgid "hash:5348c260"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x03fe95c
+msgctxt "hash:a7eeb92a"
+msgid "hash:a7eeb92a"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 78
+#: 0x03fe968
+msgctxt "hash:66a72ad3"
+msgid "hash:66a72ad3"
+msgstr ""
+
+#. reach: never shown (review: move-type fills of table 0x3FEA28: CFRU reads it in STRINGID_USEDMOVE (0x89BDF14-0x89BDF2E) and {B_CURRENT_MOVE} (0x89BD3FC-0x89BD410) only for a move id above 0x39A; the move table ends at id 922 (0x39A))
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 66
+#: 0x03fe976
+msgctxt "hash:00019f0e"
+msgid "hash:00019f0e"
+msgstr ""

@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-087C4E8\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 157, 184, 165
+#: 0x0eb39d0
+msgctxt "table:items/575/description"
+msgid "table:items/575/description"
+msgstr ""
+"Предмет, который держит Дитто. Эта странная пыль, очень мелкая, но "
+"твёрдая, повышает Скорость."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 192, 169
+#: 0x0eb4249
+msgctxt "table:items/576/description"
+msgid "table:items/576/description"
+msgstr ""
+"Предмет, который держит покемон. Усиливает приём, повторяемый подряд, "
+"пока его не сменят."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 167, 198
+#: 0x0eb42ad
+msgctxt "table:items/577/description"
+msgid "table:items/577/description"
+msgstr ""
+"Предмет, который держит покемон. Эта повязка немного усиливает физические "
+"приёмы."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 186, 188, 167
+#: 0x0eb4311
+msgctxt "table:items/578/description"
+msgid "table:items/578/description"
+msgstr ""
+"Предмет, который держит покемон. Защищает покемона от эффектов, когда он "
+"касается противника."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 189, 201
+#: 0x0eb4374
+msgctxt "table:items/579/description"
+msgid "table:items/579/description"
+msgstr ""
+"Предмет, который держит покемон. Если покемон получает удар, ударивший "
+"покидает бой."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 193, 187
+#: 0x0eb43dd
+msgctxt "table:items/580/description"
+msgid "table:items/580/description"
+msgstr ""
+"Предмет, который держит покемон. По покемону попадают даже приёмы, "
+"которые обычно не действуют."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 199, 186
+#: 0x0eb4444
+msgctxt "table:items/581/description"
+msgid "table:items/581/description"
+msgstr ""
+"Предмет, который держит покемон. Этот панцирь всегда позволяет покемону "
+"уступить место союзнику."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 169, 120
+#: 0x0eb44ac
+msgctxt "table:items/582/description"
+msgid "table:items/582/description"
+msgstr ""
+"Предмет, который держит покемон. Удар типа Лёд один раз повышает его "
+"Атаку."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 187, 157
+#: 0x0eb4503
+msgctxt "table:items/583/description"
+msgid "table:items/583/description"
+msgstr ""
+"Предмет, который держит покемон. Каждый ход ранит его и цепляется за тех, "
+"кто его касается."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 187, 159
+#: 0x0eb4563
+msgctxt "table:items/584/description"
+msgid "table:items/584/description"
+msgstr ""
+"Предмет, который держит покемон. Продлевает поле, созданное приёмом или "
+"талантом покемона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 189, 192
+#: 0x0eb45cc
+msgctxt "table:items/585/description"
+msgid "table:items/585/description"
+msgstr ""
+"Предмет, который держит покемон. Эти толстые очки немного усиливают "
+"особые приёмы."

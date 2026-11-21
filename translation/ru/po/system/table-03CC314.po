@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03CC314\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 37
+#: 0x0419c5a
+msgctxt "hash:9b0e5ad3"
+msgid "hash:9b0e5ad3"
+msgstr "Готово"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x0419dd3
+msgctxt "hash:bbee1f05"
+msgid "hash:bbee1f05"
+msgstr "Скорость текста"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x0419dde
+msgctxt "hash:3ee7e5c5"
+msgid "hash:3ee7e5c5"
+msgstr "Анимация боя"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 67
+#: 0x0419deb
+msgctxt "hash:590222be"
+msgid "hash:590222be"
+msgstr "Стиль боя"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0419df8
+msgctxt "hash:f030bda2"
+msgid "hash:f030bda2"
+msgstr "Звук"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x0419dfe
+msgctxt "hash:e80703e8"
+msgid "hash:e80703e8"
+msgstr "Режим кнопок"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 29
+#: 0x0419e0a
+msgctxt "hash:933770eb"
+msgid "hash:933770eb"
+msgstr "Рамка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0419e17
+msgctxt "hash:62f3e64e"
+msgid "hash:62f3e64e"
+msgstr "Медленно"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 16
+#: 0x0419e1c
+msgctxt "hash:133805e8"
+msgid "hash:133805e8"
+msgstr "Средне"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x0419e20
+msgctxt "hash:0c1d15e8"
+msgid "hash:0c1d15e8"
+msgstr "Быстро"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 11
+#: 0x0419e25
+msgctxt "hash:c6b2c726"
+msgid "hash:c6b2c726"
+msgstr "Включено"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 16
+#: 0x0419e28
+msgctxt "hash:2b8b5a83"
+msgid "hash:2b8b5a83"
+msgstr "Выключено"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 26
+#: 0x0419e2c
+msgctxt "hash:d79bc43d"
+msgid "hash:d79bc43d"
+msgstr "Смена"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 17
+#: 0x0419e32
+msgctxt "hash:3d1e3f12"
+msgid "hash:3d1e3f12"
+msgstr "Без смены"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0419e36
+msgctxt "hash:bf2d802f"
+msgid "hash:bf2d802f"
+msgstr "Моно"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x0419e3b
+msgctxt "hash:7dd446a4"
+msgid "hash:7dd446a4"
+msgstr "Стерео"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x0419e46
+msgctxt "hash:5c65a35e"
+msgid "hash:5c65a35e"
+msgstr "Справка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 12
+#: 0x0419e4f
+msgctxt "hash:824cb6df"
+msgid "hash:824cb6df"
+msgstr "LR"

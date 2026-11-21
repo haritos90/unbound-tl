@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/cave-of-being\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. used in 5 places
+#. original lines: 1, widths px: 118
+#: 0x1fa58d0
+msgctxt "map:1.82/npc:4/4"
+msgid "map:1.82/npc:4/4"
+msgstr "Хранители озера"
+
+#. category: script; mode: field
+#. used in 16 places
+#. original lines: 1, widths px: 57
+#: 0x1fa5aa4
+msgctxt "map:1.82/npc:4/5"
+msgid "map:1.82/npc:4/5"
+msgstr "Исследовательница"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 152, 122, 181, 125, 163, 79, 143, 168, 126
+#: 0x1fa5aaf
+msgctxt "map:1.82/npc:4/0"
+msgid "map:1.82/npc:4/0"
+msgstr ""
+"Тебе доводилось слышать о великих озёрах Синно?\\pГоворят, они связаны с "
+"могущественными покемонами.\\pИменно этих покемонов я и изучаю.\\pЯ ищу "
+"ассистента для исследований, только мне нужен кто-то чуть посильнее тебя."
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 152, 122, 181, 125, 163, 79, 143, 108, 183, 84
+#: 0x1fa5b9a
+msgctxt "map:1.82/npc:4/1"
+msgid "map:1.82/npc:4/1"
+msgstr ""
+"Тебе доводилось слышать о великих озёрах Синно?\\pГоворят, они связаны с "
+"могущественными покемонами.\\pИменно этих покемонов я и изучаю.\\pЯ как "
+"раз ищу себе ассистента.\\pНе хочешь помочь мне с исследованиями?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 70
+#: 0x1fa5c94
+msgctxt "map:1.82/npc:4/2"
+msgid "map:1.82/npc:4/2"
+msgstr "Ты же тренер! Где твоё любопытство?"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 56, 199, 69, 162, 194, 183, 79
+#: 0x1fa5cc5
+msgctxt "map:1.82/npc:4/3"
+msgid "map:1.82/npc:4/3"
+msgstr ""
+"Чудесно!\\pПриходи, пожалуйста, в {COLOR 06}пещеру Бытия{COLOR 04} на "
+"{COLOR 06}Маршруте 10{COLOR 04}.\\pДля начала осмотрим пещеру и поищем "
+"следы покемонов, которые могут в ней обитать."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 62, 191, 132, 187, 125
+#: 0x1fa5d80
+msgctxt "map:1.82/npc:4/6"
+msgid "map:1.82/npc:4/6"
+msgstr ""
+"Это пространство…\\pТрудно выразить словами, но оно будто чем-то "
+"наполнено…\\pИ в центре той лужи чувствуется что-то странное…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 191
+#: 0x1fa5e02
+msgctxt "map:1.82/trigger:0/0"
+msgid "map:1.82/trigger:0/0"
+msgstr "Ощущается загадочное присутствие!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 28
+#: 0x1fa5e25
+msgctxt "map:1.82/trigger:0/3"
+msgid "map:1.82/trigger:0/3"
+msgstr "{COLOR 04}Юкси!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 43
+#: 0x1fa5e2e
+msgctxt "map:1.82/trigger:0/6"
+msgid "map:1.82/trigger:0/6"
+msgstr "{COLOR 04}Месприт…"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1fa5e3a
+msgctxt "map:1.82/trigger:0/9"
+msgid "map:1.82/trigger:0/9"
+msgstr "{COLOR 04}И Азелф!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 151
+#: 0x1fa5e48
+msgctxt "map:1.82/trigger:0/10"
+msgid "map:1.82/trigger:0/10"
+msgstr "Покемон {STR_VAR_1} куда-то улетел…"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 167, 56, 188, 180, 77, 185, 28, 81, 183, 117
+#: 0x1fa5e66
+msgctxt "map:1.82/trigger:0/14"
+msgid "map:1.82/trigger:0/14"
+msgstr ""
+"{COLOR 04}Эта троица - Юкси, Месприт и Азелф.\\pСчитается, что эти "
+"покемоны даровали нам знание, чувства и силу воли.\\pИ всё же интересно, "
+"куда они делись…\\pЭй, ассистент!\\pОбыщи весь регион Борриус и попробуй "
+"их найти!"
+
+#. category: script; mode: field
+#. original lines: 17, widths px: 149, 113, 184, 57, 183, 181, 178, 134, 187, 110, 182, 148, 49, 127, 151, 46, 182
+#: 0x1fa5f55
+msgctxt "map:1.82/npc:4/22"
+msgid "map:1.82/npc:4/22"
+msgstr ""
+"Интересно, куда улетели те три покемона?\\pЮкси - покемон, олицетворяющий "
+"знание…\\pЕсли говорить о месте в Борриусе, где собраны знания, то первым "
+"делом на ум приходит {COLOR 06}Лаборатория исследования снов{COLOR 04}…\\p"
+"Месприт ведь покемон, повелевающий чувствами?\\pМожет, там, где тебе "
+"довелось {COLOR 06}услышать{COLOR 04} нечто, что тронуло душу?\\pА Азелф "
+"- это сила воли…\\pСтремление {COLOR 06}довести дело до конца{COLOR "
+"04}…\\pКакое место могло бы это воплощать?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 198, 180, 171, 40
+#: 0x1fa611d
+msgctxt "map:1.82/npc:4/8"
+msgid "map:1.82/npc:4/8"
+msgstr ""
+"Чувствую, тебе удалось поймать тех трёх покемонов, что улетели.\\p"
+"Приведёшь их сюда? Хочу на них взглянуть."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 178, 136, 114, 59, 110
+#: 0x1fa6189
+msgctxt "map:1.82/npc:4/10"
+msgid "map:1.82/npc:4/10"
+msgstr ""
+"Тебе удалось поймать всех троих - отличная работа, ассистент!\\pНу как, "
+"чувствуешь?\\pПространство… Оно снова будто чем-то наполнено…"
+
+#. category: script; mode: field
+#. original lines: 20, widths px: 60, 99, 196, 190, 170, 53, 149, 182, 181, 174, 103, 174, 174, 171, 160, 184, 64, 201, 167, 166
+#: 0x1fa61f8
+msgctxt "map:1.82/npc:4/15"
+msgid "map:1.82/npc:4/15"
+msgstr ""
+"Поразительно! Просто поразительно!\\pПохоже, благодаря твоим трём "
+"покемонам Диалга, владыка времени, начал переходить в наше измерение!\\p"
+"Всем известно, что этих покемонов связывают особые узы, но такого я не "
+"ожидала!\\pОднако заметь: у Диалги нет отражения.\\pЗначит, он ждёт, "
+"когда ты его поймаешь, чтобы полностью перейти в наше измерение.\\p"
+"Коллеги из Научного общества будут весьма довольны моими открытиями…\\pА "
+"в награду за помощь прими, пожалуйста, эту редкую сферу: похоже, она "
+"резонирует с Диалгой."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 160
+#: 0x1fa642a
+msgctxt "map:1.82/npc:4/18"
+msgid "map:1.82/npc:4/18"
+msgstr "Надеюсь, ещё увидимся, ассистент."
+
+#. category: script; mode: field
+#. used in 7 places
+#. original lines: 1, widths px: 47
+#: 0x1fa648c
+msgctxt "map:1.82/npc:4/11"
+msgid "map:1.82/npc:4/11"
+msgstr "{COLOR 06}Кьёу-у-ун!"
+
+#. category: script; mode: field
+#. used in 7 places
+#. original lines: 1, widths px: 35
+#: 0x1fa6498
+msgctxt "map:1.82/npc:4/13"
+msgid "map:1.82/npc:4/13"
+msgstr "{COLOR 06}Кью-ун!"
+
+#. category: script; mode: field
+#. used in 7 places
+#. original lines: 1, widths px: 41
+#: 0x1fa64a2
+msgctxt "map:1.45/npc:16/0"
+msgid "map:1.45/npc:16/0"
+msgstr "{COLOR 06}Кьяу-ун!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 66
+#: 0x1fa64ad
+msgctxt "map:1.82/npc:3/0"
+msgid "map:1.82/npc:3/0"
+msgstr "{COLOR 06}Гугюгуба!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 159
+#: 0x1fa64bc
+msgctxt "map:1.82/npc:3/1"
+msgid "map:1.82/npc:3/1"
+msgstr "Диалга исчез во времени."

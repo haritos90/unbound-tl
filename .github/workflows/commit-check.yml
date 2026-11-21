@@ -1,0 +1,21 @@
+name: Commit message check
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  commits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: ./.github/actions/toolkit
+      - name: Check the commit messages of the pull request
+        env:
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: gen3tl check commit-message --range "origin/${GITHUB_BASE_REF}..${HEAD_SHA}"

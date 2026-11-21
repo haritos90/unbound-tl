@@ -1,0 +1,856 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/trainer_classes\n"
+"X-Source: key-only\n"
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 0)
+#. original lines: 1, widths px: 0
+#: 0x023e558
+msgctxt "table:trainer_classes/0"
+msgid "table:trainer_classes/0"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 1)
+#. original lines: 1, widths px: 59
+#: 0x023e565
+msgctxt "table:trainer_classes/1"
+msgid "table:trainer_classes/1"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 3)
+#. original lines: 1, widths px: 28
+#: 0x023e57f
+msgctxt "table:trainer_classes/3"
+msgid "table:trainer_classes/3"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 4)
+#. original lines: 1, widths px: 32
+#: 0x023e58c
+msgctxt "table:trainer_classes/4"
+msgid "table:trainer_classes/4"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 5)
+#. original lines: 1, widths px: 42
+#: 0x023e599
+msgctxt "table:trainer_classes/5"
+msgid "table:trainer_classes/5"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 6)
+#. original lines: 1, widths px: 60
+#: 0x023e5a6
+msgctxt "table:trainer_classes/6"
+msgid "table:trainer_classes/6"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 7)
+#. original lines: 1, widths px: 37
+#: 0x023e5b3
+msgctxt "table:trainer_classes/7"
+msgid "table:trainer_classes/7"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 8)
+#. original lines: 1, widths px: 23
+#: 0x023e5c0
+msgctxt "table:trainer_classes/8"
+msgid "table:trainer_classes/8"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 9)
+#. original lines: 1, widths px: 66
+#: 0x023e5cd
+msgctxt "table:trainer_classes/9"
+msgid "table:trainer_classes/9"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 10)
+#. original lines: 1, widths px: 28
+#: 0x023e5da
+msgctxt "table:trainer_classes/10"
+msgid "table:trainer_classes/10"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 11)
+#. original lines: 1, widths px: 24
+#: 0x023e5e7
+msgctxt "table:trainer_classes/11"
+msgid "table:trainer_classes/11"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 12)
+#. original lines: 1, widths px: 45
+#: 0x023e5f4
+msgctxt "table:trainer_classes/12"
+msgid "table:trainer_classes/12"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 13 characters max (table trainer_classes, index 13)
+#. original lines: 1, widths px: 46
+#: 0x023e601
+msgctxt "table:trainer_classes/13"
+msgid "table:trainer_classes/13"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 15)
+#. original lines: 1, widths px: 63
+#: 0x023e61b
+msgctxt "table:trainer_classes/15"
+msgid "table:trainer_classes/15"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 16)
+#. original lines: 1, widths px: 26
+#: 0x023e628
+msgctxt "table:trainer_classes/16"
+msgid "table:trainer_classes/16"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 17)
+#. original lines: 1, widths px: 46
+#: 0x023e635
+msgctxt "table:trainer_classes/17"
+msgid "table:trainer_classes/17"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 18)
+#. original lines: 1, widths px: 37
+#: 0x023e642
+msgctxt "table:trainer_classes/18"
+msgid "table:trainer_classes/18"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 19)
+#. original lines: 1, widths px: 40
+#: 0x023e64f
+msgctxt "table:trainer_classes/19"
+msgid "table:trainer_classes/19"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 20)
+#. original lines: 1, widths px: 57
+#: 0x023e65c
+msgctxt "table:trainer_classes/20"
+msgid "table:trainer_classes/20"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 21)
+#. original lines: 1, widths px: 37
+#: 0x023e669
+msgctxt "table:trainer_classes/21"
+msgid "table:trainer_classes/21"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 23)
+#. original lines: 1, widths px: 48
+#: 0x023e683
+msgctxt "table:trainer_classes/23"
+msgid "table:trainer_classes/23"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 24)
+#. original lines: 1, widths px: 51
+#: 0x023e690
+msgctxt "table:trainer_classes/24"
+msgid "table:trainer_classes/24"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 25)
+#. original lines: 1, widths px: 57
+#: 0x023e69d
+msgctxt "table:trainer_classes/25"
+msgid "table:trainer_classes/25"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 27)
+#. original lines: 1, widths px: 39
+#: 0x023e6b7
+msgctxt "table:trainer_classes/27"
+msgid "table:trainer_classes/27"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 28)
+#. original lines: 1, widths px: 34
+#: 0x023e6c4
+msgctxt "table:trainer_classes/28"
+msgid "table:trainer_classes/28"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 29)
+#. original lines: 1, widths px: 40
+#: 0x023e6d1
+msgctxt "table:trainer_classes/29"
+msgid "table:trainer_classes/29"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 32)
+#. original lines: 1, widths px: 35
+#: 0x023e6f8
+msgctxt "table:trainer_classes/32"
+msgid "table:trainer_classes/32"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 33)
+#. original lines: 1, widths px: 69
+#: 0x023e705
+msgctxt "table:trainer_classes/33"
+msgid "table:trainer_classes/33"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 34)
+#. original lines: 1, widths px: 66
+#: 0x023e712
+msgctxt "table:trainer_classes/34"
+msgid "table:trainer_classes/34"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 14 characters max (table trainer_classes, index 35)
+#. original lines: 1, widths px: 51
+#: 0x023e71f
+msgctxt "table:trainer_classes/35"
+msgid "table:trainer_classes/35"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 36)
+#. original lines: 1, widths px: 67
+#: 0x023e72c
+msgctxt "table:trainer_classes/36"
+msgid "table:trainer_classes/36"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 15 characters max (table trainer_classes, index 37)
+#. original lines: 1, widths px: 69
+#: 0x023e739
+msgctxt "table:trainer_classes/37"
+msgid "table:trainer_classes/37"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 15 characters max (table trainer_classes, index 38)
+#. original lines: 1, widths px: 67
+#: 0x023e746
+msgctxt "table:trainer_classes/38"
+msgid "table:trainer_classes/38"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 39)
+#. original lines: 1, widths px: 54
+#: 0x023e753
+msgctxt "table:trainer_classes/39"
+msgid "table:trainer_classes/39"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 41)
+#. original lines: 1, widths px: 52
+#: 0x023e76d
+msgctxt "table:trainer_classes/41"
+msgid "table:trainer_classes/41"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 42)
+#. original lines: 1, widths px: 40
+#: 0x023e77a
+msgctxt "table:trainer_classes/42"
+msgid "table:trainer_classes/42"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 43)
+#. original lines: 1, widths px: 50
+#: 0x023e787
+msgctxt "table:trainer_classes/43"
+msgid "table:trainer_classes/43"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 44)
+#. original lines: 1, widths px: 59
+#: 0x023e794
+msgctxt "table:trainer_classes/44"
+msgid "table:trainer_classes/44"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 45)
+#. original lines: 1, widths px: 69
+#: 0x023e7a1
+msgctxt "table:trainer_classes/45"
+msgid "table:trainer_classes/45"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 48)
+#. original lines: 1, widths px: 69
+#: 0x023e7c8
+msgctxt "table:trainer_classes/48"
+msgid "table:trainer_classes/48"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 49)
+#. original lines: 1, widths px: 72
+#: 0x023e7d5
+msgctxt "table:trainer_classes/49"
+msgid "table:trainer_classes/49"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 50)
+#. original lines: 1, widths px: 64
+#: 0x023e7e2
+msgctxt "table:trainer_classes/50"
+msgid "table:trainer_classes/50"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 51)
+#. original lines: 1, widths px: 30
+#: 0x023e7ef
+msgctxt "table:trainer_classes/51"
+msgid "table:trainer_classes/51"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 52)
+#. original lines: 1, widths px: 70
+#: 0x023e7fc
+msgctxt "table:trainer_classes/52"
+msgid "table:trainer_classes/52"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 53)
+#. original lines: 1, widths px: 58
+#: 0x023e809
+msgctxt "table:trainer_classes/53"
+msgid "table:trainer_classes/53"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 14 characters max (table trainer_classes, index 54)
+#. original lines: 1, widths px: 61
+#: 0x023e816
+msgctxt "table:trainer_classes/54"
+msgid "table:trainer_classes/54"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 55)
+#. original lines: 1, widths px: 60
+#: 0x023e823
+msgctxt "table:trainer_classes/55"
+msgid "table:trainer_classes/55"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 13 characters max (table trainer_classes, index 56)
+#. original lines: 1, widths px: 66
+#: 0x023e830
+msgctxt "table:trainer_classes/56"
+msgid "table:trainer_classes/56"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 57)
+#. original lines: 1, widths px: 50
+#: 0x023e83d
+msgctxt "table:trainer_classes/57"
+msgid "table:trainer_classes/57"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 58)
+#. original lines: 1, widths px: 64
+#: 0x023e84a
+msgctxt "table:trainer_classes/58"
+msgid "table:trainer_classes/58"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 59)
+#. original lines: 1, widths px: 22
+#: 0x023e857
+msgctxt "table:trainer_classes/59"
+msgid "table:trainer_classes/59"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 60)
+#. original lines: 1, widths px: 32
+#: 0x023e864
+msgctxt "table:trainer_classes/60"
+msgid "table:trainer_classes/60"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 61)
+#. original lines: 1, widths px: 35
+#: 0x023e871
+msgctxt "table:trainer_classes/61"
+msgid "table:trainer_classes/61"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 62)
+#. original lines: 1, widths px: 47
+#: 0x023e87e
+msgctxt "table:trainer_classes/62"
+msgid "table:trainer_classes/62"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 63)
+#. original lines: 1, widths px: 62
+#: 0x023e88b
+msgctxt "table:trainer_classes/63"
+msgid "table:trainer_classes/63"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 64)
+#. original lines: 1, widths px: 58
+#: 0x023e898
+msgctxt "table:trainer_classes/64"
+msgid "table:trainer_classes/64"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 65)
+#. original lines: 1, widths px: 26
+#: 0x023e8a5
+msgctxt "table:trainer_classes/65"
+msgid "table:trainer_classes/65"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 66)
+#. original lines: 1, widths px: 26
+#: 0x023e8b2
+msgctxt "table:trainer_classes/66"
+msgid "table:trainer_classes/66"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 67)
+#. original lines: 1, widths px: 39
+#: 0x023e8bf
+msgctxt "table:trainer_classes/67"
+msgid "table:trainer_classes/67"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 68)
+#. original lines: 1, widths px: 33
+#: 0x023e8cc
+msgctxt "table:trainer_classes/68"
+msgid "table:trainer_classes/68"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 69)
+#. original lines: 1, widths px: 49
+#: 0x023e8d9
+msgctxt "table:trainer_classes/69"
+msgid "table:trainer_classes/69"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 70)
+#. original lines: 1, widths px: 45
+#: 0x023e8e6
+msgctxt "table:trainer_classes/70"
+msgid "table:trainer_classes/70"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 71)
+#. original lines: 1, widths px: 52
+#: 0x023e8f3
+msgctxt "table:trainer_classes/71"
+msgid "table:trainer_classes/71"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 14 characters max (table trainer_classes, index 72)
+#. original lines: 1, widths px: 40
+#: 0x023e900
+msgctxt "table:trainer_classes/72"
+msgid "table:trainer_classes/72"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 73)
+#. original lines: 1, widths px: 35
+#: 0x023e90d
+msgctxt "table:trainer_classes/73"
+msgid "table:trainer_classes/73"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 74)
+#. original lines: 1, widths px: 45
+#: 0x023e91a
+msgctxt "table:trainer_classes/74"
+msgid "table:trainer_classes/74"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 75)
+#. original lines: 1, widths px: 39
+#: 0x023e927
+msgctxt "table:trainer_classes/75"
+msgid "table:trainer_classes/75"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 76)
+#. original lines: 1, widths px: 34
+#: 0x023e934
+msgctxt "table:trainer_classes/76"
+msgid "table:trainer_classes/76"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 77)
+#. original lines: 1, widths px: 40
+#: 0x023e941
+msgctxt "table:trainer_classes/77"
+msgid "table:trainer_classes/77"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 78)
+#. original lines: 1, widths px: 29
+#: 0x023e94e
+msgctxt "table:trainer_classes/78"
+msgid "table:trainer_classes/78"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 79)
+#. original lines: 1, widths px: 62
+#: 0x023e95b
+msgctxt "table:trainer_classes/79"
+msgid "table:trainer_classes/79"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 80)
+#. original lines: 1, widths px: 56
+#: 0x023e968
+msgctxt "table:trainer_classes/80"
+msgid "table:trainer_classes/80"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 81)
+#. original lines: 1, widths px: 27
+#: 0x023e975
+msgctxt "table:trainer_classes/81"
+msgid "table:trainer_classes/81"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 82)
+#. original lines: 1, widths px: 46
+#: 0x023e982
+msgctxt "table:trainer_classes/82"
+msgid "table:trainer_classes/82"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 83)
+#. original lines: 1, widths px: 22
+#: 0x023e98f
+msgctxt "table:trainer_classes/83"
+msgid "table:trainer_classes/83"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 84)
+#. original lines: 1, widths px: 35
+#: 0x023e99c
+msgctxt "table:trainer_classes/84"
+msgid "table:trainer_classes/84"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 85)
+#. original lines: 1, widths px: 36
+#: 0x023e9a9
+msgctxt "table:trainer_classes/85"
+msgid "table:trainer_classes/85"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 86)
+#. original lines: 1, widths px: 61
+#: 0x023e9b6
+msgctxt "table:trainer_classes/86"
+msgid "table:trainer_classes/86"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 16 characters max (table trainer_classes, index 87)
+#. original lines: 1, widths px: 55
+#: 0x023e9c3
+msgctxt "table:trainer_classes/87"
+msgid "table:trainer_classes/87"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 88)
+#. original lines: 1, widths px: 50
+#: 0x023e9d0
+msgctxt "table:trainer_classes/88"
+msgid "table:trainer_classes/88"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 89)
+#. original lines: 1, widths px: 27
+#: 0x023e9dd
+msgctxt "table:trainer_classes/89"
+msgid "table:trainer_classes/89"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 90)
+#. original lines: 1, widths px: 59
+#: 0x023e9ea
+msgctxt "table:trainer_classes/90"
+msgid "table:trainer_classes/90"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 91)
+#. original lines: 1, widths px: 34
+#: 0x023e9f7
+msgctxt "table:trainer_classes/91"
+msgid "table:trainer_classes/91"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 92)
+#. original lines: 1, widths px: 26
+#: 0x023ea04
+msgctxt "table:trainer_classes/92"
+msgid "table:trainer_classes/92"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 93)
+#. original lines: 1, widths px: 42
+#: 0x023ea11
+msgctxt "table:trainer_classes/93"
+msgid "table:trainer_classes/93"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 94)
+#. original lines: 1, widths px: 72
+#: 0x023ea1e
+msgctxt "table:trainer_classes/94"
+msgid "table:trainer_classes/94"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 95)
+#. original lines: 1, widths px: 49
+#: 0x023ea2b
+msgctxt "table:trainer_classes/95"
+msgid "table:trainer_classes/95"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 14 characters max (table trainer_classes, index 96)
+#. original lines: 1, widths px: 66
+#: 0x023ea38
+msgctxt "table:trainer_classes/96"
+msgid "table:trainer_classes/96"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 97)
+#. original lines: 1, widths px: 51
+#: 0x023ea45
+msgctxt "table:trainer_classes/97"
+msgid "table:trainer_classes/97"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 98)
+#. original lines: 1, widths px: 34
+#: 0x023ea52
+msgctxt "table:trainer_classes/98"
+msgid "table:trainer_classes/98"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 99)
+#. original lines: 1, widths px: 59
+#: 0x023ea5f
+msgctxt "table:trainer_classes/99"
+msgid "table:trainer_classes/99"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 100)
+#. original lines: 1, widths px: 29
+#: 0x023ea6c
+msgctxt "table:trainer_classes/100"
+msgid "table:trainer_classes/100"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 101)
+#. original lines: 1, widths px: 62
+#: 0x023ea79
+msgctxt "table:trainer_classes/101"
+msgid "table:trainer_classes/101"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 102)
+#. original lines: 1, widths px: 56
+#: 0x023ea86
+msgctxt "table:trainer_classes/102"
+msgid "table:trainer_classes/102"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 103)
+#. original lines: 1, widths px: 59
+#: 0x023ea93
+msgctxt "table:trainer_classes/103"
+msgid "table:trainer_classes/103"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. inline field: 12 characters; long-name pointer: 17 characters max (table trainer_classes, index 104)
+#. original lines: 1, widths px: 60
+#: 0x023eaa0
+msgctxt "table:trainer_classes/104"
+msgid "table:trainer_classes/104"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 105)
+#. original lines: 1, widths px: 24
+#: 0x023eaad
+msgctxt "table:trainer_classes/105"
+msgid "table:trainer_classes/105"
+msgstr ""
+
+#. category: table:trainer_classes; mode: field
+#. fixed field: 12 characters max (table trainer_classes, index 106)
+#. original lines: 1, widths px: 37
+#: 0x023eaba
+msgctxt "table:trainer_classes/106"
+msgid "table:trainer_classes/106"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1eea039
+msgctxt "hash:94d71412"
+msgid "hash:94d71412"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 71
+#: 0x1f2cb5a
+msgctxt "hash:837231e7"
+msgid "hash:837231e7"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 104
+#: 0x1f2cb68
+msgctxt "hash:0d457bc3"
+msgid "hash:0d457bc3"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 112
+#: 0x1f2cb7c
+msgctxt "hash:0fe4c7b0"
+msgid "hash:0fe4c7b0"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x1f949ec
+msgctxt "hash:75beb4bd"
+msgid "hash:75beb4bd"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 89
+#: 0x1fa1ee4
+msgctxt "hash:c73bd3ef"
+msgid "hash:c73bd3ef"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 117
+#: 0x1fa1ef5
+msgctxt "hash:622f8820"
+msgid "hash:622f8820"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x1facb8d
+msgctxt "hash:2f7bfe8a"
+msgid "hash:2f7bfe8a"
+msgstr ""
+
+#. category: name-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x1fae6f4
+msgctxt "hash:09359924"
+msgid "hash:09359924"
+msgstr ""

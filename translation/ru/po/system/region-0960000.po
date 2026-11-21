@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0960000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 114
+#: 0x0964160
+msgctxt "hash:7e31c6a9"
+msgid "hash:7e31c6a9"
+msgstr "Свой приём: тип Фея"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 130
+#: 0x0964180
+msgctxt "hash:be62ec90"
+msgid "hash:be62ec90"
+msgstr "Свой покемон: тип Фея"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 202, 148, 100, 78
+#: 0x09641a0
+msgctxt "hash:213d8217"
+msgid "hash:213d8217"
+msgstr ""
+"Действие приёмов противника\\nна своего покемона:\\p   {F9 15}: Боевой, "
+"Насекомое, Фея\\p   {F9 16}: Привидение, Тёмный\\p   {F9 17}: Психо"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 174, 208, 198, 69, 67
+#: 0x0964210
+msgctxt "hash:081442a1"
+msgid "hash:081442a1"
+msgstr ""
+"Действие на покемона противника:\\p   {F9 15}: Обычный, Камень, Сталь, "
+"Лёд,\\l       Тёмный\\p   {F9 16}: Полёт, Яд, Жук, Психо, Фея\\p   {F9 "
+"17}: Привидение"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 202, 159, 124
+#: 0x09642a0
+msgctxt "hash:e4681677"
+msgid "hash:e4681677"
+msgstr ""
+"Действие приёмов противника\\nна своего покемона:\\p   {F9 15}: Летающий, "
+"Психо, Фея\\p   {F9 16}: Камень, Насекомое, Тёмный"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 174, 104, 189, 67
+#: 0x0964300
+msgctxt "hash:67ba60ee"
+msgid "hash:67ba60ee"
+msgstr ""
+"Действие на покемона противника:\\p   {F9 15}: Трава, Фея\\p   {F9 16}: "
+"Яд, Земля, Камень, Привидение\\p   {F9 17}: Сталь"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 202, 123, 196, 69
+#: 0x0964370
+msgctxt "hash:48404d96"
+msgid "hash:48404d96"
+msgstr ""
+"Действие приёмов противника\\nна своего покемона:\\p   {F9 15}: Земля, "
+"Психо\\p   {F9 16}: Боевой, Яд, Насекомое,\\l       Трава, Фея"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 174, 149, 211, 140
+#: 0x09643e0
+msgctxt "hash:2713058b"
+msgid "hash:2713058b"
+msgstr ""
+"Действие на покемона противника:\\p   {F9 15}: Трава, Психо, Тёмный\\p   "
+"{F9 16}: Боевой, Летающий, Яд,\\l       Привидение, Сталь, Огонь, Фея"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 174, 129, 192
+#: 0x0964460
+msgctxt "hash:b75fcbbb"
+msgid "hash:b75fcbbb"
+msgstr ""
+"Действие на покемона противника:\\p   {F9 15}: Камень, Лёд, Фея\\p   {F9 "
+"16}: Сталь, Огонь, Вода, Электро"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 202, 146, 171, 98
+#: 0x09644c0
+msgctxt "hash:eebb0ac9"
+msgid "hash:eebb0ac9"
+msgstr ""
+"Действие приёмов противника\\nна своего покемона:\\p   {F9 15}: Земля, "
+"Камень, Вода\\p   {F9 16}: Насекомое, Сталь, Огонь,\\l       Трава, Лёд, "
+"Фея"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 174, 73, 67, 66
+#: 0x0964540
+msgctxt "hash:654c8062"
+msgid "hash:654c8062"
+msgstr ""
+"Действие на покемона противника:\\p   {F9 15}: Дракон\\p   {F9 16}: "
+"Сталь\\p   {F9 17}: Фея"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 202, 140, 191
+#: 0x0964590
+msgctxt "hash:6a9e49e3"
+msgid "hash:6a9e49e3"
+msgstr ""
+"Действие приёмов противника\\nна своего покемона:\\p   {F9 15}: Лёд, "
+"Дракон, Фея\\p   {F9 16}: Огонь, Вода, Трава, Электро"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 174, 159, 142
+#: 0x0964600
+msgctxt "hash:9f21af1b"
+msgid "hash:9f21af1b"
+msgstr ""
+"Действие на покемона противника:\\p   {F9 15}: Боевой, Дракон, Тёмный\\p  "
+" {F9 16}: Яд, Сталь, Огонь"
+
+#. reach: never shown (reach study: unreachable system text; review: Help system disabled: the RunHelpSystemCallback call in CallCallbacks is replaced at 0x0800051A by C0 46 C0 46 C0 46 C0 46 C0 46 (five NOPs). The base ROM has no Thumb BL or ARM B/BL targeting 0x0813B870 and no stored pointer 0x0813B870 or 0x0813B871 at any byte offset. Its button-mode check at 0x0813B8C2 is 1D E0 (unconditional branch to 0x0813B900), where 00 20 11 E1 returns zero through 0x0813BB28. The tables have a reader: 0x0812BEB8 (0A 48) loads question table 0x08964000 from 0x0812BEE4 (00 40 96 08), and 0x0812BEC2 (09 4A) loads answer table 0x08964098 from 0x0812BEE8 (98 40 96 08). That reader belongs to 0x0812BE10, called at 0x0812BC2E (00 F0 EF F8) from 0x0812BB9C, itself called at 0x0813BA7C (F0 F7 8E F8) inside the disabled callback.)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 202, 110, 143, 73
+#: 0x0964660
+msgctxt "hash:5e7bf186"
+msgid "hash:5e7bf186"
+msgstr ""
+"Действие приёмов противника\\nна своего покемона:\\p   {F9 15}: Яд, "
+"Сталь\\p   {F9 16}: Боевой, Насекомое, Тёмный\\p   {F9 17}: Дракон"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x0964a54
+msgctxt "hash:e1f48435"
+msgid "hash:e1f48435"
+msgstr "ОЖ  {B_COPY_VAR_1}"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 22
+#: 0x0964a5b
+msgctxt "hash:a419ea61"
+msgid "hash:a419ea61"
+msgstr "Атк {B_COPY_VAR_1}"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 23
+#: 0x0964a62
+msgctxt "hash:0bb780db"
+msgid "hash:0bb780db"
+msgstr "Зщт {B_COPY_VAR_1}"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x0964a69
+msgctxt "hash:66b3bbb7"
+msgid "hash:66b3bbb7"
+msgstr "Скр {B_COPY_VAR_1}"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x0964a70
+msgctxt "hash:5af10bdb"
+msgid "hash:5af10bdb"
+msgstr "ОАт {B_COPY_VAR_1}"
+
+#. category: data-table; mode: battle
+#. original lines: 1, widths px: 24
+#: 0x0964a77
+msgctxt "hash:c8d1edd8"
+msgid "hash:c8d1edd8"
+msgstr "ОЗщ {B_COPY_VAR_1}"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 62, 92
+#: 0x0964a7e
+msgctxt "hash:534db473"
+msgid "hash:534db473"
+msgstr "Поймайте покемона,\\nчтобы узнать больше!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 127
+#: 0x096c05c
+msgctxt "hash:6c8f2df0"
+msgid "hash:6c8f2df0"
+msgstr "{B_ATK_NAME_WITH_PREFIX} меняет\\nместами Атаку и Защиту!"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 72, 184, 33
+#: 0x096c080
+msgctxt "hash:f2468245"
+msgid "hash:f2468245"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} и\\n{B_DEF_NAME_WITH_PREFIX} меняются\\l"
+"изменениями Атаки и Особой атаки!"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 72, 191, 33
+#: 0x096c0bb
+msgctxt "hash:46dd93ea"
+msgid "hash:46dd93ea"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} и\\n{B_DEF_NAME_WITH_PREFIX} меняются\\l"
+"изменениями Защиты и Особой защиты!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 50, 68
+#: 0x096c0f7
+msgctxt "hash:91886fa1"
+msgid "hash:91886fa1"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} и\\n{B_DEF_NAME_WITH_PREFIX} меняются\\l"
+"Скоростью!"
+
+#. category: code; mode: battle
+#. original lines: 3, widths px: 50, 94, 6
+#: 0x096c112
+msgctxt "hash:6044b23d"
+msgid "hash:6044b23d"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} и\\n{B_DEF_NAME_WITH_PREFIX} меняются\\l"
+"изменениями характеристик!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 60, 124
+#: 0x096c134
+msgctxt "hash:a547398f"
+msgid "hash:a547398f"
+msgstr "{B_ATK_NAME_WITH_PREFIX} и цель делят\\nсилу поровну!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 60, 124
+#: 0x096c159
+msgctxt "hash:c1a335f3"
+msgid "hash:c1a335f3"
+msgstr "{B_ATK_NAME_WITH_PREFIX} и цель делят\\nзащиту поровну!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 99, 35
+#: 0x096c1d7
+msgctxt "hash:52b52f35"
+msgid "hash:52b52f35"
+msgstr "Болото окружает\\nкоманду {FD 35}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 130, 35
+#: 0x096c1f2
+msgctxt "hash:80fdbaf7"
+msgid "hash:80fdbaf7"
+msgstr "Море огня окружает\\nкоманду {FD 35}!"
+
+#. category: code; mode: battle
+#. original lines: 2, widths px: 163, 87
+#: 0x096c213
+msgctxt "hash:56deba66"
+msgid "hash:56deba66"
+msgstr "В небе на стороне команды\\n{FD 36} появилась радуга!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 146
+#: 0x096db7c
+msgctxt "hash:7d1d53a7"
+msgid "hash:7d1d53a7"
+msgstr "Проливной дождь прекратился!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 198
+#: 0x096db97
+msgctxt "hash:0816b345"
+msgid "hash:0816b345"
+msgstr "Крайне яркое солнце померкло!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 166, 59
+#: 0x096dbbb
+msgctxt "hash:ddd0bd43"
+msgid "hash:ddd0bd43"
+msgstr "Таинственный ветер стих!"

@@ -1,0 +1,28 @@
+[pokedex.sprites]
+
+[pokedex.sprites.front]
+base = 0x1A1D5B4
+stride = 8
+count = 1294
+size = 4
+tag = 6
+
+[pokedex.sprites.back]
+base = 0x19DE42C
+stride = 8
+count = 1294
+size = 4
+tag = 6
+
+[pokedex.sprites.palettes]
+base = 0x1A32BDC
+stride = 8
+count = 1294
+tag = 4
+
+[pokedex.sprites.shiny_palettes]
+base = 0x1A3F77C
+stride = 8
+count = 1294
+tag = 4
+

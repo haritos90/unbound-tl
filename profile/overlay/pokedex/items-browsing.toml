@@ -1,0 +1,21 @@
+[pokedex.items_browsing.0]
+status = "unreleased"
+rom = [
+  { offset = 0x876200, size = 44, sha256 = "fe4a0e6e7f4b11255f51df63a4b2587de897770a89e7cecbbeae91589ff422fb" },
+]
+evidence = "The item name is blank or question marks only; its description is whitespace. Price, held effect, battle usage and battle-use function are zero, with no taught move or extracted acquisition sources."
+
+[pokedex.items_browsing.87]
+status = "unreleased"
+rom = [
+  { offset = 0x8770F4, size = 44, sha256 = "4ed7f85690d755109b74113f54278efc4769424e11127b9de540ad82a8188cbc" },
+]
+evidence = "The item name is blank or question marks only; its description is whitespace. Price, held effect, battle usage and battle-use function are zero, with no taught move or extracted acquisition sources."
+
+[pokedex.items_browsing.347]
+status = "unreleased"
+rom = [
+  { offset = 0x879DA4, size = 44, sha256 = "0255fff82e20aa5d3bb1de303aa126cefceda9841855a5408e4fd1109e5bb77b" },
+]
+evidence = "The item name is blank or question marks only; its description is whitespace. Price, held effect, battle usage and battle-use function are zero, with no taught move or extracted acquisition sources."
+

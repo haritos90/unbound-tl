@@ -1,0 +1,4 @@
+# Translation version MAJOR.MINOR.PATCH, independent of the base game.
+# the build substitutes it for @VERSION@ before layout.
+# every change to the translated game raises PATCH.
+version = "1.0.7"

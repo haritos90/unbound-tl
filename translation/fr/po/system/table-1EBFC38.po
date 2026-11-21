@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1EBFC38\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 180, 94
+#: 0x1f56117
+msgctxt "hash:880c84eb"
+msgid "hash:880c84eb"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 137, 112
+#: 0x1f5614a
+msgctxt "hash:84a62cec"
+msgid "hash:84a62cec"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 165, 112
+#: 0x1f56178
+msgctxt "hash:c43302e0"
+msgid "hash:c43302e0"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 190
+#: 0x1f561ab
+msgctxt "hash:776a495c"
+msgid "hash:776a495c"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 165, 100
+#: 0x1f561ce
+msgctxt "hash:7969d6ab"
+msgid "hash:7969d6ab"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 173
+#: 0x1f56201
+msgctxt "hash:1dc1e5e6"
+msgid "hash:1dc1e5e6"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 156, 69
+#: 0x1f56220
+msgctxt "hash:1dbc5d3f"
+msgid "hash:1dbc5d3f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 185, 96
+#: 0x1f5624b
+msgctxt "hash:b032285f"
+msgid "hash:b032285f"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 172
+#: 0x1f5627f
+msgctxt "hash:4a11e138"
+msgid "hash:4a11e138"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 196, 84
+#: 0x1f5629e
+msgctxt "hash:4eaaef38"
+msgid "hash:4eaaef38"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 192, 175
+#: 0x1f562d1
+msgctxt "hash:93b43340"
+msgid "hash:93b43340"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 176, 175
+#: 0x1f56313
+msgctxt "hash:27dcd99a"
+msgid "hash:27dcd99a"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 181
+#: 0x1f56353
+msgctxt "hash:35ebd28c"
+msgid "hash:35ebd28c"
+msgstr ""

@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/frozen-tomb\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 54, 59, 54, 53
+#: 0x1f5ac25
+msgctxt "map:2.52/sign:0/4"
+msgid "map:2.52/sign:0/4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 157
+#: 0x1f5ac4e
+msgctxt "map:2.52/npc:0/0"
+msgid "map:2.52/npc:0/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 37
+#: 0x1f5ac91
+msgctxt "map:2.52/npc:0/1"
+msgid "map:2.52/npc:0/1"
+msgstr ""

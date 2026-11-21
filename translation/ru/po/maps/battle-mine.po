@@ -1,0 +1,485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/battle-mine\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 153, 166, 34
+#: 0x1f8c07c
+msgctxt "map:2.5/npc:0/0"
+msgid "map:2.5/npc:0/0"
+msgstr "Добро пожаловать в Боевую шахту!\\pЯ ваш гид по Боевым залам."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 186, 84
+#: 0x1f8c0bd
+msgctxt "map:2.5/npc:0/1"
+msgid "map:2.5/npc:0/1"
+msgstr "Хотите пройти испытание в Боевой шахте?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 198, 143
+#: 0x1f8c0ef
+msgctxt "map:2.5/npc:0/6"
+msgid "map:2.5/npc:0/6"
+msgstr "Какой формат вы выберете? У каждого свой набор категорий."
+
+#. category: script; mode: field
+#. original lines: 28, widths px: 180, 105, 181, 139, 188, 183, 148, 182, 189, 175, 186, 190, 118, 188, 125, 188, 157, 172, 179, 177, 162, 179, 165, 48, 186, 174, 113, 138
+#: 0x1f8c12e
+msgctxt "map:2.5/npc:0/32"
+msgid "map:2.5/npc:0/32"
+msgstr ""
+"Боевая шахта - это площадка для особых испытаний.\\pНачатое испытание "
+"длится, пока вы не победите Шахтёра-проходчика или не решите отдохнуть.\\p"
+"На каждом ярусе шахты, куда вы спуститесь, вас ждёт тренер.\\pОт формата "
+"зависит категория боя, а от глубины - остальные настройки: одиночная или "
+"двойная битва, уровень, размер команды, инверсные битвы и динамакс.\\p"
+"Список категорий смотрите в разделе “{COLOR 06}Категории боёв{COLOR "
+"08}”.\\pЗа каждого побеждённого тренера вы получаете {COLOR 06}боевые "
+"очки{COLOR 08} ({COLOR 06}БО{COLOR 08}).\\pКроме того, побеждённые "
+"тренеры иногда оставляют добытые в шахте предметы - их можно забрать.\\p"
+"Если захотите прервать испытание, ваш результат сохранится до тех пор, "
+"пока вы не решите продолжить.\\pЕсли в какой-то момент вы уйдёте, не "
+"сохранившись, вас дисквалифицируют.\\pПожалуйста, имейте это в виду!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 199, 123, 72, 102
+#: 0x1f8c485
+msgctxt "map:2.5/npc:0/33"
+msgid "map:2.5/npc:0/33"
+msgstr ""
+"Для своих боёв вы можете настроить следующее:\\p-Музыка боя\\n-Фон боя"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 191, 176, 148, 194, 184, 188, 194, 173, 80
+#: 0x1f8c4e2
+msgctxt "map:2.5/npc:0/34"
+msgid "map:2.5/npc:0/34"
+msgstr ""
+"В Боевой шахте от выбранного формата зависит, какую категорию можно "
+"выбрать для каждого боя.\\pУ каждой категории свои правила, и бои в ней "
+"проходят по-особому.\\pНабор категорий доступен, только если вся ваша "
+"команда из шести покемонов подходит под каждую его категорию."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 178, 63
+#: 0x1f8c5ff
+msgctxt "map:2.5/npc:0/35"
+msgid "map:2.5/npc:0/35"
+msgstr "О каком наборе категорий рассказать?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 194, 182, 178, 63
+#: 0x1f8c62c
+msgctxt "map:2.5/npc:0/71"
+msgid "map:2.5/npc:0/71"
+msgstr ""
+"Учтите: в этом формате бросить вызов Шахтёру-проходчику нельзя.\\pО каком "
+"наборе категорий рассказать?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 98, 165
+#: 0x1f8c69e
+msgctxt "map:2.5/npc:0/42"
+msgid "map:2.5/npc:0/42"
+msgstr "{COLOR 06}{STR_VAR_1}{COLOR 08}: о какой категории рассказать?"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 196, 163, 158, 5, 161, 158, 193, 191
+#: 0x1f8c6d7
+msgctxt "map:2.5/npc:0/14"
+msgid "map:2.5/npc:0/14"
+msgstr ""
+"Прошу прощения, но ваша команда не подходит для этого формата.\\pПроблема "
+"с покемоном {STR_VAR_1}.\\pПроверьте, какие категории входят в выбранный "
+"формат, и убедитесь, что ваша команда из {COLOR 06}6{COLOR 08} покемонов "
+"соответствует каждой из них."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 144
+#: 0x1f8c7c5
+msgctxt "map:2.5/npc:0/16"
+msgid "map:2.5/npc:0/16"
+msgstr "Садитесь в вагонетку позади меня и спускайтесь в шахту."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 176, 85, 145
+#: 0x1f8c803
+msgctxt "map:2.5/mapscript:0/7"
+msgid "map:2.5/mapscript:0/7"
+msgstr ""
+"Поздравляем с победой над Шахтёром-проходчиком!\\pБудем рады видеть вас "
+"снова!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 64
+#: 0x1f8c84e
+msgctxt "map:2.5/npc:0/7"
+msgid "map:2.5/npc:0/7"
+msgstr "Формат “Пещера”"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 83
+#: 0x1f8c85a
+msgctxt "map:2.5/npc:0/8"
+msgid "map:2.5/npc:0/8"
+msgstr "Формат “Гора”"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f8c86a
+msgctxt "map:2.5/npc:0/9"
+msgid "map:2.5/npc:0/9"
+msgstr "Формат “Галька”"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 94
+#: 0x1f8c878
+msgctxt "map:2.5/npc:0/10"
+msgid "map:2.5/npc:0/10"
+msgstr "Формат “Кордильера”"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 174, 162
+#: 0x1f8c88a
+msgctxt "map:2.4/npc:0/12"
+msgid "map:2.4/npc:0/12"
+msgstr "Пройдите глубже в шахту и начните бой."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 158, 122
+#: 0x1f8c8c9
+msgctxt "map:2.4/npc:0/4"
+msgid "map:2.4/npc:0/4"
+msgstr "Садитесь в вагонетку и спускайтесь дальше."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 169, 71, 54, 175, 161, 100, 63, 139, 121
+#: 0x1f8c8fd
+msgctxt "map:2.4/npc:1/0"
+msgid "map:2.4/npc:1/0"
+msgstr ""
+"Вид боя с этим тренером - {COLOR 06}{FD 08}{COLOR 02}, категория - {COLOR "
+"06}{FD 07}{COLOR 02}.\\pУровень команды - {COLOR 06}{FD 09}{COLOR 02}, "
+"инверсные битвы {COLOR 06}{FD 0B}{COLOR 02}.\\pДинамаксировать покемонов "
+"также {COLOR 06}{FD 0C}{COLOR 02}.\\pВыберите для боя команду из {COLOR "
+"06}{FD 0A}{COLOR 02} покемонов."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 171, 174, 54, 175, 177, 100, 63, 191, 75
+#: 0x1f8c9f3
+msgctxt "map:2.4/npc:1/1"
+msgid "map:2.4/npc:1/1"
+msgstr ""
+"Вид боя с Мозгом Рубежа - {COLOR 06}одиночная битва{COLOR 02}, категория "
+"- {COLOR 06}{FD 07}{COLOR 02}.\\pУровень команды - {COLOR 06}{FD "
+"09}{COLOR 02}, инверсные битвы {COLOR 06}выключены{COLOR 02}.\\p"
+"Динамаксировать покемонов также {COLOR 06}{FD 0C}{COLOR 02}.\\pВыберите "
+"для боя команду из {COLOR 06}3{COLOR 02} покемонов."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 171, 177, 54, 175, 172, 141, 63, 191, 75
+#: 0x1f8cafa
+msgctxt "map:2.4/npc:1/11"
+msgid "map:2.4/npc:1/11"
+msgstr ""
+"Вид боя с Мозгом Рубежа - {COLOR 06}двойная битва{COLOR 02}, категория - "
+"{COLOR 06}{FD 07}{COLOR 02}.\\pУровень команды - {COLOR 06}{FD 09}{COLOR "
+"02}, инверсные битвы {COLOR 06}включены{COLOR 02}.\\pДинамаксировать "
+"покемонов также {COLOR 06}можно{COLOR 02}.\\pВыберите для боя команду из "
+"{COLOR 06}6{COLOR 02} покемонов."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 29
+#: 0x1f8cc05
+msgctxt "map:2.4/npc:1/2"
+msgid "map:2.4/npc:1/2"
+msgstr "Пабло"
+
+#. category: script; mode: field
+#. original lines: 16, widths px: 149, 178, 176, 142, 151, 111, 192, 102, 74, 158, 57, 173, 174, 46, 48, 187
+#: 0x1f8cc0b
+msgctxt "map:2.4/npc:1/3"
+msgid "map:2.4/npc:1/3"
+msgstr ""
+"Так-так, вот ты и внизу.\\pЯ слышал весь этот шум наверху, так что "
+"примерно представляю, как ты сражаешься.\\pИзо дня в день я вкалываю в "
+"этой шахте, всё копаю и копаю…\\pЖду того, кому хватит сил добраться до "
+"самого низа…\\pИ ради чего?\\pНикто так и не произвёл на меня "
+"неизгладимого впечатления.\\pНо, судя по тому, что я слышал, тебе, "
+"похоже, есть что мне показать.\\pНу, давай. Посмотрим, развеешь ли ты мою "
+"скуку."
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 146, 174, 164, 80, 162, 173, 174, 179, 61, 178
+#: 0x1f8cd94
+msgctxt "map:2.4/npc:1/13"
+msgid "map:2.4/npc:1/13"
+msgstr ""
+"Значит, ты снова здесь.\\pИ если наверху я слышал тебя, то хватка у тебя "
+"стала ещё крепче.\\pНу что ж, будет интересно!\\pЯ всё это время ждал…\\p"
+"…тренера, который сможет по-настоящему раскрыть в бою со мной всю свою "
+"внутреннюю силу!\\pДавай, покажи всё, что умеешь!"
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 191, 158, 82, 191, 122, 194, 151, 190, 139, 190, 116, 178, 28, 123
+#: 0x1f8ceaa
+msgctxt "map:2.4/npc:1/5"
+msgid "map:2.4/npc:1/5"
+msgstr ""
+"Пожалуй, день прошёл не совсем впустую, раз уж ко мне заглянул такой "
+"сильный тренер, как ты.\\pПриходи ещё, когда я соберу команду "
+"посерьёзнее.\\pИ вот тогда произведи на меня НАСТОЯЩЕЕ впечатление.\\p"
+"Такое, какое бывает, только когда оба тренера бьются в полную силу.\\pА "
+"пока удачи тебе на пути вглубь шахты.\\pДальше будет только труднее.\\p"
+"Ещё увидимся…{PAUSE 18} наверное…"
+
+#. category: script; mode: field
+#. original lines: 14, widths px: 188, 148, 156, 124, 151, 187, 66, 163, 177, 191, 118, 167, 166, 87
+#: 0x1f8d026
+msgctxt "map:2.4/npc:1/7"
+msgid "map:2.4/npc:1/7"
+msgstr ""
+"Значит, ты и правда понимаешь, какого тренера я ищу.\\pИменно в боях "
+"тренеры могут понять друг друга.\\pСтратегии, приёмы, покемоны… У других "
+"можно многому научиться.\\pНо главное - чтобы тренер вкладывал в бой "
+"душу.\\pИ бой у нас сегодня вышел что надо!\\pСпускайся дальше вглубь "
+"шахты, и пусть остальные увидят, как ты блистаешь!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 79
+#: 0x1f8d227
+msgctxt "map:2.4/npc:0/6"
+msgid "map:2.4/npc:0/6"
+msgstr "Шахтёр-проходчик"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 182, 170, 78, 186, 158, 131, 166, 190, 43
+#: 0x1f8d236
+msgctxt "map:2.5/npc:1/0"
+msgid "map:2.5/npc:1/0"
+msgstr ""
+"В Боевой шахте бывает чертовски трудно уследить, какой тип против какого "
+"хорош.\\pЭтот покемон такого-то типа, а тот слаб против вот такого "
+"приёма… С ума сойти можно!\\pТут-то, по-моему, и пора пользоваться "
+"подсветкой в меню приёмов."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 152, 95, 163, 179, 148, 177, 28, 159, 193
+#: 0x1f90867
+msgctxt "map:2.5/npc:0/49"
+msgid "map:2.5/npc:0/49"
+msgstr ""
+"Это основная категория Smogon, составленная по частоте выбора.\\pВ OU "
+"можно использовать любого покемона, кроме тех, что отправлены в категорию "
+"Uber.\\pПодробнее читайте\\nна обеих страницах:\\l{COLOR "
+"06}smogon.com/dex/ss/formats/ou\\lsmogon.com/dex/ss/formats/doubles/"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 157, 191, 151, 182, 170
+#: 0x1f9095a
+msgctxt "map:2.5/npc:0/76"
+msgid "map:2.5/npc:0/76"
+msgstr ""
+"Это самая открытая из категорий Smogon: здесь разрешены почти все виды "
+"покемонов.\\pПодробнее читайте здесь:\\n{COLOR "
+"06}smogon.com/dex/ss/formats/uber"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 183, 191, 195, 116, 182, 159
+#: 0x1f909fc
+msgctxt "map:2.5/npc:0/68"
+msgid "map:2.5/npc:0/68"
+msgstr ""
+"Здесь разрешены только покемоны, которые ещё не эволюционировали, но "
+"способны к эволюции и доступны на 5-м уровне.\\pПодробнее читайте "
+"здесь:\\n{COLOR 06}smogon.com/dex/sm/formats/lc"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 188, 178, 119, 183, 44, 182, 200
+#: 0x1f90ed0
+msgctxt "map:2.5/npc:0/50"
+msgid "map:2.5/npc:0/50"
+msgstr ""
+"Smogon Camomons - формат, в котором все покемоны получают типы своих "
+"первых двух приёмов.\\pДействуют стандартные правила Smogon OU.\\p"
+"Подробнее читайте здесь:\\n{COLOR 06}smogon.com/dex/sm/formats/camomons/"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 141, 196, 136, 153, 114, 177, 152, 75, 171
+#: 0x1f90f9c
+msgctxt "map:2.5/npc:0/77"
+msgid "map:2.5/npc:0/77"
+msgstr ""
+"Uber Camomons - формат, в котором все покемоны получают типы своих первых "
+"двух приёмов.\\pДействуют стандартные правила Smogon Uber.\\pПодробнее "
+"читайте в пояснении\\nк “{COLOR 06}Smogon Camomons{FD 07}”\\lи здесь:\\l"
+"{COLOR 06}smogon.com/dex/sm/formats/uber"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 173, 196, 136, 185, 146, 177, 152, 75, 159
+#: 0x1f91096
+msgctxt "map:2.5/npc:0/69"
+msgid "map:2.5/npc:0/69"
+msgstr ""
+"Малый кубок Camomons - формат, в котором все покемоны получают типы своих "
+"первых двух приёмов.\\pДействуют стандартные правила Малого кубка "
+"Smogon.\\pПодробнее читайте в пояснении\\nк “{COLOR 06}Smogon Camomons{FD "
+"07}”\\lи здесь:\\l{COLOR 06}smogon.com/dex/sm/formats/lc"
+
+#. category: script; mode: field
+#. original lines: 20, widths px: 193, 186, 199, 190, 204, 150, 151, 161, 142, 182, 170, 174, 89, 144, 161, 197, 23, 182, 147, 103
+#: 0x1f9148e
+msgctxt "map:2.5/npc:0/59"
+msgid "map:2.5/npc:0/59"
+msgstr ""
+"Smogon Scalemons - формат, где базовые параметры покемонов, кроме ОЖ, "
+"меняются так, чтобы их сумма была как можно ближе к 600.\\pДействуют "
+"стандартные правила Smogon Ubers, но запрещённые там покемоны "
+"разрешены.\\pНе допускаются покемоны, которые держат эти предметы:\\p"
+"Чешуя глубин, Клык глубин,\\nИвиум Z, Эвиолит, Электросфера,\\lКрепкая "
+"кость, Генгарит, Мавайлит\\lи Медичамит.\\pНе допускаются покемоны с "
+"этими талантами:\\pЗападня, Большая сила и Метка тени.\\pПодробнее "
+"читайте здесь:\\n{COLOR 06}smogon.com/forums/threads/\\lscalemons.3607934/"
+
+#. category: script; mode: field
+#. original lines: 22, widths px: 198, 176, 192, 198, 63, 200, 185, 161, 142, 188, 193, 146, 144, 161, 204, 85, 179, 110, 129, 182, 214, 116
+#: 0x1f916d8
+msgctxt "map:2.5/npc:0/61"
+msgid "map:2.5/npc:0/61"
+msgstr ""
+"Smogon Averagemons - формат, призванный уравнять шансы.\\pВсе покемоны "
+"получают одинаковые базовые параметры: ровно 100 в каждом.\\pДействуют "
+"стандартные правила Smogon OU без списков запретов.\\pНе допускаются "
+"покемоны, которые держат эти предметы:\\pКрепкая кость, Клык глубин, "
+"Электросфера, Эвиолит, Мавайлит, Генгарит, Медичамит и Ивиум Z.\\pНе "
+"допускаются покемоны с этими талантами:\\pБольшая сила, Чистая сила, "
+"Метка тени и Западня.\\pНе допускаются покемоны с этими приёмами:\\p"
+"Болтовня и Эстафета.\\pПодробнее читайте здесь:\\n{COLOR "
+"06}https://www.smogon.com/\\lforums/threads/averagemons.3590605/"
+
+#. category: script; mode: field
+#. original lines: 16, widths px: 184, 190, 167, 139, 161, 78, 161, 142, 167, 114, 144, 161, 151, 182, 194, 48
+#: 0x1f91970
+msgctxt "map:2.5/npc:0/60"
+msgid "map:2.5/npc:0/60"
+msgstr ""
+"Кубок 350 Smogon - формат, где у покемонов с суммой базовых параметров "
+"ниже 350 все базовые параметры удваиваются.\\pДействуют стандартные "
+"правила Smogon Ubers.\\pНе допускаются покемоны, которые держат эти "
+"предметы:\\pЭвиолит, Электросфера, Клык глубин и Ивиум Z.\\pНе "
+"допускаются покемоны с этими талантами:\\pМетка тени и Западня.\\p"
+"Подробнее читайте здесь:\\n{COLOR 06}smogon.com/forums/threads/350-cup.\\l"
+"3589641/"
+
+#. category: script; mode: field
+#. original lines: 18, widths px: 173, 181, 151, 152, 45, 180, 115, 185, 193, 174, 180, 174, 32, 183, 103, 182, 147, 158
+#: 0x1f91b2b
+msgctxt "map:2.5/npc:0/51"
+msgid "map:2.5/npc:0/51"
+msgstr ""
+"Бенджамин Баттерфри Smogon - формат, в котором побеждённый покемон не "
+"выбывает из боя, а возвращается к прежней стадии эволюции.\\pВыбыть из "
+"боя покемон может, только когда возвращаться уже некуда.\\pПри этом все "
+"изменения его параметров сбрасываются, а особое состояние излечивается.\\p"
+"Кроме того, покемон забывает все приёмы, которые не может выучить "
+"естественным путём.\\pДействуют стандартные правила Smogon OU.\\p"
+"Подробнее читайте здесь:\\n{COLOR 06}smogon.com/forums/threads/\\l"
+"benjamin-butterfree.3605680/"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 53
+#: 0x1f9426b
+msgctxt "map:2.5/npc:0/43"
+msgid "map:2.5/npc:0/43"
+msgstr "Smogon OU"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 69
+#: 0x1f94275
+msgctxt "map:2.5/npc:0/72"
+msgid "map:2.5/npc:0/72"
+msgstr "Smogon Ubers"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 96
+#: 0x1f94282
+msgctxt "map:2.5/npc:0/64"
+msgid "map:2.5/npc:0/64"
+msgstr "Smogon Малый кубок"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 87
+#: 0x1f942ca
+msgctxt "map:2.5/npc:0/44"
+msgid "map:2.5/npc:0/44"
+msgstr "Smogon Camomons"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f942da
+msgctxt "map:2.5/npc:0/73"
+msgid "map:2.5/npc:0/73"
+msgstr "Uber Camomons"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 107
+#: 0x1f942e8
+msgctxt "map:2.5/npc:0/65"
+msgid "map:2.5/npc:0/65"
+msgstr "Малый кубок Camomons"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 92
+#: 0x1f9432d
+msgctxt "map:2.5/npc:0/54"
+msgid "map:2.5/npc:0/54"
+msgstr "Smogon Scalemons"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 83
+#: 0x1f9433e
+msgctxt "map:2.5/npc:0/55"
+msgid "map:2.5/npc:0/55"
+msgstr "Smogon Кубок 350"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 104
+#: 0x1f9434d
+msgctxt "map:2.5/npc:0/56"
+msgid "map:2.5/npc:0/56"
+msgstr "Smogon Averagemons"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 146
+#: 0x1f94360
+msgctxt "map:2.5/npc:0/45"
+msgid "map:2.5/npc:0/45"
+msgstr "Smogon Бенджамин Баттерфри"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 94
+#: 0x1f943be
+msgctxt "map:2.5/npc:0/66"
+msgid "map:2.5/npc:0/66"
+msgstr "Список разрешённых"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 71
+#: 0x1f943d0
+msgctxt "map:2.5/npc:0/46"
+msgid "map:2.5/npc:0/46"
+msgstr "Список запрещённых"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 139
+#: 0x1f98de4
+msgctxt "map:2.5/sign:0/0"
+msgid "map:2.5/sign:0/0"
+msgstr "Подключение к системе рекордов…"

@@ -1,0 +1,10 @@
+{
+ "schema": 1,
+ "profile": "unbound-2.1.1.1",
+ "language": "ru",
+ "version": "1.0.7",
+ "release_label": "RU by gen3tl",
+ "notes": [
+  "First public release of the Russian translation."
+ ]
+}

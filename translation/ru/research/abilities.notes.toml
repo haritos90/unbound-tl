@@ -1,0 +1,19 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:64d04a62-2972-5fda-b4f2-f4ba2c2f11c2"
+subject = { kind = "research", id = "research:6b36e8a1c9a14ff49c60d843b8c465d5" }
+scope = { kind = "language", language = "ru" }
+guidance = ["Check the name against the moves glossary."]
+facts = ["The selected form is the major community form.", "The name is shortened for the DexNav bar."]
+reason = ["The name is the same word as the PokéRogue name of the move Snap Trap."]
+sources = [{ kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Западня", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:12ba4e57-9390-5500-a7d0-72d2cd9c52f1"
+subject = { kind = "research", id = "research:4fae5037144049b594392dec55fa9e5b" }
+scope = { kind = "language", language = "ru" }
+facts = ["Focus Belt is Unbound-only.", "«Концентрация» matches Inner Focus (official).", "The name does not refer to the held item Focus Band/Sash."]
+sources = [{ kind = "project", name = "Project rendering", address = "own", quoted_term = "Пояс концентрации", relation = "selected_form", verification = "recorded" }]
+status = "unreviewed"

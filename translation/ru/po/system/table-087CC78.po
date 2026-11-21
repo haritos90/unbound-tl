@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-087CC78\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 162, 119
+#: 0x0eb29ae
+msgctxt "table:items/622/description"
+msgid "table:items/622/description"
+msgstr ""
+"Покебол, которым легче поймать покемона с высокой базовой Скоростью."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 172, 193
+#: 0x0eb2a02
+msgctxt "table:items/623/description"
+msgid "table:items/623/description"
+msgstr ""
+"Покебол, которым легче поймать покемона, чей уровень ниже, чем у покемона "
+"игрока."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 158, 185, 159
+#: 0x0eb2a65
+msgctxt "table:items/624/description"
+msgid "table:items/624/description"
+msgstr ""
+"Покебол, которым удобно ловить покемонов, выуженных удочкой на рыбалке."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 173, 160, 45
+#: 0x0eb2ac2
+msgctxt "table:items/625/description"
+msgid "table:items/625/description"
+msgstr "Покебол, который лучше обычного ловит очень тяжёлых покемонов."
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 181, 185, 181
+#: 0x0eb2b08
+msgctxt "table:items/626/description"
+msgid "table:items/626/description"
+msgstr ""
+"Покебол, который лучше всего ловит покемона, противоположного по полу "
+"покемону игрока."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 190, 173, 192
+#: 0x0eb2b6c
+msgctxt "table:items/627/description"
+msgid "table:items/627/description"
+msgstr ""
+"Странный покебол: дикий покемон, пойманный в него, сразу становится "
+"дружелюбнее к тренеру."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 161, 181, 147
+#: 0x0eb2bd3
+msgctxt "table:items/628/description"
+msgid "table:items/628/description"
+msgstr ""
+"Покебол, которым легче поймать покемона, эволюционирующего от Камня луны."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 179, 124
+#: 0x0eb2c2d
+msgctxt "table:items/629/description"
+msgid "table:items/629/description"
+msgstr "Особый покебол для спортивных соревнований."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 178, 188, 182
+#: 0x0eb2c66
+msgctxt "table:items/631/description"
+msgid "table:items/631/description"
+msgstr ""
+"Покебол, которым легче поймать спящего покемона. Кроме того, даёт скрытый "
+"талант."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 174, 181, 183
+#: 0x0eb2ccb
+msgctxt "table:items/630/description"
+msgid "table:items/630/description"
+msgstr ""
+"Особый покебол для поимки Ультрачудовищ. Других покемонов ловит плохо."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 191, 194, 92
+#: 0x0eb3737
+msgctxt "table:items/632/description"
+msgid "table:items/632/description"
+msgstr ""
+"Овальный амулет, который, говорят, повышает шанс найти яйцо покемона в "
+"Дневном уходе."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 184, 116
+#: 0x0eb378e
+msgctxt "table:items/633/description"
+msgid "table:items/633/description"
+msgstr ""
+"Сияющий амулет, который, говорят, повышает шанс, что полученный покемон "
+"окажется сияющим."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 160, 85
+#: 0x0eb5007
+msgctxt "table:items/634/description"
+msgid "table:items/634/description"
+msgstr ""
+"Кассета, которую держит Дженесект. Превращает приём Техновзрыв в приём "
+"типа Огонь."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 160, 92
+#: 0x0eb5057
+msgctxt "table:items/635/description"
+msgid "table:items/635/description"
+msgstr ""
+"Кассета, которую держит Дженесект. Превращает приём Техновзрыв в приём "
+"типа Вода."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 160, 107
+#: 0x0eb50a8
+msgctxt "table:items/636/description"
+msgid "table:items/636/description"
+msgstr ""
+"Кассета, которую держит Дженесект. Превращает приём Техновзрыв в приём "
+"типа Электро."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 194, 160, 82
+#: 0x0eb50fc
+msgctxt "table:items/637/description"
+msgid "table:items/637/description"
+msgstr ""
+"Кассета, которую держит Дженесект. Превращает приём Техновзрыв в приём "
+"типа Лёд."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 191, 138
+#: 0x0eb514b
+msgctxt "table:items/638/description"
+msgid "table:items/638/description"
+msgstr ""
+"Диск памяти с данными типа Боевой. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 181, 138
+#: 0x0eb51a4
+msgctxt "table:items/639/description"
+msgid "table:items/639/description"
+msgstr ""
+"Диск памяти с данными типа Летающий. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 181, 138
+#: 0x0eb51fb
+msgctxt "table:items/640/description"
+msgid "table:items/640/description"
+msgstr ""
+"Диск памяти с данными типа Яд. Меняет тип Силвалли, если тот его держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 183, 138
+#: 0x0eb5252
+msgctxt "table:items/641/description"
+msgid "table:items/641/description"
+msgstr ""
+"Диск памяти с данными типа Земля. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 172, 138
+#: 0x0eb52a9
+msgctxt "table:items/642/description"
+msgid "table:items/642/description"
+msgstr ""
+"Диск памяти с данными типа Камень. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 167, 138
+#: 0x0eb52fe
+msgctxt "table:items/643/description"
+msgid "table:items/643/description"
+msgstr ""
+"Диск памяти с данными типа Насекомое. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 177, 138
+#: 0x0eb5352
+msgctxt "table:items/644/description"
+msgid "table:items/644/description"
+msgstr ""
+"Диск памяти с данными типа Привидение. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 177, 138
+#: 0x0eb53a8
+msgctxt "table:items/645/description"
+msgid "table:items/645/description"
+msgstr ""
+"Диск памяти с данными типа Сталь. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 170, 138
+#: 0x0eb53fe
+msgctxt "table:items/646/description"
+msgid "table:items/646/description"
+msgstr ""
+"Диск памяти с данными типа Огонь. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 177, 138
+#: 0x0eb5453
+msgctxt "table:items/647/description"
+msgid "table:items/647/description"
+msgstr ""
+"Диск памяти с данными типа Вода. Меняет тип Силвалли, если тот его держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 176, 138
+#: 0x0eb54a9
+msgctxt "table:items/648/description"
+msgid "table:items/648/description"
+msgstr ""
+"Диск памяти с данными типа Трава. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 192, 138
+#: 0x0eb54ff
+msgctxt "table:items/649/description"
+msgid "table:items/649/description"
+msgstr ""
+"Диск памяти с данными типа Электро. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 188, 138
+#: 0x0eb5558
+msgctxt "table:items/650/description"
+msgid "table:items/650/description"
+msgstr ""
+"Диск памяти с данными типа Психо. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 167, 138
+#: 0x0eb55b0
+msgctxt "table:items/651/description"
+msgid "table:items/651/description"
+msgstr ""
+"Диск памяти с данными типа Лёд. Меняет тип Силвалли, если тот его держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 183, 138
+#: 0x0eb5604
+msgctxt "table:items/652/description"
+msgid "table:items/652/description"
+msgstr ""
+"Диск памяти с данными типа Дракон. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 171, 138
+#: 0x0eb565b
+msgctxt "table:items/653/description"
+msgid "table:items/653/description"
+msgstr ""
+"Диск памяти с данными типа Тёмный. Меняет тип Силвалли, если тот его "
+"держит."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 150, 176, 138
+#: 0x0eb56b0
+msgctxt "table:items/654/description"
+msgid "table:items/654/description"
+msgstr ""
+"Диск памяти с данными типа Фея. Меняет тип Силвалли, если тот его держит."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 172, 48
+#: 0x0eb5706
+msgctxt "table:items/655/description"
+msgid "table:items/655/description"
+msgstr "Мистическое радужное перо, которое искрится."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 171, 48
+#: 0x0eb5730
+msgctxt "table:items/656/description"
+msgid "table:items/656/description"
+msgstr "Странное серебристое перо, которое искрится."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 145
+#: 0x0eb575a
+msgctxt "table:items/657/description"
+msgid "table:items/657/description"
+msgstr "Машина для слияния Некрозмы, которому нужен свет, с Солгалео."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 133
+#: 0x0eb5797
+msgctxt "table:items/658/description"
+msgid "table:items/658/description"
+msgstr "Машина для слияния Некрозмы, которому нужен свет, с Луналой."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 152, 172, 131
+#: 0x0eb57d2
+msgctxt "table:items/659/description"
+msgid "table:items/659/description"
+msgstr "Говорят, что звуки этой флейты возносили в знак благодарности."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 190, 139
+#: 0x0eb5827
+msgctxt "table:items/661/description"
+msgid "table:items/661/description"
+msgstr ""
+"Тело Реширама разрушилось и превратилось в этот камень. Говорят, что он "
+"ждёт героя."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 175, 190, 139
+#: 0x0eb5887
+msgctxt "table:items/662/description"
+msgid "table:items/662/description"
+msgstr ""
+"Тело Зекрома разрушилось и превратилось в этот камень. Говорят, что он "
+"ждёт героя."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 181, 189
+#: 0x0eb5a55
+msgctxt "table:items/663/description"
+msgid "table:items/663/description"
+msgstr ""
+"Медная монета, которой пользовалась древняя цивилизация около 3000 лет "
+"назад."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 177, 189
+#: 0x0eb5a99
+msgctxt "table:items/664/description"
+msgid "table:items/664/description"
+msgstr ""
+"Серебряная монета, которой пользовалась древняя цивилизация около 3000 "
+"лет назад."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 169, 189
+#: 0x0eb5add
+msgctxt "table:items/665/description"
+msgid "table:items/665/description"
+msgstr ""
+"Золотая монета, которой пользовалась древняя цивилизация около 3000 лет "
+"назад."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 186, 189
+#: 0x0eb5b1f
+msgctxt "table:items/666/description"
+msgid "table:items/666/description"
+msgstr ""
+"Хрупкая ваза, которую создала\\nдревняя цивилизация\\nоколо 3000 лет "
+"назад."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 201, 189
+#: 0x0eb5b64
+msgctxt "table:items/667/description"
+msgid "table:items/667/description"
+msgstr ""
+"Тяжёлый браслет, который создала\\nдревняя цивилизация\\nоколо 3000 лет "
+"назад."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 194, 189
+#: 0x0eb5bab
+msgctxt "table:items/668/description"
+msgid "table:items/668/description"
+msgstr ""
+"Каменная статуэтка, которую\\nсоздала древняя цивилизация\\nоколо 3000 "
+"лет назад."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 184, 189
+#: 0x0eb5bf2
+msgctxt "table:items/669/description"
+msgid "table:items/669/description"
+msgstr ""
+"Тяжёлая корона, которую создала\\nдревняя цивилизация\\nоколо 3000 лет "
+"назад."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 184, 98
+#: 0x0eb6c11
+msgctxt "table:items/670/description"
+msgid "table:items/670/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Обычный."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 192, 98
+#: 0x0eb6c63
+msgctxt "table:items/671/description"
+msgid "table:items/671/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Боевой."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 182, 98
+#: 0x0eb6cb7
+msgctxt "table:items/672/description"
+msgid "table:items/672/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Летающий."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 182, 98
+#: 0x0eb6d09
+msgctxt "table:items/673/description"
+msgid "table:items/673/description"
+msgstr "Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Яд."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 184, 98
+#: 0x0eb6d5b
+msgctxt "table:items/674/description"
+msgid "table:items/674/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Земля."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 173, 98
+#: 0x0eb6dad
+msgctxt "table:items/675/description"
+msgid "table:items/675/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Камень."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 168, 98
+#: 0x0eb6dfd
+msgctxt "table:items/676/description"
+msgid "table:items/676/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Насекомое."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 178, 98
+#: 0x0eb6e4c
+msgctxt "table:items/677/description"
+msgid "table:items/677/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Привидение."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 178, 98
+#: 0x0eb6e9d
+msgctxt "table:items/678/description"
+msgid "table:items/678/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Сталь."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 171, 98
+#: 0x0eb6eee
+msgctxt "table:items/679/description"
+msgid "table:items/679/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Огонь."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 178, 98
+#: 0x0eb6f3e
+msgctxt "table:items/680/description"
+msgid "table:items/680/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Вода."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 177, 98
+#: 0x0eb6f8f
+msgctxt "table:items/681/description"
+msgid "table:items/681/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Трава."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 193, 98
+#: 0x0eb6fe0
+msgctxt "table:items/682/description"
+msgid "table:items/682/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Электро."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 189, 98
+#: 0x0eb7034
+msgctxt "table:items/683/description"
+msgid "table:items/683/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Психо."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 168, 98
+#: 0x0eb7087
+msgctxt "table:items/684/description"
+msgid "table:items/684/description"
+msgstr "Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Лёд."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 184, 98
+#: 0x0eb70d6
+msgctxt "table:items/685/description"
+msgid "table:items/685/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Дракон."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 172, 98
+#: 0x0eb7128
+msgctxt "table:items/686/description"
+msgid "table:items/686/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Тёмный."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 177, 98
+#: 0x0eb7178
+msgctxt "table:items/687/description"
+msgid "table:items/687/description"
+msgstr "Это кристаллизованная сила-Z. Превращает в атаки-Z приёмы типа Фея."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 154, 186
+#: 0x0eb71c9
+msgctxt "table:items/688/description"
+msgid "table:items/688/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Удар молнии "
+"алольского Райчу."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 181, 135
+#: 0x0eb7226
+msgctxt "table:items/689/description"
+msgid "table:items/689/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Оковы духа "
+"Десиджуая."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 159, 137
+#: 0x0eb727f
+msgctxt "table:items/690/description"
+msgid "table:items/690/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Последнее "
+"средство Иви."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 183, 136
+#: 0x0eb72d4
+msgctxt "table:items/691/description"
+msgid "table:items/691/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Тёмное лассо "
+"Инсинероара."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 171, 144
+#: 0x0eb732e
+msgctxt "table:items/692/description"
+msgid "table:items/692/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Лязг чешуи "
+"Коммо-о."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 163, 132
+#: 0x0eb7386
+msgctxt "table:items/693/description"
+msgid "table:items/693/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Луч лунного духа "
+"Луналы."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 175, 134
+#: 0x0eb73db
+msgctxt "table:items/694/description"
+msgid "table:items/694/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Остриё камня "
+"Лайканрока."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 181, 138
+#: 0x0eb7432
+msgctxt "table:items/695/description"
+msgid "table:items/695/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Вор-призрак "
+"Маршадоу."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 147, 115
+#: 0x0eb748b
+msgctxt "table:items/696/description"
+msgid "table:items/696/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Психокинез Мью."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 166, 135
+#: 0x0eb74da
+msgctxt "table:items/697/description"
+msgid "table:items/697/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Жёсткая игра "
+"Мимикью."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 168, 138
+#: 0x0eb7530
+msgctxt "table:items/698/description"
+msgid "table:items/698/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Вольт-бросок "
+"Пикачу."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 195, 184
+#: 0x0eb7587
+msgctxt "table:items/699/description"
+msgid "table:items/699/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Удар молнии "
+"Пикачу в кепке."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 176, 142
+#: 0x0eb75ea
+msgctxt "table:items/700/description"
+msgid "table:items/700/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Ария пузырей "
+"Примарины."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 168, 139
+#: 0x0eb7644
+msgctxt "table:items/701/description"
+msgid "table:items/701/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Гигаудар "
+"Снорлакса."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 175, 157
+#: 0x0eb769b
+msgctxt "table:items/702/description"
+msgid "table:items/702/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Таран солнца "
+"Солгалео."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 164, 175, 142
+#: 0x0eb76f7
+msgctxt "table:items/703/description"
+msgid "table:items/703/description"
+msgstr ""
+"Это кристаллизованная сила-Z. Превращает в атаку-Z приём Кара природы "
+"покемонов тапу."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 192, 172
+#: 0x0eb8a01
+msgctxt "table:items/704/description"
+msgid "table:items/704/description"
+msgstr ""
+"Предмет, который держит покемон. При снижении характеристик покемон "
+"уступает место союзнику."

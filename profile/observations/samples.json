@@ -1,0 +1,265 @@
+{
+  "schema": "1.0.0",
+  "samples": [
+    {
+      "fact": "font[name=font0]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "glyph": 205,
+      "x": 127,
+      "y": 113,
+      "palette": [
+        [
+          120,
+          168,
+          192
+        ],
+        [
+          248,
+          248,
+          248
+        ],
+        [
+          96,
+          96,
+          96
+        ],
+        [
+          120,
+          168,
+          192
+        ]
+      ]
+    },
+    {
+      "fact": "font[name=font1]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "glyph": 205,
+      "x": 127,
+      "y": 113,
+      "palette": [
+        [
+          120,
+          168,
+          192
+        ],
+        [
+          248,
+          248,
+          248
+        ],
+        [
+          96,
+          96,
+          96
+        ],
+        [
+          120,
+          168,
+          192
+        ]
+      ]
+    },
+    {
+      "fact": "font[name=font2]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "glyph": 205,
+      "x": 127,
+      "y": 113,
+      "palette": [
+        [
+          120,
+          168,
+          192
+        ],
+        [
+          248,
+          248,
+          248
+        ],
+        [
+          96,
+          96,
+          96
+        ],
+        [
+          120,
+          168,
+          192
+        ]
+      ]
+    },
+    {
+      "fact": "font[name=font3]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "glyph": 205,
+      "x": 127,
+      "y": 113,
+      "palette": [
+        [
+          120,
+          168,
+          192
+        ],
+        [
+          248,
+          248,
+          248
+        ],
+        [
+          96,
+          96,
+          96
+        ],
+        [
+          120,
+          168,
+          192
+        ]
+      ]
+    },
+    {
+      "fact": "font[name=small]",
+      "scenario": "profile/observations/scenarios/save-ui.txt",
+      "shot": "continue",
+      "glyph": 230,
+      "x": 55,
+      "y": 26,
+      "palette": [
+        [
+          248,
+          248,
+          248
+        ],
+        [
+          32,
+          128,
+          248
+        ],
+        [
+          208,
+          208,
+          200
+        ],
+        [
+          248,
+          248,
+          248
+        ]
+      ]
+    },
+    {
+      "fact": "table[name=species]",
+      "scenario": "profile/observations/scenarios/save-ui.txt",
+      "shot": "summary-3-detail",
+      "row": 1,
+      "ram": 33692880
+    },
+    {
+      "fact": "table[name=moves]",
+      "scenario": "profile/observations/scenarios/save-ui.txt",
+      "shot": "summary-3-detail",
+      "row": 33,
+      "ram": 33567032
+    },
+    {
+      "fact": "table[name=abilities]",
+      "scenario": "profile/observations/scenarios/save-ui.txt",
+      "shot": "summary-3-detail",
+      "row": 65,
+      "ram": 33567180
+    },
+    {
+      "fact": "table[name=items]",
+      "scenario": "profile/observations/scenarios/script-samples-3.txt",
+      "shot": "item-direct",
+      "row": 529,
+      "ram": 33692912
+    },
+    {
+      "fact": "table[name=item_plural_s]",
+      "scenario": "profile/observations/scenarios/plural-samples-2.txt",
+      "shot": "normal-ordinary",
+      "row": 0,
+      "ram": 33692924
+    },
+    {
+      "fact": "table[name=item_plural_lower]",
+      "scenario": "profile/observations/scenarios/plural-samples-2.txt",
+      "shot": "normal-lower",
+      "row": 0,
+      "ram": 33692921
+    },
+    {
+      "fact": "table[name=item_plural_upper]",
+      "scenario": "profile/observations/scenarios/plural-samples-2.txt",
+      "shot": "normal-upper",
+      "row": 0,
+      "ram": 33692923
+    },
+    {
+      "fact": "table[name=berry_blender_possessive]",
+      "scenario": "profile/observations/scenarios/suffix-simple-2.txt",
+      "shot": "berry-full",
+      "row": 0,
+      "ram": 33692889
+    },
+    {
+      "fact": "table[name=berry_blender_apostrophe]",
+      "scenario": "profile/observations/scenarios/suffix-simple.txt",
+      "shot": "berry-direct",
+      "row": 0,
+      "ram": 33692880
+    },
+    {
+      "fact": "table[name=trainer_names]",
+      "scenario": "profile/observations/scenarios/battle-samples.txt",
+      "shot": "battle-action",
+      "row": 1,
+      "ram": 33699332
+    },
+    {
+      "fact": "keyboard.table[name=keys]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "isolated-a",
+      "offset": 0,
+      "length": 1,
+      "ram": 33572192
+    },
+    {
+      "fact": "keyboard.table[name=columns]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "offset": 0,
+      "length": 1,
+      "ram": 33554437
+    },
+    {
+      "fact": "keyboard.table[name=page_keyboard]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "offset": 0,
+      "length": 1,
+      "ram": 33554443
+    },
+    {
+      "fact": "keyboard.table[name=next_keyboard]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "offset": 0,
+      "length": 1,
+      "ram": 33554432
+    },
+    {
+      "fact": "keyboard.table[name=next_label]",
+      "scenario": "profile/observations/scenarios/naming-isolated.txt",
+      "shot": "page-others",
+      "offset": 0,
+      "length": 1,
+      "ram": 33554433
+    }
+  ]
+}

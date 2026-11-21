@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/flower-paradise\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 154, 166, 191, 167
+#: 0x1f09cf0
+msgctxt "map:1.4/npc:0/0"
+msgid "map:1.4/npc:0/0"
+msgstr ""
+"Добро пожаловать в Цветочный рай!\\pПока вы здесь, пожалуйста, бережно "
+"относитесь к цветам и живущим в них покемонам."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 150, 44, 157, 164, 168, 184
+#: 0x1f09d6c
+msgctxt "map:1.4/npc:1/1"
+msgid "map:1.4/npc:1/1"
+msgstr ""
+"А ты знаешь про цветы Грасидеи?\\pИх дарят букетами в знак "
+"благодарности.\\pКстати, Грасидеи цветут даже здесь, в этом самом раю!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 68, 140, 172, 187, 164
+#: 0x1f09e0d
+msgctxt "map:1.4/npc:1/2"
+msgid "map:1.4/npc:1/2"
+msgstr ""
+"О, Шеймин!\\pДля Шеймина цветы Грасидеи очень важны!\\pУ меня этих цветов "
+"много, так что поделюсь с тобой одним."
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 199, 175, 180, 120, 188, 159, 192, 22, 145
+#: 0x1f09e94
+msgctxt "map:1.4/npc:1/0"
+msgid "map:1.4/npc:1/0"
+msgstr ""
+"С давних времён люди собирают букеты из цветов Грасидеи в знак "
+"признательности.\\pИнтересно, правда?\\pПодаришь букет Грасидей - и не "
+"нужно ни слова говорить: человек и так поймёт, как велика твоя "
+"благодарность.\\pЧудесный обычай!"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 176, 31, 153, 158, 165, 59, 159
+#: 0x1f09f94
+msgctxt "map:1.5/npc:2/1"
+msgid "map:1.5/npc:2/1"
+msgstr ""
+"Ягоды - это чудесно, правда?\\pИми питаются и люди, и покемоны, а ещё с "
+"ними мир становится куда прекраснее!\\pВот, поделюсь с тобой!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 155
+#: 0x1f0a03c
+msgctxt "map:1.5/npc:2/0"
+msgid "map:1.5/npc:2/0"
+msgstr "Если захочешь ещё ягод, приходи ко мне завтра!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 69
+#: 0x1f0a079
+msgctxt "map:1.5/npc:0/5"
+msgid "map:1.5/npc:0/5"
+msgstr "Сбор мёда"
+
+#. category: script; mode: field
+#. original lines: 13, widths px: 183, 178, 199, 191, 125, 191, 176, 201, 176, 97, 92, 167, 136
+#: 0x1f0a0e6
+msgctxt "map:1.5/npc:0/8"
+msgid "map:1.5/npc:0/8"
+msgstr ""
+"Извини, тренер, не поможешь мне, пожалуйста?\\pПонимаешь, у нас с семьёй "
+"скоро большое застолье, и к столу нужно много Мёда.\\pСемь банок я уже "
+"собрала, но нужно ещё хотя бы три.\\pГоворят, Мёд можно найти у диких "
+"Комби, но мне с ними что-то не везёт.\\pНу так что?\\pСможешь найти "
+"{COLOR 06}3{COLOR 04} Комби и принести мне их {COLOR 06}Мёд{COLOR 04}?"
+
+#. category: script; mode: field
+#. original lines: 11, widths px: 34, 176, 162, 89, 171, 180, 196, 162, 179, 179, 106
+#: 0x1f0a273
+msgctxt "map:1.5/npc:0/10"
+msgid "map:1.5/npc:0/10"
+msgstr ""
+"Отлично!\\nСпасибо, что берёшься помочь!\\pКомби водятся по всему "
+"Цветочному раю.\\pХотя в {COLOR 08}синих{COLOR 04} цветах их найти "
+"проще.\\pА ещё можно попробовать поймать {COLOR 06}Кьютифлая{COLOR 04} с "
+"талантом {COLOR 06}Сбор мёда{COLOR 04}.\\pПосле каждого боя он может "
+"найти Мёд, и тебе об этом сообщат!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 187, 182
+#: 0x1f0a3b5
+msgctxt "map:1.5/npc:0/1"
+msgid "map:1.5/npc:0/1"
+msgstr "Они у тебя! Огромное спасибо!\\nДавай я их заберу."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 164
+#: 0x1f0a3f7
+msgctxt "map:1.5/npc:0/3"
+msgid "map:1.5/npc:0/3"
+msgstr "Прошу, возьми эту ТМ в награду за помощь. Я настаиваю!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 202, 177, 156, 43, 193, 170, 177, 62
+#: 0x1f0a436
+msgctxt "map:1.5/npc:0/0"
+msgid "map:1.5/npc:0/0"
+msgstr ""
+"Комби водятся по всему Цветочному раю, но чаще всего они попадаются в "
+"{COLOR 08}синих{COLOR 04} цветах.\\pПоймаешь {COLOR 06}Кьютифлая{COLOR "
+"04} с талантом {COLOR 06}Сбор мёда{COLOR 04} - это тоже поможет.\\pИ "
+"помни: мне нужно {COLOR 06}3 банки Мёда{COLOR 04}, не меньше."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 83, 138, 71
+#: 0x1f0a526
+msgctxt "map:1.5/npc:0/9"
+msgid "map:1.5/npc:0/9"
+msgstr "Жаль.\\pЗначит, придётся и дальше искать самой."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 169, 40, 202, 154, 181, 70
+#: 0x1f0a55e
+msgctxt "map:1.5/npc:0/7"
+msgid "map:1.5/npc:0/7"
+msgstr ""
+"Ещё раз спасибо за помощь!\\pБлагодаря тебе мы с семьёй целых два дня "
+"отлично пировали.\\pА теперь пора готовить застолье на следующий год!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1f0a5f5
+msgctxt "map:1.6/npc:0/0"
+msgid "map:1.6/npc:0/0"
+msgstr "{COLOR 06}Кью-у у-ун."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 101, 92
+#: 0x1f0a603
+msgctxt "map:1.6/npc:0/1"
+msgid "map:1.6/npc:0/1"
+msgstr "{COLOR 02}{STR_VAR_1} убегает в цветочное поле."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 164, 174, 102, 6, 108
+#: 0x1f0a62d
+msgctxt "map:1.6/npc:1/2"
+msgid "map:1.6/npc:1/2"
+msgstr ""
+"Пройти здесь могут лишь тренеры, доказавшие в бою, что достойны этого.\\p"
+"…\\pТы не из числа достойных."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 164, 174, 102, 6, 86
+#: 0x1f0a694
+msgctxt "map:1.6/npc:1/1"
+msgid "map:1.6/npc:1/1"
+msgstr ""
+"Пройти здесь могут лишь тренеры, доказавшие в бою, что достойны этого.\\p"
+"…\\pТы из числа достойных."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f0a6f7
+msgctxt "map:1.6/npc:1/0"
+msgid "map:1.6/npc:1/0"
+msgstr "Можешь пройти."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 84, 140
+#: 0x1f70ce4
+msgctxt "map:1.4/sign:0/0"
+msgid "map:1.4/sign:0/0"
+msgstr "Цветочный рай\\pНадёжное убежище для цветов."

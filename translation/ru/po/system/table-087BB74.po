@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-087BB74\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 166, 131, 124
+#: 0x0eb226b
+msgctxt "table:items/528/description"
+msgid "table:items/528/description"
+msgstr ""
+"Амулет, позволяющий покемону, который держит мегакамень, "
+"мегаэволюционировать в бою."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 135, 188, 132
+#: 0x0eb790e
+msgctxt "table:items/520/description"
+msgid "table:items/520/description"
+msgstr ""
+"Тайное фирменное блюдо Старого шато. Излечивает любое особое состояние "
+"покемона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 146, 191, 167
+#: 0x0eb7b9a
+msgctxt "table:items/521/description"
+msgid "table:items/521/description"
+msgstr ""
+"Окаменелость доисторического покемона, жившего на суше. Похоже, это часть "
+"головы."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 146, 191, 176
+#: 0x0eb7bf7
+msgctxt "table:items/522/description"
+msgid "table:items/522/description"
+msgstr ""
+"Окаменелость доисторического покемона, жившего на суше. Похоже, это часть "
+"воротника."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 146, 167, 191
+#: 0x0eb7c56
+msgctxt "table:items/523/description"
+msgid "table:items/523/description"
+msgstr ""
+"Окаменелость доисторического покемона, жившего в море. Похоже, это часть "
+"спины."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 146, 166, 189
+#: 0x0eb7cb4
+msgctxt "table:items/524/description"
+msgid "table:items/524/description"
+msgstr ""
+"Окаменелость доисторического покемона, жившего в небе. Похоже, это часть "
+"крыла."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 174, 179
+#: 0x0eb7d12
+msgctxt "table:items/525/description"
+msgid "table:items/525/description"
+msgstr ""
+"Окаменелость древнего покемона, когда-то жившего на суше. Похоже на "
+"обломок большой челюсти."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 184, 197
+#: 0x0eb7d74
+msgctxt "table:items/526/description"
+msgid "table:items/526/description"
+msgstr ""
+"Окаменелость древнего покемона, когда-то жившего на суше. Похоже на "
+"отпечаток кожистого паруса."

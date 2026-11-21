@@ -1,0 +1,2217 @@
+[[layout.table_window]]
+name = "ability-descriptions"
+base = 0x96DE04
+stride = 4
+count = 255
+fields = [0]
+width = 189
+where = "summary screen, ability description box"
+
+[[layout.table_window]]
+name = "ability-descriptions-firered"
+base = 0x24FB08
+stride = 4
+count = 78
+fields = [0]
+width = 189
+where = "summary screen, ability description box"
+evidence = "vanilla FireRed gAbilityDescriptionPointers at 0x24FB08, catalog group system/table-024FB08: 78 entries, no pointer to the table remains in the ROM; 72 of its strings are also entries of 0x96DE04 and are drawn in the box measured above, the other 6 are FireRed descriptions of the same kind (hash:f0e3c191, hash:ebcb15a6)"
+
+# Item descriptions in the bag window.
+# - window 25 x 6 tiles, font 2, 3 lines
+# - pockets 1-3 here; TMs and berries use other windows
+[[layout.table_window]]
+name = "bag-descriptions"
+base = 0x87622C
+stride = 44
+count = 117
+fields = [0x14]
+width = 200
+lines = 3
+where = "bag, description window"
+
+[[layout.table_window]]
+name = "bag-descriptions-2"
+base = 0x877674
+stride = 44
+count = 14
+fields = [0x14]
+width = 200
+lines = 3
+where = "bag, description window"
+evidence = "items 119-132 of the item table 0x876200 (pockets 1-2), base = item 119; the window measured for bag-descriptions"
+
+[[layout.table_window]]
+name = "bag-descriptions-3"
+base = 0x878040
+stride = 44
+count = 113
+fields = [0x14]
+width = 200
+lines = 3
+where = "bag, description window"
+evidence = "items 176-288 of the item table 0x876200 (pockets 1-2), base = item 176; the window measured for bag-descriptions"
+
+[[layout.table_window]]
+name = "bag-descriptions-4"
+base = 0x879DA4
+stride = 44
+count = 28
+fields = [0x14]
+width = 200
+lines = 3
+letter_spacing = 2
+where = "bag, description window"
+evidence = "Items 347-374 of table 0x876200 use the bag description window. ItemId_GetDescription 0x809A96C reads stride 44, field +0x14; item 366 points to s0EB1CB6 at 0x887A0FC (B6 1C EB 08). At 0x89F48CC the bytes 03 22 00 23 02 21 00 92 04 93 03 93 02 93 01 91 pass font 2 in r1 and letter spacing 2 at stack +4 to BagPrintTextOnWindow 0x810B8F0 (pointer 0x89F4988: F1 B8 10 08). Its 0x810B8FE load (0D 9C) and 0x810B928 store (00 94) forward the spacing to AddTextPrinterParameterized4 0x812E5A4 at 0x810B942 (22 F0 2F FE). The printer stores it at template +0xA at 0x812E5DC (82 72); RenderText adds it after key icons at 0x8005B5E-0x8005B64. Window 1 remains 200 px and three lines, as for bag-descriptions."
+
+[[layout.table_window]]
+name = "bag-descriptions-5"
+base = 0x87AE7C
+stride = 44
+count = 94
+fields = [0x14]
+width = 200
+lines = 3
+where = "bag, description window"
+evidence = "items 445-538 of the item table 0x876200 (pockets 1-2), base = item 445; the window measured for bag-descriptions"
+
+[[layout.table_window]]
+name = "bag-descriptions-6"
+base = 0x87C2C4
+stride = 44
+count = 166
+fields = [0x14]
+width = 200
+lines = 3
+where = "bag, description window"
+evidence = "items 563-728 of the item table 0x876200 (pockets 1-3), base = item 563; the window measured for bag-descriptions"
+
+# Move descriptions: summary, move relearner and TM Case windows.
+# The narrowest window binds: 118 px and 5 lines.
+# TM-only descriptions get 142 px and 4 lines.
+[[layout.table_window]]
+name = "move-descriptions-summary"
+base = 0x99F190
+stride = 4
+count = 820
+fields = [0]
+width = 118
+lines = 6
+where = "summary screen, move detail (moves page, A on a move; also the forget-move summary)"
+
+[[layout.table_window]]
+name = "move-descriptions-relearner"
+base = 0x99F190
+stride = 4
+count = 820
+fields = [0]
+width = 119
+lines = 5
+where = "move relearner, description window"
+
+[[layout.table_window]]
+name = "tm-descriptions"
+base = 0x8793AC
+stride = 44
+count = 58
+fields = [0x14]
+width = 142
+lines = 4
+where = "TM Case, description window"
+
+[[layout.table_window]]
+name = "tm-descriptions-2"
+base = 0x87A274
+stride = 44
+count = 70
+fields = [0x14]
+width = 142
+lines = 4
+where = "TM Case, description window"
+evidence = "items 375-444 (TM51-TM120) of the item table 0x876200, base = item 375; the window measured for tm-descriptions (TM Case)"
+
+# the TM mart prints the TM's move description
+# - routine 0x9F3B38 (literal pool 0x9F3B64), TM-to-move table 0x9A42B2A
+# - the TM Case reads the item description (tm-descriptions)
+[[layout.table_window]]
+name = "tm-move-descriptions"
+base = 0x99F190
+stride = 4
+count = 820
+indexes = [
+  14, 15, 19, 46, 53, 57, 58, 59, 63, 70, 76, 85,
+  86, 87, 89, 91, 92, 94, 104, 113, 115, 126, 127, 138,
+  148, 153, 156, 157, 164, 168, 182, 188, 201, 202, 203, 206,
+  207, 211, 213, 214, 216, 218, 219, 231, 237, 240, 241, 247,
+  249, 258, 259, 261, 263, 264, 267, 269, 278, 280, 285, 290,
+  291, 315, 317, 318, 331, 332, 337, 339, 347, 351, 352, 355,
+  360, 364, 367, 370, 371, 373, 374, 376, 377, 392, 393, 395,
+  397, 400, 404, 406, 407, 409, 414, 417, 418, 419, 422, 423,
+  424, 429, 430, 440, 442, 443, 444, 449, 451, 459, 460, 465,
+  466, 468, 474, 502, 503, 506, 508, 510, 516, 531, 538, 570,
+  571, 579, 582, 610, 632, 643, 671, 675,
+]
+fields = [0]
+width = 142
+lines = 4
+where = "TM mart, description window"
+
+# Berry descriptions in the Berry Pouch.
+# - window 1: 25 x 4 tiles, 200 px
+# - font 2, 2 lines at a 14 px pitch
+[[layout.table_window]]
+name = "berry-pouch-descriptions"
+base = 0x8778DC
+stride = 44
+count = 42
+fields = [0x14]
+width = 200
+lines = 2
+where = "Berry Pouch, description window"
+
+[[layout.table_window]]
+name = "berry-pouch-descriptions-2"
+base = 0x877648
+stride = 44
+count = 1
+fields = [0x14]
+width = 200
+lines = 2
+where = "Berry Pouch, description window"
+evidence = "item 118 (Enigma Berry, pocket 5) of the item table 0x876200, base = item 118; the window measured for berry-pouch-descriptions"
+
+[[layout.table_window]]
+name = "berry-pouch-descriptions-3"
+base = 0x87BEA4
+stride = 44
+count = 24
+fields = [0x14]
+width = 200
+lines = 2
+where = "Berry Pouch, description window"
+evidence = "items 539-562 (Occa ... Marang Berry, pocket 5) of the item table 0x876200, base = item 539; the window measured for berry-pouch-descriptions"
+
+# Mission Log text window: the texts below share window 5.
+[[layout.table_window]]
+name = "mission-log-tv-hints"
+base = 0x1EAF534
+stride = 16
+count = 4
+fields = [4]
+width = 200
+lines = 3
+where = "Mission Log, text window"
+
+[[layout.table_window]]
+name = "mission-log-main-story"
+base = 0x1EBFA94
+stride = 4
+count = 47
+fields = [0]
+width = 200
+lines = 3
+where = "Mission Log, text window"
+
+[[layout.table_window]]
+name = "mission-log-main-story-2"
+base = 0x1EBFC38
+stride = 4
+count = 23
+fields = [0]
+width = 200
+lines = 3
+where = "Mission Log, text window"
+evidence = "main-story objectives, the second literal pool of routine 0x1EBF830 (0x1EBFC38-0x1EBFC90, after its code 0x1EBFB50-0x1EBFC34); see mission-log-main-story. 22 text pointers and the number 0x8099F41"
+
+[[layout.table_window]]
+name = "mission-log-state-texts"
+base = 0x1EBFFF8
+stride = 4
+count = 2
+fields = [0]
+width = 200
+lines = 3
+where = "Mission Log, text window"
+
+[[layout.table_window]]
+name = "mission-log-special-hints"
+base = 0x1EBF190
+stride = 4
+count = 2
+fields = [0]
+width = 200
+lines = 3
+where = "Mission Log, text window"
+
+# Mission Log list window, one line.
+# - titles: the mission-log-list record rule
+# - hint labels: 171 px less the item number
+[[layout.table_window]]
+name = "mission-log-list-titles"
+base = 0x1EAF4E8
+stride = 4
+count = 1
+fields = [0]
+width = 157
+lines = 1
+where = "Mission Log, mission list"
+evidence = "title s1FAFC94 of mission 69, Too Much TV (record 0x1EAF4E8, type 1): once 0x1EBE70C finds the mission past its first stage, the list builder appends s1F560AD hash:bfbdd49e to it as to the titles of type 4 (0x1EBE85C-0x1EBE864, 0x1EBE82E-0x1EBE846): 171 - 6 - 8 = 157 px; see [[layout.record_window]] mission-log-list"
+
+[[layout.table_window]]
+name = "mission-log-list-heroine"
+base = 0x1EBE8A0
+stride = 4
+count = 1
+fields = [0]
+width = 171
+lines = 1
+where = "Mission Log, mission list"
+evidence = "s1F2CBA2 'A Heroine's Journey' replaces the title of record 0 in the list when the player is female (byte +8 of the save block 0x300500C is 1, 0x1EBE7A6-0x1EBE7B8); record 0 is of type 5 and gets no suffix: 171 px; see [[layout.record_window]] mission-log-list"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-6"
+base = 0x1E76CC4
+stride = 16
+count = 9
+fields = [0]
+width = 154
+lines = 1
+where = "Mission Log, hint list"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-7"
+base = 0x1EAF8C4
+stride = 16
+count = 100
+fields = [0]
+width = 142
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 7, map:7.6/npc:0/11 (record 0x1EAF8B0): 100 entries, numbers of 3 digits: 171 - 18 - 11 = 142 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-9"
+base = 0x1E9399C
+stride = 16
+count = 45
+fields = [0]
+width = 148
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 9, Basic Literacy (record 0x1E67C44): 45 entries, numbers of 2 digits: 171 - 12 - 11 = 148 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-46"
+base = 0x1E64010
+stride = 16
+count = 5
+fields = [0]
+width = 154
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 46, map:10.10/npc:1/8 (record 0x1E63EF4): 5 entries, numbers of 1 digit: 154 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-52"
+base = 0x1E9B958
+stride = 16
+count = 6
+fields = [0]
+width = 154
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 52, Trader Traitor (record 0x1E9B944): 6 entries, numbers of 1 digit: 154 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-52-special"
+base = 0x1EBF77C
+stride = 4
+count = 1
+fields = [0]
+width = 154
+lines = 1
+where = "Mission Log, hint list"
+evidence = "s1F85B06 replaces the label of the entry with flag 0x251 of mission 52 when 0x1ECD424 returns non-zero (0x1EBF728-0x1EBF746), an item of the list of mission-log-hint-labels-52: 154 px"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-69"
+base = 0x1EAF534
+stride = 16
+count = 4
+fields = [0]
+width = 154
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 69, Too Much TV (record 0x1EAF4E8, type 1): the builder takes the list 0x1EAF534 for this record (0x1EBF3E6-0x1EBF3FA), 4 entries, numbers of 1 digit: 154 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-73"
+base = 0x1E5BB54
+stride = 16
+count = 10
+fields = [0]
+width = 148
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 73, map:3.20/npc:1/9 (record 0x1E5BB40): 10 entries, numbers of 2 digits: 148 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-74"
+base = 0x1E7AE10
+stride = 16
+count = 19
+fields = [0]
+width = 148
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 74, map:3.2/npc:5/4 (record 0x1E7ADFC): 19 entries, numbers of 2 digits: 148 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-76"
+base = 0x1EAB284
+stride = 16
+count = 3
+fields = [0]
+width = 154
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 76, map:35.5/npc:1/6 (record 0x1EAB270): 3 entries, numbers of 1 digit: 154 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-79"
+base = 0x1E86800
+stride = 16
+count = 18
+fields = [0]
+width = 148
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 79, map:31.3/npc:1/12 (record 0x1E867EC): 18 entries, numbers of 2 digits: 148 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-82"
+base = 0x1E613B0
+stride = 16
+count = 32
+fields = [0]
+width = 148
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 82, map:3.6/npc:25/8 (record 0x1E61268): 32 entries, numbers of 2 digits: 148 px; see mission-log-hint-labels-6"
+
+[[layout.table_window]]
+name = "mission-log-hint-labels-83"
+base = 0x1E616F0
+stride = 16
+count = 23
+fields = [0]
+width = 148
+lines = 1
+where = "Mission Log, hint list"
+evidence = "hint list of mission 83, The Daily Grind (record 0x1E615C0): 23 entries, numbers of 2 digits: 148 px; see mission-log-hint-labels-6"
+
+# form categories share the entry-screen line
+[[layout.table_window]]
+name = "pokedex-form-categories"
+base = 0x1A3544C
+stride = 8
+count = 22
+fields = [4]
+chars = 11
+where = "Pokedex entry screen, category line"
+
+# Union Room wanted-type list, items 0-16
+# - Exit (item 17) is shared with other lists: left out
+[[layout.table_window]]
+name = "union-room-type-list"
+base = 0x456E74
+stride = 8
+count = 17
+fields = [0]
+width = 64
+where = "Union Room trading board, wanted-type list"
+
+# lottery attendant names
+[[layout.table_window]]
+name = "lottery-attendant-names"
+base = 0x1FB2F10
+stride = 4
+count = 7
+fields = [0]
+where = "lottery attendant name in the dialogue box"
+
+# words code copies into a dialogue line
+[[layout.table_window]]
+name = "stat-judge-words"
+base = 0x1FB5574
+stride = 4
+count = 6
+fields = [0]
+where = "stat assessment in the dialogue box"
+
+[[layout.table_window]]
+name = "frontier-weather-words"
+base = 0x1FB2F8C
+stride = 4
+count = 7
+fields = [0]
+where = "weather name in the dialogue box"
+
+# Town Map dungeon descriptions
+[[layout.table_window]]
+name = "town-map-descriptions"
+base = 0x1FB4670
+stride = 12
+count = 24
+fields = [8]
+width = 198
+lines = 5
+where = "Town Map, dungeon preview window"
+
+# Battle Frontier settings and outfits
+[[layout.table_window]]
+name = "frontier-tier-descriptions"
+base = 0x1FB2D00
+stride = 4
+count = 18
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+
+[[layout.table_window]]
+name = "frontier-battle-music"
+base = 0x1FB3108
+stride = 4
+count = 58
+# only the names the options lists do not show
+indexes = [0, 21, 23, 29, 56]
+fields = [0]
+width = 208
+where = "Battle Frontier music menu and its message line"
+
+[[layout.table_window]]
+name = "frontier-battle-backgrounds"
+base = 0x1FB2DF8
+stride = 4
+count = 28
+fields = [0]
+width = 208
+where = "Battle Frontier background menu and its message line"
+
+[[layout.table_window]]
+name = "outfit-names"
+base = 0x1FB0D08
+stride = 28
+count = 5
+fields = [0x14, 0x18]
+width = 80
+where = "outfit selection menu"
+
+# Battle Frontier trainer texts in the message boxes
+[[layout.table_window]]
+name = "battle-tower-pre-battle"
+base = 0xA6F574
+stride = 20
+count = 154
+fields = [8]
+width = 208
+box = "dialogue"
+where = "field message box"
+
+[[layout.table_window]]
+name = "battle-tower-win-lose"
+base = 0xA6F574
+stride = 20
+count = 154
+fields = [0xC, 0x10]
+width = 222
+box = "battle"
+where = "battle message window"
+evidence = "the records of battle-tower-pre-battle; BufferStringBattle (0x9BD5F6-0x9BD670) calls CopyFrontierTrainerText with type 2 (+0xC, the trainer's line when the player wins) or 1 (+0x10, when the player loses) and expands it into gDisplayedStringBattle: the battle message window, 222 px, two lines per box"
+
+[[layout.table_window]]
+name = "frontier-special-pre-battle"
+base = 0xA6F130
+stride = 52
+count = 21
+fields = [0xC]
+width = 208
+box = "dialogue"
+where = "field message box"
+
+[[layout.table_window]]
+name = "frontier-special-win-lose"
+base = 0xA6F130
+stride = 52
+count = 21
+fields = [0x10, 0x14]
+width = 222
+box = "battle"
+where = "battle message window"
+evidence = "the records of frontier-special-pre-battle; win +0x10 and lose +0x14 in the battle message window, as battle-tower-win-lose"
+
+# DexNav messages
+[[layout.table_window]]
+name = "dexnav-messages"
+base = 0xA69808
+stride = 4
+count = 7
+fields = [0]
+width = 220
+lines = 2
+where = "DexNav, message window"
+
+# Battle Frontier record screen titles
+[[layout.table_window]]
+name = "frontier-record-titles"
+base = 0xA6B87C
+stride = 4
+count = 7
+fields = [0]
+width = 144
+centre = { reference = "s0A43FFA", step = 5 }
+where = "Battle Frontier record screen, title"
+
+# partner trainer names
+[[layout.table_window]]
+name = "frontier-partner-names"
+base = 0xA6EFC8
+stride = 36
+count = 10
+fields = [8]
+where = "partner name in battle text ({FD 33}) and field text"
+
+[[layout.table_window]]
+name = "raid-partner-names"
+base = 0xA50AFC
+stride = 60
+count = 15
+fields = [0xC]
+width = 60
+where = "partner name in battle text ({FD 33})"
+evidence = "raid partners: 15 records of 60 bytes from 0xA50AFC, name pointer at +0xC (Cathy at 0xA50B08 ... Red at 0xA50E50); the same getters load it (literal pools 0x9E65C4, 0x9E6744); the names print as frontier-partner-names"
+
+# trainer slide messages
+[[layout.table_window]]
+name = "trainer-slide-messages"
+base = 0xA6D2C8
+stride = 16
+count = 112
+fields = [4, 8, 0xC]
+width = 222
+box = "battle"
+where = "battle message window"
+
+# status words copied into a 16-byte buffer
+[[layout.table_window]]
+name = "status-words"
+base = 0xA50260
+stride = 8
+count = 11
+fields = [4]
+chars = 15
+where = "{B_BUFF1} of the cure messages in the battle window"
+
+# stat raise of vitamins and wings
+[[layout.table_window]]
+name = "party-stat-raise"
+base = 0x1251D8
+stride = 4
+count = 1
+fields = [0x0, 0x79BEDB]
+width = 224
+box = "dialogue"
+where = "party menu message box, stat raise of vitamins and wings"
+evidence = "The party item-use code loads s0417032 from the literal at 0x81251D8; the wings' item script 0x8C0FF0 (item table 0x876200, items 609 and 610, word +0x28) shows it with message at 0x8C10B2 while the party menu is open. DisplayPartyMenuMessage 0x8121FC0 prints into party window 6 with AddTextPrinterParameterized2 0x80F6CD0, font 2, x 0: 28 tiles, 224 px. Headless capture of the original game: using a Health Wing on a party member shows it in that box. {PAUSE_UNTIL_PRESS} sets render state 1 (0x8005A04), whose wait 0x8A0F224 draws no arrow; a scroll or page waits through 0x8A0F1CC, which draws it with 0x80054F8."
+
+# party selection limits
+[[layout.table_window]]
+name = "party-selection-limits"
+base = 0xA6C920
+stride = 4
+count = 5
+fields = [0]
+width = 224
+box = "dialogue"
+where = "party menu message box"
+
+# FireRed interface tables of region 0410000
+[[layout.table_window]]
+name = "start-menu-firered"
+base = 0x3A7344
+stride = 8
+count = 9
+fields = [0]
+width = 76
+where = "start menu"
+evidence = "FireRed start menu items, 8-byte records {text, function} from 0x3A7344 (literal pools 0x6EF9C, 0x6F374, 0x6F3F8): Pokedex, Pokemon, Cube, {PLAYER}, Save, Option, Exit, Retire; printed in the start-menu window, 76 px as the Unbound items"
+
+[[layout.table_window]]
+name = "start-menu"
+base = 0xA6D164
+stride = 16
+count = 12
+fields = [0]
+width = 76
+where = "start menu"
+evidence = "Unbound start menu items, 16-byte records {function, text, ...} from 0xA6D160 (literal pools 0xA0B510-0xA0C1EC): Pokedex s041627D, DexNav, Pokemon List, Cube V3, Save Game, Mission Log, Costume Box, {PLAYER} twice, Game Settings, Retire s04162A2, Exit s041629D; the 76 px measured window of s0A4E4B8-s0A4E4F6"
+
+[[layout.table_window]]
+name = "bag-pocket-titles"
+base = 0x452CFC
+stride = 4
+count = 3
+fields = [0]
+width = 56
+where = "bag, pocket title"
+
+[[layout.table_window]]
+name = "shop-menu"
+evidence = "Buy, Sell, See Ya! from 0x3DF09C, 8-byte records {text, function}; window 0x3DF0BC (12 tiles, 96 px), items from x 8"
+
+[[layout.table_window]]
+name = "pc-menu-descriptions"
+base = 0x4021DC
+stride = 4
+count = 3
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+evidence = "descriptions of the PC item storage menu (Withdraw, Deposit, Cancel) from 0x4021DC, printed in the field message box below the menu: 208 px, 2 lines"
+
+[[layout.table_window]]
+name = "pc-top-menu"
+base = 0x4021E8
+stride = 8
+count = 3
+fields = [0]
+width = 96
+where = "PC menu"
+evidence = "Item Storage, Mailbox, Turn Off from 0x4021E8, 8-byte records {text, function}; window 0x402248 (13 tiles, 104 px), items from x 8"
+
+[[layout.table_window]]
+name = "pc-item-storage-menu"
+evidence = "Withdraw Item, Deposit Item, Cancel from 0x402208, 8-byte records {text, function}; window 0x402258 (14 tiles, 112 px), items from x 8"
+
+[[layout.table_window]]
+name = "item-pc-context-menu"
+evidence = "Withdraw, Give, Cancel from 0x453F74, 8-byte records {text, function}; window 4 of 0x453F98 (7 tiles, 56 px), items from x 8"
+
+[[layout.table_window]]
+name = "easy-chat-titles"
+base = 0x43F2B0
+stride = 24
+count = 10
+fields = [0]
+width = 128
+where = "easy chat screen, title window"
+evidence = "10 records of 24 bytes {title, instruction lines 1 and 2, confirmation lines 1 and 2, ...} from 0x43F2B0 (profile, battle start / win / lose, mail, interview, Bard, trendy saying, questionnaire...); the title prints in window 0 of 0x43F8B0 (16 tiles, 128 px)"
+
+[[layout.table_window]]
+name = "easy-chat-lines"
+base = 0x43F2B0
+stride = 24
+count = 10
+fields = [4, 8, 12, 16]
+width = 176
+where = "easy chat screen, message window"
+evidence = "the instruction and confirmation lines of the easy-chat-titles records, one string per line of window 1 of 0x43F8B0 (22 tiles, 176 px, 2 lines); line 1 strings are shared between records"
+
+[[layout.table_window]]
+name = "naming-titles-firered"
+base = 0x3E245C
+stride = 12
+count = 4
+fields = [8]
+width = 127
+where = "naming screen title"
+evidence = "12-byte naming screen templates from 0x3E245C (player, box, Pokemon, rival), title at +8, the first entries of Unbound's template table 0xA6CE38; printed by PrintTitle 0x809F4CC in font 1 from x 1 in the 128 px title window, as s0A4E174 (127 px)"
+
+[[layout.table_window]]
+name = "firered-dungeon-descriptions"
+base = 0x3F1B3C
+stride = 12
+count = 19
+fields = [8]
+width = 198
+lines = 5
+where = "Town Map, dungeon preview description"
+evidence = "FireRed records {u32 mapsec, name, description} from 0x3F1B3C (mapsec 0x7E at 0x3F1B3C, name 0x83EEE7C at +4, description s0418ECB at +8), read only by the getters 0x80C18E0 / 0x80C1920, which jump to Unbound's hooks over 0x1FB4670: written for the same preview window as town-map-descriptions (198 px, 5 lines)"
+
+[[layout.table_window]]
+name = "daycare-compatibility"
+base = 0x25F82C
+stride = 4
+count = 4
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+evidence = "4 compatibility texts from 0x25F82C (the two seem to get along very well ... prefer to play with other Pokemon); 0x80466B0-0x80466B8 copies the one for the score into gStringVar4, which the day-care script shows in the field message box: 208 px, 2 lines"
+
+[[layout.table_window]]
+name = "enigma-berry-suffix"
+base = 0x99EB4
+stride = 4
+count = 1
+fields = [0]
+width = 59
+chars = 7
+where = "item name of the Enigma Berry"
+evidence = "CopyItemName 0x99EAA: for item 0xAF it copies the berry name of GetBerryInfo (table 0x3DF7CC; hash:b614a27f at 0x3DFC80, 36 px, 6 characters) and appends s04162BD; the result fills the item-name slots, 95 px and 13 characters ([[table]] items): 95 - 36 = 59 px, 13 - 6 = 7 characters"
+
+# easy chat words, 72 px and 12 characters
+[[layout.table_window]]
+name = "easy-chat-words-1"
+base = 0x3E7FE0
+stride = 12
+count = 26
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+
+[[layout.table_window]]
+name = "easy-chat-words-2"
+base = 0x3E8504
+stride = 12
+count = 109
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 2 of the group table 0x3ECED4: 109 word records from 0x3E8504 (hash:2a36b1f7, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-3"
+base = 0x3E8BF4
+stride = 12
+count = 63
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 3 of the group table 0x3ECED4: 63 word records from 0x3E8BF4 (hash:b73ee227, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-4"
+base = 0x3E9034
+stride = 12
+count = 42
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 4 of the group table 0x3ECED4: 42 word records from 0x3E9034 (hash:a21a7955, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-5"
+base = 0x3E93F0
+stride = 12
+count = 75
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 5 of the group table 0x3ECED4: 75 word records from 0x3E93F0 (hash:df3cc5ff, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-6"
+base = 0x3E98D8
+stride = 12
+count = 63
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 6 of the group table 0x3ECED4: 63 word records from 0x3E98D8 ('!', ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-7"
+base = 0x3E9D6C
+stride = 12
+count = 60
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 7 of the group table 0x3ECED4: 60 word records from 0x3E9D6C (hash:f8bf9088, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-8"
+base = 0x3EA1B4
+stride = 12
+count = 69
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 8 of the group table 0x3ECED4: 69 word records from 0x3EA1B4 (hash:191801eb, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-9"
+base = 0x3EA6D4
+stride = 12
+count = 69
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 9 of the group table 0x3ECED4: 69 word records from 0x3EA6D4 (hash:36b78143, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-10"
+base = 0x3EAC00
+stride = 12
+count = 69
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 10 of the group table 0x3ECED4: 69 word records from 0x3EAC00 (hash:a2fefacf, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-11"
+base = 0x3EB138
+stride = 12
+count = 78
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 11 of the group table 0x3ECED4: 78 word records from 0x3EB138 (hash:bb7219f5, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-12"
+base = 0x3EB628
+stride = 12
+count = 45
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 12 of the group table 0x3ECED4: 45 word records from 0x3EB628 (hash:65696985, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-13"
+base = 0x3EB9C0
+stride = 12
+count = 54
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 13 of the group table 0x3ECED4: 54 word records from 0x3EB9C0 (hash:3b8a6b66, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-14"
+base = 0x3EBD7C
+stride = 12
+count = 45
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 14 of the group table 0x3ECED4: 45 word records from 0x3EBD7C (hash:95e9a8ea, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-15"
+base = 0x3EC0A4
+stride = 12
+count = 42
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 15 of the group table 0x3ECED4: 42 word records from 0x3EC0A4 (hash:509c5d06, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-16"
+base = 0x3EC3BC
+stride = 12
+count = 36
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 16 of the group table 0x3ECED4: 36 word records from 0x3EC3BC (hash:ee94f25c, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-17"
+base = 0x3EC644
+stride = 12
+count = 28
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 17 of the group table 0x3ECED4: 28 word records from 0x3EC644 (hash:4f14e5d9, ...); see easy-chat-words-1"
+
+[[layout.table_window]]
+name = "easy-chat-words-20"
+base = 0x3ECB50
+stride = 12
+count = 33
+fields = [0]
+chars = 12
+where = "easy chat word grid, phrase frame, mail and trainer card"
+evidence = "group 20 of the group table 0x3ECED4: 33 word records from 0x3ECB50 (hash:f97eaaba, ...); see easy-chat-words-1"
+
+# a one-line quest-log text the
+#   translation writes on two lines
+[[layout.table_window]]
+name = "quest-log-moved-pokemon"
+base = 0x114B08
+stride = 4
+count = 1
+fields = [0]
+width = 238
+lines = 3
+where = "quest log description window"
+evidence = "literal pool word 0x114B08 of the quest-log text hash:1c492ad0 (s041A5FA, loaded at 0x8114AF4), expanded into gStringVar4 and printed by 0x8111D10 in window 2 of 0x45661C (30 x 6 tiles), font 2 from x 2, y from table 0x456698 (17 / 10 / 3 for 1-3 lines): 238 px, 3 lines"
+
+# easy chat group menu
+[[layout.table_window]]
+name = "easy-chat-group-names"
+base = 0x3EDF98
+stride = 4
+count = 22
+fields = [0]
+width = 80
+where = "easy chat group menu, two columns"
+
+# map section names
+# - the narrowest window every section reaches
+# - narrower areas: [layout.window_width]
+[[layout.table_window]]
+name = "map-section-names"
+base = 0x3F1CAC
+stride = 4
+count = 109
+fields = [0]
+width = 94
+chars = 18
+where = "DexNav top bar; also map popup, Town Map, save info, summary memo, Mission Log"
+
+# FireRed interface tables
+[[layout.table_window]]
+name = "party-field-move-descriptions"
+base = 0xA6C968
+stride = 4
+count = 15
+fields = [0]
+width = 141
+where = "party menu, field move description line"
+
+[[layout.table_window]]
+name = "party-messages"
+base = 0x45A2E8
+stride = 4
+count = 27
+fields = [0]
+width = 168
+where = "party menu, message window above the cancel button"
+
+[[layout.table_window]]
+name = "party-slot-descriptions"
+base = 0x45A354
+stride = 4
+count = 10
+fields = [0]
+width = 64
+where = "party menu slot, description in place of HP"
+
+# both six-lesson page tables.
+[[layout.table_window]]
+name = "teachy-tv-lessons"
+base = 0x479560
+stride = 4
+count = 12
+fields = [0]
+width = 208
+box = "dialogue"
+where = "Teachy TV lesson window 0"
+
+[[layout.table_window]]
+name = "union-room-player-count"
+base = 0x45742C
+stride = 4
+count = 20
+fields = [0]
+width = 56
+lines = 2
+where = "Union Room group screen, player count window"
+
+[[layout.table_window]]
+name = "union-room-group-prompts"
+base = 0x4591B8
+stride = 4
+count = 9
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+evidence = "prompts by gSpecialVar_Result from 0x4591B8, read at 0x8116810 and printed by 0x811A0F8 (DrawDialogueFrame 0x80F6EE4, gStringVar4, AddTextPrinterForMessage 0x80F6E08): the field message box, 208 px, two lines per box. The field message box binds; the widest English of the group is 180 px and 2 lines"
+
+[[layout.table_window]]
+name = "union-room-start-messages"
+base = 0x458230
+stride = 4
+count = 12
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+
+[[layout.table_window]]
+name = "union-room-battle-remarks"
+base = 0x458758
+stride = 4
+count = 8
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+
+[[layout.table_window]]
+name = "union-room-chat-remarks"
+base = 0x4588BC
+stride = 4
+count = 8
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+evidence = "the same for a trainer busy in a chat, [gender][4] from 0x4588BC (0x811AB78): the field message box, 208 px, two lines per box. The field message box binds; the widest English of the group is 182 px and 3 lines"
+
+[[layout.table_window]]
+name = "union-room-trade-errors"
+prompt_arrow_width = 10
+base = 0x45A7E8
+stride = 4
+count = 9
+fields = [0]
+width = 224
+box = "dialogue"
+where = "party menu message box"
+
+# Trainer Card rank line
+[[layout.table_window]]
+name = "union-room-card-ranks"
+base = 0x4594B0
+stride = 4
+count = 5
+fields = [0]
+width = 208
+where = "field message box, Trainer Card summary"
+
+[[layout.table_window]]
+name = "egg-origin-memo"
+base = 0x463ED4
+stride = 4
+count = 7
+fields = [0]
+width = 220
+lines = 3
+where = "summary screen, egg memo"
+
+[[layout.table_window]]
+name = "berry-crush-messages"
+
+# Berry Crush results, berry names.
+# - row «N. name» from x 4, berry ends at 188
+# - 188 - 4 - «5. » 17 - PLAYER 42 - «-ягода» 35
+[[layout.table_window]]
+name = "berry-crush-results-berries"
+base = 0x14E294
+stride = 4
+count = 1
+fields = [0]
+where = "Berry Crush results, berry column"
+
+# Unbound options screen ('Game Settings')
+[[layout.table_window]]
+name = "options-labels-general"
+base = 0x1FB3788
+stride = 12
+count = 8
+fields = [0]
+width = 94
+chars = 19
+where = "options screen, option list (general page)"
+
+[[layout.table_window]]
+name = "options-labels-audio"
+base = 0x1FB3800
+stride = 12
+count = 8
+fields = [0]
+width = 94
+chars = 19
+where = "options screen, option list (audio page)"
+
+[[layout.table_window]]
+name = "options-labels-battle"
+base = 0x1FB3930
+stride = 12
+count = 12
+fields = [0]
+width = 94
+chars = 19
+where = "options screen, option list (battle page)"
+
+[[layout.table_window]]
+name = "options-descriptions-general"
+base = 0x1FB3788
+stride = 12
+count = 8
+fields = [8]
+width = 223
+where = "options screen, description line (general page)"
+
+[[layout.table_window]]
+name = "options-descriptions-audio"
+base = 0x1FB3800
+stride = 12
+count = 8
+fields = [8]
+width = 223
+where = "options screen, description line (audio page)"
+
+[[layout.table_window]]
+name = "options-descriptions-battle"
+base = 0x1FB3930
+stride = 12
+count = 12
+fields = [8]
+width = 223
+where = "options screen, description line (battle page)"
+
+[[layout.table_window]]
+name = "options-values-r-button"
+base = 0x1FB37E8
+stride = 4
+count = 6
+fields = [0]
+width = 112
+where = "options screen, value column"
+
+[[layout.table_window]]
+name = "options-values"
+base = 0x1FB39C0
+stride = 4
+count = 45
+fields = [0]
+width = 112
+where = "options screen, value column"
+
+[[layout.table_window]]
+name = "options-trainer-themes"
+base = 0x1FB3A7C
+stride = 8
+count = 31
+fields = [0]
+width = 112
+where = "options screen, value column (Trainer Theme)"
+# the getter strips these prefixes
+# - from the overworld names too; none starts with one
+strip = [{ reference = "music_prefix_battle:0", chars = 8 }, { reference = "music_prefix_team:0", chars = 5 }]
+
+[[layout.table_window]]
+name = "options-wild-themes"
+base = 0x1FB3B74
+stride = 12
+count = 28
+fields = [0]
+width = 112
+where = "options screen, value column (Wild Theme)"
+# the getter strips these prefixes
+strip = [{ reference = "music_prefix_battle:0", chars = 8 }, { reference = "music_prefix_team:0", chars = 5 }]
+
+[[layout.table_window]]
+name = "options-overworld-themes"
+base = 0x1FB3CC4
+stride = 8
+count = 108
+fields = [0]
+width = 112
+where = "options screen, value column (Overworld Theme)"
+
+# The selected value between two arrows.
+# - right arrow sprite at x = 133 + value width
+# - fits up to width 99; 98 leaves the shadow
+[[layout.table_window]]
+name = "options-values-arrows"
+base = 0x1FB39C0
+stride = 4
+count = 45
+fields = [0]
+width = 98
+where = "options screen, selected value between the arrows"
+
+[[layout.table_window]]
+name = "options-values-r-button-arrows"
+base = 0x1FB37E8
+stride = 4
+count = 6
+fields = [0]
+width = 98
+where = "options screen, selected value between the arrows"
+evidence = "the R-Button Mode values, shown between the arrows as options-values-arrows: width 99, given as 98"
+
+[[layout.table_window]]
+name = "options-trainer-themes-arrows"
+base = 0x1FB3A7C
+stride = 8
+count = 31
+fields = [0]
+width = 98
+where = "options screen, selected value between the arrows (Trainer Theme)"
+evidence = "Trainer Theme values, shown between the arrows as options-values-arrows: the right arrow follows the width of the name the getter returns, after the stripped prefixes; width 99, given as 98"
+strip = [{ reference = "music_prefix_battle:0", chars = 8 }, { reference = "music_prefix_team:0", chars = 5 }]
+
+[[layout.table_window]]
+name = "options-wild-themes-arrows"
+base = 0x1FB3B74
+stride = 12
+count = 28
+fields = [0]
+width = 98
+where = "options screen, selected value between the arrows (Wild Theme)"
+evidence = "Wild Theme values, shown between the arrows as options-trainer-themes-arrows: width 99, given as 98"
+strip = [{ reference = "music_prefix_battle:0", chars = 8 }, { reference = "music_prefix_team:0", chars = 5 }]
+
+[[layout.table_window]]
+name = "options-overworld-themes-arrows"
+base = 0x1FB3CC4
+stride = 8
+count = 108
+fields = [0]
+width = 98
+where = "options screen, selected value between the arrows (Overworld Theme)"
+evidence = "Overworld Theme values, shown between the arrows as options-values-arrows: width 99, given as 98"
+
+[[layout.table_window]]
+name = "frontier-tiers"
+base = 0x1FB2C78
+stride = 4
+count = 18
+fields = [0]
+width = 208
+where = "Battle Frontier tier menu and field message box"
+
+# FireRed battle string table
+# - the battle message window, 2 lines per box
+# - four runs around the fills and field dialogue
+[[layout.table_window]]
+name = "battle-strings-1"
+prompt_arrow_width = 10
+base = 0x3FDF3C
+stride = 4
+count = 197
+fields = [0]
+width = 222
+box = "battle"
+where = "battle message window"
+
+[[layout.table_window]]
+name = "battle-strings-2"
+prompt_arrow_width = 10
+base = 0x3FE260
+stride = 4
+count = 117
+fields = [0]
+width = 222
+box = "battle"
+where = "battle message window"
+
+[[layout.table_window]]
+name = "battle-strings-3"
+prompt_arrow_width = 10
+base = 0x3FE438
+stride = 4
+count = 36
+fields = [0]
+width = 222
+box = "battle"
+where = "battle message window"
+
+[[layout.table_window]]
+name = "battle-strings-4"
+prompt_arrow_width = 10
+base = 0x3FE4D8
+stride = 4
+count = 15
+fields = [0]
+width = 222
+box = "battle"
+where = "battle message window"
+
+# stat names inside the messages
+# - room in the narrowest host line
+# - X items copy into the 16-byte gBattleTextBuff1
+[[layout.table_window]]
+name = "stat-names"
+base = 0x3FD5D0
+stride = 4
+count = 8
+fields = [0]
+chars = 15
+where = "stat name inside battle, bag and field messages"
+
+# nickname of a Bad Egg
+[[layout.table_window]]
+name = "bad-egg-nickname"
+base = 0x3FF68
+stride = 4
+count = 1
+fields = [0]
+width = 60
+chars = 10
+where = "Pokemon nickname"
+
+# DexNav help pages of Nat's assistant
+[[layout.table_window]]
+name = "dexnav-help-pages"
+base = 0x1FB1EF0
+stride = 4
+count = 8
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box"
+
+# Poké Ball list of the ball changer
+# - Cancel s04161C1 is shared: left out
+[[layout.table_window]]
+name = "ball-changer-list"
+base = 0x1FB2204
+stride = 4
+count = 27
+fields = [0]
+width = 208
+where = "ball changer list and field message box"
+
+# Self-sizing lists of special 0x158.
+# - window up to 222 px, one line per item
+# - shared 'Cancel' and 'No Thanks' left out
+[[layout.table_window]]
+name = "dehara-lift-list"
+base = 0x1FB1EBC
+stride = 4
+count = 2
+fields = [0]
+width = 222
+where = "Dehara Dept. lift list"
+
+# 6F-3F are also floor signs
+# - the 208 px sign binds, one list line
+[[layout.table_window]]
+name = "dehara-lift-list-shared"
+base = 0x1FB1EAC
+stride = 4
+count = 4
+fields = [0]
+width = 222
+lines = 1
+where = "Dehara Dept. lift list"
+
+[[layout.table_window]]
+name = "dehara-lift-signs"
+prompt_arrow_width = 10
+base = 0x1FB1EAC
+stride = 4
+count = 4
+fields = [0]
+width = 208
+lines = 2
+where = "Dehara Dept. floor sign message window"
+
+[[layout.table_window]]
+name = "game-corner-item-prizes"
+base = 0x1FB1E7C
+stride = 4
+count = 11
+fields = [0]
+width = 222
+where = "Game Corner item prize list"
+
+[[layout.table_window]]
+name = "game-corner-pokemon-prizes"
+base = 0x1FB1E60
+stride = 4
+count = 6
+fields = [0]
+width = 222
+where = "Game Corner Pokemon prize list"
+
+[[layout.table_window]]
+name = "game-corner-tm-prizes"
+base = 0x1FB1E38
+stride = 4
+count = 9
+fields = [0]
+width = 222
+where = "Game Corner TM prize list"
+
+[[layout.table_window]]
+name = "dexnav-help-topics"
+base = 0x1FB1EC8
+stride = 4
+count = 8
+fields = [0]
+width = 222
+where = "DexNav help topic list"
+
+[[layout.table_window]]
+name = "furfrou-trims"
+base = 0x1FB1DF8
+stride = 4
+count = 10
+fields = [0]
+width = 222
+where = "Furfrou trim list"
+
+[[layout.table_window]]
+name = "frontier-party-choice"
+base = 0x1FB1DDC
+stride = 4
+count = 1
+fields = [0]
+width = 222
+where = "Battle Frontier team list"
+
+[[layout.table_window]]
+name = "plate-trader-list"
+base = 0x1FB1D94
+stride = 4
+count = 17
+fields = [0]
+width = 222
+where = "shard trader Plate list"
+
+[[layout.table_window]]
+name = "gem-trader-list"
+base = 0x1FB1D48
+stride = 4
+count = 18
+fields = [0]
+width = 222
+where = "Hard Stone trader Gem list"
+
+# tables of the Unbound system regions
+# - Safari box texts: 2 lines per box, 224 px
+# - bars 0 and 9 in [layout.window_width]
+[[layout.table_window]]
+name = "safari-box-texts"
+base = 0x1FB4FBC
+stride = 4
+count = 8
+fields = [0]
+width = 224
+box = "dialogue"
+where = "Safari Game message box"
+
+[[layout.table_window]]
+name = "safari-box-texts-2"
+base = 0x1FB4FE0
+stride = 4
+count = 5
+fields = [0]
+width = 224
+box = "dialogue"
+where = "Safari Game message box"
+evidence = "texts 10-14 of the Safari table 0x1FB4FB8, printed by the box printer 0x1EC41F4 as safari-box-texts: window 0 of 0x1FB4EF0, font 1 from x 0, 224 px, two lines per box. The box binds; the English of the catalog group reaches 307 px and 5 lines"
+
+# - Pep Quiz questions and hints: field box
+[[layout.table_window]]
+name = "pep-quiz-texts"
+base = 0x1FB57EC
+stride = 4
+count = 20
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box, Pep Quiz"
+
+[[layout.table_window]]
+name = "ship-passenger-dialogue"
+base = 0x1FB69B0
+stride = 8
+count = 6
+fields = [0x4]
+width = 208
+box = "dialogue"
+where = "field message box, ship passengers"
+
+[[layout.table_window]]
+name = "ship-passenger-choices"
+base = 0x1FB69E0
+stride = 12
+count = 5
+fields = [0x4, 0x8]
+width = 208
+box = "dialogue"
+where = "field message box, ship passenger choices"
+
+[[layout.table_window]]
+name = "ship-passenger-rematches"
+base = 0x1FB6A50
+stride = 16
+count = 10
+fields = [0x8, 0xc]
+width = 208
+box = "dialogue"
+where = "field message box, ship passenger rematches"
+
+[[layout.table_window]]
+name = "safari-berry-explanations"
+base = 0x1FB51E4
+stride = 4
+count = 5
+fields = [0x0]
+width = 208
+box = "dialogue"
+where = "field message box, berry explanations"
+
+[[layout.table_window]]
+name = "special-treatment-dialogue"
+base = 0x1FB2ED4
+stride = 4
+count = 10
+indexes = [0, 1, 2, 4, 5, 6, 7, 9]
+fields = [0x0]
+width = 208
+box = "dialogue"
+where = "field message box, treatment offers and results"
+
+[[layout.table_window]]
+name = "berry-recipe-lines"
+base = 0x776AD7
+stride = 4
+count = 1
+fields = [0x0, 0x8ab3, 0x8b03, 0x8b77, 0x13894, 0x138f9, 0x13963, 0x13dca, 0x13e20]
+width = 208
+box = "dialogue"
+where = "field message box, recipe ingredients"
+
+[[layout.table_window]]
+name = "pie-recipe-lines"
+base = 0x1E57397
+stride = 4
+count = 1
+fields = [0x0, 0x28, 0x76, 0xe7, 0x107, 0x16a, 0x1d2, 0x1f1, 0x264]
+width = 208
+box = "dialogue"
+where = "field message box, recipe ingredients"
+
+[[layout.table_window]]
+name = "field-poison-recovery"
+base = 0xA05E4
+stride = 4
+count = 1
+fields = [0x0]
+width = 208
+box = "dialogue"
+where = "field message box, poison recovery"
+
+# - natively printed texts that wait
+[[layout.table_window]]
+name = "link-setup-prompts"
+base = 0x80AA8
+stride = 4
+count = 1
+fields = [0x0, 0x118, 0x188]
+width = 208
+box = "dialogue"
+where = "field message box, link setup prompts"
+evidence = "Cable club literals 0x8080AA8 and 0x8080C30 (s01BC4CE) and 0x8080BC0 (s01BC50D) go to 0x8069464, which sets message box mode 3 and calls the field printer 0x80694C8; the mode changes no printer setting. The field printer 0x80694C8 calls AddTextPrinterForMessage 0x80F6D5C: AddTextPrinterParameterized2 0x80F6CD0 on window 0 at x 0; template 0x841F42C, 26 x 4 tiles, 208 px. TextPrinterDrawDownArrow 0x80054F8 draws the 10 px arrow unless gTextFlags 0x3003E50 bit 2 is set; only quest-log playback sets it (0x80693A6)."
+
+[[layout.table_window]]
+name = "oak-intro-speech"
+base = 0x12FB08
+stride = 4
+count = 1
+fields = [0x0, 0x94]
+width = 208
+box = "dialogue"
+where = "message box, professor's introduction"
+evidence = "Tasks 0x812FA78 and 0x812FB4C load these literals and call AddTextPrinterParameterized2 0x80F6CD0 at 0x812FAF6 and 0x812FB94: window 0, font 4, x 0, after DrawDialogueFrame 0x80F6EE4. Window 0 comes from InitStandardTextBoxWindows 0x80F6C6C (template 0x841F42C, 26 x 4 tiles, 208 px), called at 0x812ED0A. A headless new game from the title screen does not reach these tasks. TextPrinterDrawDownArrow 0x80054F8 draws the 10 px arrow unless gTextFlags 0x3003E50 bit 2 is set; only quest-log playback sets it (0x80693A6)."
+
+[[layout.table_window]]
+name = "whiteout-recovery"
+base = 0x7F53C
+stride = 4
+count = 1
+fields = [0x0, 0x3c, 0x980a58, 0x1e42d08, 0x1e42d18, 0x1e42d30, 0x1e42d38]
+width = 238
+box = "dialogue"
+where = "whiteout recovery window"
+evidence = "Whiteout task 0x9EC20B0 (hooked from 0x807F45C) adds its window from template 0x83C68E4 (30 x 11 tiles, 240 px) at 0x9EC20DC and picks s041B554, s041B5B6, s1F11D89 or s1F11D25 from these literals; the CFRU picker 0x89FFF74 returns s0A4D8A4. Both call 0x807F3A4: AddTextPrinterParameterized4 0x812E5A4, font 2, x 2, y 8, speed 1, so 238 px from x 2. Five lines (layout.window_lines); only the line before the final page code waits. TextPrinterDrawDownArrow 0x80054F8 draws the 10 px arrow unless gTextFlags 0x3003E50 bit 2 is set; only quest-log playback sets it (0x80693A6)."
+
+[[layout.table_window]]
+name = "dynamax-trainer-lines"
+base = 0xA10234
+stride = 4
+count = 1
+fields = [0x0, 0x20]
+width = 222
+box = "battle"
+where = "battle message window, Dynamax trainer lines"
+evidence = "0x8A101CE and 0x8A10212 store these literals in the battle string loader 0x203E020 and set the battle script 0x896DBE3, which prints the loader string in the battle message window. TextPrinterDrawDownArrow 0x80054F8 draws the 10 px arrow unless gTextFlags 0x3003E50 bit 2 is set; only quest-log playback sets it (0x80693A6)."
+
+[[layout.table_window]]
+name = "timer-error"
+base = 0x1ED0ABC
+stride = 4
+count = 1
+fields = [0x0]
+width = 224
+box = "dialogue"
+where = "timer error window"
+evidence = "Task 0x9ED0780 loads the literal at 0x9ED0808 and calls AddTextPrinterParameterized2 0x80F6CD0 at 0x9ED0810: window 0, font 1, x 0, player text speed. Window 0 comes from InitWindows 0x8003B24 at 0x9ECFCEE with template list 0x9FB60E4: 28 x 4 tiles, 224 px. TextPrinterDrawDownArrow 0x80054F8 draws the 10 px arrow unless gTextFlags 0x3003E50 bit 2 is set; only quest-log playback sets it (0x80693A6)."
+
+[[layout.table_window]]
+name = "mining-messages"
+base = 0x1EDBE94
+stride = 4
+count = 1
+fields = [0x0, 0x8, 0x164]
+width = 200
+box = "dialogue"
+where = "mining message window"
+evidence = "The mining code passes these literals to 0x9EDBD5C, which calls AddTextPrinterParameterized2 0x80F6CD0 at 0x9EDBD92: window 0, font 1, x 0, player text speed. Window 0 comes from InitWindows 0x8003B24 at 0x9EDC556 with template list 0x9FB7A9C: 25 x 4 tiles, 200 px. TextPrinterDrawDownArrow 0x80054F8 draws the 10 px arrow unless gTextFlags 0x3003E50 bit 2 is set; only quest-log playback sets it (0x80693A6)."
+
+[[layout.table_window]]
+name = "mining-scan-mode"
+base = 0x1EBA2C8
+stride = 4
+count = 1
+fields = [0x0]
+width = 208
+box = "dialogue"
+where = "message box, R-Button mode notice"
+evidence = "0x9EBA2B6 passes the literal to DisplayItemMessageOnField 0x80A10C4 with font 2. In the field 0x80F7808 prints through DisplayMessageAndContinueTask 0x80BF474 on window 0 (template 0x841F42C, 26 x 4 tiles); from the bag 0x8108E70 uses bag window 5 (template 0x845312C, 26 x 4 tiles). Both print at x 0 in 208 px. TextPrinterDrawDownArrow 0x80054F8 draws the 10 px arrow unless gTextFlags 0x3003E50 bit 2 is set; only quest-log playback sets it (0x80693A6)."
+
+# - evolution conditions: a box after s1F0618A
+[[layout.table_window]]
+name = "evolution-conditions"
+base = 0x1FB5E6C
+stride = 4
+count = 40
+fields = [0]
+width = 208
+box = "dialogue"
+where = "field message box, evolution conditions"
+
+# - natures: self-sizing list of special 0x158
+[[layout.table_window]]
+name = "nature-list"
+base = 0x1FE658C
+stride = 4
+count = 25
+fields = [0]
+width = 222
+where = "nature list"
+
+# - trainer card months: 6 px from the label
+[[layout.table_window]]
+name = "trainer-card-months"
+base = 0x1FE6BFC
+stride = 4
+count = 12
+fields = [0]
+width = 29
+where = "trainer card, hash:b46d8a3e"
+
+# - FireRed item lists: never shown
+# - the list menu would size to the widest
+[[layout.table_window]]
+name = "firered-list-valuables"
+base = 0x2372C0
+stride = 4
+count = 8
+fields = [0]
+width = 222
+where = "script list menu (never shown)"
+
+[[layout.table_window]]
+name = "firered-list-foods"
+base = 0x237400
+stride = 4
+count = 16
+fields = [0]
+width = 222
+where = "script list menu (never shown)"
+evidence = "list 1 of the table 0x8A3F50, never shown as firered-list-valuables; were it reached, the self-sizing list of special 0x158: up to 222 px, one line per item. The self-sizing list binds; the widest English of the pointer run is 84 px"
+
+[[layout.table_window]]
+name = "firered-list-fossils"
+base = 0x237584
+stride = 4
+count = 11
+fields = [0]
+width = 222
+where = "script list menu (never shown)"
+evidence = "list 2 of the table 0x8A3F50, never shown as firered-list-valuables; were it reached, the self-sizing list of special 0x158: up to 222 px, one line per item. The self-sizing list binds; the widest English of the pointer run is 66 px"
+
+# Rows 0 and 5 of the array 0x3F5BCC, never shown.
+# - the list would size to the widest item
+# - shared 'Exit' s04161C8 left out
+[[layout.table_window]]
+name = "firered-list-badges"
+base = 0x3F5BCC
+stride = 4
+count = 8
+fields = [0]
+width = 222
+where = "script list menu (never shown)"
+
+[[layout.table_window]]
+name = "firered-list-prices"
+base = 0x3F5CBC
+stride = 4
+count = 11
+fields = [0]
+width = 222
+where = "script list menu (never shown)"
+
+# FireRed PC, options and script menu data tables
+[[layout.table_window]]
+name = "options-labels"
+base = 0x3CC314
+stride = 4
+count = 7
+fields = [0]
+width = 122
+where = "FireRed options menu, label column"
+
+[[layout.table_window]]
+name = "pc-storage-menu-items"
+base = 0x3D353C
+stride = 4
+count = 38
+fields = [0]
+width = 224
+chars = 27
+where = "PC storage menus"
+
+[[layout.table_window]]
+name = "pc-storage-messages"
+base = 0x3CEA88
+stride = 8
+count = 31
+fields = [0]
+width = 144
+where = "PC storage message window"
+
+[[layout.table_window]]
+name = "mission-banner"
+prompt_arrow_width = 10
+base = 0x1E559D2
+stride = 4
+count = 1
+fields = [
+  0x0, 0xD08, 0x19D8, 0x1ABF, 0x1BAA, 0x4DB8, 0x5401, 0x6292,
+  0x77F6, 0xB8E8, 0xBC40, 0xC288, 0xC3C3, 0xD8F5, 0xE574, 0x122C4,
+  0x12DC4, 0x15616, 0x15770, 0x1582D, 0x158E9, 0x15A5C, 0x15B70, 0x15C84,
+  0x15DA4, 0x15F40, 0x160D0, 0x1637E, 0x16648, 0x17D3E, 0x18EEC, 0x19D8D,
+  0x1B74C, 0x1C13B, 0x1C77A, 0x1CA6B, 0x213F0, 0x24444, 0x24465, 0x25044,
+  0x255F5, 0x25BB3, 0x287CF, 0x2A5E1, 0x2A661, 0x2A6E1, 0x2A864, 0x2B958,
+  0x2C6B0, 0x30FA0, 0x32535, 0x333AC, 0x387BC, 0x38B8C, 0x38BEC, 0x39566,
+  0x395EA, 0x39700, 0x3FBDB, 0x40093, 0x40151, 0x40166, 0x41701, 0x428A8,
+  0x43250, 0x4602F, 0x5052D, 0x50A40, 0x50D18, 0x51408, 0x514B5, 0x515CA,
+  0x51A54, 0x51F1F, 0x5211B, 0x53B0D, 0x5408A, 0x540FF, 0x5441A, 0x54BBF,
+  0x552C9, 0x555E1, 0x55A04, 0x56288, 0x563CC, 0x56626, 0x56774, 0x56C66,
+  0x57154, 0x578BA, 0x57FE5, 0x58613, 0x58A20, 0x5901D, 0x59073, 0x592F9,
+  0x5956C, 0x59676, 0x596AB, 0x598BB, 0x59CEA, 0x59E30, 0x5A660, 0x5FFCA,
+  0x5FFE2, 0x5FFFA,
+]
+width = 223
+instant_print = true
+where = "mission banner"
+
+[[layout.table_window]]
+name = "trade-menu-messages"
+
+[[layout.table_window]]
+name = "seagallop-destinations"
+base = 0x3E17E0
+stride = 4
+count = 8
+fields = [0]
+width = 80
+where = "Seagallop destination menu"
+
+# - FireRed multichoice lists, self-sizing to 214 px
+# - items other menus show are left out
+[[layout.table_window]]
+name = "fr-multichoice-02"
+base = 0x3DFD60
+stride = 8
+count = 28
+fields = [0]
+width = 214
+where = "script choice menu"
+
+[[layout.table_window]]
+name = "fr-multichoice-10"
+base = 0x3DFE58
+stride = 8
+count = 5
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "map:0.5/mapscript:0/3 of list 0x10 (0x3DFE48: YES, NO, Info) and the items of list 0x11 (0x3DFE60: SINGLE, DOUBLE, MULTI BATTLE, Info; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px. Both are shown in the Cable Club (0x1BBA51, 0x1BB4B4, 0x1BBC9D)"
+
+[[layout.table_window]]
+name = "fr-multichoice-12"
+base = 0x3DFE98
+stride = 8
+count = 3
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "map:0.5/mapscript:0/3 of list 0x12 (0x3DFE88: YES, NO, Info) and the items of list 0x13 (0x3DFEA0: Make a challenge, Info; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-15"
+base = 0x3DFED0
+stride = 16
+count = 3
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x15-0x17 (0x3DFED0, 0x3DFEE0, 0x3DFEF0: a fossil and map:2.5/npc:0/5, 16 bytes each), the fossil; as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-18"
+base = 0x3DFF00
+stride = 24
+count = 2
+fields = [0, 8]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x18 and 0x19 (0x3DFF00, 0x3DFF18: two fossils and map:2.5/npc:0/5, 24 bytes each), the fossils; as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-1a"
+base = 0x3DFF30
+stride = 8
+count = 3
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "list 0x1A (0x3DFF30: three drinks with prices; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px, {CLEAR_TO} columns measured"
+
+[[layout.table_window]]
+name = "fr-multichoice-1e"
+base = 0x3DFF50
+stride = 8
+count = 14
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x1E (0x3DFF50: TMs with prices, NO THANKS), 0x29 (0x3DFF80: held items with prices, NO THANKS) and 0x1B (0x3DFFB0: coins with prices; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px, {CLEAR_TO} columns measured"
+
+[[layout.table_window]]
+name = "fr-multichoice-1c"
+base = 0x3DFFC8
+stride = 8
+count = 9
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x1C (0x3DFFC8: Excellent, Not so bad), 0x1D (0x3DFFD8: Right, Left) and 0x1F (0x3DFFE8: 5F to 1F; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-01"
+base = 0x3E0190
+stride = 8
+count = 15
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x01 (0x3E0190: Eevee and its evolutions, Quit looking), 0x0D (0x3E01B8: Bicycle with price, NO THANKS), 0x0E (0x3E01C8: prize Pokemon with prices, NO THANKS) and 0x27 (0x3E01F8: Trade Center, Colosseum; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px. List 0x27 is shown in the Cable Club (0x1BB46C)"
+
+[[layout.table_window]]
+name = "fr-multichoice-28"
+base = 0x3E0218
+stride = 8
+count = 1
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "hash:0a6273c8 of list 0x28 (0x3E0210: Game Link cable, Wireless, Exit; the other two left out); as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-2b"
+base = 0x3E0248
+stride = 8
+count = 6
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x2B (0x3E0248: hash:146d7cc3, DIRECT CORNER, UNION ROOM, QUIT) and 0x2C (0x3E0268: Two Island, Three Island; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-2d"
+base = 0x3E0280
+stride = 24
+count = 2
+fields = [0, 8]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x2D and 0x2E (0x3E0280, 0x3E0298: two islands and map:2.5/npc:0/5, 24 bytes each), the islands; as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-2f"
+base = 0x3E02B0
+stride = 8
+count = 3
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "list 0x2F (0x3E02B0: Trade Center, COLOSSEUM, BERRY CRUSH; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px. Shown in the Wireless Club (0x1BBBF0)"
+
+[[layout.table_window]]
+name = "fr-multichoice-32"
+base = 0x3E02E8
+stride = 24
+count = 2
+fields = [0, 8]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x32 (0x3E02E8: Trade Center, COLOSSEUM, Exit) and 0x31 (0x3E0300: Pokemon JUMP, hash:ad93e00d, Exit), 24 bytes each, the first two items; as fr-multichoice-02: up to 214 px. List 0x32 is shown in the Wireless Club (0x1BBC32)"
+
+[[layout.table_window]]
+name = "fr-multichoice-33"
+base = 0x3E0318
+stride = 8
+count = 6
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x33 (0x3E0318: the two mushroom offers) and 0x34 (0x3E0328: Trade Center, COLOSSEUM, a pointer into a string at 0x3E0338, BERRY CRUSH; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-35"
+base = 0x3E0350
+stride = 32
+count = 2
+fields = [0, 8]
+width = 214
+where = "script choice menu"
+evidence = "the first two items of lists 0x35 (0x3E0350: Trade Center, COLOSSEUM) and 0x36 (0x3E0370: SEVII ISLANDS, NAVEL ROCK); map:2.5/npc:0/5 and a pointer into a string left out; as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-37"
+base = 0x3E0388
+stride = 8
+count = 2
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "list 0x37 (0x3E0388: SEVII ISLANDS, BIRTH ISLAND; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-38"
+base = 0x3E03A0
+stride = 32
+count = 5
+fields = [0, 8, 16]
+width = 214
+where = "script choice menu"
+evidence = "lists 0x38-0x3C (0x3E03A0-0x3E043F: three places and map:2.5/npc:0/5, 32 bytes each), the places; as fr-multichoice-02: up to 214 px; Vermilion and the islands also take the Seagallop window (seagallop-destinations)"
+
+[[layout.table_window]]
+name = "fr-multichoice-3d"
+base = 0x3E0440
+stride = 8
+count = 1
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "'Vermilion' of list 0x3D (0x3E0440; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px"
+
+[[layout.table_window]]
+name = "fr-multichoice-3f"
+base = 0x3E0468
+stride = 8
+count = 2
+fields = [0]
+width = 214
+where = "script choice menu"
+evidence = "list 0x3F (0x3E0468: JOIN GROUP, BECOME LEADER; map:2.5/npc:0/5 left out); as fr-multichoice-02: up to 214 px. Shown in the Wireless Club (0x1BBDC9, 0x1BBE5D, 0x1BBEF1)"
+
+# Frontier tier names and formats.
+# - tiers 0 and 2-17 sit in the ban list title
+# - tiers 18-21 are inserted words; 22-25 follow 'Battle Mine '
+[[layout.table_window]]
+name = "frontier-tier-0"
+base = 0xA6B700
+stride = 4
+count = 1
+fields = [0]
+width = 160
+where = "ban list viewer title, window 0"
+evidence = "tier 0 hash:74d79977, as frontier-tiers-2-17"
+
+[[layout.table_window]]
+name = "frontier-tiers-2-17"
+base = 0xA6B708
+stride = 4
+count = 16
+fields = [0]
+width = 160
+where = "ban list viewer title, window 0"
+
+[[layout.table_window]]
+name = "frontier-tiers-18-21"
+base = 0xA6B748
+stride = 4
+count = 4
+fields = [0]
+width = 203
+where = "battle tier in the field message box"
+
+[[layout.table_window]]
+name = "frontier-mine-formats"
+base = 0xA6B758
+stride = 4
+count = 4
+fields = [0]
+where = "ban list viewer title after hash:dfef8153"
+
+[[layout.table_window]]
+name = "frontier-battle-formats"
+base = 0xA6B768
+stride = 4
+count = 7
+fields = [0]
+where = "battle format in the field message box"
+
+[[layout.table_window]]
+name = "battle-circus-conditions"
+base = 0xA6B7A0
+stride = 4
+count = 32
+fields = [0]
+width = 208
+box = "dialogue"
+where = "battle conditions in the field message box"
+
+# Default names and in-game trade names.
+# - copied into save fields: chars is the field size
+# - 6 px per character; box names 8 characters, 48 px
+[[layout.table_window]]
+name = "default-box-name"
+base = 0x8C850
+stride = 4
+count = 1
+fields = [0]
+chars = 6
+where = "PC box name: box title, box choice popup, field texts"
+
+[[layout.table_window]]
+name = "preset-box-name"
+base = 0x1EC5B38
+stride = 4
+count = 1
+fields = [0]
+width = 48
+chars = 8
+where = "PC box name: box title, box choice popup, field texts"
+
+[[layout.table_window]]
+name = "default-player-names"
+base = 0x1EC7A54
+stride = 4
+count = 2
+fields = [0]
+width = 42
+chars = 7
+where = "player's name ({PLAYER})"
+
+[[layout.table_window]]
+name = "default-rival-name"
+base = 0x1EC7A68
+stride = 4
+count = 1
+fields = [0]
+width = 42
+chars = 7
+where = "rival's name ({RIVAL})"
+evidence = "Unbound 0x9EC7A2E: when the rival's name (SaveBlock1+0x3A4C, gSaveBlock1Ptr 0x3005008) is empty, StringCopy 0x8008D84 of s1F0EF1F (pool 0x9EC7A68) into it: 7 characters and EOS ([save.rival]); the name prints as {RIVAL}, 42 px. The 7 characters and the 42 px of {RIVAL} bind; the English is 18 px"
+
+[[layout.table_window]]
+name = "default-rival-name-cfru"
+base = 0x8258A4
+stride = 0x34
+count = 2
+fields = [0]
+width = 42
+chars = 7
+where = "rival's name ({RIVAL})"
+
+[[layout.table_window]]
+name = "firered-preset-names"
+base = 0x46308C
+stride = 4
+count = 42
+fields = [0]
+chars = 7
+where = "player's or rival's name; oak speech name menu"
+
+[[layout.table_window]]
+name = "gift-ot-name-areivax"
+base = 0x1EC963C
+stride = 4
+count = 1
+fields = [0]
+width = 42
+chars = 7
+where = "OT name of a gift Pokemon"
+
+[[layout.table_window]]
+name = "gift-ot-name-ash"
+base = 0x1EC8204
+stride = 4
+count = 1
+fields = [0]
+width = 42
+chars = 7
+where = "OT name of a gift Pokemon"
+evidence = "Unbound 0x9EC8198: SetMonData 0x804037C of the party Pokemon [var 0x8004], field 7 (OT name), s1F078C7 (pool 0x9EC8204): 7 characters, 42 px as gift-ot-name-areivax. The 7 characters and the 42 px of a player's name bind; the English is 17 px"
+
+[[layout.table_window]]
+name = "trade-nicknames"
+base = 0x1FB7074
+stride = 40
+count = 39
+fields = [0]
+chars = 10
+where = "nickname of an in-game trade Pokemon"
+
+[[layout.table_window]]
+name = "trade-ot-names"
+base = 0x1FB7074
+stride = 40
+count = 39
+fields = [4]
+width = 42
+chars = 7
+where = "OT name of an in-game trade Pokemon"
+
+# Placeholders the code fills with a number or word.
+# slots maps a placeholder to digits or width.
+# Digits count 6 px; this replaces the STR_VAR width.
+
+# A rule covers its ids or pointer table strings.
+[[layout.table_window]]
+name = "z-move-names"
+base = 0x9A230C
+stride = 4
+count = 53
+fields = [0]
+width = 128
+lines = 1
+where = "battle move menu in Z mode and battle messages"
+
+# stat names in battle buffer 1
+# - hosts of stat-change lines, battle and bag windows
+# - measured at the widest stat name
+[[layout.table_window]]
+name = "egg-hatch-time"
+base = 0x463EC4
+stride = 4
+count = 4
+width = 156
+lines = 3
+where = "Egg Summary information window"
+

@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/old-map\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 148, 110
+#: 0x0189e42
+msgctxt "map:3.48/npc:0/0"
+msgid "map:3.48/npc:0/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 72, 155
+#: 0x0189e72
+msgctxt "map:3.48/npc:0/1"
+msgid "map:3.48/npc:0/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 180, 113
+#: 0x0189e9e
+msgctxt "map:3.48/npc:0/4"
+msgid "map:3.48/npc:0/4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 120
+#: 0x0189f63
+msgctxt "map:3.48/npc:2/0"
+msgid "map:3.48/npc:2/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 36, 36
+#: 0x0189f9a
+msgctxt "map:3.48/npc:2/1"
+msgid "map:3.48/npc:2/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 168, 101
+#: 0x0189fa8
+msgctxt "map:3.48/npc:2/4"
+msgid "map:3.48/npc:2/4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 53, 46
+#: 0x0189fdb
+msgctxt "map:3.48/npc:3/0"
+msgid "map:3.48/npc:3/0"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 98
+#: 0x0189fee
+msgctxt "map:3.48/npc:3/1"
+msgid "map:3.48/npc:3/1"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 83, 79
+#: 0x018a000
+msgctxt "map:3.48/npc:3/4"
+msgid "map:3.48/npc:3/4"
+msgstr ""

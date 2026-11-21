@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-01298AC\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 30
+#: 0x041b510
+msgctxt "hash:dc22d419"
+msgid "hash:dc22d419"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 40
+#: 0x041b516
+msgctxt "hash:35b7bf64"
+msgid "hash:35b7bf64"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 29
+#: 0x041b51e
+msgctxt "hash:546e977e"
+msgid "hash:546e977e"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 33
+#: 0x041b524
+msgctxt "hash:a0c3b42f"
+msgid "hash:a0c3b42f"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 27
+#: 0x041b52b
+msgctxt "hash:2901d0f7"
+msgid "hash:2901d0f7"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 18
+#: 0x041b531
+msgctxt "hash:ebfd8075"
+msgid "hash:ebfd8075"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 30
+#: 0x041b535
+msgctxt "hash:0008f1a4"
+msgid "hash:0008f1a4"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 26
+#: 0x041b53b
+msgctxt "hash:42f5a2b8"
+msgid "hash:42f5a2b8"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 54
+#: 0x041b541
+msgctxt "hash:5a857874"
+msgid "hash:5a857874"
+msgstr ""
+
+#. category: code; mode: field
+#. save-link: copied into save or link data; translated like all other text
+#. original lines: 1, widths px: 48
+#: 0x041b54b
+msgctxt "hash:6aab0cea"
+msgid "hash:6aab0cea"
+msgstr ""

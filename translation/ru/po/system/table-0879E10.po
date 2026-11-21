@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0879E10\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 195, 178, 34
+#: 0x0eb1c11
+msgctxt "table:items/360/description"
+msgid "table:items/360/description"
+msgstr ""
+"Мотоцикл с педалями, на котором можно передвигаться быстрее, чем в "
+"беговых кроссовках."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 164, 181
+#: 0x0eb1eb5
+msgctxt "table:items/350/description"
+msgid "table:items/350/description"
+msgstr ""
+"Блестящая зелёная сфера, о которой, говорят, есть легенда. Тесно связана "
+"с регионом Хоэнн."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 167, 182, 98
+#: 0x0eb1fcc
+msgctxt "table:items/359/description"
+msgid "table:items/359/description"
+msgstr ""
+"Устройство, позволяющее следить за покемонами в Дневном уходе на Маршруте "
+"5."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 198, 196, 176
+#: 0x0eb21b6
+msgctxt "table:items/356/description"
+msgid "table:items/356/description"
+msgstr ""
+"Странное устройство, искажающее ткань времени. Меняет местами часы до и "
+"после полудня."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 157, 131, 124
+#: 0x0eb221f
+msgctxt "table:items/353/description"
+msgid "table:items/353/description"
+msgstr ""
+"Кольцо, позволяющее покемону, который держит мегакамень, "
+"мегаэволюционировать в бою."

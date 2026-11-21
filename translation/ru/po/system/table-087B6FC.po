@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-087B6FC\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 163
+#: 0x0236c40
+msgctxt "table:items/496/description"
+msgid "table:items/496/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Боевой."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 153
+#: 0x0236ca4
+msgctxt "table:items/497/description"
+msgid "table:items/497/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Летающий."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 153
+#: 0x0236d06
+msgctxt "table:items/498/description"
+msgid "table:items/498/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Яд."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 155
+#: 0x0236d68
+msgctxt "table:items/499/description"
+msgid "table:items/499/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Земля."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 144
+#: 0x0236dca
+msgctxt "table:items/500/description"
+msgid "table:items/500/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Камень."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 139
+#: 0x0236e2a
+msgctxt "table:items/501/description"
+msgid "table:items/501/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Насекомое."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 149
+#: 0x0236e89
+msgctxt "table:items/502/description"
+msgid "table:items/502/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Привидение."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 149
+#: 0x0236eea
+msgctxt "table:items/503/description"
+msgid "table:items/503/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Сталь."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 142
+#: 0x0236f4b
+msgctxt "table:items/504/description"
+msgid "table:items/504/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Огонь."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 149
+#: 0x0236fab
+msgctxt "table:items/505/description"
+msgid "table:items/505/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Вода."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 164
+#: 0x023706b
+msgctxt "table:items/507/description"
+msgid "table:items/507/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Электро."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 160
+#: 0x02370cf
+msgctxt "table:items/508/description"
+msgid "table:items/508/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Психо."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 139
+#: 0x0237132
+msgctxt "table:items/509/description"
+msgid "table:items/509/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Лёд."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 155
+#: 0x0237191
+msgctxt "table:items/510/description"
+msgid "table:items/510/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Дракон."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 143
+#: 0x02371f3
+msgctxt "table:items/511/description"
+msgid "table:items/511/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Тёмный."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 148
+#: 0x0237253
+msgctxt "table:items/512/description"
+msgid "table:items/512/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Фея."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 172, 185, 166
+#: 0x0eb3848
+msgctxt "table:items/495/description"
+msgid "table:items/495/description"
+msgstr ""
+"Загадочный эволюционный минерал. Повышает Защиту и Особую защиту тем, кто "
+"может эволюционировать."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 183, 155, 185
+#: 0x0eb390f
+msgctxt "table:items/494/description"
+msgid "table:items/494/description"
+msgstr ""
+"Предмет, который держит покемон. Жилет повышает Особую защиту, но "
+"запрещает приёмы без урона."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 200, 183, 148
+#: 0x0eb396f
+msgctxt "table:items/506/description"
+msgid "table:items/506/description"
+msgstr ""
+"Предмет, который держит покемон. Это каменная плита, усиливающая приёмы "
+"типа Трава."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 175, 198, 168
+#: 0x0eb7a1b
+msgctxt "table:items/513/description"
+msgid "table:items/513/description"
+msgstr ""
+"Осколок, упавший на землю при приближении кометы. Его можно дорого "
+"продать в магазине."

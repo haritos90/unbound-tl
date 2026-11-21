@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/route-11\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 13, widths px: 186, 74, 153, 139, 71, 187, 158, 169, 184, 193, 142, 177, 179
+#: 0x1f5bd10
+msgctxt "map:3.85/npc:12/1"
+msgid "map:3.85/npc:12/1"
+msgstr ""
+"За грядой скал раскинулся бескрайний океан.\\pГде-то в этом океане лежит "
+"мирный регион Алола.\\pТамошние жители верят, что каждый их остров "
+"оберегает божество-хранитель.\\pНе думаешь порой, каково было бы, будь и "
+"у каждого острова Борриуса свой хранитель?\\pМожет, ты об этом и не "
+"думаешь, но я-то думаю."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 153, 184, 166
+#: 0x1f5be85
+msgctxt "map:3.85/npc:12/2"
+msgid "map:3.85/npc:12/2"
+msgstr ""
+"Тот покемон в твоей команде…\\pОн и правда похож на божеств-хранителей "
+"Алолы…"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 162, 166, 187, 147, 173, 158
+#: 0x1f5bee2
+msgctxt "map:3.85/npc:12/3"
+msgid "map:3.85/npc:12/3"
+msgstr ""
+"Из Алолы сообщают, что божества-хранители по-прежнему на месте. Значит, "
+"твой покемон не из этого мира.\\pКак бы то ни было, этой вещи по праву "
+"место у него, а не у меня."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 180, 165, 159, 170
+#: 0x1f5bf9e
+msgctxt "map:3.85/npc:12/0"
+msgid "map:3.85/npc:12/0"
+msgstr ""
+"{COLOR 06}Тапуниум Z{COLOR 04} превращает приём {COLOR 06}Кара "
+"природы{COLOR 04} любого божества-хранителя Алолы в более мощную "
+"одноразовую атаку-Z."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 175, 176, 172, 27, 182, 50
+#: 0x1f5c026
+msgctxt "map:3.85/npc:6/4"
+msgid "map:3.85/npc:6/4"
+msgstr ""
+"На скале вновь тренер предо мной,\\nС заветной мечтою одной…\\pВсех "
+"лучше, говорю! Всех лучше стать!\\pЧто ж, тренера пора мне испытать!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 152, 135
+#: 0x1f5c0b8
+msgctxt "map:3.85/npc:6/5"
+msgid "map:3.85/npc:6/5"
+msgstr "Пораженье моё - загляденье,\\nВот уж славное пораженье!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 176, 168, 79
+#: 0x1f5c0ed
+msgctxt "map:3.85/npc:6/1"
+msgid "map:3.85/npc:6/1"
+msgstr ""
+"И тренер, испытанье пройдя,\\nуслыхал:\\l“Ты лучше всех!” - я так сказал."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 163, 147, 37
+#: 0x1f5c13c
+msgctxt "map:3.85/npc:6/0"
+msgid "map:3.85/npc:6/0"
+msgstr ""
+"Мощью полон {COLOR 06}Алаказит{COLOR 08}.\\pДля {COLOR 06}Алаказама{COLOR "
+"08} ярко заблестит."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 175, 176, 172, 27, 189, 180, 107
+#: 0x1f5c18b
+msgctxt "map:3.85/npc:6/3"
+msgid "map:3.85/npc:6/3"
+msgstr ""
+"На скале вновь тренер предо мной,\\nС заветной мечтою одной…\\pВсех "
+"лучше, говорю! Всех лучше стать!\\pНо сперва всех тренеров Маршрута 11 "
+"победи - лишь тогда на испытанье приходи!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 97, 79
+#: 0x1f5c248
+msgctxt "map:3.85/npc:4/0"
+msgid "map:3.85/npc:4/0"
+msgstr "В бою мы едины! Мы и природа!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 161, 63
+#: 0x1f5c269
+msgctxt "map:3.85/npc:4/2"
+msgid "map:3.85/npc:4/2"
+msgstr "Мать-природа, где же мы ошиблись?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 189, 156
+#: 0x1f5c292
+msgctxt "map:3.85/npc:4/12"
+msgid "map:3.85/npc:4/12"
+msgstr "Моя работа - защищать природу. Она в ответ защищает меня!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 97, 79, 187, 120
+#: 0x1f5c2d2
+msgctxt "map:3.85/npc:4/4"
+msgid "map:3.85/npc:4/4"
+msgstr ""
+"В бою мы едины! Мы и природа!\\pНо сражаемся мы лишь с теми, кто выйдет "
+"против нас обоих сразу!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 122, 118
+#: 0x1f5c32c
+msgctxt "map:3.85/npc:4/1"
+msgid "map:3.85/npc:4/1"
+msgstr "Вместе мы сильны! Вместе с природой!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 156
+#: 0x1f5c359
+msgctxt "map:3.85/npc:4/3"
+msgid "map:3.85/npc:4/3"
+msgstr "Но вместе… мы же сильны?.."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 166, 132, 60, 183, 113
+#: 0x1f5c376
+msgctxt "map:3.85/npc:5/12"
+msgid "map:3.85/npc:5/12"
+msgstr ""
+"Эту гору пронизывает целая сеть пещер.\\pВместе мы защищаем покемонов в "
+"пещерах этой скалы."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 122, 118, 187, 120
+#: 0x1f5c3f0
+msgctxt "map:3.85/npc:4/5"
+msgid "map:3.85/npc:4/5"
+msgstr ""
+"Вместе мы сильны! Вместе с природой!\\pНо сражаемся мы лишь с теми, кто "
+"выйдет против нас обоих сразу!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 192, 107
+#: 0x1f5c456
+msgctxt "map:3.85/npc:13/0"
+msgid "map:3.85/npc:13/0"
+msgstr "Этот водоём кишит морскими покемонами!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 145
+#: 0x1f5c48d
+msgctxt "map:3.85/npc:13/1"
+msgid "map:3.85/npc:13/1"
+msgstr "Как они забрались так высоко?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 130
+#: 0x1f5c4a7
+msgctxt "map:3.85/npc:13/4"
+msgid "map:3.85/npc:13/4"
+msgstr "Место Тентакулов в море, а не в прудах!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 60, 140
+#: 0x1f5c4e0
+msgctxt "map:3.85/npc:15/0"
+msgid "map:3.85/npc:15/0"
+msgstr "Наберись терпения: на рыбалке нужно ждать."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 105
+#: 0x1f5c507
+msgctxt "map:3.85/npc:15/1"
+msgid "map:3.85/npc:15/1"
+msgstr "Сорвалась рыбка!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 182, 85
+#: 0x1f5c51a
+msgctxt "map:3.85/npc:15/4"
+msgid "map:3.85/npc:15/4"
+msgstr "Была бы удочка получше - и покемонов ловил бы получше…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 192, 195, 27
+#: 0x1f5c54b
+msgctxt "map:3.85/npc:14/0"
+msgid "map:3.85/npc:14/0"
+msgstr ""
+"Рыбачить я люблю, ты не подумай.\\pНо лучше бы и работы у меня было "
+"побольше."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 76
+#: 0x1f5c599
+msgctxt "map:3.85/npc:14/1"
+msgid "map:3.85/npc:14/1"
+msgstr "Нелегко всё это…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 78, 167
+#: 0x1f5c5a8
+msgctxt "map:3.85/npc:14/4"
+msgid "map:3.85/npc:14/4"
+msgstr "Ничего. Проигрыши меня уже не волнуют."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 190, 185, 186, 113
+#: 0x1f5c5d7
+msgctxt "map:3.85/npc:11/0"
+msgid "map:3.85/npc:11/0"
+msgstr ""
+"Проверим, кто из нас лучший тренер.\\pЯ каждый день рыбачу с утра до "
+"ночи, а ты лишь случайно проходишь мимо."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 167, 136
+#: 0x1f5c654
+msgctxt "map:3.85/npc:11/1"
+msgid "map:3.85/npc:11/1"
+msgstr "Теперь-то тебе должно быть ясно, кто из нас лучший тренер."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 169, 78, 166, 176
+#: 0x1f5c68c
+msgctxt "map:3.85/npc:11/4"
+msgid "map:3.85/npc:11/4"
+msgstr ""
+"Видно, в любимом деле и набиваешь руку.\\pНу, бой покемонов за тобой, а в "
+"рыбалке меня не обойти."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 157
+#: 0x1f5c6f8
+msgctxt "map:3.85/npc:2/0"
+msgid "map:3.85/npc:2/0"
+msgstr "Что-то тут прохладно."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 138
+#: 0x1f5c716
+msgctxt "map:3.85/npc:2/1"
+msgid "map:3.85/npc:2/1"
+msgstr "Вот теперь я согрелся!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 192
+#: 0x1f5c72f
+msgctxt "map:3.85/npc:2/4"
+msgid "map:3.85/npc:2/4"
+msgstr "Всегда важно быть в тепле."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 200, 61
+#: 0x1f5c753
+msgctxt "map:3.85/npc:1/0"
+msgid "map:3.85/npc:1/0"
+msgstr "Знаешь, откуда у пещер Клифф такое название?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 181
+#: 0x1f5c783
+msgctxt "map:3.85/npc:1/1"
+msgid "map:3.85/npc:1/1"
+msgstr "Это я его придумал!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 188, 158, 204, 53, 191, 153
+#: 0x1f5c7a4
+msgctxt "map:3.85/npc:1/4"
+msgid "map:3.85/npc:1/4"
+msgstr ""
+"Здешние места напоминают мне пещеры Клифф в регионе Джото.\\pА? Говоришь, "
+"я мог бы придумать что-нибудь другое?\\pНапример? Пещеры Клифф: ремастер? "
+"Пещеры Клифф по оригинальному рецепту?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 114
+#: 0x1f5c854
+msgctxt "map:3.85/npc:0/0"
+msgid "map:3.85/npc:0/0"
+msgstr "Я верю, что могу летать!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 172
+#: 0x1f5c869
+msgctxt "map:3.85/npc:0/1"
+msgid "map:3.85/npc:0/1"
+msgstr "Я верю, что могу коснуться неба!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 177, 49, 117
+#: 0x1f5c888
+msgctxt "map:3.85/npc:0/4"
+msgid "map:3.85/npc:0/4"
+msgstr ""
+"Люблю воображать, будто летаю, как мои птицы.\\pТорчать на земле - отстой."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 195, 178
+#: 0x1f5c8c9
+msgctxt "map:3.85/npc:3/0"
+msgid "map:3.85/npc:3/0"
+msgstr "За версту видел, как ты идёшь! Глаз как у Талонфлейма!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 170, 27
+#: 0x1f5c90d
+msgctxt "map:3.85/npc:3/1"
+msgid "map:3.85/npc:3/1"
+msgstr "Далеко ли, близко ли - я всё равно проиграл!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 172, 100, 179, 38
+#: 0x1f5c933
+msgctxt "map:3.85/npc:3/4"
+msgid "map:3.85/npc:3/4"
+msgstr ""
+"У Талонфлейма есть скрытый талант {COLOR 06}Буревестник{COLOR 08}.\\pС "
+"ним он быстрее применяет приёмы типа Летающий!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 5, widths px: 47, 96, 95, 85, 91
+#: 0x1f7139b
+msgctxt "map:3.85/sign:0/0"
+msgid "map:3.85/sign:0/0"
+msgstr ""
+"Маршрут 11\\n“Пещеры Клифф”\\p{LEFT_ARROW} Город Фоллшор\\n{RIGHT_ARROW} "
+"Городок Эпидими\\l{UP_ARROW} Городок Тармиган"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 70, 191, 186, 56, 193, 179, 164
+#: 0x1f73c16
+msgctxt "map:3.85/sign:2/0"
+msgid "map:3.85/sign:2/0"
+msgstr ""
+"Советы тренерам!\\pПри ловле покемона брошенный покебол порой качается "
+"лишь один раз.\\pЭто называется “критическая поимка”. Чем больше "
+"покемонов вы поймали, тем чаще она случается."

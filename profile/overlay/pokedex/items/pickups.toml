@@ -1,0 +1,18 @@
+[pokedex.items.sources.pickups]
+item_var = 0x8000
+quantity_var = 0x8001
+result_var = 0x800D
+ground_std = 1
+gift_std = [0, 1]
+additem = 0x44
+hidden = { kind = 7, item = 8, quantity = 11, mask = 0x7F }
+routines = [0x23, 0x25, 0x26, 0x8F]
+purchases = [0x92, 0x95]
+skip_scripts = [0x1BE00C, 0x791B5E]
+points = [
+  { offset = 0xBA99F4, description = "Northwest Route 9 channel", description_evidence = "owner-description", related_sections = [142] },
+  { offset = 0xB50A7C, description = "Peninsula north corner", description_evidence = "owner-description" },
+  { offset = 0xB50B30, description = "Island southeast of the Route 6 entrance", description_evidence = "owner-description" },
+]
+
+# Four learnset structures and form resolution.

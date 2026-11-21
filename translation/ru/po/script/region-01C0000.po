@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-01C0000\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 156, 33
+#: 0x01c0db0
+msgctxt "hash:f31ce345"
+msgid "hash:f31ce345"
+msgstr "Здесь полно книг о покемонах."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 64
+#: 0x01c0df1
+msgctxt "hash:b5b3607e"
+msgid "hash:b5b3607e"
+msgstr "Это Карта."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 24, 123
+#: 0x01c0dfd
+msgctxt "hash:03ff114f"
+msgid "hash:03ff114f"
+msgstr "Ух ты!\\nСколько всего для покемонов!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 156, 49
+#: 0x01c0e19
+msgctxt "hash:0e35803d"
+msgid "hash:0e35803d"
+msgstr "Тарелки и блюда аккуратно расставлены."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 109, 163
+#: 0x01c0e40
+msgctxt "hash:0940045e"
+msgid "hash:0940045e"
+msgstr "Как вкусно пахнет!\\nКто-то здесь готовил."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 148, 154
+#: 0x01c0e73
+msgctxt "hash:390e8aa3"
+msgid "hash:390e8aa3"
+msgstr "Это добротный комод.\\nВ него влезет много вещей."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 165
+#: 0x01c0eac
+msgctxt "hash:3e9b5a69"
+msgid "hash:3e9b5a69"
+msgstr "Тут целая гора закусок."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 165, 68
+#: 0x01c0ecb
+msgctxt "hash:e6fa7b89"
+msgid "hash:e6fa7b89"
+msgstr "Все нужные предметы - здесь!\\nПокемаркет"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 104, 79
+#: 0x01c0ef7
+msgctxt "hash:0ebe037b"
+msgid "hash:0ebe037b"
+msgstr "Лечим ваших покемонов!\\nЦентр покемонов"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 84, 167, 100
+#: 0x01c0f19
+msgctxt "hash:f103efbe"
+msgid "hash:f103efbe"
+msgstr "Плато Индиго\\pВысшая цель тренеров!\\nШтаб Лиги покемонов"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 84, 169, 100
+#: 0x01c0f59
+msgctxt "hash:2915375a"
+msgid "hash:2915375a"
+msgstr ""
+"Плато Индиго\\pВысшая инстанция в мире покемонов!\\nШтаб Лиги покемонов"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 163, 189
+#: 0x01c0fd8
+msgctxt "hash:07fa51eb"
+msgid "hash:07fa51eb"
+msgstr "Это какой-то чертёж.\\nНа нём полно схем и надписей."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 194, 171
+#: 0x01c101b
+msgctxt "hash:b944ce3e"
+msgid "hash:b944ce3e"
+msgstr ""
+"Это красивая картина с покемоном.\\nПохоже, у него отличное настроение."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 153, 171
+#: 0x01c1060
+msgctxt "hash:76914b3f"
+msgid "hash:76914b3f"
+msgstr "Что это за машина?\\nЛучше её не трогать!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 93, 98
+#: 0x01c109c
+msgctxt "hash:ca6ca149"
+msgid "hash:ca6ca149"
+msgstr "Это телефон.\\nЛучше им не пользоваться."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 166, 152
+#: 0x01c10c1
+msgctxt "hash:6460f4b8"
+msgid "hash:6460f4b8"
+msgstr "Сплошные сложные слова и цифры - ничего не понять…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 174, 120
+#: 0x01c10fc
+msgctxt "hash:09e4d5ff"
+msgid "hash:09e4d5ff"
+msgstr "Это рекламный плакат с самыми разными товарами."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 122, 191
+#: 0x01c1134
+msgctxt "hash:86ded9aa"
+msgid "hash:86ded9aa"
+msgstr "Ох, как вкусно пахнет!\\nТак и в животе заурчит!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 64, 12, 115
+#: 0x01c116e
+msgctxt "hash:477aacf0"
+msgid "hash:477aacf0"
+msgstr "Внутри…\\n……\\pНичего нет!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 168, 31
+#: 0x01c1194
+msgctxt "hash:62090fac"
+msgid "hash:62090fac"
+msgstr "Это чашка с рисунком покемона."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 184
+#: 0x01c11ba
+msgctxt "hash:9fec0396"
+msgid "hash:9fec0396"
+msgstr "Окно вымыто до блеска."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 106, 148, 54
+#: 0x01c11dc
+msgctxt "hash:237d875d"
+msgid "hash:237d875d"
+msgstr "За окном…\\pНебо невероятно красивое."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 162, 109
+#: 0x01c1217
+msgctxt "hash:74431cf5"
+msgid "hash:74431cf5"
+msgstr "Разноцветные огоньки то загораются, то гаснут."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 171, 38
+#: 0x01c124b
+msgctxt "hash:684de70d"
+msgid "hash:684de70d"
+msgstr "Всевозможные инструменты аккуратно разложены."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 154, 118
+#: 0x01c1273
+msgctxt "hash:1fcb9205"
+msgid "hash:1fcb9205"
+msgstr "Это какая-то машина.\\nВыглядит внушительно."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 150, 100
+#: 0x01c12a7
+msgctxt "hash:42560005"
+msgid "hash:42560005"
+msgstr "Это новейшая видеоигра!\\nВыглядит увлекательно!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 196, 29
+#: 0x01c12d6
+msgctxt "hash:8155afec"
+msgid "hash:8155afec"
+msgstr "Здесь явные следы взлома…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 136, 159
+#: 0x01c1300
+msgctxt "hash:b78ee3cc"
+msgid "hash:b78ee3cc"
+msgstr "По телевизору показывают покемона!\\nПохоже, ему весело."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 201, 185, 176
+#: 0x01c5a04
+msgctxt "hash:3c619227"
+msgid "hash:3c619227"
+msgstr ""
+"В мире, куда вы вот-вот попадёте,\\nвас ждёт большое приключение,\\nи "
+"главная роль в нём - ваша."
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 4, widths px: 182, 203, 177, 133
+#: 0x01c5a6b
+msgctxt "hash:8fdd1ee4"
+msgid "hash:8fdd1ee4"
+msgstr ""
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 173, 188, 52, 0, 186, 194, 23
+#: 0x01c5aeb
+msgctxt "hash:328b96c5"
+msgid "hash:328b96c5"
+msgstr ""
+"За время приключения вам\\nпредстоит принять немало\\nрешений.\\n\\n"
+"Помните: ваши поступки могут\\nповлиять на мир вокруг вас\\nи изменить "
+"его."

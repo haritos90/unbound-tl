@@ -1,0 +1,105 @@
+[reach]
+default_origin = "firered"
+origin_regions = [
+    {start = 0x170000, end = 0x1D0000, name = "firered-script"},
+    {start = 0x740000, end = 0x2000000, name = "unbound"},
+]
+
+# Table starts set by hand:
+# - pointers count to the base or one record before
+# - the walk would merge a neighbouring structure
+[[reach.table]]
+name = "firered-dungeon-records"
+base = 0x3F1B3C
+stride = 12
+count = 19
+fields = [8]
+
+# function table entries nothing calls
+# - the code walk takes no root from them
+[[reach.unused_entries]]
+name = "specials 0x94 and 0x95"
+base = 0x15FD60
+indexes = [0x94, 0x95]
+
+[[reach.observed]]
+ids = ["s01A5FDF", "s01A6046"]
+at = 0x1A8DD8
+evidence = "Native battle defeat with lastHealingSpot=0 returns home and displays all eleven Mom paragraphs; loadpointer operands at 0x1A8DE7 and 0x1A8DF4. Static analysis misses the runtime recovery entry reached through 0x781443 and the pointer at 0x1FB432C."
+
+[[reach.observed]]
+ids = ["s1F821E0"]
+at = 0x1EDBEB0
+
+# Quest log name and place fills (3)
+# quest-log item-use animation (9)
+# Teachy TV (22)
+# Fame Checker (7)
+# help system (7)
+# Mystery Gift menu descriptions (4)
+# FireRed placeholder getters (7)
+# FireRed dungeon descriptions (19)
+# battle prefix 'Foe' (3)
+# FireRed BufferStringBattle body lines (4)
+# ' is' move particle (1)
+# ' is' of the Battle Tower ban list (2)
+# 'Type/' (1)
+# status name 'ice' (1)
+# move-type fills (18)
+# FireRed decoration description (1)
+# 'IES' prize suffix (1)
+# wireless status '{F7 0x} players' (4)
+# bag sort Most / Least (4)
+# 'Red' comparison key (1)
+# Speakers option description (1)
+# Experience gain option description (1)
+# Battle Tower species keys (11)
+# vanilla EV-berry field scripts (3)
+# FireRed Dive, door and ladder (8)
+# vanilla move descriptions (8): profile [progress] Move descriptions
+# older move-description copy 0x904000 (164): profile [progress] Move descriptions
+# vanilla item descriptions (38)
+# vanilla ability descriptions (6)
+# Max and G-Max move descriptions (52)
+# evolution-hour ' AM' (1)
+# FireRed Oak ratings, item lists, Seagallop
+# FireRed Oak ratings (13)
+# FireRed list-menu lists (35)
+# Seagallop Four to Seven Island (4)
+# FireRed scrollable list array 0x3F5BCC
+# badges and price list (19)
+# FireRed scrollable list array 0x3F5BCC.
+# Badges and price list (19)
+# FireRed professor's introduction (2)
+# trade refusal pair (2)
+# older stat-adverb hook (2)
+# older TM shop code (2)
+# Dodrio Berry Picking debug names (1)
+# FireRed BufferStringBattle body lines (2)
+# trainer out-of-balls lines (2)
+# older battle command 0x77 (3)
+# older resultmessage hook (4)
+# older printfromtable hook (1)
+# older Mega Evolution messages (5)
+# older move-effect scripts (16)
+# older swap-move messages (7)
+# remaining FireRed Oak ratings
+# FireRed Oak ratings (3)
+# Remaining strings of the older battle engine.
+# Older string loader, battle scripts (226)
+# older string loader, code (12)
+# FireRed BufferStringBattle wild intros (3)
+# Members of the pooled-base tables.
+# - EV-IV labels (3): the display module is unreached
+# - trade records and berries: see the rules below
+# FireRed in-game trade records (17)
+# FireRed berry ENIGMA (1)
+# The rest of the two dead readers.
+# - EV-IV title and labels (6)
+# - trades: record 0 nickname, the table base
+# FireRed in-game trade record 0 nickname (1)
+# Progress topics: PO file stem to topic.
+# Mixed files go to their majority topic.
+# Unlisted files count as interface strings or system data.
+# obsolete sign description script.
+# The Help callback is absent.

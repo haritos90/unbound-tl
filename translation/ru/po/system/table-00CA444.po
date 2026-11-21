@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-00CA444\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 4, widths px: 174, 88, 196, 160
+#: 0x01a6d6d
+msgctxt "hash:b3852f8c"
+msgid "hash:b3852f8c"
+msgstr ""
+"Похоже, ты на верном пути!\\pЯ передал помощнику НМ с приёмом Вспышка. "
+"Обязательно забери её!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 4, widths px: 190, 71, 164, 46
+#: 0x01a6ddf
+msgctxt "hash:0d51f945"
+msgid "hash:0d51f945"
+msgstr ""
+"Твоему Покедексу не помешало бы ещё пополниться!\\pПопробуй поймать "
+"покемонов других видов!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 4, widths px: 169, 66, 165, 194
+#: 0x01a6e36
+msgctxt "hash:b4902df3"
+msgid "hash:b4902df3"
+msgstr ""
+"Хорошо, видно, что ты стараешься!\\pЯ передал помощнику Локатор. "
+"Обязательно его забери!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 4, widths px: 191, 28, 165, 178
+#: 0x01a6ea4
+msgctxt "hash:c6404f02"
+msgid "hash:c6404f02"
+msgstr ""
+"Твой Покедекс неплохо пополняется!\\pЯ передал Монету-амулет помощнику. "
+"Обязательно забери её!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 4, widths px: 157, 44, 194, 160
+#: 0x01a6f0b
+msgctxt "hash:744feb75"
+msgid "hash:744feb75"
+msgstr ""
+"О, наконец-то больше 50 видов!\\pЯ передал помощнику Разделитель опыта. "
+"Обязательно сходи за ним!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 196, 115
+#: 0x01a6f71
+msgctxt "hash:1f4ff53e"
+msgid "hash:1f4ff53e"
+msgstr "Хо-хо! Покедекс становится весьма солидным!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 3, widths px: 59, 177, 138
+#: 0x01a6fab
+msgctxt "hash:c40b753d"
+msgid "hash:c40b753d"
+msgstr "Очень хорошо!\\pДумаю, на рыбалке ты соберёшь ещё больше покемонов!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 161, 185
+#: 0x01a6ff1
+msgctxt "hash:b5d90161"
+msgid "hash:b5d90161"
+msgstr "Чудесно! Дай угадаю… Ты любишь собирать коллекции, верно?"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 76, 191
+#: 0x01a7031
+msgctxt "hash:d95b6244"
+msgid "hash:d95b6244"
+msgstr "Впечатляет!\\nНаверняка это было непросто!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 170, 189
+#: 0x01a7063
+msgctxt "hash:22669364"
+msgid "hash:22669364"
+msgstr "Наконец-то 100 видов!\\nТвои успехи невероятны!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 180, 104
+#: 0x01a70a5
+msgctxt "hash:93b84c59"
+msgid "hash:93b84c59"
+msgstr "Есть даже эволюционировавшие формы покемонов! Супер!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 177, 81
+#: 0x01a70d8
+msgctxt "hash:6fe92e90"
+msgid "hash:6fe92e90"
+msgstr "Отлично! Меняйся с друзьями, чтобы получить ещё!"
+
+#. reach: never shown (reach study: unreachable system text; review: FireRed Oak Pokedex ratings function GetProfOaksRatingMessage at 0x80CA424 jumps at its entry (ldr r1 / bx r1) to Unbound's 0x9ECA839. Unbound's function returns s1F2542A-s1F2558D to its caller, special 0xD5, with BL at 0x80CA52A. The strings' only pointers are pools 0x80CA444-0x80CA4D4 of the dead body 0x80CA42C-0x80CA522. No BL, branch or word enters that body. The one BL-shaped pair aimed into it, at 0x8209F6C, lies in tile data.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 65, 187
+#: 0x01a7108
+msgctxt "hash:a8cfd41a"
+msgid "hash:a8cfd41a"
+msgstr "Потрясающе!\\nТеперь ты настоящий профи!"

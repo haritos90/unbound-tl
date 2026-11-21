@@ -1,0 +1,37 @@
+name: Playtest report
+description: A released translation was played
+title: "Playtest report"
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A report of a played version. A maintainer reads it and marks the translated texts of that version approved.
+
+        A wrong text is best corrected in the translation editor and sent with its Submit button.
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The language of the played translation.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version of the translation, as the patcher page states it.
+    validations:
+      required: true
+  - type: textarea
+    id: played
+    attributes:
+      label: What was played
+      description: The part of the game that was played, for example from the start to the fourth gym.
+    validations:
+      required: true
+  - type: textarea
+    id: problems
+    attributes:
+      label: Problems found
+      description: Texts that are wrong, cut off or untranslated, each with its place in the game. Leave it empty when none were found.

@@ -1,0 +1,9 @@
+[engine]
+family = "firered-cfru"
+
+[support]
+stage = "translation"
+
+# Latin fonts: glyph and width tables from literal pools.
+# Glyphs are 16x16, 2 bits per pixel.
+# Codes are the {FONT xx} ids, read by GetFontWidthFunc.

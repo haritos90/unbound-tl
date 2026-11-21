@@ -1,0 +1,8 @@
+# Game project: base ROM profile, pinned toolkit, languages.
+
+schema = 1
+profile = "unbound-2.1.1.1"
+rom_sha1 = "b4776b82a4c7915d0fadeaa27e013523f99dfd94"
+toolkit = "2.15.0"
+languages = ["ru", "es", "de", "fr"]
+default_language = "ru"

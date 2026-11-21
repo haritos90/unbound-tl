@@ -1,0 +1,536 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-1F40000\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 23
+#: 0x1f4da6c
+msgctxt "hash:c5ed0498"
+msgid "hash:c5ed0498"
+msgstr "Нет"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f4da71
+msgctxt "hash:16e3e49f"
+msgid "hash:16e3e49f"
+msgstr "Быстрые НМ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 77
+#: 0x1f4da7b
+msgctxt "hash:b00c50de"
+msgid "hash:b00c50de"
+msgstr "Пропуск сцен"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x1f4da8a
+msgctxt "hash:ae08d42b"
+msgid "hash:ae08d42b"
+msgstr "Окно сохранения"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f4da97
+msgctxt "hash:f91ac760"
+msgid "hash:f91ac760"
+msgstr "Динамики"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f4daa0
+msgctxt "hash:49624ef8"
+msgid "hash:49624ef8"
+msgstr "Режим кнопки L"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 75
+#: 0x1f4daae
+msgctxt "hash:259be827"
+msgid "hash:259be827"
+msgstr "Режим кнопки R"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f4dabc
+msgctxt "hash:2c8991bc"
+msgid "hash:2c8991bc"
+msgstr "Звуковые эффекты"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 90
+#: 0x1f4daca
+msgctxt "hash:2855e77f"
+msgid "hash:2855e77f"
+msgstr "Фоновая музыка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 84
+#: 0x1f4dadb
+msgctxt "hash:0e821f87"
+msgid "hash:0e821f87"
+msgstr "Велосипед, Сёрф"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 87
+#: 0x1f4daeb
+msgctxt "hash:91e2cba8"
+msgid "hash:91e2cba8"
+msgstr "Музыка локаций"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 57
+#: 0x1f4dafb
+msgctxt "hash:923f1976"
+msgid "hash:923f1976"
+msgstr "Бой с дикими"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f4db06
+msgctxt "hash:42d9330f"
+msgid "hash:42d9330f"
+msgstr "Бой с тренерами"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 77
+#: 0x1f4db14
+msgctxt "hash:210d7cee"
+msgid "hash:210d7cee"
+msgstr "Анимация боя"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 91
+#: 0x1f4db23
+msgctxt "hash:ee485a90"
+msgid "hash:ee485a90"
+msgstr "Сложность боёв"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f4db35
+msgctxt "hash:73a6ad8d"
+msgid "hash:73a6ad8d"
+msgstr "Получение опыта"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 91
+#: 0x1f4db3f
+msgctxt "hash:29b49cd2"
+msgid "hash:29b49cd2"
+msgstr "Лимит предметов"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 73
+#: 0x1f4db51
+msgctxt "hash:370c5d41"
+msgid "hash:370c5d41"
+msgstr "Быстрый текст"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 58
+#: 0x1f4db5f
+msgctxt "hash:457ed936"
+msgid "hash:457ed936"
+msgstr "Значки типов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 82
+#: 0x1f4db6a
+msgctxt "hash:487e7469"
+msgid "hash:487e7469"
+msgstr "Общие настройки"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 71
+#: 0x1f4db7a
+msgctxt "hash:f289ed32"
+msgid "hash:f289ed32"
+msgstr "Настройки звука"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 76
+#: 0x1f4db88
+msgctxt "hash:0d366314"
+msgid "hash:0d366314"
+msgstr "Настройки боя"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 37
+#: 0x1f4db9d
+msgctxt "hash:7e00d70c"
+msgid "hash:7e00d70c"
+msgstr "Готово"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f4dbb9
+msgctxt "hash:88352542"
+msgid "hash:88352542"
+msgstr "Предмет 2"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x1f4dbc4
+msgctxt "hash:6e74e0c6"
+msgid "hash:6e74e0c6"
+msgstr "Поиск Декснавом"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f4dbd0
+msgctxt "hash:abccd6db"
+msgid "hash:abccd6db"
+msgstr "Поиск кладов"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f4dbdc
+msgctxt "hash:7bb3f130"
+msgid "hash:7bb3f130"
+msgstr "Команда"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x1f4dbe7
+msgctxt "hash:c7bd88c5"
+msgid "hash:c7bd88c5"
+msgstr "Предметы"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f4dbf2
+msgctxt "hash:c0c1e240"
+msgid "hash:c0c1e240"
+msgstr "Миссии"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x1f4dbfe
+msgctxt "hash:5debfc14"
+msgid "hash:5debfc14"
+msgstr "Меню отладки"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 93
+#: 0x1f4dc09
+msgctxt "hash:97b747a1"
+msgid "hash:97b747a1"
+msgstr "Головоломки"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x1f4dc1b
+msgctxt "hash:dde369ee"
+msgid "hash:dde369ee"
+msgstr "Автосортировка"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f4dc9d
+msgctxt "hash:812a30ef"
+msgid "hash:812a30ef"
+msgstr "Быстрый побег"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 69
+#: 0x1f4dcb2
+msgctxt "hash:24040eef"
+msgid "hash:24040eef"
+msgstr "Предпросмотр"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 79
+#: 0x1f4dcda
+msgctxt "hash:14b6a0ef"
+msgid "hash:14b6a0ef"
+msgstr "Прошлый покебол"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 77
+#: 0x1f4dd15
+msgctxt "hash:a4993286"
+msgid "hash:a4993286"
+msgstr "Выбор клички"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 79
+#: 0x1f4dd24
+msgctxt "hash:ded7daa2"
+msgid "hash:ded7daa2"
+msgstr "Забрать предмет"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 72
+#: 0x1f4dd33
+msgctxt "hash:be42e468"
+msgid "hash:be42e468"
+msgstr "Качество звука"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 158
+#: 0x1f4dd6d
+msgctxt "hash:18579559"
+msgid "hash:18579559"
+msgstr "Пропуск некоторых сюжетных сцен."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 169
+#: 0x1f4dd8b
+msgctxt "hash:eb2469a8"
+msgid "hash:eb2469a8"
+msgstr "Частые запросы сохранения."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 206
+#: 0x1f4ddaa
+msgctxt "hash:18d4b475"
+msgid "hash:18d4b475"
+msgstr "Быстрое применение НМ вне боя."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x1f4ddd0
+msgctxt "hash:6d285599"
+msgid "hash:6d285599"
+msgstr "Назначение кнопки {F8 02}."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 165
+#: 0x1f4ddf1
+msgctxt "hash:54af5c2a"
+msgid "hash:54af5c2a"
+msgstr "Назначение кнопки {F8 03}."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 201
+#: 0x1f4de12
+msgctxt "hash:0b6f8105"
+msgid "hash:0b6f8105"
+msgstr "Сложность головоломок в мире игры."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 194
+#: 0x1f4de37
+msgctxt "hash:e36a5c93"
+msgid "hash:e36a5c93"
+msgstr "Сортировка раздела “Предметы” в Кубе."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 213
+#: 0x1f4de5b
+msgctxt "hash:2116c8ef"
+msgid "hash:2116c8ef"
+msgstr "Стиль рамки некоторых текстовых окон."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 170
+#: 0x1f4de82
+msgctxt "hash:119b51dd"
+msgid "hash:119b51dd"
+msgstr "Качество всего звука в игре."
+
+#. reach: never shown (review: Speakers option description: routine 0x1EBC760 compares the description pointer with s1F4DEA1 (pool 0x1EBC82C) and replaces it by the option value: 0 -> s1F4DEDF, 1 -> s1F4DEBC; the option has two values)
+#. category: code; mode: field
+#. original lines: 1, widths px: 146
+#: 0x1f4dea1
+msgctxt "hash:24eb44b7"
+msgid "hash:24eb44b7"
+msgstr "Какие динамики звучат."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 189
+#: 0x1f4debc
+msgctxt "hash:33e15d14"
+msgid "hash:33e15d14"
+msgstr "Динамики звучат по-разному."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 161
+#: 0x1f4df02
+msgctxt "hash:b40b01d0"
+msgid "hash:b40b01d0"
+msgstr "Звуки и голоса покемонов."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x1f4df20
+msgctxt "hash:2fd48ad9"
+msgid "hash:2fd48ad9"
+msgstr "Музыка в игре."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 199
+#: 0x1f4df37
+msgctxt "hash:834fd4a2"
+msgid "hash:834fd4a2"
+msgstr "Музыка велосипеда и Сёрфа."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 184
+#: 0x1f4df5c
+msgctxt "hash:051f9f2a"
+msgid "hash:051f9f2a"
+msgstr "Своя музыка в локациях."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 175
+#: 0x1f4df7e
+msgctxt "hash:69282454"
+msgid "hash:69282454"
+msgstr "Своя музыка в боях с дикими."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 191
+#: 0x1f4df9f
+msgctxt "hash:7c34273b"
+msgid "hash:7c34273b"
+msgstr "Своя музыка в боях с тренерами."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 124
+#: 0x1f4dfc3
+msgctxt "hash:b1dc0d2f"
+msgid "hash:b1dc0d2f"
+msgstr "Показ анимации в бою."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 208
+#: 0x1f4e037
+msgctxt "hash:942a1fb9"
+msgid "hash:942a1fb9"
+msgstr "Сложность всех боёв."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 212
+#: 0x1f4e05e
+msgctxt "hash:d93130d6"
+msgid "hash:d93130d6"
+msgstr "Сочетание кнопок для быстрого побега."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 221
+#: 0x1f4e10c
+msgctxt "hash:d8d0f2ce"
+msgid "hash:d8d0f2ce"
+msgstr "Правила предметов в боях с тренерами."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 178
+#: 0x1f4e136
+msgctxt "hash:324a53ef"
+msgid "hash:324a53ef"
+msgstr "Предлагать показ команды противника."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 193
+#: 0x1f4e156
+msgctxt "hash:ab7a00d5"
+msgid "hash:ab7a00d5"
+msgstr "Предлагать прошлый покебол."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 207
+#: 0x1f4e179
+msgctxt "hash:833fa42c"
+msgid "hash:833fa42c"
+msgstr "Ускоренный вывод сообщений в бою."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 219
+#: 0x1f4e19f
+msgctxt "hash:0588dd67"
+msgid "hash:0588dd67"
+msgstr "Показ типов покемонов при атаке."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 197
+#: 0x1f4e1c7
+msgctxt "hash:a5b782ca"
+msgid "hash:a5b782ca"
+msgstr "Предлагать дать кличку при поимке."
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 224
+#: 0x1f4e1eb
+msgctxt "hash:72273835"
+msgid "hash:72273835"
+msgstr "Предмет пойманного покемона - в Куб."
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 150
+#: 0x1f4e214
+msgctxt "hash:90ef44c5"
+msgid "hash:90ef44c5"
+msgstr "Сохранить настройки."
+
+#. category: code; mode: field
+#. original lines: 3, widths px: 24, 38, 34
+#: 0x1f4e230
+msgctxt "hash:175f2f74"
+msgid "hash:175f2f74"
+msgstr "Сохранить\\nСбросить\\nОтмена"
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 48, 216, 209, 197, 203, 97
+#: 0x1f4e26f
+msgctxt "hash:ad002832"
+msgid "hash:ad002832"
+msgstr ""
+"{COLOR 04}ВНИМАНИЕ!{COLOR 02}\\pЕсли понизить сложность боёв,\\nеё нельзя "
+"будет поднять выше режима\\l“Сложный”, пока игра не пройдена!\\pВы ТОЧНО "
+"хотите понизить\\nсложность боёв?"
+
+#. category: code; mode: field
+#. original lines: 6, widths px: 48, 164, 189, 145, 174, 126
+#: 0x1f4e328
+msgctxt "hash:ddfc4133"
+msgid "hash:ddfc4133"
+msgstr ""
+"{COLOR 04}ВНИМАНИЕ!{COLOR 02}\\pЕсли понизить сложность боёв, её\\nнельзя "
+"будет снова поднять,\\lпока игра не пройдена!\\pВы ТОЧНО хотите "
+"понизить\\nсложность боёв?"
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 30, 176, 182, 176, 141
+#: 0x1f4e3cb
+msgctxt "hash:008ff45a"
+msgid "hash:008ff45a"
+msgstr ""
+"ОБРАТИТЕ ВНИМАНИЕ!\\pЧтобы изменения сложности\\nголоволомок вступили в "
+"силу,\\l{COLOR 06}возможно{COLOR 02}, придётся покинуть\\lтекущую локацию "
+"и вернуться.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 5, widths px: 30, 184, 179, 132, 203
+#: 0x1f4e454
+msgctxt "hash:f2e750c9"
+msgid "hash:f2e750c9"
+msgstr ""
+"ОБРАТИТЕ ВНИМАНИЕ!\\pВ пространстве Куба, в отличие\\nот других мест, "
+"изменения сложности\\lголоволомок вступают в силу {COLOR 06}сразу{COLOR "
+"02}.\\pПокидать локацию НЕ нужно.{PAUSE_UNTIL_PRESS}"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 212
+#: 0x1f4e4e2
+msgctxt "hash:debfdf8d"
+msgid "hash:debfdf8d"
+msgstr ""
+"{COLOR 06}Сохранить{COLOR 02} или {COLOR 04}сбросить{COLOR 02} изменения?"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 183, 167
+#: 0x1f4f9ba
+msgctxt "hash:063904d9"
+msgid "hash:063904d9"
+msgstr ""
+"Узы - это сила! Удастся ли пройти\\nЛигу покемонов всего с одним\\n"
+"покемоном и доказать крепость уз?"

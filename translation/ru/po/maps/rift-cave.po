@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/rift-cave\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 93
+#: 0x1f460d1
+msgctxt "map:1.34/mapscript:0/6"
+msgid "map:1.34/mapscript:0/6"
+msgstr "Погоди…{PAUSE 20} неужели это?.."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 183, 165, 58, 6, 197, 155
+#: 0x1f460e7
+msgctxt "map:1.34/mapscript:0/8"
+msgid "map:1.34/mapscript:0/8"
+msgstr ""
+"Это пещера Рифт…{PAUSE 18} а значит!..\\pНаверняка мы снова в нашем "
+"мире!\\pНо почему?..\\p…\\pАх да. Говорят, пещера Рифт тоже нарушает "
+"законы реальности."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 159, 113, 157, 77, 6, 40, 164, 103
+#: 0x1f46179
+msgctxt "map:1.34/mapscript:0/10"
+msgid "map:1.34/mapscript:0/10"
+msgstr ""
+"Ладно, раз уж мы выбрались, давай вернёмся к делу.\\p{PLAYER}…{PAUSE 18} "
+"что тогда произошло в руинах Пустоты?\\p…\\pЭклав…\\pТогда нам нельзя "
+"терять ни секунды!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 99
+#: 0x1f46217
+msgctxt "map:1.34/mapscript:0/12"
+msgid "map:1.34/mapscript:0/12"
+msgstr "Нет… не в этот раз…"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 9, widths px: 133, 146, 196, 171, 183, 150, 126, 178, 131
+#: 0x1f4622a
+msgctxt "map:1.34/mapscript:0/14"
+msgid "map:1.34/mapscript:0/14"
+msgstr ""
+"{PLAYER}, пока я сидел там взаперти, я многому научился…\\pНо главное - "
+"понял, что без своих покемонов я никто.\\pНикогда больше не хочу быть "
+"настолько бесполезным для других.\\pВстретимся в городке Вивилл.\\p"
+"Обещаю: на этот раз мы с покемонами будем готовы."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 93, 56
+#: 0x1facb56
+msgctxt "map:1.36/npc:0/1"
+msgid "map:1.36/npc:0/1"
+msgstr "{COLOR 02}{STR_VAR_1} искривляет пространство и исчезает…"

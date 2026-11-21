@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-03EB628\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x03eb4e0
+msgctxt "hash:65696985"
+msgid "hash:65696985"
+msgstr "ДЕЛА ПО ДОМУ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb4e7
+msgctxt "hash:5a62725d"
+msgid "hash:5a62725d"
+msgstr "ДОМ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x03eb4ec
+msgctxt "hash:40c6a01d"
+msgid "hash:40c6a01d"
+msgstr "ДЕНЬГИ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 51
+#: 0x03eb4f2
+msgctxt "hash:2bad53ba"
+msgid "hash:2bad53ba"
+msgstr "КАРМАННЫЕ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x03eb4fc
+msgctxt "hash:e55e97b2"
+msgid "hash:e55e97b2"
+msgstr "ВАННА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x03eb501
+msgctxt "hash:2e7b74de"
+msgid "hash:2e7b74de"
+msgstr "РАЗГОВОР"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 35
+#: 0x03eb50e
+msgctxt "hash:2fac0449"
+msgid "hash:2fac0449"
+msgstr "ШКОЛА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x03eb515
+msgctxt "hash:26605e41"
+msgid "hash:26605e41"
+msgstr "ОТМЕТИТЬ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 27
+#: 0x03eb521
+msgctxt "hash:025094a1"
+msgid "hash:025094a1"
+msgstr "ПРИВЫЧКА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x03eb527
+msgctxt "hash:813cfe7b"
+msgid "hash:813cfe7b"
+msgstr "ГРУППА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x03eb52d
+msgctxt "hash:15989ed2"
+msgid "hash:15989ed2"
+msgstr "СЛОВО"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03eb532
+msgctxt "hash:fb1dab01"
+msgid "hash:fb1dab01"
+msgstr "МАГАЗИН"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x03eb538
+msgctxt "hash:2f4dead9"
+msgid "hash:2f4dead9"
+msgstr "СЕРВИС"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x03eb540
+msgctxt "hash:df9a614f"
+msgid "hash:df9a614f"
+msgstr "РАБОТАТЬ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 34
+#: 0x03eb545
+msgctxt "hash:7f2f21e0"
+msgid "hash:7f2f21e0"
+msgstr "СИСТЕМА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 26
+#: 0x03eb54c
+msgctxt "hash:ceb55e30"
+msgid "hash:ceb55e30"
+msgstr "ТРЕНИРОВАТЬ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 27
+#: 0x03eb552
+msgctxt "hash:7ef007b3"
+msgid "hash:7ef007b3"
+msgstr "КЛАСС"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 38
+#: 0x03eb558
+msgctxt "hash:0f629206"
+msgid "hash:0f629206"
+msgstr "УРОКИ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 59
+#: 0x03eb560
+msgctxt "hash:a09e05dd"
+msgid "hash:a09e05dd"
+msgstr "ИНФОРМАЦИЯ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 31
+#: 0x03eb56c
+msgctxt "hash:dc7a412c"
+msgid "hash:dc7a412c"
+msgstr "ЖИВУ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 41
+#: 0x03eb573
+msgctxt "hash:dac68096"
+msgid "hash:dac68096"
+msgstr "УЧИТЕЛЬ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 56
+#: 0x03eb57b
+msgctxt "hash:e8acc3f9"
+msgid "hash:e8acc3f9"
+msgstr "ТУРНИР"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 33
+#: 0x03eb586
+msgctxt "hash:42f3b3c0"
+msgid "hash:42f3b3c0"
+msgstr "ПИСЬМО"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03eb58d
+msgctxt "hash:39f0787d"
+msgid "hash:39f0787d"
+msgstr "СОБЫТИЕ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 36
+#: 0x03eb593
+msgctxt "hash:134912d6"
+msgid "hash:134912d6"
+msgstr "ЦИФРОВОЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 22
+#: 0x03eb59b
+msgctxt "hash:6674f0b2"
+msgid "hash:6674f0b2"
+msgstr "ТЕСТ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 62
+#: 0x03eb5a0
+msgctxt "hash:1b5f5158"
+msgid "hash:1b5f5158"
+msgstr "УНИВЕРМАГ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 53
+#: 0x03eb5ac
+msgctxt "hash:0180773f"
+msgid "hash:0180773f"
+msgstr "ТЕЛЕВИЗОР"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x03eb5b7
+msgctxt "hash:8d0fec93"
+msgid "hash:8d0fec93"
+msgstr "ТЕЛЕФОН"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x03eb5bd
+msgctxt "hash:018e7578"
+msgid "hash:018e7578"
+msgstr "ПРЕДМЕТ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 24
+#: 0x03eb5c2
+msgctxt "hash:81e577bc"
+msgid "hash:81e577bc"
+msgstr "ИМЯ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x03eb5c7
+msgctxt "hash:1ddc6a1e"
+msgid "hash:1ddc6a1e"
+msgstr "НОВОСТИ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x03eb5cc
+msgctxt "hash:a20c190a"
+msgid "hash:a20c190a"
+msgstr "ПОПУЛЯРНЫЙ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03eb5d4
+msgctxt "hash:63883a2f"
+msgid "hash:63883a2f"
+msgstr "ВЕЧЕРИНКА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x03eb5da
+msgctxt "hash:b0c4f4c2"
+msgid "hash:b0c4f4c2"
+msgstr "УЧИТЬСЯ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 39
+#: 0x03eb5e0
+msgctxt "hash:683a3336"
+msgid "hash:683a3336"
+msgstr "МАШИНА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x03eb5e8
+msgctxt "hash:7bc8ab66"
+msgid "hash:7bc8ab66"
+msgstr "ПОЧТА"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x03eb5ed
+msgctxt "hash:3582da00"
+msgid "hash:3582da00"
+msgstr "СООБЩЕНИЕ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 38
+#: 0x03eb5f5
+msgctxt "hash:f196db2e"
+msgid "hash:f196db2e"
+msgstr "ОБЕЩАЮ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 29
+#: 0x03eb5fd
+msgctxt "hash:496dd92c"
+msgid "hash:496dd92c"
+msgstr "СОН"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x03eb603
+msgctxt "hash:f529360e"
+msgid "hash:f529360e"
+msgstr "ДЕТСКИЙ САД"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 21
+#: 0x03eb610
+msgctxt "hash:e2fc922d"
+msgid "hash:e2fc922d"
+msgstr "ЖИЗНЬ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03eb615
+msgctxt "hash:4cb6d221"
+msgid "hash:4cb6d221"
+msgstr "РАДИО"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 27
+#: 0x03eb61b
+msgctxt "hash:e9363c1a"
+msgid "hash:e9363c1a"
+msgstr "ПРОКАТ"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x03eb622
+msgctxt "hash:bd32010c"
+msgid "hash:bd32010c"
+msgstr "МИР"

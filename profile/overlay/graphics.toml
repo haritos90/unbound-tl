@@ -1,0 +1,218 @@
+[graphics]
+
+[graphics.sheet_width]
+G10 = 4
+G11 = 4
+G18 = 4
+G19 = 4
+G20 = 4
+G25 = 8
+G26 = 8
+G28 = 4
+G29 = 4
+G33 = 8
+G34 = 8
+G35 = 8
+G36 = 8
+G37 = 8
+G38 = 8
+G39 = 8
+G41 = 8
+G42 = 6
+G43 = 4
+G45 = 4
+G46 = 8
+G47 = 8
+G48 = 4
+G53 = 8
+G54 = 8
+G55 = 4
+
+[graphics.palette]
+G08 = { at = "lz:0x0800470+0x20", evidence = "the 512-byte LZ77 palette block holds 16 palettes; the one at +0x20 equals BG palette bank 1 as loaded on the party screen (savestate 12-party)" }
+G21 = { at = "raw:0x0E980A4", evidence = "equals OBJ palette bank 4 as loaded on the naming screen others page (savestate 42-naming-others) except colour 14, which the naming screen sets at run time; G22 on the upper page loads this palette unchanged" }
+G23 = { at = "raw:0x0E980A4", evidence = "equals OBJ palette bank 4 as loaded on the naming screen lower page (savestate 41-naming-lower) except colour 14, set at run time as for G21" }
+
+# tilemaps and facts of the edited graphics
+
+
+[[graphics.tilemap]]
+name = "card back"
+graphic = "G16"
+offset = 0x1FDB2AC
+size = 1280
+width = 32
+pointers = [0x1ED8AB8]
+evidence = "decoded into the EWRAM buffer at 0x0200655C (1280 bytes, followed by other data); the test builds show the card front, the transition and the menu exit unchanged"
+
+# G25
+
+
+
+
+
+
+
+
+
+
+
+[[graphics.tilemap]]
+name = "card front"
+graphic = "G15"
+offset = 0x1FDA820
+size = 1280
+width = 32
+pointers = [0x1ED8AA8]
+evidence = "decoded into the EWRAM buffer at 0x0200002C (1280 bytes); rows 0-19 of BG1 on the card front; the header letters' bottom rows used tiles 29 and 30 twice each"
+
+# G04
+
+
+
+
+
+[[graphics.tilemap]]
+name = "stat scanner"
+graphic = "G40"
+offset = 0x1FD1E94
+size = 4096                                  # 64x32 cells as two 32x32 screens
+width = 32
+pointers = [0x1ED4E5C]
+evidence = "BG3 map of the Stat Scanner (stats page at scroll 0, moves page at 256); tiles 14, 23, 36, 100 and 158 sat in two or three label cells"
+
+# G09
+
+[[graphics.tilemap]]
+name = "summary move detail"
+graphic = "G09"
+offset = 0xE9BA30
+size = 2048
+width = 32
+pointers = [0x135B54, 0x135D8C]
+evidence = "Summary move detail map; the left cap tile 124 is shared with other labels, so the Power pill uses a clone in the unused G09 tile 511. All six summary tilemaps (0xE9B188, 0xE9B598, 0xE9B750, 0xE9B950, 0xE9BA30, 0xE9BBCC) leave tile 511 unused; no tile count or decompressed size changes."
+
+# G24
+
+[[graphics.tilemap]]
+name = "dexnav"
+graphic = "G24"
+offset = 0xB15438
+size = 1280
+width = 32
+pointers = [0x9D6B10]
+evidence = "BG3 map of the DexNav screen, decompressed to VRAM screen block 28; rows 0-19"
+
+# G19
+
+
+
+
+
+[[graphics.tilemap]]
+name = "the end"
+graphic = "G30"
+offset = 0x410B94
+size = 2048
+width = 32
+pointers = [0x410CEC]
+evidence = "last credits screen, BG0: the map is decompressed into EWRAM 0x020001E0 (2048 bytes) after the tiles; rows 8-10 held THE END, every other cell is tile 1"
+
+# G32
+
+[[graphics.tilemap]]
+name = "cloud burst"
+graphic = "G32"
+offset = 0x1FCF75C
+size = 1280
+width = 32
+pointers = [0x1EB13E8]
+evidence = "BG2 map of the Cloud Burst menu (screenblock 28, VRAM 0x0E000); cell (14, 20) is the left edge of the BEST label"
+
+# G36
+
+
+
+
+
+
+
+
+
+[graphics.edit_facts.G16]
+"max_tiles" = 210
+"evidence" = "card back: BG1 tiles from charblock 1 (VRAM 0x04000); the 209 tiles end at 0x05A20 and VRAM 0x05A20..0x06000 is zero; G16 is not kept in EWRAM"
+
+[graphics.edit_facts.G15]
+"max_tiles" = 140
+"evidence" = "card front: BG1 tiles from charblock 1 (VRAM 0x04000); the 138 tiles end at 0x05140 and VRAM 0x05140..0x08000 is zero on the front; G15 is decompressed to VRAM, not kept in EWRAM (savestate)"
+
+[graphics.edit_facts.G40]
+"max_tiles" = 186
+"evidence" = "Stat Scanner: BG3 tiles from charblock 1 (VRAM 0x04000); the 180 tiles end at 0x05680 and VRAM 0x05680..0x08000 is zero on the stats and moves pages; G40 is decompressed to VRAM, not kept in EWRAM (savestates)"
+
+[graphics.edit_facts.G24]
+"max_tiles" = 141
+
+[graphics.edit_facts.G32]
+"max_tiles" = 361
+"evidence" = "Cloud Burst menu: BG2 tiles from charblock 2 (VRAM 0x08000); the 360 tiles end at 0x0AD00 and VRAM 0x0AD00..0x0E000 is zero; G32 is decompressed to VRAM, not kept in EWRAM (savestate)"
+
+[graphics.edit_facts.G33]
+"evidence" = "Two raw 64x40 panels at 0x1FD0DCC and 0x1FD12CC; pool words 0x1ED0198 and 0x1ED019C feed the existing window bitmap blit. Native trace: CPU store at 0x08004C62 writes label pixels from these tile bytes; BG0 bank 13 equals lz:0x1FD17CC. Only text pixels change; counters, borders, palette, pointers and code stay identical."
+
+[graphics.edit_facts.G07]
+max_tiles = 20
+
+[[graphics.tilemap]]
+name = "start-menu-hint"
+graphic = "G07"
+offset = 0x0B1BCE8
+size = 1280
+width = 32
+pointers = [0x0A0C218]
+
+[graphics.edit_facts.G01]
+max_tiles = 259
+evidence = "Boot BG0 loads G01 at 0x06000000 from its LZ77 header; appended tiles end at 0x2060 before screenblock 7 at 0x3800. Native frames 30..180 show the appended range unused and zero; a 259-tile probe preserves every pixel outside screen8,144,88,16."
+
+[graphics.label_facts.G01]
+width = 88
+height = 16
+start_tile = 237
+background = 9
+
+[graphics.label_facts.G01.glyphs."0"]
+width = 5
+height = 8
+parts = [[36, 34, 4, 6, 0, 0], [40, 34, 1, 6, 4, 0], [108, 40, 4, 2, 0, 6], [112, 40, 1, 2, 4, 6]]
+
+[graphics.label_facts.G01.glyphs."1"]
+width = 4
+height = 8
+parts = [[28, 113, 4, 7, 0, 0], [76, 112, 4, 1, 0, 7]]
+
+[graphics.label_facts.G01.glyphs."2"]
+width = 5
+height = 8
+parts = [[18, 113, 5, 7, 0, 0], [66, 112, 5, 1, 0, 7]]
+
+[graphics.label_facts.G01.glyphs."6"]
+width = 5
+height = 8
+parts = [[46, 34, 2, 6, 0, 0], [48, 34, 3, 6, 2, 0], [118, 40, 2, 2, 0, 6], [120, 40, 3, 2, 2, 6]]
+
+[graphics.label_facts.G01.glyphs."."]
+width = 3
+height = 8
+parts = [[24, 113, 3, 7, 0, 0], [72, 112, 3, 1, 0, 7]]
+
+[[graphics.tilemap]]
+name = "boot version"
+graphic = "G01"
+offset = 0x1FC145C
+size = 1280
+width = 32
+pointers = [0x00EC614]
+evidence = "LZ77 BG0 map, screenblock7; only row18/19 columns1..11 receive appended label tiles."
+

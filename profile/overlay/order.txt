@@ -1,0 +1,61 @@
+identity.toml
+reach.toml
+reach/never-shown.tsv	reach.never_shown
+engine.toml
+fonts.toml
+script.toml
+tables.toml
+keyboard.toml
+strings.toml
+save.toml
+batches.toml
+maps.toml
+context.toml
+layout/windows.toml
+layout/windows.tsv	layout.window
+layout/window-strings.tsv	layout.window_strings
+layout/table-windows.toml
+layout/record-windows.toml
+layout/code-fill.toml
+layout/slots.toml
+text-controls.toml
+progress.toml
+progress.tsv	progress.topics
+graphics.toml
+policy-slots.toml
+keys.toml
+pokedex/pokedex.toml
+pokedex/growth-rates.toml
+pokedex/egg-groups.toml
+pokedex/gender-ratios.toml
+pokedex/moves.toml
+pokedex/abilities.toml
+pokedex/items.toml
+pokedex/items/shops.tsv	pokedex.items.sources.shops
+pokedex/items/pickups.toml
+pokedex/learnsets.toml
+pokedex/trainers.toml
+pokedex/sources.toml
+pokedex/labels.toml
+pokedex/type-icons.toml
+pokedex/icons.toml
+pokedex/maps.toml
+pokedex/encounters.toml
+pokedex/locations.toml
+pokedex/map-sections.toml
+pokedex/type-effectiveness.toml
+pokedex/species.toml
+pokedex/species-browsing.toml
+pokedex/moves-browsing.toml
+pokedex/abilities-browsing.toml
+pokedex/items-browsing.toml
+pokedex/ability-resolution.toml
+pokedex/dex.toml
+pokedex/evolution.toml
+pokedex/tile-behaviors.toml
+pokedex/sprites.toml
+text-prefixes.toml
+pokedex/form-names.tsv	pokedex.form_names.labels
+pokedex/form-names.toml
+facts.toml
+language-rules.toml

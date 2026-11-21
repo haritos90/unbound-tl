@@ -1,0 +1,103 @@
+source_text	chosen	variants	sources	limit	fits	short_form	confidence	notes	declension	note_ids	record_id
+{PK}{MN} Trainer	Тренер покемонов		tcg-rules-ru, fandom-ru, pojirianets-hg	12	no	Тренер	high		auto	note:00e199c5-1926-518e-933a-a49937805789	research:36a4f195d6b745faa51114bd946eb774
+Agent	Агент		own	12	yes		low	"Unbound: class of Looker (""Agent Looker, of the International Police""). Gender: m.; used for women too."	auto		research:9ac247b20b76405e93268a53bb2b75a6
+Waiter	Официант		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «официантка» is the separate class Waitress.	auto		research:c344dd4b24354ded84f8f2fdaa1af24f
+Waitress	Официантка		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: f.	auto		research:8e30faa763904f3990bd25d0d37aac1d
+Interviewer	Интервьюер	Интервьюеры @ pokerogue-ru	pokerogue-ru	12	yes		medium		auto	note:155d3252-07ee-5fdd-97f1-8ba1bc487584	research:65757db90b1f40ba86c123785915afdb
+Cyclist	Велосипедист		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «велосипедистка» (PokéRogue, 14 characters: abbreviate as «Велосип-ка» or reuse the masculine).	auto		research:b8f5f4470b884466a7fae8d3110e9db2
+Idol	Айдол		pojirianets-hg	12	yes		medium	Pop idol (Japanese-style). Gender: common (айдол for both).	auto		research:65c3d970c6754bb888bd2e9f1493a52f
+ACE TRAINER	Топ-тренер	Тренер-Профессионал @ pojirianets-hg | Первоклассный Тренер @ bulbapedia	pokerogue-ru	12	yes		medium	Uppercase duplicate of Ace Trainer; render «ТОП-ТРЕНЕР» if the string keeps the uppercase style. Gender: m.; PokéRogue uses the same form for female trainers.	auto		research:62334cbb6b4c48dd9fb7a84f1646292f
+Nurse	Медсестра		pokerogue-ru	12	yes		medium	Gender: f. (masculine «медбрат»).	auto		research:2ff9b94f916f473298082be9896c577e
+LADY	Леди		tcg-ru, pokerogue-ru, pojirianets-hg	12	yes		high	Uppercase duplicate of Lady; «ЛЕДИ» if the uppercase style is kept. Gender: f., indeclinable.	fixed		research:10bf742446db4b80a407d6ed9fbda1ff
+Poké Kid	Поке-ребёнок	Поке Ребёнок @ pojirianets-hg	pojirianets-hg	12	yes		medium		auto	note:c0c7902d-b0f9-5e21-86ed-4807ae1230a6	research:a3ec462356fa4d818ed66cc14955c42d
+Rich Boy	Юноша-богатей	Богатей @ pojirianets-hg	pokerogue-ru	13	yes		medium		auto	note:8e55b720-2165-5ea5-827e-6a5cc9b4f5f5	research:06fa3160d7244713bac89a10119f8681
+Camping Duo	Кэмп-дуэт		own	12	yes		low		auto	note:9d2f974d-045c-56a5-8b7b-1d2a5779ed4e	research:6d4dafa42db84284a802bc801bf46fd0
+Skier	Лыжник		pojirianets-hg	12	yes		medium	Gender: m.; feminine «лыжница».	auto		research:866f61c07b90448993229a16c49ef7b7
+Guitarist	Гитарист		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «гитаристка» (PokéRogue).	auto		research:3319e511fe474d21933e94327fa79f2e
+Kindler	Огнедув		own	12	yes		low		auto	note:7c60cbe9-e1e4-5309-833c-49d8a12a24d3	research:a54338f28b174f4897c5c5224d137a80
+Shocker	Электрик		own	12	yes		low		auto	note:2f0ded61-21a2-5315-880d-be6536f3863b	research:33cb40ea8feb42b793e698a839a4ca09
+Bug Maniac	Фанат жуков		own	12	yes		low		auto	note:dac1d6a2-8bc8-504c-a00d-66b8ed38b7b1	research:5fd648874f75448aaa02fdbcead23566
+Officer	Офицер	Полицейский @ pojirianets-hg	pokerogue-ru	12	yes		medium		auto	note:871996a9-1cae-5ba7-9052-21c197667449	research:384a4c8b35034a6b981008bb498bc0f7
+Rich Girl	Юная богачка	Богачка @ pokerogue-ru	pokerogue-ru	12	yes		medium	Female counterpart of Rich Boy; PokéRogue female Rich Kid «Юная богачка»; PokéRogue female Rich «Богачка». Gender: f.	auto		research:0212e38b30de4a919e50fb825047ae4b
+Successor	Наследница		own	12	yes		low	"Unbound-only; class of ""Successor Maxima"" (heir of the mansion, female). Gender: f.; masculine «наследник»."	auto		research:1e0ee0097f234020b79eff33b848df35
+School Kid	Школьник		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «школьница» (PokéRogue).	auto		research:9f8659266e494975836528f1d329944b
+Pokéfan	Покефан	Покефанат @ pojirianets-hg	pokerogue-ru	12	yes		medium	Gender: m.; PokéRogue female form «Покефанатка» (HG «Покефанат» for both).	auto		research:5db6e03f26ad4f5cbd25d30f47f05391
+Expert	Эксперт		own	12	yes		low	Gen III-IV martial-arts veteran class. Gender: m.; used for women too.	auto		research:f5edb252e1e044f385c3fc0fe240a6d4
+Rancher	Фермер		pojirianets-hg	12	yes		medium	Gender: m.; feminine «фермерша». HG female class Cowgirl «Ковбойша».	auto		research:4d3650ad7c8541de80fc5d7615c31b80
+Jogger	Бегун		pojirianets-hg	12	yes		medium	Gender: m.; feminine «бегунья».	auto		research:6a3b0f46efe44902bd25d28c4e1ba7b3
+Dragon Tamer	Укротитель драконов		pokerogue-ru, pojirianets-hg	12	no	Укрот. драк.	high	Gender: m.; feminine «укротительница драконов». No fitting attested form; plain «Укротитель» is reserved for the class Tamer.	auto		research:b92227dfd2484961af76eb7f1fcdf509
+BIRD KEEPER	Птицевод	Заводчик Птиц @ pojirianets-hg | Смотритель птиц @ pokerogue-ru	own	12	yes		medium		auto	note:35403e82-31f1-5ce4-9f74-3c7b6509704c	research:1be0dce75ef64c0ca93726bd28e6bbd8
+Ninja Boy	Мальчик-ниндзя		pojirianets-hg	14	yes		medium		auto	note:edb30569-71ee-51fd-967f-5c311b52449f	research:6d596aa15b3e42408db97241b6538199
+Mega Trainer	Мега-тренер		own	12	yes		low		auto	note:d21d7dac-0bab-5e19-a2ef-cb044d285043	research:bec0445e42c84f77a3bdd16091850db7
+Parasol Lady	Леди с зонтиком	Леди с Зонтом @ pojirianets-hg	pokerogue-ru	15	yes		medium	Gender: f. Full form restored: relocated through the existing pointer dispatch; all class consumers verified.	auto		research:9f960bb7cf214a54b5ecf5e82af4a1c5
+Black Horizo	Чёрный горизонт		own	15	yes		low		auto	note:4d608294-d8cf-5c26-8b8d-493ef047f04c	research:071d18d6f8d848e8bad806af243adc18
+PICNICKER	Любитель пикников	Пикникер @ pojirianets-hg	pokerogue-ru	12	no	Пикникер	medium		auto	note:0c9b0d15-d844-5fa2-802e-e02b3a849978	research:b2b21124b540428fb607121a57a88d00
+Developer	Разработчик		own	12	yes		low	Unbound-only (game developer NPC). Gender: m.; used for women too.	auto		research:eaea0aa6f5d24efa9745519c00211268
+Boarder	Сноубордист		pojirianets-hg	12	yes		medium	Snowboarder (HGSS class). Gender: m.; feminine «сноубордистка».	auto		research:611ae764fa54443ca5cde33f8fd16cfe
+Collector	Коллекционер		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «коллекционерша» (colloquial).	auto		research:bbb55cf6ddd146a7b23097d09a73ec87
+Black Emboar	Чёрный Эмбор	Чёрный Emboar @ superseded	own	12	yes		low		auto	note:4213f1d5-e45e-5dbc-9335-ac749febcba7	research:bd86393f052e4cc49096cd6416434194
+Shadow Admin	Куратор Теней	Админ Теней @ own (previous)	own	12	no	Куратор	medium		auto	note:68cf25af-ef07-5e10-871c-f6b6379fd07c	research:3c3910a1ec7b4fc3b6c0661c92c827d9
+Ex Shadow Ad	Экс-куратор Теней	Экс-админ Теней @ own (previous)	own	12	no	Экс-куратор	medium		auto	note:5bef795d-4c4b-5952-9766-3bcff7979923	research:5dc81f88b4ec4d58b2d5138576f55617
+Bug Catcher	Жуколов		tcg-ru, pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.	auto		research:21da23f4996c40ed8c062fafd1c147e5
+HIKER	Турист	Путешественник @ pojirianets-hg	tcg-ru, bulbapedia, pokerogue-ru	12	yes		high		auto	note:4eab49f2-9fa5-574f-8340-8a9136acf70e	research:a478c0be21d94690943f45b0c143d644
+Young Couple	Голубки	Молодая Пара @ pojirianets-hg	pokerogue-ru	12	yes		medium	Pair class; plural noun. HG «Молодая пара» (12) is the neutral alternative.	auto		research:5a24de50e7eb4bc6b53c125744f76c5b
+Expert Duo	Дуэт экспертов		own	12	no	Дуэт эксп.	low	Unbound-only pair class; see Expert. Gender: m.	auto		research:0491d9a549b8410c9ab0e398c5e526c6
+Sis and Bro	Брат с сестрой		own	12	no		low	Pair class (Gen III Sis and Bro): singular collective; full name through the long-name pointer.	auto		research:de68682355904d28bcc5850ab3c9aeeb
+AQUA ADMIN	Куратор Аквы	Админ Команды Аква @ bulbapedia	own	12	yes		medium	Curator-title family. Gender: m.; used for women too.	auto		research:0a8b1e0fe61c4145bb6dffda3e596722
+MAGMA ADMIN	Куратор Магмы	Админ Команды Магма @ bulbapedia	own	12	no		medium	Curator-title family; full name through the long-name pointer. Gender: m.; used for women too.	auto		research:49d357c1d96f476482900a13af526f5d
+Youngster	Юнец	Мальчик @ pojirianets-hg	pokerogue-ru	12	yes		medium	Gender: m.	auto		research:5fa130d9384846f9a05ba3a72475806f
+Lass	Девчушка	Девочка @ pojirianets-hg	pokerogue-ru	12	yes		medium	Gender: f.	auto		research:9fbaf0cd1bde4135a9d2c7018356700b
+Sailor	Моряк		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.	auto		research:1a25702c52d04498813e41ef4da3d1e3
+Camper	Походник	Турист @ pojirianets-hg | Кэмпер @ pokerogue-ru	own	12	yes		medium	Accepted complete name; earlier sourced form remains a documented variant. Inflected forms follow the independent wording review.	auto		research:ec6061a4a1a445eca94b0c243835f06a
+Picnicker	Любитель пикников	Пикникер @ pojirianets-hg	pokerogue-ru	12	no	Пикникер	medium	Used for female trainers; feminine «любительница пикников» (not attested). Short form is the attested HG calque.	auto		research:f2052131b4de436da5a1f8930211ccd0
+Poké Maniac	Поке-безумец	Покеманьяк @ pojirianets-hg	tcg-ru	12	yes		high	Official TCG card name. Gender: m.	auto		research:a94684ab87144953a0412a51d5d7d634
+Super Nerd	Суперзубрила	Супер Зубрила @ pojirianets-hg	pojirianets-hg	12	yes		medium	HG «Супер Зубрила»; the prefix супер- is written solid. Gender: common (зубрила).	auto		research:a90432ebd6474ac0aefde0a5b87775a4
+Hiker	Турист	Путешественник @ pojirianets-hg	tcg-ru, bulbapedia, pokerogue-ru	12	yes		high	HG uses «Путешественник». Gender: m.; feminine «туристка».	auto		research:beb16f9be1134c31b00a9db54e84b128
+Biker	Байкер		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.	auto		research:5ced73d45f67451c892fe550c8c2ed80
+Burglar	Воришка		pojirianets-hg	12	yes		medium	Gender: common (воришка).	auto		research:06e57d10685b43a5b8f217e69eb5d935
+Worker	Рабочий		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m. (substantivized adjective); feminine «рабочая» (PokéRogue).	auto		research:45c737b4439f4f369a7e5d3c0f88ffaa
+Fisherman	Рыбак		tcg-ru, bulbapedia, pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «рыбачка» (PokéRogue).	auto		research:fd23c3da413240d39ab09713a85bb38e
+Swimmer♂	Пловец		pokerogue-ru, pojirianets-hg	12	yes		high	The gender sign is not needed: Russian has separate masculine and feminine nouns. Gender: m.	auto		research:21d9038f56d34fa5b37b39439bdbf12b
+Roughneck	Задира	Мужлан @ pojirianets-hg	pokerogue-ru	12	yes		medium	Gender: common (задира).	auto		research:4e2a8eacd4f0418db274b62088e2d63d
+Gambler	Азартный игрок		own	14	yes		low		auto	note:83d89dba-545d-5130-ab52-86a64b8af373	research:fd45d81bd6eb433f9b52254856f547e9
+Beauty	Красавица	Красотка @ pojirianets-hg	pokerogue-ru	12	yes		medium	Gender: f.	auto		research:4be04f4ac85140d1bd6dae3221c9960b
+Swimmer♀	Пловчиха		pokerogue-ru, pojirianets-hg	12	yes		high	The gender sign is not needed. Gender: f.	auto		research:2ec020e47540401fb762fb7e0b0f35b7
+Psychic	Экстрасенс	Психик @ pojirianets-hg	pokerogue-ru	12	yes		medium	Same word as the pokemon.com Pokédex type label for Psychic (types use «Психо»). Gender: m.; used for women too (PokéRogue).	auto		research:311f89eb73354d7ca51e292bb6ee0825
+Rocker	Рокер		own	12	yes		low	Gen I-III musician class. Gender: m.	auto		research:984ab1f32ac94af788227788c158bd10
+Juggler	Жонглёр		pojirianets-hg	12	yes		medium	Gender: m.	auto		research:21682ef8b8aa4e51868d6bc7987bf809
+Tamer	Укротитель		own	12	yes		low	Gen I-III class; noun from the attested «Укротитель драконов». Gender: m.; feminine «укротительница».	auto		research:0abe5217ced74613a6584c4a4b8791ee
+Bird Keeper	Птицевод	Заводчик Птиц @ pojirianets-hg | Смотритель птиц @ pokerogue-ru	own	12	yes		medium		auto	note:d2909c0b-d8d7-5704-95c0-0cb139ab0bb5	research:6fc0e23029db4e92a1f988cef7a52b32
+Black Belt	Чёрный пояс		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m. (noun phrase used as title).	auto		research:aba806d384f94d89bc71f55e8fb3810a
+Rival	Соперник		bulbapedia, pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «соперница».	auto		research:1a972d0dec38446d9f0bf99a232d3c2a
+Scientist	Учёный		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.; feminine «учёная» (PokéRogue).	auto		research:de29ccd3c27344a6941a94dd6f503f01
+Boss	Босс	Босс Команды Ракета @ pojirianets-hg	pojirianets-hg	12	yes		medium		auto	note:f1a8dd6a-7f8d-5256-bd8e-b69164b10dc1	research:9344dd58044d4517b48bb4bfbccb7d0f
+Leader	Лидер	Гим-Лидер @ swsh-site-ru	pojirianets-hg	12	yes		medium	Gym Leader as a class label; the full title is «гим-лидер» (official SwSh / BDSP sites). Gender: m.; used for women too.	auto		research:8ca0297fc9b84a788fa3fe6db09dcb0c
+Shadow	Агент Теней		own	12	yes		low		auto	note:c4ae3ad6-b297-5eba-ba54-26c8e27d49ae	research:7443db4d8b2841a494d0017e01edbdc8
+Ace Trainer	Топ-тренер	Тренер-Профессионал @ pojirianets-hg | Первоклассный Тренер @ bulbapedia	pokerogue-ru	12	yes		medium	Gender: m.; PokéRogue uses the same form for female trainers.	auto		research:7e8a3889965b4ba0b5729f259e989ebb
+Elite Four	Элитная четвёрка	Член Элитной Четвёрки @ pojirianets-hg	bdsp-site-ru, sm-site-ru, bulbapedia, pokerogue-ru	16	yes		high		auto	note:39a490e6-0459-5a23-8293-f822e571bfa2	research:9f465cf82f5b4c69af36a90eabfefa8e
+Gentleman	Джентльмен		pokerogue-ru, pojirianets-hg	12	yes		high	Gender: m.	auto		research:7f535fbe7233490a84a76f722e587e54
+Medium	Медиум		pojirianets-hg	12	yes		medium	Spirit medium (female class in Gen II-IV). Gender: common (медиум).	auto		research:6f0dee9ded364e448b31482e475f1bb3
+Twins	Близняшки	Близнецы @ pojirianets-hg	pokerogue-ru	12	yes		medium	Pair class of two girls; plural.	auto		research:bb53ab36a75f40fb84410922debffe1c
+Ace Duo	Топ-дуэт		pokerogue-ru	12	yes		medium	Pair class. Gender: m.	auto		research:f0a3ef776d4943f69bd6735921bab550
+YOUNG COUPLE	Голубки	Молодая Пара @ pojirianets-hg	pokerogue-ru	12	yes		medium	Uppercase duplicate of Young Couple. Plural noun.	auto		research:11b7777b8425414ca8befe6f0e7c0880
+Crush Kin	Боевые отпрыски		pokerogue-ru	12	no	Б. отпрыски	medium	Pair class (Gen III siblings: Black Belt + Battle Girl). Plural.	auto		research:e4e58bb03de443d8a10b0555a14894ae
+SIS AND BRO	Брат с сестрой		own	12	no		low	Uppercase duplicate of Sis and Bro.	auto		research:f0c0198d03f440bcbaf5278d3357729d
+{PK}{MN} PROF.	Профессор покемонов	Профессор @ pokerogue-ru	bulbapedia	12	no	Профессор	medium	"{PK}{MN} = ""Pokémon"" ligature; the English abbreviates ""Prof.""; short form drops the complement («Проф.» is also possible). Gender: m."	auto		research:67b3086334514236bd8dc9aba681a294
+Player	Игрок		pojirianets-hg	12	yes		medium	HG main-menu label «ИГРОК» (PLAYER). Gender: m.	auto		research:68efe1e200ea47f39660aa65f610e450
+Battle Girl	Девочка-боец	Боевая Девушка @ pojirianets-hg	pokerogue-ru	12	yes		medium	Gender: f.	auto		research:8f6114fd941d4af9b3cc45c3458def0a
+Tuber	Пловец в круге		pojirianets-hg	12	no	Пл. в круге	medium	Child swimming with an inner tube. Gender: m.; feminine «пловчиха в круге».	auto		research:5b8e1bf934c847de9512801c6015c11c
+{PK}{MN} Breeder	Заводчик покемонов	Бридер покемонов @ tcg-ru, bulbapedia | Бридер @ pokerogue-ru | Разводчик Покемонов @ bulbapedia | Покемоновод @ bulbapedia	pojirianets-hg	12	no	Заводчик	high		auto	note:16f4924b-b82e-5ec9-93fc-e094f230724a	research:81c4bce3b6e74b80a8a660ff91dbc097
+{PK}{MN} Ranger	Рейнджер покемонов	Поке-лесничий @ pokerogue-ru | Поке-лесничие @ pokerogue-ru | Рейнджер @ pojirianets-hg | Покемон Рейнджер @ bulbapedia | Покерейнджер @ bulbapedia	bulbapedia	12	no	Рейнджер	medium		auto	note:b7c0ab56-a884-5d81-98be-73fed349cb9a	research:e0af5402b36c4e0fb4ebaa24e7d46ba1
+Aroma Lady	Травница	Арома Леди @ pojirianets-hg	pokerogue-ru	12	yes		medium	Gender: f.	auto		research:c6190032e28443fba774f4025b70ad89
+Ruin Maniac	Фанат руин	Археолог @ pojirianets-hg	pokerogue-ru	17	yes		medium		auto	note:38730607-f119-570c-a358-281b742097d8	research:84b6b00fc4df4de39d00ec20f41882f4
+Lady	Леди		tcg-ru, pokerogue-ru, pojirianets-hg	12	yes		high	Official TCG card name. Gender: f., indeclinable.	fixed		research:fd113c03edcb4ea3af39607fc5bab524
+Painter	Художник	Художник @ pojirianets-hg | Художник @ pokerogue-ru | Художница @ superseded	pokerogue-ru	12	yes		medium		auto	note:451d956e-f24a-5a12-b5d4-36ad316835a2	research:bcbe0283a1c74f748344f3ac4da26cfb
+Sinnoh Leader	Лидер Синно		own	12	yes		low		auto	note:c35c665f-b400-5b37-982b-d501bc3852a6	research:569fd2d449a946688715f12904c4eb6d
+Light of Ruin	Свет гибели		own	12	yes		low		auto	note:c56a84d7-e376-5c3b-995b-d136aa05be49	research:b217455b4fb8448abbfe133eede2f239
+Light of Ruin Admin	Куратор Света гибели	Админ Света гибели @ own (previous)	own	12	no	Куратор	medium		auto	note:add0a2f3-34e7-56bc-8c65-cdc3e81d8656	research:417936a83c5d47d58eeca791edb2bcf9
+Light of Ruin Leader	Лидер Света гибели		own	18	yes		low		auto	note:6fa99912-01f5-5d2b-bdf3-8bcf7a430b7d	research:9d340daa083746819c30fe83fd3c24e1
+Frontier Brain	Мозг Рубежа		own	12	yes		low		auto	note:5a9bbe4b-98c5-59cf-9fa2-296db5edad9c	research:7717d0d5874845b6a6b2610894dffebd
+Black Ferrothorn	Чёрный Ферроторн	Чёрный Ferrothorn @ superseded	own	16	yes		low		auto	note:640c98da-cdf3-5a94-a52f-fc72c1e7508b	research:5516a72d05b44365a508190221c2a992
+Black Ferrothorn Boss	Босс Чёрного Ферроторна	Босс Чёрного Ferrothorn @ superseded	own	12	no	Босс банды	low		auto	note:f9a07cdf-737e-5423-99aa-a9788fb67435	research:2ed3d746c41b4b57959c38468d1befb8
+Science Society	Научное общество		own	16	yes		low		auto	note:b385fa72-2852-5f49-b836-039a36f2b585	research:69ad15069f2a4525a1ecc9982974e1b1
+Terror Granbull	Террор Грэнбулл	Террор Granbull @ superseded	own	15	yes		low		auto	note:6d3f39d1-4c0d-5d0a-a201-921cb79f51e6	research:746b62e31108410583ac4459606d1ab9

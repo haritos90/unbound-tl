@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1EBFC70\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 202, 129
+#: 0x1f56374
+msgctxt "hash:e273e5ab"
+msgid "hash:e273e5ab"
+msgstr "Получить Раскол камня у друга\\nМастера Пореза в городе Близзард!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 182, 99
+#: 0x1f56417
+msgctxt "hash:fccf935b"
+msgid "hash:fccf935b"
+msgstr "Осмотреть городок Тель и найти\\nпуть на Маршрут 9!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 169, 114
+#: 0x1f56482
+msgctxt "hash:00492c64"
+msgid "hash:00492c64"
+msgstr "Поговорить с лидером стадиона\\nгорода Фоллшор в городке Тель!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 145, 73
+#: 0x1f56532
+msgctxt "hash:eec271de"
+msgid "hash:eec271de"
+msgstr "Получить Мощь у мужчины\\nв городке Эпидими!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 144
+#: 0x1f5689c
+msgctxt "hash:ff8efc4c"
+msgid "hash:ff8efc4c"
+msgstr "Бросить вызов стадиону Антисиса!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 144
+#: 0x1f56930
+msgctxt "hash:8960ccd9"
+msgid "hash:8960ccd9"
+msgstr "Бросить вызов стадиону Полдера!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 152
+#: 0x1f56a49
+msgctxt "hash:401cc712"
+msgid "hash:401cc712"
+msgstr "Бросить вызов стадиону Редвуда!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 130
+#: 0x1f56aa0
+msgctxt "hash:97e231af"
+msgid "hash:97e231af"
+msgstr "Навестить маму!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 196, 107
+#: 0x1f56ab8
+msgctxt "hash:be67926f"
+msgid "hash:be67926f"
+msgstr "Купить в городе Сипорт ADM,\\nчтобы нырять под воду!"

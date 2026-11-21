@@ -1,0 +1,841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/credits\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. pointer table credits, record 0: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 43, 0, 0, 0, 0
+#: 0x1eefe30
+msgctxt "table:credits/0/0"
+msgid "table:credits/0/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 0: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 32, 0, 0, 0
+#: 0x1eefe3f
+msgctxt "table:credits/0/1"
+msgid "table:credits/0/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 1: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 71, 0, 0, 0, 0
+#: 0x1eefe4c
+msgctxt "table:credits/1/0"
+msgid "table:credits/1/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 1: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 144, 0, 0, 0
+#: 0x1eefe60
+msgctxt "table:credits/1/1"
+msgid "table:credits/1/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 2: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 28, 0, 0, 0, 0, 0
+#: 0x1eefe80
+msgctxt "table:credits/2/0"
+msgid "table:credits/2/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 2: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 32, 69, 47, 0, 0
+#: 0x1eefe8c
+msgctxt "table:credits/2/1"
+msgid "table:credits/2/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 3: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 56, 0, 0, 0, 0, 0, 0
+#: 0x1eefeae
+msgctxt "table:credits/3/0"
+msgid "table:credits/3/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 3: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 32, 24, 46, 50, 49, 0
+#: 0x1eefebf
+msgctxt "table:credits/3/1"
+msgid "table:credits/3/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 4: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 56, 0, 0, 0, 0
+#: 0x1eefeea
+msgctxt "table:credits/4/0"
+msgid "table:credits/4/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 4: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 47, 0, 0, 0
+#: 0x1eefefb
+msgctxt "table:credits/4/1"
+msgid "table:credits/4/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 5: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 134, 0, 0, 0, 0, 0
+#: 0x1eeff0b
+msgctxt "table:credits/5/0"
+msgid "table:credits/5/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 5: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 32, 47, 82, 0, 0
+#: 0x1eeff2a
+msgctxt "table:credits/5/1"
+msgid "table:credits/5/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 6: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 97, 0, 0, 0, 0, 0
+#: 0x1eeff4f
+msgctxt "table:credits/6/0"
+msgid "table:credits/6/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 6: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 32, 35, 51, 0, 0
+#: 0x1eeff67
+msgctxt "table:credits/6/1"
+msgid "table:credits/6/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 7: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 91, 0, 0, 0, 0, 0, 0
+#: 0x1eeff83
+msgctxt "table:credits/7/0"
+msgid "table:credits/7/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 7: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 32, 39, 62, 47, 0, 0
+#: 0x1eeff9b
+msgctxt "table:credits/7/1"
+msgid "table:credits/7/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 8: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 113, 0, 0, 0, 0, 0, 0
+#: 0x1eeffc2
+msgctxt "table:credits/8/0"
+msgid "table:credits/8/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 8: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 47, 39, 86, 24, 0, 0
+#: 0x1eeffde
+msgctxt "table:credits/8/1"
+msgid "table:credits/8/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 9: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 92, 0, 0, 0, 0, 0, 0
+#: 0x1ef0009
+msgctxt "table:credits/9/0"
+msgid "table:credits/9/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 9: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 109, 74, 46, 50, 90, 0
+#: 0x1ef0021
+msgctxt "table:credits/9/1"
+msgid "table:credits/9/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 10: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 92, 0, 0, 0, 0, 0, 0
+#: 0x1ef0069
+msgctxt "table:credits/10/0"
+msgid "table:credits/10/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 10: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 59, 30, 88, 54, 67, 0
+#: 0x1ef0081
+msgctxt "table:credits/10/1"
+msgid "table:credits/10/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 11: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 92, 0, 0, 0, 0, 0, 0
+#: 0x1ef00bc
+msgctxt "table:credits/11/0"
+msgid "table:credits/11/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 11: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 76, 81, 33, 45, 30, 0
+#: 0x1ef00d4
+msgctxt "table:credits/11/1"
+msgid "table:credits/11/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 12: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 92, 0, 0, 0, 0, 0
+#: 0x1ef010a
+msgctxt "table:credits/12/0"
+msgid "table:credits/12/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 12: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 61, 74, 0, 0, 0
+#: 0x1ef0122
+msgctxt "table:credits/12/1"
+msgid "table:credits/12/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 13: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 77, 0, 0, 0, 0, 0
+#: 0x1ef0141
+msgctxt "table:credits/13/0"
+msgid "table:credits/13/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 13: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 51, 86, 54, 0, 0
+#: 0x1ef0156
+msgctxt "table:credits/13/1"
+msgid "table:credits/13/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 14: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x1ef017f
+msgctxt "table:credits/14/0"
+msgid "table:credits/14/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 14: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 41, 52, 39, 24, 47, 0
+#: 0x1ef0194
+msgctxt "table:credits/14/1"
+msgid "table:credits/14/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 15: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x1ef01bf
+msgctxt "table:credits/15/0"
+msgid "table:credits/15/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 15: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 39, 109, 86, 74, 90, 0
+#: 0x1ef01d4
+msgctxt "table:credits/15/1"
+msgid "table:credits/15/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 16: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x1ef0222
+msgctxt "table:credits/16/0"
+msgid "table:credits/16/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 16: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 46, 59, 50, 46, 41, 0
+#: 0x1ef0237
+msgctxt "table:credits/16/1"
+msgid "table:credits/16/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 17: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 78, 0, 0, 0, 0, 0, 0
+#: 0x1ef0268
+msgctxt "table:credits/17/0"
+msgid "table:credits/17/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 17: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 35, 51, 45, 63, 51, 0
+#: 0x1ef027d
+msgctxt "table:credits/17/1"
+msgid "table:credits/17/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 18: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 78, 0, 0, 0, 0, 0
+#: 0x1ef02af
+msgctxt "table:credits/18/0"
+msgid "table:credits/18/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 18: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 50, 49, 30, 0, 0
+#: 0x1ef02c4
+msgctxt "table:credits/18/1"
+msgid "table:credits/18/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 19: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 138, 0, 0, 0, 0, 0, 0
+#: 0x1ef02e2
+msgctxt "table:credits/19/0"
+msgid "table:credits/19/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 19: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 32, 62, 56, 47, 52, 0
+#: 0x1ef0301
+msgctxt "table:credits/19/1"
+msgid "table:credits/19/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 20: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 138, 0, 0, 0, 0, 0, 0
+#: 0x1ef0335
+msgctxt "table:credits/20/0"
+msgid "table:credits/20/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 20: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 113, 123, 41, 30, 91, 0
+#: 0x1ef0354
+msgctxt "table:credits/20/1"
+msgid "table:credits/20/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 21: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 138, 0, 0, 0, 0, 0, 0
+#: 0x1ef03a1
+msgctxt "table:credits/21/0"
+msgid "table:credits/21/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 21: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 56, 39, 58, 37, 72, 0
+#: 0x1ef03c0
+msgctxt "table:credits/21/1"
+msgid "table:credits/21/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 22: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 138, 0, 0, 0, 0, 0
+#: 0x1ef03f7
+msgctxt "table:credits/22/0"
+msgid "table:credits/22/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 22: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 47, 48, 0, 0, 0
+#: 0x1ef0416
+msgctxt "table:credits/22/1"
+msgid "table:credits/22/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 23: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 127, 0, 0, 0, 0, 0, 0
+#: 0x1ef042d
+msgctxt "table:credits/23/0"
+msgid "table:credits/23/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 23: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 32, 52, 51, 63, 74, 0
+#: 0x1ef044b
+msgctxt "table:credits/23/1"
+msgid "table:credits/23/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 24: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 127, 0, 0, 0, 0, 0, 0
+#: 0x1ef0482
+msgctxt "table:credits/24/0"
+msgid "table:credits/24/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 24: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 45, 35, 39, 71, 49, 0
+#: 0x1ef04a0
+msgctxt "table:credits/24/1"
+msgid "table:credits/24/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 25: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 127, 0, 0, 0, 0, 0, 0
+#: 0x1ef04d2
+msgctxt "table:credits/25/0"
+msgid "table:credits/25/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 25: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 59, 41, 115, 41, 69, 0
+#: 0x1ef04f0
+msgctxt "table:credits/25/1"
+msgid "table:credits/25/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 26: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 83, 0, 0, 0, 0, 0, 0
+#: 0x1ef0530
+msgctxt "table:credits/26/0"
+msgid "table:credits/26/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 26: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 142, 139, 125, 133, 143, 0
+#: 0x1ef0546
+msgctxt "table:credits/26/1"
+msgid "table:credits/26/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 27: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 83, 0, 0, 0, 0, 0, 0
+#: 0x1ef05c5
+msgctxt "table:credits/27/0"
+msgid "table:credits/27/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 27: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 52, 35, 47, 35, 60, 0
+#: 0x1ef05db
+msgctxt "table:credits/27/1"
+msgid "table:credits/27/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 28: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 83, 0, 0, 0, 0, 0, 0
+#: 0x1ef060b
+msgctxt "table:credits/28/0"
+msgid "table:credits/28/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 28: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 61, 39, 103, 41, 46, 0
+#: 0x1ef0621
+msgctxt "table:credits/28/1"
+msgid "table:credits/28/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 29: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 94, 0, 0, 0, 0, 0, 0
+#: 0x1ef065b
+msgctxt "table:credits/29/0"
+msgid "table:credits/29/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 29: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 52, 60, 72, 64, 47, 0
+#: 0x1ef0673
+msgctxt "table:credits/29/1"
+msgid "table:credits/29/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 30: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 94, 0, 0, 0, 0, 0, 0
+#: 0x1ef06af
+msgctxt "table:credits/30/0"
+msgid "table:credits/30/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 30: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 41, 59, 39, 59, 39, 0
+#: 0x1ef06c7
+msgctxt "table:credits/30/1"
+msgid "table:credits/30/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 31: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 94, 0, 0, 0, 0, 0, 0
+#: 0x1ef06f7
+msgctxt "table:credits/31/0"
+msgid "table:credits/31/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 31: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 24, 84, 93, 73, 77, 0
+#: 0x1ef070f
+msgctxt "table:credits/31/1"
+msgid "table:credits/31/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 32: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 114, 0, 0, 0, 0, 0, 0
+#: 0x1ef0754
+msgctxt "table:credits/32/0"
+msgid "table:credits/32/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 32: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 142, 34, 64, 41, 80, 0
+#: 0x1ef0770
+msgctxt "table:credits/32/1"
+msgid "table:credits/32/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 33: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 114, 0, 0, 0, 0
+#: 0x1ef07b6
+msgctxt "table:credits/33/0"
+msgid "table:credits/33/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 33: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 58, 0, 0, 0
+#: 0x1ef07d2
+msgctxt "table:credits/33/1"
+msgid "table:credits/33/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 34: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 61, 0, 0, 0, 0, 0, 0
+#: 0x1ef07e3
+msgctxt "table:credits/34/0"
+msgid "table:credits/34/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 34: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 41, 54, 57, 66, 41, 0
+#: 0x1ef07f5
+msgctxt "table:credits/34/1"
+msgid "table:credits/34/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 35: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 61, 0, 0, 0, 0, 0, 0
+#: 0x1ef0829
+msgctxt "table:credits/35/0"
+msgid "table:credits/35/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 35: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 39, 68, 60, 47, 54, 0
+#: 0x1ef083b
+msgctxt "table:credits/35/1"
+msgid "table:credits/35/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 36: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 61, 0, 0, 0, 0, 0
+#: 0x1ef0872
+msgctxt "table:credits/36/0"
+msgid "table:credits/36/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 36: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 90, 65, 0, 0, 0
+#: 0x1ef0884
+msgctxt "table:credits/36/1"
+msgid "table:credits/36/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 37: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 58, 0, 0, 0, 0
+#: 0x1ef08a7
+msgctxt "table:credits/37/0"
+msgid "table:credits/37/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 37: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 0, 75, 0, 0, 0
+#: 0x1ef08b8
+msgctxt "table:credits/37/1"
+msgid "table:credits/37/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 38: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 83, 0, 0, 0, 0, 0, 0
+#: 0x1ef08cc
+msgctxt "table:credits/38/0"
+msgid "table:credits/38/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 38: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 103, 66, 47, 52, 41, 0
+#: 0x1ef08e2
+msgctxt "table:credits/38/1"
+msgid "table:credits/38/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 39: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 83, 0, 0, 0, 0, 0, 0
+#: 0x1ef0921
+msgctxt "table:credits/39/0"
+msgid "table:credits/39/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 39: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 34, 39, 40, 58, 0, 0
+#: 0x1ef0937
+msgctxt "table:credits/39/1"
+msgid "table:credits/39/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 40: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef095c
+msgctxt "table:credits/40/0"
+msgid "table:credits/40/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 40: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 67, 47, 42, 62, 80, 0
+#: 0x1ef096a
+msgctxt "table:credits/40/1"
+msgid "table:credits/40/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 41: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef09a7
+msgctxt "table:credits/41/0"
+msgid "table:credits/41/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 41: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 34, 59, 45, 59, 59, 0
+#: 0x1ef09b5
+msgctxt "table:credits/41/1"
+msgid "table:credits/41/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 42: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef09e9
+msgctxt "table:credits/42/0"
+msgid "table:credits/42/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 42: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 24, 59, 95, 73, 116, 0
+#: 0x1ef09f7
+msgctxt "table:credits/42/1"
+msgid "table:credits/42/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 43: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef0a3f
+msgctxt "table:credits/43/0"
+msgid "table:credits/43/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 43: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 77, 42, 75, 41, 74, 0
+#: 0x1ef0a4d
+msgctxt "table:credits/43/1"
+msgid "table:credits/43/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 44: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef0a8a
+msgctxt "table:credits/44/0"
+msgid "table:credits/44/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 44: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 51, 100, 74, 46, 52, 0
+#: 0x1ef0a98
+msgctxt "table:credits/44/1"
+msgid "table:credits/44/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 45: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 37, 0, 0, 0, 0, 0
+#: 0x1ef0ad9
+msgctxt "table:credits/45/0"
+msgid "table:credits/45/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 45: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 54, 83, 0, 0, 0
+#: 0x1ef0ae7
+msgctxt "table:credits/45/1"
+msgid "table:credits/45/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 46: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef0b07
+msgctxt "table:credits/46/0"
+msgid "table:credits/46/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 46: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 47, 35, 38, 63, 51, 0
+#: 0x1ef0b15
+msgctxt "table:credits/46/1"
+msgid "table:credits/46/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 47: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef0b46
+msgctxt "table:credits/47/0"
+msgid "table:credits/47/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 47: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 45, 41, 49, 51, 58, 0
+#: 0x1ef0b54
+msgctxt "table:credits/47/1"
+msgid "table:credits/47/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 48: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef0b86
+msgctxt "table:credits/48/0"
+msgid "table:credits/48/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 48: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 69, 39, 24, 49, 69, 0
+#: 0x1ef0b94
+msgctxt "table:credits/48/1"
+msgid "table:credits/48/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 49: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 37, 0, 0, 0, 0, 0, 0
+#: 0x1ef0bc7
+msgctxt "table:credits/49/0"
+msgid "table:credits/49/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 49: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 66, 54, 41, 45, 46, 0
+#: 0x1ef0bd5
+msgctxt "table:credits/49/1"
+msgid "table:credits/49/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 50: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 37, 0, 0, 0, 0, 0
+#: 0x1ef0c08
+msgctxt "table:credits/50/0"
+msgid "table:credits/50/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 50: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 52, 46, 0, 0, 0
+#: 0x1ef0c16
+msgctxt "table:credits/50/1"
+msgid "table:credits/50/1"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 51: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 128, 0, 0, 0, 0, 0
+#: 0x1ef0c2e
+msgctxt "table:credits/51/0"
+msgid "table:credits/51/0"
+msgstr ""
+
+#. category: data-table; mode: field
+#. pointer table credits, record 51: credits page: translate headings and roles; names, handles, tool and project names stay as in the English credits
+#. original lines: 7, widths px: 0, 0, 64, 49, 0, 0, 0
+#: 0x1ef0c4c
+msgctxt "table:credits/51/1"
+msgid "table:credits/51/1"
+msgstr ""

@@ -1,0 +1,287 @@
+# Language policy; ROM facts remain in profile/.
+# Verified values follow ROM windows and the widest glyph.
+# [layout.unverified] estimates need measuring before release.
+
+[policy]
+"version" = "3.0.0"
+"profile" = "unbound-2.1.1.1"
+"language" = "de"
+"rom_sha1" = "b4776b82a4c7915d0fadeaa27e013523f99dfd94"
+
+[keyboard]
+layout = "keyboard.toml"
+
+[qa]
+# PK and MN draw English abbreviation glyphs
+"optional_tokens" = ["{PK}", "{MN}"]
+# English article and Japanese glyph codes
+"droppable" = ["mining-article", "japanese-s0459434", "japanese-s0459440"]
+# Centred start-menu labels stay unselected
+"addable" = []
+
+[qa.forbidden]
+"\\.\\.\\." = { reason = "three dots: use the ellipsis character …", de = "drei Punkte: verwende das Auslassungszeichen …", needs_source = false }
+"  " = { reason = "double space", de = "doppeltes Leerzeichen", needs_source = false }
+
+[layout]
+"label_min_width" = 60
+"target_width" = 196
+"sentence_break" = 0.5
+
+[layout.window_width]
+"hash:6ec865d4" = 83
+"hash:9fa74b33" = 83
+"hash:53ee6a74" = 83
+"hash:b72c6aea" = 83
+"hash:9dbeb57f" = 60
+"hash:5c8a7d5e" = 60
+"hash:011ffd5a" = 60
+"hash:89b9ac29" = 60
+"hash:e7895446" = 60
+"hash:d13a559d" = 100
+"hash:4e2fc2f7" = 100
+"hash:03d18e9f" = 100
+"hash:c9df8ca7" = 100
+"hash:4a10c354" = 100
+"hash:6a1512e6" = 100
+"hash:18e23a91" = 42
+"hash:d94a94a8" = 42
+"hash:51c850d7" = 75
+# 144 less x 9, a space, 7 x 6 px
+"hash:743fd9d6" = 87
+"hash:b46d8a3e" = 134
+"hash:f964d59f" = 90
+"hash:fb1218e5" = 90
+"hash:d22685e9" = 90
+"hash:5619b631" = 90
+"hash:8b9ef6eb" = 90
+"hash:2491188e" = 90
+"hash:98c26664" = 90
+"hash:5928e491" = 90
+"hash:720dc531" = 90
+"hash:3a64f4c4" = 134
+"hash:1b4eb395" = 134
+"hash:50876b4d" = 89
+"hash:4c2b302e" = 89
+"hash:95b2a1f2" = 112
+"hash:bed0d350" = 112
+# 210 px item less the species window
+"hash:00c6180b" = 150
+"hash:3bf53bc1" = 65
+"hash:63e9826c" = 65
+"hash:98a22898" = 203
+"hash:3b02559d" = 203
+"hash:c071d33e" = 202
+"hash:9c3cd432" = 44
+"hash:23cf103b" = 28
+"hash:3b37404d" = 123
+"hash:60428838" = 53
+"hash:b51ae02e" = 61
+"hash:173b4979" = 66
+"hash:624042b9" = 66
+"hash:0c364d18" = 107
+"hash:781d8f9d" = 96
+"hash:b4cab9e5" = 96
+"hash:3e6795b4" = 96
+"hash:43c51e80" = 96
+"hash:00c80594" = 96
+"hash:65dcc764" = 57
+"hash:470e027a" = 68
+"hash:8d82c50d" = 70
+"hash:51635168" = 111
+"hash:3b6c31ac" = 58
+"hash:5e92e51b" = 58
+"hash:bb07aea4" = 65
+"hash:a65e6334" = 65
+"hash:e97821e9" = 65
+"hash:5d613c8f" = 65
+"hash:0c9e226e" = 120
+"hash:3bf4dc27" = 101
+"hash:14205b65" = 101
+# 130 - 7 x 6 px name, x 4, space
+"hash:0a4ed797" = 78
+# 216 less a 7 x 6 px name
+"hash:996156ad" = 174
+# the STR_VAR estimate its hosts use
+"hash:b47edb3a" = 60
+"hash:fa3b12b9" = 60
+"hash:058963ec" = 60
+"hash:43893c65" = 60
+"hash:73164ecc" = 60
+"hash:4f1b52ad" = 60
+"hash:d7ee30d8" = 60
+"hash:5358a9a3" = 60
+# 127 px title less the species window
+"hash:b252c68d" = 67
+"hash:e4914a2f" = 149
+# the STR_VAR estimate its hosts use
+"hash:46ee94e1" = 60
+"hash:ce98b3a5" = 129
+# 224 less a 10 x 6 px nickname
+"hash:5e3c322b" = 164
+"hash:9f63c8f7" = 183
+"hash:1ff0e044" = 147
+"hash:0fe4c7b0" = 121
+"hash:09359924" = 108
+"hash:2f7bfe8a" = 114
+"hash:c73bd3ef" = 106
+"hash:94d71412" = 114
+"hash:837231e7" = 110
+"hash:0d457bc3" = 114
+"hash:75beb4bd" = 114
+"hash:622f8820" = 120
+"hash:57a55b55" = 15
+"hash:d9b9e05e" = 15
+
+[layout.placeholders]
+"STR_VAR_1" = 60
+"STR_VAR_2" = 60
+"STR_VAR_3" = 60
+"B_LAST_ITEM" = 78
+"B_TRAINER1_CLASS" = 88
+"FD 2E" = 88
+"FD 32" = 72
+
+
+[layout.code_fill]
+# nickname, 10 x 6 px
+"fill-05" = { "B_ACTIVE_NAME_WITH_PREFIX" = 60 }
+# 3 small digits of 5 px
+"fill-06" = { "STR_VAR_1" = 15 }
+# 2 small digits of 5 px
+"fill-07" = { "B_COPY_VAR_2" = 10 }
+"fill-08" = { "B_COPY_VAR_1" = 60 }
+# nickname, 10 x 6 px
+"fill-13" = { "F7 00" = 60 }
+"fill-14" = { "F7 00" = 89 }
+# box name, 8 x 6 px
+"fill-15" = { "STR_VAR_1" = 48 }
+"fill-16" = { "STR_VAR_1" = 48 }
+"fill-17" = { "B_COPY_VAR_3" = 48 }
+"fill-18" = { "STR_VAR_1" = 155, "STR_VAR_2" = 150 }
+"fill-19" = { "FD 07" = 155, "FD 08" = 150 }
+"fill-23" = { "FD 07" = 60 }
+"fill-24" = { "FD 2E" = 88 }
+"fill-25" = { "FD 32" = 72 }
+"fill-26" = { "B_TRAINER1_CLASS" = 113 }
+"fill-27" = { "B_TRAINER1_CLASS" = 82 }
+# player and rival, 7 x 6 px
+"fill-29" = { "F7 00" = 42, "F7 01" = 42 }
+"fill-30" = { "F7 00" = 42, "F7 01" = 60, "F7 02" = 42, "F7 03" = 60 }
+# partner name, 7 x 6 px
+"fill-32" = { "F7 00" = 42 }
+# names, 7 x 6 px
+"fill-33" = { "F7 00" = 42, "F7 01" = 42, "F7 02" = 42, "F7 03" = 42 }
+"fill-34" = { "F7 00" = 48, "F7 01" = 60, "F7 02" = 48, "F7 03" = 60 }
+"fill-35" = { "F7 00" = 48, "F7 01" = 60, "F7 02" = 60 }
+"fill-36" = { "F7 00" = 60, "F7 01" = 48 }
+# box name, 8 x 6 px
+"fill-37" = { "F7 00" = 48 }
+"fill-38" = { "F7 00" = 94 }
+"fill-39" = { "F7 00" = 42, "F7 01" = 94 }
+"fill-40" = { "F7 00" = 94, "F7 01" = 60, "F7 03" = 60, "F7 05" = 42 }
+"fill-41" = { "F7 00" = 94, "F7 01" = 66, "F7 02" = 60, "F7 03" = 60 }
+"fill-42" = { "F7 00" = 66, "F7 01" = 60, "F7 02" = 60 }
+# nickname; move table window
+"fill-43" = { "F7 00" = 60, "F7 01" = 72 }
+# player names, 7 x 6 px
+"fill-44" = { "F7 00" = 42 }
+"fill-46" = { "F7 00" = 77 }
+"fill-47" = { "F7 00" = 76 }
+"fill-48" = { "STR_VAR_1" = 54, "STR_VAR_2" = 48 }
+"fill-49" = { "F7 02" = 102 }
+"fill-50" = { "F7 00" = 71, "F7 01" = 42, "F7 02" = 118 }
+# the easy chat word budget
+"fill-51" = { "F7 04" = 72, "F7 05" = 72, "F7 06" = 72, "F7 07" = 72 }
+
+[layout.table_windows]
+"types" = 60
+"pokedex_categories" = 111
+
+[layout.table_window]
+"pokedex-form-categories" = 111
+"lottery-attendant-names" = 78
+"stat-judge-words" = 77
+"frontier-weather-words" = 118
+# the estimate its hosts use
+"frontier-partner-names" = 60
+"status-words" = 115
+"berry-crush-results-berries" = 90
+"stat-names" = 78
+"frontier-mine-formats" = 82
+"frontier-battle-formats" = 203
+# 8 x 6 px less 2 digits
+"default-box-name" = 36
+# the PLAYER estimate, 7 x 6 px
+"firered-preset-names" = 42
+# summary nickname window
+"trade-nicknames" = 60
+# every easy chat cell holds 72 px
+"easy-chat-words-1" = 72
+"easy-chat-words-2" = 72
+"easy-chat-words-3" = 72
+"easy-chat-words-4" = 72
+"easy-chat-words-5" = 72
+"easy-chat-words-6" = 72
+"easy-chat-words-7" = 72
+"easy-chat-words-8" = 72
+"easy-chat-words-9" = 72
+"easy-chat-words-10" = 72
+"easy-chat-words-11" = 72
+"easy-chat-words-12" = 72
+"easy-chat-words-13" = 72
+"easy-chat-words-14" = 72
+"easy-chat-words-15" = 72
+"easy-chat-words-16" = 72
+"easy-chat-words-17" = 72
+"easy-chat-words-20" = 72
+
+# estimates from Russian text; the editor marks them
+[layout.unverified]
+window_width = [
+  "hash:6ec865d4", "hash:9fa74b33", "hash:53ee6a74", "hash:b72c6aea",
+  "hash:9dbeb57f", "hash:5c8a7d5e", "hash:011ffd5a", "hash:89b9ac29",
+  "hash:e7895446", "hash:d13a559d", "hash:4e2fc2f7", "hash:03d18e9f",
+  "hash:c9df8ca7", "hash:4a10c354", "hash:6a1512e6", "hash:18e23a91",
+  "hash:d94a94a8", "hash:51c850d7", "hash:b46d8a3e", "hash:f964d59f",
+  "hash:fb1218e5", "hash:d22685e9", "hash:5619b631", "hash:8b9ef6eb",
+  "hash:2491188e", "hash:98c26664", "hash:5928e491", "hash:720dc531",
+  "hash:3a64f4c4", "hash:1b4eb395", "hash:50876b4d", "hash:4c2b302e",
+  "hash:95b2a1f2", "hash:bed0d350", "hash:3bf53bc1", "hash:63e9826c",
+  "hash:98a22898", "hash:3b02559d", "hash:c071d33e", "hash:9c3cd432",
+  "hash:23cf103b", "hash:3b37404d", "hash:60428838", "hash:b51ae02e",
+  "hash:173b4979", "hash:624042b9", "hash:0c364d18", "hash:781d8f9d",
+  "hash:b4cab9e5", "hash:3e6795b4", "hash:43c51e80", "hash:00c80594",
+  "hash:65dcc764", "hash:470e027a", "hash:8d82c50d", "hash:51635168",
+  "hash:3b6c31ac", "hash:5e92e51b", "hash:bb07aea4", "hash:a65e6334",
+  "hash:e97821e9", "hash:5d613c8f", "hash:0c9e226e", "hash:3bf4dc27",
+  "hash:14205b65", "hash:e4914a2f", "hash:ce98b3a5", "hash:9f63c8f7",
+  "hash:1ff0e044", "hash:0fe4c7b0", "hash:09359924", "hash:2f7bfe8a",
+  "hash:c73bd3ef", "hash:94d71412", "hash:837231e7", "hash:0d457bc3",
+  "hash:75beb4bd", "hash:622f8820", "hash:57a55b55", "hash:d9b9e05e",
+]
+placeholders = [
+  "STR_VAR_1", "STR_VAR_2", "STR_VAR_3", "B_LAST_ITEM",
+  "B_TRAINER1_CLASS", "FD 2E", "FD 32",
+]
+code_fill = [
+  "fill-08", "fill-14", "fill-18", "fill-19",
+  "fill-23", "fill-24", "fill-25", "fill-26",
+  "fill-27", "fill-30", "fill-34", "fill-35",
+  "fill-36", "fill-38", "fill-39", "fill-40",
+  "fill-41", "fill-42", "fill-46", "fill-47",
+  "fill-48", "fill-49", "fill-50",
+]
+table_windows = [
+  "types", "pokedex_categories",
+]
+table_window = [
+  "pokedex-form-categories", "lottery-attendant-names", "stat-judge-words", "frontier-weather-words",
+  "status-words", "berry-crush-results-berries", "stat-names", "frontier-mine-formats",
+  "frontier-battle-formats",
+]
+
+[graphics]
+# Translation graphics start empty.
+edit = []
+tilemap = []

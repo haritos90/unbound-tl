@@ -1,0 +1,272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0A6B798\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 38
+#: 0x0a44319
+msgctxt "hash:f903e000"
+msgid "hash:f903e000"
+msgstr "Текущий"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 179, 190, 186
+#: 0x0a4432a
+msgctxt "hash:bf65c3b8"
+msgid "hash:bf65c3b8"
+msgstr ""
+"на наэлектризованном поле боя!\\pПокемоны на земле не могут уснуть,\\nа "
+"их приёмы типа Электро сильнее!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 154, 171, 182
+#: 0x0a44391
+msgctxt "hash:d817d49e"
+msgid "hash:d817d49e"
+msgstr ""
+"на заросшем травой поле боя!\\pУ покемонов на земле приёмы типа\\nТрава "
+"сильнее, и они лечатся\\lкаждый ход!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 147, 171, 188, 123
+#: 0x0a443ee
+msgctxt "hash:98089a2f"
+msgid "hash:98089a2f"
+msgstr ""
+"на окутанном туманом поле боя!\\pУ покемонов на земле приёмы типа\\nФея "
+"сильнее, а особые состояния\\lим не грозят!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 148, 171, 167, 100
+#: 0x0a44464
+msgctxt "hash:d4ecfa08"
+msgid "hash:d4ecfa08"
+msgstr ""
+"на странном поле боя!\\pУ покемонов на земле приёмы типа\\nПсихо сильнее, "
+"а приёмы\\lс приоритетом по ним не попадают!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 64
+#: 0x0a444d1
+msgctxt "hash:c1f0a9d6"
+msgid "hash:c1f0a9d6"
+msgstr "под дождём!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 60
+#: 0x0a444de
+msgctxt "hash:96d341a8"
+msgid "hash:96d341a8"
+msgstr "под ярким солнцем!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 82
+#: 0x0a444ea
+msgctxt "hash:8c4f0082"
+msgid "hash:8c4f0082"
+msgstr "в песчаную бурю!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 81
+#: 0x0a444fa
+msgctxt "hash:537fa825"
+msgid "hash:537fa825"
+msgstr "под градом!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 141, 162, 194
+#: 0x0a4450a
+msgctxt "hash:a6729889"
+msgid "hash:a6729889"
+msgstr ""
+"при сильном ветре!\\pСуперэффективные приёмы бьют\\nпокемонов типа "
+"Летающий слабее!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 89, 186
+#: 0x0a44566
+msgctxt "hash:dce6c2e8"
+msgid "hash:dce6c2e8"
+msgstr "в Зоне трюков!\\pМедленные покемоны ходят первыми!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 91, 175
+#: 0x0a44599
+msgctxt "hash:426bdbde"
+msgid "hash:426bdbde"
+msgstr "в Зоне магии!\\pПочти все предметы не действуют!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 97, 163, 47
+#: 0x0a445ca
+msgctxt "hash:2e8ca755"
+msgid "hash:2e8ca755"
+msgstr "в Зоне чудес!\\pЗащита и Особая защита меняются\\nместами!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 113, 177
+#: 0x0a44603
+msgctxt "hash:c2752108"
+msgid "hash:c2752108"
+msgstr "при усиленной гравитации!\\pНи один покемон не сможет парить!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 193, 181, 192
+#: 0x0a4463a
+msgctxt "hash:f5c77c2c"
+msgid "hash:f5c77c2c"
+msgstr ""
+"в электромагнитном поле!\\pПокемоны типов Электро и Сталь\\nнеуязвимы для "
+"приёмов типа Земля!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 184, 186, 23
+#: 0x0a446a2
+msgctxt "hash:1f5feb11"
+msgid "hash:1f5feb11"
+msgstr "на заблокированном поле боя!\\pСменить покемонов будет нельзя!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 123, 190, 167
+#: 0x0a446eb
+msgctxt "hash:fa2795b6"
+msgid "hash:fa2795b6"
+msgstr ""
+"среди порхающих пикси!\\pПокемоны типа Фея повысят Защиту\\nили Особую "
+"защиту - ту, что ниже!"
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 185, 166, 175, 155, 190, 129
+#: 0x0a44745
+msgctxt "hash:4cb00e45"
+msgid "hash:4cb00e45"
+msgstr ""
+"в атмосфере негативных эмоций!\\pКаждый ход урон будут получать\\n"
+"покемоны без типов Тёмный,\\lПривидение и Психо и без талантов\\l"
+"Безразличие, Забывчивость\\lи Магзащита!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 116, 177
+#: 0x0a447ff
+msgctxt "hash:00a7d220"
+msgid "hash:00a7d220"
+msgstr ""
+"по правилам инверсной битвы!\\pСильные и слабые стороны всех\\nтипов "
+"меняются местами!"
+
+#. category: data-table; mode: field
+#. original lines: 6, widths px: 142, 152, 47, 163, 184, 158
+#: 0x0a44835
+msgctxt "hash:96046e55"
+msgid "hash:96046e55"
+msgstr ""
+"на Месте силы!\\pДинамакс будет доступен\\nвсем покемонам!\\pОднако "
+"мегаэволюция,\\nпротопревращение, Ультравзрыв\\lи атаки-Z будут "
+"недоступны!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 120, 163, 188
+#: 0x0a448d0
+msgctxt "hash:cd5dbcfa"
+msgid "hash:cd5dbcfa"
+msgstr ""
+"с обменом покемонами!\\pКаждая сторона получит случайного\\nпокемона "
+"другой стороны!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 181, 105, 160, 120
+#: 0x0a44927
+msgctxt "hash:da3c27c6"
+msgid "hash:da3c27c6"
+msgstr ""
+"под защитной вуалью на обеих\\lсторонах поля боя!\\pПокемоны не смогут "
+"вызывать\\nособые состояния друг у друга!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 173, 105, 176, 109
+#: 0x0a44992
+msgctxt "hash:e1949285"
+msgid "hash:e1949285"
+msgstr ""
+"в Тумане, окружающем обе стороны\\lполя боя!\\pПокемоны не смогут "
+"понижать\\nхарактеристики друг другу!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 184, 137, 184, 105
+#: 0x0a449fb
+msgctxt "hash:87ab4601"
+msgid "hash:87ab4601"
+msgstr ""
+"в море огня, охватившем обе\\lстороны поля боя!\\pВсе, кроме покемонов "
+"типа Огонь,\\nбудут получать урон каждый ход!"
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 168, 137, 170, 127
+#: 0x0a44a6c
+msgctxt "hash:15a4c33f"
+msgid "hash:15a4c33f"
+msgstr ""
+"под радугой над обеими\\lсторонами поля боя!\\pШанс побочных эффектов\\n"
+"всех приёмов удваивается!"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 146
+#: 0x0a44adb
+msgctxt "hash:080aaec0"
+msgid "hash:080aaec0"
+msgstr "с замешательством для всех!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 140, 161
+#: 0x0a44af6
+msgctxt "hash:a9f1465f"
+msgid "hash:a9f1465f"
+msgstr "с Провокацией для всех!\\pПриёмы без урона под запретом!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 151, 200
+#: 0x0a44b2d
+msgctxt "hash:30815024"
+msgid "hash:30815024"
+msgstr "с Мучением для всех!\\pПовторять приёмы подряд нельзя."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 170, 183
+#: 0x0a44b6d
+msgctxt "hash:28638f05"
+msgid "hash:28638f05"
+msgstr "с Блоком лечения для всех!\\pПокемоны не смогут лечиться!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 183, 192
+#: 0x0a44bad
+msgctxt "hash:b22a630f"
+msgid "hash:b22a630f"
+msgstr "с Ударом в шею для всех!\\pЗвуковые приёмы под запретом!"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 176, 176, 26
+#: 0x0a44bf0
+msgctxt "hash:0c84c005"
+msgid "hash:0c84c005"
+msgstr "с Лазер-фокусом для всех!\\pВсе попадания будут критическими!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 163, 114
+#: 0x0a44c37
+msgctxt "hash:204602b7"
+msgid "hash:204602b7"
+msgstr "без критических попаданий!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 160, 113
+#: 0x0a44c6b
+msgctxt "hash:46a98691"
+msgid "hash:46a98691"
+msgstr "с подавленными талантами\\lу всех покемонов!"

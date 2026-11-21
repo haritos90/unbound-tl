@@ -1,0 +1,9 @@
+[pokedex.type_icons]
+sheet = 0xB1EE64
+tiles = 288
+tiles_per_row = 16
+palette = 0xB21264
+table = 0x9A22A0
+count = 25
+
+# The move split icons the summary and battle screens draw.

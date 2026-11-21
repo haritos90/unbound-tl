@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1FB1EF0\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 27, widths px: 185, 168, 193, 182, 177, 188, 184, 176, 159, 120, 174, 179, 149, 186, 193, 183, 134, 195, 177, 167, 190, 172, 161, 189, 185, 190, 117
+#: 0x1ee92d1
+msgctxt "hash:99be2a80"
+msgid "hash:99be2a80"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 17, widths px: 175, 175, 189, 45, 182, 176, 41, 185, 184, 177, 148, 170, 174, 182, 163, 178, 31
+#: 0x1ee965f
+msgctxt "hash:1d745dc9"
+msgid "hash:1d745dc9"
+msgstr ""
+
+#. category: code; mode: field
+#. original lines: 9, widths px: 190, 186, 185, 193, 191, 68, 184, 190, 55
+#: 0x1ee983c
+msgctxt "hash:d5aed81f"
+msgid "hash:d5aed81f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 10, widths px: 180, 105, 173, 190, 181, 169, 186, 175, 192, 121
+#: 0x1ee9946
+msgctxt "hash:318fb5d6"
+msgid "hash:318fb5d6"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 9, widths px: 180, 139, 173, 190, 185, 168, 192, 165, 157
+#: 0x1ee9a79
+msgctxt "hash:2650f442"
+msgid "hash:2650f442"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 180, 94, 193, 195
+#: 0x1ee9b98
+msgctxt "hash:c18a0489"
+msgid "hash:c18a0489"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 9, widths px: 164, 154, 120, 172, 194, 171, 187, 191, 112
+#: 0x1ee9c12
+msgctxt "hash:f076db78"
+msgid "hash:f076db78"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 22, widths px: 166, 171, 81, 163, 155, 159, 201, 145, 191, 170, 155, 164, 167, 122, 197, 163, 141, 177, 192, 195, 204, 175
+#: 0x1ee9d32
+msgctxt "hash:d18002f8"
+msgid "hash:d18002f8"
+msgstr ""

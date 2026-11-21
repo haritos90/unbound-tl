@@ -1,0 +1,1028 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0904000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 106, 102, 98
+#: 0x0780a50
+msgctxt "hash:c8e99d06"
+msgid "hash:c8e99d06"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 78, 79, 87
+#: 0x0780a9e
+msgctxt "hash:93a8614d"
+msgid "hash:93a8614d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 100, 103, 81, 95
+#: 0x0780acd
+msgctxt "hash:ae3b7abf"
+msgid "hash:ae3b7abf"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 83, 97, 96, 54
+#: 0x0780b16
+msgctxt "hash:a83a7849"
+msgid "hash:a83a7849"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 94, 80, 38
+#: 0x0780b57
+msgctxt "hash:7fe33ea0"
+msgid "hash:7fe33ea0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 84, 97, 94, 77
+#: 0x0780b93
+msgctxt "hash:55328dc7"
+msgid "hash:55328dc7"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 78, 85, 101, 77, 37
+#: 0x0780bd7
+msgctxt "hash:af5e1384"
+msgid "hash:af5e1384"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 105, 89, 106, 75
+#: 0x0780c21
+msgctxt "hash:08ab2db0"
+msgid "hash:08ab2db0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 100, 83, 104, 96
+#: 0x0780c69
+msgctxt "hash:22d22078"
+msgid "hash:22d22078"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 72, 72, 98, 72, 57
+#: 0x0780cf7
+msgctxt "hash:b65d8795"
+msgid "hash:b65d8795"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 82, 99, 95
+#: 0x0780d3f
+msgctxt "hash:7419ca42"
+msgid "hash:7419ca42"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 84, 74, 101, 94, 86
+#: 0x0780d88
+msgctxt "hash:5fb5eba1"
+msgid "hash:5fb5eba1"
+msgstr ""
+
+#. reach: never shown (review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 95, 79, 76
+#: 0x0920000
+msgctxt "hash:10f6cadb"
+msgid "hash:10f6cadb"
+msgstr ""
+"Пользователь\\nвысвобождает силу.\\nМожет понизить\\nОсобую защиту цели."
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: code; mode: field
+#. original lines: 4, widths px: 107, 106, 83, 89
+#: 0x0920045
+msgctxt "hash:bf0ca5d0"
+msgid "hash:bf0ca5d0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 100, 92, 65
+#: 0x0920090
+msgctxt "hash:79516d98"
+msgid "hash:79516d98"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 69, 90, 83
+#: 0x09200d3
+msgctxt "hash:88857d20"
+msgid "hash:88857d20"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 79, 110, 99
+#: 0x092011e
+msgctxt "hash:f347a018"
+msgid "hash:f347a018"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 87, 103, 97, 65
+#: 0x0920168
+msgctxt "hash:05f7b3a8"
+msgid "hash:05f7b3a8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 104, 101, 80
+#: 0x09201ae
+msgctxt "hash:96084e9c"
+msgid "hash:96084e9c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 96, 81, 86
+#: 0x09201f9
+msgctxt "hash:157bc8cc"
+msgid "hash:157bc8cc"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 112, 98, 59
+#: 0x092023f
+msgctxt "hash:e5c18c9b"
+msgid "hash:e5c18c9b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 102, 92, 82
+#: 0x0920285
+msgctxt "hash:3add41ab"
+msgid "hash:3add41ab"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: code; mode: field
+#. original lines: 4, widths px: 105, 106, 69, 99
+#: 0x09202cc
+msgctxt "hash:df51109e"
+msgid "hash:df51109e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 97, 92, 109
+#: 0x0920320
+msgctxt "hash:59440bde"
+msgid "hash:59440bde"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 90, 103, 78
+#: 0x092036d
+msgctxt "hash:c90d5395"
+msgid "hash:c90d5395"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: code; mode: field
+#. original lines: 4, widths px: 115, 102, 110, 45
+#: 0x09203b5
+msgctxt "hash:30c08ca1"
+msgid "hash:30c08ca1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 101, 110, 97, 99
+#: 0x0920407
+msgctxt "hash:223a4673"
+msgid "hash:223a4673"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 97, 109, 72
+#: 0x0920455
+msgctxt "hash:122e5824"
+msgid "hash:122e5824"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: code; mode: field
+#. original lines: 4, widths px: 88, 93, 94, 89
+#: 0x092049e
+msgctxt "hash:3167fe51"
+msgid "hash:3167fe51"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 90, 101, 61
+#: 0x09204e4
+msgctxt "hash:0e6bbbeb"
+msgid "hash:0e6bbbeb"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 83, 80, 101, 71
+#: 0x0920527
+msgctxt "hash:cc0cf98c"
+msgid "hash:cc0cf98c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 92, 101, 106, 47
+#: 0x0920569
+msgctxt "hash:afd5139a"
+msgid "hash:afd5139a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 79, 72, 105, 65
+#: 0x09205ae
+msgctxt "hash:92673d8a"
+msgid "hash:92673d8a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 105, 92, 82
+#: 0x09205ee
+msgctxt "hash:e197d8ad"
+msgid "hash:e197d8ad"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 106, 107, 72
+#: 0x0920637
+msgctxt "hash:3ac98b37"
+msgid "hash:3ac98b37"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 84, 95, 97
+#: 0x0920683
+msgctxt "hash:f1aec519"
+msgid "hash:f1aec519"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 90, 108, 72
+#: 0x09206b9
+msgctxt "hash:f9dff3a1"
+msgid "hash:f9dff3a1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 82, 91, 99, 71
+#: 0x09206ff
+msgctxt "hash:4e88a12d"
+msgid "hash:4e88a12d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 84, 102, 99
+#: 0x0920742
+msgctxt "hash:861f0be6"
+msgid "hash:861f0be6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 92, 101, 100, 90
+#: 0x092078b
+msgctxt "hash:6623adc4"
+msgid "hash:6623adc4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 105, 97, 55
+#: 0x09207d6
+msgctxt "hash:3aa01d86"
+msgid "hash:3aa01d86"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 100, 100, 94, 45
+#: 0x092081a
+msgctxt "hash:3ac2a310"
+msgid "hash:3ac2a310"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 89, 91, 85
+#: 0x092085d
+msgctxt "hash:78d1a077"
+msgid "hash:78d1a077"
+msgstr ""
+
+#. reach: never shown (review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 95, 91, 114, 112
+#: 0x09208ac
+msgctxt "hash:e57a5c61"
+msgid "hash:e57a5c61"
+msgstr ""
+"Таран. Может вызвать\\nзамешательство.\\nПомогает взбираться\\nпо скалам."
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 95, 106, 89
+#: 0x09208fa
+msgctxt "hash:ae2f93de"
+msgid "hash:ae2f93de"
+msgstr ""
+
+#. reach: never shown (review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 104, 87, 107, 94
+#: 0x0920932
+msgctxt "hash:7d3dd1c7"
+msgid "hash:7d3dd1c7"
+msgstr ""
+"Цель бьют огромным\\nвалуном.\\nПользователь\\nпропускает\\nследующий ход."
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 97, 86, 96
+#: 0x092097d
+msgctxt "hash:8ea71092"
+msgid "hash:8ea71092"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 75, 91, 102, 99
+#: 0x09209b2
+msgctxt "hash:f2a8ecfd"
+msgid "hash:f2a8ecfd"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 91, 72, 81, 65
+#: 0x09209f9
+msgctxt "hash:44a9347e"
+msgid "hash:44a9347e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 91, 100, 88, 65
+#: 0x0920a40
+msgctxt "hash:a0cb690f"
+msgid "hash:a0cb690f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: code; mode: field
+#. original lines: 4, widths px: 90, 112, 89, 75
+#: 0x0920a8c
+msgctxt "hash:fbf46896"
+msgid "hash:fbf46896"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 91, 96, 92, 82
+#: 0x0920ad3
+msgctxt "hash:5afd4ea7"
+msgid "hash:5afd4ea7"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 114, 99, 107, 61
+#: 0x0920b18
+msgctxt "hash:b4e66703"
+msgid "hash:b4e66703"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 82, 110, 99
+#: 0x0920b61
+msgctxt "hash:314c0d0a"
+msgid "hash:314c0d0a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 113, 109, 85
+#: 0x0920bac
+msgctxt "hash:70fb77f0"
+msgid "hash:70fb77f0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 98, 105, 89
+#: 0x0920bfd
+msgctxt "hash:f6c306fe"
+msgid "hash:f6c306fe"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 107, 111, 94
+#: 0x0920c49
+msgctxt "hash:17161674"
+msgid "hash:17161674"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 80, 112, 109, 79
+#: 0x0920c99
+msgctxt "hash:e8c4b242"
+msgid "hash:e8c4b242"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 77, 96, 92, 82
+#: 0x0920ce3
+msgctxt "hash:ad826339"
+msgid "hash:ad826339"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 97, 76, 52
+#: 0x0920d26
+msgctxt "hash:59c0d2e8"
+msgid "hash:59c0d2e8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 102, 62, 52
+#: 0x0920d65
+msgctxt "hash:73ef3e9d"
+msgid "hash:73ef3e9d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 97, 91, 108, 45
+#: 0x0920da2
+msgctxt "hash:ee381437"
+msgid "hash:ee381437"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 108, 103, 97, 36
+#: 0x0920de4
+msgctxt "hash:eff9b369"
+msgid "hash:eff9b369"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 90, 79, 81
+#: 0x0920e26
+msgctxt "hash:7e3ff401"
+msgid "hash:7e3ff401"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 108, 68, 67
+#: 0x0920e5f
+msgctxt "hash:17a848f1"
+msgid "hash:17a848f1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 114, 82, 52
+#: 0x0920e9f
+msgctxt "hash:78c9fd96"
+msgid "hash:78c9fd96"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 79, 76, 76
+#: 0x0920ee3
+msgctxt "hash:becfd6b8"
+msgid "hash:becfd6b8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 81, 63, 62
+#: 0x0920f22
+msgctxt "hash:ab30349e"
+msgid "hash:ab30349e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 79, 77, 84, 75
+#: 0x0920f5d
+msgctxt "hash:2ae29a99"
+msgid "hash:2ae29a99"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 106, 89, 96, 71
+#: 0x0920f9b
+msgctxt "hash:f9b3506c"
+msgid "hash:f9b3506c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 91, 87, 98, 111
+#: 0x0920fe3
+msgctxt "hash:29c80d64"
+msgid "hash:29c80d64"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 87, 94, 109, 79
+#: 0x092102d
+msgctxt "hash:e8640e80"
+msgid "hash:e8640e80"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: code; mode: field
+#. original lines: 4, widths px: 96, 101, 112, 110
+#: 0x0921076
+msgctxt "hash:795d0f8a"
+msgid "hash:795d0f8a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 98, 93, 111
+#: 0x09210c6
+msgctxt "hash:8b826b8b"
+msgid "hash:8b826b8b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 109, 106, 95, 99
+#: 0x0921113
+msgctxt "hash:3359a5f1"
+msgid "hash:3359a5f1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 90, 95, 103
+#: 0x0921162
+msgctxt "hash:1b7beb1f"
+msgid "hash:1b7beb1f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 112, 74, 99
+#: 0x09211ad
+msgctxt "hash:9d497d75"
+msgid "hash:9d497d75"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 101, 91, 111, 106
+#: 0x09211f8
+msgctxt "hash:7e7da38d"
+msgid "hash:7e7da38d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 101, 91, 111, 105
+#: 0x0921246
+msgctxt "hash:23397a2b"
+msgid "hash:23397a2b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 101, 91, 111, 83
+#: 0x0921294
+msgctxt "hash:d13ae338"
+msgid "hash:d13ae338"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 105, 99, 117, 98
+#: 0x09212e5
+msgctxt "hash:5a19fabb"
+msgid "hash:5a19fabb"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 97, 82, 74
+#: 0x0921335
+msgctxt "hash:e7d9a9a6"
+msgid "hash:e7d9a9a6"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 89, 106, 102, 95
+#: 0x092137b
+msgctxt "hash:bdc450f8"
+msgid "hash:bdc450f8"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 72, 90, 74, 64
+#: 0x09213c5
+msgctxt "hash:b4f81a35"
+msgid "hash:b4f81a35"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 92, 93, 64
+#: 0x0921401
+msgctxt "hash:f419a8c4"
+msgid "hash:f419a8c4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 84, 84, 105
+#: 0x0921445
+msgctxt "hash:ef53b189"
+msgid "hash:ef53b189"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 83, 92, 102, 95
+#: 0x092148e
+msgctxt "hash:4695ac51"
+msgid "hash:4695ac51"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 94, 73, 79
+#: 0x09214d5
+msgctxt "hash:898e72ee"
+msgid "hash:898e72ee"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 96, 76, 86
+#: 0x0921516
+msgctxt "hash:c7ac22ac"
+msgid "hash:c7ac22ac"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 102, 93, 100, 83
+#: 0x0921557
+msgctxt "hash:55f166dd"
+msgid "hash:55f166dd"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 100, 102, 98
+#: 0x09215a1
+msgctxt "hash:2e9c229c"
+msgid "hash:2e9c229c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 82, 90, 97, 99
+#: 0x09215ec
+msgctxt "hash:c49dfd99"
+msgid "hash:c49dfd99"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 91, 85, 99, 86
+#: 0x0921633
+msgctxt "hash:17e50c5f"
+msgid "hash:17e50c5f"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 95, 104, 99, 78
+#: 0x092167b
+msgctxt "hash:6ad4873a"
+msgid "hash:6ad4873a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 85, 97, 94
+#: 0x09216c3
+msgctxt "hash:82377e13"
+msgid "hash:82377e13"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 106, 100, 96, 92
+#: 0x092170c
+msgctxt "hash:23100909"
+msgid "hash:23100909"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 79, 89, 97, 98
+#: 0x0921756
+msgctxt "hash:d191ea19"
+msgid "hash:d191ea19"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 78, 83, 93, 66
+#: 0x092179c
+msgctxt "hash:73c8df0e"
+msgid "hash:73c8df0e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 80, 94, 93, 66
+#: 0x09217dc
+msgctxt "hash:94e5a3ac"
+msgid "hash:94e5a3ac"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 98, 105, 105
+#: 0x092181e
+msgctxt "hash:85e13d77"
+msgid "hash:85e13d77"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 85, 90, 98, 39
+#: 0x092186c
+msgctxt "hash:835704b0"
+msgid "hash:835704b0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 98, 99, 103, 41
+#: 0x09218a9
+msgctxt "hash:0ada1404"
+msgid "hash:0ada1404"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 94, 88, 81, 41
+#: 0x09218eb
+msgctxt "hash:628f0f42"
+msgid "hash:628f0f42"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 87, 97, 92
+#: 0x0921928
+msgctxt "hash:839cd98b"
+msgid "hash:839cd98b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 103, 86, 102, 69
+#: 0x0921971
+msgctxt "hash:4caeba3c"
+msgid "hash:4caeba3c"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 107, 96, 101, 98
+#: 0x09219b6
+msgctxt "hash:f2c19778"
+msgid "hash:f2c19778"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 93, 90, 103, 78
+#: 0x0921a03
+msgctxt "hash:efbca7c9"
+msgid "hash:efbca7c9"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 93, 90, 71, 83
+#: 0x0921a4a
+msgctxt "hash:0916434b"
+msgid "hash:0916434b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 96, 79, 79, 41
+#: 0x0921a8b
+msgctxt "hash:c3ea90d4"
+msgid "hash:c3ea90d4"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 86, 107, 104, 95
+#: 0x0921ac4
+msgctxt "hash:483fb5b0"
+msgid "hash:483fb5b0"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 87, 76, 92, 91
+#: 0x0921b11
+msgctxt "hash:2bee42ea"
+msgid "hash:2bee42ea"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 104, 104, 113, 81
+#: 0x0921b55
+msgctxt "hash:c7e47249"
+msgid "hash:c7e47249"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 100, 109, 54
+#: 0x0921ba2
+msgctxt "hash:da4f87fb"
+msgid "hash:da4f87fb"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 79, 108, 89, 77
+#: 0x0921be7
+msgctxt "hash:114ea2bc"
+msgid "hash:114ea2bc"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 107, 94, 48
+#: 0x0921c2b
+msgctxt "hash:4be4160e"
+msgid "hash:4be4160e"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 84, 85, 87, 61
+#: 0x0921c70
+msgctxt "hash:5c8b0c98"
+msgid "hash:5c8b0c98"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 80, 88, 78, 106
+#: 0x0921cae
+msgctxt "hash:83c9146d"
+msgid "hash:83c9146d"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 95, 93, 108
+#: 0x0921cf1
+msgctxt "hash:3a5ef549"
+msgid "hash:3a5ef549"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 99, 68, 88, 89
+#: 0x0921d3b
+msgctxt "hash:2939424a"
+msgid "hash:2939424a"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 97, 102, 101, 31
+#: 0x0921d7e
+msgctxt "hash:1430d22b"
+msgid "hash:1430d22b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 81, 107, 104, 95
+#: 0x0921dc0
+msgctxt "hash:bedad53b"
+msgid "hash:bedad53b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 80, 92, 104, 95
+#: 0x0921e0c
+msgctxt "hash:662fb017"
+msgid "hash:662fb017"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 90, 107, 83, 94
+#: 0x0921e55
+msgctxt "hash:93391232"
+msgid "hash:93391232"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 91, 91, 92, 93
+#: 0x0921e9d
+msgctxt "hash:23b88bb9"
+msgid "hash:23b88bb9"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 106, 78, 73, 94
+#: 0x0921ee6
+msgctxt "hash:58e5f96b"
+msgid "hash:58e5f96b"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 4, widths px: 93, 75, 99, 95
+#: 0x0921f29
+msgctxt "hash:47c051a1"
+msgid "hash:47c051a1"
+msgstr ""
+
+#. reach: never shown (reach study: unreachable system text; review: move descriptions pointed only from the older copy at 0x904000 (index move - 1): no word in the ROM equals 0x8904000 +- 8; the live table is CFRU's 0x99F190 (pools 0xE5440, 0x137BC8, 0x9F3B64), which points at none of these)
+#. category: data-table; mode: field
+#. original lines: 5, widths px: 103, 80, 84, 91, 88
+#: 0x09226e1
+msgctxt "hash:96920283"
+msgid "hash:96920283"
+msgstr ""

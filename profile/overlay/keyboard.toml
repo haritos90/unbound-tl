@@ -1,0 +1,187 @@
+[keyboard]
+reserved = [0x1FFF000, 0x2000000]   # end exclusive; the text allocator never uses it
+opening_keyboard_offsets = [0x09DEB0, 0x09DEA2]   # Immediate operands follow opening order.
+page_count = [0x09E2A0, 0x09ED1E]   # the immediate byte of `movs r1,#3` (03 21)
+labels = ["G23", "G21", "G22"]      # the page-swap label graphic of base page 0, 1, 2
+# Semantic text slots bind pack rows to catalog entries.
+[keyboard.row_bindings]
+lower_keys_1 = "naming_keyboard:0"
+lower_keys_2 = "naming_keyboard:1"
+lower_keys_3 = "naming_keyboard:2"
+lower_keys_4 = "naming_keyboard:3"
+upper_keys_1 = "naming_keyboard:4"
+upper_keys_2 = "naming_keyboard:5"
+upper_keys_3 = "naming_keyboard:6"
+upper_keys_4 = "naming_keyboard:7"
+symbols_keys_1 = "naming_keyboard:8"
+symbols_keys_2 = "naming_keyboard:9"
+symbols_keys_3 = "naming_keyboard:10"
+symbols_keys_4 = "naming_keyboard:11"
+lower_display_1 = "s047A955"
+lower_display_2 = "s047A976"
+lower_display_3 = "s047A997"
+lower_display_4 = "s047A9B8"
+upper_display_1 = "s047A9D9"
+upper_display_2 = "s047A9FA"
+upper_display_3 = "s047AA1B"
+upper_display_4 = "s047AA3C"
+symbols_display_1 = "s047AA5D"
+symbols_display_2 = "s047AA76"
+symbols_display_3 = "s047AA8F"
+symbols_display_4 = "s047AAA8"
+# Union Room chat keyboard: three pages of ten row pointers.
+# Each row holds five keys of text, typed as written.
+# R swaps case through sCaseToggleTable, Latin letters only.
+chat_upper_1 = "s047AAC1"
+chat_upper_2 = "s047AAC7"
+chat_upper_3 = "s047AACD"
+chat_upper_4 = "s047AAD3"
+chat_upper_5 = "s047AAD9"
+chat_upper_6 = "s047AADF"
+chat_upper_7 = "s047AAE5"
+chat_upper_8 = "s047AAEB"
+chat_upper_9 = "s047AAF1"
+chat_upper_10 = "s047AAF7"
+chat_lower_1 = "s047AAFD"
+chat_lower_2 = "s047AB03"
+chat_lower_3 = "s047AB09"
+chat_lower_4 = "s047AB0F"
+chat_lower_5 = "s047AB15"
+chat_lower_6 = "s047AB1B"
+chat_lower_7 = "s047AB21"
+chat_lower_8 = "s047AB27"
+chat_lower_9 = "s047AB2D"
+chat_lower_10 = "s047AB33"
+chat_symbols_1 = "s047AB41"
+chat_symbols_2 = "s047AB4C"
+chat_symbols_3 = "s047AB57"
+chat_symbols_4 = "s047AB62"
+chat_symbols_5 = "s047AB6B"
+chat_symbols_6 = "s047AB76"
+chat_symbols_7 = "s047AB81"
+chat_symbols_8 = "s047AB8C"
+chat_symbols_9 = "s047AB97"
+chat_symbols_10 = "s047ABA2"
+
+[keyboard.chat]
+style = "unbound-small"
+pages = ["chat_upper", "chat_lower", "chat_symbols"]
+rows = 10
+columns = 5
+column_width = 8
+
+# Relocated tables: refs hold the table address, base the original.
+# entry is bytes per entry; index selects an entry.
+# text = true: entries hold text pointers.
+[[keyboard.table]]
+name = "keys"
+refs = [0x09F664]
+base = 0x3E22D0
+entry = 32
+index = "keyboard"
+evidence = "sKeyboardChars: GetCharAtKeyboardPos (0x0809F634) reads keyboard * 32 + y * 8 + x; the CFRU key handler reaches it only through GetCharAtKeyboardPos (literal 0x08A0924C)"
+
+[[keyboard.table]]
+name = "columns"
+refs = [0x09E9A0, 0x09EB58]
+base = 0x3E2330
+entry = 1
+index = "keyboard"
+evidence = "sPageColumnCounts 08 08 06: SetCursorPos (0x0809E948) and GetCurrentPageColumnCount (0x0809EB40) index it by CurrentPageToKeyboardId"
+
+[[keyboard.table]]
+name = "column_x"
+refs = [0x09E9A4]
+base = 0x3E2333
+entry = 8
+index = "keyboard"
+evidence = "sPageColumnXPos: SetCursorPos reads keyboard * 8 + column, plus 0x26"
+
+[[keyboard.table]]
+name = "fill"
+refs = [0x09FA54]
+base = 0x3E243C
+entry = 1
+index = "keyboard"
+evidence = "sFillValues EE DD FF: PrintKeyboardKeys (0x0809F9E8) fills the window with entry [keyboard]"
+
+[[keyboard.table]]
+name = "colours"
+refs = [0x09FA58]
+base = 0x3E2440
+entry = 4
+index = "keyboard"
+evidence = "sKeyboardTextColors: PrintKeyboardKeys reads the pointer at keyboard * 4 (0x083E2434, 0x083E2430, 0x083E2438)"
+
+[[keyboard.table]]
+name = "rows"
+refs = [0x09FA5C]
+base = 0x3E264C
+entry = 16
+index = "keyboard"
+text = true
+evidence = "sNamingScreenKeyboardText: PrintKeyboardKeys prints the four strings at keyboard * 16 + row * 4"
+
+[[keyboard.table]]
+name = "page_keyboard"
+refs = [0x09DE64]
+base = 0x3E2351
+entry = 1
+index = "page-keyboard"
+evidence = "sPageToKeyboardId 02 01 00: CurrentPageToKeyboardId (0x0809DE50) reads entry [currentPage]"
+
+[[keyboard.table]]
+name = "next_keyboard"
+refs = [0x09DE44]
+base = 0x3E234E
+entry = 1
+index = "next-keyboard"
+evidence = "sPageToNextKeyboardId 01 00 02: CurrentPageToNextKeyboardId (0x0809DE30) reads entry [currentPage]; DrawKeyboardPageOnDeck prints that keyboard on the hidden background"
+
+[[keyboard.table]]
+name = "next_label"
+refs = [0x09DE2C]
+base = 0x3E234B
+entry = 1
+index = "next-label"
+evidence = "sPageToNextGfxId 00 02 01 (UPPER, LOWER, OTHERS label for pages 0, 1, 2): PageToNextGfxId (0x0809DE20), called with the page by PageSwapSprite_Init and with (sPage + 1) % count by PageSwapSprite_SlideOff; the page-swap button shows the label of the next page. Extra entries give a page its own label id"
+
+[[keyboard.table]]
+name = "label_palette"
+refs = [0x09EDE0]
+base = 0x3E2388
+entry = 2
+index = "label-palette"
+evidence = "Three halfword palette tags 1, 3, 2, indexed by label id at 0x0809ED98-0x0809EDA0; custom labels copy the palette tag of their base look"
+
+[[keyboard.table]]
+name = "label_tile"
+refs = [0x09EDE4]
+base = 0x3E238E
+entry = 2
+index = "label-tile"
+evidence = "Three halfword tile tags 4, 6, 5, indexed by label id at 0x0809EDB4-0x0809EDBC; custom labels append fresh tile tags"
+
+[[keyboard.table]]
+name = "label_subsprites"
+refs = [0x09EC18]
+base = 0x3E250C
+entry = 8
+index = "label-subsprites"
+
+[[keyboard.table]]
+name = "sprite_sheets"
+refs = [0x09F8B8]
+base = 0x3E267C
+entry = 8
+index = "sprite-sheets"
+evidence = "sSpriteSheets: 12 entries of data pointer, byte size and tile tag, tags 0-11, then an empty 8-byte terminator at 0x3E26DC. LoadSpriteSheets (call at 0x0809F89C) walks the array through that terminator; relocated entries preserve the translated base-label pointers and append custom labels"
+
+[[keyboard.table]]
+name = "next_tilemap"
+refs = [0x09FADC]
+base = 0x3E244C
+entry = 4
+index = "next-look"
+evidence = "sNextKeyboardPageTilemaps (upper 0x08E98398, lower 0x08E98458, others 0x08E98518, LZ77): DrawKeyboardPageOnDeck (0x0809FA60) reads the pointer at currentPage * 4"
+

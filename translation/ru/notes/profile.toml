@@ -1,0 +1,361 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:6d2f0596-2887-5772-a441-8be0f94c5a2a"
+subject = { kind = "profile_fact", id = "table[name=music_prefix_battle]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=music_prefix_battle]", value_sha256 = "f62af145b8378ab0e22e2f706e974c285d98aa78c8ce66b8c1183aba8fac6c55", field = "evidence" }
+facts = ["No Russian name starts with the English prefix, which stays."]
+related_notes = ["note:73dbdddc-6e8b-57c0-94cb-46ff49513fa7"]
+status = "unreviewed"
+
+[[note]]
+id = "note:0731100f-6f43-51f6-b377-797486bc5a9f"
+subject = { kind = "profile_fact", id = "table[name=music_prefix_team]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=music_prefix_team]", value_sha256 = "db39e4ebc7619bfeb4f95b4dd3e825a2795c1f2c7a31b52d76d8b0cac8954aff", field = "evidence" }
+facts = ["The Russian battle music names start with this prefix."]
+related_notes = ["note:4de5ffad-fa58-5eae-ad69-27300b0ee6aa"]
+status = "unreviewed"
+
+[[note]]
+id = "note:8e33ef69-0480-5769-987c-abd732a5de54"
+subject = { kind = "profile_fact", id = "table[name=ability_popup_possessive]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=ability_popup_possessive]", value_sha256 = "eebd461d65ca79ee41d601e459fdcc4c29426a4a2a74acc4324b25af7ee7c8b5", field = "evidence" }
+facts = ["A ROM with that byte shows «Галвантула» without the possessive."]
+related_notes = ["note:ecf2aacd-464a-57ad-804c-207f537aef65"]
+status = "unreviewed"
+
+[[note]]
+id = "note:6ce11c18-b8b8-5aa6-8f16-d53fc072e13d"
+subject = { kind = "profile_fact", id = "table[name=berry_blender_apostrophe]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=berry_blender_apostrophe]", value_sha256 = "bd2f6f6e92b2a49dd14f7a53ca119f349fa6d3e04686519a739bfabd19d9794b", field = "evidence" }
+facts = ["Cyrillic letters are other bytes, so a Russian name always takes the literal."]
+related_notes = ["note:72ff4c49-8ed4-5985-a9b5-26110fcc7de6"]
+status = "unreviewed"
+
+[[note]]
+id = "note:9070f883-4bdd-5671-9ad5-442416954d88"
+subject = { kind = "profile_fact", id = "table[name=item_plural_s]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=item_plural_s]", value_sha256 = "dc7f6106b6bea428794b97ea2042289b5f401dfcc3e405180cbd4cfc641e91b4", field = "evidence" }
+facts = ["No Cyrillic letter has a byte the routine tests, so a Russian name ending in a Cyrillic letter, a digit or Z takes this record.", "The longest Russian item name is 15 bytes, so every store stays within gStringVar2 (20 bytes)."]
+related_notes = ["note:72e1eda8-b2d6-53e1-9fd8-aeb081cf4b3f"]
+status = "unreviewed"
+
+[[note]]
+id = "note:be859bf2-4e56-58d2-a9a6-a09eb648ea2e"
+subject = { kind = "profile_fact", id = "table[name=item_plural_lower]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=item_plural_lower]", value_sha256 = "0e455f2c6e3e6b6b53bb36012b277abbccf047402ccfa2786e236272bc5f1695", field = "evidence" }
+facts = ["No Russian item name ends in Latin x or y, and Cyrillic х and у have their own bytes."]
+related_notes = ["note:41816e9c-95ea-5cc6-9903-4fba17253305"]
+status = "unreviewed"
+
+[[note]]
+id = "note:884f9098-3db3-596e-b278-15108b7c0049"
+subject = { kind = "profile_fact", id = "table[name=item_plural_upper]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=item_plural_upper]", value_sha256 = "e7f0dd6c8f00dfc9ea6043bd1d11dfd8fbd200b15269ad0ef0a8c612e4201cb8", field = "evidence" }
+facts = ["With the English suffix bytes, Russian item names ending in Latin X (items 75-79, 82, 447, 459: «Атака X», «Чаризардит X») take ES.", "With those bytes, names ending in Y (items 448, 460: «Чаризардит Y», «Мьютунит Y») take IES."]
+related_notes = ["note:24500e46-82c1-592c-8afc-040a87c2241c"]
+status = "unreviewed"
+
+[[note]]
+id = "note:94e5a8b9-e940-56ca-8631-6dd6e6869b7f"
+subject = { kind = "profile_fact", id = "table[name=count_plural_s]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "table[name=count_plural_s]", value_sha256 = "711dce5cb5eb6bae0b217f5a69809cad854e74d5bdb41249caa2c66d78ee4799", field = "evidence" }
+facts = ["With the English suffix byte, Russian «…серии побед: N{STR_VAR_3}» shows «5s»."]
+related_notes = ["note:49280e7b-9020-5655-8291-9780d3ba27ab"]
+status = "unreviewed"
+
+[[note]]
+id = "note:74745ad8-2972-5dc6-91fd-a46d0e40aa96"
+subject = { kind = "profile_fact", id = "layout.table_window[name=berry-pouch-descriptions]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=berry-pouch-descriptions]", value_sha256 = "05310ddd34480b1e953c3560d03e71646a41e2d6fda400271f8ae3d771cdce52", field = "evidence" }
+facts = ["The text «Предмет, который держит покемон.» measures 187 px and ends at x 226."]
+related_notes = ["note:b6af61d9-7ca5-55bd-92ee-a47234376ef6"]
+status = "unreviewed"
+
+[[note]]
+id = "note:dc379245-3189-5c5e-9bf7-91c3efc1da8d"
+subject = { kind = "profile_fact", id = "layout.table_window[name=lottery-attendant-names]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=lottery-attendant-names]", value_sha256 = "27f9ef459bb54be30a0a33fde3fd6d70a36648fb6af855883889755e70707c51", field = "evidence" }
+facts = ["The Russian has the name on the line 'Меня зовут {STR_VAR_1}, сегодня я' as the build breaks it."]
+related_notes = ["note:621d7f27-f8d8-56ca-9e32-97fd01ad1a2c"]
+status = "unreviewed"
+
+[[note]]
+id = "note:77a906e6-b88a-5a5f-8979-bd05d7878ec5"
+subject = { kind = "profile_fact", id = "layout.table_window[name=stat-judge-words]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=stat-judge-words]", value_sha256 = "b61184665c95f0749adc6faf426c88c1849eff3160e066e4f723103de6176f5b", field = "evidence" }
+facts = ["The unused prefix '{STR_VAR_1} у тебя - ' measures 120 px with a 60 px nickname (10 characters of at most 6 px), leaving 208 - 120 = 88 px in the dialogue box.", "The build lays out line 1 as '{STR_VAR_1} - {STR_VAR_2} покемон!', with the nickname at 60 px, hash:f74ed3c5 at 18 px and ' покемон!' at 53 px around the word.", "This leaves 208 - 131 = 77 px, and the Russian words are 40-42 px."]
+related_notes = ["note:d35fa2ff-b9ca-5ab9-812a-cf0b5820473e"]
+status = "unreviewed"
+
+[[note]]
+id = "note:3542765f-2cea-5a30-bda6-12b798720a5d"
+subject = { kind = "profile_fact", id = "layout.table_window[name=frontier-weather-words]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=frontier-weather-words]", value_sha256 = "d9573744e66aa14facee4e511ebeef2f58b350ece72092bcd5d8f2b09c40158e", field = "evidence" }
+facts = ["Their Russian 'На поле боя - {STR_VAR_1}!' is one line, with 84 px before the word and 6 px after it."]
+related_notes = ["note:83f3f410-c991-5e78-a110-d09e6549e48d"]
+status = "unreviewed"
+
+[[note]]
+id = "note:6c808232-d3b1-5415-94c4-897cbcacc3ed"
+subject = { kind = "profile_fact", id = "layout.table_window[name=frontier-battle-music]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=frontier-battle-music]", value_sha256 = "4551bfd6cea7a8bc206642ac8f67004f9a4c3b5f6605afeb093c062d7699d3f8", field = "evidence" }
+facts = ["The callnative 0x1EB75B1 copies the current song's name into gStringVar1 for s1F92347 «Текущая мелодия:\n{COLOR 06}{STR_VAR_1}» and s1F923EA, where the name is a line of the 208 px field box."]
+related_notes = ["note:7072cd06-98ba-561b-94c3-4adba2d113f3"]
+status = "unreviewed"
+
+[[note]]
+id = "note:940f5ca9-9ebb-5d3a-be93-ba23311ba111"
+subject = { kind = "profile_fact", id = "layout.table_window[name=frontier-battle-backgrounds]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=frontier-battle-backgrounds]", value_sha256 = "f3b3cb50fef0c147dabba8a050d9191e8724c74fccfa6a57e4b6bf0511cc7f4a", field = "evidence" }
+facts = ["The callnative 0x1EB7641 copies the current background's name into gStringVar1 for s1F92412 «Текущий фон:\n{COLOR 06}{STR_VAR_1}» and s1F924EE, a line of the 208 px field box."]
+related_notes = ["note:9f450d91-e5fb-54c3-884e-9f6a492a287c"]
+status = "unreviewed"
+
+[[note]]
+id = "note:8ed2941e-a491-531b-b2ff-9df563456633"
+subject = { kind = "profile_fact", id = "layout.table_window[name=status-words]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=status-words]", value_sha256 = "f93c05655dc313e116f323ac5684970681052173d5261cfb13363efdf6a180d1", field = "evidence" }
+facts = ["The hosts are s096BE2F, s0A37A95 «X:\\n{B_BUFF1} излечивается!», s0A37A75, s03FC9C7 and s03FD95C."]
+related_notes = ["note:91dcec2e-401a-51fc-a062-c2d4cb40987b"]
+status = "unreviewed"
+
+[[note]]
+id = "note:cef8a57c-7cd2-5ce5-b174-cfdd4e0a31d9"
+subject = { kind = "profile_fact", id = "layout.table_window[name=berry-crush-results-berries]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=berry-crush-results-berries]", value_sha256 = "6869f545e856e3e13091ceaae87166fdf229121453ebace5c7dcc9d1c891c9b6", field = "evidence" }
+facts = ["It expands s041D044 hash:3405d739 («{STR_VAR_1}-ягода», 35 px without the name) into gStringVar4 at 0x814E230."]
+related_notes = ["note:976b8108-0a34-591e-a94b-a0688f5278da"]
+status = "unreviewed"
+
+[[note]]
+id = "note:e101f87a-0b93-59b6-889d-962dd2df756f"
+subject = { kind = "profile_fact", id = "layout.table_window[name=options-values-arrows]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=options-values-arrows]", value_sha256 = "7d189cdd96719a60322880b63944574dc40bd7059444d2f32e18391ab6a7d5fb", field = "evidence" }
+facts = ["«Среднее (обычное)» (100 px) loses that column, «Высокое (медленнее)» (111 px) and «Общая доля (лимит)» (106 px) hide the arrow, and hash:86a18eb6 (100 px) loses its last column too."]
+related_notes = ["note:da7cbf36-d3c7-5431-8c37-3c1741c17148"]
+status = "unreviewed"
+
+[[note]]
+id = "note:3d05fbf6-dca1-5d8b-89e2-8dcce4b798b2"
+subject = { kind = "profile_fact", id = "layout.table_window[name=stat-names]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=stat-names]", value_sha256 = "b306558631abe521a38a61abb61682f6c79595e8f97bd13502cd4b36b75477c4", field = "evidence" }
+facts = ["Hosts «X:\\n{B_BUFF1} {B_BUFF2}» (s03FCB5F, s03FCB8F, s03FCB9A, s0966078, s0A4C200, s03FCB75) leave 80 px with the widest fill «очень резко повышается!» at 136 px.", "s0965C00 «{B_BUFF1} повышается до максимума» leaves 79 px, s096DCFD 86 px, s0A4BE45 97 px, s03FB7D5 102 px, s03FB7EE 108 px, s0A4B39A 109 px, s08A9944 121 px and s0A4B2F9 132 px.", "The Z and Max labels print in the small font within 128 px, leaving 88 px room, while «Особая защита» measures 65 px small.", "The hosts are laid out for 78 px, the width of «Особая защита», the widest Russian stat name."]
+related_notes = ["note:1d427d66-e51d-5c0b-b807-3804c75c3546"]
+status = "unreviewed"
+
+[[note]]
+id = "note:020ea244-f632-53f5-8bb0-9d51b3c94c37"
+subject = { kind = "profile_fact", id = "layout.table_window[name=frontier-tiers-2-17]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=frontier-tiers-2-17]", value_sha256 = "ce1be056d2c7a034e68755b934a5dc23f5854458500f5c85d8d84d9d88e64370", field = "evidence" }
+facts = ["The widest Russian name measures 131 px in font 0 and 155 px in font 1, leaving 13 px in the record window and 5 px in the viewer title.", "The widest English of the pointer run is 146 px, narrower than «Smogon Бенджамин Баттерфри» at 155 px."]
+related_notes = ["note:ff51e65b-9ab3-5268-8170-308a1bcc632e"]
+status = "unreviewed"
+
+[[note]]
+id = "note:a759cb00-b097-5c8b-af05-f977e7707c9f"
+subject = { kind = "profile_fact", id = "layout.table_window[name=frontier-mine-formats]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=frontier-mine-formats]", value_sha256 = "abe129035a4e6a1ebc7ffe8dda6eed3c927b7d961662814c4467450221e7a15e", field = "evidence" }
+facts = ["The viewer title combines hash:dfef8153 (s0A4EDDD, «Боевая шахта ») with the name through StringCopy at 0xA0FC30-0xA0FC36."]
+related_notes = ["note:45bb9ed2-3b99-575b-adba-be0f8b51d248"]
+status = "unreviewed"
+
+[[note]]
+id = "note:dfc22cd3-2d19-5201-86c6-dbcf7085045b"
+subject = { kind = "profile_fact", id = "layout.table_window[name=frontier-battle-formats]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=frontier-battle-formats]", value_sha256 = "dd347a0bfc9ad0238b7955fc525e83d72822ca190f0dc88addf3d74b1ec7d091", field = "evidence" }
+facts = ["The widest English of the pointer run is 146 px, narrower than «Случайная одиночная битва» at 150 px."]
+related_notes = ["note:afc3350a-2f26-505d-88da-4f1cb3b56b99"]
+status = "unreviewed"
+
+[[note]]
+id = "note:a9d1228d-c593-5d0e-b278-e5ca68236a91"
+subject = { kind = "profile_fact", id = "layout.table_window[name=battle-circus-conditions]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=battle-circus-conditions]", value_sha256 = "935c6c39245689764044dfc41faffbf0a139578c2882a64eae04850fe9ad226c", field = "evidence" }
+facts = ["Script 0x1EA057E calls the special, then shows s1F8B4EB «{COLOR 04}Следующий бой пройдёт\\n{FD 0C}» with callstd 6 at 0x1EA05C2."]
+related_notes = ["note:cfb3e949-fbfc-56fd-9478-5b506623af8a"]
+status = "unreviewed"
+
+[[note]]
+id = "note:624cbcfd-94bc-54b8-b661-792ab53545f8"
+subject = { kind = "profile_fact", id = "layout.table_window[name=default-box-name]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=default-box-name]", value_sha256 = "954c145b169808849842d950c7f4bbddfab6d09a039424ff4f528d6c3d831d81", field = "evidence" }
+facts = ["In the title, «Ячейка24» is 47 px and «Ящик 24», with text «Ящик », is 41 px."]
+related_notes = ["note:480b9506-4869-580b-ae69-0de1c0478126"]
+status = "unreviewed"
+
+[[note]]
+id = "note:9a4ac12b-46a7-54f8-800d-e1bbb3b67a2d"
+subject = { kind = "profile_fact", id = "layout.table_window[name=trade-nicknames]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=trade-nicknames]", value_sha256 = "8e3899cbdfe9391e8e6729df3b318894d923ff4f2464f20058d5a5689fc584df", field = "evidence" }
+facts = ["The widest Russian nickname is «Бойся меня», measured at 60 px."]
+related_notes = ["note:47bdbc81-ea4b-511f-812b-129d41ce1a34"]
+status = "unreviewed"
+
+[[note]]
+id = "note:c46d894a-02d7-57ab-8477-02bee1319ab3"
+subject = { kind = "profile_fact", id = "layout.table_window[name=z-move-names]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=z-move-names]", value_sha256 = "454212ae1f74606d57f9dfd647eacb41845d10638fc54d06df1867cf87c4dfba", field = "evidence" }
+facts = ["Battle message s03FD57B prints the name on line 2 after «приём » in window 0 from x 10 in the normal font, leaving 180 px for the name."]
+related_notes = ["note:02d26e5f-ea33-5c0a-aaf2-cbef9f85854c"]
+status = "unreviewed"
+
+[[note]]
+id = "note:dad8b750-817f-5e07-877d-77dafd305164"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-08]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-08]", value_sha256 = "335beaf37f2dbedf776f46ca7fbc6dc3014e1ba0a81a94e1e22f8ce29e934397", field = "evidence" }
+facts = ["The bar prints in the small font, where the widest names are «Випейр-ягода» and «Пайнеп-ягода» at 60 px."]
+related_notes = ["note:d44318fa-ee0f-5df4-ae98-9df1bb9040fd"]
+status = "unreviewed"
+
+[[note]]
+id = "note:30e4c665-b0fc-546b-8194-bad6ab29b25a"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-14]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-14]", value_sha256 = "07fc60e3c2f7b2481d5e6df7900f197d6fdaf912b36c4c9cb47eb4d055e1a925", field = "evidence" }
+facts = ["The held-item source determines this slot from the permitted item rows and current font metrics.", "The former recorded maximum omitted longer permitted names."]
+related_notes = ["note:d3210cb0-a562-54b1-87b0-5659d932a33c"]
+status = "unreviewed"
+
+[[note]]
+id = "note:8ac77cc7-3cab-539e-a92b-d8bfdfbad4f4"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-18]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-18]", value_sha256 = "f65d53240f26f45d0656dd57b9fbb3b2aafe0a75d8769ef4b4a9853c7f1c8f77", field = "evidence" }
+facts = ["The tier slot takes the widest of the 29 names the getter returns: tier 14 «Smogon Бенджамин Баттерфри» at 155 px.", "The format slot takes the widest of the 7 formats: format 4 «Случайная одиночная битва» at 150 px."]
+related_notes = ["note:5459fca9-b7ca-5c04-af95-9161c1ccb90e"]
+status = "unreviewed"
+
+[[note]]
+id = "note:ded13509-de6b-55a0-bce1-f1cc20357bcb"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-19]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-19]", value_sha256 = "2d0f10f45d2edb244cfa688a6e838d91fe4887e28bce1b359eddc0f30634206e", field = "evidence" }
+facts = ["The widest Russian tier is tier 14 «Smogon Бенджамин Баттерфри» at 155 px.", "The widest Russian format is format 4 «Случайная одиночная битва» at 150 px, while formats 0 and 1 measure 90 and 78 px."]
+related_notes = ["note:ea3e52e3-d42b-5351-ba02-dfcdb72f614c"]
+status = "unreviewed"
+
+[[note]]
+id = "note:bd398a3c-1341-5dbf-ab01-48e3ef8678d2"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-20]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-20]", value_sha256 = "0be33d978ded41cb221726011605f1b86c76b9cea81786ece0d66579fa375663", field = "evidence" }
+facts = ["Their widest names are «Габриэлла» and «Бенджамин» at 54 px, and hash:101a96d4 at 60 px.", "For 0x397 / 0x398, the getter returns the name at +8 of 52-byte records 0xA6F130 / 0xA6F36C, with «Джованни» at 48 px.", "For 0x396 / 0x395, it uses partner records 0xA6EFC8 at +8 / 0xA50AFC at +0xC, with «Джинджер» at 48 px and hash:c509182e at 45 px.", "The widest trainer_names entries are «Рей и Тайра» (485) and «Джиа и Джес» (486) at 66 px, while English table:trainer_names/19 (19) measures 67 px."]
+related_notes = ["note:7b1064ce-90dc-5b62-95a3-f44cc1b32f5a"]
+status = "unreviewed"
+
+[[note]]
+id = "note:cb270cb5-536c-5163-95d6-c4cc094fa723"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-23]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-23]", value_sha256 = "0f6f647973723e868a276fb7281c7dd77e99a3e0f8ad215e0015da52086ce0da", field = "evidence" }
+facts = ["The widest name is «Джинджер» at 48 px."]
+related_notes = ["note:adf795f0-bb88-56a4-929e-2e36386ff775"]
+status = "unreviewed"
+
+[[note]]
+id = "note:1c471fb1-7b69-5b83-a0c3-a135208ed7ab"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-24]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-24]", value_sha256 = "4d2998f367529695bb2830729cb8e45f48b8b3acaeb1e5cfa9f562781b3cac2b", field = "evidence" }
+facts = ["The second-trainer paired source measures real class and name records with current font metrics.", "The former independent class maximum did not bind this slot."]
+related_notes = ["note:bcd5941c-6f2d-5174-95e1-2aeaeb6676a9"]
+status = "unreviewed"
+
+[[note]]
+id = "note:fdbe0b25-e281-53fa-8d82-729fa157e12f"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-25]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-25]", value_sha256 = "c993ba4d9ca4718b2838f74c81982f58816e414ddc970a8385c4a9fdf370dfb5", field = "evidence" }
+facts = ["The widest Russian trainer_classes names measure 72 px: «Чёрный Эмбор», «Суперзубрила», «Молодая пара», «Малыш-пловец», «Велосипедист» and «Боевая родня».", "The name «Экс-админ» measures 53 px; English record table:trainer_classes/94 measures 72 px and s0A4CAC1 hash:a0feaec9 measures 87 px.", "Therefore «Чёрный клан » + the player's name, 113 px, does not reach FD 32."]
+related_notes = ["note:8c2445fd-57f8-5461-b56c-e82e4d69c7b0"]
+status = "unreviewed"
+
+[[note]]
+id = "note:e2933efd-e91c-5814-af23-51f0aa3e4314"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-49]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-49]", value_sha256 = "82e3e44a813e96e476e479e8ae01fb87918183a60d891d10277ba476b4d3daa8", field = "evidence" }
+facts = ["Otherwise, StringCopy uses s0A4CAB0 «неизвестное место» at 102 px or s0419C0B «обмен» at 0x8137600-0x8137622.", "Slot 2 is measured at 102 px, the fixed text, which is wider than the widest map name at 94 px."]
+related_notes = ["note:27770dfd-c003-599a-8099-5e43784cd59b"]
+status = "unreviewed"
+
+[[note]]
+id = "note:6a7ab516-550e-5f37-9b20-8accfa79a1d3"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-50]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-50]", value_sha256 = "755b92e106342581b73f42a028973ad5922fdf9306b5bcb6777101a242b3a409", field = "evidence" }
+facts = ["The 14 classes are 57, 58, 59, 61, 62, 73, 75, 77, 78, 80, 86, 91, 99 and 101, with «Девочка-боец» widest at 71 px.", "Slot 2 uses the card rank text from table 0x84594B0 [record + 1], holding 5 strings s045944C-s045949C, with «Серебряная карточка!» widest at 118 px."]
+related_notes = ["note:ec9d253a-6d23-5729-b9c1-7c3c007455cd"]
+status = "unreviewed"
+
+[[note]]
+id = "note:fd8120d5-7ea6-5ebc-8124-1b01120cc036"
+subject = { kind = "profile_fact", id = "graphics.edit_facts.G24" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "graphics.edit_facts.G24", value_sha256 = "6e8bedcfe9a0e88e1c9ad0a5960081fe3ce3544c2a6fa495b5713f3c390ac628", field = "evidence" }
+facts = ["The graphic uses 141 tiles for СКРЫТЫЙ ТАЛАНТ."]
+related_notes = ["note:e3d96525-4711-5a66-b0a1-aa7c3097d4f1"]
+status = "unreviewed"
+
+[[note]]
+id = "note:574582ab-2592-59df-a697-e69246974c64"
+subject = { kind = "profile_fact", id = "layout.table_window[name=bag-descriptions]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=bag-descriptions]", value_sha256 = "4aeb8ae7956ec8c5c829fcbfd81b040301c0d086a12c347c7e67e4b23ab95d32", field = "evidence" }
+facts = ["The screen run/ru/bag-02.png shows three lines from x 40, with «Жёлтая стеклянная флейта, которая» measuring 195 px and ending with its shadow at x 234, so the letter spacing adds nothing."]
+related_notes = ["note:06619a83-b5b7-5e9c-aa71-5b81a578e9b4"]
+status = "unreviewed"
+
+[[note]]
+id = "note:e484cbe5-39de-5b8e-a849-0f66b360ff77"
+subject = { kind = "profile_fact", id = "layout.table_window[name=map-section-names]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.table_window[name=map-section-names]", value_sha256 = "6e4f3d5e859a9f02d9e0b712c0c5b913c106c58d5d574dddafc19d1e02f74019", field = "evidence" }
+facts = ["The summary memo allows 103 px beside «Вероятно, встреча: {F7 02},» in s0419860, within 220 px, at 0x81375E2 and 0x8137840.", "The Mission Log allows 149 px after «Место: » in window 4 of 0x1FB4174, with 192 px from x 2, at 0x9EBF00A and 0x9EBFEE6, or on a separate line in s1F560DA."]
+related_notes = ["note:e43223f9-8da2-5c08-9d11-4c5c1f4ca792"]
+status = "unreviewed"
+
+[[note]]
+id = "note:8867e9a2-1ec0-5e6c-8c55-d522179d383a"
+subject = { kind = "profile_fact", id = "layout.code_fill[name=fill-26]" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "layout.code_fill[name=fill-26]", value_sha256 = "d9a74d45b9263bb03d9528230b01ee01bfc8a79d910b48451b363bbf3ccf0b3b", field = "evidence" }
+facts = ["Above var 3, it copies s0A4CAA9 «Чёрный клан » through StringCopy 0x8008D84 and appends the player's name from gSaveBlock2Ptr 0x300500C through StringAppend 0x8008DA4.", "Otherwise, it returns record 13 * 0x2D of trainer_classes, «Чёрный Эмбор» at 72 px, at 0x89BCEFC-0x89BCF2E.", "The s0A4C88B line «Команда: {B_TRAINER1_CLASS} {B_TRAINER1_NAME}» joins the class to the trainer's own name.", "In trainer_names, every class 0x2D trainer is named «Громила» at 42 px for 0xC3-0xC6 and 0xC9, or «Джеймс» at 36 px for 0xC7, 0x28A and 0x28B.", "The long form reaches 53 («Команда: ») + 113 + 6 + 42 = 214 px, and other classes reach 53 + 72 + 6 + 66 = 197 px, both within 222 px.", "A headless-emulator run of the built ROM uses var 0x5006 = 4, trainer 0xC9 and name «ШЩЖЮМЫФ».", "Its five hosts show «Чёрный клан ШЩЖЮМЫФ Громила», with the name 41 px right of its place at var 3."]
+related_notes = ["note:3ecf8961-f306-5b81-9c81-2baf58cd43e2"]
+status = "unreviewed"
+
+[[note]]
+id = "note:e5ec4440-eea8-5e2f-82b0-ab85d30ddf26"
+subject = { kind = "profile_fact", id = "save.player" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "profile_fact", id = "save.player", value_sha256 = "0a36c96044ee8ca633696ad5cdbd7ba16f8270f8ef0c928c906f7a504d67bb34", field = "evidence" }
+facts = ["A name typed there (Женя) is stored at SaveBlock2+0."]
+related_notes = ["note:cc1e6fd4-10a6-50a1-bfcf-8b54d447775c"]
+status = "unreviewed"

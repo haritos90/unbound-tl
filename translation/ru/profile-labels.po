@@ -1,0 +1,1333 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: profile-labels\n"
+
+msgctxt "sprite_font[name=dexnav-hud].windows[#0].where"
+msgid "DexNav HUD move"
+msgstr "приём на панели ДексНав"
+
+msgctxt "sprite_font[name=dexnav-hud].windows[#1].where"
+msgid "DexNav HUD ability"
+msgstr "талант на панели ДексНав"
+
+msgctxt "sprite_font[name=dexnav-hud].pair.where"
+msgid "DexNav HUD move and ability before the eye icon"
+msgstr "приём и талант перед значком глаза на панели ДексНав"
+
+msgctxt "table[name=species].windows[#0].where"
+msgid "summary screen, PC storage panel and Pokedex"
+msgstr "экран сводки, панель хранилища ПК и Покедекс"
+
+msgctxt "table[name=species].windows[#1].where"
+msgid "battle health box"
+msgstr "панель здоровья в бою"
+
+msgctxt "table[name=moves].windows[#0].where"
+msgid "summary moves page"
+msgstr "страница приёмов в сводке"
+
+msgctxt "table[name=moves].windows[#1].where"
+msgid "battle move menu"
+msgstr "меню приёмов в бою"
+
+msgctxt "table[name=moves].windows[#2].where"
+msgid "party menu field-move actions"
+msgstr "действия с полевыми приёмами в меню команды"
+
+msgctxt "table[name=abilities].windows[#0].where"
+msgid "summary skills page"
+msgstr "страница характеристик в сводке"
+
+msgctxt "table[name=abilities].windows[#1].where"
+msgid "battle ability pop-up"
+msgstr "всплывающее окно таланта в бою"
+
+msgctxt "table[name=items].windows[#0].where"
+msgid "bag item list before quantity"
+msgstr "список предметов в сумке перед количеством"
+
+msgctxt "table[name=items].windows[#1].where"
+msgid "registered Key Items and script name buffers"
+msgstr "зарегистрированные ключевые предметы и буферы имён скриптов"
+
+msgctxt "table[name=items].windows[#2].where"
+msgid "held-item Summary"
+msgstr "удерживаемый предмет в сводке"
+
+msgctxt "table[name=items].windows[#3].where"
+msgid "PC item storage list before quantity"
+msgstr "список предметов в хранилище ПК перед количеством"
+
+msgctxt "table[name=items].windows[#4].where"
+msgid "shop list before five-digit prices"
+msgstr "список магазина перед пятизначными ценами"
+
+msgctxt "table[name=items].windows[#5].where"
+msgid "Berry Pouch formatted item rows"
+msgstr "форматированные строки предметов в кармане ягод"
+
+msgctxt "table[name=types].windows[#0].where"
+msgid "type name in battle, trading-room and move-effect messages"
+msgstr ""
+"название типа в боевых сообщениях, сообщениях комнаты связи и эффектов "
+"приёмов"
+
+msgctxt "table[name=types_short].windows[#0].where"
+msgid "Union Room trading board, wanted-type list (entry 0 only)"
+msgstr ""
+"доска обмена в комнате связи, список желаемых типов (только запись 0)"
+
+msgctxt "table[name=pokedex_categories].windows[#0].where"
+msgid "Pokedex entry screen"
+msgstr "экран записи Покедекса"
+
+msgctxt "layout.window[name=script-message-command].where"
+msgid "script message window"
+msgstr "окно сообщения сценария"
+
+msgctxt "layout.window[name=field-yes-no-fills].where"
+msgid "field yes/no message window"
+msgstr "полевое окно вопроса с ответами да и нет"
+
+msgctxt "layout.window[name=puzzle-sign-routine].where"
+msgid "puzzle sign message window"
+msgstr "окно сообщения таблички с загадкой"
+
+msgctxt "layout.table_window[name=ability-descriptions].where"
+msgid "summary screen, ability description box"
+msgstr "экран сводки, окно описания таланта"
+
+msgctxt "layout.table_window[name=ability-descriptions-firered].where"
+msgid "summary screen, ability description box"
+msgstr "экран сводки, окно описания таланта"
+
+msgctxt "layout.table_window[name=bag-descriptions].where"
+msgid "bag, description window"
+msgstr "сумка, окно описания"
+
+msgctxt "layout.table_window[name=bag-descriptions-2].where"
+msgid "bag, description window"
+msgstr "сумка, окно описания"
+
+msgctxt "layout.table_window[name=bag-descriptions-3].where"
+msgid "bag, description window"
+msgstr "сумка, окно описания"
+
+msgctxt "layout.table_window[name=bag-descriptions-4].where"
+msgid "bag, description window"
+msgstr "сумка, окно описания"
+
+msgctxt "layout.table_window[name=bag-descriptions-5].where"
+msgid "bag, description window"
+msgstr "сумка, окно описания"
+
+msgctxt "layout.table_window[name=bag-descriptions-6].where"
+msgid "bag, description window"
+msgstr "сумка, окно описания"
+
+msgctxt "layout.table_window[name=move-descriptions-summary].where"
+msgid ""
+"summary screen, move detail (moves page, A on a move; also the "
+"forget-move summary)"
+msgstr ""
+"экран сводки, описание приёма (страница приёмов, кнопка A на приёме; "
+"также сводка при забывании приёма)"
+
+msgctxt "layout.table_window[name=move-descriptions-relearner].where"
+msgid "move relearner, description window"
+msgstr "повторное изучение приёмов, окно описания"
+
+msgctxt "layout.table_window[name=tm-descriptions].where"
+msgid "TM Case, description window"
+msgstr "футляр ТМ, окно описания"
+
+msgctxt "layout.table_window[name=tm-descriptions-2].where"
+msgid "TM Case, description window"
+msgstr "футляр ТМ, окно описания"
+
+msgctxt "layout.table_window[name=tm-move-descriptions].where"
+msgid "TM mart, description window"
+msgstr "магазин ТМ, окно описания"
+
+msgctxt "layout.table_window[name=berry-pouch-descriptions].where"
+msgid "Berry Pouch, description window"
+msgstr "карман ягод, окно описания"
+
+msgctxt "layout.table_window[name=berry-pouch-descriptions-2].where"
+msgid "Berry Pouch, description window"
+msgstr "карман ягод, окно описания"
+
+msgctxt "layout.table_window[name=berry-pouch-descriptions-3].where"
+msgid "Berry Pouch, description window"
+msgstr "карман ягод, окно описания"
+
+msgctxt "layout.table_window[name=mission-log-tv-hints].where"
+msgid "Mission Log, text window"
+msgstr "журнал заданий, окно текста"
+
+msgctxt "layout.table_window[name=mission-log-main-story].where"
+msgid "Mission Log, text window"
+msgstr "журнал заданий, окно текста"
+
+msgctxt "layout.table_window[name=mission-log-main-story-2].where"
+msgid "Mission Log, text window"
+msgstr "журнал заданий, окно текста"
+
+msgctxt "layout.table_window[name=mission-log-state-texts].where"
+msgid "Mission Log, text window"
+msgstr "журнал заданий, окно текста"
+
+msgctxt "layout.table_window[name=mission-log-special-hints].where"
+msgid "Mission Log, text window"
+msgstr "журнал заданий, окно текста"
+
+msgctxt "layout.table_window[name=mission-log-list-titles].where"
+msgid "Mission Log, mission list"
+msgstr "журнал заданий, список заданий"
+
+msgctxt "layout.table_window[name=mission-log-list-heroine].where"
+msgid "Mission Log, mission list"
+msgstr "журнал заданий, список заданий"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-6].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-7].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-9].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-46].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-52].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-52-special].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-69].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-73].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-74].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-76].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-79].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-82].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=mission-log-hint-labels-83].where"
+msgid "Mission Log, hint list"
+msgstr "журнал заданий, список подсказок"
+
+msgctxt "layout.table_window[name=pokedex-form-categories].where"
+msgid "Pokedex entry screen, category line"
+msgstr "экран записи Покедекса, строка категории"
+
+msgctxt "layout.table_window[name=union-room-type-list].where"
+msgid "Union Room trading board, wanted-type list"
+msgstr "доска обмена в комнате связи, список желаемых типов"
+
+msgctxt "layout.table_window[name=lottery-attendant-names].where"
+msgid "lottery attendant name in the dialogue box"
+msgstr "имя сотрудника лотереи в окне диалога"
+
+msgctxt "layout.table_window[name=stat-judge-words].where"
+msgid "stat assessment in the dialogue box"
+msgstr "оценка параметров в окне диалога"
+
+msgctxt "layout.table_window[name=frontier-weather-words].where"
+msgid "weather name in the dialogue box"
+msgstr "название погоды в окне диалога"
+
+msgctxt "layout.table_window[name=town-map-descriptions].where"
+msgid "Town Map, dungeon preview window"
+msgstr "карта региона, окно просмотра подземелья"
+
+msgctxt "layout.table_window[name=frontier-tier-descriptions].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=frontier-battle-music].where"
+msgid "Battle Frontier music menu and its message line"
+msgstr "меню музыки Боевого рубежа и его строка сообщения"
+
+msgctxt "layout.table_window[name=frontier-battle-backgrounds].where"
+msgid "Battle Frontier background menu and its message line"
+msgstr "меню фона Боевого рубежа и его строка сообщения"
+
+msgctxt "layout.table_window[name=outfit-names].where"
+msgid "outfit selection menu"
+msgstr "меню выбора одежды"
+
+msgctxt "layout.table_window[name=battle-tower-pre-battle].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=battle-tower-win-lose].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.table_window[name=frontier-special-pre-battle].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=frontier-special-win-lose].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.table_window[name=dexnav-messages].where"
+msgid "DexNav, message window"
+msgstr "ДексНав, окно сообщений"
+
+msgctxt "layout.table_window[name=frontier-record-titles].where"
+msgid "Battle Frontier record screen, title"
+msgstr "экран рекордов Боевого рубежа, заголовок"
+
+msgctxt "layout.table_window[name=frontier-partner-names].where"
+msgid "partner name in battle text ({FD 33}) and field text"
+msgstr "имя напарника в боевом ({FD 33}) и полевом тексте"
+
+msgctxt "layout.table_window[name=raid-partner-names].where"
+msgid "partner name in battle text ({FD 33})"
+msgstr "имя напарника в боевом тексте ({FD 33})"
+
+msgctxt "layout.table_window[name=trainer-slide-messages].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.table_window[name=status-words].where"
+msgid "{B_BUFF1} of the cure messages in the battle window"
+msgstr "{B_BUFF1} сообщений об исцелении в боевом окне"
+
+msgctxt "layout.table_window[name=party-stat-raise].where"
+msgid "party menu message box, stat raise of vitamins and wings"
+msgstr ""
+"окно сообщений в меню команды, повышение параметра витаминами и крыльями"
+
+msgctxt "layout.table_window[name=party-selection-limits].where"
+msgid "party menu message box"
+msgstr "окно сообщений в меню команды"
+
+msgctxt "layout.table_window[name=start-menu-firered].where"
+msgid "start menu"
+msgstr "стартовое меню"
+
+msgctxt "layout.table_window[name=start-menu].where"
+msgid "start menu"
+msgstr "стартовое меню"
+
+msgctxt "layout.table_window[name=bag-pocket-titles].where"
+msgid "bag, pocket title"
+msgstr "сумка, заголовок кармана"
+
+msgctxt "layout.table_window[name=shop-menu].where"
+msgid "shop menu"
+msgstr "меню магазина"
+
+msgctxt "layout.table_window[name=pc-menu-descriptions].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=pc-top-menu].where"
+msgid "PC menu"
+msgstr "меню ПК"
+
+msgctxt "layout.table_window[name=pc-item-storage-menu].where"
+msgid "PC item storage menu"
+msgstr "меню хранилища предметов ПК"
+
+msgctxt "layout.table_window[name=item-pc-context-menu].where"
+msgid "item PC, item menu"
+msgstr "хранилище предметов ПК, меню предмета"
+
+msgctxt "layout.table_window[name=easy-chat-titles].where"
+msgid "easy chat screen, title window"
+msgstr "экран готовых фраз, окно заголовка"
+
+msgctxt "layout.table_window[name=easy-chat-lines].where"
+msgid "easy chat screen, message window"
+msgstr "экран готовых фраз, окно сообщений"
+
+msgctxt "layout.table_window[name=naming-titles-firered].where"
+msgid "naming screen title"
+msgstr "заголовок экрана ввода имени"
+
+msgctxt "layout.table_window[name=firered-dungeon-descriptions].where"
+msgid "Town Map, dungeon preview description"
+msgstr "карта региона, описание подземелья"
+
+msgctxt "layout.table_window[name=daycare-compatibility].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=enigma-berry-suffix].where"
+msgid "item name of the Enigma Berry"
+msgstr "название Ягоды Энигма"
+
+msgctxt "layout.table_window[name=easy-chat-words-1].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-2].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-3].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-4].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-5].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-6].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-7].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-8].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-9].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-10].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-11].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-12].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-13].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-14].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-15].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-16].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-17].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=easy-chat-words-20].where"
+msgid "easy chat word grid, phrase frame, mail and trainer card"
+msgstr "сетка слов готовых фраз, рамка фразы, почта и карточка тренера"
+
+msgctxt "layout.table_window[name=quest-log-moved-pokemon].where"
+msgid "quest log description window"
+msgstr "окно описания в журнале событий"
+
+msgctxt "layout.table_window[name=easy-chat-group-names].where"
+msgid "easy chat group menu, two columns"
+msgstr "меню групп готовых фраз, два столбца"
+
+msgctxt "layout.table_window[name=map-section-names].where"
+msgid ""
+"DexNav top bar; also map popup, Town Map, save info, summary memo, "
+"Mission Log"
+msgstr ""
+"верхняя панель ДексНав; также всплывающее название места, карта региона, "
+"сведения о сохранении, заметка в сводке и журнал заданий"
+
+msgctxt "layout.table_window[name=party-field-move-descriptions].where"
+msgid "party menu, field move description line"
+msgstr "меню команды, строка описания полевого приёма"
+
+msgctxt "layout.table_window[name=party-messages].where"
+msgid "party menu, message window above the cancel button"
+msgstr "меню команды, окно сообщений над кнопкой отмены"
+
+msgctxt "layout.table_window[name=party-slot-descriptions].where"
+msgid "party menu slot, description in place of HP"
+msgstr "ячейка меню команды, описание вместо ОЖ"
+
+msgctxt "layout.table_window[name=teachy-tv-lessons].where"
+msgid "Teachy TV lesson window 0"
+msgstr "учебное телевидение, окно урока 0"
+
+msgctxt "layout.table_window[name=union-room-player-count].where"
+msgid "Union Room group screen, player count window"
+msgstr "экран группы в комнате связи, окно числа игроков"
+
+msgctxt "layout.table_window[name=union-room-group-prompts].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=union-room-start-messages].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=union-room-battle-remarks].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=union-room-chat-remarks].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=union-room-trade-errors].where"
+msgid "party menu message box"
+msgstr "окно сообщений в меню команды"
+
+msgctxt "layout.table_window[name=union-room-card-ranks].where"
+msgid "field message box, Trainer Card summary"
+msgstr "полевое окно сообщений, сводка карточки тренера"
+
+msgctxt "layout.table_window[name=egg-origin-memo].where"
+msgid "summary screen, egg memo"
+msgstr "экран сводки, заметка о яйце"
+
+msgctxt "layout.table_window[name=berry-crush-messages].where"
+msgid "Berry Crush message box"
+msgstr "ягодный пресс, окно сообщений"
+
+msgctxt "layout.table_window[name=berry-crush-results-berries].where"
+msgid "Berry Crush results, berry column"
+msgstr "результаты ягодного пресса, столбец ягод"
+
+msgctxt "layout.table_window[name=options-labels-general].where"
+msgid "options screen, option list (general page)"
+msgstr "экран настроек, список настроек (страница «общие»)"
+
+msgctxt "layout.table_window[name=options-labels-audio].where"
+msgid "options screen, option list (audio page)"
+msgstr "экран настроек, список настроек (страница «звук»)"
+
+msgctxt "layout.table_window[name=options-labels-battle].where"
+msgid "options screen, option list (battle page)"
+msgstr "экран настроек, список настроек (страница «бой»)"
+
+msgctxt "layout.table_window[name=options-descriptions-general].where"
+msgid "options screen, description line (general page)"
+msgstr "экран настроек, строка описания (страница «общие»)"
+
+msgctxt "layout.table_window[name=options-descriptions-audio].where"
+msgid "options screen, description line (audio page)"
+msgstr "экран настроек, строка описания (страница «звук»)"
+
+msgctxt "layout.table_window[name=options-descriptions-battle].where"
+msgid "options screen, description line (battle page)"
+msgstr "экран настроек, строка описания (страница «бой»)"
+
+msgctxt "layout.table_window[name=options-values-r-button].where"
+msgid "options screen, value column"
+msgstr "экран настроек, столбец значений"
+
+msgctxt "layout.table_window[name=options-values].where"
+msgid "options screen, value column"
+msgstr "экран настроек, столбец значений"
+
+msgctxt "layout.table_window[name=options-trainer-themes].where"
+msgid "options screen, value column (Trainer Theme)"
+msgstr "экран настроек, столбец значений (музыка: тренеры)"
+
+msgctxt "layout.table_window[name=options-wild-themes].where"
+msgid "options screen, value column (Wild Theme)"
+msgstr "экран настроек, столбец значений (музыка: дикие покемоны)"
+
+msgctxt "layout.table_window[name=options-overworld-themes].where"
+msgid "options screen, value column (Overworld Theme)"
+msgstr "экран настроек, столбец значений (музыка: полевые локации)"
+
+msgctxt "layout.table_window[name=options-values-arrows].where"
+msgid "options screen, selected value between the arrows"
+msgstr "экран настроек, выбранное значение между стрелками"
+
+msgctxt "layout.table_window[name=options-values-r-button-arrows].where"
+msgid "options screen, selected value between the arrows"
+msgstr "экран настроек, выбранное значение между стрелками"
+
+msgctxt "layout.table_window[name=options-trainer-themes-arrows].where"
+msgid "options screen, selected value between the arrows (Trainer Theme)"
+msgstr ""
+"экран настроек, выбранное значение между стрелками (музыка: тренеры)"
+
+msgctxt "layout.table_window[name=options-wild-themes-arrows].where"
+msgid "options screen, selected value between the arrows (Wild Theme)"
+msgstr ""
+"экран настроек, выбранное значение между стрелками (музыка: дикие "
+"покемоны)"
+
+msgctxt "layout.table_window[name=options-overworld-themes-arrows].where"
+msgid "options screen, selected value between the arrows (Overworld Theme)"
+msgstr ""
+"экран настроек, выбранное значение между стрелками (музыка: полевые "
+"локации)"
+
+msgctxt "layout.table_window[name=frontier-tiers].where"
+msgid "Battle Frontier tier menu and field message box"
+msgstr "меню категорий Боевого рубежа и полевое окно сообщений"
+
+msgctxt "layout.table_window[name=battle-strings-1].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.table_window[name=battle-strings-2].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.table_window[name=battle-strings-3].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.table_window[name=battle-strings-4].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.table_window[name=stat-names].where"
+msgid "stat name inside battle, bag and field messages"
+msgstr ""
+"название характеристики в боевых сообщениях, сообщениях сумки и полевых "
+"сообщениях"
+
+msgctxt "layout.table_window[name=bad-egg-nickname].where"
+msgid "Pokemon nickname"
+msgstr "кличка покемона"
+
+msgctxt "layout.table_window[name=dexnav-help-pages].where"
+msgid "field message box"
+msgstr "полевое окно сообщений"
+
+msgctxt "layout.table_window[name=ball-changer-list].where"
+msgid "ball changer list and field message box"
+msgstr "список смены покебола и полевое окно сообщений"
+
+msgctxt "layout.table_window[name=dehara-lift-list].where"
+msgid "Dehara Dept. lift list"
+msgstr "список лифта Магазина Дехара"
+
+msgctxt "layout.table_window[name=dehara-lift-list-shared].where"
+msgid "Dehara Dept. lift list"
+msgstr "список лифта Магазина Дехара"
+
+msgctxt "layout.table_window[name=dehara-lift-signs].where"
+msgid "Dehara Dept. floor sign message window"
+msgstr "окно указателей этажей Магазина Дехара"
+
+msgctxt "layout.table_window[name=game-corner-item-prizes].where"
+msgid "Game Corner item prize list"
+msgstr "список призовых предметов игрового зала"
+
+msgctxt "layout.table_window[name=game-corner-pokemon-prizes].where"
+msgid "Game Corner Pokemon prize list"
+msgstr "список призовых покемонов игрового зала"
+
+msgctxt "layout.table_window[name=game-corner-tm-prizes].where"
+msgid "Game Corner TM prize list"
+msgstr "список призовых ТМ игрового зала"
+
+msgctxt "layout.table_window[name=dexnav-help-topics].where"
+msgid "DexNav help topic list"
+msgstr "список тем справки ДексНав"
+
+msgctxt "layout.table_window[name=furfrou-trims].where"
+msgid "Furfrou trim list"
+msgstr "список стрижек Фурфру"
+
+msgctxt "layout.table_window[name=frontier-party-choice].where"
+msgid "Battle Frontier team list"
+msgstr "список команд Боевого рубежа"
+
+msgctxt "layout.table_window[name=plate-trader-list].where"
+msgid "shard trader Plate list"
+msgstr "список плиток у торговца осколками"
+
+msgctxt "layout.table_window[name=gem-trader-list].where"
+msgid "Hard Stone trader Gem list"
+msgstr "список самоцветов у торговца твёрдыми камнями"
+
+msgctxt "layout.table_window[name=safari-box-texts].where"
+msgid "Safari Game message box"
+msgstr "окно сообщений игры в сафари"
+
+msgctxt "layout.table_window[name=safari-box-texts-2].where"
+msgid "Safari Game message box"
+msgstr "окно сообщений игры в сафари"
+
+msgctxt "layout.table_window[name=pep-quiz-texts].where"
+msgid "field message box, Pep Quiz"
+msgstr "полевое окно сообщений, викторина"
+
+msgctxt "layout.table_window[name=ship-passenger-dialogue].where"
+msgid "field message box, ship passengers"
+msgstr "полевое окно сообщений, пассажиры корабля"
+
+msgctxt "layout.table_window[name=ship-passenger-choices].where"
+msgid "field message box, ship passenger choices"
+msgstr "полевое окно сообщений, разговоры с пассажирами корабля"
+
+msgctxt "layout.table_window[name=ship-passenger-rematches].where"
+msgid "field message box, ship passenger rematches"
+msgstr "полевое окно сообщений, повторные разговоры с пассажирами корабля"
+
+msgctxt "layout.table_window[name=safari-berry-explanations].where"
+msgid "field message box, berry explanations"
+msgstr "полевое окно сообщений, описания ягод"
+
+msgctxt "layout.table_window[name=special-treatment-dialogue].where"
+msgid "field message box, treatment offers and results"
+msgstr "полевое окно сообщений, предложения услуг и результаты"
+
+msgctxt "layout.table_window[name=berry-recipe-lines].where"
+msgid "field message box, recipe ingredients"
+msgstr "полевое окно сообщений, ингредиенты рецептов"
+
+msgctxt "layout.table_window[name=pie-recipe-lines].where"
+msgid "field message box, recipe ingredients"
+msgstr "полевое окно сообщений, ингредиенты рецептов"
+
+msgctxt "layout.table_window[name=field-poison-recovery].where"
+msgid "field message box, poison recovery"
+msgstr "полевое окно сообщений, излечение от отравления"
+
+msgctxt "layout.table_window[name=link-setup-prompts].where"
+msgid "field message box, link setup prompts"
+msgstr "полевое окно сообщений, подсказки настройки связи"
+
+msgctxt "layout.table_window[name=oak-intro-speech].where"
+msgid "message box, professor's introduction"
+msgstr "окно сообщений, вступление профессора"
+
+msgctxt "layout.table_window[name=whiteout-recovery].where"
+msgid "whiteout recovery window"
+msgstr "окно восстановления после поражения"
+
+msgctxt "layout.table_window[name=dynamax-trainer-lines].where"
+msgid "battle message window, Dynamax trainer lines"
+msgstr "окно боевых сообщений, реплики тренеров о динамаксе"
+
+msgctxt "layout.table_window[name=timer-error].where"
+msgid "timer error window"
+msgstr "окно ошибки таймера"
+
+msgctxt "layout.table_window[name=mining-messages].where"
+msgid "mining message window"
+msgstr "окно сообщений раскопок"
+
+msgctxt "layout.table_window[name=mining-scan-mode].where"
+msgid "message box, R-Button mode notice"
+msgstr "окно сообщений, уведомление о режиме кнопки R"
+
+msgctxt "layout.table_window[name=evolution-conditions].where"
+msgid "field message box, evolution conditions"
+msgstr "полевое окно сообщений, условия эволюции"
+
+msgctxt "layout.table_window[name=nature-list].where"
+msgid "nature list"
+msgstr "список характеров"
+
+msgctxt "layout.table_window[name=trainer-card-months].where"
+msgid "trainer card, hash:b46d8a3e"
+msgstr "карточка тренера, hash:b46d8a3e"
+
+msgctxt "layout.table_window[name=firered-list-valuables].where"
+msgid "script list menu (never shown)"
+msgstr "меню списка скрипта (не показывается)"
+
+msgctxt "layout.table_window[name=firered-list-foods].where"
+msgid "script list menu (never shown)"
+msgstr "меню списка скрипта (не показывается)"
+
+msgctxt "layout.table_window[name=firered-list-fossils].where"
+msgid "script list menu (never shown)"
+msgstr "меню списка скрипта (не показывается)"
+
+msgctxt "layout.table_window[name=firered-list-badges].where"
+msgid "script list menu (never shown)"
+msgstr "меню списка скрипта (не показывается)"
+
+msgctxt "layout.table_window[name=firered-list-prices].where"
+msgid "script list menu (never shown)"
+msgstr "меню списка скрипта (не показывается)"
+
+msgctxt "layout.table_window[name=options-labels].where"
+msgid "FireRed options menu, label column"
+msgstr "меню настроек FireRed, столбец названий"
+
+msgctxt "layout.table_window[name=pc-storage-menu-items].where"
+msgid "PC storage menus"
+msgstr "меню хранилища ПК"
+
+msgctxt "layout.table_window[name=pc-storage-messages].where"
+msgid "PC storage message window"
+msgstr "окно сообщений хранилища ПК"
+
+msgctxt "layout.table_window[name=mission-banner].where"
+msgid "mission banner"
+msgstr "уведомление о задании"
+
+msgctxt "layout.table_window[name=trade-menu-messages].where"
+msgid "trade menu message window"
+msgstr "окно сообщений меню обмена"
+
+msgctxt "layout.table_window[name=seagallop-destinations].where"
+msgid "Seagallop destination menu"
+msgstr "меню направлений парома"
+
+msgctxt "layout.table_window[name=fr-multichoice-02].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-10].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-12].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-15].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-18].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-1a].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-1e].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-1c].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-01].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-28].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-2b].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-2d].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-2f].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-32].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-33].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-35].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-37].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-38].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-3d].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=fr-multichoice-3f].where"
+msgid "script choice menu"
+msgstr "меню выбора в диалоге"
+
+msgctxt "layout.table_window[name=frontier-tier-0].where"
+msgid "ban list viewer title, window 0"
+msgstr "заголовок списка запретов, окно 0"
+
+msgctxt "layout.table_window[name=frontier-tiers-2-17].where"
+msgid "ban list viewer title, window 0"
+msgstr "заголовок списка запретов, окно 0"
+
+msgctxt "layout.table_window[name=frontier-tiers-18-21].where"
+msgid "battle tier in the field message box"
+msgstr "уровень боя в полевом окне сообщений"
+
+msgctxt "layout.table_window[name=frontier-mine-formats].where"
+msgid "ban list viewer title after hash:dfef8153"
+msgstr "заголовок списка запретов после hash:dfef8153"
+
+msgctxt "layout.table_window[name=frontier-battle-formats].where"
+msgid "battle format in the field message box"
+msgstr "формат боя в полевом окне сообщений"
+
+msgctxt "layout.table_window[name=battle-circus-conditions].where"
+msgid "battle conditions in the field message box"
+msgstr "условия боя в полевом окне сообщений"
+
+msgctxt "layout.table_window[name=default-box-name].where"
+msgid "PC box name: box title, box choice popup, field texts"
+msgstr ""
+"название коробки ПК: заголовок коробки, окно выбора коробки, полевые "
+"тексты"
+
+msgctxt "layout.table_window[name=preset-box-name].where"
+msgid "PC box name: box title, box choice popup, field texts"
+msgstr ""
+"название коробки ПК: заголовок коробки, окно выбора коробки, полевые "
+"тексты"
+
+msgctxt "layout.table_window[name=default-player-names].where"
+msgid "player's name ({PLAYER})"
+msgstr "имя игрока ({PLAYER})"
+
+msgctxt "layout.table_window[name=default-rival-name].where"
+msgid "rival's name ({RIVAL})"
+msgstr "имя соперника ({RIVAL})"
+
+msgctxt "layout.table_window[name=default-rival-name-cfru].where"
+msgid "rival's name ({RIVAL})"
+msgstr "имя соперника ({RIVAL})"
+
+msgctxt "layout.table_window[name=firered-preset-names].where"
+msgid "player's or rival's name; oak speech name menu"
+msgstr "имя игрока или соперника; меню имён во вступительной речи"
+
+msgctxt "layout.table_window[name=gift-ot-name-areivax].where"
+msgid "OT name of a gift Pokemon"
+msgstr "имя первого тренера подаренного покемона"
+
+msgctxt "layout.table_window[name=gift-ot-name-ash].where"
+msgid "OT name of a gift Pokemon"
+msgstr "имя первого тренера подаренного покемона"
+
+msgctxt "layout.table_window[name=trade-nicknames].where"
+msgid "nickname of an in-game trade Pokemon"
+msgstr "кличка покемона из внутриигрового обмена"
+
+msgctxt "layout.table_window[name=trade-ot-names].where"
+msgid "OT name of an in-game trade Pokemon"
+msgstr "имя первого тренера покемона из внутриигрового обмена"
+
+msgctxt "layout.table_window[name=z-move-names].where"
+msgid "battle move menu in Z mode and battle messages"
+msgstr "меню приёмов в режиме Z и боевые сообщения"
+
+msgctxt "layout.table_window[name=egg-hatch-time].where"
+msgid "Egg Summary information window"
+msgstr "информационное окно сводки яйца"
+
+msgctxt "layout.record_window[name=mission-log].where"
+msgid "Mission Log, text window"
+msgstr "журнал заданий, окно текста"
+
+msgctxt "layout.record_window[name=mission-log-list].where"
+msgid "Mission Log, mission list"
+msgstr "журнал заданий, список заданий"
+
+msgctxt "layout.code_fill[ids=s04162A9].where"
+msgid "Safari Zone counter window"
+msgstr "окно счётчиков зоны сафари"
+
+msgctxt "layout.code_fill[ids=s0418188].where"
+msgid "link battle records, total line"
+msgstr "рекорды боёв по связи, итоговая строка"
+
+msgctxt "layout.code_fill[ids=s041D13C].where"
+msgid "Berry Crush records, players"
+msgstr "рекорды ягодного пресса, игроки"
+
+msgctxt "layout.code_fill[ids=s041DF82].where"
+msgid "Cable Club player count window"
+msgstr "окно числа игроков кабельного клуба"
+
+msgctxt "layout.code_fill[ids=s03FE998].where"
+msgid "Trainer Tower board, time"
+msgstr "табло башни тренеров, время"
+
+msgctxt "layout.code_fill[name=fill-05].where"
+msgid "battle action prompt, window 1"
+msgstr "приглашение выбрать действие в бою, окно 1"
+
+msgctxt "layout.code_fill[name=fill-06].where"
+msgid "shop quantity box, In Cube"
+msgstr "окно количества в магазине, количество в кубе"
+
+msgctxt "layout.code_fill[name=fill-07].where"
+msgid "Safari Game bar, balls left"
+msgstr "панель игры в сафари, оставшиеся покеболы"
+
+msgctxt "layout.code_fill[name=fill-08].where"
+msgid "Safari Game bar, Berry to throw"
+msgstr "панель игры в сафари, ягода для броска"
+
+msgctxt "layout.code_fill[ids=s1F682DC].where"
+msgid "Safari Game message box, caught count"
+msgstr "окно сообщений игры в сафари, число пойманных"
+
+msgctxt "layout.code_fill[ids=s1F683E9].where"
+msgid "Safari Game message box, skip cost"
+msgstr "окно сообщений игры в сафари, цена пропуска"
+
+msgctxt ""
+"layout.code_fill[ids=s1F061A0,s1F061B6,s1F061F8,s1F06231,s1F06270,s1F065CB,s1F0660E,s1F062B0,s1F062D4,s1F062FA,s1F06319,s1F06702,s1F0679C].where"
+msgid "evolution conditions, level"
+msgstr "условия эволюции, уровень"
+
+msgctxt "layout.code_fill[ids=s1F06757].where"
+msgid "evolution conditions, damage (never shown)"
+msgstr "условия эволюции, урон (не показывается)"
+
+msgctxt "layout.code_fill[name=fill-13].where"
+msgid "PC storage message window, nickname"
+msgstr "окно сообщений хранилища ПК, кличка"
+
+msgctxt "layout.code_fill[name=fill-14].where"
+msgid "PC storage message window, item name"
+msgstr "окно сообщений хранилища ПК, название предмета"
+
+msgctxt "layout.code_fill[name=fill-15].where"
+msgid "field message box, name of the current PC box"
+msgstr "полевое окно сообщений, название текущей коробки ПК"
+
+msgctxt "layout.code_fill[name=fill-16].where"
+msgid "field message box, name of PC box 25"
+msgstr "полевое окно сообщений, название коробки ПК 25"
+
+msgctxt "layout.code_fill[name=fill-17].where"
+msgid "Safari Game message box, PC box of a caught Pokemon"
+msgstr "окно сообщений игры в сафари, коробка ПК пойманного покемона"
+
+msgctxt "layout.code_fill[name=fill-18].where"
+msgid "field message box, frontier record: tier and battle format"
+msgstr "полевое окно сообщений, рекорд рубежа: категория и формат боя"
+
+msgctxt "layout.code_fill[name=fill-19].where"
+msgid "field message box, Battle Mine trainer: tier and battle format"
+msgstr "полевое окно сообщений, тренер боевой шахты: категория и формат боя"
+
+msgctxt "layout.code_fill[name=fill-20].where"
+msgid "battle text, name of the opposing trainer"
+msgstr "боевой текст, имя тренера противника"
+
+msgctxt "layout.code_fill[name=fill-21].where"
+msgid "battle text, name of the second opposing trainer"
+msgstr "боевой текст, имя второго тренера противника"
+
+msgctxt "layout.code_fill[name=fill-22].where"
+msgid "battle text, name of the player's partner"
+msgstr "боевой текст, имя напарника игрока"
+
+msgctxt "layout.code_fill[name=fill-23].where"
+msgid "field message box, name of the raid partner"
+msgstr "полевое окно сообщений, имя напарника по рейду"
+
+msgctxt "layout.code_fill[name=fill-24].where"
+msgid "battle text, class of the second opposing trainer"
+msgstr "боевой текст, класс второго тренера противника"
+
+msgctxt "layout.code_fill[name=fill-25].where"
+msgid "battle text, class of the player's partner"
+msgstr "боевой текст, класс напарника игрока"
+
+msgctxt "layout.code_fill[name=fill-26].where"
+msgid "battle text, class of the opposing trainer, class 45"
+msgstr "боевой текст, класс тренера противника, класс 45"
+
+msgctxt "layout.code_fill[name=fill-27].where"
+msgid ""
+"battle text, class and name of the opposing trainer in the switch prompt"
+msgstr "боевой текст, класс и имя тренера противника в запросе замены"
+
+msgctxt "layout.code_fill[name=fill-28].where"
+msgid "Union Room trade offer, registered and offered Pokémon"
+msgstr ""
+"предложение обмена в комнате связи, зарегистрированный и предлагаемый "
+"покемоны"
+
+msgctxt "layout.code_fill[name=fill-29].where"
+msgid "quest log, champion battle"
+msgstr "журнал событий, бой с чемпионом"
+
+msgctxt "layout.code_fill[name=fill-30].where"
+msgid "quest log, champion battle send-outs"
+msgstr "журнал событий, выход покемонов в бою с чемпионом"
+
+msgctxt "layout.code_fill[name=fill-31].where"
+msgid "quest log, champion battle result"
+msgstr "журнал событий, результат боя с чемпионом"
+
+msgctxt "layout.code_fill[name=fill-32].where"
+msgid "quest log, single and double link battles"
+msgstr "журнал событий, одиночные и парные бои по связи"
+
+msgctxt "layout.code_fill[name=fill-33].where"
+msgid "quest log, multi link battle"
+msgstr "журнал событий, командный бой по связи"
+
+msgctxt "layout.code_fill[name=fill-34].where"
+msgid "quest log, moves between PC boxes"
+msgstr "журнал событий, перемещения между коробками ПК"
+
+msgctxt "layout.code_fill[name=fill-35].where"
+msgid "quest log, moves within a PC box and with the party"
+msgstr ""
+"журнал событий, перемещения внутри коробки ПК и между коробкой и командой"
+
+msgctxt "layout.code_fill[name=fill-36].where"
+msgid "quest log, deposit in the PC"
+msgstr "журнал событий, помещение в ПК"
+
+msgctxt "layout.code_fill[name=fill-37].where"
+msgid "quest log, group move in the PC"
+msgstr "журнал событий, групповое перемещение в ПК"
+
+msgctxt "layout.code_fill[name=fill-38].where"
+msgid "quest log, Poke Mart purchases and sales"
+msgstr "журнал событий, покупки и продажи в Покемаркете"
+
+msgctxt "layout.code_fill[name=fill-39].where"
+msgid "quest log, Poke Mart sale of one item"
+msgstr "журнал событий, продажа одного предмета в Покемаркете"
+
+msgctxt "layout.code_fill[name=fill-40].where"
+msgid "quest log, wild Pokemon defeated and caught"
+msgstr "журнал событий, побеждённые и пойманные дикие покемоны"
+
+msgctxt "layout.code_fill[name=fill-41].where"
+msgid "quest log, Gym Leader and trainer battles"
+msgstr "журнал событий, бои с лидерами стадионов и тренерами"
+
+msgctxt "layout.code_fill[name=fill-42].where"
+msgid "quest log, Elite Four battles"
+msgstr "журнал событий, бои с Элитной четвёркой"
+
+msgctxt "layout.code_fill[name=fill-43].where"
+msgid "quest log item animation, move forgotten and learned"
+msgstr "анимация предмета в журнале событий, забытый и изученный приём"
+
+msgctxt "layout.code_fill[name=fill-44].where"
+msgid "Union Room chat log; diploma player line"
+msgstr "журнал чата комнаты связи; строка игрока в дипломе"
+
+msgctxt "layout.code_fill[name=fill-45].where"
+msgid "diploma body"
+msgstr "текст диплома"
+
+msgctxt "layout.code_fill[name=fill-46].where"
+msgid "Pokemon Jump prize message"
+msgstr "сообщение о призе в прыжках покемонов"
+
+msgctxt "layout.code_fill[name=fill-47].where"
+msgid "Dodrio Berry Picking prize line"
+msgstr "строка приза в сборе ягод Додрио"
+
+msgctxt "layout.code_fill[name=fill-48].where"
+msgid "Battle Sands announcer, field message box"
+msgstr "объявления боевых песков, полевое окно сообщений"
+
+msgctxt ""
+"layout.code_fill[ids=s1F90F9C,s1F91096,s1F911A0,s1F91296,s1F921A0,s1F921DE,s1F9221F,s1F922E7,s1F9231D,s1F9952A,s1F9954C,s1F99574,s1F995D1,s1F9B245].where"
+msgid "field message box, colour reset from script buffer 5"
+msgstr "полевое окно сообщений, сброс цвета из буфера скрипта 5"
+
+msgctxt "layout.code_fill[ids=s1F99574].where"
+msgid "Battle Frontier item quantity and total BP price"
+msgstr "количество предметов и общая цена в БО на Боевом рубеже"
+
+msgctxt "layout.code_fill[name=fill-49].where"
+msgid "Pokemon summary, trainer memo"
+msgstr "сводка покемона, заметка тренера"
+
+msgctxt "layout.code_fill[name=fill-50].where"
+msgid "Union Room, a partner's trainer card and greeting, field message box"
+msgstr ""
+"комната связи, карточка тренера и приветствие партнёра, полевое окно "
+"сообщений"
+
+msgctxt "layout.code_fill[name=fill-51].where"
+msgid "Union Room, a partner's trainer card, field message box"
+msgstr "комната связи, карточка тренера партнёра, полевое окно сообщений"
+
+msgctxt "layout.code_fill[name=stat-names].where"
+msgid "stat-change messages: battle message window, bag message box"
+msgstr ""
+"сообщения об изменении характеристик: окно боевых сообщений, окно "
+"сообщений сумки"
+
+msgctxt "layout.code_fill[ids=s0457234,s0457264,s0457700].where"
+msgid "Union Room activity names"
+msgstr "названия занятий в комнате связи"
+
+msgctxt "layout.code_fill[name=mega-nickname].where"
+msgid "Mega Evolution and wish messages, unprefixed nickname"
+msgstr "сообщения мегаэволюции и желания, кличка без префикса"
+
+msgctxt "layout.code_fill[name=mega-keystones].where"
+msgid "Mega Evolution reaction, keystone item name"
+msgstr "реакция при мегаэволюции, название предмета с ключевым камнем"
+
+msgctxt "layout.code_fill[name=mega-stones].where"
+msgid "Mega Evolution reaction, held Mega Stone name"
+msgstr "реакция при мегаэволюции, название удерживаемого мегакамня"
+
+msgctxt "layout.code_fill[name=mega-species].where"
+msgid "Mega Evolution completion, transformed species name"
+msgstr "завершение мегаэволюции, название вида после превращения"
+
+msgctxt "layout.code_fill[name=mega-trainers].where"
+msgid "Mega Evolution and wish messages, scripting trainer name"
+msgstr "сообщения мегаэволюции и желания, имя тренера действующего покемона"
+
+msgctxt "layout.code_fill[name=mega-typed-trainers].where"
+msgid "Mega Evolution and wish messages, typed trainer name"
+msgstr "сообщения мегаэволюции и желания, введённое имя тренера"
+
+msgctxt "layout.code_fill[name=trace-source].where"
+msgid "Trace source name and copied ability"
+msgstr "имя источника Кальки и скопированный талант"
+
+msgctxt "layout.code_fill[name=last-item-s08A0D00].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s08B4EC0].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s08B99B0].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s08B9D40].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s08BF360].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s08BF460].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s0A4AF77].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s03FD8D2].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s0A4B2BF].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s03FD937].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=last-item-s03FCCA0].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=paired-first-trainer].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=paired-trainer-title].where"
+msgid "battle message window"
+msgstr "окно боевых сообщений"
+
+msgctxt "layout.code_fill[name=friendship-berry-stats].where"
+msgid "Party menu friendship berry messages"
+msgstr "Сообщения о ягодах дружбы в меню команды"
+
+msgctxt "layout.code_fill[name=vitamin-stats].where"
+msgid "Party menu vitamin and wing messages"
+msgstr "Сообщения о витаминах и крыльях в меню команды"
+
+msgctxt "layout.code_fill[name=script-berry-stats].where"
+msgid "Unused berry script messages"
+msgstr "Неиспользуемые сообщения сценариев ягод"
+
+msgctxt "layout.code_fill[name=training-stat-limit].where"
+msgid "Stat training refusal message"
+msgstr "Сообщение об отказе в тренировке параметра"
+
+msgctxt "layout.code_fill[name=daily-stat-request].where"
+msgid "Daily stat request message"
+msgstr "Сообщение ежедневного запроса параметра"
+
+msgctxt "layout.code_fill[name=training-stat-success].where"
+msgid "Stat training success message"
+msgstr "Сообщение об успешной тренировке параметра"
+
+msgctxt "layout.code_fill[name=effort-raise-stat].where"
+msgid "Effort value raising messages"
+msgstr "Сообщения о повышении значений усилий"
+
+msgctxt "layout.code_fill[name=effort-reset-stat].where"
+msgid "Effort value reset messages"
+msgstr "Сообщения об обнулении значений усилий"
+
+msgctxt "layout.code_fill[name=effort-raise-amount].where"
+msgid "Effort value raising messages, the number of points"
+msgstr "Сообщения о повышении значений усилий, число очков"
+
+msgctxt "text_prefixes[name=berry-number-prefix].limits.where"
+msgid "Berry Pouch formatted item rows"
+msgstr "форматированные строки предметов в кармане ягод"

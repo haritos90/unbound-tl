@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: script/region-0270000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (reach study: unreachable script text)
+#. category: script; mode: field
+#. original lines: 8, widths px: 166, 185, 184, 178, 154, 170, 168, 169
+#: 0x0270fa1
+msgctxt "hash:53bf4cb0"
+msgid "hash:53bf4cb0"
+msgstr ""

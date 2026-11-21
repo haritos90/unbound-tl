@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/music_prefix_battle\n"
+"X-Source: key-only\n"
+
+# Kept; matching uses the first eight music-name characters
+# no Russian music name starts with it
+#. category: table:music_prefix_battle; mode: field
+#. fixed field: 8 characters max (table music_prefix_battle, index 0)
+#. original lines: 1, widths px: 39
+#: 0x1fb3860
+msgctxt "table:music_prefix_battle/0"
+msgid "table:music_prefix_battle/0"
+msgstr "Battle! "

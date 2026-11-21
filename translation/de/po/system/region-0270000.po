@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/region-0270000\n"
+"X-Source: key-only\n"
+
+#. reach: never shown (review: Code uses the older string loader at 0x203C020. The strings' only pointers are pools whose loads the code stores to 0x203C020 and setword operands to 0x203C020. The str instructions are at 0x271B26, 0x271BC6, 0x2778B6, 0x825630, 0x8A3CCA, 0x8B7174, 0x9065D2, 0x90866E and 0x90FF7E. Only 0x8908048 reads 0x203C020 for string id 0x184. That reader is entered only through pool 0x80D77CC in the dead body of FireRed BufferStringBattle. The BufferStringBattle entry at 0x80D7274 jumps to CFRU 0x89BDA88, which reads id 0x184 from 0x203E020 through pool 0x9BDD8C.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 176, 98
+#: 0x0271c3e
+msgctxt "hash:533e7836"
+msgid "hash:533e7836"
+msgstr ""
+
+#. reach: never shown (review: Code uses the older string loader at 0x203C020. The strings' only pointers are pools whose loads the code stores to 0x203C020 and setword operands to 0x203C020. The str instructions are at 0x271B26, 0x271BC6, 0x2778B6, 0x825630, 0x8A3CCA, 0x8B7174, 0x9065D2, 0x90866E and 0x90FF7E. Only 0x8908048 reads 0x203C020 for string id 0x184. That reader is entered only through pool 0x80D77CC in the dead body of FireRed BufferStringBattle. The BufferStringBattle entry at 0x80D7274 jumps to CFRU 0x89BDA88, which reads id 0x184 from 0x203E020 through pool 0x9BDD8C.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 169, 98
+#: 0x027792c
+msgctxt "hash:31267c00"
+msgid "hash:31267c00"
+msgstr ""
+
+#. reach: never shown (review: Code uses the older string loader at 0x203C020. The strings' only pointers are pools whose loads the code stores to 0x203C020 and setword operands to 0x203C020. The str instructions are at 0x271B26, 0x271BC6, 0x2778B6, 0x825630, 0x8A3CCA, 0x8B7174, 0x9065D2, 0x90866E and 0x90FF7E. Only 0x8908048 reads 0x203C020 for string id 0x184. That reader is entered only through pool 0x80D77CC in the dead body of FireRed BufferStringBattle. The BufferStringBattle entry at 0x80D7274 jumps to CFRU 0x89BDA88, which reads id 0x184 from 0x203E020 through pool 0x9BDD8C.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 168, 142
+#: 0x027795d
+msgctxt "hash:73b3f6d0"
+msgid "hash:73b3f6d0"
+msgstr ""
+
+#. reach: never shown (review: Code uses the older string loader at 0x203C020. The strings' only pointers are pools whose loads the code stores to 0x203C020 and setword operands to 0x203C020. The str instructions are at 0x271B26, 0x271BC6, 0x2778B6, 0x825630, 0x8A3CCA, 0x8B7174, 0x9065D2, 0x90866E and 0x90FF7E. Only 0x8908048 reads 0x203C020 for string id 0x184. That reader is entered only through pool 0x80D77CC in the dead body of FireRed BufferStringBattle. The BufferStringBattle entry at 0x80D7274 jumps to CFRU 0x89BDA88, which reads id 0x184 from 0x203E020 through pool 0x9BDD8C.)
+#. category: code; mode: field
+#. original lines: 2, widths px: 169, 142
+#: 0x0277999
+msgctxt "hash:a4c67b38"
+msgid "hash:a4c67b38"
+msgstr ""

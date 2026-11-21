@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/route-8\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 44, 145
+#: 0x1f65e64
+msgctxt "map:3.77/npc:16/3"
+msgid "map:3.77/npc:16/3"
+msgstr "Всё готово! Береги себя в метель!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 82
+#: 0x1f65e88
+msgctxt "map:3.77/npc:21/7"
+msgid "map:3.77/npc:21/7"
+msgstr "Без урона от падения"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 167, 176, 177, 44, 198, 198, 178, 49, 170, 41
+#: 0x1f65ed3
+msgctxt "map:3.77/npc:21/10"
+msgid "map:3.77/npc:21/10"
+msgstr ""
+"А, тренер! Знаешь, есть секретное боевое искусство, которое позволяет "
+"прыгать с небольшой высоты без урона от падения?\\pПросто подойди к краю "
+"уступа или скалы, прыгни и мягко приземлись.\\pНо эта техника требует "
+"долгих тренировок.\\pНу что, сделаешь для тренировки {COLOR "
+"06}{STR_VAR_1}{COLOR 08} прыжков?"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 177, 83, 176, 166, 83, 176
+#: 0x1f65fdd
+msgctxt "map:3.77/npc:21/12"
+msgid "map:3.77/npc:21/12"
+msgstr ""
+"Для начала надо потянуться.\\pИ не расстраивайся, если при первых "
+"попытках получишь урон от падения.\\pТакое бывает и с лучшими прыгунами."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 178, 167
+#: 0x1f6607d
+msgctxt "map:3.77/npc:21/11"
+msgid "map:3.77/npc:21/11"
+msgstr "Надеюсь, ещё захочешь освоить этот сверхсекретный навык."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 168, 85, 162, 109
+#: 0x1f660bd
+msgctxt "map:3.77/npc:21/4"
+msgid "map:3.77/npc:21/4"
+msgstr ""
+"Прыжков без урона от падения: пока всего {COLOR 06}{STR_VAR_2}{COLOR "
+"08}{FD 07}.\\pЧтобы стать мастером, нужно ещё хотя бы {COLOR "
+"06}{STR_VAR_3}{COLOR 08}."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 161, 157, 113, 152, 174, 70, 190, 105
+#: 0x1f6612f
+msgctxt "map:3.77/npc:21/5"
+msgid "map:3.77/npc:21/5"
+msgstr ""
+"Ого, теперь ты мастерски прыгаешь с небольшой высоты без урона от "
+"падения!\\pТы и не представляешь, сколько тренеров получает при этом "
+"лёгкие травмы!\\pВ общем, вот Протеин: перекуси после тренировки."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 178, 41, 138, 54
+#: 0x1f66200
+msgctxt "map:3.77/npc:21/9"
+msgid "map:3.77/npc:21/9"
+msgstr ""
+"Прыгать с небольшой высоты надо уметь.\\pНе слушай тех, кто говорит иначе."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 193
+#: 0x1f6624f
+msgctxt "map:3.77/npc:7/0"
+msgid "map:3.77/npc:7/0"
+msgstr "Бои на снегу меня бодрят!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 78, 176
+#: 0x1f66273
+msgctxt "map:3.77/npc:7/1"
+msgid "map:3.77/npc:7/1"
+msgstr "Ар-р-гх, проиграл… Может, я не так тренируюсь?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 119
+#: 0x1f662a3
+msgctxt "map:3.77/npc:7/4"
+msgid "map:3.77/npc:7/4"
+msgstr "Станешь сильнее ты - стану сильнее и я!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 180, 46, 169, 41
+#: 0x1f662db
+msgctxt "map:3.77/npc:8/0"
+msgid "map:3.77/npc:8/0"
+msgstr ""
+"Слабых покемонов лучше не выпускай!\\pТвои противники - мои напарники на "
+"всю жизнь!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 162, 85
+#: 0x1f6632d
+msgctxt "map:3.77/npc:8/1"
+msgid "map:3.77/npc:8/1"
+msgstr "Спасибо, друзья… Вы так старались."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 153
+#: 0x1f6635b
+msgctxt "map:3.77/npc:8/4"
+msgid "map:3.77/npc:8/4"
+msgstr "Что бы ни случилось, мои покемоны останутся со мной до конца!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 29, 152
+#: 0x1f66398
+msgctxt "map:3.77/npc:9/0"
+msgid "map:3.77/npc:9/0"
+msgstr "Ладно! Начнём бой!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 166
+#: 0x1f663bb
+msgctxt "map:3.77/npc:9/1"
+msgid "map:3.77/npc:9/1"
+msgstr "Я могу драться, а мои покемоны…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 111
+#: 0x1f663d9
+msgctxt "map:3.77/npc:9/4"
+msgid "map:3.77/npc:9/4"
+msgstr "Даже когда проигрываю, мне всё равно по-своему весело."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 159, 138
+#: 0x1f66411
+msgctxt "map:3.77/npc:10/0"
+msgid "map:3.77/npc:10/0"
+msgstr "К снегу я привык. Теперь иду в гору с песней."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 100
+#: 0x1f66449
+msgctxt "map:3.77/npc:10/1"
+msgid "map:3.77/npc:10/1"
+msgstr "Но сражаться на снегу всё-таки нелегко…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 189, 87, 190, 69
+#: 0x1f6647d
+msgctxt "map:3.77/npc:10/4"
+msgid "map:3.77/npc:10/4"
+msgstr ""
+"Был бы у меня велосипед - взбираться было бы куда проще.\\pНо где здесь "
+"вообще раздобыть велосипед?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 148
+#: 0x1f664df
+msgctxt "map:3.77/npc:11/0"
+msgid "map:3.77/npc:11/0"
+msgstr "Бей, пока не ударили тебя!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 163
+#: 0x1f664fb
+msgctxt "map:3.77/npc:11/1"
+msgid "map:3.77/npc:11/1"
+msgstr "Сил на бой больше нет!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 186, 99
+#: 0x1f66519
+msgctxt "map:3.77/npc:11/4"
+msgid "map:3.77/npc:11/4"
+msgstr "Если бежать и бежать, сольёшься с ветром."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 180, 100
+#: 0x1f6654e
+msgctxt "map:3.77/npc:12/0"
+msgid "map:3.77/npc:12/0"
+msgstr "{COLOR 04}Пикники всюду в радость, как и покемоны!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 158, 57
+#: 0x1f66585
+msgctxt "map:3.77/npc:12/1"
+msgid "map:3.77/npc:12/1"
+msgstr "Я проиграла, потому что под ногами столько снега!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 121
+#: 0x1f665ad
+msgctxt "map:3.77/npc:12/4"
+msgid "map:3.77/npc:12/4"
+msgstr "{COLOR 04}Забуду о проигрыше и просто наслажусь походом по снегу."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 170, 76, 160
+#: 0x1f665e9
+msgctxt "map:3.77/npc:13/0"
+msgid "map:3.77/npc:13/0"
+msgstr "Я в горах родился, вырос и живу.\\pЯ Топ-турист, говорю тебе."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 82
+#: 0x1f66636
+msgctxt "map:3.77/npc:13/1"
+msgid "map:3.77/npc:13/1"
+msgstr "Говорю тебе, ты сильнее самого Топ-туриста!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 184, 112
+#: 0x1f66667
+msgctxt "map:3.77/npc:13/4"
+msgid "map:3.77/npc:13/4"
+msgstr "Горы никто не знает лучше меня, говорю тебе."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 196, 81, 183, 58
+#: 0x1f6669e
+msgctxt "map:3.77/npc:14/0"
+msgid "map:3.77/npc:14/0"
+msgstr ""
+"Сколько тысяч лет я уже здесь…\\pВот бы проиграть - мой путь бы "
+"завершился…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 58, 58, 198
+#: 0x1f666fc
+msgctxt "map:3.77/npc:14/1"
+msgid "map:3.77/npc:14/1"
+msgstr "Спасибо…\\pСпасибо…\\pТеперь мой путь может завершиться…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 122, 198, 69
+#: 0x1f66735
+msgctxt "map:3.77/npc:14/4"
+msgid "map:3.77/npc:14/4"
+msgstr "Благодаря тебе я свободен…\\pЯ от всего сердца тебе признателен…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 41, 117, 89, 146
+#: 0x1f7109d
+msgctxt "map:3.77/sign:0/0"
+msgid "map:3.77/sign:0/0"
+msgstr ""
+"Маршрут 8\\n“Вершина горы Фрост”\\p{UP_ARROW} Город Близзард\\n"
+"{DOWN_ARROW} Гора Фрост, Маршрут 7"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 70, 188, 189, 181, 168, 176, 114
+#: 0x1f73965
+msgctxt "map:3.77/sign:2/0"
+msgid "map:3.77/sign:2/0"
+msgstr ""
+"{COLOR 02}Советы тренерам!\\pЧисло очков опыта за бой зависит от уровней "
+"покемонов.\\pЕсли ваш покемон слабее противника, он получит больше.\\pА "
+"если сильнее, ему достанется меньше."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 31, 188, 30
+#: 0x1f9d295
+msgctxt "map:3.77/trigger:6/1"
+msgid "map:3.77/trigger:6/1"
+msgstr "{COLOR 08}Хнык…\\pКажется, домой не в эту сторону…"
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 4, widths px: 31, 173, 152, 89
+#: 0x1f9d2c9
+msgctxt "map:3.77/trigger:0/1"
+msgid "map:3.77/trigger:0/1"
+msgstr ""
+"{COLOR 08}Хнык…\\pОтсюда я знаю дорогу домой.\\pС тобой было весело "
+"гулять! Ты лучше всех!"

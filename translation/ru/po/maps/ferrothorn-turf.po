@@ -1,0 +1,454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/ferrothorn-turf\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 58, 89, 174, 185, 104
+#: 0x1fa21dd
+msgctxt "map:23.1/npc:0/0"
+msgid "map:23.1/npc:0/0"
+msgstr ""
+"Давай, {PLAYER}!\\nЗадай им жару!\\pПока Джеймс разбирается с их главарём "
+"на {COLOR 06}верхнем этаже{COLOR 08}, нам надо устроить тут погром!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 184, 196, 190, 138
+#: 0x1fa2257
+msgctxt "map:23.1/npc:1/1"
+msgid "map:23.1/npc:1/1"
+msgstr ""
+"Вам конец, придурки, слышь?\\pНикто из вас, придурков, отсюда не уйдёт, "
+"пока с вами, Чёрными Ферроторнами, не будет покончено!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 140, 176, 85
+#: 0x1fa22d9
+msgctxt "map:23.1/npc:1/3"
+msgid "map:23.1/npc:1/3"
+msgstr "Ты чего, чувак?\\pЯ тут просто хочу спокойно посмотреть телик!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 151, 96
+#: 0x1fa2324
+msgctxt "map:23.1/npc:3/1"
+msgid "map:23.1/npc:3/1"
+msgstr "Эй, чувак, я тут первый сел!\\pЭто мой диван!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 125, 167, 101, 186, 86
+#: 0x1fa2352
+msgctxt "map:23.1/npc:3/3"
+msgid "map:23.1/npc:3/3"
+msgstr ""
+"Эй, чувак, хорош толкаться!\\pА то они заметят, что мы друг с другом "
+"грызёмся!\\pТут места на нас двоих с лихвой хватит!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 88, 198, 169, 128
+#: 0x1fa23d0
+msgctxt "map:23.1/npc:5/1"
+msgid "map:23.1/npc:5/1"
+msgstr ""
+"Я тебя помню!\\pТы из тех балбесов, что спустили мои носки в "
+"канализацию!\\pА ну-ка понюхай их теперь!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 88, 144, 58
+#: 0x1fa243b
+msgctxt "map:23.1/npc:5/3"
+msgid "map:23.1/npc:5/3"
+msgstr "Фу… ну ты чего, чувак!\\pУбери их от моего носа!\\nВоняют же!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 71, 195, 196, 183, 75
+#: 0x1fa2470
+msgctxt "map:23.1/npc:7/1"
+msgid "map:23.1/npc:7/1"
+msgstr ""
+"Помнишь меня?\\pВы с дружком пытались сорвать мне дело в доках!\\pА без "
+"приятеля-то ты уже не такой крутой, а?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 165, 157, 195, 188, 63
+#: 0x1fa24f4
+msgctxt "map:23.1/npc:7/3"
+msgid "map:23.1/npc:7/3"
+msgstr ""
+"Ты на меня на мотоцикле прёшь!\\pЧто я, по-твоему, должен сказать?\\pЧто "
+"мне хватит духу схлестнуться с тем, кто на мотоцикле?\\pДа, хватит!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 110, 133, 170
+#: 0x1fa2580
+msgctxt "map:23.1/npc:9/0"
+msgid "map:23.1/npc:9/0"
+msgstr ""
+"Возрождённые Тени…\\pМы - Чёрный горизонт!\\nВот мы и на твоём горизонте!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 140, 81
+#: 0x1fa25cd
+msgctxt "map:23.1/npc:9/1"
+msgid "map:23.1/npc:9/1"
+msgstr "Даже с новой силой…\\nне смог победить!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 167, 69, 201, 186, 30
+#: 0x1fa25f7
+msgctxt "map:23.1/npc:9/2"
+msgid "map:23.1/npc:9/2"
+msgstr ""
+"Я не представлял жизни без Теней.\\pНо когда мы встретили босса и она "
+"дала нам новую цель, мы тут же к ней примкнули!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 89, 91, 41, 135, 102
+#: 0x1fa2670
+msgctxt "map:23.1/npc:10/0"
+msgid "map:23.1/npc:10/0"
+msgstr ""
+"Идём на тебя!\\nТеррор Грэн…\\pТо есть…\\pвот мы и на твоём горизонте!\\n"
+"Чёрный горизонт!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 133
+#: 0x1fa26c7
+msgctxt "map:23.1/npc:10/1"
+msgid "map:23.1/npc:10/1"
+msgstr "Даже на горизонте не показался…"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 133, 185, 152, 135
+#: 0x1fa26e0
+msgctxt "map:23.1/npc:10/2"
+msgid "map:23.1/npc:10/2"
+msgstr ""
+"Мы - Чёрный горизонт!\\pТеррор Грэнбулл и Чёрный клан “{PLAYER}” "
+"объединились, так что теперь наша банда больше и круче!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 125
+#: 0x1fa2753
+msgctxt "map:2.43/npc:0/0"
+msgid "map:2.43/npc:0/0"
+msgstr "А ну проваливай отсюда, сопля!"
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 3, widths px: 197, 179, 59
+#: 0x1fa276a
+msgctxt "map:2.43/npc:1/0"
+msgid "map:2.43/npc:1/0"
+msgstr "Может, самое время мне завязать со всем этим Светом гибели…"
+
+#. category: script; mode: field
+#. used in 12 places
+#. original lines: 1, widths px: 136
+#: 0x1fa27bb
+msgctxt "map:2.43/npc:3/0"
+msgid "map:2.43/npc:3/0"
+msgstr "Показать комбинацию ещё раз?"
+
+#. category: script; mode: field
+#. used in 12 places
+#. original lines: 2, widths px: 153, 44
+#: 0x1fa27d4
+msgctxt "map:2.44/sign:0/0"
+msgid "map:2.44/sign:0/0"
+msgstr "Зелёные огоньки то загораются, то гаснут."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 197, 171, 131, 104
+#: 0x1fa27fa
+msgctxt "map:2.44/npc:0/0"
+msgid "map:2.44/npc:0/0"
+msgstr ""
+"Какая-то сопля влезла в наш район!\\pТы ведь не из этого Чёрного клана "
+"“{PLAYER}”? Слыхал, они тут повсюду шастают!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 162, 89
+#: 0x1fa286c
+msgctxt "map:2.44/npc:0/1"
+msgid "map:2.44/npc:0/1"
+msgstr "Эта сопля точно пришла захватить наш район…"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 182, 95, 192, 177, 125, 172, 158, 135, 60
+#: 0x1fa289c
+msgctxt "map:2.44/npc:0/2"
+msgid "map:2.44/npc:0/2"
+msgstr ""
+"Ну-ну, попробуй пробиться дальше нижних этажей!\\pНаша навороченная "
+"система охраны - дело рук не кого-нибудь, а самых настоящих ботаников!\\p"
+"Круче не придумаешь!\\pЭти ботаники своё дело знают, точно тебе говорю!\\p"
+"Бва-ха-ха!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 190, 177, 107, 173, 184
+#: 0x1fa298d
+msgctxt "map:2.44/npc:1/0"
+msgid "map:2.44/npc:1/0"
+msgstr ""
+"Как юному тренеру удалось обойти нашу навороченную систему?\\pА, "
+"неважно.\\pУ нас есть и старая добрая система охраны - грубая сила!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 153, 38
+#: 0x1fa2a28
+msgctxt "map:2.45/npc:0/1"
+msgid "map:2.45/npc:0/1"
+msgstr "Одной грубой силой тут не обойтись…"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 194, 194, 75, 176, 113
+#: 0x1fa2a4d
+msgctxt "map:2.45/npc:0/2"
+msgid "map:2.45/npc:0/2"
+msgstr ""
+"Чем выше, тем сложнее взломать нашу навороченную систему охраны!\\p"
+"Думаешь, твоих жалких мозгов на это хватит?"
+
+#. category: script; mode: field
+#. used in 7 places
+#. original lines: 8, widths px: 183, 150, 189, 125, 115, 176, 172, 169
+#: 0x1fa2ad8
+msgctxt "map:2.45/npc:1/0"
+msgid "map:2.45/npc:1/0"
+msgstr ""
+"Думаешь, раз внизу коды раскусить удалось, так ты у нас гений, да?\\pА "
+"вот хватит ли тебе ума взломать код от этой двери?\\pЧа-ха, сомневаюсь!\\p"
+"Систему охраны строили ботаники из Научного общества, и этот код они "
+"сделали особо заковыристым!"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 48, 187, 180, 30, 189, 183, 194, 191, 190, 116
+#: 0x1fa2bc3
+msgctxt "map:2.46/sign:2/1"
+msgid "map:2.46/sign:2/1"
+msgstr ""
+"Ча-ха!\\pДумаешь, я дам такой мелкой сопле, как ты, взломать код?\\p"
+"Хватило ума забраться так далеко? Это ещё не значит, что до Барбса легко "
+"добраться!\\pЯ тебя так закружу, что код из головы вылетит и придётся "
+"начинать всё заново!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 101
+#: 0x1fa2cdd
+msgctxt "map:2.46/sign:2/2"
+msgid "map:2.46/sign:2/2"
+msgstr "Ну что, код уже забылся?"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 79, 59, 79, 101, 95, 66, 172
+#: 0x1fa2cf0
+msgctxt "map:2.46/sign:2/3"
+msgid "map:2.46/sign:2/3"
+msgstr ""
+"Теперь налево!\\pНет, вверх!\\pА теперь направо!\\pХотя нет, налево!\\pА "
+"теперь крутанись на месте!\\pЧа-ха-ха!\\pПопробуй теперь доберись до "
+"Барбса!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 7, widths px: 118, 190, 110, 178, 116, 182, 155
+#: 0x1fa2d6a
+msgctxt "map:2.46/npc:1/0"
+msgid "map:2.46/npc:1/0"
+msgstr ""
+"Ты… я тебя помню!\\pЭто от тебя мне влетело в нашем старом логове в "
+"городке Вивилл!\\pДумаешь, круче тебя никого нет, а, чемпиончик?\\p"
+"Крутизна крутизной, а чтобы тебя задержать, сила мне не нужна!"
+
+#. category: script; mode: field
+#. used in 5 places
+#. original lines: 1, widths px: 82
+#: 0x1fa2e2c
+msgctxt "map:2.46/npc:1/1"
+msgid "map:2.46/npc:1/1"
+msgstr "Ох…{PAUSE 18} не может…{PAUSE 18} быть…"
+
+#. category: script; mode: field
+#. original lines: 31, widths px: 84, 126, 171, 137, 134, 181, 62, 164, 96, 158, 147, 187, 23, 163, 163, 159, 105, 180, 169, 41, 158, 130, 163, 162, 45, 185, 166, 65, 152, 164, 51
+#: 0x1fa2e41
+msgctxt "map:2.47/trigger:0/3"
+msgid "map:2.47/trigger:0/3"
+msgstr ""
+"Ча-ха-ха-ха!\\pПогоди, ты это всерьёз?\\pНе думал, что мозг Чёрного клана "
+"“{PLAYER}” - такой хлюпик!\\p…погоди. Ты ведь ВСЕРЬЁЗ.\\pТы правда думал, "
+"что одолеешь Барбса.\\pНу так вот что я тебе скажу, жалкое ты "
+"ничтожество.\\pЯ возглавляю Чёрный Ферроторн.\\pЯ И ЕСТЬ Чёрный "
+"Ферроторн.\\pИ мне надо держать марку, усёк?\\pТак что, если ты всерьёз "
+"думал, что можно просто так оттяпать наш район и припасы, разгромить нашу "
+"берлогу и отделать моих парней…\\pэто ж и другим бандам подкинет ту же "
+"тупую идею, сечёшь?\\pА раз с тобой покончено, знаешь, что я сделаю?\\p"
+"Мои парни уже наверняка раздавили твоих и забрали их покемонов.\\pТак "
+"что…{PAUSE 18} я возьму твою никчёмную тушу и подвешу рядом с "
+"остальными…\\pИ ты увидишь, что шипы у Ферроторна не для красоты!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 29, 12
+#: 0x1fa3140
+msgctxt "map:2.47/trigger:0/5"
+msgid "map:2.47/trigger:0/5"
+msgstr "Ох!\\p{PLAYER}!.."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 40, 169, 33
+#: 0x1fa314b
+msgctxt "map:2.47/trigger:0/7"
+msgid "map:2.47/trigger:0/7"
+msgstr ""
+"Что, {PLAYER}?\\pТа самая важная шишка, в честь которой вас, шестёрок, "
+"назвали?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 175, 191, 141, 149, 57
+#: 0x1fa317a
+msgctxt "map:2.47/trigger:0/15"
+msgid "map:2.47/trigger:0/15"
+msgstr ""
+"Вот именно! Вам…{PAUSE 18} лучше бежать!\\pВедь нет никого круче…{PAUSE "
+"18} опаснее…\\pИ…{PAUSE 18} ох…{PAUSE 18} сильнее, чем {PLAYER}!\\p"
+"{STR_VAR_3} вас всех по стенке размажет!"
+
+#. category: script; mode: field
+#. original lines: 23, widths px: 192, 86, 84, 146, 124, 47, 189, 125, 171, 188, 168, 181, 70, 138, 166, 177, 90, 189, 183, 164, 168, 95, 71
+#: 0x1fa320f
+msgctxt "map:2.47/trigger:0/17"
+msgid "map:2.47/trigger:0/17"
+msgstr ""
+"Ча-ха-ха-ха! Собственной персоной,\\nда? Какая честь!\\pДа ладно, вот эта "
+"мелочь?\\p{STR_VAR_3} же ну никак не тянет на матёрого бандита!\\pСлушай, "
+"{PLAYER}.\\pМожет, и без тебя в этом провальном налёте не обошлось…\\pНо, "
+"по-моему, ты просто глупая мелочь, что подалась в бандиты, “потому что "
+"это круто”.\\pТак что я сделаю тебе одолжение и дам шанс.\\pСразимся один "
+"на один.\\pПобедишь - отпущу этих простофиль…{PAUSE 18} если они "
+"поклянутся больше сюда не соваться.\\pПроиграешь - тебя-то я, так и быть, "
+"отпущу, а вот остальных…\\pЯ даже буду добреньким и не стану разносить "
+"тебя в пух и прах своими лучшими покемонами.\\pНу, что скажешь?"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 120, 83, 28, 172, 198, 179, 156
+#: 0x1fa346a
+msgctxt "map:2.47/trigger:0/19"
+msgid "map:2.47/trigger:0/19"
+msgstr ""
+"{PLAYER}…{PAUSE 18} осторожно…{PAUSE 18} Барбс и сжульничать не "
+"побрезгует…\\pВот.\\pОн, когда мы дрались, пичкал покемонов чудной "
+"дрянью, но…\\pне он один такой умный…{PAUSE 18} дай-ка…{PAUSE 18} я твоих "
+"покемонов подкачаю…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 92, 176, 151
+#: 0x1fa3527
+msgctxt "map:2.47/npc:0/1"
+msgid "map:2.47/npc:0/1"
+msgstr ""
+"Хватит выпендриваться!\\pГотовься к настоящей трёпке от самой настоящей "
+"банды Антисиса!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 141, 173, 5, 147, 154, 59
+#: 0x1fa35a0
+msgctxt "map:2.47/npc:0/4"
+msgid "map:2.47/npc:0/4"
+msgstr ""
+"Ну надо же.\\pА ты, оказывается, очень даже ничего, {PLAYER}.\\pНо один в "
+"поле не воин.\\pА мои парни внизу к этому времени уже…"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 49, 140, 69, 171, 135
+#: 0x1fa3624
+msgctxt "map:2.47/npc:0/6"
+msgid "map:2.47/npc:0/6"
+msgstr ""
+"Эй, босс!\\pМы этот Чёрный клан придурков в пух и прах разнесли!\\pОт них "
+"ничё не осталось, кроме кучи разбитых надежд!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 84, 81, 139, 157, 175, 69
+#: 0x1fa3690
+msgctxt "map:2.47/npc:0/8"
+msgid "map:2.47/npc:0/8"
+msgstr ""
+"Ча-ха-ха-ха!\\pВидал, Джеймс?\\nУ тебя не было ни шанса!\\pВсе твои планы "
+"- пшик, потому что людей у тебя для такого дела не хватило!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 81, 183, 168
+#: 0x1fa3712
+msgctxt "map:2.47/npc:0/10"
+msgid "map:2.47/npc:0/10"
+msgstr ""
+"Молодец, парень.\\pА теперь гони их отсюда пинками.\\pМожно не "
+"церемониться."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 167, 34
+#: 0x1fa3762
+msgctxt "map:2.47/npc:0/12"
+msgid "map:2.47/npc:0/12"
+msgstr "Чего…{PAUSE 18} мы их просто так отпускаем, босс?!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 186, 159
+#: 0x1fa378c
+msgctxt "map:2.47/npc:0/14"
+msgid "map:2.47/npc:0/14"
+msgstr "У нас сегодня дела поважнее.\\nДа и не вернутся они."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 123, 68, 158, 168, 146, 69, 185, 45
+#: 0x1fa37cc
+msgctxt "map:2.47/npc:0/16"
+msgid "map:2.47/npc:0/16"
+msgstr ""
+"Ну что, {PLAYER}, похоже, для нас всё кончено.\\pСражаться ты умеешь, "
+"мелочь. Мы\\nгордились тобой до самого конца.\\pНо Чёрному клану "
+"“{PLAYER}” пора двигаться дальше.\\pНам в этом городе больше нет места."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 173, 161, 153
+#: 0x1fa3887
+msgctxt "map:2.47/npc:0/18"
+msgid "map:2.47/npc:0/18"
+msgstr ""
+"{COLOR 08}Может, ещё пересечёмся когда-нибудь, мелочь.\\pБуду ждать этого "
+"дня."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 151, 166, 132, 171, 179, 175, 69, 24
+#: 0x1fa38e4
+msgctxt "map:2.47/npc:0/20"
+msgid "map:2.47/npc:0/20"
+msgstr ""
+"Ну что ж, {PLAYER}, я был с тобой очень любезен, но, по-моему, тебе пора "
+"и честь знать.\\pЧто ты делаешь в Антисисе, мне плевать, но чтоб в нашем "
+"районе я тебя больше не видел.\\pА теперь вон отсюда.\\pВОН!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 58, 158
+#: 0x1fa39ac
+msgctxt "map:2.47/npc:1/0"
+msgid "map:2.47/npc:1/0"
+msgstr "Давай, {PLAYER}!\\nПокажи ему, чего ты стоишь!"
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 1, widths px: 124
+#: 0x1fa3c47
+msgctxt "map:2.47/npc:4/0"
+msgid "map:2.47/npc:4/0"
+msgstr " Бесконечный кошмар"

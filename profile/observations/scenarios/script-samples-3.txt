@@ -1,0 +1,8 @@
+statefile load e6
+goto 0x7C72C0
+wait 2
+goto 0x75CD44
+wait 2
+goto 0x1A6697
+wait 2
+shot item-direct

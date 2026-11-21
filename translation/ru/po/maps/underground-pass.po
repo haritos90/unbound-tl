@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/underground-pass\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 166, 128, 192, 177, 86
+#: 0x1f823c3
+msgctxt "map:1.31/npc:0/11"
+msgid "map:1.31/npc:0/11"
+msgstr ""
+"Хочешь и ты попытать счастья в нашем ежедневном испытании?\\pДоберись до "
+"другого конца туннеля меньше чем за 15 секунд - и выиграешь потрясающий "
+"приз!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 90
+#: 0x1f8244f
+msgctxt "map:1.31/npc:0/10"
+msgid "map:1.31/npc:0/10"
+msgstr "Снова к нам? Хочешь ещё раз пройти ежедневное испытание?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 98
+#: 0x1f82480
+msgctxt "map:1.31/npc:0/17"
+msgid "map:1.31/npc:0/17"
+msgstr "Что, слабо?"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 117, 190, 184, 181, 40, 191, 174, 193
+#: 0x1f82493
+msgctxt "map:1.31/npc:0/16"
+msgid "map:1.31/npc:0/16"
+msgstr ""
+"Правила простые.\\pЧтобы выиграть приз, поговори с моим братом на другом "
+"конце туннеля {COLOR 06}меньше чем за 15 секунд{COLOR 08} с моего "
+"сигнала.\\pЕсли успеешь {COLOR 06}за 10 секунд или быстрее{COLOR 08}, "
+"получишь большой приз!\\pКогда время выйдет, мы дадим знать."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 79, 45, 66
+#: 0x1f8258b
+msgctxt "map:1.31/npc:0/15"
+msgid "map:1.31/npc:0/15"
+msgstr "На старт…\\nВнимание…\\pМАРШ! ДАВАЙ, ДАВАЙ!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 140, 64
+#: 0x1f825af
+msgctxt "map:1.31/npc:0/1"
+msgid "map:1.31/npc:0/1"
+msgstr "Чего ты ждёшь?\\nДАВАЙ, ДАВАЙ, ДАВАЙ!"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 96, 119, 45, 191, 183, 185, 72
+#: 0x1f825d5
+msgctxt "map:1.31/npc:0/5"
+msgid "map:1.31/npc:0/5"
+msgstr ""
+"ПОЗДРАВЛЯЮ!\\pНа дорогу до меня у тебя ушло секунд: {STR_VAR_1}!\\p"
+"Заберёшь приз сейчас? Или повременишь и снова попробуешь уложиться в 10 "
+"секунд, чтобы выиграть приз ещё крупнее?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 99
+#: 0x1f8267c
+msgctxt "map:1.31/npc:0/9"
+msgid "map:1.31/npc:0/9"
+msgstr "Вот твой приз!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 96, 119, 45, 77, 99
+#: 0x1f8268f
+msgctxt "map:1.31/npc:0/4"
+msgid "map:1.31/npc:0/4"
+msgstr ""
+"ПОЗДРАВЛЯЮ!\\pНа дорогу до меня у тебя ушло секунд: {STR_VAR_1}!\\p"
+"Поразительно!\\pВот твой приз!"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 96, 119, 45, 77, 152, 49, 99
+#: 0x1f826e3
+msgctxt "map:1.31/npc:0/2"
+msgid "map:1.31/npc:0/2"
+msgstr ""
+"ПОЗДРАВЛЯЮ!\\pНа дорогу до меня у тебя ушло секунд: {STR_VAR_1}!\\p"
+"Поразительно!\\pЯ и не думал, что такое возможно!\\pВот твой приз!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 196, 144
+#: 0x1f8275e
+msgctxt "map:1.31/npc:0/8"
+msgid "map:1.31/npc:0/8"
+msgstr "Захочешь попробовать снова - поговори с братом или со мной."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 54, 153, 44, 122
+#: 0x1f8279c
+msgctxt "hash:bb0eeff0"
+msgid "hash:bb0eeff0"
+msgstr ""
+"{COLOR 08}Время вышло!\\pУж извини, но успеть тебе не удалось!\\pПовезёт "
+"в другой раз!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 171, 177
+#: 0x1f827e7
+msgctxt "map:1.31/npc:0/0"
+msgid "map:1.31/npc:0/0"
+msgstr "Приходи завтра за новым шансом выиграть потрясающий приз!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 60
+#: 0x1f82827
+msgctxt "map:1.31/npc:0/6"
+msgid "map:1.31/npc:0/6"
+msgstr "Взять приз"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 50
+#: 0x1f82833
+msgctxt "map:1.31/npc:0/7"
+msgid "map:1.31/npc:0/7"
+msgstr "Ещё раз"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 77
+#: 0x1f8283d
+msgctxt "map:1.31/npc:1/7"
+msgid "map:1.31/npc:1/7"
+msgstr "Волшебник-кладоискатель"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 190, 147, 190, 183, 187, 136, 194, 98
+#: 0x1f82883
+msgctxt "map:1.31/npc:1/10"
+msgid "map:1.31/npc:1/10"
+msgstr ""
+"В самых неожиданных местах можно найти столько классных штук!\\pВот, "
+"например, этот Мегабол из почтового ящика соседа…\\pИли даже вот этот "
+"недоеденный хот-дог из моего мусорного бака.\\pХочешь поискать спрятанные "
+"предметы, а потом сравнить?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 47, 172, 159, 176, 127
+#: 0x1f82977
+msgctxt "map:1.31/npc:1/12"
+msgid "map:1.31/npc:1/12"
+msgstr ""
+"Класс!\\pНайдёшь {COLOR 06}{STR_VAR_1}{COLOR 08} выброшенных предметов - "
+"приходи, сравним.\\pСпорим, ничего круче моего улова тебе не найти!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 90
+#: 0x1f829fd
+msgctxt "map:1.31/npc:1/11"
+msgid "map:1.31/npc:1/11"
+msgstr "Ничего страшного: найду, с кем ещё сравнить находки."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 152, 26, 168, 78, 166
+#: 0x1f82a32
+msgctxt "map:1.31/npc:1/4"
+msgid "map:1.31/npc:1/4"
+msgstr ""
+"Пока у тебя найдено спрятанных предметов: {COLOR 06}{STR_VAR_2}{COLOR "
+"08}{FD 07}.\\pДумаю, в этом туннеле можно отыскать и ещё.\\pПриходи, "
+"когда их будет {COLOR 06}{STR_VAR_1}{COLOR 08}."
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 163, 24, 153, 169, 70, 158, 155, 177
+#: 0x1f82ab3
+msgctxt "map:1.31/npc:1/5"
+msgid "map:1.31/npc:1/5"
+msgstr ""
+"Так, посмотрим, что там у тебя…\\pОго!\\pОткуда у тебя эта чипсина со "
+"вкусом барбекю в форме Дитто, да ещё в идеальной сохранности?\\pА эта "
+"кожура Нанаб-ягоды из лимитки - это же винтаж!\\pПогоди, давай я их у "
+"тебя выменяю!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 164
+#: 0x1f82b7c
+msgctxt "map:1.31/npc:1/9"
+msgid "map:1.31/npc:1/9"
+msgstr "Проверяй диванные подушки: между ними бывают тайные сокровища."

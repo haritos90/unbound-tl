@@ -1,0 +1,3419 @@
+[pokedex.trainers]
+base = 0x23EAC8
+stride = 40
+count = 743
+name_table = "trainer_names"
+class_table = "trainer_classes"
+evidence = "The existing trainer_names table has 40-byte gTrainers records, 23 base references and 743 valid party pointers. CFRU struct Trainer fixes partyFlags +0, trainerClass +1, partySize +0x20 and party +0x24; trainer 0 alone has an empty party and a null pointer"
+
+[pokedex.trainers.fields]
+party_flags = 0
+class = 1
+picture = 3
+ai_flags = 28
+party_size = 32
+party = 36
+
+[pokedex.trainers.pictures]
+side = 64
+
+[pokedex.trainers.pictures.front]
+base = 0x23957C
+stride = 8
+count = 148
+
+[pokedex.trainers.pictures.palettes]
+base = 0x239A1C
+stride = 8
+count = 148
+
+[pokedex.trainers.class_names]
+base = 0x23E558
+stride = 13
+count = 107
+pointer = 0
+evidence = "The trainer_classes table uses pointer dispatch for long names. Classes 2, 14, 22, 26, 31, 40, 46 and 47 point to catalog strings rather than inline trainer_classes entries; the other entries use the table ids"
+
+[pokedex.trainers.party]
+custom_moves_flag = 1
+held_item_flag = 2
+default_stride = 8
+custom_stride = 16
+iv = 0
+level = 2
+species = 4
+held_item = 6
+moves = 6
+moves_with_item = 8
+move_count = 4
+
+[pokedex.trainers.abilities]
+schema = 1
+context = "listed-species"
+difficulties = ["difficult", "vanilla", "expert", "insane"]
+
+[pokedex.trainers.abilities.initial]
+name_offset = 4
+name_size = 12
+terminator = 255
+gender_offset = 2
+partner_music_mask = 127
+fixed_gender_classes = [2, 3, 24, 46, 47, 48, 81, 83, 84, 85, 87, 89, 90]
+
+[pokedex.trainers.abilities.spread]
+first = 1
+last = 141
+selector_offset = 9
+modes = ["hidden", "first", "second", "regular", "all"]
+
+[pokedex.trainers.abilities.fallback]
+second = "first"
+hidden = "personality"
+
+[[pokedex.trainers.abilities.spans]]
+name = "nature_ability"
+offset = 0x9c3794
+size = 360
+sha256 = "97fc2ad90d7283d93ecfbbceaae498a9186bd816dfa492561efc3c0055865624"
+
+[[pokedex.trainers.abilities.spans]]
+name = "ability_getter"
+offset = 0x9c51b8
+size = 112
+sha256 = "85dde485ef6ce9574583db0b6c70c6c140d515319e6d3c04e57ec803affe59f8"
+
+[[pokedex.trainers.abilities.spans]]
+name = "force_shiny"
+offset = 0x9c3d48
+size = 348
+sha256 = "c5e110a4e15ba81b869f4422b26803bff81ab93adbe81b5a4bc209f66c0ba159"
+
+[[pokedex.trainers.abilities.spans]]
+name = "zero_mon"
+offset = 0x3d97c
+size = 92
+sha256 = "7400295c183e79e4131e98bccd6e55b7ba0782d66cf85930597b82572d93dddd"
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [39]
+species = [81]
+difficulties = [2, 3]
+operation = "personality"
+bit = 1
+evidence = "0xA119F4-0xA11A6C: personality 0xBAFCFBF1, retaining the hidden flag."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [39]
+species = [450, 675]
+difficulties = [2, 3]
+operation = "personality"
+bit = 0
+evidence = "0xA11A70-0xA11B10: personalities 0xBAFCFBEA and 0xBAFCFBF4, retaining the hidden flag."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [393]
+species = [319]
+difficulties = [2, 3]
+operation = "hidden"
+evidence = "0xA116BC-0xA116C4 dispatches to 0xA1241A; 0xA12430-0xA12444 sets hidden."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [397]
+species = [1230]
+difficulties = [0, 1]
+operation = "hidden"
+evidence = "0xA1153A-0xA11546 dispatches to 0xA12242; 0xA12258-0xA12268 sets hidden."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [404]
+species = [307, 343]
+difficulties = [2, 3]
+operation = "hidden"
+evidence = "0xA116F2-0xA11706 dispatches to 0xA121B6; 0xA121BC-0xA121D8 sets hidden."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [404]
+species = [126, 520]
+difficulties = [3]
+operation = "hidden"
+evidence = "0xA121DA-0xA12226 excludes Expert, then sets hidden for species 126/520."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [406]
+species = [78, 329]
+difficulties = [2, 3]
+operation = "hidden"
+evidence = "0xA1170A-0xA11710 dispatches to 0xA12468; 0xA12478-0xA12494 sets hidden."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [498]
+species = [182]
+difficulties = [2, 3]
+operation = "hidden"
+evidence = "0xA1177C-0xA11782 dispatches to 0xA123B0; 0xA123C2-0xA123D6 sets hidden."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [503]
+species = [620]
+difficulties = [2, 3]
+operation = "hidden"
+evidence = "0xA1176E-0xA11776 dispatches to 0xA1237C; 0xA1238E-0xA123A6 sets hidden."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [564]
+species = [282]
+difficulties = [2, 3]
+operation = "hidden"
+evidence = "0xA11884-0xA1188C dispatches to 0xA12160; 0xA12166-0xA1217A sets hidden."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [497]
+species = [154]
+difficulties = [1]
+operation = "regular"
+evidence = "0xA11790-0xA117A0 and 0xA1249A-0xA124A0 reach the hidden clear at 0xA125FE-0xA12608."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [511]
+species = [157]
+difficulties = [1]
+operation = "regular"
+evidence = "0xA117E8-0xA117F8 and 0xA125E8-0xA125FA reach the hidden clear at 0xA125FE-0xA12608."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [81]
+species = [538]
+difficulties = [0, 1, 2, 3]
+operation = "shiny"
+evidence = "0xA1164E-0xA11654 reaches 0xA11C70-0xA11C72. Force-shiny 0x9C3D48 retains regular personality bit at 0x9C3D84/0x9C3E3E but permits either bit with hidden set."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [694]
+species = [403]
+difficulties = [0, 1, 2, 3]
+operation = "shiny"
+evidence = "0xA11932-0xA11938 reaches 0xA11C66-0xA11C72. Force-shiny preserves regular bit; hidden permits either bit."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [72]
+species = [307]
+difficulties = [0, 1]
+operation = "absent"
+evidence = "0xA11614/0xA11E4E-0xA11E12 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [74]
+species = [988]
+difficulties = [0, 1]
+operation = "absent"
+evidence = "0xA115F4/0xA11E68-0xA11E8A reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [76]
+species = [755]
+difficulties = [0, 1]
+operation = "absent"
+evidence = "0xA11630-0xA11642 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [78]
+species = [821]
+difficulties = [0, 1]
+operation = "absent"
+evidence = "0xA11626/0xA11EB4-0xA11ED0 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [80]
+species = [1084]
+difficulties = [0, 1]
+operation = "absent"
+evidence = "0xA1164A/0xA11F76-0xA11F8E reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [85]
+species = [407]
+difficulties = [0, 1]
+operation = "absent"
+evidence = "0xA11670-0xA1168A reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [87]
+species = [517]
+difficulties = [0, 1]
+operation = "absent"
+evidence = "0xA11664/0xA12018-0xA12036 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [426]
+species = [664]
+difficulties = [1]
+operation = "absent"
+evidence = "0xA11730-0xA11740/0xA11DF4-0xA11E12 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [427]
+species = [664]
+difficulties = [1]
+operation = "absent"
+evidence = "0xA11730-0xA11740/0xA11DF4-0xA11E12 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [428]
+species = [383]
+difficulties = [1]
+operation = "absent"
+evidence = "0xA11730-0xA11740/0xA11DF4-0xA11E12 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [497]
+species = [300]
+difficulties = [1]
+operation = "absent"
+evidence = "0xA1249A-0xA124AA reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+[[pokedex.trainers.abilities.overrides]]
+trainers = [511]
+species = [321]
+difficulties = [1]
+operation = "absent"
+evidence = "0xA125E8-0xA125F4 reaches ZeroMonData 0x803D994 via 0xA11E0E-0xA11E12; no ability remains."
+
+# Effective trainer IVs from the matched party-construction pipeline.
+[pokedex.trainers.ivs]
+schema = 1
+rom_sha256 = "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7"
+difficulties = ["difficult", "vanilla", "expert", "insane"]
+stat_order = ["hp", "attack", "defense", "speed", "sp_attack", "sp_defense"]
+missing_input = "unresolved"
+
+[[pokedex.trainers.ivs.tables]]
+name = "trainer_records"
+offset = 0x23eac8
+stride = 40
+count = 743
+sha256 = "b71c64dc63fb7569b5d7370b7d85dcf5b9a54cabd7d2d57e6fdfb8ef569c8dc5"
+
+[[pokedex.trainers.ivs.tables]]
+name = "class_iv"
+offset = 0xa5043a
+stride = 1
+count = 107
+sha256 = "f1713535628d488379c1213a881551521822322b6040a917681b42950b76f213"
+
+[[pokedex.trainers.ivs.tables]]
+name = "spreads"
+offset = 0xa5056e
+stride = 10
+count = 142
+sha256 = "302266c094259626dbe0e802be246cf9aca2e8225da1d1b41b72a3eb47ba352a"
+
+[[pokedex.trainers.ivs.spans]]
+name = "create_npc_trainer_party"
+offset = 0x9c7008
+size = 3282
+sha256 = "65d3e36e1b8f3b24360104038bb8fe120d639047465a598cd56fb9b791465362"
+audit = true
+iv_writes = [{ field = 0x2a, offsets = [0x89c7624] }]
+
+[[pokedex.trainers.ivs.spans]]
+name = "create_box_mon"
+offset = 0x9c3f8a
+size = 902
+sha256 = "787c553e689e0e6fe002c28afd44e14567d3f950daca54d633460db460578b84"
+audit = true
+iv_writes = [{ field = 0x27, offsets = [0x89c41a8] }, { field = 0x28, offsets = [0x89c41c4] }, { field = 0x29, offsets = [0x89c41e8] }, { field = 0x2a, offsets = [0x89c4214] }, { field = 0x2b, offsets = [0x89c4236] }, { field = 0x2c, offsets = [0x89c425a] }]
+
+[[pokedex.trainers.ivs.spans]]
+name = "rival_spread_selector"
+offset = 0xa10e60
+size = 1670
+sha256 = "a0b2ccb1fa6128d3df67548e1777e11e2ec720c14ea4d1b31586b4eb0321f83d"
+audit = true
+iv_writes = []
+
+[[pokedex.trainers.ivs.spans]]
+name = "trainer_species_adjustments"
+offset = 0xa11514
+size = 4906
+sha256 = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148"
+audit = true
+iv_writes = [{ field = 0x42, offsets = [0x8a1191a] }]
+
+[[pokedex.trainers.ivs.spans]]
+name = "trainer_species_selector"
+offset = 0xa12900
+size = 2066
+sha256 = "1a3711646b7f8558240f7b8a2eb9b1a0abcb280fbd2234f8439260ff8c241452"
+audit = true
+iv_writes = []
+
+[[pokedex.trainers.ivs.spans]]
+name = "move_slot_predicate"
+offset = 0xa13fa0
+size = 18
+sha256 = "ee12bfd79d7126a64803af3854ff46d19cfd4f05becfe0c6168c74d30cc87e9f"
+
+[[pokedex.trainers.ivs.spans]]
+name = "clear_all_evs"
+offset = 0xa10424
+size = 28
+sha256 = "4efb9675104a8cdcf3a94bc2f5a0ba822b750512ddc8c76adf5da37b257c259e"
+
+[pokedex.trainers.ivs.audit]
+non_iv_candidates = [0x89c7c88, 0x8a11e30]
+iv_fields = [0x27, 0x28, 0x29, 0x2a, 0x2b, 0x2c, 0x42]
+
+[[pokedex.trainers.ivs.stages]]
+operation = "base_uniform"
+class_table = "class_iv"
+opponent_side = 1
+insane_difficulty = 3
+cap = 31
+zero = 10
+condition_offsets = [0x89c7094, 0x89c709c, 0x89c70a2]
+operation_offsets = [0x89c7454, 0x89c7762, 0x89c78b4, 0x89c79fa, 0x89c40cc, 0x89c40e4]
+
+[[pokedex.trainers.ivs.stages]]
+operation = "rival_spread"
+default_spread = 0
+class_rules = [{ class_id = 81, difficulties = [2, 3] }, { class_id = 89, difficulties = [2] }]
+condition_offsets = [0x89c751e, 0x89c7aa6, 0x8a10e60]
+operation_offsets = [0x8a114e0]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x86]
+flag = 0x170b
+flag_difficulties = [3]
+flag_ai_above = 3
+spreads = [0xb, 0xd]
+condition_offsets = [0x8a10e76, 0x8a10e7a, 0x8a10ed6, 0x8a10eda, 0x8a10f12]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0xdc]
+spreads = [0x5b]
+condition_offsets = [0x8a10eca, 0x8a110b8, 0x8a110c6, 0x8a11472]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0xdd]
+spreads = [0x5b]
+condition_offsets = [0x8a10ed0, 0x8a110ca]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0xf6]
+spreads = [7]
+condition_offsets = [0x8a10ec4, 0x8a11324]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0xf7]
+spreads = [7]
+condition_offsets = [0x8a10ec0, 0x8a10ec4, 0x8a11324]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0xf8]
+flag = 0x9f3
+spreads = [7, 0xc]
+condition_offsets = [0x8a10f24, 0x8a1138c]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x17f, 0x180]
+spreads = [0x25]
+condition_offsets = [0x8a10f24, 0x8a11222]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x18f]
+spreads = [2]
+condition_offsets = [0x8a10f42, 0x8a113b8]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x190]
+flag = 0x9f3
+spreads = [2, 5]
+condition_offsets = [0x8a10f4c, 0x8a10f52]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x1f0, 0x1f1]
+spreads = [0x5c]
+condition_offsets = [0x8a10eb4, 0x8a10eba, 0x8a11248, 0x8a11256, 0x8a11486]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x1f2]
+flag = 0x9f3
+spreads = [0x5c, 0x76]
+condition_offsets = [0x8a10f92, 0x8a1125a]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x20e]
+flag = 0x170b
+spreads = [0x5b, 0x74]
+condition_offsets = [0x8a10f9a, 0x8a1148e]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x296]
+spreads = [0x5e]
+condition_offsets = [0x8a10f88, 0x8a11200]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x298, 0x299]
+spreads = [0x3e]
+condition_offsets = [0x8a11048, 0x8a110e6]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x2cc]
+spreads = [0x5e]
+condition_offsets = [0x8a10f7c, 0x8a1113a]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x2cd]
+spreads = [3]
+condition_offsets = [0x8a1107a, 0x8a1114c]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x303]
+spreads = [0x5b]
+condition_offsets = [0x8a11080, 0x8a11088]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x33e]
+spreads = [0x62]
+condition_offsets = [0x8a11070, 0x8a11210]
+[[pokedex.trainers.ivs.stages.rules]]
+species = [0x3b5, 0x3b6]
+spreads = [0x3e]
+condition_offsets = [0x8a11098, 0x8a110e6]
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "vaporeon"
+offset = 0xa6dabc
+moves = [0x1cb, 0x72, 0x111, 0xb6]
+sha256 = "b8d30bc63cb58436ad510e4c5a7970b92957fec60984b464a69cabe26394d412"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "swinub"
+offset = 0xa6da5c
+moves = [0x19d, 0x59, 0x9d, 0x17d]
+sha256 = "1ea1260f83e1190213adc9d7dc0f5f9db7ece3129135ea05967feb105d3b5290"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "piloswine_mamoswine"
+offset = 0xa6da64
+moves = [0x19d, 0x59, 0x17d, 0x1d4]
+sha256 = "deabe70a7c8a86f91526fbd3d4fd797e616d6f3b4b23c2d7fd8d031628c334b2"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "haxorus"
+offset = 0xa6da9c
+moves = [0xc8, 0x59, 0xf2, 0x15d]
+sha256 = "0770fd33306721dc1b887cf36767f5d1d9da2c0b93e5fac9f372d35dc3404628"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "aggron"
+offset = 0xa6dab4
+moves = [0x169, 0xd3, 0x15e, 0x14b]
+sha256 = "c211dc016b38cb2de6179b3b666ccffe50ba381020f4848cceb34c3d1c4d03f7"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "toucannon"
+offset = 0xa6da7c
+moves = [0x1b2, 0x169, 0x1ba, 0x13b]
+sha256 = "6cf655d1c9f31acb4317da7fa15a4ec884a9204ac68b7832e9d8df063b2eb0cb"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "trumbeak"
+offset = 0xa6da6c
+moves = [0x55, 0x164, 0x16f, 0x182]
+sha256 = "900ede4dda9825233d31a0c79558e6276fbfa465c4e740248962cc546c96f18d"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "gabite"
+offset = 0xa6da74
+moves = [0x1ac, 0x55, 0x1bb, 0x10f]
+sha256 = "554d17c363d4732a2aea5a020e4aa1eb908ea64574f50773b6445a0d94f16128"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "gible"
+offset = 0xa6da84
+moves = [0x35, 0xf7, 0x175, 0xa4]
+sha256 = "9d3aab9b1ba7be9916938e80cf001849deaa5c3056fb05be77c1baa5620c2042"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "garchomp"
+offset = 0xa6da8c
+moves = [0x208, 0x35, 0x174, 0x72]
+sha256 = "339a3c44861c3ae8d248a1c73549fa27484501dd15053643d5dbeaee931909a3"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "metagross"
+offset = 0xa6da94
+moves = [0x1ad, 0x17e, 0x2b4, 0x209]
+sha256 = "c8cf2758864e3166e29a41b7a4dfe257f79ebc5a20a26da8f95ebf0fe6be6ae0"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "pupitar"
+offset = 0xa6daa4
+moves = [0x2cb, 0x59, 0x7e, 0x52]
+sha256 = "bc2e272278c6620e981047264f31cc9557204129eac2bd4935dd0b4c25d86319"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "metang"
+offset = 0xa6daac
+moves = [0x135, 0x191, 0x59, 8]
+sha256 = "700778446cc94e397f5a9a4f65ac8fb9314e04a7a717ed1f7b88d86072cae516"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "larvitar"
+offset = 0xa6dac4
+moves = [0x2cb, 0x59, 0x7e, 0xe]
+sha256 = "188f9c86a47de14d0881a84ce39b37884431cb9b1243fa1f45ba418b2fb5faaf"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "swinub_lower"
+offset = 0xa6dac8
+moves = [0x7e, 0xe, 0x1ad, 0xf2]
+sha256 = "71b942a171b5506a7ccb011f8b05b285ea8bc6ee9f3c12c991b723eaca5ffd4b"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "larvitar_insane"
+offset = 0xa6dacc
+moves = [0x1ad, 0xf2, 0x59, 0x15d]
+sha256 = "0335e2c9218950a944919a1afc3917603360d724736f96b6af15490a96694be2"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "tyranitar_insane"
+offset = 0xa6dad4
+moves = [0x1ad, 0xf2, 8, 0x15d]
+sha256 = "d20da34f2276dd33e39b48acc540f6a742c0eb16c827799d4f843c57b99cda2a"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "pupitar_lower"
+offset = 0xa6dadc
+moves = [0x1ad, 0xf2, 0x59, 8]
+sha256 = "233c741b6ddbc96de7509f2c62c4503740a40174f89ed3060efdddf5dfaefec4"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "gible_lower"
+offset = 0xa6daec
+moves = [0x151, 0x269, 0xf2, 0x7e]
+sha256 = "332785106dfcb9d148180b6c081b39ae40d8a226065e9bb8ca0246ae1f80b0f7"
+[[pokedex.trainers.ivs.stages.move_tables]]
+name = "metang_lower"
+offset = 0xa6daf4
+moves = [0x17e, 0x5e, 0x17b, 0x28a]
+sha256 = "41d75aaf2cce09f633cc9dc76fc904e88970f5b7e220a8406f4dce628afec784"
+
+[[pokedex.trainers.ivs.stages]]
+operation = "spread_uniform"
+spread_table = "spreads"
+first_spread = 1
+last_spread = 141
+iv_offset = 1
+vanilla_difficulty = 1
+cap = 31
+condition_offsets = [0x89c752e, 0x89c753e, 0x89c7564, 0x89c756a]
+operation_offsets = [0x89c7576, 0x89c760c]
+
+[[pokedex.trainers.ivs.stages]]
+operation = "speed_zero"
+moves = [510, 632]
+stat_index = 3
+value = 0
+first_spread = 1
+last_spread = 141
+condition_offsets = [0x89c760e, 0x89c7ac0]
+operation_offsets = [0x89c761e, 0x89c762a]
+
+[[pokedex.trainers.ivs.stages]]
+operation = "packed_masks"
+first_spread = 1
+last_spread = 141
+eligibility_offsets = [0x89c752e, 0x89c7536, 0x89c753a, 0x89c7b8e, 0x89c7b92]
+condition_offsets = [0x8a11c2c, 0x8a11c30]
+operation_offsets = [0x8a1190e, 0x8a1191c]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-039-all"
+trainer = 39
+species = "any"
+difficulties = [2, 3]
+packed = 0x3fffffff
+condition_offsets = [0x8a1156e, 0x8a119f4, 0x8a119fa]
+operation_offsets = [0x8a119fc, 0x8a11c2c, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-058-755"
+trainer = 58
+species = [0x2f3]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a115ae, 0x8a115b2]
+operation_offsets = [0x8a115ba, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-058-1080"
+trainer = 58
+species = [0x438]
+difficulties = [0, 1, 2, 3]
+packed = 0x3def7bdf
+condition_offsets = [0x8a115b8, 0x8a11c4a]
+operation_offsets = [0x8a11c54, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-067-515"
+trainer = 67
+species = [0x203]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fefffdf
+condition_offsets = [0x8a115d4, 0x8a115da]
+operation_offsets = [0x8a115e2, 0x8a1161a, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-072-460"
+trainer = 72
+species = [0x1cc]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a11608, 0x8a11610]
+operation_offsets = [0x8a11618, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-076-755"
+trainer = 76
+species = [0x2f3]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a1162c, 0x8a11630]
+operation_offsets = [0x8a1163a, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-691-755"
+trainer = 691
+species = [0x2f3]
+difficulties = [0, 1, 2, 3]
+packed = 0x3defffdf
+condition_offsets = [0x8a118f4, 0x8a118fc]
+operation_offsets = [0x8a11904, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-700-1076"
+trainer = 700
+species = [0x434]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ff03bff
+condition_offsets = [0x8a1193a, 0x8a11942]
+operation_offsets = [0x8a1194a, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-718-515"
+trainer = 718
+species = [0x203]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fff
+condition_offsets = [0x8a11962, 0x8a12096]
+operation_offsets = [0x8a1209c, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-718-245"
+trainer = 718
+species = [0xf5]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fefffff
+condition_offsets = [0x8a120a0]
+operation_offsets = [0x8a120a8, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-732-181"
+trainer = 732
+species = [0xb5]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fefffdf
+condition_offsets = [0x8a11976, 0x8a11ed2]
+operation_offsets = [0x8a11eda, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-068-243"
+trainer = 68
+species = [0xf3]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fefffdf
+condition_offsets = [0x8a1154e, 0x8a120ca]
+operation_offsets = [0x8a11eda, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-733-181-538-338"
+trainer = 733
+species = [0xb5, 0x21a, 0x152]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fefffdf
+condition_offsets = [0x8a119c6, 0x8a11f44, 0x8a11f48, 0x8a11f4e]
+operation_offsets = [0x8a11eda, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-733-1022"
+trainer = 733
+species = [0x3fe]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a11f54]
+operation_offsets = [0x8a11c62, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-733-400"
+trainer = 733
+species = [0x190]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ff07fff
+condition_offsets = [0x8a11f5c]
+operation_offsets = [0x8a11f68, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-080-717"
+trainer = 80
+species = [0x2cd]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a11646, 0x8a11f6c]
+operation_offsets = [0x8a11f72, 0x8a11c9c, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-065-640"
+trainer = 65
+species = [0x280]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a115be, 0x8a12758]
+operation_offsets = [0x8a12760, 0x8a1161a, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-064-947"
+trainer = 64
+species = [0x3b3]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a115c6, 0x8a127c8, 0x8a11c58]
+operation_offsets = [0x8a11c62, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-066-1022"
+trainer = 66
+species = [0x3fe]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a115cc, 0x8a12788, 0x8a12154]
+operation_offsets = [0x8a115ba, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-063-550"
+trainer = 63
+species = [0x226]
+difficulties = [0, 1, 2, 3]
+packed = 0x3defffdf
+condition_offsets = [0x8a1159a, 0x8a1278c]
+operation_offsets = [0x8a12792, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-063-947"
+trainer = 63
+species = [0x3b3]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a127a2]
+operation_offsets = [0x8a127a8, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-742-515"
+trainer = 742
+species = [0x203]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a119ce, 0x8a119d6]
+operation_offsets = [0x8a115ba, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-703-825"
+trainer = 703
+species = [0x339]
+difficulties = [0, 1, 2, 3]
+packed = 0x3def7bdf
+condition_offsets = [0x8a118b0, 0x8a11c90, 0x8a11c4e]
+operation_offsets = [0x8a11c54, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-469-515"
+trainer = 469
+species = [0x203]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a11742, 0x8a11754]
+operation_offsets = [0x8a115ba, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-469-338"
+trainer = 469
+species = [0x152]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fefffdf
+condition_offsets = [0x8a1174c, 0x8a11766, 0x8a1214c]
+operation_offsets = [0x8a11eda, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-513-181"
+trainer = 513
+species = [0xb5]
+difficulties = [2, 3]
+packed = 0x3fefffdf
+condition_offsets = [0x8a117dc, 0x8a123e0, 0x8a123f8]
+operation_offsets = [0x8a11eda, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-051-460"
+trainer = 51
+species = [0x1cc]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a11558, 0x8a11582, 0x8a11588, 0x8a11c5c]
+operation_offsets = [0x8a11c62, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-052-701"
+trainer = 52
+species = [0x2bd]
+difficulties = [0, 1, 2, 3]
+packed = 0x3def7bdf
+condition_offsets = [0x8a11558, 0x8a11c7a]
+operation_offsets = [0x8a11c54, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-061-1010"
+trainer = 61
+species = [0x3f2]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a115a4, 0x8a11c96]
+operation_offsets = [0x8a11c9a, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-062-825"
+trainer = 62
+species = [0x339]
+difficulties = [0, 1, 2, 3]
+packed = 0x3def7bdf
+condition_offsets = [0x8a1159a, 0x8a115a4, 0x8a115aa, 0x8a11c4e]
+operation_offsets = [0x8a11c54, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-069-719"
+trainer = 69
+species = [0x2cf]
+difficulties = [0, 1, 2, 3]
+packed = 0x3ffff81f
+condition_offsets = [0x8a1154e, 0x8a115fa, 0x8a11602, 0x8a12154]
+operation_offsets = [0x8a115ba, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-070-830"
+trainer = 70
+species = [0x33e]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fefffdf
+condition_offsets = [0x8a115fa, 0x8a11766]
+operation_offsets = [0x8a11eda, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-088-515"
+trainer = 88
+species = [0x203]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a11668, 0x8a11c5c]
+operation_offsets = [0x8a11c62, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-693-460"
+trainer = 693
+species = [0x1cc]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a118ec, 0x8a11c5c]
+operation_offsets = [0x8a11c62, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-709-1077"
+trainer = 709
+species = [0x435]
+difficulties = [0, 1, 2, 3]
+packed = 0x3def7bdf
+condition_offsets = [0x8a1196c, 0x8a11c4e]
+operation_offsets = [0x8a11c54, 0x8a1191a]
+[[pokedex.trainers.ivs.stages.rules]]
+id = "mask-712-1018-824"
+trainer = 712
+species = [0x3fa, 0x338]
+difficulties = [0, 1, 2, 3]
+packed = 0x3fef7fdf
+condition_offsets = [0x8a1195c, 0x8a1204a, 0x8a12052]
+operation_offsets = [0x8a11c62, 0x8a1191a]
+
+[[pokedex.trainers.ivs.species_conditions]]
+id = "additional-species-locked"
+label = "Before registering a caught entry from National Pokédex No. 810–898"
+status = "known"
+native = "confirmed"
+when = [{ "0x175A" = 0 }]
+rom = [
+  { offset = 0xa12900, size = 2066, sha256 = "1a3711646b7f8558240f7b8a2eb9b1a0abcb280fbd2234f8439260ff8c241452" },
+  { offset = 0xa13b38, size = 8, sha256 = "b74defdc716321e3d1b1a3a876a70cff955951fa1f90f366d06eb7f20ba1dc4b" },
+  { offset = 0x6e680, size = 124, sha256 = "931c6e495226428a17b60c97c68df62bc5e6011401a193bd21db7d3fb8956de8" },
+  { offset = 0x1ec5b7c, size = 80, sha256 = "ac57f942370b91bd27c3c5a280c16bbb29bbf150a05fdbac3fe861bb2883d9c7" },
+  { offset = 0x88e74, size = 24, sha256 = "6734f63a8aac9dff1471ab3642aa657454e5fc6b6b3bc2335b01918b912ed04e" },
+  { offset = 0x104ab0, size = 288, sha256 = "5732e6c32cded51776e3c5d858573397ad9db2f8bd3197460a35665cfe16d275" },
+  { offset = 0x9a3060, size = 36, sha256 = "76c6430aaeff974548d9e6a6c93b45cb8233e46977e9f1348e42cb48b2e8c837" },
+  { offset = 0x1e6fba5, size = 16, sha256 = "7b9ba7d7479cd3a558a9c301e7c97e8129325e4ecf3991a7cd9bf6a51196f878" },
+  { offset = 0x1eb8140, size = 12, sha256 = "5b748bb07891334b1372fad3e3bdb923978a74eb8a32a609f86543fb934b015d" },
+  { offset = 0x1e7018c, size = 13, sha256 = "2bbaeb87d305e6326d7a4d22695dabb8975fb6c8ad37a5be53658d9c5e851592" },
+  { offset = 0x1e70279, size = 5, sha256 = "80851ec442ce12cf37e86e077307b27b9e54d27b3589679104a49dba3311a026" },
+  { offset = 0x1ea1255, size = 5, sha256 = "80851ec442ce12cf37e86e077307b27b9e54d27b3589679104a49dba3311a026" },
+  { offset = 0x1ec5e44, size = 18, sha256 = "9418c36eea75a81c84701dd8a6bb4db5c21e90f3a22d8f281f78792c019b0e4f" },
+]
+
+[[pokedex.trainers.ivs.species_conditions]]
+id = "additional-species-unlocked"
+label = "After registering a caught entry from National Pokédex No. 810–898"
+status = "known"
+native = "confirmed"
+when = [{ "0x175A" = 1 }]
+rom = [
+  { offset = 0xa12900, size = 2066, sha256 = "1a3711646b7f8558240f7b8a2eb9b1a0abcb280fbd2234f8439260ff8c241452" },
+  { offset = 0xa13b38, size = 8, sha256 = "b74defdc716321e3d1b1a3a876a70cff955951fa1f90f366d06eb7f20ba1dc4b" },
+  { offset = 0x6e680, size = 124, sha256 = "931c6e495226428a17b60c97c68df62bc5e6011401a193bd21db7d3fb8956de8" },
+  { offset = 0x1ec5b7c, size = 80, sha256 = "ac57f942370b91bd27c3c5a280c16bbb29bbf150a05fdbac3fe861bb2883d9c7" },
+  { offset = 0x88e74, size = 24, sha256 = "6734f63a8aac9dff1471ab3642aa657454e5fc6b6b3bc2335b01918b912ed04e" },
+  { offset = 0x104ab0, size = 288, sha256 = "5732e6c32cded51776e3c5d858573397ad9db2f8bd3197460a35665cfe16d275" },
+  { offset = 0x9a3060, size = 36, sha256 = "76c6430aaeff974548d9e6a6c93b45cb8233e46977e9f1348e42cb48b2e8c837" },
+  { offset = 0x1e6fba5, size = 16, sha256 = "7b9ba7d7479cd3a558a9c301e7c97e8129325e4ecf3991a7cd9bf6a51196f878" },
+  { offset = 0x1eb8140, size = 12, sha256 = "5b748bb07891334b1372fad3e3bdb923978a74eb8a32a609f86543fb934b015d" },
+  { offset = 0x1e7018c, size = 13, sha256 = "2bbaeb87d305e6326d7a4d22695dabb8975fb6c8ad37a5be53658d9c5e851592" },
+  { offset = 0x1e70279, size = 5, sha256 = "80851ec442ce12cf37e86e077307b27b9e54d27b3589679104a49dba3311a026" },
+  { offset = 0x1ea1255, size = 5, sha256 = "80851ec442ce12cf37e86e077307b27b9e54d27b3589679104a49dba3311a026" },
+  { offset = 0x1ec5e44, size = 18, sha256 = "9418c36eea75a81c84701dd8a6bb4db5c21e90f3a22d8f281f78792c019b0e4f" },
+]
+
+[[pokedex.trainers.ivs.species_conditions]]
+id = "uncapped-or-champion"
+label = "Hard level cap disabled or Hall of Fame reached"
+status = "known"
+native = "confirmed"
+when = [{ "0x82C" = 0, "0x16E0" = 0 }, { "0x82C" = 1 }]
+rom = [
+  { offset = 0xa12900, size = 2066, sha256 = "1a3711646b7f8558240f7b8a2eb9b1a0abcb280fbd2234f8439260ff8c241452" },
+  { offset = 0xa13b38, size = 8, sha256 = "b74defdc716321e3d1b1a3a876a70cff955951fa1f90f366d06eb7f20ba1dc4b" },
+  { offset = 0x6e680, size = 124, sha256 = "931c6e495226428a17b60c97c68df62bc5e6011401a193bd21db7d3fb8956de8" },
+  { offset = 0x1e6fee7, size = 67, sha256 = "1b4bf3eaddd3fee364e2b9209af7d6e6ddf093761437f8d2bf4c7b2f15677072" },
+  { offset = 0x1f1043f, size = 524, sha256 = "7c24c2ef26078300d860b456584978a5ee4e8f906320018a69481b915e578a31" },
+  { offset = 0x1ebd9f6, size = 40, sha256 = "ee617afbace954b6f57be119435aa61dbf67348c331a1480f6ccf2f0440ebf27" },
+  { offset = 0x1ebda40, size = 6, sha256 = "a0dfa9244a69ab9816062cefd2026787a72125c922f8c890c3d6cd677280c2c8" },
+  { offset = 0x1ebda76, size = 12, sha256 = "a7403535ee9d46fe12e634b4e8d2240e69886b61c2d8ee33020a2312b7497ce6" },
+  { offset = 0x1ebdb70, size = 64, sha256 = "dec6f3332a5d9da6dd36f554b74d78be2f85164ea834b2bdb13d9d779fb8eb37" },
+  { offset = 0x1ebdd4a, size = 24, sha256 = "3d8f05eb232b98afedbb654c362151974f6d2b7367d21649593e79bfe21dad37" },
+  { offset = 0x1e7f2af, size = 47, sha256 = "168a95a52eadd50edcd1d9f4a5501252bff1fcd1fee5f9282cb9f9dcfabcdb23" },
+]
+
+[[pokedex.trainers.ivs.species_conditions]]
+id = "capped-before-champion"
+label = "Hard level cap enabled and Hall of Fame not yet reached"
+status = "known"
+native = "confirmed"
+when = [{ "0x82C" = 0, "0x16E0" = 1 }]
+rom = [
+  { offset = 0xa12900, size = 2066, sha256 = "1a3711646b7f8558240f7b8a2eb9b1a0abcb280fbd2234f8439260ff8c241452" },
+  { offset = 0xa13b38, size = 8, sha256 = "b74defdc716321e3d1b1a3a876a70cff955951fa1f90f366d06eb7f20ba1dc4b" },
+  { offset = 0x6e680, size = 124, sha256 = "931c6e495226428a17b60c97c68df62bc5e6011401a193bd21db7d3fb8956de8" },
+  { offset = 0x1e6fee7, size = 67, sha256 = "1b4bf3eaddd3fee364e2b9209af7d6e6ddf093761437f8d2bf4c7b2f15677072" },
+  { offset = 0x1f1043f, size = 524, sha256 = "7c24c2ef26078300d860b456584978a5ee4e8f906320018a69481b915e578a31" },
+  { offset = 0x1ebd9f6, size = 40, sha256 = "ee617afbace954b6f57be119435aa61dbf67348c331a1480f6ccf2f0440ebf27" },
+  { offset = 0x1ebda40, size = 6, sha256 = "a0dfa9244a69ab9816062cefd2026787a72125c922f8c890c3d6cd677280c2c8" },
+  { offset = 0x1ebda76, size = 12, sha256 = "a7403535ee9d46fe12e634b4e8d2240e69886b61c2d8ee33020a2312b7497ce6" },
+  { offset = 0x1ebdb70, size = 64, sha256 = "dec6f3332a5d9da6dd36f554b74d78be2f85164ea834b2bdb13d9d779fb8eb37" },
+  { offset = 0x1ebdd4a, size = 24, sha256 = "3d8f05eb232b98afedbb654c362151974f6d2b7367d21649593e79bfe21dad37" },
+  { offset = 0x1e7f2af, size = 47, sha256 = "168a95a52eadd50edcd1d9f4a5501252bff1fcd1fee5f9282cb9f9dcfabcdb23" },
+]
+
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 10
+slot = 0
+species = [0x172, 0x248]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 370, condition = "uncapped-or-champion" }, { species = 584, condition = "capped-before-champion" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 10
+slot = 1
+species = [0x1ed, 0x248]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 493, condition = "uncapped-or-champion" }, { species = 584, condition = "capped-before-champion" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 10
+slot = 3
+species = [0x6c, 0x248]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 108, condition = "uncapped-or-champion" }, { species = 584, condition = "capped-before-champion" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 89
+slot = 1
+species = [0x6c, 0x467]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 108, condition = "additional-species-locked" }, { species = 1127, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 90
+slot = 1
+species = [0xe4, 0x45f]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 228, condition = "additional-species-locked" }, { species = 1119, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 91
+slot = 1
+species = [0x1c8, 0x491]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 456, condition = "additional-species-locked" }, { species = 1169, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 95
+slot = 0
+species = [0x151, 0x478]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 337, condition = "additional-species-locked" }, { species = 1144, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 100
+slot = 0
+species = [0x1c, 0x470]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 28, condition = "additional-species-locked" }, { species = 1136, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 103
+slot = 1
+species = [0xa5, 0x45c]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 165, condition = "additional-species-locked" }, { species = 1116, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 104
+slot = 0
+species = [0xa6, 0x45d]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 166, condition = "additional-species-locked" }, { species = 1117, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 119
+slot = 0
+species = [0x3b5, 0x476]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 949, condition = "additional-species-locked" }, { species = 1142, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 120
+slot = 0
+species = [0x1e0, 0x488]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 480, condition = "additional-species-locked" }, { species = 1160, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 122
+slot = 1
+species = [0x3b4, 0x457]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 948, condition = "additional-species-locked" }, { species = 1111, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 131
+slot = 0
+species = [0x1ba, 0x450]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 442, condition = "additional-species-locked" }, { species = 1104, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 133
+slot = 0
+species = [0x137, 0x472]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 311, condition = "additional-species-locked" }, { species = 1138, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 144
+slot = 1
+species = [0x4f, 0x465]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 79, condition = "additional-species-locked" }, { species = 1125, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 146
+slot = 0
+species = [0x21, 0x4c4]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 33, condition = "additional-species-locked" }, { species = 1220, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 149
+slot = 3
+species = [0x31a, 0x46f]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 794, condition = "additional-species-locked" }, { species = 1135, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 152
+slot = 0
+species = [0xbf, 0x48c]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 191, condition = "additional-species-locked" }, { species = 1164, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 163
+slot = 1
+species = [0x121, 0x4cb]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 289, condition = "additional-species-locked" }, { species = 1227, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 165
+slot = 1
+species = [0x32c, 0x46c]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 812, condition = "additional-species-locked" }, { species = 1132, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 170
+slot = 0
+species = [0x28c, 0x48b]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 652, condition = "additional-species-locked" }, { species = 1163, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 174
+slot = 2
+species = [0xc7, 0x4c8]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 199, condition = "additional-species-locked" }, { species = 1224, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 178
+slot = 2
+species = [0x23f, 0x49a]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 575, condition = "additional-species-locked" }, { species = 1178, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 188
+slot = 0
+species = [0x14f, 0x469]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 335, condition = "additional-species-locked" }, { species = 1129, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 197
+slot = 3
+species = [0x26d, 0x46a]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 621, condition = "additional-species-locked" }, { species = 1130, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 220
+slot = 0
+species = [0x151, 0x46a]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 337, condition = "additional-species-locked" }, { species = 1130, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 235
+slot = 1
+species = [0x48, 0x4c0]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 72, condition = "additional-species-locked" }, { species = 1216, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 241
+slot = 2
+species = [0x78, 0x4bf]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 120, condition = "additional-species-locked" }, { species = 1215, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 254
+slot = 0
+species = [0x30f, 0x48a]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 783, condition = "additional-species-locked" }, { species = 1162, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 269
+slot = 1
+species = [0xd1, 0x4bd]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 209, condition = "additional-species-locked" }, { species = 1213, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 288
+slot = 2
+species = [0xb4, 0x48b]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 180, condition = "additional-species-locked" }, { species = 1163, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 291
+slot = 0
+species = [0x7a, 0x4b3]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 122, condition = "additional-species-locked" }, { species = 1203, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 314
+slot = 0
+species = [0x35b, 0x464]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 859, condition = "additional-species-locked" }, { species = 1124, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 339
+slot = 0
+species = [0x59, 0x4c3]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 89, condition = "additional-species-locked" }, { species = 1219, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 354
+slot = 1
+species = [0x5d, 0x475]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 93, condition = "additional-species-locked" }, { species = 1141, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 363
+slot = 2
+species = [0xe4, 0x474]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 228, condition = "additional-species-locked" }, { species = 1140, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 364
+slot = 0
+species = [0x244, 0x474]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 580, condition = "additional-species-locked" }, { species = 1140, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 373
+slot = 0
+species = [0x268, 0x487]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 616, condition = "additional-species-locked" }, { species = 1159, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 382
+slot = 0
+species = [0xb8, 0x47d]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 184, condition = "additional-species-locked" }, { species = 1149, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 383
+slot = 0
+species = [0x163, 0x480]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 355, condition = "additional-species-locked" }, { species = 1152, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 394
+slot = 1
+species = [0x205, 0x48e]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 517, condition = "additional-species-locked" }, { species = 1166, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 397
+slot = 0
+species = [0x335, 0x4ce]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 821, condition = "additional-species-locked" }, { species = 1230, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 421
+slot = 1
+species = [0xe4, 0x4bc]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 228, condition = "additional-species-locked" }, { species = 1212, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 489
+slot = 1
+species = [0x3cc, 0x45b]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 972, condition = "additional-species-locked" }, { species = 1115, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 516
+slot = 0
+species = [0x298, 0x498]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 664, condition = "additional-species-locked" }, { species = 1176, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 519
+slot = 2
+species = [0x4f, 0x4bf]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 79, condition = "additional-species-locked" }, { species = 1215, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 525
+slot = 1
+species = [0x18b, 0x4c1]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 395, condition = "additional-species-locked" }, { species = 1217, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 558
+slot = 2
+species = [0xb6, 0x462]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 182, condition = "additional-species-locked" }, { species = 1122, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 567
+slot = 1
+species = [0x3ff, 0x492]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 1023, condition = "additional-species-locked" }, { species = 1170, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 574
+slot = 1
+species = [0x128, 0x471]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 296, condition = "additional-species-locked" }, { species = 1137, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 576
+slot = 1
+species = [0x135, 0x471]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 309, condition = "additional-species-locked" }, { species = 1137, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 591
+slot = 0
+species = [0x16f, 0x4d1]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 367, condition = "additional-species-locked" }, { species = 1233, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 596
+slot = 0
+species = [0x1f8, 0x488]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 504, condition = "additional-species-locked" }, { species = 1160, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 607
+slot = 1
+species = [0x2a5, 0x493]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 677, condition = "additional-species-locked" }, { species = 1171, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 624
+slot = 1
+species = [0x3c0, 0x47e]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 960, condition = "additional-species-locked" }, { species = 1150, condition = "additional-species-unlocked" }]
+[[pokedex.trainers.ivs.species_variants]]
+trainer = 626
+slot = 0
+species = [0x3e3, 0x481]
+evidence_offsets = [0x8A12900, 0x8A13112]
+outcomes = [{ species = 995, condition = "additional-species-locked" }, { species = 1153, condition = "additional-species-unlocked" }]
+
+# Species the party builder writes over the listed record.
+[[pokedex.trainers.ivs.species_rules]]
+id = "trainer-651-level"
+kind = "trainer_level"
+label = "Level {level} or higher after level scaling"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+trainer = 651
+difficulties = [0, 1, 2, 3]
+spreads = [1, 141]
+changes = [{ species = 552, target = 553, level_above = 35, item = 176, moves = [{ slot = 3, move = 89 }] }, { species = 1034, target = 1035, level_above = 37, item = 494 }]
+rom = [
+  { offset = 0x9c752e, size = 16, sha256 = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" },
+  { offset = 0x9c7b8a, size = 8, sha256 = "1e0bb06e7fe7db34ee7579d62d1c86c031df708084197d4aa401b31ca532f510" },
+  { offset = 0xa11514, size = 54, sha256 = "9903e67c1fb45b74e78ed3211e12b86c2f3d1e19e1863497b814e4a0bfeb7bfc" },
+  { offset = 0xa116d8, size = 10, sha256 = "d95b5f8273a47f5ba2a088263e631e8e8483326a192a404d4ae480dd89fce01b" },
+  { offset = 0xa117d8, size = 4, sha256 = "51ab016e9fe5c5c3729a13bffa7fa61f64373b0fc62538c4adc6a2d2d4787b20" },
+  { offset = 0xa120d4, size = 116, sha256 = "e78d7d522e4f56171015705ae4217f92b55e5d1d81d970039aafef9334ec5cbd" },
+  { offset = 0xa12314, size = 20, sha256 = "ec957dfbc9be494bdf2e44a17674de8f20cf60cf7bad3d5bdac465cb313092be" },
+  { offset = 0x9c7b8e, size = 12, sha256 = "fb8c4b1e40a2230ff8da7d6ebca12ae1a6eadb707e37225164b6d54bcc8ad8b2" },
+]
+
+[[pokedex.trainers.ivs.species_rules]]
+id = "partner-39-level"
+kind = "trainer_level"
+label = "Against {trainer}, level {level} or higher after level scaling"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+trainer = 39
+opponent = 670
+difficulties = [2, 3]
+spreads = [1, 141]
+changes = [{ species = 450, target = 451, level_above = 33, item = 570, moves = [{ slot = 1, move = 365 }] }, { species = 81, target = 82, level_above = 30, item = 90, moves = [{ slot = 0, move = 720 }, { slot = 0, move = 85, level_above = 39 }, { slot = 1, move = 115 }] }, { species = 675, target = 676, level_above = 42, item = 44, moves = [{ slot = 1, move = 8 }, { slot = 2, move = 182 }] }]
+rom = [
+  { offset = 0x9c752e, size = 16, sha256 = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" },
+  { offset = 0x9c7b8a, size = 8, sha256 = "1e0bb06e7fe7db34ee7579d62d1c86c031df708084197d4aa401b31ca532f510" },
+  { offset = 0xa11514, size = 54, sha256 = "9903e67c1fb45b74e78ed3211e12b86c2f3d1e19e1863497b814e4a0bfeb7bfc" },
+  { offset = 0xa1156e, size = 6, sha256 = "a1dc943d6cea8ed96aba70a7efffb580e9ac869ae6a03cc30581fe5b285a9fe7" },
+  { offset = 0xa119f4, size = 272, sha256 = "b1a7ea729614255503049cafe70051bce69ad7fc0b33e58636651944f2f35cae" },
+  { offset = 0xa11b7c, size = 44, sha256 = "3e3312789161cd2ad810911909100af196db2d1d18eb3e426423f41d20764ec3" },
+  { offset = 0xa11b04, size = 16, sha256 = "930d676cea2afc34067346548962e064d08ab435b4f93cb6ca7eacabc0aaf228" },
+  { offset = 0xa11b24, size = 4, sha256 = "0dc7db786012941fc821a929bb54778178e8898628616e2fd264d040601e1fa7" },
+  { offset = 0x9c7b8e, size = 12, sha256 = "fb8c4b1e40a2230ff8da7d6ebca12ae1a6eadb707e37225164b6d54bcc8ad8b2" },
+]
+
+[[pokedex.trainers.ivs.species_rules]]
+id = "held-item-form"
+kind = "held_item_form"
+label = "Form selected by the held item"
+status = "known"
+native = "confirmed"
+stage = "held_item"
+item_flag = 2
+forms = [
+  { species = [540], hold_effect = 0x5a, target = 718 },
+  { species = [718], hold_effect = 0x5a, target = 718, otherwise = 540, keep_sections = [0x97] },
+  { species = [536], hold_effect = 0x58, target = 919 },
+  { species = [919], hold_effect = 0x58, target = 919, otherwise = 536 },
+  { species = [537], hold_effect = 0x59, target = 920 },
+  { species = [920], hold_effect = 0x59, target = 920, otherwise = 537 },
+  { species = [702, 747, 748, 749, 750], hold_effect = 0x56, params = [[10, 748], [11, 750], [13, 747], [15, 749]], otherwise = 702 },
+  { species = [546, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 834], hold_effect = 0x48, ability = 180, table = { offset = 0xa6b686, count = 24 }, otherwise = 546, unsupported_effects = [0x82] },
+  { species = [990, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064], hold_effect = 0x57, ability = 167, table = { offset = 0xa6b6b6, count = 24 }, otherwise = 990 },
+]
+rom = [
+  { offset = 0x9c78da, size = 26, sha256 = "3e5f00438059c5b7afaabd4a935f9e4a9ad8f219a739fb0027b53ffdddc9b5a6" },
+  { offset = 0x9c7a6e, size = 8, sha256 = "0d102e26fda3e133f048f0fdd8aad4fbcf24415612f09240ed7adf739eab2d67" },
+  { offset = 0x9a439c, size = 16, sha256 = "889b898106403e40b086950fec689d24e76a51f92375f5e538e7a06405f272c6" },
+  { offset = 0x9c3b10, size = 12, sha256 = "232e3a80f89c6800f3337315bb0620f71f4ad882e32f0f6780f362fab67c0efb" },
+  { offset = 0x9e62d4, size = 484, sha256 = "d46c06ed72fa9b905f4a2f2126320f772d31f3ea53ce85e4d2e429ddde74f323" },
+  { offset = 0xa6b686, size = 48, sha256 = "5d9a815a16b8d4191e9d9f055a6f3229f4d96733a0f38e8512e698904066d3f2" },
+  { offset = 0xa6b6b6, size = 48, sha256 = "72e713b4de10870ee9363537fdb5cfe7924754c1223c230e12f824e7b5d85d67" },
+]
+
+[[pokedex.trainers.ivs.species_rules]]
+id = "minior-core-random"
+kind = "minior_core"
+label = "Core chosen at random"
+status = "known"
+native = "confirmed"
+stage = "final"
+personality = "random"
+species = [991, 1065, 1066, 1067, 1068, 1069, 1070, 1071]
+cores = { offset = 0xa6b654, count = 7 }
+spreads = [1, 141]
+ability_offset = 9
+ability_max = 4
+rom = [
+  { offset = 0x9c32b0, size = 60, sha256 = "840f3861c73673c0d704d49106a94730410b3a602244f668cedff35f6e8c0a4f" },
+  { offset = 0x9e5da8, size = 20, sha256 = "ec634231e99d8a8489dbb4937b1c78dbabd65dea486034cf6af6c007591f7eae" },
+  { offset = 0x9e5de4, size = 28, sha256 = "836451d8c0d690abb44f6c6b24e76edc3d600b9da91b37d174ed1f2bbde38ce8" },
+  { offset = 0x9e5e00, size = 40, sha256 = "e447f8f50bbadc0d08da8e16157dea17bac052962a91add7e740a7a28d6f3c68" },
+  { offset = 0x9e5fbc, size = 4, sha256 = "92cfe39cfd719131ce00b2c6c7b8a816ac5963db49c91731d40472a9f84cf9cd" },
+  { offset = 0xa6b654, size = 16, sha256 = "186d41333bf31e1de225f84d34e99846f770ce9abd74b5f5fcdc0b922ad8f7fb" },
+  { offset = 0x9c7c44, size = 36, sha256 = "4b837600ef013715b776a45764ad27945d59d9fa1780a9ab86a9abec3420315e" },
+  { offset = 0x9c7ae8, size = 164, sha256 = "39bbbecd2b789c730ade34368b7679ecf2de92160ca6a7952b97c3cdda250b36" },
+  { offset = 0x9c3794, size = 320, sha256 = "101ff573b198d0240b9ad5abcb2b905289a354048092c10b6e6188219135fa0a" },
+  { offset = 0x9c752e, size = 16, sha256 = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" },
+]
+
+[[pokedex.trainers.ivs.species_rules]]
+id = "minior-core-fixed"
+kind = "minior_core"
+label = "Core fixed by the trainer's party"
+status = "known"
+native = "confirmed"
+stage = "final"
+personality = "fixed"
+species = [991, 1065, 1066, 1067, 1068, 1069, 1070, 1071]
+cores = { offset = 0xa6b654, count = 7 }
+spreads = [1, 141]
+ability_offset = 9
+ability_max = 4
+names = { offset = 0x166a98c, stride = 11 }
+trainer_name = { offset = 4, size = 12 }
+gender = { offset = 2, shift = 7 }
+gender_classes = [0x02, 0x03, 0x18, 0x2e, 0x2f, 0x30, 0x51, 0x53, 0x54, 0x55, 0x57, 0x59, 0x5a]
+values = { male = 0x88, female = 0x78 }
+rom = [
+  { offset = 0x9c32b0, size = 60, sha256 = "840f3861c73673c0d704d49106a94730410b3a602244f668cedff35f6e8c0a4f" },
+  { offset = 0x9e5e00, size = 40, sha256 = "e447f8f50bbadc0d08da8e16157dea17bac052962a91add7e740a7a28d6f3c68" },
+  { offset = 0xa6b654, size = 16, sha256 = "186d41333bf31e1de225f84d34e99846f770ce9abd74b5f5fcdc0b922ad8f7fb" },
+  { offset = 0x9c7c44, size = 36, sha256 = "4b837600ef013715b776a45764ad27945d59d9fa1780a9ab86a9abec3420315e" },
+  { offset = 0x9c70bc, size = 26, sha256 = "a3d5204fbf66e4f143699787b38443f3ef504f1c328156a4d153432f8613032e" },
+  { offset = 0x9c7144, size = 28, sha256 = "550b9d9540fb4d39725a5095f4c31031a1975a3f2e71453520990ba5012ec6e9" },
+  { offset = 0x9c7330, size = 180, sha256 = "3c8ae01547ecd986c22cd21e26d6f36da1258c3ba0a969d99b9969831f77dbbb" },
+  { offset = 0x9c7652, size = 8, sha256 = "a6350923f9e6e7409450f7da9fede3aa9b5c3369168850008e4fa8e302cb5964" },
+]
+
+[[pokedex.trainers.ivs.species_rules]]
+id = "scaled-evolution"
+kind = "scaled_evolution"
+label = "Level {level} or higher after level scaling"
+labels = { range = "Level {level} to {last} after level scaling", badges = "With {badges} badges or more, level {level} or higher after level scaling", badges_range = "With {badges} badges or more, level {level} to {last} after level scaling", hall = "After the Hall of Fame, level {level} or higher after level scaling", hall_range = "After the Hall of Fame, level {level} to {last} after level scaling", from = "{condition} (evolved from {species})" }
+status = "known"
+native = "confirmed"
+stage = "create"
+modes = [5, 7, 13, 14, 15, 16]
+evolutions = { offset = 0x19f3a7a, pointer = 0x42f6c, stride = 128, entries = 16 }
+methods = { level = [4, 8, 9, 10, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23, 28, 31, 32, 35], other = [5, 15, 19, 26, 27, 29, 30, 33, 37, 38], item = [6, 7, 24, 25, 34, 36, 39], friendship = [1, 2, 3, 17] }
+levels = { other = 40, item = 45, friendship = 55 }
+keep_items = [495]
+boss_classes = [0x02, 0x18, 0x53, 0x54, 0x57, 0x59, 0x5a]
+custom_moves_flag = 1
+raise_difficulties = [3]
+party_level_penalties = [3, 5, 6, 7, 8, 8]
+raised_level_penalty = 2
+unscaled_difficulties = [1]
+unscaled_sections = [0x89]
+unscaled_trainers = [0x223]
+badge_levels = { offset = 0xa50400, stride = 2, count = 10 }
+hall_badges = 9
+battles = [
+  { id = "rematch", modes = [5, 7, 16], label = "{condition} (rematch only)" },
+  { id = "party-level", command = 0x1e726f2, party_level = 30, label = "{condition} (with a party member at level {party_level} or higher)", evidence = "Script 0x1E726BF stores the highest level of the non-egg party members (0x9ED1BB8, GetMonData fields 0x41 and 0x38) in 0x800D; at 30 or more it branches to setvar 0x8000 1, callasm 0x9ECA98D and trainerbattle 15 at 0x1E726F2, below 30 the same selector precedes trainerbattle 3 at 0x1E726D9." },
+]
+rom = [
+  { offset = 0x9c7190, size = 112, sha256 = "22bc7f488949f70dd7f9e85b01fd4b24645ccff9500a5306102012b58cc15e7d" },
+  { offset = 0x9c730c, size = 20, sha256 = "dfea6ac48395df7552343cc02048ab206ecdbdca559530659ea6c679de055e71" },
+  { offset = 0x9c73e6, size = 82, sha256 = "57212c5b39448eaf167a0079b0dcba38697df9cb673a13884ae01ef060680083" },
+  { offset = 0x9c74c2, size = 66, sha256 = "cec73b028bddb17da7662098bdca58dd8b9c55f9f5252bcb6739905696fde8c2" },
+  { offset = 0x9c765a, size = 34, sha256 = "e461c37879d7d6282f064df3fe7e4123727491cb35e218261017c013cf6a9be2" },
+  { offset = 0x9c7684, size = 32, sha256 = "66c82370179d07d0fd1f57c9a93c6f8b00a73f5bc58b13d6e6b41164067e1fef" },
+  { offset = 0x9c2e28, size = 84, sha256 = "65fa66569deeb4882aa4edcb9a221822dacd3d46f6504cc7e87f7f77639b7189" },
+  { offset = 0x9c2e7c, size = 40, sha256 = "c33e190f0cdc1c146e4eaa5dd735e5ec85e2ecce5ac9b4213c6e70e08f097c20" },
+  { offset = 0x9c2ec4, size = 104, sha256 = "f050f42dc979bce2d2675bc2c48edd7efb306f3ff5c7abf804615b590253291b" },
+  { offset = 0x9c32ec, size = 40, sha256 = "51eb3fba1e06263fc4f3b24c8c9d2c979f18a61b6b5f3bd9a7eb824ea9377503" },
+  { offset = 0x9c3b1c, size = 180, sha256 = "a866f81a5820cfe0cc422f5967beeae0926efe83603c2ca1f2cb593dacdfdfda" },
+  { offset = 0x9c3bd0, size = 376, sha256 = "5f5b740c1403826ae830c9fa13ab2a145f9fd782e6cdcc8c0f5eb4067347ea0b" },
+  { offset = 0xa13e84, size = 120, sha256 = "f45af3aa1378f9dd0dd575a7a87d2643c39732c644c8738e793680635c8d6bb4" },
+  { offset = 0x9e0c0c, size = 136, sha256 = "253d1a1e0e4b851b1d16cbd7782dab464193351ece6252b140c4635e2a727ed0" },
+  { offset = 0x9c7800, size = 16, sha256 = "171705582454c15050e4f71fa5cdac9d68ec4bb4414e81f5f75d95ec89bfd0d7" },
+  { offset = 0x9c7944, size = 16, sha256 = "73ec9d3ea13980fe0c2a207aa1b2a5f186d32b45ae88390e6193fc4ac302df0c" },
+  { offset = 0x42f6c, size = 4, sha256 = "3eb20c2216bcdf012f5ac87081e2cc797c42e1693e1c7fba5f77333cc7d4c7b2" },
+  { offset = 0x19f3a7a, size = 165632, sha256 = "e2aff9cbcaf48d4650738aced4b97bd1e2ede4435a9b58e9c7f288204fa931d8" },
+  { offset = 0xa50400, size = 20, sha256 = "350ae19a58fbdd363ede163d1f47286378f0924146a4dbb9772cf3acc1b9e3cc" },
+  { offset = 0x1e726bf, size = 65, sha256 = "ae3770b90041fcbb775e2ebd2cd9da4311b0aa67ea7b1f988460b55e57c543ba" },
+  { offset = 0x1ed1bb8, size = 96, sha256 = "ea87c84dda326733e06f63562ac15a980c5c7ada71876987220b680743365a0b" },
+  { offset = 0x1e86b8c, size = 62, sha256 = "50064fa40a058e71dd0e49c40e53c4194f647c326719c39b2bd4f7fad74469a8" },
+  { offset = 0x9c7418, size = 72, sha256 = "3fd831bc5204c49fb8e39bbc3b02eb1820c744f86121c7977d2283f7109df559" },
+]
+
+# Effective trainer EVs from the same party construction.
+[pokedex.trainers.evs]
+schema = 1
+absent = "abilities"
+
+[[pokedex.trainers.evs.tables]]
+name = "base_stats"
+offset = 0x19e0c9c
+stride = 28
+count = 1294
+pointer = 0x1bc
+sha256 = "beed70bc8ff0136bec0a8ba1ca3fcd1128a5b25a4d7f79155232ee92c97e13c1"
+
+[[pokedex.trainers.evs.tables]]
+name = "evolutions"
+offset = 0x19f3a7a
+stride = 128
+count = 1294
+pointer = 0x42f6c
+sha256 = "e2aff9cbcaf48d4650738aced4b97bd1e2ede4435a9b58e9c7f288204fa931d8"
+
+[[pokedex.trainers.evs.spans]]
+name = "grant_predicate"
+offset = 0xa10698
+size = 188
+sha256 = "d0fb191dddaa66f74d199d0c9c1ce78430f714d0014cae72165d981413f71874"
+
+[[pokedex.trainers.evs.spans]]
+name = "ev_count"
+offset = 0x43a40
+size = 40
+sha256 = "eedee205a2b7578a5f3ab2406f028042f45db758abd7bb1202910a02a5e7033c"
+
+[[pokedex.trainers.evs.spans]]
+name = "base_stat_getter"
+offset = 0xa140ce
+size = 98
+sha256 = "dbf2691cdc90646ea9d53fde31930e70f134fcb1727c13aa3526a2b570dd4acf"
+
+[[pokedex.trainers.evs.spans]]
+name = "rebalance_species"
+offset = 0xa140a8
+size = 38
+sha256 = "b5420fc2720cdf4a2af11b04d528b3e36fa2525b9e20015c6de9d8885a0fef94"
+
+[[pokedex.trainers.evs.spans]]
+name = "can_evolve"
+offset = 0xa13dec
+size = 44
+sha256 = "3000bb949c8b87d4355df8d36a618545aa3b405b6f223bdd41721142cd2f7f90"
+
+[[pokedex.trainers.evs.spans]]
+name = "base_stat_total"
+offset = 0xa13efc
+size = 32
+sha256 = "e520cb909eb38c268f90f06974e38751b91d200f6258a4696d71190f7e707dba"
+
+[[pokedex.trainers.evs.spans]]
+name = "scaled_stats_active"
+offset = 0x9e6eec
+size = 60
+sha256 = "a0d68778787c2db23b2b8839aa36bdfb962e6bf35b6d1029aa50e317e6129e3a"
+
+[[pokedex.trainers.evs.spans]]
+name = "rebalanced_variant"
+offset = 0x9e6f54
+size = 64
+sha256 = "979ece729f3b3fc536cce7c68f4027cfbc512d494de3f05256d0648860cbfd4a"
+
+[[pokedex.trainers.evs.spans]]
+name = "region_section"
+offset = 0x56260
+size = 40
+sha256 = "1a182dad6541fdf7287f036c6950332a38b4ee894db8d40e77509fc46b8e2d69"
+
+[[pokedex.trainers.evs.spans]]
+name = "partner-flag-script"
+offset = 0x1e5b692
+size = 33
+sha256 = "d8826592bb61a5d36d492c722b21f86413fe78fe275ac5a6d62d20641e6e083f"
+
+[[pokedex.trainers.evs.spans]]
+name = "partner-flag-clear"
+offset = 0x1e5dd53
+size = 3
+sha256 = "5a1c21a85ba140ac30ff94835a20ca66ea9ecf2a10d7d7eb5989f039cdd996cf"
+
+[[pokedex.trainers.evs.spans]]
+name = "partner-mode-loader"
+offset = 0x9ff17a
+size = 214
+sha256 = "14b66c1598ff1792166e8944055546c1b013ecbbc2bc27640e8ba4462eb944f2"
+
+[[pokedex.trainers.evs.spans]]
+name = "partner-mode-battle"
+offset = 0x9ff5fa
+size = 32
+sha256 = "450bca72370d324f39d6cc0f2febbf8b8435cc1d1fbb8361c21dbba88adf27d3"
+
+[[pokedex.trainers.evs.spans]]
+name = "partner-mode-party"
+offset = 0x9c716c
+size = 38
+sha256 = "c0f0c3401da17f2ee67cbfd63007b3dbbe1c863ae0106489eb7cd8eed34bd147"
+
+[[pokedex.trainers.evs.spans]]
+name = "story-battle-flag"
+offset = 0x1e5de17
+size = 100
+sha256 = "2bfd4f9db8b17ad718d417586ac4fa39a66d9febf0def80a1b69ed269c3b9565"
+
+[pokedex.trainers.evs.spread]
+first = 1
+last = 141
+offset = 2
+skip_difficulties = [1]
+operation_offsets = [0x89c754c, 0x89c7550, 0x89c7554, 0x89c7558, 0x89c755c, 0x89c7560, 0x89c7566]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-difficult-shared"
+trainers = [7, 487]
+species = [481]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-061"
+trainers = [61]
+species = [15, 145, 1010]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-063"
+trainers = [63]
+species = [149, 212, 771]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-065"
+trainers = [65]
+species = [36, 528, 584]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-067"
+trainers = [67]
+species = [146, 397, 1075]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-072"
+trainers = [72]
+species = [3, 981]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-074"
+trainers = [74]
+species = [376, 766]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-076"
+trainers = [76]
+species = [18, 451]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-078"
+trainers = [78]
+species = [481, 527]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-080"
+trainers = [80]
+species = [338, 717]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-085"
+trainers = [85]
+species = [230, 285]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-087"
+trainers = [87]
+species = [212, 334]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-whole-party"
+trainers = [204, 205, 564, 565]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-393"
+trainers = [393]
+species = [212, 583]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-398"
+trainers = [398]
+species = [130, 230]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-406"
+trainers = [406]
+species = [149, 322]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-498"
+trainers = [498]
+species = [65, 94]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-502"
+trainers = [502]
+species = [340, 476]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-503"
+trainers = [503]
+species = [343, 357]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-513"
+trainers = [513]
+species = [181, 632]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11cb6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-042"
+trainers = [42]
+not_species = [221, 526]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a11ccc]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-469"
+trainers = [469]
+not_species = [515]
+difficulties = [0, 1]
+operation = "clear"
+offsets = [0x8a1175e]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-082"
+trainers = [82]
+species = [501, 587]
+difficulties = [0, 1, 2, 3]
+operation = "clear"
+offsets = [0x8a11fb0]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "clear-171"
+trainers = [171]
+difficulties = [0]
+operation = "clear"
+offsets = [0x8a12748]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-171-held-455"
+trainers = [171]
+held_item = 455
+difficulties = [2, 3]
+operation = "set"
+evs = { defense = 78, speed = 180 }
+offsets = [0x8a12754]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-039-defenses"
+trainers = [39]
+species = [81, 675]
+difficulties = [2, 3]
+operation = "set"
+evs = { defense = 252, sp_defense = 252 }
+offsets = [0x8a11a66, 0x8a11a68, 0x8a11b0a, 0x8a11b0c]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-039-450"
+trainers = [39]
+species = [450]
+difficulties = [2, 3]
+operation = "set"
+evs = { defense = 252, speed = 252 }
+offsets = [0x8a11aae]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-044-expert-082"
+trainers = [44]
+species = [82]
+difficulties = [2]
+operation = "set"
+evs = { defense = 252 }
+offsets = [0x8a11be4]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-044-expert-hp"
+trainers = [44]
+species = [451, 476]
+difficulties = [2]
+operation = "set"
+evs = { hp = 252 }
+offsets = [0x8a11bee, 0x8a11c08]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-044-insane-082"
+trainers = [44]
+species = [82]
+difficulties = [3]
+operation = "set"
+evs = { hp = 252, defense = 252 }
+offsets = [0x8a11bdc, 0x8a11be4]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-044-insane-451"
+trainers = [44]
+species = [451]
+difficulties = [3]
+operation = "set"
+evs = { hp = 252, speed = 252 }
+offsets = [0x8a11bee, 0x8a11bf4]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-044-insane-476"
+trainers = [44]
+species = [476]
+difficulties = [3]
+operation = "set"
+evs = { hp = 252, sp_attack = 252 }
+offsets = [0x8a11c08, 0x8a11c0e]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-397-1230"
+trainers = [397]
+species = [1230]
+difficulties = [2, 3]
+operation = "set"
+evs = { hp = 4, attack = 252, defense = 0, speed = 252, sp_attack = 0, sp_defense = 0 }
+offsets = [0x8a12270, 0x8a12294, 0x8a1229c]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-497-003"
+trainers = [497]
+species = [3]
+difficulties = [2, 3]
+operation = "set"
+evs = { hp = 252, sp_attack = 252, sp_defense = 4 }
+offsets = [0x8a1255e, 0x8a12562]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-497-154"
+trainers = [497]
+species = [154]
+difficulties = [2, 3]
+operation = "set"
+evs = { hp = 252, sp_attack = 4, sp_defense = 252 }
+offsets = [0x8a12594, 0x8a12598]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-497-300"
+trainers = [497]
+species = [300]
+difficulties = [2, 3]
+operation = "set"
+evs = { attack = 4, speed = 252, sp_attack = 252 }
+offsets = [0x8a125ce, 0x8a125d2, 0x8a125d6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-511-speed"
+trainers = [511]
+species = [6, 157]
+difficulties = [2, 3]
+operation = "set"
+evs = { hp = 4, speed = 252, sp_attack = 252 }
+offsets = [0x8a11844, 0x8a11848, 0x8a1184c, 0x8a12698, 0x8a1269c, 0x8a126a0]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-511-321"
+trainers = [511]
+species = [321]
+difficulties = [2, 3]
+operation = "set"
+evs = { hp = 252, defense = 252, sp_attack = 4 }
+offsets = [0x8a126d0, 0x8a126d2, 0x8a126d6]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-651-552"
+trainers = [651]
+species = [552]
+level_min = 36
+difficulties = [0, 1, 2, 3]
+operation = "set"
+evs = { speed = 252 }
+offsets = [0x8a120fe]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "even-hp-184"
+trainers = [684, 685, 712]
+species = [184]
+difficulties = [0, 1, 2, 3]
+operation = "even_hp"
+offsets = [0x8a11dce, 0x8a12070]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "set-742-598-rebalanced"
+trainers = [742]
+species = [598]
+flag = 0x16e2
+flag_value = 1
+difficulties = [0, 1, 2, 3]
+operation = "set"
+evs = { hp = 6, attack = 252, defense = 0, speed = 252, sp_attack = 0, sp_defense = 0 }
+offsets = [0x8a119de, 0x8a1200a, 0x8a1200e]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "max-league-insane"
+not_species = [59, 515]
+maps = ["1.79"]
+difficulties = [3]
+operation = "set"
+evs = { hp = 252, attack = 252, defense = 252, speed = 252, sp_attack = 252, sp_defense = 252 }
+offsets = [0x8a11592, 0x8a11d06, 0x8a11d10, 0x8a11d30, 0x8a11d40]
+
+[[pokedex.trainers.evs.adjustments]]
+id = "max-league-insane-cleared"
+species = [59, 515]
+flag = 0x82c
+flag_value = 1
+maps = ["1.79"]
+difficulties = [3]
+operation = "set"
+evs = { hp = 252, attack = 252, defense = 252, speed = 252, sp_attack = 252, sp_defense = 252 }
+offsets = [0x8a11d16, 0x8a11d20, 0x8a11d30, 0x8a11d40]
+
+[pokedex.trainers.evs.grant]
+value = 252
+rebalance_flag = 0x16e2
+rebalance_total = 600
+rebalance_cap = 255
+rebalance_excluded = [303]
+evolution_stop = 0
+evolution_ignored = [253, 254]
+unreached_maps = ["2.56", "11.2", "12.0"]
+rules = [
+  { difficulty = 3, flag = 0x821, offsets = [0x8a106a8, 0x8a106ae] },
+  { difficulty = 2, classes = [28, 86], sections = [132], maps = ["10.23", "10.24", "10.25", "14.14", "14.15", "34.4", "36.10", "36.7", "36.8", "36.9", "54.4"], offsets = [0x8a106bc, 0x8a106c0, 0x8a106c8, 0x8a106d2, 0x8a106e4, 0x8a10712] },
+]
+
+[[pokedex.trainers.evs.places]]
+map = "1.79"
+section = 137
+
+[[pokedex.trainers.evs.places]]
+map = "10.23"
+section = 98
+
+[[pokedex.trainers.evs.places]]
+map = "10.24"
+section = 98
+
+[[pokedex.trainers.evs.places]]
+map = "10.25"
+section = 98
+
+[[pokedex.trainers.evs.places]]
+map = "14.14"
+section = 94
+
+[[pokedex.trainers.evs.places]]
+map = "14.15"
+section = 94
+
+[[pokedex.trainers.evs.places]]
+map = "34.4"
+section = 144
+
+[[pokedex.trainers.evs.places]]
+map = "36.10"
+section = 146
+
+[[pokedex.trainers.evs.places]]
+map = "36.7"
+section = 146
+
+[[pokedex.trainers.evs.places]]
+map = "36.8"
+section = 146
+
+[[pokedex.trainers.evs.places]]
+map = "36.9"
+section = 146
+
+[[pokedex.trainers.evs.places]]
+map = "54.4"
+section = 120
+
+[[pokedex.trainers.evs.conditions]]
+flag = 0x821
+set = "After the second badge"
+clear = "Before the second badge"
+evidence = "setflag 0x821 at 0x1E72C03 in the second gym leader script 0x1E72BF4 (selection 2 of stub 0x1ECA98C); 0x820 is set at 0x1E727D8 in the first and 0x822 at 0x1E72E44 in the third."
+
+[[pokedex.trainers.evs.conditions]]
+flag = 0x16e2
+set = "Rebalanced variant"
+clear = "Standard variant"
+evidence = "The new-game prompt map:0.5/mapscript:0/34 'Would you like to play a variant with stat rebalancing?' sets flag 0x16E2 at 0x1E7013A on Yes and confirms with map:0.5/mapscript:0/38; no script clears it."
+
+[[pokedex.trainers.evs.conditions]]
+flag = 0x82c
+set = "After the Hall of Fame"
+clear = "Before the Hall of Fame"
+evidence = "setflag 0x82C at 0x1E7F2C4 follows the League champion scripts 0x1E7E9B3 and 0x1E7EBAA; no script clears it."
+
+[[pokedex.trainers.evs.conditions]]
+flag = 0x9f3
+set = "With a battle partner"
+clear = "Without a battle partner"
+
+[[pokedex.trainers.evs.conditions]]
+flag = 0x170b
+set = "From the Ivory battle at Crystal Peak onward"
+clear = "Before the Ivory battle at Crystal Peak"
+
+# Difficulty-selected boss records, chosen by variable 0x50DF.
+# Every selection lists the record each setting uses.
+[pokedex.trainers.difficulty]
+variable = 0x50DF
+settings = ["difficult", "vanilla", "expert", "insane"]
+selections = [
+  { script = 0x1E726D4, native = "confirmed", stub = 0x1ECA98C, selector = 1, records = [6, 719, 720, 721], alternatives = [{ setting = "expert", record = 721, level_above = 39 }], note = "721 also on Expert above party level 39" },
+  { script = 0x1E72BF4, stub = 0x1ECA98C, selector = 2, records = [415, 722, 723, 724] },
+  { script = 0x1E72E35, stub = 0x1ECA98C, selector = 3, records = [20, 725, 726, 727] },
+  { script = 0x1E730A1, stub = 0x1ECA98C, selector = 4, records = [416, 728, 729, 730] },
+  { script = 0x1E731D3, stub = 0x1ECA98C, selector = 5, records = [418, 731, 732, 733] },
+  { script = 0x1E7336F, stub = 0x1ECA98C, selector = 6, records = [419, 737, 738, 739] },
+  { script = 0x1E7352F, stub = 0x1ECA98C, selector = 7, records = [417, 734, 735, 736] },
+  { script = 0x1E7366A, stub = 0x1ECA98C, selector = 8, records = [420, 740, 741, 742] },
+  { script = 0x1E7E4C5, stub = 0x1ECE37C, selector = 1, records = [410, 704, 705, 706] },
+  { script = 0x1E7E5DA, stub = 0x1ECE37C, selector = 2, records = [411, 707, 708, 709] },
+  { script = 0x1E7E6F2, stub = 0x1ECE37C, selector = 3, records = [412, 710, 711, 712] },
+  { script = 0x1E7E805, stub = 0x1ECE37C, selector = 4, records = [413, 713, 714, 715] },
+  { script = 0x1E7E9B3, stub = 0x1ECE37C, selector = 5, records = [414, 716, 717, 718] },
+  { script = 0x1E7EBAA, stub = 0x1ECE580, selector = 1, starter = 1, records = [432, 432, 432, 69], note = "selector is the starter, var 0x5012" },
+  { script = 0x1E7EBAA, stub = 0x1ECE580, selector = 2, starter = 2, records = [433, 433, 433, 70], note = "selector is the starter, var 0x5012" },
+  { script = 0x1E7EBAA, stub = 0x1ECE580, selector = 3, starter = 3, records = [434, 434, 434, 71], note = "selector is the starter, var 0x5012" },
+  { script = 0x1E53439, stub = 0x1EB0A54, selector = 72, records = [72, 72, 72, 73] },
+  { script = 0x1E536D4, stub = 0x1EB0A54, selector = 74, records = [74, 74, 74, 75] },
+  { script = 0x1E5396B, stub = 0x1EB0A54, selector = 76, records = [76, 76, 76, 77] },
+  { script = 0x1E53C02, stub = 0x1EB0A54, selector = 78, records = [78, 78, 78, 79] },
+  { script = 0x1E53EBB, stub = 0x1EB0A54, selector = 80, records = [80, 80, 80, 81] },
+  { script = 0x1E54152, stub = 0x1EB0A54, selector = 82, records = [82, 82, 83, 84] },
+  { script = 0x1E543E9, stub = 0x1EB0A54, selector = 85, records = [85, 85, 85, 86] },
+  { script = 0x1E54689, stub = 0x1EB0A54, selector = 87, records = [87, 87, 87, 88] },
+  { script = 0x1E58B6F, stub = 0x1ECACE0, selector = 1, records = [353, 671, 672, 673] },
+  { script = 0x1E89C6B, native = "confirmed", stub = 0x1ECACE0, selector = 2, records = [349, 677, 678, 679] },
+  { script = 0x1E5DE6C, stub = 0x1ECACE0, selector = 3, records = [26, 695, 696, 697] },
+  { script = 0x1E58CA6, stub = 0x1ECAD9C, selector = 1, records = [348, 674, 675, 676] },
+  { script = 0x1E91E2E, stub = 0x1ECAD9C, selector = 2, records = [350, 689, 690, 691] },
+  { script = 0x1E92F9A, stub = 0x1ECAD9C, selector = 3, records = [56, 56, 57, 58] },
+  { script = 0x1E9DD2F, stub = 0x1ECAE80, selector = 1, records = [384, 692, 693, 694] },
+  { script = 0x1E5F609, native = "confirmed", stub = 0x1ECAE80, selector = 2, records = [27, 698, 699, 700] },
+  { script = 0x1E8D799, native = "confirmed", stub = 0x1ECAE80, selector = 3, records = [51, 51, 52, 52] },
+  { script = 0x1E57D2B, native = "confirmed", stub = 0x1ECAC28, selector = 1, records = [352, 668, 669, 670] },
+  { script = 0x1E97B25, stub = 0x1ECAC28, selector = 2, records = [25, 680, 681, 682] },
+  { script = 0x1E6005F, native = "confirmed", stub = 0x1ECAC28, selector = 3, records = [28, 701, 702, 703] },
+  { script = 0x1E94C97, stub = 0x1ECC334, records = [24, 683, 684, 685] },
+  { script = 0x1E85EDE, stub = 0x1EC901C, records = [537, 537, 545, 546] },
+  { script = 0x1EA6A53, stub = 0x1ECAF70, selector = 1, records = [199, 199, 650, 651] },
+  { script = 0x1EAF483, stub = 0x1ECAF70, selector = 2, records = [257, 257, 652, 653] },
+  { script = 0x1EA9746, stub = 0x1ECAF70, selector = 3, records = [256, 256, 654, 655] },
+  { script = 0x1E83B71, branch = 0x1E83C21, starter = 1, records = [426, 426, 435, 435], note = "426 + starter - 1 through special 0x3E, 435 + starter - 1 from Expert on" },
+  { script = 0x1E83B71, branch = 0x1E83C21, starter = 2, records = [427, 427, 436, 436], note = "426 + starter - 1 through special 0x3E, 435 + starter - 1 from Expert on" },
+  { script = 0x1E83B71, branch = 0x1E83C21, starter = 3, records = [428, 428, 437, 437], note = "426 + starter - 1 through special 0x3E, 435 + starter - 1 from Expert on" },
+  { script = 0x1E5A3DC, branch = 0x1E5A449, starter = 1, records = [429, 429, 438, 438], note = "429 + starter - 1 through special 0x3E, 438 + starter - 1 from Expert on" },
+  { script = 0x1E5A3DC, branch = 0x1E5A449, starter = 2, records = [430, 430, 439, 439], note = "429 + starter - 1 through special 0x3E, 438 + starter - 1 from Expert on" },
+  { script = 0x1E5A3DC, branch = 0x1E5A449, starter = 3, records = [431, 431, 440, 440], note = "429 + starter - 1 through special 0x3E, 438 + starter - 1 from Expert on" },
+  { script = 0x1E5959D, native = "confirmed", stub = 0x1ECAE44, selector = 1, records = [375, 686, 687, 688], note = "multi battle with record 374 and partner 38 below Expert, tag battle with partner 38 from Expert on" },
+  { script = 0x1E7EC4C, native = "confirmed", stub = 0x1ECE580, selector = 1, records = [61, 61, 61, 62] },
+  { script = 0x1E7ECEE, native = "confirmed", stub = 0x1ECE580, selector = 2, records = [59, 59, 59, 60] },
+  { script = 0x1E7ED94, native = "confirmed", stub = 0x1ECE580, selector = 3, records = [56, 56, 57, 58] },
+  { script = 0x1E7EE33, native = "confirmed", stub = 0x1ECE580, selector = 4, records = [67, 67, 67, 68] },
+  { script = 0x1E7EED9, native = "confirmed", stub = 0x1ECE580, selector = 5, records = [65, 65, 65, 66] },
+  { script = 0x1E7EF7C, native = "confirmed", stub = 0x1ECE580, selector = 6, records = [63, 63, 63, 64] },
+]
+
+[pokedex.trainers.difficulty.starter]
+variable = 0x5012
+species = [0x1f0, 0xf6, 0x18e]
+
+[pokedex.trainers.difficulty.presentation]
+default = 0
+order = [1, 0, 2, 3]
+labels = ["Difficult", "Vanilla", "Expert", "Insane"]
+
+# Battle starts outside the difficulty selections.
+[[pokedex.trainers.encounters]]
+script = 0x1E6D8DA
+starter = [326, 327, 328]
+
+[[pokedex.trainers.encounters]]
+script = 0x1E77075
+starter = [329, 330, 331]
+commands = [0x1E771C0, 0x1E771CB, 0x1E771D6]
+evidence = "Rival 2, root 0x1E76FD1: compare 0x5012 with 1 (0x1E77075, call_if <= to 0x1E771C0, trainerbattle 3 record 329), with 2 (0x1E77080, == to 0x1E771CB, record 330) and with 3 (0x1E7708B, >= to 0x1E771D6, record 331)."
+
+[[pokedex.trainers.encounters]]
+script = 0x1E6CD5A
+starter = [332, 333, 334]
+commands = [0x1E6CE06, 0x1E6CE11, 0x1E6CE1C]
+evidence = "Rival 3, root 0x1E6CCB2: compare 0x5012 with 1 (0x1E6CD5A, call_if <= to 0x1E6CE06, trainerbattle 15 record 332), with 2 (0x1E6CD65, == to 0x1E6CE11, record 333) and with 3 (0x1E6CD70, >= to 0x1E6CE1C, record 334)."
+
+[[pokedex.trainers.encounters]]
+script = 0x1E61F21
+stages = [
+  { record = 459 },
+  { record = 460, flag = 0x821, condition = "After the second badge" },
+  { record = 461, flag = 0x823, condition = "After the fourth badge" },
+  { record = 462, flag = 0x825, condition = "After the sixth badge" },
+  { record = 463, flag = 0x82C, condition = "After the Hall of Fame" },
+]
+
+[[pokedex.trainers.encounters]]
+script = 0x1E63D87
+records = [453]
+evidence = "Criminon: setvar 0x8000 453 at 0x1E63D87; compare 0x50DF with 3 and call_if >= 0x1E63DE9, which only returns; trainerbattle 3 with var 0x8000 at 0x1E63D97. Record 454 has no battle start."
+
+[[pokedex.trainers.encounters]]
+native = "confirmed"
+script = 0x1EA7226
+records = [204]
+commands = [0x1EA7226]
+
+[pokedex.trainers.order]
+searched = "Inspected the 84013 decoded command boundaries and 782 battle commands of the map and structural walks; declared difficulty anchors, participant commands, badge setters, progress-variable writes, map event conditions, the trainer-card repeat groups, and rematch availability at 0x1EB0A8C. The pinned script-command source was compared with ROM handlers 0x69FEC, 0x6A028, 0x6A520 and 0x6A82C-0x6A86D. No complete relation was proved for remaining encounters: optional battles, shared-name NPCs, distinct story roots and rematch schedules require additional reachability evidence. In particular, schedule availability alone does not prove a gym-to-rematch path. Numeric map ids, script addresses, selector numbers and unrelated progress values supply no order. Dynamic/native script dispatch and complete overworld reachability remain unconfirmed."
+
+[[pokedex.trainers.order.rules]]
+id = "badge-selected-stages"
+sequence = [{ kind = "group", script = 31858465, record = 459 }, { kind = "group", script = 31858465, record = 460 }, { kind = "group", script = 31858465, record = 461 }, { kind = "group", script = 31858465, record = 462 }, { kind = "group", script = 31858465, record = 463 }]
+native = "unconfirmed"
+rom = [
+  { offset = 31858465, size = 96, sha256 = "662f544e27cf1715b3e732ef03292cfc4e4d1762e71b5acccd4c5104ab766bf7" },
+  { offset = 31927279, size = 23, sha256 = "455b27eff58ac3f6bf4a9e6e210cdc88a19bb4d25088a3b9517807b292e61700" },
+  { offset = 31928476, size = 23, sha256 = "dc0c806da09f92a0b252432beca05f50bf7305033c7ee3544661af4e29eafa75" },
+  { offset = 31929194, size = 23, sha256 = "d5c60acdc00215ed55be1e9495a07c93ed1d55622bc0636da9e108996abced0c" },
+  { offset = 31978180, size = 3, sha256 = "4ac975a83a21b6afe1dfa7832f78847827c9ae74755e34cbf5b9c9f9b640d2c2" },
+  { offset = 1440204, size = 8, sha256 = "5fbd37bc2b76741ff1900be6e2b465673804d873ffe3d4d5ea113284620ae0db" },
+  { offset = 434156, size = 120, sha256 = "50b025ecaf1f12c24e3d0248c9531af78b538e7c197c9900db67ef50a2f314d8" },
+  { offset = 3830344, size = 18, sha256 = "a2d7587736fc7cd20df12b1c406849cd46e336cbddfefbe9dd20abfd2d82dcf2" },
+  { offset = 1440344, size = 12, sha256 = "f46fed22993db56263117513214b036452b1c091f1f47dac6fe069023bfa03cb" },
+  { offset = 436268, size = 68, sha256 = "993ee3051347a602f5e592c2e347ed6a64e843f7a82428eb65d3339e71fa06a6" },
+]
+
+[[pokedex.trainers.order.rules]]
+id = "antisis-trigger-then-pair"
+sequence = [{ kind = "battle", record = 203 }, { kind = "group", script = 0x1EA7226, record = 204 }]
+evidence = "Header 0x3506C0 (engine maps 2.66, 3.37 and 3.102) runs 0x1EA707B from its on-frame table 0x1EA7044 when var 0x5027 is 1. The script sets flags 0x968 and 0x2F0 and var 0x5027 = 3, then battles record 203 with trainerbattle 3 at 0x1EA719C; a loss ends the script. After the win the same script continues without a branch to trainerbattle 3 of record 204 at 0x1EA7226, with var 0x50BE = 205 as second opponent (0x1EA7210). Native runs on the three maps start 203 from the trigger, and 204 with 205 from the state the won battle leaves; the won battle itself was not played."
+native = "unconfirmed"
+rom = [
+  { offset = 3475136, size = 28, sha256 = "c0ae88060a2386ddfea326fe37a4a04f946dbcb8c360da5bcb0ab1875ec6cb89" },
+  { offset = 32141380, size = 10, sha256 = "abff761bebd33d006c672a7586ad12c0da5ee1337db9d560490ec5552ed6eda2" },
+  { offset = 32141435, size = 437, sha256 = "1287e929c026deb3fc7a8abb7a0505e49528da964b0e01db19438b95f961772f" },
+]
+
+[[pokedex.trainers.order.rules]]
+id = "expressway-training"
+sequence = [{ kind = "battle", record = 185 }, { kind = "battle", record = 22 }]
+native = "unconfirmed"
+rom = [
+  { offset = 31811752, size = 109, sha256 = "6f2b1d98d1e2954a7233ad3cf920d5b359eb1128e7478b6c599e38b862b557f2" },
+  { offset = 31810769, size = 77, sha256 = "4de22f2b380cb4efdf16876324dda26af81b9be1becf82150140332561cde674" },
+  { offset = 435488, size = 44, sha256 = "78bc490aee74c55e90bd24fe4aedf44a0019bddffa130efb427fd407679ca862" },
+  { offset = 1440312, size = 4, sha256 = "ef3da25984c55a6e14ba3af763a996115414821eed2ad7108b4ade2a735239db" },
+  { offset = 1440204, size = 8, sha256 = "5fbd37bc2b76741ff1900be6e2b465673804d873ffe3d4d5ea113284620ae0db" },
+  { offset = 434156, size = 120, sha256 = "50b025ecaf1f12c24e3d0248c9531af78b538e7c197c9900db67ef50a2f314d8" },
+  { offset = 3830344, size = 18, sha256 = "a2d7587736fc7cd20df12b1c406849cd46e336cbddfefbe9dd20abfd2d82dcf2" },
+  { offset = 1440344, size = 12, sha256 = "f46fed22993db56263117513214b036452b1c091f1f47dac6fe069023bfa03cb" },
+  { offset = 436268, size = 68, sha256 = "993ee3051347a602f5e592c2e347ed6a64e843f7a82428eb65d3339e71fa06a6" },
+]
+
+[[pokedex.trainers.order.rules]]
+id = "hall-of-fame-rosters"
+sequence = [{ kind = "battle", record = 42 }, { kind = "battle", record = 43 }]
+native = "unconfirmed"
+rom = [
+  { offset = 31813957, size = 46, sha256 = "4305db9ca1ad755e29eff9ee458aedc10980cc8a6f3a5853a76b39fc26da5eb7" },
+  { offset = 31814187, size = 21, sha256 = "f0699fc590e11c408f6955a88eb3abd23faac0ab0e0c543cae2d457e2c603287" },
+  { offset = 31978180, size = 3, sha256 = "4ac975a83a21b6afe1dfa7832f78847827c9ae74755e34cbf5b9c9f9b640d2c2" },
+  { offset = 1440204, size = 8, sha256 = "5fbd37bc2b76741ff1900be6e2b465673804d873ffe3d4d5ea113284620ae0db" },
+  { offset = 434156, size = 120, sha256 = "50b025ecaf1f12c24e3d0248c9531af78b538e7c197c9900db67ef50a2f314d8" },
+  { offset = 3830344, size = 18, sha256 = "a2d7587736fc7cd20df12b1c406849cd46e336cbddfefbe9dd20abfd2d82dcf2" },
+  { offset = 1440344, size = 12, sha256 = "f46fed22993db56263117513214b036452b1c091f1f47dac6fe069023bfa03cb" },
+  { offset = 436268, size = 68, sha256 = "993ee3051347a602f5e592c2e347ed6a64e843f7a82428eb65d3339e71fa06a6" },
+]
+
+[[pokedex.trainers.order.rules]]
+id = "entrance-before-multi-battle"
+sequence = [{ kind = "battle", record = 374 }, { kind = "selection", script = 31823261 }]
+native = "unconfirmed"
+rom = [
+  { offset = 31822004, size = 209, sha256 = "991ad19a70a3890c041a09e537159ff6847f63838ae4eb9dbd540421c79d32ab" },
+  { offset = 3471272, size = 28, sha256 = "16c8ec71cb29e5f0f8cbc757762d1f36beef832b5ff43e8e1e6d3104c27cb4db" },
+  { offset = 31822270, size = 17, sha256 = "859fe04309ec7fdbb9e882552c46f83ed84b9cbad7afd613c7d1ca38f41641f1" },
+  { offset = 31822318, size = 1193, sha256 = "501486bae47f396288df0c3575a3c37b08117436bda97d79bd667198e011084c" },
+  { offset = 31823781, size = 36, sha256 = "a7cac4c29c6386ec49b6fae5a73f82487c1f0afaed97bca0bcc4af443dcfd508" },
+]
+
+[[pokedex.trainers.order.rules]]
+id = "successive-partner-battles"
+sequence = [{ kind = "selection", script = 31847945 }, { kind = "selection", script = 31850591 }]
+native = "unconfirmed"
+rom = [
+  { offset = 31847937, size = 61, sha256 = "e742226fabf7c029005832453a5f5d5bc666e1a1abc923193c99f7e42b69ab97" },
+  { offset = 31849876, size = 68, sha256 = "d80f8e98a9ec5f51293e753b635c5e86312e8e59e0654983cda55e28be383665" },
+  { offset = 31850407, size = 193, sha256 = "4251c3aa8e6c3847304f96365b8359e629a94fdef23b266868745d51c8f410c1" },
+  { offset = 31850604, size = 27, sha256 = "0caea4a81694ec2e26a2eb50520173bc3e665e462ca8e6637d2270657e11c752" },
+  { offset = 31850959, size = 5, sha256 = "e1b6653300662e4dc3d3ac07e3c4a3d3a64988c738c83536bb65c994ae6361b2" },
+  { offset = 1440204, size = 8, sha256 = "5fbd37bc2b76741ff1900be6e2b465673804d873ffe3d4d5ea113284620ae0db" },
+  { offset = 434156, size = 120, sha256 = "50b025ecaf1f12c24e3d0248c9531af78b538e7c197c9900db67ef50a2f314d8" },
+  { offset = 3830344, size = 18, sha256 = "a2d7587736fc7cd20df12b1c406849cd46e336cbddfefbe9dd20abfd2d82dcf2" },
+  { offset = 1440344, size = 12, sha256 = "f46fed22993db56263117513214b036452b1c091f1f47dac6fe069023bfa03cb" },
+  { offset = 436268, size = 68, sha256 = "993ee3051347a602f5e592c2e347ed6a64e843f7a82428eb65d3339e71fa06a6" },
+]
+
+[[pokedex.trainers.participants]]
+native = "confirmed"
+script = 0x1E57D2B
+commands = [0x1E57D3A]
+selectors = [
+  { role = "second_opponent", records = [391, 391, 664, 665] },
+  { role = "partner", records = [39, 39, 39, 39] },
+]
+rom = [
+  { offset = 0x1E57D26, size = 0x28, sha256 = "8f79611b93abae11015c44326c5433a3b2f06edca85296dbdfeb6a46a1e6f6f6" },
+  { offset = 0x1ECAF10, size = 0x60, sha256 = "089499968c280bf3e26fa0087cc82341911e0278a87542b75a4bb567e9f48916" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0xA6BDE8, size = 0x190, sha256 = "28bda277cc03e44b1f1393f2c88d83eef49850c57e57abcff05c5ab87cb43453" },
+  { offset = 0x80168, size = 0x88, sha256 = "e66c025898d089e075ce774addd88cdbcbf73163d1f4a1160ac8e2dc3cd3e60e" },
+]
+
+[[pokedex.trainers.participants]]
+native = "confirmed"
+script = 0x1E89C6B
+commands = [0x1E89C7A]
+selectors = [
+  { role = "second_opponent", records = [365, 365, 666, 667] },
+  { role = "partner", records = [44, 44, 44, 44] },
+]
+rom = [
+  { offset = 0x1E89C66, size = 0x28, sha256 = "5a657f8347e2f347f1902d540eea4b613d5a4bcde23d26600cd40653de962b02" },
+  { offset = 0x1ECAF10, size = 0x60, sha256 = "089499968c280bf3e26fa0087cc82341911e0278a87542b75a4bb567e9f48916" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0xA6BDE8, size = 0x190, sha256 = "28bda277cc03e44b1f1393f2c88d83eef49850c57e57abcff05c5ab87cb43453" },
+  { offset = 0x80168, size = 0x88, sha256 = "e66c025898d089e075ce774addd88cdbcbf73163d1f4a1160ac8e2dc3cd3e60e" },
+]
+
+[[pokedex.trainers.participants]]
+native = "confirmed"
+script = 0x1E5959D
+commands = [0x1E597A5, 0x1E597BA]
+selectors = [
+  { role = "second_opponent", records = [374, 374], settings = ["difficult", "vanilla"] },
+  { role = "partner", records = [38, 38, 38, 38] },
+]
+rom = [
+  { offset = 0x1E59598, size = 0x20, sha256 = "59d5bd78f118409750f1abad9f1010c7a4704b39240c26d7d370544381d492aa" },
+  { offset = 0x1E597A5, size = 0x24, sha256 = "a7cac4c29c6386ec49b6fae5a73f82487c1f0afaed97bca0bcc4af443dcfd508" },
+  { offset = 0x1ECAE44, size = 0x3C, sha256 = "201ccbc145c0b0a6d11ac850cc20df8b198a51aca6d68c9651575b5a59f544e8" },
+  { offset = 0x1FB58B4, size = 0x6, sha256 = "bf30c31d8ca7a704575c44d8255bbd5fd98f489c37f68d1c523d8b2b4fa14583" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0xA6BDE8, size = 0x190, sha256 = "28bda277cc03e44b1f1393f2c88d83eef49850c57e57abcff05c5ab87cb43453" },
+  { offset = 0x80168, size = 0x88, sha256 = "e66c025898d089e075ce774addd88cdbcbf73163d1f4a1160ac8e2dc3cd3e60e" },
+]
+
+[[pokedex.trainers.participants]]
+native = "confirmed"
+script = 0x1E5F609
+commands = [0x1E5F613]
+selectors = [
+  { role = "partner", records = [46, 46, 46, 46], starter = 1 },
+  { role = "partner", records = [47, 47, 47, 47], starter = 2 },
+  { role = "partner", records = [48, 48, 48, 48], starter = 3 },
+]
+rom = [
+  { offset = 0x1E5F604, size = 0x1D, sha256 = "3717945b82da989b07692fa03eb74abb1c5facf952fa2614296f772306b9be89" },
+  { offset = 0x1E5FDD8, size = 0x18, sha256 = "43fa3056246787b0e11bbe491cfb697f9c08a0e730ed65c4d430ede3e456706e" },
+  { offset = 0x15FE58, size = 0x4, sha256 = "1d4574597af543648193a8eb7bd5f4c46d743a406db3bd01b83eb6688e1a61fd" },
+  { offset = 0xA08284, size = 0x4C, sha256 = "f6355736d5a12f8a54a959c6c93eaae89e469de7a2cac9d71d02a1a788cf0f5b" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0xA6BDE8, size = 0x190, sha256 = "28bda277cc03e44b1f1393f2c88d83eef49850c57e57abcff05c5ab87cb43453" },
+  { offset = 0x80168, size = 0x88, sha256 = "e66c025898d089e075ce774addd88cdbcbf73163d1f4a1160ac8e2dc3cd3e60e" },
+]
+
+[[pokedex.trainers.participants]]
+native = "confirmed"
+script = 0x1E6005F
+commands = [0x1E6006C]
+selectors = [
+  { role = "partner", records = [46, 46, 46, 46], starter = 1 },
+  { role = "partner", records = [47, 47, 47, 47], starter = 2 },
+  { role = "partner", records = [48, 48, 48, 48], starter = 3 },
+]
+rom = [
+  { offset = 0x1E6005A, size = 0x20, sha256 = "edf612d3f22a3bccf15857b4c3c60c417472862fe0afef8a90ebce798630d89e" },
+  { offset = 0x1E5FDD8, size = 0x18, sha256 = "43fa3056246787b0e11bbe491cfb697f9c08a0e730ed65c4d430ede3e456706e" },
+  { offset = 0x15FE58, size = 0x4, sha256 = "1d4574597af543648193a8eb7bd5f4c46d743a406db3bd01b83eb6688e1a61fd" },
+  { offset = 0xA08284, size = 0x4C, sha256 = "f6355736d5a12f8a54a959c6c93eaae89e469de7a2cac9d71d02a1a788cf0f5b" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0xA6BDE8, size = 0x190, sha256 = "28bda277cc03e44b1f1393f2c88d83eef49850c57e57abcff05c5ab87cb43453" },
+  { offset = 0x80168, size = 0x88, sha256 = "e66c025898d089e075ce774addd88cdbcbf73163d1f4a1160ac8e2dc3cd3e60e" },
+]
+
+[[pokedex.trainers.participants]]
+native = "confirmed"
+script = 0x1E8D799
+commands = [0x1E8D79E]
+selectors = [
+  { role = "partner", records = [50, 50, 50, 50] },
+]
+rom = [
+  { offset = 0x1E8D794, size = 0x19, sha256 = "e27d57bc706cb4d65688410a548d20ea5ac7c2a2dafbb1f441979865b1589c91" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0xA6BDE8, size = 0x190, sha256 = "28bda277cc03e44b1f1393f2c88d83eef49850c57e57abcff05c5ab87cb43453" },
+  { offset = 0x80168, size = 0x88, sha256 = "e66c025898d089e075ce774addd88cdbcbf73163d1f4a1160ac8e2dc3cd3e60e" },
+]
+
+# Trainer maps: the battles each map script starts.
+[[pokedex.trainers.participants]]
+native = "confirmed"
+script = 0x1EA7226
+commands = [0x1EA7226]
+selectors = [{ role = "second_opponent", records = [205, 205, 205, 205] }]
+rom = [
+  { offset = 0x1EA720D, size = 0x23, sha256 = "141a721e8b0c9f98fa614cbc307ba2f06cad9b28470ac7e777a7f36b8ca2ecee" },
+  { offset = 0x1EC83AC, size = 0xA8, sha256 = "a995b543e5ec797c36b5d377868fb065828e42f4610c02eb4c3607ae58bbd55b" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+[pokedex.trainers.maps]
+searched = "The 534-header map walk decoded 84013 command sites and 782 trainerbattle commands, including all 53 variable first-opponent calls. Checked literal operands, existing difficulty and participant selectors, the six remaining calls of 0x1ECE580, reached setvar/copyvar sites and native references to the opponent destination 0x020386AE. Inspected the rematch reader 0x10CE64 and table 0x453190; the live dispatcher 0x9FF070 does not call that reader in rematch modes, so the legacy table supplies no additional maps. Checked var 0x50BE second opponents and var 0x50BF partner assignments; partner assignments without a proven battle consumption remain unknown. Numeric matches in item/species arguments, wild-battle setup variables and unrelated tables are not trainer evidence. The remaining records have no proven battle location from these searches; their use or non-use is unknown, including blank and unused-labelled records. Headless-emulator native runs confirmed the six challenger resolutions and the 204/205 battle on their declared maps; the remaining records have no native battle confirmation."
+
+[[pokedex.trainers.maps.resolutions]]
+id = "challenger-1"
+script = 0x1E7EC4C
+records = [61, 62]
+native = "confirmed"
+rom = [
+  { offset = 0x1E7EAC8, size = 0x57, sha256 = "a3b34bb3d526803e26547444c7eee5a80408722cfa1abf1c8a901e1fbe8db09b" },
+  { offset = 0x1E7EC4C, size = 0xF, sha256 = "29d7cfab175f951862ce444609998ab6ffaab51cb7f5112fe331a27b0be1dcce" },
+  { offset = 0x1ECE580, size = 0xD8, sha256 = "b739655379637f087dd084ab8464783d6d9d455ae80afb571517fd72c5a4812b" },
+  { offset = 0x1ECEBCA, size = 0x2, sha256 = "da39319503780ab8cc23284c29e5bfe806a13f6ac32949fddf3ffa401e17c849" },
+  { offset = 0x1E95E18, size = 0x1C, sha256 = "d57a5d0ec59c7873bb97dc5806f96bc006e94d8b59c381a8beb5ee19b3795a3a" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+[[pokedex.trainers.maps.resolutions]]
+id = "challenger-2"
+script = 0x1E7ECEE
+records = [59, 60]
+native = "confirmed"
+rom = [
+  { offset = 0x1E7EAC8, size = 0x57, sha256 = "a3b34bb3d526803e26547444c7eee5a80408722cfa1abf1c8a901e1fbe8db09b" },
+  { offset = 0x1E7ECEE, size = 0xF, sha256 = "c17c3a33a3ad0e5e63aeff14f39ae2a18925427af919990a3ae01da4895c252d" },
+  { offset = 0x1ECE580, size = 0xD8, sha256 = "b739655379637f087dd084ab8464783d6d9d455ae80afb571517fd72c5a4812b" },
+  { offset = 0x1ECEBCA, size = 0x2, sha256 = "da39319503780ab8cc23284c29e5bfe806a13f6ac32949fddf3ffa401e17c849" },
+  { offset = 0x1E95E18, size = 0x1C, sha256 = "d57a5d0ec59c7873bb97dc5806f96bc006e94d8b59c381a8beb5ee19b3795a3a" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+[[pokedex.trainers.maps.resolutions]]
+id = "challenger-3"
+script = 0x1E7ED94
+records = [56, 57, 58]
+native = "confirmed"
+rom = [
+  { offset = 0x1E7EAC8, size = 0x57, sha256 = "a3b34bb3d526803e26547444c7eee5a80408722cfa1abf1c8a901e1fbe8db09b" },
+  { offset = 0x1E7ED94, size = 0xF, sha256 = "cbbfead322f5db39322081887dae06249ad1605564e77b4dd6d8f3309b008495" },
+  { offset = 0x1ECE580, size = 0xD8, sha256 = "b739655379637f087dd084ab8464783d6d9d455ae80afb571517fd72c5a4812b" },
+  { offset = 0x1ECEBCA, size = 0x2, sha256 = "da39319503780ab8cc23284c29e5bfe806a13f6ac32949fddf3ffa401e17c849" },
+  { offset = 0x1E95E18, size = 0x1C, sha256 = "d57a5d0ec59c7873bb97dc5806f96bc006e94d8b59c381a8beb5ee19b3795a3a" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+[[pokedex.trainers.maps.resolutions]]
+id = "challenger-4"
+script = 0x1E7EE33
+records = [67, 68]
+native = "confirmed"
+rom = [
+  { offset = 0x1E7EAC8, size = 0x57, sha256 = "a3b34bb3d526803e26547444c7eee5a80408722cfa1abf1c8a901e1fbe8db09b" },
+  { offset = 0x1E7EE33, size = 0xF, sha256 = "a37a88be5f5aa9d0ed2f9a5091639fbaea8add2975348415f4b6bbd089eb5be9" },
+  { offset = 0x1ECE580, size = 0xD8, sha256 = "b739655379637f087dd084ab8464783d6d9d455ae80afb571517fd72c5a4812b" },
+  { offset = 0x1ECEBCA, size = 0x2, sha256 = "da39319503780ab8cc23284c29e5bfe806a13f6ac32949fddf3ffa401e17c849" },
+  { offset = 0x1E95E18, size = 0x1C, sha256 = "d57a5d0ec59c7873bb97dc5806f96bc006e94d8b59c381a8beb5ee19b3795a3a" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+[[pokedex.trainers.maps.resolutions]]
+id = "challenger-5"
+script = 0x1E7EED9
+records = [65, 66]
+native = "confirmed"
+rom = [
+  { offset = 0x1E7EAC8, size = 0x57, sha256 = "a3b34bb3d526803e26547444c7eee5a80408722cfa1abf1c8a901e1fbe8db09b" },
+  { offset = 0x1E7EED9, size = 0xF, sha256 = "ec4520a20a7a03c59f3b6f71d7b8a2bfb9826b9e03bd6541e33da3b671fd15a2" },
+  { offset = 0x1ECE580, size = 0xD8, sha256 = "b739655379637f087dd084ab8464783d6d9d455ae80afb571517fd72c5a4812b" },
+  { offset = 0x1ECEBCA, size = 0x2, sha256 = "da39319503780ab8cc23284c29e5bfe806a13f6ac32949fddf3ffa401e17c849" },
+  { offset = 0x1E95E18, size = 0x1C, sha256 = "d57a5d0ec59c7873bb97dc5806f96bc006e94d8b59c381a8beb5ee19b3795a3a" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+[[pokedex.trainers.maps.resolutions]]
+id = "challenger-6"
+script = 0x1E7EF7C
+records = [63, 64]
+native = "confirmed"
+rom = [
+  { offset = 0x1E7EAC8, size = 0x57, sha256 = "a3b34bb3d526803e26547444c7eee5a80408722cfa1abf1c8a901e1fbe8db09b" },
+  { offset = 0x1E7EF7C, size = 0xF, sha256 = "68bb57af0473cac045be8440c6176805289e9e12eaae03d620afeeae91990b74" },
+  { offset = 0x1ECE580, size = 0xD8, sha256 = "b739655379637f087dd084ab8464783d6d9d455ae80afb571517fd72c5a4812b" },
+  { offset = 0x1ECEBCA, size = 0x2, sha256 = "da39319503780ab8cc23284c29e5bfe806a13f6ac32949fddf3ffa401e17c849" },
+  { offset = 0x1E95E18, size = 0x1C, sha256 = "d57a5d0ec59c7873bb97dc5806f96bc006e94d8b59c381a8beb5ee19b3795a3a" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+[[pokedex.trainers.maps.resolutions]]
+id = "variable-second-opponent"
+script = 0x1EA7226
+records = [205]
+native = "confirmed"
+rom = [
+  { offset = 0x1EA720D, size = 0x23, sha256 = "141a721e8b0c9f98fa614cbc307ba2f06cad9b28470ac7e777a7f36b8ca2ecee" },
+  { offset = 0x1EC83AC, size = 0xA8, sha256 = "a995b543e5ec797c36b5d377868fb065828e42f4610c02eb4c3607ae58bbd55b" },
+  { offset = 0x9FF070, size = 0x290, sha256 = "56f36ab9d309ce3837c56fd4ddb4c4ecc2eaf856e82b830f4d6be9fc5f16671a" },
+  { offset = 0x3C69D8, size = 0x30, sha256 = "415361c8e901a5af1952cc33490333f159d4962ea666c4d3aa7d5458039e2acb" },
+]
+
+# Operand positions distinguish opponents from allies.
+[pokedex.trainers.maps.roles]
+"10" = { opponent = [2, 4], partner = [6] }
+"11" = { opponent = [2, 4] }
+"12" = { opponent = [2], partner = [4] }
+"16" = { opponent = [2, 4] }
+
+# Rooms whose trainers the player may rebattle without limit.
+[pokedex.trainers.ev_training]
+maps = ["7.3", "10.7", "10.8", "14.11", "14.12", "25.2", "33.14"]
+
+[pokedex.trainers.kinds]
+league_classes = [40, 84, 87, 90]
+story_classes = [2, 3, 24, 26, 46, 48, 81, 83, 89]
+story_records = [39, 40, 41, 44, 50, 658, 659, 660, 661]
+partner_records = [38, 39, 44, 46, 47, 48, 50]
+paired_classes = [15, 52, 92]
+special_maps = ["11.2"]
+
+# Scripted species sources.
+# Standalone decoding covers the expanded script area only.
+# Original-area commands need a script call or branch.
+[[pokedex.trainers.ivs.write_rules]]
+id = "partner-39-writes-450"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [39], "species" = [450], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 119 }]
+item = 570
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "partner-39-writes-81"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [39], "species" = [81], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 115 }]
+item = 90
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "partner-39-writes-675"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [39], "species" = [675], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 8 }, { "slot" = 2, "move" = 182 }]
+item = 44
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-404-writes-307"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [404], "species" = [307], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+item = 570
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-404-writes-126"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [404], "species" = [126, 520], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 434 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-404-writes-342"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [404], "species" = [342, 343], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 58 }, { "slot" = 1, "move" = 57 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-404-writes-394"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [404], "species" = [394], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 502 }, { "slot" = 1, "move" = 464 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-42-claw"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [42], "species" = [215, 514], "difficulties" = [0, 1, 2], "level_max" = 49 }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 185 }, { "slot" = 1, "move" = 381 }, { "slot" = 2, "move" = 332 }]
+item = 0
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-42-ground"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [42], "species" = [221, 526], "difficulties" = [0, 1, 2], "level_max" = 49 }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 432 }, { "slot" = 1, "move" = 404 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-42-rock"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [42], "species" = [221, 526], "difficulties" = [0, 1, 2], "level_max" = 39 }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 2, "move" = 317 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-42-ghost"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [42], "species" = [524], "difficulties" = [0, 1, 2], "level_max" = 49 }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 501 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-42-ice"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [42], "species" = [531], "difficulties" = [0, 1, 2], "level_max" = 59 }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 407 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-42-veil"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [42], "species" = [531], "difficulties" = [0, 1, 2], "level_max" = 44 }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 388 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-42-wind"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [42], "species" = [531], "difficulties" = [0, 1, 2], "level_max" = 39 }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 196 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-720-built-moves"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [720], "species" = [15], "difficulties" = [0, 1, 2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 450 }, { "slot" = 1, "move" = 40 }, { "slot" = 2, "move" = 228 }, { "slot" = 3, "move" = 31 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-721-built-moves"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [721], "species" = [15], "difficulties" = [0, 1, 2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 400 }, { "slot" = 1, "move" = 424 }, { "slot" = 2, "move" = 403 }, { "slot" = 3, "move" = 730 }]
+item = 450
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-393-writes-319"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [393], "species" = [319], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 2, "move" = 92 }, { "slot" = 3, "move" = 609 }]
+item = 200
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-393-writes-503"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [393], "species" = [503], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 2, "move" = 303 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-502-writes-579"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [502], "species" = [579], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+item = 557
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-502-writes-476"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [502], "species" = [476], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 372 }, { "slot" = 1, "move" = 330 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-503-writes-620"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [503], "species" = [620], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+item = 0
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-513-writes-181"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [513], "species" = [181], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 2, "move" = 237 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-513-writes-242"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [513], "species" = [242], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 2, "move" = 87 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-949"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [949, 950], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934964, "size" = 8, "sha256" = "c211dc016b38cb2de6179b3b666ccffe50ba381020f4848cceb34c3d1c4d03f7" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 361 }, { "slot" = 1, "move" = 211 }, { "slot" = 2, "move" = 350 }, { "slot" = 3, "move" = 331 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-949"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [949, 950], "flags" = { "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 187
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-220"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [220], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934876, "size" = 8, "sha256" = "1ea1260f83e1190213adc9d7dc0f5f9db7ece3129135ea05967feb105d3b5290" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 413 }, { "slot" = 1, "move" = 89 }, { "slot" = 2, "move" = 157 }, { "slot" = 3, "move" = 381 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-220"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [220] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 570
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-221"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [221, 526], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934884, "size" = 8, "sha256" = "deabe70a7c8a86f91526fbd3d4fd797e616d6f3b4b23c2d7fd8d031628c334b2" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 413 }, { "slot" = 1, "move" = 89 }, { "slot" = 2, "move" = 381 }, { "slot" = 3, "move" = 468 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-221"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [221] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 570
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-246"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [246, 247], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934988, "size" = 8, "sha256" = "0335e2c9218950a944919a1afc3917603360d724736f96b6af15490a96694be2" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 429 }, { "slot" = 1, "move" = 242 }, { "slot" = 2, "move" = 89 }, { "slot" = 3, "move" = 349 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-246"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [246, 247] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 55
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-248"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [248], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934996, "size" = 8, "sha256" = "d20da34f2276dd33e39b48acc540f6a742c0eb16c827799d4f843c57b99cda2a" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 429 }, { "slot" = 1, "move" = 242 }, { "slot" = 2, "move" = 8 }, { "slot" = 3, "move" = 349 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-248"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [248] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 466
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-399"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [399, 400], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934956, "size" = 8, "sha256" = "700778446cc94e397f5a9a4f65ac8fb9314e04a7a717ed1f7b88d86072cae516" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 309 }, { "slot" = 1, "move" = 401 }, { "slot" = 2, "move" = 89 }, { "slot" = 3, "move" = 8 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-497"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [497], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934948, "size" = 8, "sha256" = "bc2e272278c6620e981047264f31cc9557204129eac2bd4935dd0b4c25d86319" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 715 }, { "slot" = 1, "move" = 89 }, { "slot" = 2, "move" = 126 }, { "slot" = 3, "move" = 82 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-497"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [497] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 55
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-134"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [134], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934972, "size" = 8, "sha256" = "b8d30bc63cb58436ad510e4c5a7970b92957fec60984b464a69cabe26394d412" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 459 }, { "slot" = 1, "move" = 114 }, { "slot" = 2, "move" = 273 }, { "slot" = 3, "move" = 182 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-134"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [134], "flags" = { "0x9F3" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 200
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-664"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [664, 665], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934940, "size" = 8, "sha256" = "0770fd33306721dc1b887cf36767f5d1d9da2c0b93e5fac9f372d35dc3404628" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 200 }, { "slot" = 1, "move" = 89 }, { "slot" = 2, "move" = 242 }, { "slot" = 3, "move" = 349 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-383"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [383, 384], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934932, "size" = 8, "sha256" = "c8cf2758864e3166e29a41b7a4dfe257f79ebc5a20a26da8f95ebf0fe6be6ae0" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 429 }, { "slot" = 1, "move" = 382 }, { "slot" = 2, "move" = 692 }, { "slot" = 3, "move" = 521 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-716"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [716], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934892, "size" = 8, "sha256" = "900ede4dda9825233d31a0c79558e6276fbfa465c4e740248962cc546c96f18d" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 85 }, { "slot" = 1, "move" = 356 }, { "slot" = 2, "move" = 367 }, { "slot" = 3, "move" = 386 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-716"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [716] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 707
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-717"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [717], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934900, "size" = 8, "sha256" = "554d17c363d4732a2aea5a020e4aa1eb908ea64574f50773b6445a0d94f16128" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 428 }, { "slot" = 1, "move" = 85 }, { "slot" = 2, "move" = 443 }, { "slot" = 3, "move" = 271 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-717"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [717] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 178
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-771"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [771], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934908, "size" = 8, "sha256" = "6cf655d1c9f31acb4317da7fa15a4ec884a9204ac68b7832e9d8df063b2eb0cb" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 434 }, { "slot" = 1, "move" = 361 }, { "slot" = 2, "move" = 442 }, { "slot" = 3, "move" = 315 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-771"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [771] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 176
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-662"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [662], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934916, "size" = 8, "sha256" = "9d3aab9b1ba7be9916938e80cf001849deaa5c3056fb05be77c1baa5620c2042" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 53 }, { "slot" = 1, "move" = 247 }, { "slot" = 2, "move" = 373 }, { "slot" = 3, "move" = 164 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-662"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [662] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10555752, "size" = 80, "sha256" = "e9b793b7eb300d5430402ec3be7e844b286a013cbe7d9491dadb1a95f9785bcd" }, { "offset" = 10556648, "size" = 44, "sha256" = "ec0007a9c60151815f2807cfcc65d91c7c54024dbd08c3903337114afdb16777" }]
+item = 707
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-table-498"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [498], "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934980, "size" = 8, "sha256" = "188f9c86a47de14d0881a84ce39b37884431cb9b1243fa1f45ba418b2fb5faaf" }, { "offset" = 10253598, "size" = 16, "sha256" = "70a1f6060c8ff4ec60ea83ef66477349869b500f5d844b141af1b11653e36f73" }, { "offset" = 10255014, "size" = 26, "sha256" = "a8f376aea2abc4f368b05fc9eb3c37232da8aa7fb8949735bec23442a22c787f" }]
+moves = [{ "slot" = 0, "move" = 715 }, { "slot" = 1, "move" = 89 }, { "slot" = 2, "move" = 126 }, { "slot" = 3, "move" = 14 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-526"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [526], "flags" = { "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }]
+item = 570
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-399"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [399] }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }]
+item = 55
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-bird-late"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [949, 950], "flags" = { "0x170B" = 1 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }]
+item = 210
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-mammoth-late"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [526], "flags" = { "0x170B" = 1 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }]
+item = 539
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-water-late"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [134], "flags" = { "0x9F3" = 1 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }]
+moves = [{ "from_move" = 56, "move" = 459 }]
+item = 541
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-bird-fury"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [949, 950], "level_min" = 53 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 31, "move" = 304 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-bird-drill"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [949, 950], "level_min" = 58 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 65, "move" = 361 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-water"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [134], "level_min" = 50 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 352, "move" = 56 }, { "from_move" = 62, "move" = 58 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-mammoth"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [526], "level_min" = 1 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "slot" = 0, "move" = 432 }, { "slot" = 1, "move" = 404 }, { "slot" = 2, "move" = 381 }, { "slot" = 3, "move" = 468 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-mammoth-ground"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [526], "level_min" = 52 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 404, "move" = 89 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-mammoth-ice"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [526], "level_min" = 72 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 432, "move" = 413 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-pupitar-rock"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [246, 247], "level_min" = 47 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 157, "move" = 429 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-pupitar-ground"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [246, 247], "level_min" = 51 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 617, "move" = 89 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-tyranitar"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [248], "level_min" = 1, "flags" = { "0x9F3" = 0, "0x170B" = 0 } }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "slot" = 0, "move" = 429 }, { "slot" = 1, "move" = 242 }, { "slot" = 2, "move" = 89 }, { "slot" = 3, "move" = 8 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-dragon"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [498], "level_min" = 1 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "slot" = 0, "move" = 337 }, { "slot" = 1, "move" = 617 }, { "slot" = 2, "move" = 242 }, { "slot" = 3, "move" = 126 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-dragon-claw"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [498], "level_min" = 57 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 337, "move" = 486 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-dragon-ground"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [498], "level_min" = 63 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 617, "move" = 89 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-metal"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [400], "level_min" = 1 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "slot" = 0, "move" = 382 }, { "slot" = 1, "move" = 94 }, { "slot" = 2, "move" = 379 }, { "slot" = 3, "move" = 650 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-metal-speed"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [400], "level_min" = 52 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 650, "move" = 97 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-metal-psychic"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [400], "level_min" = 56 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 94, "move" = 401 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-level-metal-punch"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [2], "species" = [400], "level_min" = 61 }
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10934984, "size" = 52, "sha256" = "13a3c06560ee8b0276658745c00cce8a5d910d0b7a87d23203ca8a2550f9e2e5" }, { "offset" = 10567536, "size" = 30, "sha256" = "7d7491ee66a42cb50c38bebdad894e6c526f3ff614796312d5cfb0ca05344a99" }]
+moves = [{ "from_move" = 382, "move" = 309 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-664-first-starter"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 435, 438], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [664, 665] }
+evidence = "Species 664 and 665 read VarGet(0x5012) at 0xA11056-0xA1106A: value 1 stores item 493, any other value item 570 (0xA11244). Var 0x5012 is the chosen starter (copyvar 0x5012 0x8001 at 0x1E90594, no other writer), and it selects the record: 332 to 334 by compare at 0x1E6CD5A-0x1E6CD70, 435 to 437 and 438 to 440 as the base record plus 0x5012 minus 1. Records 332, 435 and 438 are therefore battled with value 1 and the others with 2 or 3. Native builds of every record with 0x5012 written as 1, 2 and 3 store 493 for 1 and 570 for 2 and 3."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }]
+item = 493
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-664-other-starters"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [333, 334, 436, 437, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [664, 665] }
+evidence = "Species 664 and 665 read VarGet(0x5012) at 0xA11056-0xA1106A: value 1 stores item 493, any other value item 570 (0xA11244). Var 0x5012 is the chosen starter (copyvar 0x5012 0x8001 at 0x1E90594, no other writer), and it selects the record: 332 to 334 by compare at 0x1E6CD5A-0x1E6CD70, 435 to 437 and 438 to 440 as the base record plus 0x5012 minus 1. Records 332, 435 and 438 are therefore battled with value 1 and the others with 2 or 3. Native builds of every record with 0x5012 written as 1, 2 and 3 store 493 for 1 and 570 for 2 and 3."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }]
+item = 570
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-400-standard"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [400], "flags" = { "0x16E2" = 0 } }
+evidence = "The item store at 0xA10F66 calls 0x9E6EEC, which returns flag 0x16E2 set, or flag 0x9F0 set with var 0x50C4 equal to 11 (Smogon Scalemons, tier name 0xA6B72C). Flag 0x16E2 is the rebalanced variant (setflag 0x16E2 at 0x1E7013A, no clear). Flag 0x9F0 is set only by the battle facility, raid den and Safari Game entry scripts (0x1E8DC72, 0x1E9E580, 0x1E9F271, 0x1E9FFE8, 0x1EA0775, 0x1EA088E, 0x1EA321E, 0x1EA41CD, 0x1EA4C92, 0x1EA4F3A, 0x1EA5509, raid 0x1E81073 and 0x1E810E5) and cleared on their exits (0x1E80CA9, 0x1E80F5F, 0x1E810D1, 0x1E81167, 0x1E8DC7B, 0x1E9F219, 0x1EA412D, 0x1EA5A41); the rival records are battled only from the story roots, where it is clear. Native builds with flags 0x16E2, 0x9F0 and var 0x50C4 written in every combination store 483 without the predicate and 55 with it."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10383084, "size" = 60, "sha256" = "a0d68778787c2db23b2b8839aa36bdfb962e6bf35b6d1029aa50e317e6129e3a" }]
+item = 483
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-400-rebalanced"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [400], "flags" = { "0x16E2" = 1 } }
+evidence = "The item store at 0xA10F66 calls 0x9E6EEC, which returns flag 0x16E2 set, or flag 0x9F0 set with var 0x50C4 equal to 11 (Smogon Scalemons, tier name 0xA6B72C). Flag 0x16E2 is the rebalanced variant (setflag 0x16E2 at 0x1E7013A, no clear). Flag 0x9F0 is set only by the battle facility, raid den and Safari Game entry scripts (0x1E8DC72, 0x1E9E580, 0x1E9F271, 0x1E9FFE8, 0x1EA0775, 0x1EA088E, 0x1EA321E, 0x1EA41CD, 0x1EA4C92, 0x1EA4F3A, 0x1EA5509, raid 0x1E81073 and 0x1E810E5) and cleared on their exits (0x1E80CA9, 0x1E80F5F, 0x1E810D1, 0x1E81167, 0x1E8DC7B, 0x1E9F219, 0x1EA412D, 0x1EA5A41); the rival records are battled only from the story roots, where it is clear. Native builds with flags 0x16E2, 0x9F0 and var 0x50C4 written in every combination store 483 without the predicate and 55 with it."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10383084, "size" = 60, "sha256" = "a0d68778787c2db23b2b8839aa36bdfb962e6bf35b6d1029aa50e317e6129e3a" }]
+item = 55
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-383-standard"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [383, 384], "flags" = { "0x16E2" = 0 } }
+evidence = "The item store at 0xA11228 calls 0x9E6EEC, which returns flag 0x16E2 set, or flag 0x9F0 set with var 0x50C4 equal to 11 (Smogon Scalemons, tier name 0xA6B72C). Flag 0x16E2 is the rebalanced variant (setflag 0x16E2 at 0x1E7013A, no clear). Flag 0x9F0 is set only by the battle facility, raid den and Safari Game entry scripts (0x1E8DC72, 0x1E9E580, 0x1E9F271, 0x1E9FFE8, 0x1EA0775, 0x1EA088E, 0x1EA321E, 0x1EA41CD, 0x1EA4C92, 0x1EA4F3A, 0x1EA5509, raid 0x1E81073 and 0x1E810E5) and cleared on their exits (0x1E80CA9, 0x1E80F5F, 0x1E810D1, 0x1E81167, 0x1E8DC7B, 0x1E9F219, 0x1EA412D, 0x1EA5A41); the rival records are battled only from the story roots, where it is clear. Native builds with flags 0x16E2, 0x9F0 and var 0x50C4 written in every combination store 557 without the predicate and 473 with it."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10383084, "size" = 60, "sha256" = "a0d68778787c2db23b2b8839aa36bdfb962e6bf35b6d1029aa50e317e6129e3a" }]
+item = 557
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-383-rebalanced"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [383, 384], "flags" = { "0x16E2" = 1 } }
+evidence = "The item store at 0xA11228 calls 0x9E6EEC, which returns flag 0x16E2 set, or flag 0x9F0 set with var 0x50C4 equal to 11 (Smogon Scalemons, tier name 0xA6B72C). Flag 0x16E2 is the rebalanced variant (setflag 0x16E2 at 0x1E7013A, no clear). Flag 0x9F0 is set only by the battle facility, raid den and Safari Game entry scripts (0x1E8DC72, 0x1E9E580, 0x1E9F271, 0x1E9FFE8, 0x1EA0775, 0x1EA088E, 0x1EA321E, 0x1EA41CD, 0x1EA4C92, 0x1EA4F3A, 0x1EA5509, raid 0x1E81073 and 0x1E810E5) and cleared on their exits (0x1E80CA9, 0x1E80F5F, 0x1E810D1, 0x1E81167, 0x1E8DC7B, 0x1E9F219, 0x1EA412D, 0x1EA5A41); the rival records are battled only from the story roots, where it is clear. Native builds with flags 0x16E2, 0x9F0 and var 0x50C4 written in every combination store 557 without the predicate and 473 with it."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10383084, "size" = 60, "sha256" = "a0d68778787c2db23b2b8839aa36bdfb962e6bf35b6d1029aa50e317e6129e3a" }]
+item = 473
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-498-standard"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [498], "flags" = { "0x16E2" = 0 } }
+evidence = "The item store at 0xA1126C calls 0x9E6EEC, which returns flag 0x16E2 set, or flag 0x9F0 set with var 0x50C4 equal to 11 (Smogon Scalemons, tier name 0xA6B72C). Flag 0x16E2 is the rebalanced variant (setflag 0x16E2 at 0x1E7013A, no clear). Flag 0x9F0 is set only by the battle facility, raid den and Safari Game entry scripts (0x1E8DC72, 0x1E9E580, 0x1E9F271, 0x1E9FFE8, 0x1EA0775, 0x1EA088E, 0x1EA321E, 0x1EA41CD, 0x1EA4C92, 0x1EA4F3A, 0x1EA5509, raid 0x1E81073 and 0x1E810E5) and cleared on their exits (0x1E80CA9, 0x1E80F5F, 0x1E810D1, 0x1E81167, 0x1E8DC7B, 0x1E9F219, 0x1EA412D, 0x1EA5A41); the rival records are battled only from the story roots, where it is clear. Native builds with flags 0x16E2, 0x9F0 and var 0x50C4 written in every combination store 487 without the predicate and 226 with it."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10383084, "size" = 60, "sha256" = "a0d68778787c2db23b2b8839aa36bdfb962e6bf35b6d1029aa50e317e6129e3a" }]
+item = 487
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "rival-item-498-rebalanced"
+status = "known"
+native = "confirmed"
+stage = "selector"
+when = { "trainers" = [332, 333, 334, 435, 436, 437, 438, 439, 440], "classes" = [81], "difficulties" = [3], "ai_min" = 4, "species" = [498], "flags" = { "0x16E2" = 1 } }
+evidence = "The item store at 0xA1126C calls 0x9E6EEC, which returns flag 0x16E2 set, or flag 0x9F0 set with var 0x50C4 equal to 11 (Smogon Scalemons, tier name 0xA6B72C). Flag 0x16E2 is the rebalanced variant (setflag 0x16E2 at 0x1E7013A, no clear). Flag 0x9F0 is set only by the battle facility, raid den and Safari Game entry scripts (0x1E8DC72, 0x1E9E580, 0x1E9F271, 0x1E9FFE8, 0x1EA0775, 0x1EA088E, 0x1EA321E, 0x1EA41CD, 0x1EA4C92, 0x1EA4F3A, 0x1EA5509, raid 0x1E81073 and 0x1E810E5) and cleared on their exits (0x1E80CA9, 0x1E80F5F, 0x1E810D1, 0x1E81167, 0x1E8DC7B, 0x1E9F219, 0x1EA412D, 0x1EA5A41); the rival records are battled only from the story roots, where it is clear. Native builds with flags 0x16E2, 0x9F0 and var 0x50C4 written in every combination store 487 without the predicate and 226 with it."
+rom = [{ "offset" = 10554976, "size" = 1716, "sha256" = "38964466d88f092635090549c14a345da108ef59284670335379320130a5a5b4" }, { "offset" = 10383084, "size" = 60, "sha256" = "a0d68778787c2db23b2b8839aa36bdfb962e6bf35b6d1029aa50e317e6129e3a" }]
+item = 226
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-204-moves"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [204], "species" = [110], "difficulties" = [2, 3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 204 (0xA11696): difficulties 0 and 1 leave at 0xA11CB4; species 110 stores moves 531 and 257 in slots 0 and 1 (word 0xA117D4 at +0x2C), species 89 stores move 531 in slot 0 (0xA127E0); Expert then leaves at 0xA11C2C; Insane stores item 548 (0xA116B8) or 55 (0xA127F0). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10557396, "size" = 4, "sha256" = "17b85fbe2562044ec62ddb60b66a181a5cac336587cb30c1a25cf87dbce57786" }, { "offset" = 10561648, "size" = 4, "sha256" = "cb658fe8d3951d75fb1876035d18366e6505229802e8312164df98beff05d03a" }]
+moves = [{ "slot" = 0, "move" = 531 }, { "slot" = 1, "move" = 257 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-204-item-110"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [204], "species" = [110], "difficulties" = [3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 204 (0xA11696): difficulties 0 and 1 leave at 0xA11CB4; species 110 stores moves 531 and 257 in slots 0 and 1 (word 0xA117D4 at +0x2C), species 89 stores move 531 in slot 0 (0xA127E0); Expert then leaves at 0xA11C2C; Insane stores item 548 (0xA116B8) or 55 (0xA127F0). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10557396, "size" = 4, "sha256" = "17b85fbe2562044ec62ddb60b66a181a5cac336587cb30c1a25cf87dbce57786" }, { "offset" = 10561648, "size" = 4, "sha256" = "cb658fe8d3951d75fb1876035d18366e6505229802e8312164df98beff05d03a" }]
+item = 548
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-204-moves-89"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [204], "species" = [89], "difficulties" = [2, 3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 204 (0xA11696): difficulties 0 and 1 leave at 0xA11CB4; species 110 stores moves 531 and 257 in slots 0 and 1 (word 0xA117D4 at +0x2C), species 89 stores move 531 in slot 0 (0xA127E0); Expert then leaves at 0xA11C2C; Insane stores item 548 (0xA116B8) or 55 (0xA127F0). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10557396, "size" = 4, "sha256" = "17b85fbe2562044ec62ddb60b66a181a5cac336587cb30c1a25cf87dbce57786" }, { "offset" = 10561648, "size" = 4, "sha256" = "cb658fe8d3951d75fb1876035d18366e6505229802e8312164df98beff05d03a" }]
+moves = [{ "slot" = 0, "move" = 531 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-204-item-89"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [204], "species" = [89], "difficulties" = [3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 204 (0xA11696): difficulties 0 and 1 leave at 0xA11CB4; species 110 stores moves 531 and 257 in slots 0 and 1 (word 0xA117D4 at +0x2C), species 89 stores move 531 in slot 0 (0xA127E0); Expert then leaves at 0xA11C2C; Insane stores item 548 (0xA116B8) or 55 (0xA127F0). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10557396, "size" = 4, "sha256" = "17b85fbe2562044ec62ddb60b66a181a5cac336587cb30c1a25cf87dbce57786" }, { "offset" = 10561648, "size" = 4, "sha256" = "cb658fe8d3951d75fb1876035d18366e6505229802e8312164df98beff05d03a" }]
+item = 55
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-205-moves-606"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [205], "species" = [606], "difficulties" = [2, 3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 205 (0xA1168C, branch 0xA127F6): difficulties 0 and 1 leave at 0xA11CB4; species 606 stores move 182 in slot 3, species 651 move 216 in slot 3; Expert then leaves at 0xA11C2C; Insane stores move 592 in slot 2 and item 142 for species 606 (0xA12812-0xA1281C), item 539 for species 651 (0xA119EE). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10561652, "size" = 8, "sha256" = "5863e8684cd84043971bea55fbd96c92ae985cae859bd7908c070dcc1857c3fd" }, { "offset" = 10558328, "size" = 4, "sha256" = "0fc2d6b70fdbf4bd14c4a7d1693112875cbb2c548e2dcd504cabf2c14b848f18" }]
+moves = [{ "slot" = 3, "move" = 182 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-205-insane-606"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [205], "species" = [606], "difficulties" = [3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 205 (0xA1168C, branch 0xA127F6): difficulties 0 and 1 leave at 0xA11CB4; species 606 stores move 182 in slot 3, species 651 move 216 in slot 3; Expert then leaves at 0xA11C2C; Insane stores move 592 in slot 2 and item 142 for species 606 (0xA12812-0xA1281C), item 539 for species 651 (0xA119EE). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10561652, "size" = 8, "sha256" = "5863e8684cd84043971bea55fbd96c92ae985cae859bd7908c070dcc1857c3fd" }, { "offset" = 10558328, "size" = 4, "sha256" = "0fc2d6b70fdbf4bd14c4a7d1693112875cbb2c548e2dcd504cabf2c14b848f18" }]
+moves = [{ "slot" = 2, "move" = 592 }]
+item = 142
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-205-moves-651"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [205], "species" = [651], "difficulties" = [2, 3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 205 (0xA1168C, branch 0xA127F6): difficulties 0 and 1 leave at 0xA11CB4; species 606 stores move 182 in slot 3, species 651 move 216 in slot 3; Expert then leaves at 0xA11C2C; Insane stores move 592 in slot 2 and item 142 for species 606 (0xA12812-0xA1281C), item 539 for species 651 (0xA119EE). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10561652, "size" = 8, "sha256" = "5863e8684cd84043971bea55fbd96c92ae985cae859bd7908c070dcc1857c3fd" }, { "offset" = 10558328, "size" = 4, "sha256" = "0fc2d6b70fdbf4bd14c4a7d1693112875cbb2c548e2dcd504cabf2c14b848f18" }]
+moves = [{ "slot" = 3, "move" = 216 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-205-item-651"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "trainers" = [205], "species" = [651], "difficulties" = [3] }
+evidence = "The adjustment routine 0xA11514 switches on the trainer record (r6) and reads the built species (GetMonData field 11) and the difficulty (var 0x50DF, r7). Records other than 204 and 205 of class 22, record 203 among them, have no case and take no write. Record 205 (0xA1168C, branch 0xA127F6): difficulties 0 and 1 leave at 0xA11CB4; species 606 stores move 182 in slot 3, species 651 move 216 in slot 3; Expert then leaves at 0xA11C2C; Insane stores move 592 in slot 2 and item 142 for species 606 (0xA12812-0xA1281C), item 539 for species 651 (0xA119EE). Native builds of records 203 to 205 on four difficulties equal these writes."
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10561652, "size" = 8, "sha256" = "5863e8684cd84043971bea55fbd96c92ae985cae859bd7908c070dcc1857c3fd" }, { "offset" = 10558328, "size" = 4, "sha256" = "0fc2d6b70fdbf4bd14c4a7d1693112875cbb2c548e2dcd504cabf2c14b848f18" }]
+item = 539
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-396-clear-items"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [396], "species" = [565, 494], "difficulties" = [0, 1] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+item = 0
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-397-clear-items"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [397], "species" = [821, 242, 667], "difficulties" = [0, 1] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+item = 0
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-408-clear-items"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [408], "species" = [657, 969], "difficulties" = [0, 1] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+item = 0
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-409-clear-items"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [409], "species" = [503, 1082, 561], "difficulties" = [0, 1] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+item = 0
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-497-writes-3"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [497], "species" = [3], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 372 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-497-writes-154"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [497], "species" = [154], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 372 }]
+item = 183
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-497-writes-300"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [497], "species" = [300], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 367 }]
+item = 55
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-511-vanilla-157"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [511], "species" = [157], "difficulties" = [1] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 9 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-511-expert-157"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [511], "species" = [157], "difficulties" = [2] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 257 }, { "slot" = 2, "move" = 731 }]
+item = 570
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-511-insane-157"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [511], "species" = [157], "difficulties" = [3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 0, "move" = 257 }, { "slot" = 2, "move" = 284 }]
+item = 178
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-511-writes-6"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [511], "species" = [6], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 2, "move" = 731 }, { "slot" = 3, "move" = 76 }]
+
+[[pokedex.trainers.ivs.write_rules]]
+id = "trainer-511-writes-321"
+status = "known"
+native = "confirmed"
+stage = "adjustment"
+when = { "spreads" = [1, 141], "trainers" = [511], "species" = [321], "difficulties" = [2, 3] }
+rom = [{ "offset" = 10556692, "size" = 4906, "sha256" = "4c25a53e4014c8e65f9e25806dcb90b8bf9026716765ad73655d03be33427148" }, { "offset" = 10253614, "size" = 16, "sha256" = "2531347c4b81a80c453014ddf6a8e756f8b21685550ce7c8e8f6c384ed3af4b9" }, { "offset" = 10255242, "size" = 12, "sha256" = "0ff69b7a9434affdc3b5b14dbeba73a81176c1bb1f53422102a8e572d8207eb0" }]
+moves = [{ "slot" = 1, "move" = 692 }, { "slot" = 2, "move" = 284 }, { "slot" = 3, "move" = 182 }]
+item = 142
+

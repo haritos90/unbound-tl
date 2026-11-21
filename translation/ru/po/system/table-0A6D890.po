@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0A6D890\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 133, 171, 0
+#: 0x0a4e887
+msgctxt "hash:98c55eed"
+msgid "hash:98c55eed"
+msgstr ""
+"Это твоё последнее испытание!\\nПоследняя преграда! Сосредоточься!\\p "
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 162
+#: 0x0a4e9a2
+msgctxt "hash:bb932470"
+msgid "hash:bb932470"
+msgstr ""
+"Ничего не кончено, пока последний\\nмой покемон не окажется в нокауте!"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 195, 110
+#: 0x0a4e9e3
+msgctxt "hash:e6251676"
+msgid "hash:e6251676"
+msgstr "Это чувство… Вот, значит, каково\\nоказаться загнанной в угол…"
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 204, 118
+#: 0x0a4ea97
+msgctxt "hash:6b9eb833"
+msgid "hash:6b9eb833"
+msgstr ""
+"Ещё не конец! Пора показать тебе,\\nна что мы способны на самом деле!"

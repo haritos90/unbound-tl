@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/route-14\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 36, 194, 172
+#: 0x1f11888
+msgctxt "map:2.55/mapscript:0/1"
+msgid "map:2.55/mapscript:0/1"
+msgstr ""
+"Хуппа…\\pЯ боюсь за будущее, старый друг. Ведь если… нет…{PAUSE 18} когда "
+"ОНА явится."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 185, 108, 149, 180
+#: 0x1f118d6
+msgctxt "map:2.55/mapscript:0/3"
+msgid "map:2.55/mapscript:0/3"
+msgstr ""
+"Если она что-то предпримет, я не смогу тебя защитить.\\pНет…{PAUSE 18} "
+"она точно что-то предпримет.\\pВопрос лишь в том, что именно."
+
+#. category: script; mode: field
+#. original lines: 16, widths px: 172, 80, 175, 96, 193, 195, 188, 105, 189, 51, 99, 83, 188, 193, 152, 140
+#: 0x1f1194e
+msgctxt "map:2.55/mapscript:0/11"
+msgid "map:2.55/mapscript:0/11"
+msgstr ""
+"Поэтому, друг мой, тебе нужно скрыться.\\pЯ пущу твой покебол по "
+"волнам…\\pЗатерявшись в море, ты наверняка будешь в большей безопасности, "
+"чем со мной.\\pЕсли я ошибаюсь и ничего не случится, я позову тебя "
+"обратно.\\pНо если мы прощаемся навсегда…\\pЕсли {STR_VAR_3} когда-нибудь "
+"окажется в опасности, защити {STR_VAR_1}.\\pА если злодеи попытаются "
+"силой высвободить твою истинную мощь…\\pТогда доверься: {STR_VAR_2} тебя "
+"защитит.\\pПрощай, мой добрый друг."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 54
+#: 0x1f11b03
+msgctxt "map:2.55/mapscript:0/13"
+msgid "map:2.55/mapscript:0/13"
+msgstr "Его унесло…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 131, 135
+#: 0x1f11b0e
+msgctxt "map:2.55/mapscript:0/15"
+msgid "map:2.55/mapscript:0/15"
+msgstr "Значит, ты всё-таки здесь.\\pДавай покончим с этим."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 69, 165
+#: 0x1f5db19
+msgctxt "map:3.23/npc:5/0"
+msgid "map:3.23/npc:5/0"
+msgstr "Эй, привет!\\nЭти воды коварны!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 24, 57
+#: 0x1f5db44
+msgctxt "map:3.23/npc:5/1"
+msgid "map:3.23/npc:5/1"
+msgstr "Ох!\\nОпасно!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 159, 63
+#: 0x1f5db54
+msgctxt "map:3.23/npc:5/4"
+msgid "map:3.23/npc:5/4"
+msgstr "Н-ноги! Судорога!\\nБуль-буль…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 131, 175
+#: 0x1f5db7c
+msgctxt "map:3.23/npc:6/0"
+msgid "map:3.23/npc:6/0"
+msgstr "Здесь глубоко.\\nИ плавает много народу."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 40
+#: 0x1f5dbb4
+msgctxt "map:3.23/npc:6/1"
+msgid "map:3.23/npc:6/1"
+msgstr "Плюх!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 126
+#: 0x1f5dbbc
+msgctxt "map:3.23/npc:6/4"
+msgid "map:3.23/npc:6/4"
+msgstr "Вот бы и мне ездить на покемоне.\\nТебе-то, небось, не тяжело."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 165, 82
+#: 0x1f5dbf4
+msgctxt "map:2.55/npc:6/0"
+msgid "map:2.55/npc:6/0"
+msgstr "Зачем ты едешь на покемоне?\\nПлавать не умеешь?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 30, 59
+#: 0x1f5dc22
+msgctxt "map:2.55/npc:6/1"
+msgid "map:2.55/npc:6/1"
+msgstr "Ай!\\nМеня торпедировали!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 178
+#: 0x1f5dc33
+msgctxt "map:2.55/npc:6/4"
+msgid "map:2.55/npc:6/4"
+msgstr "Похоже, кататься на покемоне и правда весело!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 155
+#: 0x1f5dc54
+msgctxt "map:2.55/npc:7/0"
+msgid "map:2.55/npc:7/0"
+msgstr "Зацени, какие у меня мускулы!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 34
+#: 0x1f5dc70
+msgctxt "map:2.55/npc:7/1"
+msgid "map:2.55/npc:7/1"
+msgstr "Хиловато!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 169, 91
+#: 0x1f5dc77
+msgctxt "map:2.55/npc:7/4"
+msgid "map:2.55/npc:7/4"
+msgstr "Надо было качать своих покемонов, а не себя!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 190
+#: 0x1f5dca7
+msgctxt "map:3.58/npc:6/0"
+msgid "map:3.58/npc:6/0"
+msgstr "Я сейчас участвую в триатлоне."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 28, 62
+#: 0x1f5dccb
+msgctxt "map:3.58/npc:6/1"
+msgid "map:3.58/npc:6/1"
+msgstr "Уф…\\nУф… Уф…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 173, 157
+#: 0x1f5dcdd
+msgctxt "map:3.58/npc:6/4"
+msgid "map:3.58/npc:6/4"
+msgstr "Я выдохся! А ведь впереди ещё велогонка и марафон!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 181
+#: 0x1f5dd1a
+msgctxt "map:3.23/npc:0/0"
+msgid "map:3.23/npc:0/0"
+msgstr "Мне парень подарил крупный жемчуг."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 40, 130
+#: 0x1f5dd3b
+msgctxt "map:3.23/npc:0/1"
+msgid "map:3.23/npc:0/1"
+msgstr "Ой, нет!\\nВ них же был мой жемчуг!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 50
+#: 0x1f5dd5b
+msgctxt "map:3.23/npc:0/4"
+msgid "map:3.23/npc:0/4"
+msgstr "Интересно, внутри Клойстера мой жемчуг станет крупнее?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 178, 134
+#: 0x1f5dd87
+msgctxt "map:3.58/npc:4/0"
+msgid "map:3.58/npc:4/0"
+msgstr "Мой парень вечно занят, так что я плаваю одна."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 177
+#: 0x1f5ddc1
+msgctxt "map:3.58/npc:4/1"
+msgid "map:3.58/npc:4/1"
+msgstr "Ну во-от, я так и знала!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 189, 181, 47
+#: 0x1f5dde1
+msgctxt "map:3.58/npc:4/4"
+msgid "map:3.58/npc:4/4"
+msgstr ""
+"Когда парня нет рядом, я провожу время с покемонами, которых он мне "
+"подарил."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 198
+#: 0x1f5de2e
+msgctxt "map:3.23/npc:3/0"
+msgid "map:3.23/npc:3/0"
+msgstr "Обожаю пикники на пляже!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 117
+#: 0x1f5de52
+msgctxt "map:3.23/npc:3/1"
+msgid "map:3.23/npc:3/1"
+msgstr "Из-за тебя мой пикник испорчен!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 201, 64
+#: 0x1f5de68
+msgctxt "map:3.23/npc:3/4"
+msgid "map:3.23/npc:3/4"
+msgstr "Вот бы было с кем устроить пикник…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 24, 145
+#: 0x1f5de99
+msgctxt "map:2.55/npc:4/0"
+msgid "map:2.55/npc:4/0"
+msgstr "Ух ты!\\nУ тебя такие классные значки!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 64
+#: 0x1f5deb8
+msgctxt "map:2.55/npc:4/1"
+msgid "map:2.55/npc:4/1"
+msgstr "Не хватило!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 168, 91
+#: 0x1f5dec4
+msgctxt "map:2.55/npc:4/4"
+msgid "map:2.55/npc:4/4"
+msgstr "Эти значки тебе дали лидеры стадионов. Я знаю!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 136
+#: 0x1f5def3
+msgctxt "map:3.23/npc:4/0"
+msgid "map:3.23/npc:4/0"
+msgstr "Чего пялишься?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 126
+#: 0x1f5df0c
+msgctxt "map:3.23/npc:4/1"
+msgid "map:3.23/npc:4/1"
+msgstr "Я тут просто отдыхаю."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 183
+#: 0x1f5df24
+msgctxt "map:3.23/npc:4/4"
+msgid "map:3.23/npc:4/4"
+msgstr "Даже задирам нужен отдых."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 162, 139, 158
+#: 0x1f5df45
+msgctxt "map:3.23/npc:2/0"
+msgid "map:3.23/npc:2/0"
+msgstr ""
+"Я полежала в горячем песке и дала отдых усталым косточкам.\\pСейчас я "
+"полна сил!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 91, 144
+#: 0x1f5df9b
+msgctxt "map:3.23/npc:2/1"
+msgid "map:3.23/npc:2/1"
+msgstr "Батюшки мои.\\nДа ты просто нечто!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 190, 159
+#: 0x1f5dfc7
+msgctxt "map:3.23/npc:2/4"
+msgid "map:3.23/npc:2/4"
+msgstr "Ну и ну, я проиграла. Какой же из меня теперь эксперт?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 101
+#: 0x1f5e008
+msgctxt "map:3.23/npc:1/0"
+msgid "map:3.23/npc:1/0"
+msgstr "Опа! Неужто я подцепил покемона, на котором ты плывёшь?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 90
+#: 0x1f5e03b
+msgctxt "map:3.23/npc:1/1"
+msgid "map:3.23/npc:1/1"
+msgstr "Мне за тобой не угнаться!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 163, 110
+#: 0x1f5e04c
+msgctxt "map:3.23/npc:1/4"
+msgid "map:3.23/npc:1/4"
+msgstr "Подсеки я твоего сильного покемона - намучился бы!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 148, 110
+#: 0x1f5e07e
+msgctxt "map:2.55/npc:5/0"
+msgid "map:2.55/npc:5/0"
+msgstr "Солёный аромат моря…\\nОн щекочет мне сердце."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 72, 155
+#: 0x1f5e0ae
+msgctxt "map:2.55/npc:5/1"
+msgid "map:2.55/npc:5/1"
+msgstr "…Нюх-нюх…\\nЧем-то неприятно пахнет…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 180, 113
+#: 0x1f5e0da
+msgctxt "map:2.55/npc:5/4"
+msgid "map:2.55/npc:5/4"
+msgstr "Наверное, это так пахнет твой вспотевший покемон…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 154, 87
+#: 0x1f5e110
+msgctxt "map:3.58/npc:2/0"
+msgid "map:3.58/npc:2/0"
+msgstr "Мы стоим над автострадой КБТ!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 172, 52
+#: 0x1f5e13d
+msgctxt "map:3.58/npc:2/1"
+msgid "map:3.58/npc:2/1"
+msgstr "Чувствуешь, как под нами едут люди?"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 2, widths px: 191, 197
+#: 0x1f5e166
+msgctxt "map:3.58/npc:2/4"
+msgid "map:3.58/npc:2/4"
+msgstr ""
+"Этот участок автострады КБТ идёт\\nот городка Кратер до городка Тель."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 202, 70
+#: 0x1f5e1ad
+msgctxt "map:3.58/npc:3/0"
+msgid "map:3.58/npc:3/0"
+msgstr "Интересно, сколько выдержит земля?"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 144
+#: 0x1f5e1de
+msgctxt "map:3.58/npc:3/1"
+msgid "map:3.58/npc:3/1"
+msgstr "Хватит для хорошего боя!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 184, 164, 142
+#: 0x1f5e1f8
+msgctxt "map:3.58/npc:3/4"
+msgid "map:3.58/npc:3/4"
+msgstr ""
+"Как думаешь, если бы здесь встали 100 таких же здоровяков, как я, земля "
+"бы выдержала?"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 47, 118, 65, 141, 65
+#: 0x1f71a10
+msgctxt "map:3.23/sign:0/0"
+msgid "map:3.23/sign:0/0"
+msgstr ""
+"Маршрут 14\\n“Пролив Борриус”\\p{UP_ARROW} Маршрут 13\\n{LEFT_ARROW} "
+"Маршрут 6, Руины Пустоты\\l{RIGHT_ARROW} Маршрут 12"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 47, 118, 59, 147
+#: 0x1f71a5e
+msgctxt "map:3.58/sign:0/0"
+msgid "map:3.58/sign:0/0"
+msgstr ""
+"Маршрут 14\\n“Пролив Борриус”\\p{LEFT_ARROW} Маршрут 6\\n{RIGHT_ARROW} "
+"Руины Пустоты, Маршрут 12"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 70, 176, 189, 177, 188, 173, 68, 171, 151, 145
+#: 0x1f74189
+msgctxt "map:2.55/sign:0/0"
+msgid "map:2.55/sign:0/0"
+msgstr ""
+"Советы тренерам!\\pТёмные пятна в океане означают, что здесь покемон "
+"может нырнуть!\\pЕсли вы купили {COLOR 06}ADM{COLOR 02} на {COLOR "
+"06}верфи капитана Дейви{COLOR 02} в {COLOR 06}городе Сипорт{COLOR 02}, "
+"нажмите {F8 00} над тёмным пятном, чтобы погрузиться.\\pЕсли под водой вы "
+"найдёте участок дна посветлее, нажмите там {F8 01}, чтобы всплыть."

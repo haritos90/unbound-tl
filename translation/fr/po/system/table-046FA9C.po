@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-046FA9C\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 158
+#: 0x041e245
+msgctxt "hash:c752d109"
+msgid "hash:c752d109"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 83
+#: 0x041e263
+msgctxt "hash:d571f438"
+msgid "hash:d571f438"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 88
+#: 0x041e273
+msgctxt "hash:da17178a"
+msgid "hash:da17178a"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 144
+#: 0x041e284
+msgctxt "hash:0972ff5f"
+msgid "hash:0972ff5f"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 117
+#: 0x041e29e
+msgctxt "hash:37b240c6"
+msgid "hash:37b240c6"
+msgstr ""
+
+#. reach: never shown (review: hash:425da4c5: pointers at 0x46FA9C-0x46FAA8, which no code reads (code pointers stop at 0x846FA7C and resume at 0x846FAAC); the screen prints bare numbers)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x041e2b4
+msgctxt "hash:425da4c5"
+msgid "hash:425da4c5"
+msgstr ""
+
+#. reach: never shown (review: hash:425da4c5: pointers at 0x46FA9C-0x46FAA8, which no code reads (code pointers stop at 0x846FA7C and resume at 0x846FAAC); the screen prints bare numbers)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 40
+#: 0x041e2bf
+msgctxt "hash:eccda1b0"
+msgid "hash:eccda1b0"
+msgstr ""
+
+#. reach: never shown (review: hash:425da4c5: pointers at 0x46FA9C-0x46FAA8, which no code reads (code pointers stop at 0x846FA7C and resume at 0x846FAAC); the screen prints bare numbers)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x041e2c9
+msgctxt "hash:599dad9a"
+msgid "hash:599dad9a"
+msgstr ""
+
+#. reach: never shown (review: hash:425da4c5: pointers at 0x46FA9C-0x46FAA8, which no code reads (code pointers stop at 0x846FA7C and resume at 0x846FAAC); the screen prints bare numbers)
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 45
+#: 0x041e2d4
+msgctxt "hash:2d856144"
+msgid "hash:2d856144"
+msgstr ""

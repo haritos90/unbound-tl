@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-087CAC0\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 195, 82
+#: 0x0eb2725
+msgctxt "table:items/609/description"
+msgid "table:items/609/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 187, 138
+#: 0x0eb277a
+msgctxt "table:items/610/description"
+msgid "table:items/610/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 193, 138
+#: 0x0eb27d8
+msgctxt "table:items/611/description"
+msgid "table:items/611/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 193, 138
+#: 0x0eb2837
+msgctxt "table:items/612/description"
+msgid "table:items/612/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 194, 138
+#: 0x0eb2896
+msgctxt "table:items/613/description"
+msgid "table:items/613/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 180, 184, 138
+#: 0x0eb28f5
+msgctxt "table:items/614/description"
+msgid "table:items/614/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 182, 170, 141
+#: 0x0eb2952
+msgctxt "table:items/615/description"
+msgid "table:items/615/description"
+msgstr ""
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 176, 143
+#: 0x0eb7a7d
+msgctxt "table:items/616/description"
+msgid "table:items/616/description"
+msgstr ""

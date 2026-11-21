@@ -1,0 +1,1061 @@
+# Graphics with text: the inventory rows and their preview layouts.
+# Generated from discovery; category and reason are the flags.
+
+version = "2.0.0"
+
+[[graphic]]
+id = "G01"
+screen = "01-boot-copyright"
+source_text = "2016 - 2022 Skeli Games / NOT FOR SALE / v2.1.1.1"
+category = "keep"
+reason = "Copyright and version notice of the original hack, shown at every boot; legal attribution stays as authored"
+rom_offset = "0x1FC08A0"
+compressed = "yes (LZ77, 3001 bytes)"
+size_bytes = "7584"
+tiles = "237"
+palette = "raw:0x1FC16E0 (as loaded: bg bank 0 on 01-boot-copyright)"
+pointer_at = "0x00EC610"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G01.png; build/graphics/crops/G01.png; build/graphics/crops/G01-rom.png"
+
+[[graphic]]
+id = "G02"
+screen = "02-boot-presents"
+source_text = "Skeli Games"
+category = "keep"
+reason = "Studio logo lettering (brand)"
+rom_offset = "0x0EF3588"
+compressed = "yes (LZ77, 640 bytes)"
+size_bytes = "1152"
+tiles = "36"
+palette = "raw:0x0EF3808 (as loaded: bg bank 13 on 02-boot-presents)"
+pointer_at = "0x00ECB6C"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G02.png; build/graphics/crops/G02.png; build/graphics/crops/G02-rom.png"
+
+[[graphic]]
+id = "G03"
+screen = "02-boot-presents"
+source_text = "PRESENTS"
+category = "optional"
+reason = "Decorative word of the boot intro, 2 s per boot; the Russian translation is 12 letters against 8 in a 64x8 sprite, so it needs narrower letterforms"
+rom_offset = "0x0EF3828"
+compressed = "yes (LZ77, 108 bytes)"
+size_bytes = "256"
+tiles = "8"
+palette = "raw:0x0EF3894 (as loaded: obj bank 2 on 02-boot-presents)"
+pointer_at = "0x040BBE0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G03.png; build/graphics/crops/G03.png; build/graphics/crops/G03-rom.png"
+
+[[graphic]]
+id = "G04"
+screen = "03-title"
+source_text = "PRESS START"
+category = "translate"
+reason = "The only instruction on the title screen, seen every session; START is the console button and stays; the approved Russian label is 13 characters against 11, about +16 px in the same 8 px capitals, and the area is free on both sides"
+rom_offset = "0x1FD4854"
+compressed = "yes (LZ77, 7360 bytes)"
+size_bytes = "29376"
+tiles = "459 (8bpp)"
+palette = "raw:0x1FD699C (256 colours) (as loaded on 03-title)"
+pointer_at = "0x1ED7C7C, 0x1ED7EC0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G04.png; build/graphics/crops/G04.png; build/graphics/crops/G04-rom.png"
+
+[[graphic]]
+id = "G05"
+screen = "03-title"
+source_text = "SKELI"
+category = "keep"
+reason = "Author mark in the corner of the title background (same graphic as G04)"
+rom_offset = "0x1FD4854"
+compressed = "yes (LZ77, 7360 bytes)"
+size_bytes = "29376"
+tiles = "459 (8bpp)"
+palette = "raw:0x1FD699C (256 colours) (as loaded on 03-title)"
+pointer_at = "0x1ED7C7C, 0x1ED7EC0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G05.png; build/graphics/crops/G05.png; build/graphics/crops/G05-rom.png"
+
+[[graphic]]
+id = "G06"
+screen = "03-title"
+source_text = "Pokémon Unbound (logo)"
+category = "keep"
+reason = "Game logo and trademark"
+rom_offset = "0x1FD7EDC"
+compressed = "yes (LZ77, 3916 bytes)"
+size_bytes = "7104"
+tiles = "222"
+palette = "raw:0x1FD9094 (as loaded: bg bank 13 on 03-title)"
+pointer_at = "0x1ED7BA0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G06.png; build/graphics/crops/G06.png; build/graphics/crops/G06-rom.png"
+
+[[graphic]]
+id = "G07"
+screen = "10-start-menu"
+source_text = "SELECT Move"
+category = "translate"
+rom_offset = "0x0B1BBE0"
+compressed = "yes (LZ77, 263 bytes)"
+size_bytes = "480"
+tiles = "15"
+palette = "lz:0x0B1BDC0 (as loaded: bg bank 13 on 10-start-menu)"
+pointer_at = "0x0A0C210"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G07.png; build/graphics/crops/G07.png; build/graphics/crops/G07-rom.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:b25ed931-5113-5f4e-aea2-dcb13a0e2bf7"
+subject = { kind = "graphic", id = "G07" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G07" }
+facts = ["The hint appears under the start menu bar.", "SELECT picks up an icon, the arrows move it and SELECT confirms.", "Row 19 of the map positions the hint."]
+evidence = [{ method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 11648232, label = "hint map" }], measurements = [{ name = "map row", value = 19, unit = "index" }] }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G08"
+screen = "12-party"
+source_text = "HP (party slot label)"
+category = "translate"
+reason = "Stat label on every party slot; the glossary HP abbreviation has the same two letters"
+rom_offset = "0x08001D0"
+compressed = "yes (LZ77, 658 bytes)"
+size_bytes = "2560"
+tiles = "80"
+palette = "lz:0x0800470 (as loaded: bg bank 1 on 12-party)"
+pointer_at = "0x011EFB0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G08.png; build/graphics/crops/G08.png; build/graphics/crops/G08-rom.png"
+
+[[graphic]]
+id = "G09"
+screen = "14-summary-info; 15-summary-skills; 17-summary-move-detail; 62-battle-summary"
+source_text = "No, NAME, TYPE, OT, IDNo, ITEM; HP, ATTACK, DEFENSE, SP.ATK, SP.DEF, SPEED, EXP.; POWER, ACCURACY"
+category = "translate"
+rom_offset = "0x0E9A460"
+compressed = "yes (LZ77, 3084 bytes)"
+size_bytes = "16384"
+tiles = "512"
+palette = "raw:0x0E9B310 (as loaded: bg bank 2 on 14-summary-info)"
+pointer_at = "0x0135FFC"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G09.png; build/graphics/crops/G09.png; build/graphics/crops/G09-rom.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:fc05c7bb-9a8e-5ea5-aa6e-eb7887bab312"
+subject = { kind = "graphic", id = "G09" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G09" }
+guidance = ["Use a narrower capital style for labels over 6 letters."]
+facts = ["The field labels appear on every summary view.", "The label pills are about 40 px wide."]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "approximate label pill width", value = 40, unit = "px" }, { name = "letter threshold for narrower capitals", value = 6, unit = "letters" }] }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G10"
+screen = "14-summary-info; 15-summary-skills"
+source_text = "HP (summary HP bar)"
+category = "translate"
+reason = "Label of the summary HP bar; the Russian HP abbreviation has the same width"
+rom_offset = "0x0E9B4B8"
+compressed = "yes (LZ77, 153 bytes)"
+size_bytes = "384"
+tiles = "12"
+palette = "raw:0x0E9B578 (as loaded: obj bank 5 on 14-summary-info)"
+pointer_at = "0x013A4C0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G10.png; build/graphics/crops/G10.png; build/graphics/crops/G10-rom.png"
+
+[[graphic]]
+id = "G11"
+screen = "15-summary-skills"
+source_text = "EXP (summary experience bar)"
+category = "translate"
+reason = "Label of the experience bar; the Russian EXP label is 4 letters against 3 in a 3 px small capital style, about +4 px"
+rom_offset = "0x0E9B3F0"
+compressed = "yes (LZ77, 128 bytes)"
+size_bytes = "384"
+tiles = "12"
+palette = "raw:0x0E9B578 (as loaded: obj bank 8 on 15-summary-skills)"
+pointer_at = "0x013A974"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G11.png; build/graphics/crops/G11.png; build/graphics/crops/G11-rom.png"
+
+[[graphic]]
+id = "G12"
+screen = "14-summary-info; 16-summary-moves; 17-summary-move-detail; 23-tm-case; 57-battle-fight; 73-move-relearner; 48-dex-entry-next-2"
+source_text = "NORMAL FIRE WATER GRASS ELECTR ROCK GROUND ICE FLYING FIGHT GHOST BUG POISON PSYCHC STEEL DARK DRAGON ??? FAIRY; TYPE, POWER, ACCURACY, PP, EFFECT"
+category = "translate"
+rom_offset = "0x0B1EE64"
+compressed = "no"
+size_bytes = "9216"
+tiles = "288"
+palette = "raw:0x0B21264 (as loaded: bg bank 6 on 17-summary-move-detail)"
+pointer_at = "0x0107DB0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G12.png; build/graphics/crops/G12.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:fed56a62-4056-55b8-ab69-757cae199298"
+subject = { kind = "graphic", id = "G12" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G12" }
+facts = ["Type icons and move-info labels are blitted into windows on the summary, TM case, move relearner, battle move menu and Pokédex (menu info sheet).", "The 32x12 px boxes hold 6 letters.", "The sheet spans 9216 bytes and runs to its palette.", "Tiles 256-259 and 272-275 hold the FAIRY icon shown on the summary and battle screens."]
+evidence = [{ method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 11670116, label = "palette at the sheet end" }], measurements = [{ name = "box width", value = 32, unit = "px" }, { name = "box height", value = 12, unit = "px" }, { name = "box capacity", value = 6, unit = "letters" }, { name = "sheet size", value = 9216, unit = "bytes" }, { name = "FAIRY first tile span start", value = 256, unit = "tile indices" }, { name = "FAIRY first tile span end", value = 259, unit = "tile indices" }, { name = "FAIRY second tile span start", value = 272, unit = "tile indices" }, { name = "FAIRY second tile span end", value = 275, unit = "tile indices" }] }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G13"
+screen = "not seen on screen"
+source_text = "NORMAL … DARK, DRAGON, ???, FAIRY; TYPE, POWER, ACCURACY, PP"
+category = "optional"
+rom_offset = "0x0961C00"
+compressed = "no"
+size_bytes = "8192"
+tiles = "256"
+palette = "raw:0x0B21264 (as loaded: bg bank 6 on 17-summary-move-detail), borrowed for the render"
+pointer_at = "none found by an aligned 32-bit scan"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G13.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:fc412242-2cd0-596a-9628-f1aeaaf5bd76"
+subject = { kind = "graphic", id = "G13" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G13" }
+guidance = ["Reconsider the exclusion from required graphics if a displayed use is found."]
+facts = ["This is an unused duplicate type/stat sheet with no identified reader.", "Inverting all 8192 bytes leaves nine summary and battle screenshots unchanged.", "The shown Fairy icon is G12 tiles 256-259 and 272-275.", "The sheet is excluded from required graphics."]
+evidence = [{ method = "runtime", verification = "recorded", measurements = [{ name = "inverted sheet size", value = 8192, unit = "bytes" }, { name = "unchanged summary and battle screenshots", value = 9, unit = "count" }] }, { method = "lookup", verification = "recorded", measurements = [{ name = "G12 Fairy first tile span start", value = 256, unit = "tile indices" }, { name = "G12 Fairy first tile span end", value = 259, unit = "tile indices" }, { name = "G12 Fairy second tile span start", value = 272, unit = "tile indices" }, { name = "G12 Fairy second tile span end", value = 275, unit = "tile indices" }] }]
+related_subjects = [{ kind = "graphic", id = "G12" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G14"
+screen = "19-bag-items; 20-bag-key-items; 21-bag-poke-balls; 59-battle-bag"
+source_text = "START Sort"
+category = "translate"
+reason = "Tab above the Cube contents; START is the console button and stays; Sort becomes a 7-letter Russian word or a 5-letter abbreviation; the tab is about 40 px wide"
+rom_offset = "0x0EF1B68"
+compressed = "yes (LZ77, 647 bytes)"
+size_bytes = "1984"
+tiles = "62"
+palette = "lz:0x0EF1F28 (as loaded: bg bank 0 on 19-bag-items)"
+pointer_at = "0x0108294"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G14.png; build/graphics/crops/G14.png; build/graphics/crops/G14-rom.png"
+
+[[graphic]]
+id = "G15"
+screen = "26-trainer-card-front"
+source_text = "TRAINER CARD"
+category = "translate"
+reason = "Header of the trainer card front; the Russian header is 13 characters against 12, and the header strip has free space to the right"
+rom_offset = "0x1FDA2BC"
+compressed = "yes (LZ77, 1378 bytes)"
+size_bytes = "4416"
+tiles = "138"
+palette = "raw:0x1FDAA2C (as loaded: bg bank 0 on 26-trainer-card-front)"
+pointer_at = "0x1ED8AA4"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G15.png; build/graphics/crops/G15.png; build/graphics/crops/G15-rom.png"
+
+[[graphic]]
+id = "G16"
+screen = "27-trainer-card-back"
+source_text = "LEAGUE BADGES"
+category = "translate"
+reason = "Header of the trainer card back; the Russian header is 11 characters against 13"
+rom_offset = "0x1FDAA4C"
+compressed = "yes (LZ77, 2143 bytes)"
+size_bytes = "6688"
+tiles = "209"
+palette = "raw:0x1FDAA2C (as loaded: bg bank 0 on 27-trainer-card-back)"
+pointer_at = "0x1ED8AB4"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G16.png; build/graphics/crops/G16.png; build/graphics/crops/G16-rom.png"
+
+[[graphic]]
+id = "G17"
+screen = "32-pc-box; 33-pc-mon-menu; 36-pc-withdraw; 37-pc-deposit; 38-pc-move-items"
+source_text = "PKMN DATA, PARTY POKéMON, CLOSE BOX, CANCEL"
+category = "translate"
+reason = "Buttons of the PC storage screen; all four buttons have Russian labels; buttons are 64-80 px wide in 8 px capitals; CLOSE BOX alternates normal and dim text frames every 31 frames while selected. The dim frame uses tiles 0x75-0x7D and 0x85-0x8D; both frames require translation."
+rom_offset = "0x0E9C438"
+compressed = "yes (LZ77, 1715 bytes)"
+size_bytes = "4608"
+tiles = "144"
+palette = "raw:0x0E9C3F8 (as loaded: bg bank 0 on 32-pc-box)"
+pointer_at = "0x008F034"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G17.png; build/graphics/crops/G17.png; build/graphics/crops/G17-rom.png"
+
+[[graphic]]
+id = "G18"
+screen = "40-naming-upper; 41-naming-lower; 42-naming-others; 43-naming-number; 44-naming-phrase"
+source_text = "SELECT (page swap button)"
+category = "keep"
+reason = "Console button name on the page swap button of the naming screen"
+rom_offset = "0x0E985D8"
+compressed = "no"
+size_bytes = "640"
+tiles = "20"
+palette = "raw:0x0E980A4 (as loaded: obj bank 4 on 40-naming-upper)"
+pointer_at = "0x03E268C"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G18.png; build/graphics/crops/G18.png; build/graphics/crops/G18-rom.png"
+
+[[graphic]]
+id = "G19"
+screen = "40-naming-upper; 41-naming-lower; 42-naming-others"
+source_text = "BACK / B BUTTON"
+category = "translate"
+reason = "Naming screen button; B BUTTON is the console button and stays; BACK becomes a 5-letter Russian word against 4"
+rom_offset = "0x0E98858"
+compressed = "no"
+size_bytes = "480"
+tiles = "15"
+palette = "raw:0x0E980A4 (as loaded: obj bank 6 on 40-naming-upper)"
+pointer_at = "0x03E267C"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G19.png; build/graphics/crops/G19.png; build/graphics/crops/G19-rom.png"
+
+[[graphic]]
+id = "G20"
+screen = "40-naming-upper; 41-naming-lower; 42-naming-others"
+source_text = "OK / START"
+category = "keep"
+reason = "Naming screen button; START is the console button and OK reads the same in Russian"
+rom_offset = "0x0E98A38"
+compressed = "no"
+size_bytes = "480"
+tiles = "15"
+palette = "raw:0x0E980A4 (as loaded: obj bank 7 on 40-naming-upper)"
+pointer_at = "0x03E2684"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G20.png; build/graphics/crops/G20.png; build/graphics/crops/G20-rom.png"
+
+[[graphic]]
+id = "G21"
+screen = "42-naming-others"
+source_text = "UPPER"
+category = "translate"
+reason = "Keyboard page name on the page swap button (shown on the others page); 24x8 px; Russian page names follow the Cyrillic keyboard; the full uppercase label is too wide, while the first three Cyrillic letters fit"
+rom_offset = "0x0E98C18"
+compressed = "no"
+size_bytes = "96"
+tiles = "3"
+palette = "not found in ROM (as loaded: obj bank 4 on 42-naming-others)"
+pointer_at = "0x03E269C"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G21.png; build/graphics/crops/G21.png; build/graphics/crops/G21-rom.png"
+
+[[graphic]]
+id = "G22"
+screen = "40-naming-upper"
+source_text = "lower"
+category = "translate"
+reason = "Keyboard page name (shown on the upper-case page); 24x8 px; the first three lowercase Cyrillic letters or a lowercase abbreviation fit"
+rom_offset = "0x0E98CB8"
+compressed = "no"
+size_bytes = "96"
+tiles = "3"
+palette = "raw:0x0E980A4 (as loaded: obj bank 4 on 40-naming-upper)"
+pointer_at = "0x03E26A4"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G22.png; build/graphics/crops/G22.png; build/graphics/crops/G22-rom.png"
+
+[[graphic]]
+id = "G23"
+screen = "41-naming-lower"
+source_text = "others"
+category = "translate"
+reason = "Keyboard page name (shown on the lower-case page); 24x8 px; the Russian translation is 6 letters against 6"
+rom_offset = "0x0E98D58"
+compressed = "no"
+size_bytes = "96"
+tiles = "3"
+palette = "not found in ROM (as loaded: obj bank 4 on 41-naming-lower)"
+pointer_at = "0x03E26AC"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G23.png; build/graphics/crops/G23.png; build/graphics/crops/G23-rom.png"
+
+[[graphic]]
+id = "G24"
+screen = "50-dexnav"
+source_text = "SEARCH LEVEL, METHOD, HIDDEN ABILITY, HELD ITEMS"
+category = "translate"
+reason = "Section labels of the DexNav screen; the label bars are 64 px; the full Russian SEARCH LEVEL label (14 against 12) needs an abbreviated form, and the other three sections have Russian labels"
+rom_offset = "0x0B14FA0"
+compressed = "yes (LZ77, 1176 bytes)"
+size_bytes = "4288"
+tiles = "134"
+palette = "not found in ROM (as loaded: bg bank 0 on 50-dexnav)"
+pointer_at = "0x09D6B08"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G24.png; build/graphics/crops/G24.png; build/graphics/crops/G24-rom.png"
+
+[[graphic]]
+id = "G25"
+screen = "55-battle-intro; 56-battle-action; 57-battle-fight"
+source_text = "HP (foe single-battle health box)"
+category = "translate"
+reason = "Foe single-battle health box; sprite tag 0xD701 at 0x0260210. Its HP lettering is hidden under the G27 bar element; the approved underlying label also uses the Russian HP abbreviation."
+rom_offset = "0x0EEF380"
+compressed = "yes (LZ77, 424 bytes)"
+size_bytes = "2048"
+tiles = "64"
+palette = "raw:0x0EEF360 (as loaded: obj bank 4 on 55-battle-intro)"
+pointer_at = "0x0260210"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G25.png; build/graphics/crops/G25.png; build/graphics/crops/G25-rom.png"
+
+[[graphic]]
+id = "G26"
+screen = "56-battle-action; 55-battle-intro; 57-battle-fight"
+source_text = "HP (player single-battle health box)"
+category = "translate"
+reason = "Player single-battle health box; sprite tag 0xD6FF at 0x0260208. Its HP lettering is hidden under the G27 bar element; the approved underlying label also uses the Russian HP abbreviation."
+rom_offset = "0x0EEF0AC"
+compressed = "yes (LZ77, 690 bytes)"
+size_bytes = "4096"
+tiles = "128"
+palette = "raw:0x0EEF360 (as loaded: obj bank 4 on 56-battle-action)"
+pointer_at = "0x0260208"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G26.png; build/graphics/crops/G26.png; build/graphics/crops/G26-rom.png"
+
+[[graphic]]
+id = "G27"
+screen = "55-battle-intro; 56-battle-action; 57-battle-fight; 56-battle-action-status"
+source_text = "HP (bar element, tiles 1-2); PSN, PAR, SLP, FRZ, BRN (health box status icons)"
+category = "translate"
+rom_offset = "0x0D11BC4"
+compressed = "no"
+size_bytes = "4844"
+tiles = "151"
+palette = "not found in ROM (as loaded: obj bank 4 on 56-battle-action-status)"
+pointer_at = "0x00480B4"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G27.png; build/graphics/crops/G27.png; build/graphics/crops/G27-rom.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:62bdca03-5563-5ee1-a489-10d749b51b91"
+subject = { kind = "graphic", id = "G27" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G27" }
+facts = ["HP at tiles 1-2 (sheet x9..22, y2..7) overlays the lettering of single and double health boxes.", "Status icons use the same healthbox element table.", "The on-screen PAR icon is traced to its ROM location.", "The size is measured to the next referenced block."]
+evidence = [{ method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 295092, label = "healthbox element table reader" }], measurements = [{ name = "HP tile span start", value = 1, unit = "tile indices" }, { name = "HP tile span end", value = 2, unit = "tile indices" }, { name = "HP horizontal span start", value = 9, unit = "px" }, { name = "HP horizontal span end", value = 22, unit = "px" }, { name = "HP vertical span start", value = 2, unit = "px" }, { name = "HP vertical span end", value = 7, unit = "px" }] }, { method = "runtime", verification = "recorded", locations = [{ kind = "rom_offset", value = 13706244, label = "on-screen PAR icon" }] }, { method = "measurement", verification = "recorded", locations = [{ kind = "rom_offset", value = 13708976, label = "next referenced block used to measure the size" }] }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G28"
+screen = "12-party-status"
+source_text = "PSN, PAR, SLP, FRZ, BRN, PKRS, FNT (party status icon sheet)"
+category = "translate"
+reason = "Party-screen status icons only; the summary page uses the separate sheet G55 at 0x0B1E11C. Approved labels match G27 plus Pokérus and fainted."
+rom_offset = "0x0B1E280"
+compressed = "yes (LZ77, 354 bytes)"
+size_bytes = "1024"
+tiles = "32"
+palette = "lz:0x0E830A4 (as loaded: obj bank 2 on 12-party-status)"
+pointer_at = "0x045A574"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G28.png; build/graphics/crops/G28.png; build/graphics/crops/G28-rom.png"
+
+[[graphic]]
+id = "G29"
+screen = "57-battle-fight"
+source_text = "Z (Z-Move trigger)"
+category = "keep"
+reason = "Z-Move trigger symbol; the glossary keeps the letter Z in the Russian Z-Move term"
+rom_offset = "0x0AC991C"
+compressed = "yes (LZ77, 271 bytes)"
+size_bytes = "512"
+tiles = "16"
+palette = "raw:0x0AC9A2C (as loaded: obj bank 9 on 57-battle-fight)"
+pointer_at = "0x0A50080"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G29.png; build/graphics/crops/G29.png; build/graphics/crops/G29-rom.png"
+
+[[graphic]]
+id = "G30"
+screen = "68-credits-42"
+source_text = "THE END"
+category = "translate"
+reason = "Last screen of the credits; the Russian translation is 5 letters against 6 (7 with the space)"
+rom_offset = "0x0410B20"
+compressed = "yes (LZ77, 115 bytes)"
+size_bytes = "448"
+tiles = "14"
+palette = "raw:0x0410B00 (as loaded: bg bank 0 on 68-credits-42)"
+pointer_at = "0x0410CE8"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G30.png; build/graphics/crops/G30.png; build/graphics/crops/G30-rom.png"
+
+[[graphic]]
+id = "G31"
+screen = "84-cloud-burst-menu; 84-cloud-burst-a"
+source_text = "CLOUD BURST (minigame logo)"
+category = "keep"
+reason = "Title logo of the Cloud Burst minigame, drawn as art (same graphic as G32); a logo stays as authored"
+rom_offset = "0x1FCE614"
+compressed = "yes (LZ77, 4423 bytes)"
+size_bytes = "11520"
+tiles = "360"
+palette = "raw:0x1FCFB2C (as loaded: bg bank 0 on 84-cloud-burst-menu)"
+pointer_at = "0x1EB13E0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G31.png; build/graphics/crops/G31.png; build/graphics/crops/G31-rom.png"
+
+[[graphic]]
+id = "G32"
+screen = "84-cloud-burst-menu; 84-cloud-burst-a"
+source_text = "BEST"
+category = "translate"
+reason = "Label of the best score on the Cloud Burst menu (same graphic as G31); the Russian translation is 6 letters against 4 in a 3 px capital style"
+rom_offset = "0x1FCE614"
+compressed = "yes (LZ77, 4423 bytes)"
+size_bytes = "11520"
+tiles = "360"
+palette = "raw:0x1FCFB2C (as loaded: bg bank 0 on 84-cloud-burst-menu)"
+pointer_at = "0x1EB13E0"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G32.png; build/graphics/crops/G32.png; build/graphics/crops/G32-rom.png"
+
+[[graphic]]
+id = "G33"
+screen = "85-cloud-burst-game"
+source_text = "TIME, SCORE"
+category = "translate"
+rom_offset = "0x1FD0DCC"
+compressed = "no"
+size_bytes = "2560"
+tiles = "80"
+palette = "lz:0x1FD17CC (equals BG palette bank 13 during Cloud Burst)"
+pointer_at = "0x1ED0198"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G33.png; build/graphics/crops/G33.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:51e42d5d-07f1-5fec-861d-0cae64fa0322"
+subject = { kind = "graphic", id = "G33" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G33" }
+facts = ["Cloud Burst counter panels are copied through BlitBitmapRectToWindow.", "TIME and SCORE each use raw 64x40 4bpp tiles, combined as a 64x80 sheet.", "A native memory trace links label writes to these ROM reads."]
+evidence = [{ method = "runtime", verification = "recorded", locations = [{ kind = "symbol", value = "BlitBitmapRectToWindow", label = "counter panel copy routine" }, { kind = "rom_offset", value = 33361356, label = "TIME panel start" }, { kind = "rom_offset", value = 33362636, label = "SCORE panel start" }], measurements = [{ name = "panel width", value = 64, unit = "px" }, { name = "panel height", value = 40, unit = "px" }, { name = "tile colour depth", value = 4, unit = "bpp" }, { name = "combined sheet width", value = 64, unit = "px" }, { name = "combined sheet height", value = 80, unit = "px" }] }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G34"
+screen = "not seen on screen"
+source_text = "Fin (left half of «Finish!»)"
+category = "translate"
+reason = "Cloud Burst end message, left 64x32 half (tag 0x2718); not seen on screen; with G35 it reads «Finish!»; the Russian translation has 6 characters against 7"
+rom_offset = "0x1FCBAE0"
+compressed = "yes (LZ77, 330 bytes)"
+size_bytes = "1024"
+tiles = "32"
+palette = "lz:0x1FCBC2C (sprite palette with the sheet's tag)"
+pointer_at = "0x1FB515C"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G34.png"
+
+[[graphic]]
+id = "G35"
+screen = "not seen on screen"
+source_text = "ish! (right half of «Finish!»)"
+category = "translate"
+reason = "Cloud Burst end message, right 64x32 half (tag 0x2719); not seen on screen"
+rom_offset = "0x1FCC098"
+compressed = "yes (LZ77, 391 bytes)"
+size_bytes = "1024"
+tiles = "32"
+palette = "not located (rendered in grey)"
+pointer_at = "0x1FB5164"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G35.png"
+
+[[graphic]]
+id = "G36"
+screen = "not seen on screen"
+source_text = "Rea, Rea, Rea, Sta (left halves of «Ready.», «Ready..», «Ready...», «Start!»)"
+category = "translate"
+reason = "Cloud Burst countdown messages, four 64x32 left halves (tag 0x2716); not seen on screen; the Russian Ready label has 7 characters against 6, and Start has 6 against 6"
+rom_offset = "0x1FCBC48"
+compressed = "yes (LZ77, 1073 bytes)"
+size_bytes = "4096"
+tiles = "128"
+palette = "lz:0x1FCC07C (sprite palette with the sheet's tag)"
+pointer_at = "0x1FB506C"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G36.png"
+
+[[graphic]]
+id = "G37"
+screen = "not seen on screen"
+source_text = "dy., dy.., dy..., rt! (right halves of the countdown)"
+category = "translate"
+reason = "Cloud Burst countdown messages, four 64x32 right halves (tag 0x2717); not seen on screen"
+rom_offset = "0x1FCC220"
+compressed = "yes (LZ77, 926 bytes)"
+size_bytes = "4096"
+tiles = "128"
+palette = "not located (rendered in grey)"
+pointer_at = "0x1FB5074"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G37.png"
+
+[[graphic]]
+id = "G38"
+screen = "not seen on screen"
+source_text = "Time (left half of «Time Up!»)"
+category = "translate"
+reason = "Cloud Burst end message, left 64x32 half (tag 0x2718); not seen on screen; the literal Russian translation is 12 characters against 8, and a shorter Stop label fits"
+rom_offset = "0x1FCC5C0"
+compressed = "yes (LZ77, 404 bytes)"
+size_bytes = "1024"
+tiles = "32"
+palette = "lz:0x1FCBC2C (sprite palette with the sheet's tag)"
+pointer_at = "0x1FB5174"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G38.png"
+
+[[graphic]]
+id = "G39"
+screen = "not seen on screen"
+source_text = "Up! (right half of «Time Up!»)"
+category = "translate"
+reason = "Cloud Burst end message, right 64x32 half (tag 0x2719); not seen on screen"
+rom_offset = "0x1FCC754"
+compressed = "yes (LZ77, 482 bytes)"
+size_bytes = "1024"
+tiles = "32"
+palette = "not located (rendered in grey)"
+pointer_at = "0x1FB517C"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G39.png"
+
+[[graphic]]
+id = "G40"
+screen = "87-stat-scanner"
+source_text = "HP, Attack, Defense, Sp. Atk, Sp. Def, Speed, Total"
+category = "translate"
+reason = "Stat labels of the Stat Scanner; pills are about 40 px; Russian labels are provided for all seven stats, with abbreviations for HP and the special stats"
+rom_offset = "0x1FD18D4"
+compressed = "yes (LZ77, 1471 bytes)"
+size_bytes = "5760"
+tiles = "180"
+palette = "lz:0x1FD2244 (as loaded: bg bank 0 on 87-stat-scanner)"
+pointer_at = "0x1ED4E54"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G40.png; build/graphics/crops/G40.png; build/graphics/crops/G40-rom.png"
+
+[[graphic]]
+id = "G41"
+screen = "72-easy-chat-words"
+source_text = "A-Z MODE / GROUP MODE"
+category = "translate"
+reason = "Mode tab of the easy chat word picker (profile phrase); Russian labels are provided for both modes; 32x16 px tab"
+rom_offset = "0x0E9A168"
+compressed = "yes (LZ77, 757 bytes)"
+size_bytes = "4096"
+tiles = "128"
+palette = "raw:0x0E99F24 (as loaded: obj bank 2 on 72-easy-chat-words)"
+pointer_at = "0x043F950"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G41.png; build/graphics/crops/G41.png; build/graphics/crops/G41-rom.png"
+
+[[graphic]]
+id = "G42"
+screen = "72-easy-chat-words"
+source_text = "SELECT MODE, DELETE, B BUTTON CANCEL"
+category = "translate"
+reason = "Button panel of the easy chat word picker; SELECT and B BUTTON stay; Russian labels are provided for MODE, DELETE, and CANCEL"
+rom_offset = "0x0E99F44"
+compressed = "yes (LZ77, 547 bytes)"
+size_bytes = "2048"
+tiles = "64"
+palette = "raw:0x0E99F24 (as loaded: obj bank 2 on 72-easy-chat-words)"
+pointer_at = "0x043F948"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G42.png; build/graphics/crops/G42.png; build/graphics/crops/G42-rom.png"
+
+[[graphic]]
+id = "G43"
+screen = "not seen on screen"
+source_text = "L / ENEMY TEAM"
+category = "translate"
+reason = "Battle panel (CFRU tag 0xFDFC) offering a view of the enemy team with the L button; not seen on screen; L stays; the full Russian ENEMY TEAM label in a 32x32 panel needs two short lines, so a shorter Russian Enemies label fits"
+rom_offset = "0x0ACA15C"
+compressed = "yes (LZ77, 251 bytes)"
+size_bytes = "512"
+tiles = "16"
+palette = "not located (rendered in grey)"
+pointer_at = "0x0A500F8"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G43.png"
+
+[[graphic]]
+id = "G44"
+screen = "not seen on screen"
+source_text = "B Back"
+category = "translate"
+reason = "Small button sprite (tag 0x5425), not seen on screen; B stays, and Back has a Russian label"
+rom_offset = "0x0ACA968"
+compressed = "yes (LZ77, 96 bytes)"
+size_bytes = "128"
+tiles = "4"
+palette = "not located (rendered in grey)"
+pointer_at = "0x0A699B8"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G44.png"
+
+[[graphic]]
+id = "G45"
+screen = "not seen on screen"
+source_text = "3 2 1 START (countdown)"
+category = "optional"
+reason = "Countdown of the FireRed link minigames (Pokémon Jump, Dodrio Berry Picking), not reachable in this game; START has a Russian label"
+rom_offset = "0x046B008"
+compressed = "yes (LZ77, 1058 bytes)"
+size_bytes = "3072"
+tiles = "96"
+palette = "not located (rendered in grey)"
+pointer_at = "0x046B42C"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G45.png"
+
+[[graphic]]
+id = "G46"
+screen = "not seen on screen"
+source_text = "3 2 1 START (countdown)"
+category = "optional"
+reason = "Second copy of the link minigame countdown, not reachable; START has a Russian label"
+rom_offset = "0x047A348"
+compressed = "yes (LZ77, 1105 bytes)"
+size_bytes = "3584"
+tiles = "112"
+palette = "not located (rendered in grey)"
+pointer_at = "0x047A79C"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G46.png"
+
+[[graphic]]
+id = "G47"
+screen = "not seen on screen"
+source_text = "VS"
+category = "keep"
+reason = "Versus mark of the trainer battle intro; «VS» is used as is in Russian releases"
+rom_offset = "0x0E77598"
+compressed = "yes (LZ77, 528 bytes)"
+size_bytes = "4096"
+tiles = "128"
+palette = "not located (rendered in grey)"
+pointer_at = "0x000FB70, 0x0248318, 0x09BE920"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G47.png"
+
+[[graphic]]
+id = "G48"
+screen = "not seen on screen"
+source_text = "A↔a, REGISTER"
+category = "optional"
+reason = "Union Room chat keyboard buttons (FireRed wireless feature), not reachable; the case-switch icon and REGISTER have Russian labels"
+rom_offset = "0x0EA1A50"
+compressed = "yes (LZ77, 279 bytes)"
+size_bytes = "1024"
+tiles = "32"
+palette = "not located (rendered in grey)"
+pointer_at = "0x045AF78"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G48.png"
+
+[[graphic]]
+id = "G49"
+screen = "Seaport City shop roof"
+source_text = "MART (building sign)"
+category = "optional"
+rom_offset = "0x0CF91A0"
+compressed = "yes (LZ77, 11604 bytes)"
+size_bytes = "20480"
+tiles = "640"
+palette = "tileset palettes (tileset struct 0x02D4A94)"
+pointer_at = "0x02D4A98"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G49.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:a5d4b435-425c-5ee2-acd8-2e8bef501d2a"
+subject = { kind = "graphic", id = "G49" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G49" }
+facts = ["The world-art shop sign has the confirmed optional category.", "A native Seaport City sign check shows MART on the shop roof.", "The primary outdoor tileset contains the lettering.", "The text catalog cannot extract these pixels."]
+evidence = [{ method = "runtime", verification = "recorded", locations = [{ kind = "rom_offset", value = 2968212, label = "primary outdoor tileset containing MART lettering" }] }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G50"
+screen = "not seen on screen"
+source_text = "MART (snow building sign)"
+category = "optional"
+reason = "Shop sign tiles inside the snow primary tileset (tileset struct 0x0725AB4; the row covers the whole tileset graphic); in-world decoration"
+rom_offset = "0x018036C"
+compressed = "yes (LZ77, 11934 bytes)"
+size_bytes = "20480"
+tiles = "640"
+palette = "tileset palettes (tileset struct 0x0725AB4)"
+pointer_at = "0x0725AB8"
+seen_on_screen = "no"
+image = "build/graphics/gfx/G50.png"
+
+[[graphic]]
+id = "G51"
+screen = "28-options-1; 28-options-2; 28-options-3"
+source_text = "L, R"
+category = "keep"
+reason = "Console button icons beside the options page title"
+rom_offset = "0x1FC30AC"
+compressed = "yes (LZ77, 26 bytes)"
+size_bytes = "64"
+tiles = "2"
+palette = "lz:0x1FC30C8 (as loaded: obj bank 2 on 28-options-1)"
+pointer_at = "0x1FB3908, 0x1FB6B80"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G51.png; build/graphics/crops/G51.png; build/graphics/crops/G51-rom.png"
+
+[[graphic]]
+id = "G52"
+screen = "90-mining"
+source_text = "None (mining wall and tool-panel background)"
+category = "keep"
+rom_offset = "0x1FDC0B8"
+compressed = "yes (LZ77, 701 bytes)"
+size_bytes = "2208"
+tiles = "69"
+palette = "raw:0x1FDC514 (as loaded: bg bank 0 on 90-mining)"
+pointer_at = "0x1EDC444"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G52.png; build/graphics/crops/G52.png; build/graphics/crops/G52-rom.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:28333736-1d42-5960-855e-a40ceea18ac4"
+subject = { kind = "graphic", id = "G52" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G52" }
+facts = ["This is a non-text BG3 background.", "All 2208 decoded bytes match native charblock 3.", "The map composes the rock wall and empty tool frames.", "L/R controls are shared keypad icons G56, printed separately on BG2."]
+evidence = [{ method = "runtime", verification = "recorded", measurements = [{ name = "matching decoded data", value = 2208, unit = "bytes" }, { name = "native charblock", value = 3, unit = "index" }] }, { method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 33407864, label = "rock wall and empty tool frame map" }] }]
+related_subjects = [{ kind = "graphic", id = "G56" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G53"
+screen = "double-battle action"
+source_text = "none (player double-battle health box)"
+category = "keep"
+rom_offset = "0x0EEF528"
+compressed = "yes (LZ77, 351 bytes)"
+size_bytes = "2048"
+tiles = "64"
+palette = "raw:0x0EEF360"
+pointer_at = "0x0260218, 0x0260220"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G53.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:0bce79c7-8863-5587-bbe2-82305ab91e38"
+subject = { kind = "graphic", id = "G53" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G53" }
+facts = ["This is player double-battle healthbox art without lettering.", "HP is supplied by G27.", "The sprite tags are 0xD6FF and 0xD700.", "A native four-battler fixture verifies its use."]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "first sprite tag", value = 55039, unit = "tag" }, { name = "second sprite tag", value = 55040, unit = "tag" }] }, { method = "runtime", verification = "recorded", measurements = [{ name = "fixture battlers", value = 4, unit = "count" }] }]
+related_subjects = [{ kind = "graphic", id = "G27" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G54"
+screen = "double-battle action"
+source_text = "HP (foe double-battle health box, hidden)"
+category = "optional"
+rom_offset = "0x0EEF688"
+compressed = "yes (LZ77, 379 bytes)"
+size_bytes = "2048"
+tiles = "64"
+palette = "raw:0x0EEF360"
+pointer_at = "0x0260228, 0x0260230"
+seen_on_screen = "yes (art); no (HP lettering)"
+image = "build/graphics/gfx/G54.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:ce64a498-d995-5118-9d98-2ec25af23490"
+subject = { kind = "graphic", id = "G54" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G54" }
+facts = ["This is foe double-battle healthbox art with sprite tags 0xD701 and 0xD702.", "HP at sheet x25..38, y18..23 is covered by G27.", "Inverting all 84 pixels leaves the native double-battle screenshot identical.", "The lettering is excluded from required lettering until a visible use is found."]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "first sprite tag", value = 55041, unit = "tag" }, { name = "second sprite tag", value = 55042, unit = "tag" }, { name = "HP horizontal span start", value = 25, unit = "px" }, { name = "HP horizontal span end", value = 38, unit = "px" }, { name = "HP vertical span start", value = 18, unit = "px" }, { name = "HP vertical span end", value = 23, unit = "px" }] }, { method = "runtime", verification = "recorded", measurements = [{ name = "inverted HP area", value = 84, unit = "pixels" }] }]
+related_subjects = [{ kind = "graphic", id = "G27" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G55"
+screen = "14-summary-info-status"
+source_text = "PSN, PAR, SLP, FRZ, BRN, PKRS, FNT (summary status icon sheet)"
+category = "translate"
+rom_offset = "0x0B1E11C"
+compressed = "yes (LZ77, 354 bytes)"
+size_bytes = "1024"
+tiles = "32"
+palette = "raw:0x0E9BF28 (equals native summary OBJ palette bank 4)"
+pointer_at = "0x013A314"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G55.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:c87b5898-f4fe-56a2-b89b-68716236b74a"
+subject = { kind = "graphic", id = "G55" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G55" }
+facts = ["These are summary-page status icons.", "Glyphs match G28 while preserving the distinct index-9 outline.", "All seven states are verified natively.", "The unreferenced copy is not used here."]
+evidence = [{ method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 1286932, label = "summary-page status icon loader" }, { kind = "rom_offset", value = 15318856, label = "unused unreferenced copy" }], measurements = [{ name = "distinct outline index", value = 9, unit = "index" }] }, { method = "runtime", verification = "recorded", measurements = [{ name = "verified status states", value = 7, unit = "count" }] }]
+related_subjects = [{ kind = "graphic", id = "G28" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G56"
+screen = "90-mining; text-engine keypad prompts"
+source_text = "A, B, L, R, START, SELECT, directional icons"
+category = "keep"
+rom_offset = "0x01EA700"
+compressed = "no"
+size_bytes = "2048"
+tiles = "64"
+palette = "raw:0x1FE63B8 (equals mining BG palette bank 2)"
+pointer_at = "0x0006414"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G56.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:a9f789ed-ace5-5aec-a53a-61f8d377ad5c"
+subject = { kind = "graphic", id = "G56" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G56" }
+facts = ["Shared keypad icons preserve console button names.", "The mining string contains F8 02/F8 03.", "The printer call draws these icons in BG2 window 1.", "DrawKeypadIcon reads descriptors and this sheet.", "L/R each match all 192 native pixels.", "The 2048-byte sheet ends at the small font.", "This sheet is distinct from G52 background art."]
+evidence = [{ method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 33038941, label = "mining string containing F8 02/F8 03" }, { kind = "rom_offset", value = 32360128, label = "printer call drawing icons in BG2 window 1" }, { kind = "rom_offset", value = 25544, label = "DrawKeypadIcon" }, { kind = "rom_offset", value = 2008780, label = "keypad icon descriptors" }, { kind = "rom_offset", value = 2010880, label = "small font at the sheet end" }], measurements = [{ name = "BG2 window", value = 1, unit = "index" }, { name = "sheet size", value = 2048, unit = "bytes" }] }, { method = "runtime", verification = "recorded", measurements = [{ name = "matching native pixels per L/R icon", value = 192, unit = "pixels" }] }]
+related_subjects = [{ kind = "graphic", id = "G52" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G57"
+screen = "Cube Corp. exterior, runtime map 3.6"
+source_text = "CUBE CORP (building logo)"
+category = "keep"
+rom_offset = "0x0C4F1C0"
+compressed = "yes (LZ77, 4325 bytes)"
+size_bytes = "12032"
+tiles = "376"
+palette = "raw:0x0285150"
+pointer_at = "0x02D4D50"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G57.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:6d3365de-3fde-58ff-a1cf-1d72321bafd2"
+subject = { kind = "graphic", id = "G57" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G57" }
+facts = ["The graphics review covers all 69 map tilesets.", "Metatiles 0x2C2-0x2C7 at x22-27, y19 contain the logo.", "The text-engine place label hash:f3ca2f39 carries shared editor guidance."]
+reason = ["The world-art company logo is retained under the category policy."]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "reviewed map tilesets", value = 69, unit = "count" }, { name = "logo metatile span start", value = 706, unit = "metatile indices" }, { name = "logo metatile span end", value = 711, unit = "metatile indices" }, { name = "logo horizontal span start", value = 22, unit = "map coordinates" }, { name = "logo horizontal span end", value = 27, unit = "map coordinates" }, { name = "logo y", value = 19, unit = "map coordinate" }] }]
+related_subjects = [{ kind = "entry", id = "hash:f3ca2f39" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G58"
+screen = "party field-move help; help-system frame"
+source_text = "None (help-window background tiles)"
+category = "keep"
+rom_offset = "0x04566A8"
+compressed = "no"
+size_bytes = "640"
+tiles = "20"
+palette = "unknown (runtime BG bank 12 on party help)"
+pointer_at = "0x0112FC8, 0x014FD34, 0x014FEA8"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G58.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:755b6862-b925-5c20-91be-000265416469"
+subject = { kind = "graphic", id = "G58" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G58" }
+guidance = ["Reserve the complete source span before ROM allocation."]
+facts = ["These are raw background tiles with a long FF pixel run.", "The party help helper repeats tiles 0/5/14.", "The readers load 0x280 bytes.", "All 15 field-move help descriptions share this frame.", "No text or artwork changes are required."]
+evidence = [{ method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 1126168, label = "party help helper repeating tiles 0/5/14" }, { kind = "rom_offset", value = 1375510, label = "first reader" }, { kind = "rom_offset", value = 1375880, label = "second reader" }], measurements = [{ name = "reader load size", value = 640, unit = "bytes" }, { name = "field-move help descriptions sharing the frame", value = 15, unit = "count" }] }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G59"
+screen = "Game Corner slot machine"
+source_text = "CREDIT"
+category = "translate"
+rom_offset = "0x04659D0"
+compressed = "yes (LZ77, 2052 bytes)"
+size_bytes = "4416"
+tiles = "138"
+palette = "raw:0x0465930 (as loaded: bg bank 0 on the slot machine)"
+pointer_at = "0x01413AC"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G59.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:e23fafb2-d43a-5913-81d8-26fe1f64b205"
+subject = { kind = "graphic", id = "G59" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G59" }
+facts = ["The coin balance label appears above the left counter of the slot machine and is read on every play.", "A Game Corner map script runs playslotmachine.", "The label uses 3x5 px capitals within 30 px.", "Tiles 30-33 of the machine background hold the label.", "G60 shares the graphic."]
+evidence = [{ method = "lookup", verification = "recorded", locations = [{ kind = "rom_offset", value = 31913033, label = "Game Corner map script running playslotmachine" }], measurements = [{ name = "capital width", value = 3, unit = "px" }, { name = "capital height", value = 5, unit = "px" }, { name = "label width", value = 30, unit = "px" }, { name = "label tile span start", value = 30, unit = "tile indices" }, { name = "label tile span end", value = 33, unit = "tile indices" }] }]
+related_subjects = [{ kind = "graphic", id = "G60" }]
+status = "unreviewed"
+
+[[graphic]]
+id = "G60"
+screen = "Game Corner slot machine"
+source_text = "PAYOUT"
+category = "translate"
+rom_offset = "0x04659D0"
+compressed = "yes (LZ77, 2052 bytes)"
+size_bytes = "4416"
+tiles = "138"
+palette = "raw:0x0465930 (as loaded: bg bank 0 on the slot machine)"
+pointer_at = "0x01413AC"
+seen_on_screen = "yes"
+image = "build/graphics/gfx/G60.png"
+notes_schema = "3.0.0"
+
+[[graphic.notes]]
+id = "note:8ff5fa10-af30-5d91-a71d-3283fafa66db"
+subject = { kind = "graphic", id = "G60" }
+scope = { kind = "shared" }
+binding = { kind = "graphic", id = "G60" }
+facts = ["The coins-won label appears above the right counter of the slot machine and is read on every play.", "The label occupies tiles 34-37 of the same graphic as G59.", "The source label uses 6 letters within 30 px."]
+evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "label tile span start", value = 34, unit = "tile indices" }, { name = "label tile span end", value = 37, unit = "tile indices" }, { name = "source label length", value = 6, unit = "letters" }, { name = "label interior width", value = 30, unit = "px" }] }]
+related_subjects = [{ kind = "graphic", id = "G59" }]
+status = "unreviewed"

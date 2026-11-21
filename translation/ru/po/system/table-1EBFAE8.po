@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1EBFAE8\n"
+"X-Source: key-only\n"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 167, 163
+#: 0x1f566da
+msgctxt "hash:9783a848"
+msgid "hash:9783a848"
+msgstr "Вернуться на базу Теней\\nв Ледяных Высотах и найти Зефа!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 172
+#: 0x1f56717
+msgctxt "hash:5317c036"
+msgid "hash:5317c036"
+msgstr "Бросить вызов стадиону\\nгорода Дехара!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 176, 83
+#: 0x1f56736
+msgctxt "hash:98958e2b"
+msgid "hash:98958e2b"
+msgstr "Получить Очки от песка у туриста\\nв городе Дехара!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 179, 121
+#: 0x1f56766
+msgctxt "hash:882625a1"
+msgid "hash:882625a1"
+msgstr "Пройти через Великую пустыню\\nв городок Вивилл!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 116, 138
+#: 0x1f5679d
+msgctxt "hash:97626b47"
+msgid "hash:97626b47"
+msgstr "Прийти к складу в городке Вивилл:\\nтам ждёт {RIVAL}!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 2, widths px: 148, 58
+#: 0x1f567cf
+msgctxt "hash:f2893354"
+msgid "hash:f2893354"
+msgstr "Зайти на склад городка Вивилл!"
+
+#. category: code; mode: field
+#. original lines: 2, widths px: 180, 197
+#: 0x1f567f6
+msgctxt "hash:c7f2df76"
+msgid "hash:c7f2df76"
+msgstr "Осмотреть склад Вивилл\\nи найти путь в Командный центр!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 97
+#: 0x1f5683b
+msgctxt "hash:0fd536f3"
+msgid "hash:0fd536f3"
+msgstr "Бросить вызов Эклаву!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 155
+#: 0x1f5684d
+msgctxt "hash:d70584fb"
+msgid "hash:d70584fb"
+msgstr "Выбраться из Мира деформации!"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 138
+#: 0x1f5686a
+msgctxt "hash:dba5726b"
+msgid "hash:dba5726b"
+msgstr "Прыгнуть в портал!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: code; mode: field
+#. original lines: 1, widths px: 133
+#: 0x1f56883
+msgctxt "hash:10735b43"
+msgid "hash:10735b43"
+msgstr "Встретиться с Джексом\\nв городке Вивилл!"

@@ -1,0 +1,650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: maps/magnolia-fields\n"
+"X-Source: key-only\n"
+
+#. category: script; mode: field
+#. used in 9 places
+#. original lines: 1, widths px: 15
+#: 0x07bd7c5
+msgctxt "map:1.105/trigger:0/15"
+msgid "map:1.105/trigger:0/15"
+msgstr "его"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 189, 165, 52, 190, 112
+#: 0x1f25990
+msgctxt "map:3.4/npc:44/0"
+msgid "map:3.4/npc:44/0"
+msgstr ""
+"Эй, юный тренер, хочется ринуться на противника, как разъярённый "
+"Мадсдэйл?\\pНе вопрос: научу твоего покемона приёму {COLOR 06}Конская "
+"сила{COLOR 04} за {COLOR 06}{STR_VAR_2} предмета {STR_VAR_1}{COLOR 04}!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 176, 33
+#: 0x1f25a22
+msgctxt "map:3.4/npc:44/3"
+msgid "map:3.4/npc:44/3"
+msgstr "Эге-гей! Ну, какой покемон будет учиться?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 190, 64
+#: 0x1f25a49
+msgctxt "map:3.4/npc:44/1"
+msgid "map:3.4/npc:44/1"
+msgstr "Обожаю нестись напролом, как Мадсдэйл!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 162, 59
+#: 0x1f25a78
+msgctxt "map:3.4/npc:44/2"
+msgid "map:3.4/npc:44/2"
+msgstr "Не хватает у тебя на это: {COLOR 06}{STR_VAR_1}{COLOR 04}…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 108, 166, 190
+#: 0x1f25aaa
+msgctxt "map:3.4/npc:1/6"
+msgid "map:3.4/npc:1/6"
+msgstr ""
+"О великий Ландорус!\\pБлагослови эту землю, чтобы наши поля снова дали "
+"урожай!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 168, 162, 172, 116, 178, 44
+#: 0x1f25b00
+msgctxt "map:3.4/npc:1/5"
+msgid "map:3.4/npc:1/5"
+msgstr ""
+"Великого Ландоруса называют “Хранителем полей”.\\pТам, где побывал "
+"Ландорус, земля дарит богатый урожай.\\pВот бы он благословил и нашу "
+"землю."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 95, 152, 114
+#: 0x1f25b9d
+msgctxt "map:3.4/trigger:2/0"
+msgid "map:3.4/trigger:2/0"
+msgstr "Они вернулись!\\pТе ужасные покемоны, что погубили наш урожай!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 181
+#: 0x1f25be0
+msgctxt "map:3.4/trigger:2/5"
+msgid "map:3.4/trigger:2/5"
+msgstr "{COLOR 02}Торнадус и Тандурус улетели!"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 70, 179, 112, 166, 97
+#: 0x1f25c04
+msgctxt "map:3.4/trigger:2/6"
+msgid "map:3.4/trigger:2/6"
+msgstr ""
+"Что это?\\pПохоже, эти покемоны сбежали, едва тебя увидев.\\pНеужели они… "
+"тебя боятся?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 179, 112, 173, 126
+#: 0x1f25c77
+msgctxt "map:3.4/npc:1/2"
+msgid "map:3.4/npc:1/2"
+msgstr ""
+"Похоже, эти покемоны сбежали, едва тебя увидев.\\pНадеюсь, они не "
+"бесчинствуют в других краях Борриуса…"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 109, 198
+#: 0x1f25ce4
+msgctxt "map:3.4/npc:1/4"
+msgid "map:3.4/npc:1/4"
+msgstr "Великий Ландорус!\\pОн вернулся благословить урожай!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 126, 68, 176, 60
+#: 0x1f25d1c
+msgctxt "map:3.4/npc:1/3"
+msgid "map:3.4/npc:1/3"
+msgstr ""
+"Великий Ландорус исчез!\\pОх… когда же он вернётся и благословит наши "
+"поля?"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 187, 195, 194, 174, 91, 188, 28, 172
+#: 0x1f25d6d
+msgctxt "map:3.4/npc:1/1"
+msgid "map:3.4/npc:1/1"
+msgstr ""
+"Великий Ландорус благословил наши поля, и теперь всего через несколько "
+"недель здешняя земля станет такой, как прежде.\\pСпасибо тебе за всё, "
+"тренер.\\pВот заслуженная благодарность."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 178, 165, 51, 181
+#: 0x1f25e52
+msgctxt "map:3.4/npc:1/0"
+msgid "map:3.4/npc:1/0"
+msgstr ""
+"{COLOR 06}Зеркальце{COLOR 04} показывает истинный облик пойманных тобой "
+"покемонов.\\pБереги их, тренер."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 45
+#: 0x1f25ec1
+msgctxt "map:3.4/trigger:2/1"
+msgid "map:3.4/trigger:2/1"
+msgstr "Торнадус"
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 1, widths px: 51
+#: 0x1f25eca
+msgctxt "map:3.4/trigger:2/3"
+msgid "map:3.4/trigger:2/3"
+msgstr "Тандурус"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 78
+#: 0x1f25ed4
+msgctxt "map:3.4/trigger:2/2"
+msgid "map:3.4/trigger:2/2"
+msgstr "{COLOR 06}Вхххвхххвххх!"
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 1, widths px: 73
+#: 0x1f25ee5
+msgctxt "map:3.4/trigger:2/4"
+msgid "map:3.4/trigger:2/4"
+msgstr "{COLOR 06}Кррркррркррак!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 192
+#: 0x1f25ef7
+msgctxt "map:3.4/npc:19/0"
+msgid "map:3.4/npc:19/0"
+msgstr "{COLOR 02}Призвав силу земли, Ландорус вырос до огромных размеров!"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 44, 145, 71, 194, 174, 52, 118, 130
+#: 0x1f25f3e
+msgctxt "map:3.4/npc:0/1"
+msgid "map:3.4/npc:0/1"
+msgstr ""
+"{COLOR 04}Стой!\\pВидишь эти следы?\\pЭто мои!\\pЯ вляпалась в навоз на "
+"ферме и наследила аж досюда!\\pПравда, завораживают?\\pНадо их сфоткать!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 197, 78, 194, 73, 185, 160
+#: 0x1f25ff0
+msgctxt "map:3.4/npc:0/0"
+msgid "map:3.4/npc:0/0"
+msgstr ""
+"Всегда смотри под ноги!\\pТого и гляди вляпаешься в навоз!\\pНо, скажу я "
+"тебе, фотки потом выходят просто завораживающие!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 133
+#: 0x1f26096
+msgctxt "map:3.4/npc:2/4"
+msgid "map:3.4/npc:2/4"
+msgstr "Самая опасная дичь"
+
+#. category: script; mode: field
+#. original lines: 10, widths px: 184, 181, 90, 152, 179, 176, 184, 151, 166, 90
+#: 0x1f26110
+msgctxt "map:3.4/npc:2/7"
+msgid "map:3.4/npc:2/7"
+msgstr ""
+"Тренер, я ищу того, кто сможет совладать с самыми опасными из зверей… с "
+"покемонами.\\pОни извергают огонь, призывают молнии и подчиняют себе "
+"разум.\\pПоистине самая опасная дичь.\\pКак думаешь, сможешь собрать в "
+"Зоне сафари серию поимок хотя бы из {COLOR 06}{STR_VAR_1}{COLOR 08} "
+"покемонов и совладать с этими созданиями?"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 184, 198, 67
+#: 0x1f26237
+msgctxt "map:3.4/npc:2/9"
+msgid "map:3.4/npc:2/9"
+msgstr "Удачи. И помни: за одну игру у тебя будет не больше 30 Сафариболов."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 170, 182
+#: 0x1f26289
+msgctxt "map:3.4/npc:2/8"
+msgid "map:3.4/npc:2/8"
+msgstr "Где-то наверняка есть тот, кто сумеет укротить этих зверей."
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 4, widths px: 193, 105, 194, 143
+#: 0x1f262c9
+msgctxt "map:3.4/npc:2/0"
+msgid "map:3.4/npc:2/0"
+msgstr ""
+"Вижу, серии поимок в Игре в сафари у тебя пока нет.\\pСыграть в сафари "
+"можно к востоку от городка Полдер."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 191, 165, 174, 180, 86
+#: 0x1f2633d
+msgctxt "map:3.4/npc:2/1"
+msgid "map:3.4/npc:2/1"
+msgstr ""
+"Вижу, в Зоне сафари твоя серия поимок составила всего {COLOR "
+"06}{STR_VAR_2}{COLOR 08}.\\pУвы, это меньше {COLOR 06}{STR_VAR_1}{COLOR "
+"08}, которые нужны, чтобы совладать с самой опасной дичью."
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 155, 73, 192, 73, 179, 184, 138
+#: 0x1f263e0
+msgctxt "map:3.4/npc:2/2"
+msgid "map:3.4/npc:2/2"
+msgstr ""
+"Охота на покемонов тебе поистине покорилась.\\pВот награда, чтобы тебе "
+"было чем похвастаться.\\pВозможно, с её помощью удастся приручить зверей "
+"и пострашнее тех, что водятся в Зоне сафари."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 193, 196, 44
+#: 0x1f26497
+msgctxt "map:3.4/npc:2/6"
+msgid "map:3.4/npc:2/6"
+msgstr ""
+"Отправлюсь на поиски дичи, на которую охотиться опаснее, чем на покемонов."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 96, 178, 49, 156
+#: 0x1f264e6
+msgctxt "map:3.4/npc:3/0"
+msgid "map:3.4/npc:3/0"
+msgstr ""
+"Привет, юный тренер!\\pМоему покемону только что сделали модную "
+"стрижку.\\pНе хочешь глянуть?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 180, 160
+#: 0x1f2653e
+msgctxt "map:3.4/npc:3/1"
+msgid "map:3.4/npc:3/1"
+msgstr "Полегче! Ещё чуть грубее - и ты испортишь Фурфру причёску!"
+
+#. category: script; mode: field
+#. original lines: 7, widths px: 171, 185, 118, 120, 156, 185, 67
+#: 0x1f2657d
+msgctxt "map:3.4/npc:3/4"
+msgid "map:3.4/npc:3/4"
+msgstr ""
+"Когда шерсть моего Фурфру совсем растреплется, я веду его к Фурфрите в "
+"{COLOR 06}кафе “Магнолия”{COLOR 08}.\\pВот что я тебе скажу!\\pЭта "
+"женщина такая загадочная!\\pПриходит и уходит, когда ей вздумается."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 74, 179, 157
+#: 0x1f2663c
+msgctxt "map:3.4/npc:4/0"
+msgid "map:3.4/npc:4/0"
+msgstr ""
+"Заметно?\\pЯ ни на шаг не сходил с места с начала охоты за Квилфишем!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 144, 209
+#: 0x1f26688
+msgctxt "map:3.4/npc:4/1"
+msgid "map:3.4/npc:4/1"
+msgstr "Лишь благодаря охоте за Квилфишем я и смог сражаться!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 149, 45, 186, 177, 182, 48
+#: 0x1f266ca
+msgctxt "map:3.4/npc:4/4"
+msgid "map:3.4/npc:4/4"
+msgstr ""
+"Квилфиши - крайне редкие покемоны.\\pОни попадаются здесь, если рыбачить "
+"с Суперудочкой, но, чтобы найти хоть одного, придётся ждать часами, как "
+"ждал я."
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 88, 144, 56, 163, 183, 107
+#: 0x1f2675d
+msgctxt "map:3.4/npc:6/0"
+msgid "map:3.4/npc:6/0"
+msgstr ""
+"Поля Магнолия?\\pДа брось, скорее пустошь Магнолия!\\pВидишь тут хоть "
+"какой-то урожай?\\pЯ так, ёлки-палки, зла, что сейчас отыграюсь на тебе!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 167, 49
+#: 0x1f267e8
+msgctxt "map:3.4/npc:6/1"
+msgid "map:3.4/npc:6/1"
+msgstr "Никаких полей тут уже много лет нет!"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 189, 180, 170, 60
+#: 0x1f26811
+msgctxt "map:3.4/npc:6/4"
+msgid "map:3.4/npc:6/4"
+msgstr ""
+"Великое существо, что берегло наш урожай, давно исчезло.\\pС тех пор поля "
+"и пересохли."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 74, 182, 89, 127
+#: 0x1f26880
+msgctxt "map:3.4/npc:8/0"
+msgid "map:3.4/npc:8/0"
+msgstr ""
+"А знаешь?\\pУнфезанты-самцы выглядят не так, как самки.\\pВот, сейчас "
+"покажу!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 183, 127
+#: 0x1f268d8
+msgctxt "map:3.4/npc:8/1"
+msgid "map:3.4/npc:8/1"
+msgstr "Вернее, показал бы, будь у меня разные Унфезанты…"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 195, 182, 128, 199, 125
+#: 0x1f26911
+msgctxt "map:3.4/npc:8/4"
+msgid "map:3.4/npc:8/4"
+msgstr ""
+"Унфезанты-самки славятся выносливостью, зато самцы превосходят их в "
+"скорости.\\pНо, между нами, в бою я разницы ни разу не видел."
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 45, 183, 58
+#: 0x1f269ab
+msgctxt "map:3.4/npc:5/0"
+msgid "map:3.4/npc:5/0"
+msgstr "Осторожно!\\pА то здешние Джеллисенты ударят тебя током!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 150, 172
+#: 0x1f269e1
+msgctxt "map:3.4/npc:5/1"
+msgid "map:3.4/npc:5/1"
+msgstr "Что-что? Джеллисенты сами не учат приёмы типа Электро?"
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 176, 71, 179, 54
+#: 0x1f26a1e
+msgctxt "map:3.4/npc:5/4"
+msgid "map:3.4/npc:5/4"
+msgstr ""
+"Пока я плавала, меня что-то покалывало!\\pНеужели это были не Джеллисенты?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 181, 182
+#: 0x1f26a79
+msgctxt "map:3.4/npc:7/0"
+msgid "map:3.4/npc:7/0"
+msgstr "Люблю биться головой о деревья.\\pИногда выпадают редкие покемоны!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 18, 131
+#: 0x1f26abb
+msgctxt "map:3.4/npc:7/1"
+msgid "map:3.4/npc:7/1"
+msgstr "Ой…\\nКажется, я ушиб голову…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 186, 188, 44
+#: 0x1f26ad7
+msgctxt "map:3.4/npc:7/4"
+msgid "map:3.4/npc:7/4"
+msgstr ""
+"Я нашёл своих покемонов, когда бился головой о дерево в деревне Редвуд!"
+
+#. category: script; mode: field
+#. used in 7 places
+#. original lines: 1, widths px: 48
+#: 0x1f2b7ad
+msgctxt "map:3.2/npc:6/1"
+msgid "map:3.2/npc:6/1"
+msgstr "{COLOR 06}Му-у-у-у-у-у!"
+
+# source: Use городок with masculine agreement and reviewed inflections for references to the ten selected Town locations.
+# source: Use деревня for Village.
+# source: Use город for City.
+# source: Preserve proper names, lowercase running-text descriptors and unrelated grammatical referents.
+# source: status: unreviewed
+# source-notes: generated
+#. category: script; mode: field
+#. original lines: 3, widths px: 82, 91, 104
+#: 0x1f723f8
+msgctxt "map:3.4/sign:0/0"
+msgid "map:3.4/sign:0/0"
+msgstr ""
+"Поля Магнолия\\p{LEFT_ARROW} Городок Магнолия\\n{RIGHT_ARROW} Деревня "
+"Редвуд"
+
+#. category: script; mode: field
+#. original lines: 8, widths px: 70, 163, 132, 192, 118, 165, 178, 135
+#: 0x1f7488b
+msgctxt "map:3.4/sign:2/0"
+msgid "map:3.4/sign:2/0"
+msgstr ""
+"Советы тренерам!\\pСовместные странствия сближают вас с покемонами!\\pА "
+"подружившись с вами, некоторые даже эволюционируют!\\pЕсли же вы уже "
+"попали в {COLOR 06}Зал славы{COLOR 02}, такие покемоны могут получать и "
+"{COLOR 06}дополнительный опыт{COLOR 02}!"
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 1, widths px: 36
+#: 0x1fa6ae2
+msgctxt "map:3.4/trigger:5/4"
+msgid "map:3.4/trigger:5/4"
+msgstr "Милтанк"
+
+#. category: script; mode: field
+#. original lines: 9, widths px: 77, 162, 179, 56, 42, 174, 27, 152, 120
+#: 0x1fa6aea
+msgctxt "map:3.4/trigger:5/1"
+msgid "map:3.4/trigger:5/1"
+msgstr ""
+"Так, парни!\\pНа болоте Кутс вы крупно облажались, но вот это - наш "
+"большой куш!\\pХа-ха-ха!\\pЭти Милтанки сделают нас богачами!\\pМы выдоим "
+"из них всё до последней капли!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 138, 54
+#: 0x1fa6ba4
+msgctxt "map:3.4/trigger:5/3"
+msgid "map:3.4/trigger:5/3"
+msgstr "Ну же, тупая корова!\\pДавай молоко!"
+
+#. category: script; mode: field
+#. used in 6 places
+#. original lines: 1, widths px: 42
+#: 0x1fa6bc8
+msgctxt "map:3.4/trigger:5/5"
+msgid "map:3.4/trigger:5/5"
+msgstr "{COLOR 06}Му-у-у-у-у…"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 201, 196, 93
+#: 0x1fa6bd3
+msgctxt "map:3.4/trigger:5/7"
+msgid "map:3.4/trigger:5/7"
+msgstr ""
+"Я знаю, что вы, тупые коровы, даёте больше пяти галлонов молока в день, "
+"так что гоните его сюда!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 165, 69, 181
+#: 0x1fa6c2d
+msgctxt "map:3.4/trigger:5/11"
+msgid "map:3.4/trigger:5/11"
+msgstr ""
+"Чё-то не выходит, как я рассчитывал, парни.\\pЕсть у кого светлые мысли?"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 172, 133
+#: 0x1fa6c7c
+msgctxt "map:3.4/trigger:5/13"
+msgid "map:3.4/trigger:5/13"
+msgstr "А ну вернитесь, тупые коровы!\\nЯ ещё не додоил!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 24, 103, 152
+#: 0x1fa6cb5
+msgctxt "map:3.4/trigger:5/19"
+msgid "map:3.4/trigger:5/19"
+msgstr "А?\\pКакая-то сопля!\\pОтделаем {STR_VAR_2} и отберём…"
+
+#. category: script; mode: field
+#. original lines: 16, widths px: 81, 175, 198, 195, 99, 178, 175, 145, 125, 170, 57, 154, 77, 159, 172, 160
+#: 0x1fa6cec
+msgctxt "map:3.4/trigger:5/21"
+msgid "map:3.4/trigger:5/21"
+msgstr ""
+"Стоп, парни! Что-то эта мелочь\\nмне больно знакома…\\pПогоди-ка, я тебя "
+"знаю…{PAUSE 20} ты та самая сопля, что сунула нос в наши дела на Маршруте "
+"10!\\pА ещё, слыхал я, на болоте Кутс моим парням от тебя тоже досталось, "
+"так?\\pИ вот ты опять здесь.\\pСерьёзно, сопля, да что с тобой такое?!\\p"
+"Парни! Осторожнее с этой соплёй!\\pНе недооценивайте {STR_VAR_2}, а то "
+"вас отделают - и “Грэнбулл” сказать не успеете!"
+
+#. category: script; mode: field
+#. original lines: 3, widths px: 177, 149, 121
+#: 0x1fa6e9f
+msgctxt "map:3.4/trigger:5/29"
+msgid "map:3.4/trigger:5/29"
+msgstr ""
+"Не волнуйся, босс!\\pЯ так отделаю {STR_VAR_1}, что {STR_VAR_2} заревёт и "
+"{STR_VAR_3} мамочка прибежит!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 54
+#: 0x1fa6ef8
+msgctxt "map:3.4/trigger:5/30"
+msgid "map:3.4/trigger:5/30"
+msgstr "Ой-ой-ой-ой…"
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 60, 177, 28, 193, 129
+#: 0x1fa6f02
+msgctxt "map:3.4/trigger:5/32"
+msgid "map:3.4/trigger:5/32"
+msgstr ""
+"Ну ты балбес!\\pКто ж так Грэнбулла использует!\\pПодвинься, сейчас "
+"покажу, как с Грэнбуллом надо обращаться!"
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 126
+#: 0x1fa6f6e
+msgctxt "map:3.4/trigger:5/33"
+msgid "map:3.4/trigger:5/33"
+msgstr "Похоже, балбес тут я!"
+
+#. category: script; mode: field
+#. original lines: 13, widths px: 147, 170, 6, 181, 113, 188, 192, 200, 174, 175, 60, 200, 175
+#: 0x1fa6f85
+msgctxt "map:3.4/trigger:5/35"
+msgid "map:3.4/trigger:5/35"
+msgstr ""
+"Тьфу ты! Ах вы, бестолочи!\\pЯ же говорил вам НЕ недооценивать "
+"{STR_VAR_1}!\\pА вы что сделали?\\nВзяли и недооценили {STR_VAR_1}!\\p"
+"Нет, серьёзно: почему из всех громил мне достались самые тупые?\\pЯ мог "
+"бы бросать на эту мелочь болвана за болваном, но, уверен, и тысяча ничего "
+"бы не изменила!\\pНеужели Террору Грэнбулл суждено вечно ходить в "
+"неудачниках?.."
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 175, 32
+#: 0x1fa70f7
+msgctxt "map:3.4/trigger:5/37"
+msgid "map:3.4/trigger:5/37"
+msgstr "Всё может быть иначе, Графф."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 161
+#: 0x1fa711e
+msgctxt "map:3.4/trigger:5/39"
+msgid "map:3.4/trigger:5/39"
+msgstr "А ты ещё кто такой?"
+
+#. category: script; mode: field
+#. original lines: 19, widths px: 95, 166, 193, 63, 196, 191, 145, 67, 127, 159, 151, 168, 77, 188, 32, 178, 112, 177, 99
+#: 0x1fa713b
+msgctxt "map:3.4/trigger:5/41"
+msgid "map:3.4/trigger:5/41"
+msgstr ""
+"Звать меня Джеймс.\\pКогда-то я заправлял самой крутой и суровой бандой в "
+"округе - Чёрным кланом “{PLAYER}”!\\pНо эти Чёрные Ферроторны сделали с "
+"нами то же, что и с вами.\\pВышвырнули нас из города Антисис!\\pМы с "
+"Чёрным кланом “{PLAYER}” не знали, куда податься, пока не встретили "
+"босса.\\pОна дала нам новую цель.\\pТеперь мы с гордостью зовёмся Чёрным "
+"горизонтом.\\pТебе с парнями стоит присоединиться к нам, Графф.\\pГромил "
+"у нас теперь столько, что хватит одолеть целую армию!\\pУ Чёрного "
+"Ферроторна больше нет ни единого шанса!"
+
+#. category: script; mode: field
+#. original lines: 6, widths px: 131, 172, 200, 165, 190, 64
+#: 0x1fa731d
+msgctxt "map:3.4/trigger:5/43"
+msgid "map:3.4/trigger:5/43"
+msgstr ""
+"Чёрный горизонт, говоришь?\\pА что, звучит неплохо…\\pНо если мы к вам, "
+"простофилям, примкнём, как же наши Грэнбуллы?\\pНикто из нас не "
+"представляет жизни без них."
+
+#. category: script; mode: field
+#. original lines: 4, widths px: 176, 181, 45, 114
+#: 0x1fa73c7
+msgctxt "map:3.4/trigger:5/45"
+msgid "map:3.4/trigger:5/45"
+msgstr ""
+"Босс не любит заставлять всех держать покемонов одного вида.\\pТак что "
+"можете их оставить."
+
+#. category: script; mode: field
+#. original lines: 1, widths px: 88
+#: 0x1fa7428
+msgctxt "map:3.4/trigger:5/47"
+msgid "map:3.4/trigger:5/47"
+msgstr "Тогда мы в деле."
+
+#. category: script; mode: field
+#. original lines: 5, widths px: 81, 180, 186, 162, 204
+#: 0x1fa7439
+msgctxt "map:3.4/trigger:5/49"
+msgid "map:3.4/trigger:5/49"
+msgstr ""
+"За мной, парни!\\nМы идём в Чёрный горизонт!\\pЭти Чёрные Ферроторны "
+"узнают такой террор, какой не устроил бы даже Террор Грэнбулл в одиночку!"
+
+#. category: script; mode: field
+#. original lines: 16, widths px: 114, 181, 99, 110, 6, 164, 179, 72, 182, 20, 187, 163, 174, 84, 127, 154
+#: 0x1fa74cf
+msgctxt "map:3.4/trigger:5/51"
+msgid "map:3.4/trigger:5/51"
+msgstr ""
+"Давненько не виделись, {PLAYER}.\\pНу, как тебе живётся без Чёрного клана "
+"“{PLAYER}”, который не давал тебе сбиться с пути?\\p…\\pЗначит, ты теперь "
+"чемпион, а?\\pЯ всегда знал, что у меня глаз намётан на таланты!\\pДуху "
+"тебе не занимать, мелочь.\\pЖаль, что босс не хочет брать тебя в Чёрный "
+"горизонт.\\pГоворит, у неё на тебя какие-то “особые планы”.\\pТак "
+"держать, {PLAYER}: тренера отчаяннее тебя я не знаю!"
+
+#. category: script; mode: field
+#. original lines: 2, widths px: 157, 70
+#: 0x1fa765a
+msgctxt "map:3.4/npc:14/1"
+msgid "map:3.4/npc:14/1"
+msgstr "{COLOR 02}Милтанки вернулись домой на ферму Муму."

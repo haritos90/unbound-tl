@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0A6D7F4\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 61, 172, 0
+#: 0x0a4e8c2
+msgctxt "hash:4e1c363d"
+msgid "hash:4e1c363d"
+msgstr "Невозможно!\\pТы… ты не смеешь так со мной!\\p "
+
+#. category: data-table; mode: battle
+#. original lines: 3, widths px: 18, 122, 0
+#: 0x0a4e8ef
+msgctxt "hash:6f1d0dd9"
+msgid "hash:6f1d0dd9"
+msgstr ""
+"{B_PLAYER_NAME}… {B_PLAYER_NAME}!\\nЛишь тебе хватило бы дерзости!..\\p "
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 18, 145, 0
+#: 0x0a4e90f
+msgctxt "hash:f5b814c4"
+msgid "hash:f5b814c4"
+msgstr "Нет!\\nНе такая судьба мне уготована!\\p "

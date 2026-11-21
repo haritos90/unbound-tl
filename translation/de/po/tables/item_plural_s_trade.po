@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/item_plural_s_trade\n"
+"X-Source: key-only\n"
+
+#. category: table:item_plural_s_trade; mode: field
+#. fixed field: 1 characters max (table item_plural_s_trade, index 0)
+#. original lines: 1, widths px: 5
+#: 0x1ecb57c
+msgctxt "table:item_plural_s_trade/0"
+msgid "table:item_plural_s_trade/0"
+msgstr ""

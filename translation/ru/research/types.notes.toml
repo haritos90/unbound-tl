@@ -1,0 +1,43 @@
+schema = "3.0.0"
+
+[[note]]
+id = "note:332c5af3-4c26-5cca-92f7-1089e45a62bf"
+subject = { kind = "research", id = "research:d5cd608551e1472f8ad56b3f120ba137" }
+scope = { kind = "language", language = "ru" }
+facts = ["The English label is truncated from Fighting.", "The selected label is official on the SM and SwSh sites, the pokemon.com Pokédex and the TCG.", "The PokéRogue type list form «Боевой» fits 6 characters, and the variants also record it for fandom-ru and pojirianets-bw.", "The same label occurs in the types_short table, also at its index 18."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Сражение", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Сражение", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokédex on pokemon.com", address = "pokemon-com-ru", quoted_term = "Сражение", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Сражение", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Боевой", relation = "alternative", verification = "recorded" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "PokéRogue form length", value = 6, unit = "characters" }, { name = "types_short index", value = 18, unit = "index" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:82c925bd-8e3b-5943-b592-e7d6b8db1953"
+subject = { kind = "research", id = "research:4b5840383504485081de1e7ff1359e34" }
+scope = { kind = "language", language = "ru" }
+facts = ["The short form drops the period.", "«Летающ.» would be 7 characters.", "The strict convention gives «Лет.», which is ambiguous with «лет» (years).", "The truncation style is the same as in the English labels Electr / Psychc.", "The same label occurs in the types_short table."]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "period-retaining form length", value = 7, unit = "characters" }] }]
+status = "unreviewed"
+
+[[note]]
+id = "note:55387fb4-1a9f-5726-b19c-f29f2494b61f"
+subject = { kind = "research", id = "research:d860a1dfc6f742008479c5206721d794" }
+scope = { kind = "language", language = "ru" }
+facts = ["The English label is truncated from Electric.", "The official form is «Электро» (SM site).", "«Электрический» is the pokemon.com Pokédex / fandom adjective.", "The same label occurs in the types_short table."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Электро", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokédex on pokemon.com", address = "pokemon-com-ru", quoted_term = "Электрический", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Электрический", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:ccdf33e2-78b0-58b6-946f-9387d2639b81"
+subject = { kind = "research", id = "research:bcde6aa059914a03bf6b450d20f69457" }
+scope = { kind = "language", language = "ru" }
+facts = ["The English label is truncated from Psychic.", "The official form is «Психо» (SM and SwSh sites, TCG energy).", "The pokemon.com Pokédex uses «Экстрасенс», which is also the trainer class Psychic.", "The same label occurs in the types_short table."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Психо", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Психо", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Психо", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokédex on pokemon.com", address = "pokemon-com-ru", quoted_term = "Экстрасенс", relation = "alternative", verification = "recorded" }]
+status = "unreviewed"
+
+[[note]]
+id = "note:8c91f7aa-f3cd-5bbe-92b2-70cbd1a9ee19"
+subject = { kind = "research", id = "research:b8c2020f4c8645a4a5b06d8dfa571f4d" }
+scope = { kind = "language", language = "ru" }
+facts = ["The official sources differ: «Темнота» (SM and SwSh sites), «Тёмный» (pokemon.com Pokédex) and «Тьма» (TCG energy, Darkness).", "«Тёмный» has the most supporting sources and fits 6 characters.", "The same label occurs in the types_short table."]
+sources = [{ kind = "web", name = "Official Russian Pokémon Sun / Moon and Ultra Sun / Ultra Moon website", address = "sm-site-ru", quoted_term = "Темнота", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon Sword / Shield website", address = "swsh-site-ru", quoted_term = "Темнота", relation = "alternative", verification = "recorded" }, { kind = "web", name = "Official Russian Pokédex on pokemon.com", address = "pokemon-com-ru", quoted_term = "Тёмный", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Official Russian Pokémon TCG rulebook", address = "tcg-rules-ru", quoted_term = "Тьма", relation = "alternative", verification = "recorded" }, { kind = "web", name = "PokéRogue Russian localization", address = "pokerogue-ru", quoted_term = "Тёмный", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Pokémon Wiki in Russian", address = "fandom-ru", quoted_term = "Тёмный", relation = "selected_form", verification = "recorded" }, { kind = "web", name = "Russian fan translation of Pokémon Black (Pojirianets)", address = "pojirianets-bw", quoted_term = "Тёмный", relation = "selected_form", verification = "recorded" }]
+evidence = [{ method = "measurement", verification = "recorded", measurements = [{ name = "selected form length", value = 6, unit = "characters" }] }]
+status = "unreviewed"

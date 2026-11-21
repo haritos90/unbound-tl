@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-0456C78\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 71
+#: 0x0459394
+msgctxt "hash:ab5cb619"
+msgid "hash:ab5cb619"
+msgstr "Одиночная битва"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 74
+#: 0x04593a4
+msgctxt "hash:3e77e828"
+msgid "hash:3e77e828"
+msgstr "Двойная битва"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 65
+#: 0x04593b4
+msgctxt "hash:90f7f38b"
+msgid "hash:90f7f38b"
+msgstr "Мультибитва"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 80
+#: 0x04593c4
+msgctxt "hash:4945950d"
+msgid "hash:4945950d"
+msgstr "Обмен покемонами"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 23
+#: 0x04593d4
+msgctxt "hash:982c2a2d"
+msgid "hash:982c2a2d"
+msgstr "Чат"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 28
+#: 0x04593dc
+msgctxt "hash:abfcf614"
+msgid "hash:abfcf614"
+msgstr "Карточки"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 68
+#: 0x04593e4
+msgctxt "hash:9f81798d"
+msgid "hash:9f81798d"
+msgstr "Чудо-карты"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 63
+#: 0x04593f4
+msgctxt "hash:13a3fbc3"
+msgid "hash:13a3fbc3"
+msgstr "Чудо-новости"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 70
+#: 0x0459400
+msgctxt "hash:0edef647"
+msgid "hash:0edef647"
+msgstr "Прыжки покемонов"
+
+#. category: code; mode: field
+#. original lines: 1, widths px: 62
+#: 0x0459410
+msgctxt "hash:28fe9873"
+msgid "hash:28fe9873"
+msgstr "Давилка ягод"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 70
+#: 0x045941c
+msgctxt "hash:81c03cf5"
+msgid "hash:81c03cf5"
+msgstr "Сбор ягод"
+
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 35
+#: 0x045942c
+msgctxt "hash:bfd9c918"
+msgid "hash:bfd9c918"
+msgstr "Поиск"
+
+# source: Translate the source meaning.
+# source: Use Круговой обмен for Spin Trade.
+# source: The Japanese source is ぐるぐるこうかん.
+# source: Literal source glyph tokens are not controls.
+# source: The English base codec only preserves exact bytes.
+# source: status: unreviewed; sources: kind: rom; name: Game text; address: game-text; quoted term: ぐるぐるこうかん; relation: context; verification: recorded; related notes: note:b2251e1f-d95a-5ffd-a54b-1ea3ac3ee226
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 50
+#: 0x0459434
+msgctxt "hash:791842f5"
+msgid "hash:791842f5"
+msgstr "Круговой обмен"
+
+# source: Translate the source meaning.
+# source: Use Обмен предметами for Item Trade.
+# source: The Japanese source is アイテムトレード.
+# source: Literal source glyph tokens are not controls.
+# source: The English base codec only preserves exact bytes.
+# source: status: unreviewed; sources: kind: rom; name: Game text; address: game-text; quoted term: アイテムトレード; relation: context; verification: recorded; related notes: note:8b77f727-0921-509f-a6ae-26f3220adcc9
+# source-notes: generated
+#. category: data-table; mode: field
+#. original lines: 1, widths px: 54
+#: 0x0459440
+msgctxt "hash:b5955904"
+msgid "hash:b5955904"
+msgstr "Обмен предметами"

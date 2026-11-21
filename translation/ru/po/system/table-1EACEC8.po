@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: system/table-1EACEC8\n"
+"X-Source: key-only\n"
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 168, 173, 85
+#: 0x1faa38d
+msgctxt "hash:7ca04941"
+msgid "hash:7ca04941"
+msgstr ""
+"Этот покемон найден бродящим\\nпо Борриусу после активации\\nего портала."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 162, 181, 140
+#: 0x1faa3de
+msgctxt "hash:449f6138"
+msgid "hash:449f6138"
+msgstr ""
+"Этот покемон найден в комнате\\nпод верхним этажом, куда привели\\nЭнтея "
+"и Райку."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 162, 174, 111
+#: 0x1faa438
+msgctxt "hash:7ee216c7"
+msgid "hash:7ee216c7"
+msgstr ""
+"Этот покемон найден в большой\\nкомнате, куда привели Энтея, Райку\\nи "
+"Суикуна."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 58
+#: 0x1faa48c
+msgctxt "hash:884a45a4"
+msgid "hash:884a45a4"
+msgstr "Этот покемон найден днём\\nна 3-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 173, 34
+#: 0x1faa4b9
+msgctxt "hash:b046478c"
+msgid "hash:b046478c"
+msgstr "Этот покемон найден ночью\\nна 3-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 162, 85
+#: 0x1faa4e0
+msgctxt "hash:589d8e62"
+msgid "hash:589d8e62"
+msgstr "Этот покемон найден\\nв Командном центре."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 136
+#: 0x1faa50e
+msgctxt "hash:7a13060c"
+msgid "hash:7a13060c"
+msgstr "Этот покемон найден днём\\nу деревьев в центре леса."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 188, 182, 63
+#: 0x1faa549
+msgctxt "hash:ccc86a88"
+msgid "hash:ccc86a88"
+msgstr ""
+"Этот покемон найден ночью\\nв маленькой комнате под большой\\nкомнатой на "
+"1-м этаже."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 191, 33
+#: 0x1faa599
+msgctxt "hash:022cd70b"
+msgid "hash:022cd70b"
+msgstr ""
+"Этот покемон найден в восточной\\nчасти маршрута, куда можно\\nзабраться "
+"Карабканием."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 189, 191, 33
+#: 0x1faa5e6
+msgctxt "hash:1a6531fe"
+msgid "hash:1a6531fe"
+msgstr ""
+"Этот покемон найден в западной\\nчасти маршрута, куда можно\\nзабраться "
+"Карабканием."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 158, 181
+#: 0x1faa633
+msgctxt "hash:75f322e0"
+msgid "hash:75f322e0"
+msgstr "Этот покемон найден на острове\\nпосреди озера."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 175, 191
+#: 0x1faa672
+msgctxt "hash:d8588346"
+msgid "hash:d8588346"
+msgstr "Этот покемон найден у туриста,\\nкаратиста и девочки-бойца."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 174, 39
+#: 0x1faa6b6
+msgctxt "hash:46350ce0"
+msgid "hash:46350ce0"
+msgstr "Этот покемон найден днём\\nна пляже, куда привели Луналу."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 173, 145
+#: 0x1faa746
+msgctxt "hash:236b6df1"
+msgid "hash:236b6df1"
+msgstr "Этот покемон найден ночью\\nпод руинами Пустоты."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 171, 128
+#: 0x1faa781
+msgctxt "hash:05c143c8"
+msgid "hash:05c143c8"
+msgstr ""
+"Этот покемон найден днём\\nнад вулканом Синдер, куда можно\\nподняться по "
+"водопаду."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 140
+#: 0x1faa7da
+msgctxt "hash:989ed95f"
+msgid "hash:989ed95f"
+msgstr "Этот покемон найден днём\\nв центральном каньоне."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 173, 189, 61
+#: 0x1faa816
+msgctxt "hash:6afd548f"
+msgid "hash:6afd548f"
+msgstr ""
+"Этот покемон найден ночью там,\\nкуда можно забраться Карабканием\\nс "
+"западной стороны 2-го этажа."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 173, 189, 159
+#: 0x1faa865
+msgctxt "hash:df0f7f29"
+msgid "hash:df0f7f29"
+msgstr ""
+"Этот покемон найден ночью\\nпосреди метеоритов у входа\\nв пещеру Вэлли."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 185, 197
+#: 0x1faa8c5
+msgctxt "hash:5e942bc0"
+msgid "hash:5e942bc0"
+msgstr "Этот покемон найден днём\\nна бревне\\nв северо-западном пруду."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 188, 175
+#: 0x1faa90b
+msgctxt "hash:d0bde3b6"
+msgid "hash:d0bde3b6"
+msgstr "Этот покемон найден ночью\\nна воде в южной части."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 173, 131
+#: 0x1faa94e
+msgctxt "hash:589e8734"
+msgid "hash:589e8734"
+msgstr "Этот покемон найден ночью\\nу выхода на Маршрут 8."
+
+#. category: data-table; mode: field
+#. original lines: 3, widths px: 185, 163, 114
+#: 0x1faa986
+msgctxt "hash:31e0e9d2"
+msgid "hash:31e0e9d2"
+msgstr ""
+"Этот покемон найден днём\\nна острове к югу от дома\\nЧувака-рыбака."
+
+#. category: data-table; mode: field
+#. original lines: 2, widths px: 173, 195
+#: 0x1faa9dc
+msgctxt "hash:433bf478"
+msgid "hash:433bf478"
+msgstr "Этот покемон найден ночью\\nв северо-западной части маршрута."

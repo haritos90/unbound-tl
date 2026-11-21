@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: tables/types\n"
+"X-Source: key-only\n"
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 0)
+#. original lines: 1, widths px: 34
+#: 0x0a4ead4
+msgctxt "table:types/0"
+msgid "table:types/0"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 1)
+#. original lines: 1, widths px: 27
+#: 0x0a4eadb
+msgctxt "table:types/1"
+msgid "table:types/1"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 2)
+#. original lines: 1, widths px: 32
+#: 0x0a4eae2
+msgctxt "table:types/2"
+msgid "table:types/2"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 3)
+#. original lines: 1, widths px: 32
+#: 0x0a4eae9
+msgctxt "table:types/3"
+msgid "table:types/3"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 4)
+#. original lines: 1, widths px: 34
+#: 0x0a4eaf0
+msgctxt "table:types/4"
+msgid "table:types/4"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 5)
+#. original lines: 1, widths px: 23
+#: 0x0a4eaf7
+msgctxt "table:types/5"
+msgid "table:types/5"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 6)
+#. original lines: 1, widths px: 18
+#: 0x0a4eafe
+msgctxt "table:types/6"
+msgid "table:types/6"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 7)
+#. original lines: 1, widths px: 28
+#: 0x0a4eb05
+msgctxt "table:types/7"
+msgid "table:types/7"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 8)
+#. original lines: 1, widths px: 28
+#: 0x0a4eb0c
+msgctxt "table:types/8"
+msgid "table:types/8"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 9)
+#. original lines: 1, widths px: 18
+#: 0x0a4eb13
+msgctxt "table:types/9"
+msgid "table:types/9"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 10)
+#. original lines: 1, widths px: 21
+#: 0x0a4eb1a
+msgctxt "table:types/10"
+msgid "table:types/10"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 11)
+#. original lines: 1, widths px: 28
+#: 0x0a4eb21
+msgctxt "table:types/11"
+msgid "table:types/11"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 12)
+#. original lines: 1, widths px: 27
+#: 0x0a4eb28
+msgctxt "table:types/12"
+msgid "table:types/12"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 13)
+#. original lines: 1, widths px: 33
+#: 0x0a4eb2f
+msgctxt "table:types/13"
+msgid "table:types/13"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 14)
+#. original lines: 1, widths px: 35
+#: 0x0a4eb36
+msgctxt "table:types/14"
+msgid "table:types/14"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 15)
+#. original lines: 1, widths px: 18
+#: 0x0a4eb3d
+msgctxt "table:types/15"
+msgid "table:types/15"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 16)
+#. original lines: 1, widths px: 34
+#: 0x0a4eb44
+msgctxt "table:types/16"
+msgid "table:types/16"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 17)
+#. original lines: 1, widths px: 22
+#: 0x0a4eb4b
+msgctxt "table:types/17"
+msgid "table:types/17"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 18)
+#. original lines: 1, widths px: 6
+#: 0x0a4eb52
+msgctxt "table:types/18"
+msgid "table:types/18"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 19)
+#. original lines: 1, widths px: 6
+#: 0x0a4eb59
+msgctxt "table:types/19"
+msgid "table:types/19"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 20)
+#. original lines: 1, widths px: 6
+#: 0x0a4eb60
+msgctxt "table:types/20"
+msgid "table:types/20"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 21)
+#. original lines: 1, widths px: 6
+#: 0x0a4eb67
+msgctxt "table:types/21"
+msgid "table:types/21"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 22)
+#. original lines: 1, widths px: 6
+#: 0x0a4eb6e
+msgctxt "table:types/22"
+msgid "table:types/22"
+msgstr ""
+
+#. category: table:types; mode: field
+#. fixed field: 6 characters max (table types, index 23)
+#. original lines: 1, widths px: 27
+#: 0x0a4eb75
+msgctxt "table:types/23"
+msgid "table:types/23"
+msgstr ""

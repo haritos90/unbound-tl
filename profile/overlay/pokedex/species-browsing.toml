@@ -1,0 +1,194 @@
+[pokedex.species_browsing.forms]
+compare = ["types", "base_stats", "abilities", "learnset"]
+preserve_kinds = ["mega"]
+preserve_methods = [253]
+battle_only = [737, 746, 751, 833, 838, 839, 909, 910, 1047, 1072, 1081, 1101, 1191, 1192, 1202, 1204, 1205, 1206, 1207, 1231]
+
+[pokedex.species_browsing.253]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2848, size = 28, sha256 = "4bd518a9a582699a2a9376c2d2f73950f54b8a1ad0afa2bf97cd39edee23b90a" },
+]
+
+[pokedex.species_browsing.252]
+status = "unreleased"
+rom = [
+  { offset = 0x19E282C, size = 28, sha256 = "85ee3282b4edff747a6966a90bfcfc4c707946a58cb8e528f59dfe3d5885902c" },
+]
+evidence = "Internal species 252 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.254]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2864, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 254 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.255]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2880, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 255 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.256]
+status = "unreleased"
+rom = [
+  { offset = 0x19E289C, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 256 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.257]
+status = "unreleased"
+rom = [
+  { offset = 0x19E28B8, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 257 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.258]
+status = "unreleased"
+rom = [
+  { offset = 0x19E28D4, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 258 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.259]
+status = "unreleased"
+rom = [
+  { offset = 0x19E28F0, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 259 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.260]
+status = "unreleased"
+rom = [
+  { offset = 0x19E290C, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 260 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.261]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2928, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 261 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.262]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2944, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 262 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.263]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2960, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 263 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.264]
+status = "unreleased"
+rom = [
+  { offset = 0x19E297C, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 264 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.265]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2998, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 265 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.266]
+status = "unreleased"
+rom = [
+  { offset = 0x19E29B4, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 266 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.267]
+status = "unreleased"
+rom = [
+  { offset = 0x19E29D0, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 267 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.268]
+status = "unreleased"
+rom = [
+  { offset = 0x19E29EC, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 268 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.269]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2A08, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 269 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.270]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2A24, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 270 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.271]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2A40, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 271 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.272]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2A5C, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 272 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.273]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2A78, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 273 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.274]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2A94, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 274 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.275]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2AB0, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 275 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.276]
+status = "unreleased"
+rom = [
+  { offset = 0x19E2ACC, size = 28, sha256 = "3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8" },
+]
+evidence = "Internal species 276 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.412]
+status = "unreleased"
+rom = [
+  { offset = 0x19E39AC, size = 28, sha256 = "5a6f37c7e11edb80534c8e87074344b391aadfda79847a9d5781dbc4854625e2" },
+]
+evidence = "Internal species 412 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+
+[pokedex.species_browsing.706]
+status = "unreleased"
+rom = [
+  { offset = 0x19E59D4, size = 28, sha256 = "00477c38d42b347e9a6d1315dc8cf7efce44c894854bc66c9efde1d02b28e441" },
+]
+evidence = "Internal species 706 is a placeholder with National mapping zero; excluded from public browsing while retaining the complete dataset record."
+

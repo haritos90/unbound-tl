@@ -1,0 +1,30 @@
+statefile load e6
+goto 0x7CE9DD
+wait 2
+goto 0x1BB63C
+wait 2
+goto 0x75CD6B
+wait 2
+goto 0x1A6697
+wait 30
+shot normal-ordinary
+statefile load e6
+goto 0x7B8CD3
+wait 2
+goto 0x1BB63C
+wait 2
+goto 0x75CD6B
+wait 2
+goto 0x1A6697
+wait 30
+shot normal-lower
+statefile load e6
+goto 0x1E61F69
+wait 2
+goto 0x1BB63C
+wait 2
+goto 0x75CD6B
+wait 2
+goto 0x1A6697
+wait 30
+shot normal-upper

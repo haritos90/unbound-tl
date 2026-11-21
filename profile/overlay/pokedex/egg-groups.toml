@@ -1,0 +1,17 @@
+[pokedex.egg_groups]
+1 = "monster"
+2 = "water_1"
+3 = "bug"
+4 = "flying"
+5 = "field"
+6 = "fairy"
+7 = "grass"
+8 = "human_like"
+9 = "water_3"
+10 = "mineral"
+11 = "amorphous"
+12 = "water_2"
+13 = "ditto"
+14 = "dragon"
+15 = "undiscovered"
+
