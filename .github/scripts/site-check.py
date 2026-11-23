@@ -21,7 +21,8 @@ IMAGES = {".png", ".apng", ".gif", ".jpg", ".jpeg", ".bmp", ".webp", ".tif", ".t
 IMAGE_MAGIC = (b"\x89PNG", b"GIF8", b"\xff\xd8\xff", b"II*\x00", b"MM\x00*")
 SITE_IMAGES = {"brand.png": "086f826bf432467b23f488ddfddd549c87aaeae8e0f7d9feca569a616778db42"}
 # a kept version may hold an earlier engine: add a hash, drop it later
-PATCHERS = {"e59b643ef2e8498fdd783e1495f2f9ff216d4a09c778b3e6fb2d8aac6f51c2e0"}
+PATCHERS = {"e59b643ef2e8498fdd783e1495f2f9ff216d4a09c778b3e6fb2d8aac6f51c2e0",
+            "5b33080b984891685ffe4ed7ff04c6c255a346df93fc51df27871a9b70c57718"}
 VERSION = r"[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?"
 # the current version and the kept ones
 VERSIONS = 3
