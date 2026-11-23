@@ -753,7 +753,7 @@
  },
  "inputs": {
   "base_sha1": "b4776b82a4c7915d0fadeaa27e013523f99dfd94",
-  "toolkit_version": "2.15.2",
+  "toolkit_version": "2.15.3",
   "tracked_sha256": "cd9f6e77db1b1c45d5f0ad75292d4bde6de04c5627c1c99381b60c0da5cddabc",
   "translation_version": "1.0.7"
  },
