@@ -10,7 +10,7 @@ from gen3tl.web import patcher
 from gen3tl.core import ups
 from gen3tl.profile.profile import Profile
 
-from test_roots import TOOLKIT_ROOT
+from test_roots import TEST_ROOT, TOOLKIT_ROOT
 
 ROOT = TOOLKIT_ROOT
 
@@ -92,7 +92,7 @@ class BrowserPatcherTest(ReleaseFixture, unittest.TestCase):
         row = self.prepare()
         script = f'''import fs from "node:fs";
 import assert from "node:assert/strict";
-await import({json.dumps((TOOLKIT_ROOT / "web/test/patch-fixture.mjs").as_uri())});
+await import({json.dumps((TEST_ROOT / "web/patch-fixture.mjs").as_uri())});
 import {{ patchRelease, validateManifest }} from {json.dumps((TOOLKIT_ROOT / "web/js/patcher-core.js").as_uri())};
 const data = JSON.parse(fs.readFileSync(process.argv[1]));
 const source = Uint8Array.from(data.source), patch = Uint8Array.from(data.patch), row = data.row;

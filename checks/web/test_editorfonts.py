@@ -18,7 +18,7 @@ from gen3tl.profile.profile import Profile
 from gen3tl.web import editorfonts
 
 from rom_support import needs_rom, rom_path
-from test_roots import TOOLKIT_ROOT
+from test_roots import TEST_ROOT, TOOLKIT_ROOT
 from project_fixture import rom_evidence, UNBOUND
 
 ROOT = TOOLKIT_ROOT
@@ -287,6 +287,12 @@ fs.writeFileSync(out, JSON.stringify({ doc: exportDoc(index.language, index.prof
   sheets: view.sheets.map((s) => view.shown(s.name)), fonts: draftFonts(index, edits.all()).fonts }));
 """
 
+def edit_script() -> str:
+    """The edit script with the toolkit modules and the project's page fixture."""
+    modules = {name: (TOOLKIT_ROOT / "web" / path).as_uri() for name, path in (
+        ("font", "js/font.js"), ("fonts", "js/fonts.js"), ("store", "js/store.js"))}
+    return EDIT_SCRIPT % {**modules, "fixture": (TEST_ROOT / "web/fixture.mjs").as_uri()}
+
 def copied_rom(sheets: list[dict], path: Path) -> list[str]:
     """A ROM image with font sheets drawing byte BB as an ink column."""
     from gen3tl.build.font import BACKGROUND, INK, SHADOW, encode_glyph, glyph_size
@@ -340,9 +346,7 @@ class GlyphRoundTripTest(unittest.TestCase):
                    {"sheet": "f0", "code": "34", "width": 3, "ink": "#", "paint": [[1, 2]]},
                    {"sheet": "f0", "code": "106", "width": 3, "ink": "#", "paint": [[1, 3]]},
                    {"sheet": "f0", "code": "BB", "ink": "#", "paint": [[2, 4]]}]
-            (tmp / "edit.mjs").write_text(EDIT_SCRIPT % {name: (TOOLKIT_ROOT / "web" / path).as_uri() for name, path in (
-                ("font", "js/font.js"), ("fonts", "js/fonts.js"), ("store", "js/store.js"),
-                ("fixture", "test/fixture.mjs"))}, encoding="utf-8")
+            (tmp / "edit.mjs").write_text(edit_script(), encoding="utf-8")
             (tmp / "in.json").write_text(json.dumps({"index": index, "ops": ops, "rom": str(image_path)}), encoding="utf-8")
             run = subprocess.run([NODE, str(tmp / "edit.mjs"), str(tmp / "in.json"), str(tmp / "out.json")],
                                  capture_output=True, text=True)
@@ -407,9 +411,7 @@ class GlyphRoundTripTest(unittest.TestCase):
                     "paint": [[wide - 1, 0], [wide - 1, 7]]},
                    {"sheet": "font0", "code": a, "ink": "#", "paint": [[2, 4]]},
                    {"sheet": "small", "code": a, "ink": "#", "paint": [[2, 5]]}]
-            (tmp / "edit.mjs").write_text(EDIT_SCRIPT % {name: (TOOLKIT_ROOT / "web" / path).as_uri() for name, path in (
-                ("font", "js/font.js"), ("fonts", "js/fonts.js"), ("store", "js/store.js"),
-                ("fixture", "test/fixture.mjs"))}, encoding="utf-8")
+            (tmp / "edit.mjs").write_text(edit_script(), encoding="utf-8")
             (tmp / "in.json").write_text(json.dumps({"index": index, "ops": ops, "rom": str(tmp / "rom.gba")}),
                                          encoding="utf-8")
             run = subprocess.run([NODE, str(tmp / "edit.mjs"), str(tmp / "in.json"), str(tmp / "out.json")],

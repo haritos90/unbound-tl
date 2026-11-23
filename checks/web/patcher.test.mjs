@@ -12,7 +12,7 @@ const { loadReleaseNotes, languagesOf, noteItems, patchName, romProblem, sizeLab
 
 const { digest, patchRelease, reverseRelease, validateManifest } = await import(new URL("js/patcher-core.js", process.env.GEN3TL_WEB_ROOT_URL));
 
-await import(new URL("test/patch-fixture.mjs", process.env.GEN3TL_WEB_ROOT_URL));
+await import("./patch-fixture.mjs");
 
 const { fillPage, setCatalog, setUiLanguage, t } = await import(new URL("js/ui.js", process.env.GEN3TL_WEB_ROOT_URL));
 
