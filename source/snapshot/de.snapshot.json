@@ -1,7 +1,7 @@
 {
  "changes": {
   "/configuration_sha256": "c0c4da6bef6d6d3d20762f1dc537fc210fdcff7a1b42ef70fd84d60f9e8a23e5",
-  "/facts_sha256": "de37aa66b1380e1c34155d77cb333f156dbe16340dd36cde0b6c2f41c30b53b6",
+  "/facts_sha256": "0fce53865b75cd1f436c3872176b16f36e4dd56f5faed9f2e9f4c9556912bdb6",
   "/language": "de",
   "/records/fill_alphabet": "!,-./0123456789?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÄÖÜßäöü‘’“”…♀♂",
   "/records/windows/7307/1": 36,
