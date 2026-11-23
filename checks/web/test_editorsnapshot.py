@@ -10,6 +10,7 @@ from unittest.mock import patch
 from gen3tl.cli import main as cli
 from gen3tl.web import editordata, editorsnapshot as snapshot
 from gen3tl.check import qa, rules
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.catalog import load_catalog
 from gen3tl.web.editorcheck import Checker, latin_cells, latin_widths
 from gen3tl.build.font import FontTable
@@ -168,7 +169,7 @@ class SnapshotTest(unittest.TestCase):
                                     self.catalog, self.po)
         self.validate()
         self.assertEqual(self.doc["records"]["windows"][0][3:], ["record_window", 0])
-        self.assertIn("mission list", self.doc["source"]["s0000100"][5]["sources"]["width"][1])
+        self.assertIn("mission list", formatted(self.doc["source"]["s0000100"][5]["sources"]["width"][1]))
         _, _, _, facts = snapshot.inputs(self.doc, self.catalog, self.prof)
         self.assertNotIn("where_ru", facts["windows"][0][3])
         offline = self.data(True)

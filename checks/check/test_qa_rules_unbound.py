@@ -5,6 +5,7 @@ from unittest import mock
 
 from gen3tl.check import qa
 from gen3tl.check.layout import Measure
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.extract import english
 from gen3tl.catalog.po import PoEntry, write
 
@@ -52,9 +53,9 @@ class ControlOnlyFillTest(unittest.TestCase):
         self.assertEqual(alias["B_PLAYER_MON2_NAME"].translated, 0)
         self.assertEqual(qa.fill_slots("s1F56BEB", "{FD 07}", {"refs": []}, fills, 6)["FD 07"].translated, 60)
         self.assertEqual(qa.fill_slots("s1F8C8FD", "{FD 07}", {"refs": []}, fills, 6)["FD 07"].translated, 155)
-        self.assertNotIn("unverified", qa.fill_slots("s1F8C8FD", "{FD 07}", {"refs": []}, fills, 6)["FD 07"].source)
+        self.assertNotIn("unverified", formatted(qa.fill_slots("s1F8C8FD", "{FD 07}", {"refs": []}, fills, 6)["FD 07"].source))
         guessed = qa.fill_slots("s1F8C8FD", "{FD 07}", {"refs": []}, fills, 6, estimates=frozenset({"fill-19"}))
-        self.assertIn("155 px, unverified estimate", guessed["FD 07"].source)
+        self.assertIn("155 px, unverified estimate", formatted(guessed["FD 07"].source))
 
 class FrontierPurchaseFillTest(unittest.TestCase):
     def test_numeric_fill_overrides_stale_scripted_words(self):
@@ -79,8 +80,8 @@ class FrontierPurchaseFillTest(unittest.TestCase):
             self.assertEqual(limits[ids[0]].placeholders,
                              {"STR_VAR_1": 18, "STR_VAR_2": 30, "FD 07": 0})
             self.assertEqual(limits[ids[1]].placeholders, {"STR_VAR_1": 30, "STR_VAR_2": 18})
-            self.assertIn("number of 3 digits", limits[ids[0]].slot_sources["STR_VAR_1"])
-            self.assertIn("number of 5 digits", limits[ids[0]].slot_sources["STR_VAR_2"])
+            self.assertIn("number of 3 digits", formatted(limits[ids[0]].slot_sources["STR_VAR_1"]))
+            self.assertIn("number of 5 digits", formatted(limits[ids[0]].slot_sources["STR_VAR_2"]))
 
 
 @needs_rom

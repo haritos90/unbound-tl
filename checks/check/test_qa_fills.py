@@ -11,6 +11,7 @@ sys.path.insert(0, str(TOOLKIT_ROOT / "src"))
 
 from gen3tl.check import qa
 from gen3tl.check.layout import Measure
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.po import KEY_ONLY, SOURCE_FIELD, PoEntry, write
 
 from qa_support import PACK, entry, fixed, scripted, setUpModule, slot, tabled, tearDownModule
@@ -63,20 +64,20 @@ class SlotWidthTest(unittest.TestCase):
             "s0000600": (60, 24, "partly"),      # at least the profile width
             "s0000700": (60, 60, "profile"),
             "s0000800": (114, 66, "script")})    # Очень длинное слово; the English Old English
-        self.assertIn("s0000900 'Слово'", sw["s0000100"]["STR_VAR_1"].source)
-        self.assertIn("widest of table items: items:1 'Абвгдеёж'", sw["s0000200"]["STR_VAR_1"].source)
-        self.assertIn("number of up to 5 digits", sw["s0000400"]["STR_VAR_1"].source)
+        self.assertIn("s0000900 'Слово'", formatted(sw["s0000100"]["STR_VAR_1"].source))
+        self.assertIn("widest of table items: items:1 'Абвгдеёж'", formatted(sw["s0000200"]["STR_VAR_1"].source))
+        self.assertIn("number of up to 5 digits", formatted(sw["s0000400"]["STR_VAR_1"].source))
         self.assertIn("profile width (no fill known; 1 script references not walked)",
-                      sw["s0000500"]["STR_VAR_1"].source)
-        self.assertIn("1 of 2 walked paths set no value", sw["s0000600"]["STR_VAR_1"].source)
-        self.assertIn("nickname", sw["s0000700"]["STR_VAR_1"].source)
-        self.assertNotIn("unverified", sw["s0000500"]["STR_VAR_1"].source)
+                      formatted(sw["s0000500"]["STR_VAR_1"].source))
+        self.assertIn("1 of 2 walked paths set no value", formatted(sw["s0000600"]["STR_VAR_1"].source))
+        self.assertIn("nickname", formatted(sw["s0000700"]["STR_VAR_1"].source))
+        self.assertNotIn("unverified", formatted(sw["s0000500"]["STR_VAR_1"].source))
         with tempfile.TemporaryDirectory() as tmp:
             guessed = qa.slot_widths({**self.PROF, "policy_unverified": {"placeholders": ["STR_VAR_1"]}}, self.INV,
                                      self.CTX, self.catalog(Path(tmp)), m, PACK.charmap())
-        self.assertIn("profile width, unverified estimate (no fill known", guessed["s0000500"]["STR_VAR_1"].source)
-        self.assertIn("profile width, unverified estimate, above", guessed["s0000600"]["STR_VAR_1"].source)
-        self.assertEqual(guessed["s0000100"]["STR_VAR_1"].source, sw["s0000100"]["STR_VAR_1"].source)
+        self.assertIn("profile width, unverified estimate (no fill known", formatted(guessed["s0000500"]["STR_VAR_1"].source))
+        self.assertIn("profile width, unverified estimate, above", formatted(guessed["s0000600"]["STR_VAR_1"].source))
+        self.assertEqual(formatted(guessed["s0000100"]["STR_VAR_1"].source), formatted(sw["s0000100"]["STR_VAR_1"].source))
         # a batch's own translation of a word replaces the catalog's
         with tempfile.TemporaryDirectory() as tmp:
             sw = qa.slot_widths(self.PROF, self.INV, self.CTX, self.catalog(Path(tmp)), m, PACK.charmap(),
@@ -206,9 +207,9 @@ class CodeFillTest(unittest.TestCase):
         self.assertEqual({sid: l.placeholders for sid, l in lim.items()}, {
             "s0000100": {"STR_VAR_1": 6}, "s0000200": {"STR_VAR_1": 18, "STR_VAR_2": 30}, "s0000300": None,
             "s0000400": None, "s0000500": {"STR_VAR_1": 18}})
-        self.assertEqual(lim["s0000100"].slot_sources, {"STR_VAR_1": "number of 1 digit, count"})
-        self.assertEqual(lim["s0000200"].slot_sources, {"STR_VAR_1": "number of 3 digits, table",
-                                                        "STR_VAR_2": "30 px, table"})
+        texts = {sid: {name: formatted(source) for name, source in (l.slot_sources or {}).items()} for sid, l in lim.items()}
+        self.assertEqual(texts["s0000100"], {"STR_VAR_1": "number of 1 digit, count"})
+        self.assertEqual(texts["s0000200"], {"STR_VAR_1": "number of 3 digits, table", "STR_VAR_2": "30 px, table"})
         # widest English of the run measured with them.
         # 18 + 30 + 60, not 60 + 30 + 60.
         self.assertEqual({sid: lim[sid].width for sid in ("s0000200", "s0000300", "s0000500")},
@@ -298,7 +299,8 @@ class CodeFillEnglishTest(unittest.TestCase):
         # English: 67 + 6 + 24 * 6 = 217 px
         self.assertEqual((ru.width, ru.placeholders, en.placeholders),
                          (217, {"B_TRAINER1_NAME": 66}, {"B_TRAINER1_NAME": 67}))
-        self.assertEqual(ru.slot_sources, {"B_TRAINER1_NAME": "66 px, English 67 px, name"})
+        self.assertEqual({name: formatted(source) for name, source in ru.slot_sources.items()},
+                         {"B_TRAINER1_NAME": "66 px, English 67 px, name"})
 
     def test_refused_rules(self):
         for s in ({"source_width": 67}, {"digits": 2, "source_width": 12}):

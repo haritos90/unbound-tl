@@ -15,6 +15,7 @@ from gen3tl.web import editordata
 from gen3tl.check import qa
 from gen3tl.check.entrycheck import BRACE
 from gen3tl.check.layout import Measure, entry_measure, layout, line_width
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.po import read
 from gen3tl.project import Manifest
 from gen3tl.build.release import expand
@@ -143,7 +144,7 @@ class BundleAgainstBatchCheckTest(unittest.TestCase):
         # - words a slot width names (untranslated: other source)
         # - for edits: inserted words, table names, centred titles
         sources = {m for e in doc["entries"] if e["window"]
-                   for s in (e["window"].get("slot_sources") or {}).values() for m in SOURCE_ID.findall(s)}
+                   for s in (e["window"].get("slot_sources") or {}).values() for m in SOURCE_ID.findall(formatted(s))}
         from gen3tl.catalog.keys import for_profile
         key = for_profile(unbound()).key
         sources |= {key(sid) for entry in doc["entries"]

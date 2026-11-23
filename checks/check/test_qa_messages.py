@@ -10,6 +10,7 @@ sys.path.insert(0, str(TOOLKIT_ROOT / "src"))
 
 from gen3tl.check import qa
 from gen3tl.check.layout import Limit, Measure, check
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.extract import english
 from gen3tl.catalog.po import PoEntry, write
 
@@ -69,7 +70,7 @@ class MessageBoxWindowTest(unittest.TestCase):
             self.assertEqual((lim.width, lim.lines, lim.newline_scroll_after), (60, 2, 1))
             self.assertEqual(lim.consumers[0]["newline_scroll_after"], 1)
             self.assertEqual(lim.consumers[0]["name"], "Notice message window")
-            self.assertIn("scroll", lim.consumers[0]["source"]["rule"])
+            self.assertIn("scroll", formatted(lim.consumers[0]["source"]["rule"]))
             self.assertIn("converts later newlines", lim.consumers[0]["source"]["evidence"])
 
     def test_shared_list_and_sign_keep_separate_confirmation(self):
@@ -135,7 +136,7 @@ class MessageBoxWindowTest(unittest.TestCase):
         after = self.limits(lay, es, {"s0000100": ("A", "")})["s0000100"]
         self.assertEqual((after.width, after.lines, after.kind), (before.width, before.lines, before.kind))
         self.assertTrue(after.consumers[0]["instant_print"])
-        self.assertIn("banner", after.consumers[0]["name"])
+        self.assertIn("banner", formatted(after.consumers[0]["name"]))
 
     def test_shared_consumers_bind_width_and_arrow_separately(self):
         from gen3tl.check.layout import arrow_overflows, arrow_room, check

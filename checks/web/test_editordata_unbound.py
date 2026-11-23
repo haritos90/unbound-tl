@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 
 from gen3tl.web import editordata
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog import keys
 from gen3tl.project import registry_scope
 
@@ -129,10 +130,10 @@ class EditorDataCommandTest(unittest.TestCase):
         kinds = {e["window"]["sources"]["width"]["kind"] for e in self.doc["entries"]}
         self.assertEqual(kinds, {"measured", "profile", "source"})
         w = self.by_id["s0A4C4BD"]["window"]["sources"]["width"]
-        self.assertEqual((w["kind"], w["rule"]), ("measured", "[layout.box_width] battle: the message box, measured "
+        self.assertEqual((w["kind"], formatted(w["rule"])), ("measured", "[layout.box_width] battle: the message box, measured "
                                                               "in game ([layout.window_box] s0A4C4BD)"))
         w = self.by_id["species:539"]["window"]["sources"]
-        self.assertEqual((w["width"]["rule"], w["chars"]["kind"]),
+        self.assertEqual((formatted(w["width"]["rule"]), w["chars"]["kind"]),
                          ("[[table]] species window: summary screen, PC storage panel and Pokedex", "measured"))
 
     def test_species_name(self):
@@ -142,7 +143,7 @@ class EditorDataCommandTest(unittest.TestCase):
 
     def test_inserted_number(self):
         e = self.by_id["s1EF18E9"]
-        self.assertEqual(e["context"]["inserted"],
+        self.assertEqual([{**x, "source": formatted(x["source"])} for x in e["context"]["inserted"]],
                          [{"token": "{STR_VAR_1}", "width": 30, "source": "number of up to 5 digits (a variable)"}])
         self.assertEqual(e["context"]["events"], ["npc"])
 
@@ -153,8 +154,9 @@ class EditorDataCommandTest(unittest.TestCase):
                       [{k: w[k] for k in ("slot", "id")} for w in ctx["words"]])
         slot = next(x for x in ctx["inserted"] if x["token"] == "{STR_VAR_1}")
         self.assertGreater(slot["width"], 60)
-        self.assertTrue(re.match(keys.KEY.pattern + " '", slot["source"]), slot["source"])
-        self.assertTrue(re.match(r"s[0-9A-F]{7} '", self.aliases.unkey_text(slot["source"])))
+        source = formatted(slot["source"])
+        self.assertTrue(re.match(keys.KEY.pattern + " '", source), source)
+        self.assertTrue(re.match(r"s[0-9A-F]{7} '", self.aliases.unkey_text(source)))
 
     def test_no_rom_bytes(self):
         for style, f in self.doc["fonts"]["styles"].items():

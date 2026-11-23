@@ -6,6 +6,7 @@ from unittest import mock
 from gen3tl.check import qa
 from gen3tl.lang.langpack import LangPack
 from gen3tl.check.layout import Limit, Measure, check
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.extract import english
 from gen3tl.catalog.po import PoEntry, write
 
@@ -153,7 +154,7 @@ class LimitSourceTest(unittest.TestCase):
     @staticmethod
     def src(lim, field="width"):
         s = lim.sources[field]
-        return s["kind"], s["rule"]
+        return s["kind"], formatted(s["rule"])
 
     def test_measured_windows_and_the_english(self):
         lims, _ = self.limits(TableWindowTest.PROF, TableWindowTest.INV)
@@ -202,17 +203,17 @@ class LimitSourceTest(unittest.TestCase):
         ctx = {"strings": {"s0000400": slot(("string", "s0000500")), "s0000500": {"fills": [["s0000400", "{STR_VAR_1}"]]}}}
         lims, _ = self.limits(prof, inv, ctx)
         s = lims["s0000100"].sources
-        self.assertEqual((s["width"], s["chars"]["rule"]), (
+        self.assertEqual(({**s["width"], "rule": formatted(s["width"]["rule"])}, formatted(s["chars"]["rule"])), (
             {"kind": "measured", "rule": "[[layout.table_window]] descs: bag", "evidence": "ruler in the bag"},
             "[[layout.table_window]] descs: bag"))
         s = lims["names:1"].sources
-        self.assertEqual((s["width"]["rule"], s["width"]["evidence"], s["chars"]["rule"]),
+        self.assertEqual((formatted(s["width"]["rule"]), s["width"]["evidence"], formatted(s["chars"]["rule"])),
                          ("[[table]] names window: summary", "Талонфлейм",
                           "[[table]] names: a field of 11 bytes with the terminator"))
         kind, rule = self.src(lims["keys:0"])
         self.assertEqual(kind, "source")
         self.assertRegex(rule, r"^the English: the widest line of .*/system/a\.po$")
-        self.assertEqual(lims["keys:0"].sources["chars"]["rule"], "[[table]] keys: a field of 8 bytes")
+        self.assertEqual(formatted(lims["keys:0"].sources["chars"]["rule"]), "[[table]] keys: a field of 8 bytes")
         self.assertEqual(self.src(lims["s0000300"], "bytes"), (
             "measured", "in place: its 5 bytes with the terminator, a reference the build cannot rewrite "
                         "(script:vmessage)"))
@@ -222,7 +223,8 @@ class LimitSourceTest(unittest.TestCase):
         decl = {"pointers": [0x20], "id": "s0000700", "stride": 0x1C, "count": 1, "evidence": "berries",
                 "length": 7, "length_evidence": "name[7]"}
         tl, _ = self.limits({"layout": {}, "strings": {"table_base": [decl]}}, {"entries": [member]})
-        self.assertEqual((tl["s0000700"].bytes, tl["s0000700"].sources["bytes"]), (6, {
+        bytes_source = tl["s0000700"].sources["bytes"]
+        self.assertEqual((tl["s0000700"].bytes, {**bytes_source, "rule": formatted(bytes_source["rule"])}), (6, {
             "kind": "measured", "rule": "[[strings.table_base]] s0000700: in place in its 7-byte field "
                                         "with the terminator", "evidence": "name[7]"}))
         # an inserted word takes the source of its host's window
@@ -307,7 +309,7 @@ class InsertedTitleRegressionTest(unittest.TestCase):
         self.assertEqual(lim.width, 208)
         self.assertEqual(lim.placeholders["STR_VAR_1"], self.m.width("Инспектор манежа", self.cm))
         self.assertEqual(lim.placeholders["STR_VAR_1"], 95)
-        self.assertIn("s1F8BED5 'Инспектор манежа'", lim.slot_sources["STR_VAR_1"])
+        self.assertIn("s1F8BED5 'Инспектор манежа'", formatted(lim.slot_sources["STR_VAR_1"]))
         real = entry_measure(self.m, lim)
         self.assertEqual(real.width("{STR_VAR_1} ждёт. Готовы сразиться?", self.cm), 237)
         laid = layout(text, lim, self.m, self.cm)

@@ -4,6 +4,7 @@ import tempfile
 import unittest
 
 from gen3tl.web import editordata
+from gen3tl.check.provenance import formatted
 from gen3tl.build.font import shadow_end
 from gen3tl.catalog.po import PoEntry
 from gen3tl.profile.profile import Profile
@@ -117,7 +118,8 @@ class EditorDataTest(editordata_support.EditorDataTest, unittest.TestCase):
 
     def test_reach(self):
         # the catalog's tag first, then the study
-        self.assertEqual({sid: e["reach"] for sid, e in self.by_id.items()}, {
+        self.assertEqual({sid: {**e["reach"], "evidence": formatted(e["reach"]["evidence"])}
+                          for sid, e in self.by_id.items()}, {
             "s0000100": {"class": "reachable", "source": "reach study",
                          "evidence": "reach study: reachable (map-walk 0x10)"},
             "s0000200": {"class": "reachable", "source": "not studied", "evidence": ""},
@@ -156,7 +158,7 @@ class EditorDataTest(editordata_support.EditorDataTest, unittest.TestCase):
     def test_inserted_value(self):
         # {STR_VAR_1} at the inserted word's width
         px = self.measure.width("Зелье", self.cm)
-        self.assertEqual(self.by_id["s0000100"]["context"]["inserted"], [
+        self.assertEqual([{**x, "source": formatted(x["source"])} for x in self.by_id["s0000100"]["context"]["inserted"]], [
             {"token": "{PLAYER}", "width": 42, "source": "profile width"},
             {"token": "{STR_VAR_1}", "width": px, "source": "s0000200 'Зелье'"}])
         w = self.by_id["s0000100"]["window"]
@@ -166,7 +168,8 @@ class EditorDataTest(editordata_support.EditorDataTest, unittest.TestCase):
         lim = self.limits["s0000100"]
         guessed = editordata.inserted(self.catalog["s0000100"][1].msgid, lim, self.measure, self.cm,
                                       frozenset({"PLAYER"}))
-        self.assertEqual(guessed[0], {"token": "{PLAYER}", "width": 42, "source": "profile width, unverified estimate"})
+        self.assertEqual({**guessed[0], "source": formatted(guessed[0]["source"])},
+                         {"token": "{PLAYER}", "width": 42, "source": "profile width, unverified estimate"})
         self.assertEqual(guessed[1], self.by_id["s0000100"]["context"]["inserted"][1])
 
     def test_measured_windows(self):
@@ -184,7 +187,7 @@ class EditorDataTest(editordata_support.EditorDataTest, unittest.TestCase):
 
     def test_limit_sources(self):
         # where each limit comes from, in the window
-        src = {sid: {k: (v["kind"], v["rule"]) for k, v in e["window"]["sources"].items()}
+        src = {sid: {k: (v["kind"], formatted(v["rule"])) for k, v in e["window"]["sources"].items()}
                for sid, e in self.by_id.items()}
         self.assertEqual(src["s0000100"], {"width": ("profile", "[layout] dialogue_width"),
                                            "lines": ("measured", "two lines per message box")})
