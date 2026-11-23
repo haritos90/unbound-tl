@@ -110,23 +110,21 @@ test("directions: the actual English game and each release with tables", () => {
   assert.deepEqual(pairOf("ru@0.1.17", ORIGINAL, sides), { release: sides[2].release, back: true });
   assert.equal(pairOf("ru@0.1.17", "ru@0.1.25", sides), null);
   assert.equal(pairOf(ORIGINAL, ORIGINAL, sides), null);
-  assert.equal(outputName("Pokemon Unbound 2.1.1.1.sav", { release: sides[1].release, back: false }),
-    "Pokemon Unbound 2.1.1.1-ru.sav");
-  assert.equal(outputName("game", { release: sides[1].release, back: true }), "game-en.sav");
+  assert.equal(outputName("Pokemon Unbound 2.1.1.1.sav"), "Pokemon Unbound 2.1.1.1-changed.sav");
+  assert.equal(outputName("game"), "game-changed.sav");
 });
 
 test("output names preserve the original extension or match the selected raw encoding", () => {
-  const ru = { release: release("ru", "0.1.25"), back: false };
-  const cases = [["Unbound.sav", "Unbound-ru.sav"], ["Unbound.srm", "Unbound-ru.srm"], ["Unbound.fla", "Unbound-ru.fla"],
-    ["Unbound.sps", "Unbound-ru.sps"], ["Unbound.xps", "Unbound-ru.xps"], ["Unbound.gsv", "Unbound-ru.gsv"],
-    ["Unbound.SaveRAM", "Unbound-ru.SaveRAM"], ["UNBOUND.SAV", "UNBOUND-ru.SAV"],
-    ["Pokemon Unbound 2.1.1.1", "Pokemon Unbound 2.1.1.1-ru.sav"], [".srm", "save-ru.srm"]];
-  for (const [name, out] of cases) assert.equal(outputName(name, ru), out, name);
-  assert.equal(outputName("Unbound.srm", { ...ru, back: true }), "Unbound-en.srm");
-  assert.equal(outputName("Unbound.srm", ru, "sav"), "Unbound-ru.sav");
-  assert.equal(outputName("Unbound.gsv", ru, "srm"), "Unbound-ru.srm");
-  assert.equal(outputName("UNBOUND.SAV", ru, "srm"), "UNBOUND-ru.srm");
-  assert.throws(() => outputName("Unbound.srm", ru, "gsv"), /Unknown save output format/);
+  const cases = [["Unbound.sav", "Unbound-changed.sav"], ["Unbound.srm", "Unbound-changed.srm"],
+    ["Unbound.fla", "Unbound-changed.fla"], ["Unbound.sps", "Unbound-changed.sps"], ["Unbound.xps", "Unbound-changed.xps"],
+    ["Unbound.gsv", "Unbound-changed.gsv"], ["Unbound.SaveRAM", "Unbound-changed.SaveRAM"], ["UNBOUND.SAV", "UNBOUND-changed.SAV"],
+    ["Pokemon Unbound 2.1.1.1 [Rus by haritos90].srm", "Pokemon Unbound 2.1.1.1 [Rus by haritos90]-changed.srm"],
+    ["Pokemon Unbound 2.1.1.1", "Pokemon Unbound 2.1.1.1-changed.sav"], [".srm", "save-changed.srm"]];
+  for (const [name, out] of cases) assert.equal(outputName(name), out, name);
+  assert.equal(outputName("Unbound.srm", "sav"), "Unbound-changed.sav");
+  assert.equal(outputName("Unbound.gsv", "srm"), "Unbound-changed.srm");
+  assert.equal(outputName("UNBOUND.SAV", "srm"), "UNBOUND-changed.srm");
+  assert.throws(() => outputName("Unbound.srm", "gsv"), /Unknown save output format/);
 });
 
 test("save language choices keep the actual game name and localize its label", (ctx) => {
@@ -148,7 +146,7 @@ test("edit only: the same game on both sides, the save's letters, nothing conver
   assert.deepEqual(pairOf(ORIGINAL, SAME, sides), { release: sides[1].release, edit: true, translated: false });
   assert.deepEqual(pairOf("ru@0.1.17", SAME, sides), { release: sides[2].release, edit: true, translated: true });
   assert.equal(pairOf(ORIGINAL, SAME, sidesOf([])), null);
-  assert.equal(outputName("Unbound.srm", pairOf("ru@0.1.25", SAME, sides)), "Unbound-edited.srm");
+  assert.equal(outputName("Unbound.srm"), "Unbound-changed.srm");
   // the game whose default names alone match the most Pokémon
   assert.equal(detectedSide([0, 4], [ORIGINAL, "ru@0.1.25"]), "ru@0.1.25");
   assert.equal(detectedSide([3, 1, 0], [ORIGINAL, "ru@0.1.25", "de@0.1.0"]), ORIGINAL);

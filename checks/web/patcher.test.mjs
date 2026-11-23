@@ -8,7 +8,7 @@ import { test } from "node:test";
 
 import { fakeDocument, stubPage } from "./fixture.mjs";
 
-const { loadReleaseNotes, languagesOf, noteItems, patchName, romProblem, sizeLabel, versionsOf } = await import(new URL("js/patch.js", process.env.GEN3TL_WEB_ROOT_URL));
+const { loadReleaseNotes, languagesOf, noteItems, patchName, romName, romProblem, sizeLabel, versionsOf } = await import(new URL("js/patch.js", process.env.GEN3TL_WEB_ROOT_URL));
 
 const { digest, patchRelease, reverseRelease, validateManifest } = await import(new URL("js/patcher-core.js", process.env.GEN3TL_WEB_ROOT_URL));
 
@@ -72,7 +72,7 @@ test("a wrong ROM names the expected hash", () => {
   assert.equal(romProblem(r.source_size, r.source_sha1, r), null);
   assert.match(romProblem(r.source_size, "c".repeat(40), r),
     new RegExp(`SHA-1 c{40} is not the original Pokemon Unbound 2.1.1.1 ROM\\. Expected SHA-1 b{40}\\.`));
-  assert.match(romProblem(16777216, null, r), /has 16 MiB; the original .* has 32 MiB\. Expected SHA-1 b{40}\./);
+  assert.match(romProblem(16777216, null, r), /has 16 MB; the original .* has 32 MB\. Expected SHA-1 b{40}\./);
 });
 
 test("the release list accepts optional notes with or without name tables", () => {
@@ -93,6 +93,9 @@ const siteCatalogs = [{ code: "en", strings: null }, ...readdirSync(new URL("i18
   .filter((name) => name.endsWith(".po")).map((name) => ({ code: name.slice(0, -3), strings: Object.fromEntries(
     [...readFileSync(new URL(`i18n/${name}`, process.env.GEN3TL_WEB_ROOT_URL), "utf8")
       .matchAll(/^msgid ("[^\n]*")\nmsgstr ("[^\n]*")$/gm)].map((m) => [JSON.parse(m[1]), JSON.parse(m[2])])) }))];
+
+const MEMO = "To keep playing an existing save, rename it to {save}, or to the same name ending in .srm for a .srm save. "
+  + "An emulator loads a save only when it has the ROM's name.";
 
 async function patchPage(context) {
   const page = stubPage(context, "patch");
@@ -136,8 +139,8 @@ for (const { code, strings } of siteCatalogs) {
     }
     const fixture = await upsFixture();
     const latest = { ...fixture.row, profile: "fixture", profile_name: "Fixture game", language: "xx", version: "2.0.0",
-      patch: "fixture/xx/2.0.0.ups", output: "Fixture game [2.0.0].gba" };
-    const older = { ...latest, version: "1.0.0", patch: "fixture/xx/1.0.0.ups", output: "Fixture game [1.0.0].gba" };
+      patch: "fixture/xx/2.0.0.ups", output: "Fixture game [XX by gen3tl].gba" };
+    const older = { ...latest, version: "1.0.0", patch: "fixture/xx/1.0.0.ups" };
     const other = { ...latest, profile: "other", profile_name: "Other fixture", patch: "other/xx/2.0.0.ups",
       output: "Other fixture.gba", source_sha1: "0".repeat(40) };
     const languages = { ...latest, language: "yy", patch: "fixture/yy/2.0.0.ups", output: "Fixture game [yy].gba" };
@@ -194,22 +197,25 @@ for (const { code, strings } of siteCatalogs) {
     assert.equal(worker.terminated, true);
     assert.equal($("apply").hidden, true);
     assert.equal($("download").hidden, false);
-    assert.equal($("download").download, latest.output);
+    assert.equal($("download").download, "Fixture game [XX v2.0.0 by gen3tl].gba");
     assert.equal(document.activeElement, $("download"));
+    assert.equal($("rename-memo").hidden, false);
+    assert.equal($("rename-memo").textContent, t(MEMO, { save: "Fixture game [XX v2.0.0 by gen3tl].sav" }));
     assert.match($("status").textContent, new RegExp(latest.result_sha1));
     const resultURL = $("download").href;
     page.relabel();
     fillPage();
     assert.equal($("download").href, resultURL);
-    assert.equal($("download").textContent, t("Download {file}", { file: latest.output }));
+    assert.equal($("download").textContent, t("Download {file}", { file: romName(latest) }));
     $("release").value = older.version;
     $("release").listeners.change();
     await new Promise((resolve) => setImmediate(resolve));
     assert.equal(state.release, older);
     assert.equal($("patch-link").href, `${base}releases/${older.patch}`);
     assert.equal($("patch-link").download, patchName(older));
-    assert.equal($("result-name").textContent, `${older.output} · ${sizeLabel(older.result_size)}`);
+    assert.equal($("result-name").textContent, `Fixture game [XX v1.0.0 by gen3tl].gba · ${sizeLabel(older.result_size)}`);
     assert.equal($("download").hidden, true);
+    assert.equal($("rename-memo").hidden, true);
     assert.equal($("download").getAttribute("href"), null);
     assert.equal($("apply").hidden, false);
     await page.checkFile(file(fixture.source));
@@ -267,12 +273,14 @@ test("the patch page loads the selected version's notes as a plain list", async 
   }
 });
 
-test("descriptive release filenames are shared by ROM and UPS downloads", () => {
-  const row = { ...release("ru", "1.0.0"), output: "Pokemon Unbound 2.1.1.1 [RU by gen3tl].gba" };
+test("the UPS download keeps the release name; the patched ROM carries the version once", () => {
+  const row = { ...release("ru", "1.0.7"), output: "Pokemon Unbound 2.1.1.1 [RU by gen3tl].gba" };
   const early = { ...release("ru", "0.2.18"), output: "Pokemon Unbound 2.1.1.1 [RU v0.2.18 by gen3tl].gba" };
   assert.deepEqual(validateManifest({ schema: 1, releases: [early, row] }), [early, row]);
   assert.equal(patchName(row), "Pokemon Unbound 2.1.1.1 [RU by gen3tl].ups");
   assert.equal(patchName(early), "Pokemon Unbound 2.1.1.1 [RU v0.2.18 by gen3tl].ups");
+  assert.equal(romName(row), "Pokemon Unbound 2.1.1.1 [RU v1.0.7 by gen3tl].gba");
+  assert.equal(romName(early), "Pokemon Unbound 2.1.1.1 [RU v0.2.18 by gen3tl].gba");
   for (const output of ["../Other.gba", "dir/Other.gba", "dir\\Other.gba", "https://host/Other.gba",
     "Other\n.gba", "Other\0.gba", ".gba", " .gba", "Other.ups"]) {
     assert.throws(() => validateManifest({ schema: 1, releases: [{ ...row, output }] }), /filename/);
