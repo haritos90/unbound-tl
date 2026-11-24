@@ -3,6 +3,6 @@
 schema = 1
 profile = "unbound-2.1.1.1"
 rom_sha1 = "b4776b82a4c7915d0fadeaa27e013523f99dfd94"
-toolkit = "2.17.5"
+toolkit = "2.17.10"
 languages = ["ru", "es", "de", "fr"]
 default_language = "ru"
