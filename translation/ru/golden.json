@@ -749,11 +749,11 @@
   "data/pokedex/sprites/manifest.json": "91b8bb676fc7b03651f1f46c19609a0088138ad4c8cdc3566c8c3d48e62dd6b5",
   "data/pokedex/sprites/maps/manifest.json": "6935a1bf4211f0b5785b848a3acaaa8e4c98094f204e1caa516997f808ce242f",
   "source/snapshot/ru.snapshot.json": "651691ff9dc417b8d8a64f4d85f31a22ac25d5b4e54e58508194fabe21d018ff",
-  "source/snapshot/shared.json": "b79918a9d5b7284ab817a5f704844d2a634a92c4b06aee7f1e3398c2c58c7086"
+  "source/snapshot/shared.json": "56b2b36208ef68967c3c8028adeb55b590d5bfa4a9baada09bd229929f92a5dd"
  },
  "inputs": {
   "base_sha1": "b4776b82a4c7915d0fadeaa27e013523f99dfd94",
-  "toolkit_version": "2.17.10",
+  "toolkit_version": "2.17.12",
   "tracked_sha256": "401766a67dd7c2e7321a8a05b6dab89f56a2ddcf922832eb618890c2def9341e",
   "translation_version": "1.0.7"
  },
@@ -7852,7 +7852,7 @@
   "data/pokedex/sprites/trainers/98.png": "ed4e121b58344151098469fcf4cfa4fd8b9f4bf6c3caaac67ad521ae2ecc0313",
   "data/pokedex/sprites/trainers/99.png": "424ddb3c026f256e980469c7ce2e6a780db9f2ef9962c40a755eccfb5ab2c26b",
   "source/snapshot/ru.snapshot.json": "6d68046299f5b01385f71d3534547f26dfa61ddf8f479f3689c7522e4b71ec1c",
-  "source/snapshot/shared.json": "5334784d147627bf0d161aab9ee34b25f5523a39c85f0424cd3a1c17842aaa0f"
+  "source/snapshot/shared.json": "20178f948ecffb8a1579978b66e9b13d23ff5d470eb1b61cc0e0f38793c52b07"
  },
  "profile": "unbound-2.1.1.1",
  "schema": 2
