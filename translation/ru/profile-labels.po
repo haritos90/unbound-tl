@@ -1328,6 +1328,126 @@ msgctxt "layout.code_fill[name=effort-raise-amount].where"
 msgid "Effort value raising messages, the number of points"
 msgstr "Сообщения о повышении значений усилий, число очков"
 
+msgctxt "layout.fill_source.side-prefixes.label"
+msgid "Battle name prefix"
+msgstr "Приставка к имени в бою"
+
+msgctxt "layout.fill_source.typed-nickname.label"
+msgid "Nickname of up to ten letters"
+msgstr "Кличка длиной до десяти букв"
+
+msgctxt "layout.fill_source.typed-player.label"
+msgid "Player name of up to seven letters"
+msgstr "Имя игрока длиной до семи букв"
+
+msgctxt "layout.fill_source.species.label"
+msgid "Species name"
+msgstr "Название вида"
+
+msgctxt "layout.fill_source.moves.label"
+msgid "Move name"
+msgstr "Название приёма"
+
+msgctxt "layout.fill_source.abilities.label"
+msgid "Ability name"
+msgstr "Название таланта"
+
+msgctxt "layout.fill_source.items.label"
+msgid "Item name"
+msgstr "Название предмета"
+
+msgctxt "layout.fill_source.trainer_classes.label"
+msgid "Trainer class"
+msgstr "Класс тренера"
+
+msgctxt "layout.fill_source.nickname.label"
+msgid "Nickname or species name"
+msgstr "Кличка или название вида"
+
+msgctxt "layout.fill_source.prefixed-name.label"
+msgid "Battle name with prefix"
+msgstr "Имя с приставкой в бою"
+
+msgctxt "layout.fill_source.trainer-name.label"
+msgid "Trainer name"
+msgstr "Имя тренера"
+
+msgctxt "layout.fill_source.prefix-only.label"
+msgid "Battle side prefix"
+msgstr "Приставка стороны в бою"
+
+msgctxt "layout.fill_source.side-label-1.label"
+msgid "Battle side label"
+msgstr "Обозначение стороны в бою"
+
+msgctxt "layout.fill_source.side-label-2.label"
+msgid "Battle side label"
+msgstr "Обозначение стороны в бою"
+
+msgctxt "layout.fill_source.side-label-3.label"
+msgid "Battle side label"
+msgstr "Обозначение стороны в бою"
+
+msgctxt "layout.fill_source.held-items.label"
+msgid "Item name"
+msgstr "Название предмета"
+
+msgctxt "layout.fill_source.last-item.label"
+msgid "Last item or saved berry name"
+msgstr "Название последнего предмета или сохранённой ягоды"
+
+msgctxt "layout.fill_source.trainer-class.label"
+msgid "Trainer class"
+msgstr "Класс тренера"
+
+msgctxt "layout.fill_source.second-trainer-pair.label"
+msgid "Second trainer class with name"
+msgstr "Класс второго тренера с именем"
+
+msgctxt "layout.fill_source.first-trainer-pair.label"
+msgid "First trainer class with name"
+msgstr "Класс первого тренера с именем"
+
+msgctxt "layout.fill_source.unreachable-last-item.label"
+msgid "Unreachable item message"
+msgstr "Предмет в недостижимом сообщении"
+
+msgctxt "layout.fill_source.last-item-s0A4AF77.label"
+msgid "Priority item"
+msgstr "Предмет, дающий приоритет"
+
+msgctxt "layout.fill_source.last-item-s03FD8D2.label"
+msgid "Poison-curing berry"
+msgstr "Ягода от отравления"
+
+msgctxt "layout.fill_source.last-item-s0A4B2BF.label"
+msgid "Frostbite-curing berry"
+msgstr "Ягода от обморожения"
+
+msgctxt "layout.fill_source.last-item-s03FD937.label"
+msgid "Confusion-curing berry"
+msgstr "Ягода от замешательства"
+
+msgctxt "layout.fill_source.last-item-s03FCCA0.label"
+msgid "Escape item"
+msgstr "Предмет для побега"
+
+msgctxt "layout.fill_source.first-trainer-title-pair.label"
+msgid "Trainer team title"
+msgstr "Заголовок команды тренера"
+
+msgctxt "layout.fill_source.primary-stat-names.label"
+msgid "Primary stat name"
+msgstr "Название основного параметра"
+
+msgctxt "layout.fill_source.short-stat-names.label"
+msgid "Short stat name"
+msgstr "Краткое название параметра"
+
+msgctxt "layout.fill_source.vitamin-stat-names.label"
+msgid "Vitamin or wing stat name"
+msgstr "Название параметра витамина или пера"
+
 msgctxt "text_prefixes[name=berry-number-prefix].limits.where"
 msgid "Berry Pouch formatted item rows"
 msgstr "форматированные строки предметов в кармане ягод"
