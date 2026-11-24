@@ -407,6 +407,27 @@ class CommittedSnapshotTest(unittest.TestCase):
                         self.assertEqual(texts[fact["where"]]["ru"], expected[fact["where"]])
                         self.assertFalse({"es", "de", "fr"} & texts[fact["where"]].keys())
 
+    def test_fill_source_labels_are_available_across_language_projects(self):
+        from gen3tl.catalog import keys
+        from gen3tl.catalog.po import read
+        from gen3tl.profile.schema import key_text
+        from gen3tl.project import Registry
+
+        project = Registry.load(UNBOUND).resolve("unbound-2.1.1.1", "ru")
+        _, entries = read(project.profile_labels)
+        expected = {entry.msgctxt: entry for entry in entries}
+        for code in ("ru", "es", "de", "fr"):
+            prof = Profile.by_name("unbound-2.1.1.1").for_project(code, UNBOUND)
+            texts = editordata.where_texts(prof, keys.for_profile(prof))
+            sources = prof["layout"]["fill_source"]
+            self.assertIn("Frostbite-curing berry", [source["label"] for source in sources.values()])
+            for name, source in sources.items():
+                entry = expected[f"layout.fill_source.{key_text(name)}.label"]
+                with self.subTest(language=code, label=source["label"]):
+                    self.assertEqual(entry.msgid, source["label"])
+                    self.assertNotEqual(entry.msgstr, entry.msgid)
+                    self.assertEqual(texts[source["label"]], {"ru": entry.msgstr})
+
     def test_committed_snapshot_matches_the_profile(self):
         root = UNBOUND
         paths = sorted((root / "source" / "snapshot").glob("*.snapshot.json"))
