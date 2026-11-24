@@ -12,7 +12,7 @@
  },
  "inputs": {
   "base_sha1": "b4776b82a4c7915d0fadeaa27e013523f99dfd94",
-  "toolkit_version": "2.22.0",
+  "toolkit_version": "2.22.1",
   "tracked_sha256": "acf5b25c236af9351819c8f57900fc8549af4745ea021f1633d3d5a8df8dd8c9",
   "translation_version": "1.0.7"
  },
