@@ -115,7 +115,7 @@ class ReferenceROMTest(unittest.TestCase):
                 if self.inventory:
                     self.assertIn("| Inventory digest |", report)
                 self.assertLess(len(report.splitlines()), 200)
-            for name in ("profile.toml", "report.md"):
+            for name in ("profile.toml", "discovery.json", "report.md"):
                 self.assertEqual((outputs[0] / name).read_bytes(), (outputs[1] / name).read_bytes())
         inputs = source_files(self.profile.path)
         self.assertTrue({"engine.toml", "anchors.toml", "functions.json", "script.json"} <= {path.name for path in inputs})
