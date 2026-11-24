@@ -202,7 +202,7 @@ class SnapshotTest(unittest.TestCase):
         offline, live = self.data(True), self.data(False)
         self.assertEqual(offline, live)
         host = next(entry for entry in offline["entries"] if entry["id"] == "s0000100")
-        self.assertTrue(any("one of 2 source strings, measured at their widest rendering" in rule["text"]
+        self.assertTrue(any("one of 2 source strings, measured at their widest rendering" in formatted(rule["text"])
                             for rule in host["rules"]))
         for value in ({}, {"length": "3"}, {"glyph_counts": [[187, 1]]}, {"width": 13}):
             bad = copy.deepcopy(self.doc)

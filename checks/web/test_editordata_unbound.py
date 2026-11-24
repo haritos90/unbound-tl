@@ -81,7 +81,7 @@ class EditorDataCommandTest(unittest.TestCase):
         # tags of the catalog and classes of build/reach.json
         teachy = self.by_id["s041B8BF"]["reach"]
         self.assertEqual((teachy["class"], teachy["source"]), ("never shown", "review"))
-        self.assertIn("Teachy TV", teachy["evidence"])
+        self.assertIn("Teachy TV", formatted(teachy["evidence"]))
         self.assertEqual(self.by_id["species:539"]["reach"], {"class": "reachable", "source": "not studied",
                                                               "evidence": ""})
         if (ROOT / "build" / "reach.json").exists():
@@ -102,17 +102,17 @@ class EditorDataCommandTest(unittest.TestCase):
             "profile [[layout.code_fill]] fill-26: battle text, class of the opposing trainer, class 45",
             "project decision"])
         self.assertIn("The code fills {B_TRAINER1_CLASS} with text 113 px wide",
-                      self.by_id["s0A4C4BD"]["rules"][1]["text"])
+                      formatted(self.by_id["s0A4C4BD"]["rules"][1]["text"]))
         self.assertEqual(sources("s03FD3C7"), ["profile [[strings.computed]] 0x9BDE20",
                                                "profile [[layout.code_fill]] fill-20: battle text, name of the opposing trainer",
                                                "profile [[layout.code_fill]] paired-first-trainer: battle message window",
                                                "project decision", "project style rules"])
         self.assertIn("The code fills {B_TRAINER1_NAME} with text measured from trainer name",
-                      self.by_id["s0A4C4BD"]["rules"][0]["text"])
+                      formatted(self.by_id["s0A4C4BD"]["rules"][0]["text"]))
         self.assertIn("At most 63 bytes, the gap to s03FD407",
-                      self.aliases.unkey_text(self.by_id["s03FD3C7"]["rules"][0]["text"]))
-        self.assertIn(self.aliases.key("s03FD407"), self.by_id["s03FD3C7"]["rules"][0]["text"])
-        self.assertIn("Begins with {STR_VAR_1}", self.by_id["s04162FF"]["rules"][0]["text"])
+                      self.aliases.unkey_text(formatted(self.by_id["s03FD3C7"]["rules"][0]["text"])))
+        self.assertEqual(self.by_id["s03FD3C7"]["rules"][0]["text"]["next"], self.aliases.key("s03FD407"))
+        self.assertIn("Begins with {STR_VAR_1}", formatted(self.by_id["s04162FF"]["rules"][0]["text"]))
         self.assertEqual(sources("ability_popup_possessive:0"),
                          ["profile [[table]] ability_popup_possessive"])
         self.assertEqual(sources("species:1"), ["profile [[table]] species save_link"])

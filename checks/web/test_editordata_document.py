@@ -133,7 +133,8 @@ class EditorDataTest(editordata_support.EditorDataTest, unittest.TestCase):
             "s0000900": {"class": "reachable", "source": "not studied", "evidence": ""},
             "s0000A00": {"class": "reachable", "source": "not studied", "evidence": ""}})
         both = "reach study: unreachable script text; review: dead code"
-        self.assertEqual(editordata.reach_data("s1", [f"reach: never shown ({both})"], None),
+        reach = editordata.reach_data("s1", [f"reach: never shown ({both})"], None)
+        self.assertEqual({**reach, "evidence": formatted(reach["evidence"])},
                          {"class": "never shown", "source": "reach study, review", "evidence": both})
         self.assertEqual(editordata.reach_data("s0000400", [], None)["class"], "reachable")   # no study
 
@@ -146,10 +147,10 @@ class EditorDataTest(editordata_support.EditorDataTest, unittest.TestCase):
             "s0000300": ["review", "profile test", "project style rules"],
             "s0000400": [], "s0000500": ["reach study"], "s0000600": [], "species:1": [],
             "s0000900": [], "s0000A00": []})
-        self.assertEqual(self.by_id["s0000300"]["rules"][0]["evidence"], "review: no caller")
-        self.assertEqual(self.by_id["s0000200"]["rules"][0]["text"],
+        self.assertEqual(formatted(self.by_id["s0000300"]["rules"][0]["evidence"]), "review: no caller")
+        self.assertEqual(formatted(self.by_id["s0000200"]["rules"][0]["text"]),
                          "Inserted as {STR_VAR_1} into 1 text (s0000100): one form serves every sentence it fills.")
-        self.assertEqual(self.by_id["s0000100"]["rules"][0]["text"],
+        self.assertEqual(formatted(self.by_id["s0000100"]["rules"][0]["text"]),
                          "{STR_VAR_1} takes 1 inserted word (s0000200): the sentence is built around their fixed forms.")
         bare = editordata.build("ru", PROF, self.catalog, self.limits, self.measure, self.cm, self.packs,
                                 toolkit=TOOLKIT)
