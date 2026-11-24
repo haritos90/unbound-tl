@@ -10,8 +10,8 @@ class FormNamesTest(unittest.TestCase):
 
     @needs_unbound
     def test_unbound_catalog_labels_cover_verified_names_without_guessing(self):
-        import json
-        data = json.loads((UNBOUND / "data/pokedex/pokedex.json").read_text())
+        from gen3tl.data.pokedexstore import load
+        data = load(UNBOUND / "data/pokedex/pokedex.json")
         rows = copy.deepcopy(data["species"])
         profile = unbound()["pokedex"]["form_names"]
         forms.apply(profile, rows)
@@ -33,8 +33,8 @@ class FormNamesTest(unittest.TestCase):
 
     @needs_unbound
     def test_standard_names_follow_record_traits_and_preserve_precursors(self):
-        import json
-        data = json.loads((UNBOUND / "data/pokedex/pokedex.json").read_text())
+        from gen3tl.data.pokedexstore import load
+        data = load(UNBOUND / "data/pokedex/pokedex.json")
         rows = {r["slot"]: r for r in data["species"]}
         for slot, dex, label in [(919, 483, "Origin Forme"), (920, 484, "Origin Forme"),
                                  (1209, 893, "Dada"), (1210, 898, "Ice Rider"),

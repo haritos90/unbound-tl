@@ -35,7 +35,12 @@ export function domPage(context, page, hash = "") {
 
 const UNBOUND_DATASET = new URL("../../data/pokedex/pokedex.json", import.meta.url);
 
-export const UNBOUND = existsSync(UNBOUND_DATASET) ? JSON.parse(readFileSync(UNBOUND_DATASET, "utf8")) : null;
+const { decodeDataset } = await import(new URL("js/pokedexstore.js", process.env.GEN3TL_WEB_ROOT_URL));
+
+/** A tracked dataset file as the page decodes it. */
+export const trackedDataset = (name) => decodeDataset(JSON.parse(readFileSync(new URL(name, UNBOUND_DATASET), "utf8")));
+
+export const UNBOUND = existsSync(UNBOUND_DATASET) ? trackedDataset("pokedex.json") : null;
 
 export const NEEDS_UNBOUND = UNBOUND ? false : "no Unbound project at the repository root";
 

@@ -14,7 +14,7 @@ const { CATEGORY, COUNT_LABELS, EV_LABELS, KIND_LABELS, METHOD_LABELS, POCKETS, 
 
 const { CONDITION_LABELS, STATUS_LABELS } = await import(new URL("js/catchcalc.js", process.env.GEN3TL_WEB_ROOT_URL));
 
-import { NEEDS_UNBOUND } from "./fixture.mjs";
+import { NEEDS_UNBOUND, trackedDataset } from "./fixture.mjs";
 
 const SITE_PARTS = /<head>[^]*?<\/head>|<header class="mast"[^>]*>[^]*?<\/header>|<footer class="foot"[^>]*>[^]*?<\/footer>/g;
 
@@ -41,9 +41,9 @@ export function pageLabelKeys() {
     for (const value of Object.values(table)) keys.add(value);
   }
   for (const key of Object.values(EFFECT_KEYS)) keys.add(`page:effect:${key}`);
-  const dataset = JSON.parse(readFileSync(new URL("../../data/pokedex/pokedex.json", import.meta.url), "utf8"));
+  const dataset = trackedDataset("pokedex.json");
   for (const key of dataset.trainer_difficulty?.labels ?? []) keys.add(key);
-  const trainerIvs = JSON.parse(readFileSync(new URL("../../data/pokedex/trainer-ivs.json", import.meta.url), "utf8"));
+  const trainerIvs = trackedDataset("trainer-ivs.json");
   for (const row of trainerIvs.ev_conditions ?? []) keys.add(row.set).add(row.clear);
   for (const row of trainerIvs.species_conditions ?? []) keys.add(row.label);
   for (const row of trainerIvs.species_rules ?? []) {
@@ -95,7 +95,7 @@ export function pageLabelKeys() {
 test("the tracked dataset maps every key the page and its modules use", { skip: NEEDS_UNBOUND }, () => {
   const keys = pageLabelKeys();
   assert.ok(keys.size > 250, `only ${keys.size} keys found`);
-  const dataset = JSON.parse(readFileSync(new URL("../../data/pokedex/pokedex.json", import.meta.url), "utf8"));
+  const dataset = trackedDataset("pokedex.json");
   const labels = dataset.labels ?? {};
   const missing = [...keys].filter((key) => !(key in labels));
   assert.deepEqual(missing, []);

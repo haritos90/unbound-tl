@@ -4,13 +4,13 @@ from test_roots import TOOLKIT_ROOT
 import sys
 from pathlib import Path
 import copy
-import json
 import unittest
 
 sys.path.insert(0, str(TOOLKIT_ROOT / "src"))
 
 from gen3tl.data import pokedexdata as pd
 from gen3tl.data import pokedextrainerivs as iv
+from gen3tl.data.pokedexstore import load
 from gen3tl.profile.profile import Profile
 
 from project_fixture import needs_unbound
@@ -23,7 +23,7 @@ class TrackedDatasetTest(unittest.TestCase):
     def setUpClass(cls):
         cls.profile = Profile.by_name("unbound-2.1.1.1")
         cls.block = cls.profile["pokedex"]
-        cls.index = json.loads((DATASET / "pokedex.json").read_text())
+        cls.index = load(DATASET / "pokedex.json")
         cls.doc = iv.read(DATASET / "trainer-ivs.json")
         cls.members = {(row["trainer"], row["slot"]): row for row in cls.doc["members"]}
 

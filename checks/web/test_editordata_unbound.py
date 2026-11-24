@@ -190,7 +190,8 @@ class SplitCommandTest(unittest.TestCase):
                                                    "entries": len(index["list"]),
                                                    "progress": editordata.progress_of(index["list"]),
                                                    "texts": "ru/pokedex-texts.json"}])
-            texts = json.loads((out / "pokedex-texts.json").read_text(encoding="utf-8"))
+            from gen3tl.data import pokedextexts
+            texts = pokedextexts.read(out / pokedextexts.FILE)
             self.assertEqual((texts["profile"], texts["language"], texts["draft"]), ("unbound-2.1.1.1", "ru", False))
             self.assertGreater(len(texts["texts"]), 5000)
             self.assertEqual(len(list((out / "entries").iterdir())), len(index["chunks"]))
