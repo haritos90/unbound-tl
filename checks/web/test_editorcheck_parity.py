@@ -12,6 +12,7 @@ from gen3tl.check import qa
 from gen3tl.check.entrycheck import entry_problems
 from gen3tl.lang.langpack import load_styles
 from gen3tl.check.layout import entry_measure, line_width, lines_of, paragraphs
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.po import PoEntry
 from gen3tl.build.release import expand
 from gen3tl.lang.termbase import TermMatcher
@@ -98,7 +99,8 @@ assert checker.addable["s0000200"]["{CLEAR_TO}"]["evidence"] == "Measured printe
                     self.assertEqual([p["message"] for p in r["problems"]], probs)
                     self.assertEqual((r["laid"], r["text"]), (laid, expand(t, "1.2.3")))
                     self.assertEqual((r["errors"], r["warnings"]),
-                                     (sum("(warning)" not in p for p in probs), sum("(warning)" in p for p in probs)))
+                                     (sum("(warning)" not in formatted(p) for p in probs),
+                                      sum("(warning)" in formatted(p) for p in probs)))
                     me = entry_measure(self.measure, self.limits[sid])
                     # no line here is 1 px over
                     self.assertEqual(r["lines"], [[{"text": l, "width": line_width(l, me, self.cm), "shadow": False}
@@ -121,7 +123,7 @@ assert checker.addable["s0000200"]["{CLEAR_TO}"]["evidence"] == "Measured printe
             crowded += "а"
         self.assertLessEqual(line_width(crowded, me, self.cm), e["window"]["width"])
         r = self.checker.check(e, "Привет!\\n" + crowded + "\\pВсё.")
-        self.assertTrue(any(p["message"].startswith("line leaves no room for the prompt arrow: box 1:")
+        self.assertTrue(any(formatted(p["message"]).startswith("line leaves no room for the prompt arrow: box 1:")
                             and p["severity"] == "error" for p in r["problems"]), r["problems"])
 
     def test_arrow_consumer_parity_in_every_kind(self):
@@ -138,7 +140,7 @@ assert checker.addable["s0000200"]["{CLEAR_TO}"]["evidence"] == "Measured printe
                     with self.subTest(kind=kind, arrow=arrow, text=text):
                         result = self.checker.check(e, text)
                         expected = arrow_overflows(result["laid"], limit_of(e["window"]), self.measure, self.cm)
-                        actual = [p["message"] for p in result["problems"] if "prompt arrow" in p["message"]]
+                        actual = [p["message"] for p in result["problems"] if "prompt arrow" in formatted(p["message"])]
                         self.assertEqual(actual, expected)
                         rooms = [l["room"] for box in result["lines"] for l in box if "room" in l]
                         self.assertEqual(bool(rooms), bool(arrow and ("\\l" in result["laid"] or "\\p" in result["laid"])))
@@ -182,11 +184,11 @@ assert checker.addable["s0000200"]["{CLEAR_TO}"]["evidence"] == "Measured printe
                         result = self.checker.check(entry, text)
                         self.assertEqual(result["laid"], laid)
                         self.assertEqual([p["message"] for p in result["problems"]], problems)
-                        found = [p for p in result["problems"] if "prints instantly" in p["message"]]
+                        found = [p for p in result["problems"] if "prints instantly" in formatted(p["message"])]
                         self.assertEqual(bool(found), instant is True and any(code in text for code in ("\\l", "\\p", "{FA}", "{ FB }")))
                         if found:
                             self.assertEqual(found[0]["severity"], "error")
-                            self.assertIn("banner window", found[0]["message"])
+                            self.assertIn("banner window", formatted(found[0]["message"]))
 
     def test_without_the_english(self):
         # tokens and box lines check as text; typography needs it
@@ -199,10 +201,10 @@ assert checker.addable["s0000200"]["{CLEAR_TO}"]["evidence"] == "Measured printe
                 self.assertEqual(part["unavailable"], ["typography", "glossary"])
                 self.assertEqual([p["message"] for p in part["problems"]],
                                  [p["message"] for p in full["problems"]
-                                  if not p["message"].startswith(("typography: ", "glossary term "))])
+                                  if not formatted(p["message"]).startswith(("typography: ", "glossary term "))])
                 self.assertEqual(part["lines"], full["lines"])
-        self.assertIn("placeholders differ", self.checker.check(bare["s0000100"], "Привет, {STR_VAR_1}!")
-                      ["problems"][0]["message"])
+        self.assertIn("placeholders differ", formatted(self.checker.check(bare["s0000100"], "Привет, {STR_VAR_1}!")
+                                                       ["problems"][0]["message"]))
 
     def test_problems_seen(self):
         msgs = self.msgs
@@ -273,12 +275,12 @@ print(json.dumps([checker.check(e, e["translation"]) for e in data["doc"]["entri
         latin = editorcheck.latin_widths(self.doc["fonts"], ROM)
         r = editorcheck.Checker(header, latin, PROF["qa"]).check(self.by_id["s0000100"], "Версия @VERSION@.")
         self.assertEqual([p["severity"] for p in r["problems"]], ["error"])
-        self.assertTrue(r["problems"][0]["message"].startswith("not encodable: character '@'"))
+        self.assertTrue(formatted(r["problems"][0]["message"]).startswith("not encodable: character '@'"))
 
     def test_not_encodable(self):
         # batch and editor report equally
         r = self.checker.check(self.by_id["s0000100"], "Привет, {PLAYER}! 中")
-        self.assertEqual([p["message"] for p in r["problems"]],
+        self.assertEqual([formatted(p["message"]) for p in r["problems"]],
                          ["not encodable: character '中' (U+4E2D) has no byte, in 'Привет, {PLAYER}! 中'"])
         self.assertEqual(r["lines"], [[{"text": "Привет, {PLAYER}! 中", "width": None, "shadow": False}]])
         for sid in ("s0000100", "species:1"):
@@ -289,7 +291,7 @@ print(json.dumps([checker.check(e, e["translation"]) for e in data["doc"]["entri
 
     def test_no_window(self):
         r = self.checker.check({"id": "s0000900", "source_text": "Hi", "window": None}, "Привет")
-        self.assertEqual([p["message"] for p in r["problems"]], ["no inventory entry for this id"])
+        self.assertEqual([formatted(p["message"]) for p in r["problems"]], ["no inventory entry for this id"])
 
     def test_rom_widths(self):
         latin = editorcheck.latin_widths(self.doc["fonts"], ROM, self.doc["rom"]["sha1"])
@@ -331,7 +333,7 @@ print(json.dumps([checker.check(e, e["translation"]) for e in data["doc"]["entri
         self.assertGreater(n, 1)
 
         def msgs(sid, text):
-            return [p["message"] for p in checker.check(self.by_id[sid], text)["problems"]]
+            return [formatted(p["message"]) for p in checker.check(self.by_id[sid], text)["problems"]]
         self.assertEqual(msgs("s0000200", f"{{CLEAR_TO {n:02X}}}Зелье"), [])
         self.assertEqual(msgs("s0000200", f"{{CLEAR_TO {n - 1:02X}}}Зелье"),
                          [f"not centred in the 40 px window: lead with {{CLEAR_TO {n:02X}}} (warning)"])
@@ -348,4 +350,4 @@ print(json.dumps([checker.check(e, e["translation"]) for e in data["doc"]["entri
                 _, probs = entry_problems(self.by_id[sid]["source_text"], t, self.limits[sid], self.measure, self.cm,
                                           optional, rules["forbidden"], self.windows.other(sid), self.measures,
                                           TermMatcher(TERMS), leading.get(sid))
-                self.assertEqual(msgs(sid, t), probs)
+                self.assertEqual(msgs(sid, t), [formatted(p) for p in probs])

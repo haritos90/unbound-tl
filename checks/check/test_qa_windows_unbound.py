@@ -6,6 +6,7 @@ from unittest import mock
 from gen3tl.check import qa
 from gen3tl.lang.langpack import LangPack
 from gen3tl.check.layout import Measure, check
+from gen3tl.check.provenance import code
 from gen3tl.catalog.po import PoEntry, write
 
 from rom_support import source_text, needs_rom, rom_path
@@ -74,7 +75,7 @@ class BoxWidthRegressionTest(unittest.TestCase):
         self.assertEqual(layout(text, old, self.m, self.cm), text)
         self.assertEqual(check(text, old, self.m, self.cm), [])
         # with box widths: too wide as written; the layout rewraps
-        self.assertEqual(check(text, new, self.m, self.cm), ["line too wide: 210 > 208 px: " + repr(line)])
+        self.assertEqual(check(text, new, self.m, self.cm), [code("line_wide", width=210, limit=208, text=repr(line))])
         laid = layout(text, new, self.m, self.cm)
         self.assertEqual(check(laid, new, self.m, self.cm), [])
         me = entry_measure(self.m, new)
@@ -174,7 +175,7 @@ class MoveDescriptionWindowTest(unittest.TestCase):
 class TypeNameWindowTest(unittest.TestCase):
     """The types_short window: 64 px, 7-byte field."""
 
-    NAMES = {"types_short:0": ("Normal", "Обычный", ["field overflow: 7 > 6 characters"]),
+    NAMES = {"types_short:0": ("Normal", "Обычный", [code("field_overflow", n=7, limit=6)]),
              "types_short:1": ("Fight", "Боевой", []),
              "types_short:17": ("Dark", "Тёмный", [])}
 

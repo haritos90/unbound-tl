@@ -262,7 +262,7 @@ class BundleAgainstBatchCheckTest(unittest.TestCase):
         for x, r in zip(self.items, res):
             sid = x["entry"]["id"]
             with self.subTest(sid=sid, kind=x["kind"], how=x["how"]):
-                self.assertEqual([p["message"] for p in r["problems"]], self.cli.get(sid, []))
+                self.assertEqual([formatted(p["message"]) for p in r["problems"]], self.cli.get(sid, []))
         errors = sum(r["errors"] for r in res)
         warnings = sum(r["warnings"] for r in res)
         self.assertEqual(self.summary, {"checked": f"{len(self.items)} entries", "errors": f"{errors} errors",

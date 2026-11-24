@@ -2,6 +2,7 @@ import unittest
 
 from gen3tl.lang.langpack import LangPack
 from gen3tl.check.layout import Limit, Measure, check, fits
+from gen3tl.check.provenance import code
 
 from rom_support import needs_rom, rom_path
 from project_fixture import UNBOUND, select_language, unbound
@@ -54,7 +55,7 @@ class RomShadowTest(unittest.TestCase):
 class InteriorHeadTest(unittest.TestCase):
     """A string code reads from inside the slot."""
 
-    HEAD_PROBLEM = "must begin with {STR_VAR_1}: the code reads the text from byte 2"
+    HEAD_PROBLEM = code("head_missing", head="{STR_VAR_1}", byte=2)
 
     def test_check_requires_the_head(self):
         lim = Limit("multiline", 200, 2, head="{STR_VAR_1}")

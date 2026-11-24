@@ -8,6 +8,7 @@ from gen3tl.catalog.po import PoEntry, write
 from gen3tl.check import namepairs, qa
 from gen3tl.check.entrycheck import pair_problems, window_problems, window_widths
 from gen3tl.check.layout import Measure
+from gen3tl.check.provenance import formatted
 from gen3tl.lang.langpack import LangPack
 from gen3tl.profile.profile import Profile
 from gen3tl.web.editorfonts import BlankBase, sprite_measures
@@ -111,7 +112,8 @@ class SpriteWindowTest(unittest.TestCase):
         self.assertEqual(windows.problems("moves:2", "Ошарашивание"), [])
         n = m.width(long + "/", CM)
         self.assertGreater(n, 64)
-        self.assertEqual(windows.problems("moves:2", long), [f"line too wide: {n} > 64 px in HUD move (dexnav-hud)"])
+        self.assertEqual([formatted(p) for p in windows.problems("moves:2", long)],
+                         [f"line too wide: {n} > 64 px in HUD move (dexnav-hud)"])
         self.assertEqual(window_widths(long, windows.other("moves:2"), windows.measures),
                          [{"font": "dexnav-hud", "where": "HUD move", "width": 64, "value": n, "over": True,
                            "shadow": False}])
@@ -163,7 +165,7 @@ class PairTest(unittest.TestCase):
         [res] = namepairs.results(PROF, texts(), measures(), DEX)
         pair = namepairs.partner(res, "moves:2")
         n = res.names["moves:2"].width
-        self.assertEqual(pair_problems("Ошарашивание", pair, measures()),
+        self.assertEqual([formatted(p) for p in pair_problems("Ошарашивание", pair, measures())],
                          [f"pair too wide: {n} > 111 px in HUD before the eye icon (dexnav-hud) with "
                           f"«Ледяные чешуйки» abilities:1, {pair['partner']['width']} px, outline 1 px, "
                           f"for «Сил» species:1"])

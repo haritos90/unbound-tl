@@ -8,14 +8,22 @@ import unittest
 
 sys.path.insert(0, str(TOOLKIT_ROOT / "src"))
 
-from gen3tl.check import qa
-from gen3tl.check.layout import Limit, Measure, check
+from gen3tl.check import entrycheck, layout, qa
+from gen3tl.check.layout import Limit, Measure
 from gen3tl.check.provenance import formatted
 from gen3tl.catalog.extract import english
 from gen3tl.catalog.po import PoEntry, write
 
 import qa_support
 from qa_support import PACK, entry, fixed, setUpModule, tabled, tearDownModule
+
+
+def as_text(check):
+    """A check whose problems read as their English text."""
+    return lambda *args, **kw: [formatted(p) for p in check(*args, **kw)]
+
+
+check, arrow_overflows = as_text(layout.check), as_text(layout.arrow_overflows)
 
 
 class TrainerBattleWindowTest(unittest.TestCase):
@@ -103,7 +111,6 @@ class MessageBoxWindowTest(unittest.TestCase):
             self.assertEqual(lim.consumers[0]["arrow_source"], "default")
 
     def test_instant_window_refuses_waits_for_single_and_shared_texts(self):
-        from gen3tl.check.entrycheck import entry_problems
         m, cm = Measure(lambda b: 1, {}), PACK.charmap()
         ordinary = {"name": "ordinary", "where": "ordinary message window", "base": 0x1000,
                     "stride": 4, "count": 1, "width": 60, "box": "dialogue"}
@@ -116,7 +123,7 @@ class MessageBoxWindowTest(unittest.TestCase):
             self.assertEqual(len(lim.consumers), len(refs))
             for text in ("A\\lB", "A\\pB", "A\\p", "A\\nB", "A"):
                 with self.subTest(refs=refs, text=text):
-                    _, problems = entry_problems("A", text, lim, m, cm)
+                    problems = [formatted(p) for p in entrycheck.entry_problems("A", text, lim, m, cm)[1]]
                     found = [p for p in problems if "prints instantly" in p]
                     self.assertEqual(bool(found), 0x2000 in refs and ("\\l" in text or "\\p" in text))
                     if found:
@@ -139,7 +146,7 @@ class MessageBoxWindowTest(unittest.TestCase):
         self.assertIn("banner", formatted(after.consumers[0]["name"]))
 
     def test_shared_consumers_bind_width_and_arrow_separately(self):
-        from gen3tl.check.layout import arrow_overflows, arrow_room, check
+        from gen3tl.check.layout import arrow_room
         m, cm = Measure(lambda b: 1, {}), PACK.charmap()
         es = [tabled("s0000100", "A", 0x1000, 0x2000)]
         first = {"name": "wide", "where": "wide message window", "base": 0x1000, "stride": 4,
@@ -183,7 +190,6 @@ class MessageBoxWindowTest(unittest.TestCase):
             self.limits({"window_box": {"s0000100": "sign"}}, es, {"s0000100": ("Hi!", "")})
 
     def test_measured_field_table_reserves_arrow_room(self):
-        from gen3tl.check.entrycheck import entry_problems
         from gen3tl.web.editorcheck import limit_of
         en = "Hi!\\nThere.\\pBye."
         text = "aa\\naaaaa bbb\\pcc"
@@ -201,7 +207,8 @@ class MessageBoxWindowTest(unittest.TestCase):
         self.assertEqual((limits["s0000200"].kind, limits["s0000200"].arrow), ("multiline", 12))
         self.assertEqual(measured.sources["width"]["evidence"], lay["table_window"][0]["evidence"])
         for lim in (measured, limit_of(vars(measured))):
-            errors = entry_problems(en, text, lim, Measure(lambda b: 6, {}), PACK.charmap())[1]
+            errors = [formatted(p) for p in
+                      entrycheck.entry_problems(en, text, lim, Measure(lambda b: 6, {}), PACK.charmap())[1]]
             self.assertTrue(any("prompt arrow" in message for message in errors), errors)
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -233,7 +240,7 @@ class WindowStyleTest(unittest.TestCase):
     M = Measure(lambda b: 6, {}, styles={"small": lambda b: 5})
 
     def test_entry_measured_in_its_style(self):
-        from gen3tl.check.layout import Limit, check, entry_measure
+        from gen3tl.check.layout import Limit, entry_measure
         cm = PACK.charmap()
         lim = Limit("single", 32, 1, style="small")
         self.assertEqual(entry_measure(self.M, lim).width("Готово", cm), 30)
@@ -335,7 +342,7 @@ class StripPrefixTest(unittest.TestCase):
                                      self.M, PACK.charmap(), overrides=overrides, english_slots=english)
 
     def test_check_measures_the_rest(self):
-        from gen3tl.check.layout import Limit, check
+        from gen3tl.check.layout import Limit
         cm = PACK.charmap()
         lim = Limit("single", 60, 1, strip=["Battle! ", "Бой! "])
         self.assertEqual(check("Бой! Абвгдежзий", lim, self.M, cm), [])    # 10 x 6 after the prefix

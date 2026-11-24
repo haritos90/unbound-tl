@@ -4,7 +4,7 @@ import tempfile
 import unittest
 
 from gen3tl.web import editordata
-from gen3tl.check.provenance import formatted
+from gen3tl.check.provenance import formatted, unnoted
 from gen3tl.build.font import shadow_end
 from gen3tl.catalog.po import PoEntry
 from gen3tl.profile.profile import Profile
@@ -228,7 +228,7 @@ class EditorDataTest(editordata_support.EditorDataTest, unittest.TestCase):
             e = {**e, "source_text": "Guy"}   # the English read from the ROM
             self.assertEqual(checker.check(e, e["translation"])["problems"], [])
             problems = checker.check(e, wrong)["problems"]
-            self.assertTrue(any("glossary" in p["message"] for p in problems), problems)
+            self.assertTrue(any(unnoted(p["message"])["code"] == "glossary_missing" for p in problems), problems)
             # without the English the glossary check needs the text
             bare = checker.check(doc["entries"][0], wrong)
             self.assertEqual((bare["problems"], bare["unavailable"]), ([], ["typography", "glossary"]))

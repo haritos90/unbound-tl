@@ -10,6 +10,7 @@ sys.path.insert(0, str(TOOLKIT_ROOT / "src"))
 
 from gen3tl.check import qa
 from gen3tl.check.layout import Measure, check
+from gen3tl.check.provenance import code
 from gen3tl.catalog.po import PoEntry, write
 
 import qa_support
@@ -247,7 +248,7 @@ class RecordWindowTest(unittest.TestCase):
         old = self.limits({"layout": {}})["s0000200"]
         new = self.limits(self.PROF)["s0000200"]
         self.assertEqual(check(layout(self.HEAL, old, m, cm), old, m, cm), [])
-        self.assertEqual(check(layout(self.HEAL, new, m, cm), new, m, cm), ["too many lines: 3 > 2"])
+        self.assertEqual(check(layout(self.HEAL, new, m, cm), new, m, cm), [code("too_many_lines", n=3, limit=2)])
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             write(root / "system" / "a.po", [PoEntry(x["id"], x["text"], self.HEAL if x["id"] == "s0000200" else "")
@@ -274,7 +275,7 @@ class RecordWindowTest(unittest.TestCase):
             old, new = (qa.compute_limits({"layout": {"record_window": [r]}}, inv, load_catalog(root), m, cm,
                                           rom=mission_rom())["s0000200"] for r in (without, with_number))
         self.assertEqual((old.placeholders, new.placeholders), (None, {"B_COPY_VAR_1": 18}))
-        self.assertEqual(check(layout(text, old, m, cm), old, m, cm), ["too many lines: 3 > 2"])
+        self.assertEqual(check(layout(text, old, m, cm), old, m, cm), [code("too_many_lines", n=3, limit=2)])
         self.assertEqual(layout(text, new, m, cm), text)
         self.assertEqual(check(text, new, m, cm) + dropped_breaks(text, new, m, cm), [])
 

@@ -1,6 +1,7 @@
 import json
 import unittest
 
+from gen3tl.check.provenance import formatted
 from gen3tl.web import editordata
 from gen3tl.lang import termedit
 from gen3tl.web.editorcheck import Checker
@@ -41,10 +42,10 @@ class PreviewTest(unittest.TestCase):
         self.assertEqual(set(by_id), {"s0000100", "s0000200"})
         word = by_id["s0000200"]
         self.assertEqual((word["before"], word["after"], word["changed"]), ("Зелье", LONG, True))
-        self.assertTrue(word["added"][0]["message"].startswith("line too wide: 219 > 208 px"))
+        self.assertTrue(formatted(word["added"][0]["message"]).startswith("line too wide: 219 > 208 px"))
         host = by_id["s0000100"]   # the line {STR_VAR_1} of s0000100 holds the renamed word
         self.assertEqual((host["changed"], host["before"], host["after"]), (False,) + ("Привет, {PLAYER}! Держи {STR_VAR_1}.",) * 2)
-        self.assertIn(f"{{STR_VAR_1}} = 219 px (s0000200 '{LONG}')", host["added"][0]["message"])
+        self.assertIn(f"{{STR_VAR_1}} = 219 px (s0000200 '{LONG}')", formatted(host["added"][0]["message"]))
         s = rep["summary"]
         self.assertEqual((s["changed"], s["limit_checked"], s["error_lines"], s["blocked"]), (1, 1, 2, True))
 

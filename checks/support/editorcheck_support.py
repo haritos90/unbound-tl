@@ -9,6 +9,7 @@ from gen3tl.catalog.catalog import load_catalog
 from gen3tl.check.entrycheck import entry_problems
 from gen3tl.lang.langpack import load_styles
 from gen3tl.check.layout import Measure
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.po import PoEntry, write
 from gen3tl.profile.profile import Profile
 from gen3tl.build.release import expand
@@ -100,4 +101,5 @@ class EditorCheckTest:
                               TermMatcher(TERMS))
 
     def msgs(self, sid, text):
-        return [p["message"] for p in self.checker.check(self.by_id[sid], text)["problems"]]
+        """The editor check's problems of `text`, as their English text."""
+        return [formatted(p["message"]) for p in self.checker.check(self.by_id[sid], text)["problems"]]

@@ -12,6 +12,7 @@ from gen3tl.core.charmap import Charmap
 from gen3tl.build.font import font_codes
 from gen3tl.lang.langpack import LangPack
 from gen3tl.check.layout import Measure, check, layout, paragraphs
+from gen3tl.check.provenance import code
 from gen3tl.catalog.extract import english
 from gen3tl.catalog.po import read
 
@@ -50,7 +51,7 @@ class TeachyTvWindowTest(unittest.TestCase):
         for sid, lim in limits.items():
             with self.subTest(id=sid):
                 self.assertEqual((lim.kind, lim.width, lim.lines), ("dialogue", 208, 2))
-                self.assertIn("3 lines in one box without scrolling", check("One\\nTwo\\nThree", lim, measure, cm))
+                self.assertIn(code("box_unscrolled", n=3), check("One\\nTwo\\nThree", lim, measure, cm))
                 laid = layout("word " * 24, lim, measure, cm)
                 self.assertIn("\\l", laid)
                 self.assertEqual(check(laid, lim, measure, cm), [])

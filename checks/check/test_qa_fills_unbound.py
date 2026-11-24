@@ -135,7 +135,7 @@ class TradeOfferFillTest(unittest.TestCase):
                      "на покемона\\n{F7 03} (уровень {F7 02}).\\pПринять это предложение?")
         lim = self.limit(unwrapped)
         self.assertEqual(lim.placeholders, {"F7 00": 18, "F7 01": 60, "F7 02": 18, "F7 03": 60})
-        self.assertTrue(any("212 > 208" in p for p in check(unwrapped, lim, self.m, self.cm)))
+        self.assertTrue(any("212 > 208" in formatted(p) for p in check(unwrapped, lim, self.m, self.cm)))
 
 
 @needs_rom
@@ -316,11 +316,11 @@ class InsertedTitleRegressionTest(unittest.TestCase):
         self.assertEqual(check(laid, lim, self.m, self.cm), [])
         self.assertTrue(all(real.width(l, self.cm) <= 208 for par in paragraphs(laid) for l in lines_of(par)))
         self.assertEqual(lines_of(paragraphs(laid)[3]), ["{STR_VAR_1} ждёт.", "Готовы сразиться?"])
-        warn = slot_rewraps(text, lim, self.m, self.cm)
+        warn = [formatted(w) for w in slot_rewraps(text, lim, self.m, self.cm)]
         self.assertTrue(any("box 4: 237 > 208 px" in w and "s1F8BED5 'Инспектор манежа'" in w for w in warn))
         # kept on one line as built; reported with slot value
-        probs = check(text, qa.Limit("single", lim.width, 1, placeholders=lim.placeholders,
-                                     slot_sources=lim.slot_sources), self.m, self.cm)
+        probs = [formatted(p) for p in check(text, qa.Limit("single", lim.width, 1, placeholders=lim.placeholders,
+                                                            slot_sources=lim.slot_sources), self.m, self.cm)]
         self.assertIn("line too wide: 237 > 208 px: '{STR_VAR_1} ждёт. Готовы сразиться?' with {STR_VAR_1} = "
                       "95 px (s1F8BED5 'Инспектор манежа')", probs)
 

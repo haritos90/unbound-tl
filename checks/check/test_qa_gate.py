@@ -313,6 +313,7 @@ class QaGateTest(unittest.TestCase):
 
     def test_the_blank_keys_of_a_key_row_are_no_double_spaces(self):
         from gen3tl.check.entrycheck import entry_problems
+        from gen3tl.check.provenance import formatted
         forbidden = {"  ": "double space", "\\.\\.\\.": "three dots"}
         self.assertEqual(qa.typography_problems("abcdef .", "áé      ", forbidden), ["double space"])
         self.assertEqual(qa.typography_problems("abcdef .", "áé      ", forbidden, keys=True), [])
@@ -322,7 +323,7 @@ class QaGateTest(unittest.TestCase):
             with self.subTest(keys=lim.keys):
                 _, found = entry_problems("abcdef .", "áé      ", lim, Measure(lambda b: 6, {}), PACK.charmap(),
                                           forbidden=forbidden)
-                self.assertEqual([p for p in found if p.startswith("typography")], problems)
+                self.assertEqual([formatted(p) for p in found if p["code"] == "typography"], problems)
 
     def test_optional_tokens(self):
         prof = {"layout": {}, "qa": {"optional_tokens": ["{PK}", "{MN}"]}}

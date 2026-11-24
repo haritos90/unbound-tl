@@ -11,6 +11,7 @@ from gen3tl.catalog.catalog import load_catalog
 from gen3tl.check.entrycheck import entry_problems
 from gen3tl.lang.langpack import load_styles
 from gen3tl.check.layout import Measure, entry_measure, line_width
+from gen3tl.check.provenance import formatted
 from gen3tl.catalog.po import PoEntry, write
 from gen3tl.profile.profile import Profile
 
@@ -59,7 +60,7 @@ class FontCodeCheckTest(unittest.TestCase):
         w = lambda t: self.checker.check(self.by_id["s0000200"], t)["lines"][0][0]["width"]   # noqa: E731
         self.assertLess(w("Зе{FONT 00}лье"), w("Зелье"))
         self.assertEqual(w("Зелье{CLEAR_TO 3C}x"), 0x3C + 6)
-        self.assertTrue(any("before the column {CLEAR_TO 3C}" in p["message"] for p in
+        self.assertTrue(any("before the column {CLEAR_TO 3C}" in formatted(p["message"]) for p in
                             self.checker.check(self.by_id["s0000200"], "Большое зелье{CLEAR_TO 3C}x")["problems"]))
 
 class SpriteFontCheckTest(unittest.TestCase):
@@ -131,7 +132,7 @@ class SpriteFontCheckTest(unittest.TestCase):
         self.assertEqual(r["pair"], {"value": own + partner + line, "width": 111, "where": "HUD before the eye icon",
                                      "partner": self.by_id["moves:2"]["window"]["pair"]["partner"]})
         self.assertGreater(own + partner + line, 111)
-        self.assertEqual([p["message"] for p in r["problems"]],
+        self.assertEqual([formatted(p["message"]) for p in r["problems"]],
                          [f"pair too wide: {own + partner + line} > 111 px in HUD before the eye icon (dexnav-hud) "
                           f"with «Ледяные чешуйки» abilities:1, {partner} px, outline 1 px, for «Сил» species:1"])
         short = self.checker.check(self.by_id["moves:2"], "Испуг")
@@ -140,11 +141,12 @@ class SpriteFontCheckTest(unittest.TestCase):
         wide = "Затрещина по полной"
         n = self.hud.width(wide + "/", self.cm)
         self.assertIn(f"line too wide: {n} > 64 px in HUD move (dexnav-hud)",
-                      [p["message"] for p in self.checker.check(self.by_id["moves:1"], wide)["problems"]])
+                      [formatted(p["message"]) for p in self.checker.check(self.by_id["moves:1"], wide)["problems"]])
         partner_move = self.hud.width("Ошарашивание/", self.cm)
         self.assertIn(f"pair too wide: {partner_move + partner + line} > 111 px in HUD before the eye icon "
                       f"(dexnav-hud) with «Ошарашивание/» moves:2, {partner_move} px, outline 1 px, for «Сил» species:1",
-                      [p["message"] for p in self.checker.check(self.by_id["abilities:1"], "Ледяные чешуйки")["problems"]])
+                      [formatted(p["message"])
+                       for p in self.checker.check(self.by_id["abilities:1"], "Ледяные чешуйки")["problems"]])
         self.assertNotIn("others", self.checker.check(self.by_id["s0000100"], "Привет"))
         self.assertNotIn("pair", self.checker.check(self.by_id["moves:2"], "中"))   # not encodable
 
@@ -181,6 +183,6 @@ class SpriteFontCheckTest(unittest.TestCase):
 
     def test_the_problems_reach_the_list(self):
         problems = editordata.data_problems(self.doc, self.checker)
-        self.assertTrue(any(p["message"].startswith("pair too wide") for p in problems["moves:2"]))
-        self.assertTrue(any(p["message"].startswith("pair too wide") for p in problems["abilities:1"]))
-        self.assertFalse(any(p["message"].startswith("pair too wide") for p in problems["moves:3"]))
+        self.assertTrue(any(formatted(p["message"]).startswith("pair too wide") for p in problems["moves:2"]))
+        self.assertTrue(any(formatted(p["message"]).startswith("pair too wide") for p in problems["abilities:1"]))
+        self.assertFalse(any(formatted(p["message"]).startswith("pair too wide") for p in problems["moves:3"]))

@@ -96,7 +96,7 @@ class EditorDataCommandTest(unittest.TestCase):
     def test_rules(self):
         # profile rules and the Russian rule list
         def sources(sid):
-            return [r["source"] for r in self.by_id[sid]["rules"]]
+            return [formatted(r["source"]) for r in self.by_id[sid]["rules"]]
         self.assertEqual(sources("s0A4C4BD"), [
             "profile [[layout.code_fill]] fill-20: battle text, name of the opposing trainer",
             "profile [[layout.code_fill]] fill-26: battle text, class of the opposing trainer, class 45",

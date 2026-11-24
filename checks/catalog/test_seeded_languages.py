@@ -15,7 +15,7 @@ from gen3tl.cli import main as cli
 from gen3tl.build import keyboard
 from gen3tl.build.release import build_names
 from gen3tl.catalog.catalog import load_catalog
-from gen3tl.check.entrycheck import UNVERIFIED
+from gen3tl.check.provenance import formatted
 from gen3tl.check.fillsources import Evaluator, graph
 from gen3tl.build.font import FontTable
 from gen3tl.lang.langpack import LangPack
@@ -144,12 +144,13 @@ class OpenedProjectTest(unittest.TestCase):
                     snapshot = snapshot_store.load(project.snapshot)
                     checker = editorsnapshot.checker(doc, snapshot["fonts"], doc["check_rules"], "0.0.0")
                     self.assertEqual(checker.check(known, samples[code])["problems"], [])
-                    wide = [p["message"] for p in checker.check(guessed, "Ab " * 20)["problems"]]
-                    self.assertTrue(wide and all(m.endswith(UNVERIFIED) for m in wide if "line too wide" in m), wide)
+                    wide = [formatted(p["message"]) for p in checker.check(guessed, "Ab " * 20)["problems"]]
+                    self.assertTrue(wide and all(m.endswith(" [unverified limit: an estimate for this language]")
+                                                 for m in wide if "line too wide" in m), wide)
                     # typography reads the English the page takes from the ROM
                     self.assertEqual(checker.check(known, "No...")["unavailable"], ["typography", "glossary"])
                     text = {**known, "source_text": load(ENGLISH)[known["id"]].msgid}
-                    dots = [p["message"] for p in checker.check(text, "No...")["problems"]]
+                    dots = [formatted(p["message"]) for p in checker.check(text, "No...")["problems"]]
                     self.assertEqual(dots, ["typography: three dots: use the ellipsis character …"])
 
     def test_empty_catalogs_build_verified_keyboards_without_font_edits(self):

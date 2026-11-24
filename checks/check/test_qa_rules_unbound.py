@@ -210,8 +210,7 @@ class BatchCheckUnmeasuredTest(unittest.TestCase):
         self.tmp.cleanup()
 
     def test_unmeasured_mark(self):
-        from gen3tl.check.entrycheck import UNMEASURED
         code, lines = self.check("Ж" * 50)
         self.assertEqual(code, 1)
         wide = [l for l in lines if l.startswith(f"{self.SID}: line too wide: ")]
-        self.assertTrue(wide and all(l.endswith(UNMEASURED) for l in wide), lines)
+        self.assertTrue(wide and all(l.endswith(" [unmeasured limit: the English width]") for l in wide), lines)
