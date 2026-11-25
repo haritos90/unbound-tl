@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unbound-2.1.1.1\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Group: interface-labels\n"
+
+#. landing.intro
+msgctxt ""
+"site:Translation patches for Game Boy Advance ROM hacks, made and "
+"reviewed by players. Runs locally in your browser."
+msgid ""
+"Translation patches for Game Boy Advance ROM hacks, made and reviewed by "
+"players. Runs locally in your browser."
+msgstr ""
+"Патчи перевода для ROM-хаков Game Boy Advance, созданные и проверенные "
+"игроками. Работает локально в браузере."
+
+#. landing.editor
+msgctxt ""
+"site:Translate in the browser with the real game font and window sizes. "
+"Start a new language or improve one."
+msgid ""
+"Translate in the browser with the real game font and window sizes. Start "
+"a new language or improve one."
+msgstr ""
+"Переводите в браузере с игровым шрифтом и реальными размерами окон. "
+"Начните перевод на новый язык или улучшите существующий."
+
+#. landing.changes_title
+msgctxt "site:Nothing but text changes"
+msgid "Nothing but text changes"
+msgstr "Меняется только текст"
+
+#. landing.changes
+msgctxt ""
+"site:A translation changes text, font and text pointers. Save files, link "
+"battles and trades with the original game - all behave as before. Hashes "
+"of every release are published for registration."
+msgid ""
+"A translation changes text, font and text pointers. Save files, link "
+"battles and trades with the original game - all behave as before. Hashes "
+"of every release are published for registration."
+msgstr ""
+"Перевод меняет текст, шрифт и указатели на текст. Сохранения, бои и "
+"обмены по связи с оригинальной игрой — всё работает как прежде. Хеши "
+"каждого релиза публикуются для регистрации."
+
+#. landing.review_title
+msgctxt "site:Translated in the open"
+msgid "Translated in the open"
+msgstr "Открытый перевод"
+
+#. landing.review
+msgctxt ""
+"site:Catalogs, glossary and checks are public. The editor measures every "
+"line in the game font against its real window, and every change is "
+"reviewed before it reaches a release."
+msgid ""
+"Catalogs, glossary and checks are public. The editor measures every line "
+"in the game font against its real window, and every change is reviewed "
+"before it reaches a release."
+msgstr ""
+"Каталоги, глоссарий и проверки доступны всем. Редактор измеряет каждую "
+"строку игровым шрифтом по размеру её реального окна, а каждое изменение "
+"проходит рецензию, прежде чем попасть в релиз."
+
+#. compatibility.saves, compatibility.link_play
+msgctxt "site:Saves and link play as in the original"
+msgid "Saves and link play as in the original"
+msgstr "Сохранения и игра по связи — как в оригинале"
+
+#. language_rules.item-plurals.title
+msgctxt "site:Item plurals"
+msgid "Item plurals"
+msgstr "Множественное число названий предметов"
+
+#. language_rules.item-plurals.description
+msgctxt ""
+"site:Both routines share one control. Fixed encoded final-letter tests "
+"select the ending. Off preserves the replaced final letters; computed "
+"suffix bytes remain restricted to verified presets."
+msgid ""
+"Both routines share one control. Fixed encoded final-letter tests select "
+"the ending. Off preserves the replaced final letters; computed suffix "
+"bytes remain restricted to verified presets."
+msgstr ""
+"Обе подпрограммы настраиваются вместе. Окончание выбирается по "
+"фиксированным проверкам байта последней буквы. Отключение сохраняет "
+"заменяемые последние буквы; для вычисляемых байтов суффикса доступны "
+"только проверенные готовые варианты."
+
+#. language_rules.count_plural_s.title
+msgctxt "site:Record count ending"
+msgid "Record count ending"
+msgstr "Окончание счётчика рекорда"
+
+#. language_rules.count_plural_s.description
+msgctxt ""
+"site:The surrounding host supplies the word. The fixed quantity test "
+"selects a separate one-byte ending. The record host excludes zero."
+msgid ""
+"The surrounding host supplies the word. The fixed quantity test selects a "
+"separate one-byte ending. The record host excludes zero."
+msgstr ""
+"Само слово находится в окружающем предложении. Фиксированная проверка "
+"количества выбирает отдельное однобайтовое окончание. Предложение с "
+"рекордом не используется при нулевом значении."
+
+#. language_rules.egg_count_plural_s.title
+msgctxt "site:Sale count ending"
+msgid "Sale count ending"
+msgstr "Окончание количества при продаже"
+
+#. language_rules.egg_count_plural_s.description, language_rules.shard_plural_s.description
+msgctxt ""
+"site:The surrounding host supplies the word. Counts of zero or one omit "
+"the ending."
+msgid ""
+"The surrounding host supplies the word. Counts of zero or one omit the "
+"ending."
+msgstr ""
+"Само слово находится в окружающем предложении. При количестве ноль или "
+"один окончание не добавляется."
+
+#. language_rules.shard_plural_s.title
+msgctxt "site:List quantity ending"
+msgid "List quantity ending"
+msgstr "Окончание по количеству в списке"
+
+#. language_rules.ability-popup-possessive.title
+msgctxt "site:Nickname possessive"
+msgid "Nickname possessive"
+msgstr "Притяжательная форма клички"
+
+#. language_rules.ability-popup-possessive.description
+msgctxt ""
+"site:Two immediate characters follow the nickname. Fixed final-byte "
+"comparisons omit the second character. An empty first character "
+"terminates the whole addition; later stores still consume buffer space."
+msgid ""
+"Two immediate characters follow the nickname. Fixed final-byte "
+"comparisons omit the second character. An empty first character "
+"terminates the whole addition; later stores still consume buffer space."
+msgstr ""
+"За кличкой следуют два символа из непосредственных операндов. По "
+"фиксированным сравнениям последнего байта второй символ опускается. "
+"Пустое значение первого символа завершает всё добавление; последующие "
+"записи по-прежнему занимают место в буфере."
+
+#. language_rules.blender-possessive.title
+msgctxt "site:Nickname phrase separator"
+msgid "Nickname phrase separator"
+msgstr "Разделитель клички и фразы"
+
+#. language_rules.blender-possessive.description
+msgctxt ""
+"site:The ordinary branch appends a short literal. Empty names and two "
+"fixed final bytes select a computed apostrophe and space. Off can remove "
+"the separator before the following phrase."
+msgid ""
+"The ordinary branch appends a short literal. Empty names and two fixed "
+"final bytes select a computed apostrophe and space. Off can remove the "
+"separator before the following phrase."
+msgstr ""
+"Обычная ветвь добавляет короткий текстовый литерал. Для пустых имён и "
+"имён с одним из двух фиксированных конечных байтов выбираются вычисляемые "
+"апостроф и пробел. Отключение может убрать разделитель перед следующей "
+"фразой."
+
+#. language_rules.music_prefix_battle.title, language_rules.music_prefix_team.title
+msgctxt "site:Audio name prefix"
+msgid "Audio name prefix"
+msgstr "Префикс названия аудио"
+
+#. language_rules.music_prefix_battle.description, language_rules.music_prefix_team.description
+msgctxt ""
+"site:A matching prefix is removed by a fixed byte count. Rules apply in "
+"declaration order. Off has no verified representation."
+msgid ""
+"A matching prefix is removed by a fixed byte count. Rules apply in "
+"declaration order. Off has no verified representation."
+msgstr ""
+"При совпадении префикса удаляется фиксированное число байтов. Правила "
+"применяются в порядке объявления. Проверенный способ отключения не "
+"определён."
+
+#. language_rules.mining-article.title
+msgctxt "site:Article token"
+msgid "Article token"
+msgstr "Токен артикля"
+
+#. language_rules.mining-article.description
+msgctxt ""
+"site:A fixed encoded first-letter test supplies a native article ending. "
+"Rewrite the host or omit the optional token; no editable native operand "
+"is declared."
+msgid ""
+"A fixed encoded first-letter test supplies a native article ending. "
+"Rewrite the host or omit the optional token; no editable native operand "
+"is declared."
+msgstr ""
+"Движок выбирает окончание артикля по фиксированной проверке байта первой "
+"буквы. Измените предложение или опустите необязательный токен; "
+"редактируемый операнд движка не объявлен."
+
+#. language_rules.pokedex-metric.title
+msgctxt "site:Measurement units"
+msgid "Measurement units"
+msgstr "Единицы измерения"
+
+#. language_rules.pokedex-metric.description
+msgctxt ""
+"site:The declared replacement changes numeric conversion and unit labels "
+"together. Its decimal separator is a fixed comma. Custom unit limits "
+"require validation before controls are enabled."
+msgid ""
+"The declared replacement changes numeric conversion and unit labels "
+"together. Its decimal separator is a fixed comma. Custom unit limits "
+"require validation before controls are enabled."
+msgstr ""
+"Объявленная замена одновременно меняет пересчёт чисел и обозначения "
+"единиц. Десятичный разделитель — фиксированная запятая. Ввод своих "
+"обозначений доступен только после проверки их лимитов."
+
+#. language_rules.berry-number-prefix.title
+msgctxt "site:Number marker"
+msgid "Number marker"
+msgstr "Обозначение номера"
+
+#. language_rules.berry-number-prefix.description
+msgctxt ""
+"site:The marker can be retained or omitted by redirecting its declared "
+"pointer to the existing terminator. The number remains; no custom prefix "
+"is supported."
+msgid ""
+"The marker can be retained or omitted by redirecting its declared pointer "
+"to the existing terminator. The number remains; no custom prefix is "
+"supported."
+msgstr ""
+"Обозначение можно сохранить или скрыть, перенаправив объявленный "
+"указатель на существующий терминатор. Сам номер остаётся; свой префикс не "
+"поддерживается."
+
+#. language_rules.alphabet-grouping.title
+msgctxt "site:Alphabet groups"
+msgid "Alphabet groups"
+msgstr "Алфавитные группы"
+
+#. language_rules.alphabet-grouping.description
+msgctxt ""
+"site:Grouping follows the active language pack alphabet and folding "
+"rules. Inspect the declared list capacity and configure the pack "
+"separately."
+msgid ""
+"Grouping follows the active language pack alphabet and folding rules. "
+"Inspect the declared list capacity and configure the pack separately."
+msgstr ""
+"Группировка строится по алфавиту активного языкового пакета и его "
+"правилам приведения букв. Проверьте объявленную вместимость списка; пакет "
+"настраивается отдельно."
+
+#. language_rules.hud-font.title
+msgctxt "site:Overlay font"
+msgid "Overlay font"
+msgstr "Шрифт экранного индикатора"
+
+#. language_rules.hud-font.description
+msgctxt ""
+"site:The font declaration controls glyph rendering. Open Fonts; no "
+"editable separator operand is declared."
+msgid ""
+"The font declaration controls glyph rendering. Open Fonts; no editable "
+"separator operand is declared."
+msgstr ""
+"Объявление шрифта управляет отображением глифов. Откройте раздел "
+"«Шрифты»; редактируемый операнд разделителя не объявлен."
+
+#. language_rules.keyboards.title
+msgctxt "site:Naming and chat keyboards"
+msgid "Naming and chat keyboards"
+msgstr "Клавиатуры ввода имён и чата"
+
+#. language_rules.keyboards.description
+msgctxt ""
+"site:Open Keyboards to configure pages and rows; engine page operands "
+"remain bound by the existing keyboard declaration."
+msgid ""
+"Open Keyboards to configure pages and rows; engine page operands remain "
+"bound by the existing keyboard declaration."
+msgstr ""
+"Откройте раздел «Клавиатуры», чтобы настроить страницы и ряды; операнды "
+"страниц в движке остаются привязаны к существующему объявлению клавиатуры."
+
+#. language_rules.trainer-team.title
+msgctxt "site:Trainer team title"
+msgid "Trainer team title"
+msgstr "Заголовок команды тренера"
+
+#. language_rules.trainer-team.description, language_rules.battle-possessives.description, language_rules.battle-prefixes.description, language_rules.storage-owner.description, language_rules.name-suffix.description, language_rules.category-suffix.description, language_rules.box-numbering.description, language_rules.sort-suffix.description
+msgctxt ""
+"site:This wording belongs to catalog text. Immediate ending controls do "
+"not change it. Open the affected entries and use their existing layout "
+"limits."
+msgid ""
+"This wording belongs to catalog text. Immediate ending controls do not "
+"change it. Open the affected entries and use their existing layout limits."
+msgstr ""
+"Эта формулировка хранится в тексте каталога. Настройка непосредственных "
+"операндов окончаний её не меняет. Откройте связанные записи и соблюдайте "
+"их текущие ограничения разметки."
+
+#. language_rules.battle-possessives.title
+msgctxt "site:Battle sentence possessives"
+msgid "Battle sentence possessives"
+msgstr "Притяжательные формы в боевых сообщениях"
+
+#. language_rules.battle-prefixes.title
+msgctxt "site:Battle name and side prefixes"
+msgid "Battle name and side prefixes"
+msgstr "Префиксы имён и сторон в бою"
+
+#. language_rules.storage-owner.title
+msgctxt "site:Storage owner"
+msgid "Storage owner"
+msgstr "Владелец хранилища"
+
+#. language_rules.name-suffix.title
+msgctxt "site:Special item suffix"
+msgid "Special item suffix"
+msgstr "Суффикс особого предмета"
+
+#. language_rules.category-suffix.title
+msgctxt "site:Category suffix"
+msgid "Category suffix"
+msgstr "Суффикс категории"
+
+#. language_rules.box-numbering.title
+msgctxt "site:Default box numbering"
+msgid "Default box numbering"
+msgstr "Нумерация ячеек по умолчанию"
+
+#. language_rules.sort-suffix.title
+msgctxt "site:Sort label suffix"
+msgid "Sort label suffix"
+msgstr "Суффикс подписи сортировки"
+
+#. language_rules.engine-filled-text.title
+msgctxt "site:Engine-filled text"
+msgid "Engine-filled text"
+msgstr "Текст, заполняемый движком"
+
+#. language_rules.engine-filled-text.description
+msgctxt ""
+"site:Read-only runtime sources and layout measurements. Inspect each "
+"referenced declaration, its reachability and source text. Pixel "
+"measurements are not writable byte budgets; unverified language "
+"measurements remain unverified."
+msgid ""
+"Read-only runtime sources and layout measurements. Inspect each "
+"referenced declaration, its reachability and source text. Pixel "
+"measurements are not writable byte budgets; unverified language "
+"measurements remain unverified."
+msgstr ""
+"Источники значений во время игры и замеры разметки доступны только для "
+"просмотра. Проверьте каждое связанное объявление, его достижимость и "
+"исходный текст. Замеры в пикселях не задают лимит записываемых байтов; "
+"непроверенные замеры языка сохраняют этот статус."

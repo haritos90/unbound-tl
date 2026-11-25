@@ -6,6 +6,7 @@ from pathlib import Path
 
 from gen3tl.web import sitecatalog
 from gen3tl.catalog.po import PoEntry, read, write
+from project_fixture import UNBOUND, needs_unbound
 
 def catalog(code: str, entries: list[PoEntry], directory: Path) -> Path:
     path = directory / f"{code}.po"
@@ -135,7 +136,31 @@ class CompletenessTest(unittest.TestCase):
                     forms = {entry.msgid, html.escape(entry.msgid), html.escape(entry.msgid, quote=False),
                              json.dumps(entry.msgid, ensure_ascii=False)[1:-1]}
                     for name in where[0].split(", "):
-                        if name == "registry":
-                            continue
                         source = (sitecatalog.WEB / name).read_text(encoding="utf-8")
                         self.assertTrue(any(form in source for form in forms), f"{name} does not hold the key")
+
+
+@needs_unbound
+class GameCatalogTest(unittest.TestCase):
+    """The game translates the texts it declares in its own catalogs; the site catalogs hold none of them."""
+
+    def test_every_interface_language_of_the_game_translates_every_key_it_declares(self):
+        games = sitecatalog.game_catalogs(UNBOUND)
+        interface = set(sitecatalog.catalogs())
+        held = [project for project, _ in games if project.interface_labels.is_file()]
+        self.assertEqual(sorted(project.language for project in held),
+                         sorted(project.language for project, _ in games if project.language in interface))
+        self.assertTrue(held)
+        self.assertEqual([problem for c in sitecatalog.compare_games(UNBOUND) for problem in c.problems], [])
+        for project in held:
+            with self.subTest(language=project.language):
+                entries = sitecatalog.load(project.interface_labels, project.profile, project.language)
+                self.assertEqual([e.msgid for e in entries if not e.msgstr], [])
+
+    def test_the_site_catalogs_hold_no_text_only_the_game_declares(self):
+        pages = sitecatalog.page_keys()
+        for project, keys in sitecatalog.game_catalogs(UNBOUND):
+            for code, path in sitecatalog.catalogs().items():
+                with self.subTest(language=project.language, catalog=code):
+                    held = {e.msgid for e in sitecatalog.load(path)}
+                    self.assertEqual(sorted(key for key in keys if key in held and key not in pages), [])
