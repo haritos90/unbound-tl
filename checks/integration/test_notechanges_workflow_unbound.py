@@ -80,6 +80,17 @@ class NoteSubmissionTest(notechanges_support.NoteSubmissionTest, unittest.TestCa
         self.assertEqual(" ".join(group.split()), expected)
         self.assertIn("  cancel-in-progress: true\n", text)
 
+    def test_the_clean_up_deletes_only_submission_branches_of_this_repository(self):
+        text = (ROOT / ".github/workflows/submission-cleanup.yml").read_text(encoding="utf-8")
+        self.assertIn("  pull_request:\n    types: [closed]\n", text)
+        self.assertIn("permissions:\n  contents: write\n\njobs:", text)
+        condition = " ".join(re.search(r"\n    if: >-\n((?:      .*\n)+)", text).group(1).split())
+        self.assertEqual(condition, "github.event.pull_request.head.repo.full_name == github.repository"
+                                    " && startsWith(github.event.pull_request.head.ref, 'submission/')")
+        script = text.split("        run: |\n", 1)[1]
+        self.assertNotIn("${{", script)
+        self.assertIn('git/refs/heads/${BRANCH}"', script)
+
     def test_issue_form_and_workflow_include_note_review_inputs(self):
         form_path = ROOT / ".github/ISSUE_TEMPLATE/submission.yml"
         workflow_path = ROOT / ".github/workflows/pr-check.yml"
