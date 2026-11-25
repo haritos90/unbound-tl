@@ -1,8 +1,8 @@
 {
  "identifiers": {
   "build/context.json": "4e8e223f17a356cad05e26750b2b50425cfb9ed36adbb666da5e90e43897788b",
-  "build/editor/unbound-2.1.1.1/ru": "585cb38cb8f103482c1324c18a45387478cf5f35b031bf3c4c820aacc295f487",
-  "build/editor/unbound-2.1.1.1/shared": "82420cfc6f436ba80be3c7586433e9b82ec4c3be567f13f948fe260b49bdc26c",
+  "build/editor/unbound-2.1.1.1/ru": "8b476a27d8dae606ba3a67896f0e013ee59f39e8d22483d09c7abf42006ace81",
+  "build/editor/unbound-2.1.1.1/shared": "ddec6e595609e50f21f20ef54b61c6be3c53ce0a228cf25ae82e0829551959d1",
   "build/inventory.json": "afbdb03b6c11824639b68c654d648c6ac34fdadfb92e4d0798269bcd1538ede7",
   "build/pokedex/unbound-2.1.1.1": "e13e501afdfcb24308c140b8aad2d385ddfed35d24968ec7b842bb7c6529202b",
   "build/reach.json": "4e469d6ab41c2bc4997cc4c11240d83b40e6e41f805dc06963f4dc9d6ef9f89a",
@@ -12,8 +12,8 @@
  },
  "inputs": {
   "base_sha1": "b4776b82a4c7915d0fadeaa27e013523f99dfd94",
-  "toolkit_version": "2.24.1",
-  "tracked_sha256": "83af4d212524c9a3afbc04954d09e1f0494f45fa27e062bd8e7ef263e8f17d60",
+  "toolkit_version": "2.24.3",
+  "tracked_sha256": "594379c5e4a4d8ddae941a3f9ad61df1629ea77de7dd88bd35de9c3e5e92173b",
   "translation_version": "1.0.7"
  },
  "language": "ru",
@@ -21,8 +21,8 @@
   "build/Pokemon Unbound 2.1.1.1 [RU by gen3tl].gba": "2073575eee02980f44c3835403e71ca5a9d1445a33e80b80906b82ebf675bdca",
   "build/Pokemon Unbound 2.1.1.1 [RU by gen3tl].ups": "fbef7eab5757214714b9653f1633ad06ef8ffe9c333b53e213eb14aa8e311863",
   "build/context.json": "06323ec8f4e7e32d0adb6fd96a008ca5e40cfc65574e6873393a9142c0156bbc",
-  "build/editor/unbound-2.1.1.1/ru": "2461b7b36dfac94564c313bc5bf0333dd7b208d6e4fcbae23f29e6173f24d7b7",
-  "build/editor/unbound-2.1.1.1/shared": "cd3c50cfa3e6c72abc0df03e63a502d9c91cb08321116fc9e4ac384aa397485b",
+  "build/editor/unbound-2.1.1.1/ru": "511750c1789cf5b350c36773813747254e8c6d111e05b65a5f73693d63fad769",
+  "build/editor/unbound-2.1.1.1/shared": "6c2bf0caec73c8505d78b6ffa1ac55da9d1d11ce522e4b33a7b1652e02d8540d",
   "build/inventory.json": "e5ec1d56cb3dabe32d8108d1b7daf179efce96022668892631152f14be300177",
   "build/pokedex/unbound-2.1.1.1": "0845fa0d637173e86a02bf833ee7220f02010fd99527bcb1ca5ed3bd615d533e",
   "build/reach.json": "e575f60aa82dd429ea1eb4301fd893b10b73dcaf752d9f4e4ac4eb7a3bef0a00",
