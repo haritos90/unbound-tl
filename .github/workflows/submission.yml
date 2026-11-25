@@ -10,7 +10,15 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: submission-${{ github.event.issue.number }}
+  # A run that only skips keeps its own group.
+  group: >-
+    submission-${{ github.event.issue.number }}-${{
+    github.event.issue.state == 'open'
+    && contains(github.event.issue.labels.*.name, 'submission')
+    && (github.event.action != 'labeled' || (github.event.label.name == 'submission'
+    && github.event.sender.login != github.event.issue.user.login))
+    && (github.event.action != 'edited' || github.event.changes.body)
+    && 'apply' || github.run_id }}
   cancel-in-progress: true
 
 jobs:

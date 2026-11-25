@@ -70,6 +70,16 @@ class NoteSubmissionTest(notechanges_support.NoteSubmissionTest, unittest.TestCa
                          [self.entries.relative_to(self.root).as_posix()])
         self.assertEqual((self.po.read_bytes(), self.project.policy.read_bytes()), self.original)
 
+    def test_a_submission_run_that_skips_keeps_its_own_group(self):
+        text = (ROOT / ".github/workflows/submission.yml").read_text(encoding="utf-8")
+        group = re.search(r"\n  group: >-\n((?:    .*\n)+)", text).group(1)
+        condition = re.search(r"\n    if: >-\n((?:      .*\n)+)", text).group(1)
+        applies = " ".join(condition.split())
+        expected = ("submission-${{ github.event.issue.number }}-${{ " + applies
+                    + " && 'apply' || github.run_id }}")
+        self.assertEqual(" ".join(group.split()), expected)
+        self.assertIn("  cancel-in-progress: true\n", text)
+
     def test_issue_form_and_workflow_include_note_review_inputs(self):
         form_path = ROOT / ".github/ISSUE_TEMPLATE/submission.yml"
         workflow_path = ROOT / ".github/workflows/pr-check.yml"
