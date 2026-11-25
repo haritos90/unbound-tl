@@ -9,6 +9,10 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    # A fork's token stays read-only whatever this asks.
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - uses: actions/checkout@v7
         with:
@@ -32,9 +36,11 @@ jobs:
         if: steps.changed.outputs.catalog == 'true'
       - name: Record pull request number
         if: steps.changed.outputs.catalog == 'true'
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           mkdir -p pr-check
-          printf '%s\n' '${{ github.event.pull_request.number }}' > pr-check/pr-number.txt
+          printf '%s\n' "$PR_NUMBER" > pr-check/pr-number.txt
       - name: Check combined catalog and engine rule behavior
         if: steps.changed.outputs.catalog == 'true'
         run: |
@@ -48,3 +54,19 @@ jobs:
           path: pr-check
           if-no-files-found: error
           retention-days: 14
+      # Forks get their comment from the comment workflow.
+      - name: Create or update the check comment
+        if: >-
+          always()
+          && steps.changed.outputs.catalog == 'true'
+          && github.event.pull_request.head.repo.full_name == github.repository
+          && hashFiles('pr-check/report.md') != ''
+        env:
+          PR_NUMBER_FILE: pr-check/pr-number.txt
+          REPORT_FILE: pr-check/report.md
+          RUN_ID: ${{ github.run_id }}
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const comment = require('./.github/scripts/pr-check-comment.js');
+            await comment({ github, context });

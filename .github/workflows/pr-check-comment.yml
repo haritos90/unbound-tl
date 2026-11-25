@@ -12,8 +12,16 @@ permissions:
 
 jobs:
   comment:
+    # The check job comments its own repository's pull requests.
+    if: github.event.workflow_run.head_repository.full_name != github.repository
     runs-on: ubuntu-latest
     steps:
+      # Default branch only: a fork's head is untrusted.
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          sparse-checkout: .github/scripts
       - name: Find the check artifact
         id: artifact
         uses: actions/github-script@v8
@@ -26,60 +34,23 @@ jobs:
               per_page: 100,
             });
             return artifacts.some(artifact => artifact.name === 'pr-check');
+      # Fork data stays outside the trusted checkout.
       - name: Download report and approximate previews
         if: steps.artifact.outputs.result == 'true'
         uses: actions/download-artifact@v7
         with:
           name: pr-check
-          path: pr-check
+          path: ${{ runner.temp }}/pr-check
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ github.token }}
       - name: Create or update the check comment
         if: steps.artifact.outputs.result == 'true'
         env:
-          PR_NUMBER_FILE: pr-check/pr-number.txt
-          REPORT_FILE: pr-check/report.md
+          PR_NUMBER_FILE: ${{ runner.temp }}/pr-check/pr-number.txt
+          REPORT_FILE: ${{ runner.temp }}/pr-check/report.md
           RUN_ID: ${{ github.event.workflow_run.id }}
         uses: actions/github-script@v8
         with:
           script: |
-            const fs = require('fs');
-            const prNumber = Number(fs.readFileSync(process.env.PR_NUMBER_FILE, 'utf8').trim());
-            if (!Number.isSafeInteger(prNumber) || prNumber < 1) {
-              throw new Error('Invalid pull request number in pr-check artifact');
-            }
-            const report = fs.readFileSync(process.env.REPORT_FILE, 'utf8');
-            const marker = '<!-- gen3tl-pr-check -->';
-            const artifact = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${process.env.RUN_ID}#artifacts`;
-            const download = `[Download the pr-check artifact with before/after PNGs](${artifact})`;
-            const limit = 65000;
-            let body = `${marker}\n${report}\n${download}\n`;
-            if (body.length > limit) {
-              // a longer comment body is refused
-              const note = `The complete report is in the pr-check artifact. ${download}`;
-              const room = limit - `${marker}\n\n${note}\n`.length;
-              const cuts = [...report.matchAll(/^#{2,} /gm)].map(heading => heading.index).filter(at => at <= room);
-              body = `${marker}\n${report.slice(0, cuts.length ? cuts[cuts.length - 1] : 0)}\n${note}\n`;
-            }
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: prNumber,
-              per_page: 100,
-            });
-            const previous = comments.find(comment => comment.body?.includes(marker));
-            if (previous) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: previous.id,
-                body,
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: prNumber,
-                body,
-              });
-            }
+            const comment = require('./.github/scripts/pr-check-comment.js');
+            await comment({ github, context });
