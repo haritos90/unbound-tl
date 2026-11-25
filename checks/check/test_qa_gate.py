@@ -243,10 +243,12 @@ class QaGateTest(unittest.TestCase):
             gate = qa.run(prof, inv, root, PACK.charmap(), Measure(lambda b: 6, {}), set(PACK.glyph_slots()))
             self.assertFalse([f for f in gate.findings if f.message.startswith("typography")])
 
-    def test_typography_without_english_checks_the_translation_alone(self):
+    def test_typography_without_english_leaves_spacing_to_the_english(self):
         forbidden = {"  ": "double space", "\\.\\.\\.": "three dots"}
-        self.assertEqual(qa.typography_problems(None, "Иди  же.", forbidden), ["double space"])
+        self.assertEqual(qa.typography_problems(None, "Иди  же.", forbidden), [])   # the English may share the run
+        self.assertEqual(qa.spacing_undecided("Иди  же.", forbidden), ["double space"])
         self.assertEqual(qa.typography_problems(None, "Иди...", forbidden), ["three dots"])
+        self.assertEqual(qa.typography_problems(None, "Иди...  же", forbidden), ["three dots"])
         self.assertEqual(qa.typography_problems(None, "Иди.", forbidden), [])
         self.assertEqual(qa.typography_problems(None, "áé      ", forbidden, keys=True), [])
 
@@ -266,20 +268,21 @@ class QaGateTest(unittest.TestCase):
     def test_facts_typography_runs_without_the_english(self):
         from gen3tl.catalog.source import digest
         prof = {"layout": {"dialogue_width": 60},
-                "qa": {"forbidden": {"  ": "double space", "\\.\\.\\.": "three dots"},
-                       "forbidden_needs_source": {"  ": False}}}
+                "qa": {"forbidden": {"  ": "double space", "\\.\\.\\.": "three dots", "…\\.": "ellipsis with a dot"},
+                       "forbidden_needs_source": {"  ": False, "\\.\\.\\.": False}}}
         inv = {"entries": [entry("s0000100", "Go on.")]}
         source = {"s0000100": [digest("Go on."), [], [1], [36],
                                ["dialogue", 60, 2, None, None, None, None]]}
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            write(root / "a.po", [PoEntry("s0000100", "s0000100", "Иди  же.")],
+            write(root / "a.po", [PoEntry("s0000100", "s0000100", "Иди  же...")],
                   {SOURCE_FIELD: KEY_ONLY})
             gate = qa.run(prof, inv, root, PACK.charmap(), Measure(lambda b: 6, {}),
                           set(PACK.glyph_slots()), source=source)
         self.assertEqual([f.message for f in gate.findings if f.message.startswith("typography")],
-                         ["typography: double space"])
-        self.assertEqual(gate.skipped_typography, ["three dots"])
+                         ["typography: three dots"])
+        # the English spacing decides the run
+        self.assertEqual(gate.skipped_typography, ["double space", "ellipsis with a dot"])
 
     def test_pack_keyboard_rows_skip_text_typography(self):
         prof = {"layout": {"dialogue_width": 208}, "qa": {"forbidden": {"  ": "double space"}},
