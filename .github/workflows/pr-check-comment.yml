@@ -51,9 +51,15 @@ jobs:
             const report = fs.readFileSync(process.env.REPORT_FILE, 'utf8');
             const marker = '<!-- gen3tl-pr-check -->';
             const artifact = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${process.env.RUN_ID}#artifacts`;
-            const body = `${marker}\n${report}\n[Download the pr-check artifact with before/after PNGs](${artifact})\n`;
-            if (body.length > 65000) {
-              throw new Error('pr-check report exceeds the comment size limit; use the artifact');
+            const download = `[Download the pr-check artifact with before/after PNGs](${artifact})`;
+            const limit = 65000;
+            let body = `${marker}\n${report}\n${download}\n`;
+            if (body.length > limit) {
+              // a longer comment body is refused
+              const note = `The complete report is in the pr-check artifact. ${download}`;
+              const room = limit - `${marker}\n\n${note}\n`.length;
+              const cuts = [...report.matchAll(/^#{2,} /gm)].map(heading => heading.index).filter(at => at <= room);
+              body = `${marker}\n${report.slice(0, cuts.length ? cuts[cuts.length - 1] : 0)}\n${note}\n`;
             }
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner: context.repo.owner,

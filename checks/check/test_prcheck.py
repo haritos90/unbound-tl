@@ -25,7 +25,7 @@ class PrCheckWorkflowTest(unittest.TestCase):
         self.assertIn("          name: pr-check\n", download)
         self.assertIn("          run-id: ${{ github.event.workflow_run.id }}\n", download)
 
-    def run_scripts(self, artifacts, comments=(), error=None):
+    def run_scripts(self, artifacts, comments=(), error=None, report="Result: passed"):
         if not shutil.which("node"):
             self.skipTest("no node")
         scripts = [step.split("          script: |\n", 1)[1]
@@ -63,7 +63,7 @@ const github = {
     return input.comments;
   },
 };
-const files = { number: '7\\n', report: 'Result: passed' };
+const files = { number: '7\\n', report: input.report };
 const read = module => {
   assert.equal(module, 'fs');
   return { readFileSync: path => {
@@ -84,7 +84,7 @@ const env = { PR_NUMBER_FILE: 'number', REPORT_FILE: 'report', RUN_ID: '42' };
 """
         result = subprocess.run(["node", "-e", harness], capture_output=True, text=True,
                                 input=json.dumps({"scripts": scripts, "artifacts": artifacts,
-                                                  "comments": comments, "error": error}))
+                                                  "comments": comments, "error": error, "report": report}))
         if error:
             self.assertNotEqual(result.returncode, 0)
             self.assertIn(error, result.stderr)
@@ -114,6 +114,21 @@ const env = { PR_NUMBER_FILE: 'number', REPORT_FILE: 'report', RUN_ID: '42' };
                 self.assertEqual(data["body"], marker + "\nResult: passed\n"
                                  "[Download the pr-check artifact with before/after PNGs]"
                                  "(https://github.example/owner/project/actions/runs/42#artifacts)\n")
+
+    def test_oversized_report_posts_its_opening_sections_and_the_artifact(self):
+        marker = "<!-- gen3tl-pr-check -->"
+        artifact = "(https://github.example/owner/project/actions/runs/42#artifacts)"
+        opening = "# Pull request checks\n\n| entry | ok |\n\n## Project checks\n\n- QA: 0 errors\n\n"
+        rules = "## Engine language rules\n\n### fills\n\n" + "- entry: blocker\n" * 5000
+        for report, kept in ((opening + rules, opening + "## Engine language rules\n\n"),
+                             ("# Pull request checks\n\n" + "x" * 70000 + "\n\n" + rules, "")):
+            with self.subTest(kept=kept[:30]):
+                result = self.run_scripts([{"name": "pr-check"}], report=report)
+                action, data = result["calls"][2]
+                self.assertEqual(action, "create")
+                self.assertLessEqual(len(data["body"]), 65000)
+                self.assertEqual(data["body"], marker + "\n" + kept + "\nThe complete report is in the pr-check "
+                                 "artifact. [Download the pr-check artifact with before/after PNGs]" + artifact + "\n")
 
     def test_artifact_lookup_error_remains_a_failure(self):
         self.run_scripts([], error="Artifact API unavailable")
