@@ -3578,3 +3578,13 @@ binding = { kind = "entry", id = "table:trainer_classes/79", source_sha256 = "e5
 facts = ["The inventory covers eight translated references and two unreachable untranslated duplicates."]
 evidence = [{ method = "lookup", verification = "recorded", measurements = [{ name = "translated references", value = 8, unit = "count" }, { name = "unreachable untranslated duplicates", value = 2, unit = "count" }] }]
 status = "unreviewed"
+
+[[note]]
+id = "note:a92647cc-5d92-439d-8ba1-d1aa68665812"
+subject = { kind = "entry", id = "map:3.67/npc:0/6" }
+scope = { kind = "language", language = "ru" }
+binding = { kind = "entry", id = "map:3.67/npc:0/6", source_sha256 = "8eb3af222ca3b11d29425363ce418043ca3ece8d0212d220befefb0cf1884dd5" }
+guidance = ["Keep the two short lines of the original."]
+status = "proposed"
+author = "haritos90"
+created = "2026-11-25T11:50:23+00:00"
